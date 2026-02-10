@@ -1,56 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZAL’THERA STUDIOS</title>
-  <meta name="description" content="A creative studio focused on systems, responsibility and long-term craftsmanship." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <title>ZAL’THERA Studios</title>
+    <meta name="description" content="ZAL’THERA Studios – Systeme, Design und digitale Architektur." />
 
-  <!-- Favicon / App Icons -->
-  <link rel="icon" href="assets/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+    <meta property="og:title" content="ZAL’THERA Studios" />
+    <meta property="og:description" content="Systeme. Design. Digitale Architektur." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zalthera.de" />
 
-  <!-- Apple iPhone “Add to Home Screen” -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <style>
+        :root {
+            --bg: #0b0d10;
+            --fg: #eaeaf0;
+            --muted: #9aa0aa;
+            --accent: #6f7cff;
+        }
 
-  <!-- PWA basics (optional, but helps some browsers) -->
-  <meta name="theme-color" content="#0b0b0c" />
-  <link rel="manifest" href="site.webmanifest" />
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 1.5rem;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            letter-spacing: 0.04em;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            max-width: 640px;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--muted);
+        }
+
+        footer {
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-  <main class="stack">
+    <main>
+        <h1>ZAL’THERA Studios</h1>
+        <p>
+            Wir entwickeln Systeme, digitale Architekturen und Konzepte  
+            mit Fokus auf Klarheit, Struktur und langfristige Vision.
+        </p>
+    </main>
 
-    <!-- HERO 1 -->
-    <section class="panel">
-      <img src="assets/hero-1.png" alt="Atelier table — tools and fabric" loading="eager" />
-    </section>
-
-    <!-- HERO 2 -->
-    <section class="panel">
-      <img src="assets/hero-2.png" alt="Machine stitch — 01/25" loading="lazy" />
-    </section>
-
-    <!-- HERO 3 -->
-    <section class="panel">
-      <img src="assets/hero-3.png" alt="Finished piece — ZAL’THERA" loading="lazy" />
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="brand">ZAL’THERA STUDIOS</div>
-      <div class="tagline">Crafted with responsibility. Built to last.</div>
-
-      <a class="mail" href="mailto:hello@zalthera.com">hello@zalthera.com</a>
-
-      <div class="soon">More soon.</div>
+    <footer>
+        Kontakt: <a href="mailto:studio@zalthera.de">studio@zalthera.de</a><br />
+        © <span id="year"></span> ZAL’THERA Studios
     </footer>
 
-  </main>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
 
