@@ -1,99 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZAL’THERA Studios</title>
+  <meta name="description" content="ZAL’THERA Studios – Systeme, Design und digitale Architektur." />
 
-    <title>ZAL’THERA Studios</title>
-    <meta name="description" content="ZAL’THERA Studios – Systeme, Design und digitale Architektur." />
+  <meta property="og:title" content="ZAL’THERA Studios" />
+  <meta property="og:description" content="Systeme. Design. Digitale Architektur." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zalthera.de" />
 
-    <meta property="og:title" content="ZAL’THERA Studios" />
-    <meta property="og:description" content="Systeme. Design. Digitale Architektur." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://zalthera.de" />
-
-    <style>
-        :root {
-            --bg: #0b0d10;
-            --fg: #eaeaf0;
-            --muted: #9aa0aa;
-            --accent: #6f7cff;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: var(--bg);
-            color: var(--fg);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 4rem 1.5rem;
-            flex: 1;
-        }
-
-        h1 {
-            font-size: clamp(2.2rem, 5vw, 3.2rem);
-            letter-spacing: 0.04em;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            max-width: 640px;
-            font-size: 1.05rem;
-            line-height: 1.6;
-            color: var(--muted);
-        }
-
-        footer {
-            padding: 1.5rem;
-            text-align: center;
-            font-size: 0.9rem;
-            color: var(--muted);
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <main>
-        <h1>ZAL’THERA Studios</h1>
-        <p>
-            Wir entwickeln Systeme, digitale Architekturen und Konzepte  
-            mit Fokus auf Klarheit, Struktur und langfristige Vision.
-        </p>
-    </main>
+  <div class="stack">
+    <section class="panel">
+      <img src="./assets/hero-1.png" alt="ZAL’THERA Studios" />
+    </section>
 
-    <footer>
-        Kontakt: <a href="mailto:studio@zalthera.de">studio@zalthera.de</a><br />
-        © <span id="year"></span> ZAL’THERA Studios
+    <section class="panel">
+      <img src="./assets/hero-2.png" alt="ZAL’THERA Workbench" />
+    </section>
+
+    <section class="panel">
+      <img src="./assets/hero-3.png" alt="ZAL’THERA Limited" />
+    </section>
+
+    <footer class="footer">
+      <div class="brand">ZAL’THERA STUDIOS</div>
+      <div class="tagline">Systeme · Design · Digitale Architektur</div>
+
+      <a class="mail" href="mailto:studio@zalthera.de">studio@zalthera.de</a>
+
+      <div class="soon">Prototype in progress · © <span id="year"></span></div>
     </footer>
+  </div>
 
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
