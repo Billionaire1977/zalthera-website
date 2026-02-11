@@ -1,18 +1,31 @@
 /* ============================= */
-/* ZAL’THERA — Global Reset      */
+/* ZAL’THERA — Baseline + Scroll */
 /* ============================= */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 html, body {
-  scroll-behavior: smooth;
+  width: 100%;
+  height: auto !important;
+  min-height: 100% !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #000;
   color: #fff;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative !important;
+}
+
+/* Falls irgendwo ein Wrapper den Scroll killt */
+#root, .app, .page, main, .container, .wrapper {
+  height: auto !important;
+  min-height: 100% !important;
+  overflow: visible !important;
 }
 
 /* ============================= */
@@ -22,69 +35,82 @@ html, body {
 nav {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  padding: 25px 60px;
+  padding: 22px 56px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
 }
 
 nav .logo {
   letter-spacing: 3px;
   font-weight: 600;
   font-size: 14px;
+  color: #fff;
+  text-decoration: none;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 36px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgba(255,255,255,0.9);
   font-size: 14px;
   letter-spacing: 1px;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.25s ease;
 }
 
-nav ul li a:hover {
-  opacity: 0.6;
+nav ul li a:hover { opacity: 0.6; }
+
+/* ============================= */
+/* Sections (scrollbar + spacing)*/
+/* ============================= */
+
+/* Damit die fixed Nav nicht drüber liegt */
+.section,
+.section--hero {
+  padding-top: 110px;
+}
+
+/* Wenn du (noch) keine Sections im HTML hast: 
+   Wir geben dem ganzen Content trotzdem Raum */
+body > * {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ============================= */
-/* Hero Sections                 */
+/* Hero Sections (wenn IDs passen)*/
 /* ============================= */
 
 .section--hero {
   position: relative;
   min-height: 100vh;
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* Background Images */
-#drop01 {
-  background-image: url("./assets/hero-1.png");
-}
-
-#craft {
-  background-image: url("./assets/hero-2.png");
-}
-
-#contact {
-  background-image: url("./assets/hero-3.png");
-}
+/* Background Images (passen nur, wenn deine HTML-IDs existieren!) */
+#drop01.section--hero { background-image: url("./assets/hero-1.png"); }
+#craft.section--hero  { background-image: url("./assets/hero-2.png"); }
+#contact.section--hero{ background-image: url("./assets/hero-3.png"); }
 
 /* Dark Overlay */
 .section--hero::before {
@@ -92,17 +118,14 @@ nav ul li a:hover {
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    1200px 600px at 50% 35%,
-    rgba(0,0,0,0.35),
-    rgba(0,0,0,0.85)
+    1200px 700px at 50% 35%,
+    rgba(0,0,0,0.28),
+    rgba(0,0,0,0.88)
   );
   z-index: 0;
 }
 
-.section--hero > * {
-  position: relative;
-  z-index: 1;
-}
+.section--hero > * { position: relative; z-index: 1; }
 
 /* ============================= */
 /* Typography                    */
@@ -112,19 +135,20 @@ h1 {
   font-size: 60px;
   letter-spacing: 6px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 h2 {
   font-size: 36px;
   letter-spacing: 4px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 p {
   font-size: 16px;
-  opacity: 0.8;
-  margin-bottom: 25px;
+  opacity: 0.82;
+  margin-bottom: 22px;
+  line-height: 1.55;
 }
 
 /* ============================= */
@@ -134,13 +158,13 @@ p {
 .button {
   display: inline-block;
   padding: 12px 28px;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.45);
   border-radius: 30px;
   text-decoration: none;
   color: #fff;
   font-size: 14px;
   letter-spacing: 1px;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .button:hover {
@@ -153,11 +177,11 @@ p {
 /* ============================= */
 
 footer {
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: center;
   font-size: 13px;
   background: #000;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 footer a {
@@ -166,32 +190,16 @@ footer a {
   margin: 0 10px;
 }
 
-footer a:hover {
-  opacity: 0.6;
-}
+footer a:hover { opacity: 0.6; }
 
 /* ============================= */
 /* Responsive                    */
 /* ============================= */
 
 @media (max-width: 768px) {
-
-  nav {
-    padding: 20px 30px;
-  }
-
-  nav ul {
-    gap: 20px;
-  }
-
-  h1 {
-    font-size: 38px;
-    letter-spacing: 4px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
+  nav { padding: 18px 22px; }
+  nav ul { gap: 18px; }
+  h1 { font-size: 38px; letter-spacing: 4px; }
+  h2 { font-size: 24px; }
 }
 
