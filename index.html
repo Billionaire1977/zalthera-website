@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZAL’THERA — Studios</title>
+  <title>ZAL’THERA — Founder Edition</title>
+  <meta name="description" content="ZAL’THERA — Private Founder Release. Access by request only." />
 
   <link rel="stylesheet" href="./styles.css" />
 
-  <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png" />
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
@@ -18,24 +18,26 @@
   <header class="nav">
     <a class="brand" href="#top" aria-label="ZAL’THERA">ZAL’THERA</a>
 
-    <nav class="links" aria-label="Hauptnavigation">
-      <a href="#drop01">Drop 01</a>
+    <nav class="links" aria-label="Navigation">
+      <a href="#drop">Drop 01</a>
       <a href="#craft">Craft</a>
+      <a href="#access">Access</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- HERO 1 -->
   <main id="top">
-    <section id="drop01" class="hero hero--one">
+    <!-- HERO -->
+    <section class="hero hero--one">
+      <div class="overlay"></div>
       <div class="hero__inner">
-        <div class="kicker">LIMITED FOUNDER EDITION</div>
+        <div class="kicker">PRIVATE FOUNDER RELEASE</div>
         <h1>ZAL’THERA</h1>
-        <div class="sub">Founder Edition — 50 Pieces Only</div>
+        <p class="sub">Founder Edition — Limited to 50 Pieces Worldwide</p>
 
         <div class="cta">
-          <a class="btn" href="#drop01-content">Discover Drop 01</a>
-          <a class="btn btn--ghost" href="#contact">Contact</a>
+          <a class="btn" href="#access">Request Private Access</a>
+          <a class="btn btn--ghost" href="#drop">Discover Drop 01</a>
         </div>
 
         <div class="meta">
@@ -44,58 +46,126 @@
           <span>No repetition</span>
         </div>
       </div>
-      <div class="hero__fade"></div>
+
+      <div class="fade"></div>
     </section>
 
-    <!-- HERO 2 -->
+    <!-- DROP -->
+    <section id="drop" class="panel panel--dark">
+      <div class="panel__inner">
+        <h2>DROP 01</h2>
+        <p class="lead">
+          Deep Red Founder Edition. Individually numbered pieces — 01/50 to 50/50.
+          Crafted with precision and built for longevity.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <div class="card__title">Edition</div>
+            <div class="card__text">Founder Edition — 50 Pieces Worldwide</div>
+          </div>
+          <div class="card">
+            <div class="card__title">Numbering</div>
+            <div class="card__text">Permanent numbering — never repeated</div>
+          </div>
+          <div class="card">
+            <div class="card__title">Release</div>
+            <div class="card__text">Access by request — confirmed privately</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRAFT -->
     <section id="craft" class="hero hero--two">
+      <div class="overlay overlay--strong"></div>
       <div class="hero__inner">
-        <h2>CRAFTSMANSHIP</h2>
-        <div class="sub">Each piece marked 01/50 — 50/50. Built for longevity.</div>
+        <h2>CRAFT & PROCESS</h2>
+        <p class="sub">
+          No mass production. No shortcuts. Each piece is built to outlast trends.
+        </p>
 
         <div class="pills">
           <span class="pill">Precision over volume</span>
-          <span class="pill">Materials that last</span>
-          <span class="pill">A signature, not a product</span>
+          <span class="pill">Long-term durability</span>
+          <span class="pill">Signature construction</span>
         </div>
       </div>
-      <div class="hero__fade"></div>
+
+      <div class="fade"></div>
     </section>
 
-    <!-- HERO 3 -->
+    <!-- ACCESS -->
+    <section id="access" class="panel panel--dark">
+      <div class="panel__inner">
+        <h2>REQUEST PRIVATE ACCESS</h2>
+        <p class="lead">
+          Join the private release list. You’ll receive early access and a confirmation message
+          once Drop 01 is ready for release.
+        </p>
+
+        <!-- Simple mailto form (no backend needed) -->
+        <form class="form"
+              action="mailto:contact@zalthera.de"
+              method="post"
+              enctype="text/plain">
+          <div class="row">
+            <label>
+              <span>Name</span>
+              <input name="Name" type="text" placeholder="Your name" required />
+            </label>
+
+            <label>
+              <span>Country</span>
+              <input name="Country" type="text" placeholder="Germany" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Email</span>
+            <input name="Email" type="email" placeholder="you@email.com" required />
+          </label>
+
+          <label>
+            <span>Message (optional)</span>
+            <textarea name="Message" rows="4" placeholder="Size interest / questions"></textarea>
+          </label>
+
+          <button class="btn btn--solid" type="submit">Join Private Release List</button>
+
+          <div class="note">
+            Access is confirmed manually. No spam. No mass mail.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="hero hero--three">
-      <div class="hero__inner hero__inner--contact">
+      <div class="overlay overlay--strong"></div>
+      <div class="hero__inner">
         <h2>CONTACT</h2>
-        <div class="sub">Business & inquiries</div>
+        <p class="sub">Business & inquiries</p>
 
         <a class="mail" href="mailto:contact@zalthera.de">contact@zalthera.de</a>
 
         <footer class="footer">
-          <div>© 2026 ZAL’THERA</div>
+          <div>© <span id="year"></span> ZAL’THERA</div>
           <div class="footer__links">
             <a href="#contact">Impressum</a>
             <a href="#contact">Datenschutz</a>
           </div>
         </footer>
       </div>
-      <div class="hero__fade"></div>
+
+      <div class="fade"></div>
     </section>
   </main>
 
-  <!-- Smooth scroll helper (optional) -->
   <script>
-    // Optional: prevents jumpy behavior in some Safari cases
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', (e) => {
-        const id = a.getAttribute('href');
-        if (!id || id === '#') return;
-        const el = document.querySelector(id);
-        if (!el) return;
-        e.preventDefault();
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
+
 
