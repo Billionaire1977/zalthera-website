@@ -17,7 +17,7 @@
 
   <!-- PRELOADER -->
   <div id="preloader">
-    <img src="assets/apple-touch-icon.png" alt="ZALTHERA Emblem" class="loader-logo">
+    <img src="./assets/apple-touch-icon.png" alt="ZAL’THERA Emblem" class="loader-logo">
   </div>
 
   <!-- NAV -->
@@ -87,36 +87,40 @@
           Join the private release list. Access confirmed manually.
         </p>
 
-        <!-- FORMSPREE FORM -->
+        <!-- ✅ FORM: Formspree -->
         <form class="form"
-      action="https://formspree.io/f/xbdagyrw"
-      method="POST">
+              action="https://formspree.io/f/DEIN_FORM_ID"
+              method="POST">
 
-          <!-- Redirect after submit (deine eigene Seite) -->
-          <input type="hidden" name="_next" value="https://zalthera.de/success.html">
+          <!-- Optional: Subject in your inbox -->
+          <input type="hidden" name="_subject" value="ZAL’THERA — Private Access Request" />
 
-          <!-- Optional: Subject in Formspree emails -->
-          <input type="hidden" name="_subject" value="ZAL’THERA — Private Access Request">
-
-          <!-- Optional: Spam-Honeypot (unsichtbar) -->
-          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+          <!-- Optional: Redirect after submit (optional) -->
+          <input type="hidden" name="_redirect" value="https://zalthera.de/#access" />
 
           <label>
             <span>Name</span>
-            <input name="name" type="text" required />
+            <input name="name" type="text" autocomplete="name" required />
           </label>
 
           <label>
             <span>Email</span>
-            <input name="email" type="email" required />
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+
+          <!-- Optional note field (keine Pflicht) -->
+          <label>
+            <span>Message (optional)</span>
+            <textarea name="message" rows="4" placeholder="Optional message..."></textarea>
           </label>
 
           <button class="btn btn--solid" type="submit">
-            Request Access
+            Join Private Release List
           </button>
 
-          <p class="form-note">
-            You’ll receive a confirmation if your access is approved.
+          <p class="tiny">
+            By submitting, you agree that we may contact you regarding access.  
+            <a href="./datenschutz.html">Datenschutz</a> · <a href="./impressum.html">Impressum</a>
           </p>
 
         </form>
@@ -128,9 +132,7 @@
       <div class="overlay overlay--strong"></div>
       <div class="hero__inner">
         <h2>CONTACT</h2>
-        <a class="mail" href="mailto:studios@zalthera.de">
-          studios@zalthera.de
-        </a>
+        <a class="mail" href="mailto:studios@zalthera.de">studios@zalthera.de</a>
 
         <footer class="footer">
           <div>© <span id="year"></span> ZAL’THERA</div>
