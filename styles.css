@@ -1,258 +1,172 @@
-/* ===========================
-   ZAL’THERA — Styles
-   =========================== */
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ZAL’THERA — Digital Identity & Governance Universe</title>
 
-:root{
-  --bg: #07080b;
-  --panel: #0b0d12;
-  --text: rgba(255,255,255,0.92);
-  --muted: rgba(255,255,255,0.68);
-  --line: rgba(255,255,255,0.14);
-  --gold: #c8a24d;
-  --gold-2: rgba(200,162,77,0.22);
-  --shadow: rgba(0,0,0,0.55);
-}
+  <link rel="icon" href="./assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-*{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; }
+<body id="top">
 
-body{
-  margin:0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display","SF Pro Text", Segoe UI, Roboto, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-}
+  <!-- NAV -->
+  <header class="nav">
+    <a class="brand" href="#top">ZAL’THERA</a>
+    <nav class="links">
+      <a href="#identity">IDENTITY</a>
+      <a href="#system">SYSTEM</a>
+      <a href="#studio">STUDIO</a>
+      <a href="#access">ACCESS</a>
+      <a href="#manifest">MANIFEST</a>
+      <a href="./impressum.html">IMPRESSUM</a>
+      <a href="./datenschutz.html">DATENSCHUTZ</a>
+    </nav>
+  </header>
 
-/* NAV */
-.nav{
-  position:fixed;
-  top:0; left:0; right:0;
-  height:72px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding: 0 28px;
-  z-index:50;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.66), rgba(0,0,0,0.14), transparent);
-  backdrop-filter: blur(6px);
-}
+  <!-- ========== 1) HOME (Bild 1) ========== -->
+  <section class="hero hero--one" aria-label="Home">
+    <div class="overlay"></div>
 
-.brand{
-  color: var(--text);
-  text-decoration:none;
-  letter-spacing: 0.22em;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  opacity: 0.88;
-}
+    <div class="hero__inner">
+      <div class="kicker">DIGITAL IDENTITY & GOVERNANCE UNIVERSE</div>
+      <h1>ZAL’THERA</h1>
+      <p class="sub">
+        Ein Governance- und Identity-System für kontrollierte, erklärbare Ausführung in komplexen Umgebungen.
+      </p>
 
-.links a{
-  color: var(--muted);
-  text-decoration:none;
-  margin-left: 18px;
-  font-size: 12px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
+      <div class="cta">
+        <a class="btn btn--solid" href="#identity">IDENTITY</a>
+        <a class="btn btn--ghost" href="#access">PRIVATE ACCESS</a>
+      </div>
 
-.links a:hover{ color: var(--text); }
+      <div class="meta">
+        <span>Policy</span>
+        <span>Identity</span>
+        <span>Audit</span>
+        <span>Execute</span>
+      </div>
+    </div>
 
-/* HERO SECTIONS */
+    <div class="fade"></div>
+  </section>
 
-.hero{
-  min-height: 100vh;
-  position: relative;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding: 120px 18px 80px;
-  overflow:hidden;
-}
+  <!-- ========== 2) IDENTITY (Bild 2) ========== -->
+  <section class="hero hero--two" id="identity" aria-label="Identity">
+    <div class="overlay"></div>
 
-/* CORE */
-.hero--one{
-  background: url("./assets/hero-1.png") center/cover no-repeat;
-}
+    <div class="hero__inner">
+      <div class="kicker">IDENTITY</div>
+      <h2>Was ist ZAL’THERA?</h2>
+      <p class="sub">
+        ZAL’THERA definiert digitale Identität als kontrollierbaren Ursprung: Entscheidungen sind überprüfbar,
+        Aktionen sind begrenzt, und alles läuft durch Governance.
+      </p>
 
-/* IDENTITY */
-.hero--two{
-  background: url("./assets/hero-2.png") center/cover no-repeat;
-}
+      <div class="cta">
+        <a class="btn btn--solid" href="#system">SYSTEM</a>
+        <a class="btn btn--ghost" href="#access">ACCESS</a>
+      </div>
+    </div>
 
-/* SYSTEM */
-.hero--three{
-  background: url("./assets/hero-3.png") center/cover no-repeat;
-}
+    <div class="fade"></div>
+  </section>
 
-/* STUDIO (FIXED – KEIN ABSCHNEIDEN MEHR) */
-.hero--studio {
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 120px 18px 80px;
+  <!-- ========== 3) SYSTEM (Bild 3) ========== -->
+  <section class="hero hero--three" id="system" aria-label="System">
+    <div class="overlay"></div>
 
-  background-image: url("./assets/hero-4.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #07080b;
-}
+    <div class="hero__inner">
+      <div class="kicker">SYSTEM</div>
+      <h2>Architektur, nicht Marketing</h2>
+      <p class="sub">
+        Kernprinzip: Policy → Identity → Audit → Execute.
+        Keine Autonomie. Keine unsichtbaren Aktionen. Nur kontrollierte Ausführung.
+      </p>
 
-/* OVERLAY */
-.overlay{
-  position:absolute; inset:0;
-  background:
-    radial-gradient(900px 520px at 50% 35%, rgba(200,162,77,0.10), transparent 60%),
-    linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.55));
-}
+      <div class="cta">
+        <a class="btn btn--solid" href="#studio">STUDIO</a>
+        <a class="btn btn--ghost" href="#manifest">MANIFEST</a>
+      </div>
+    </div>
 
-.hero__inner{
-  position:relative;
-  width:min(860px, 92vw);
-  text-align:center;
-  z-index:2;
-}
+    <div class="fade"></div>
+  </section>
 
-.kicker{
-  color: var(--muted);
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  font-size: 12px;
-  margin-bottom: 14px;
-}
+  <!-- ========== 4) STUDIO (Bild 4) ========== -->
+  <section class="hero hero--studio" id="studio" aria-label="Studio">
+    <div class="overlay"></div>
 
-h1{
-  margin: 0 0 10px;
-  font-size: clamp(44px, 6.4vw, 72px);
-  letter-spacing: 0.08em;
-  font-weight: 700;
-  color: var(--gold);
-  text-shadow: 0 14px 34px rgba(0,0,0,0.75);
-}
+    <div class="hero__inner">
+      <div class="kicker">STUDIO</div>
+      <h2>Manifestation (nicht der Kern)</h2>
+      <p class="sub">
+        Studio ist sichtbare Form: Emblem, Visual Art, Craft. Der Core bleibt das digitale System.
+      </p>
 
-h2{
-  margin: 0 0 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-size: clamp(22px, 3vw, 34px);
-  font-weight: 700;
-}
+      <div class="meta">
+        <span>Emblem</span>
+        <span>Visual Art</span>
+        <span>Craft</span>
+      </div>
 
-.sub{
-  margin: 0 auto 24px;
-  max-width: 560px;
-  color: var(--muted);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
+      <div class="cta">
+        <a class="btn btn--solid" href="#access">PRIVATE ACCESS</a>
+        <a class="btn btn--ghost" href="#top">TOP</a>
+      </div>
+    </div>
 
-/* BUTTONS */
-.cta{
-  display:flex;
-  gap: 14px;
-  justify-content:center;
-  flex-wrap:wrap;
-  margin: 14px 0 18px;
-}
+    <div class="fade"></div>
+  </section>
 
-.btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  height: 44px;
-  padding: 0 18px;
-  border-radius: 12px;
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  background: rgba(0,0,0,0.20);
-  text-decoration:none;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  box-shadow: 0 18px 42px var(--shadow);
-}
+  <!-- ========== ACCESS (Form) ========== -->
+  <section class="panel panel--dark" id="access">
+    <div class="panel__inner">
+      <div class="kicker">ACCESS</div>
+      <h2>Private Access</h2>
+      <p class="sub">
+        Zugang ist limitiert. Anfrage senden — wir prüfen und melden uns.
+      </p>
 
-.btn:hover{
-  background: rgba(200,162,77,0.10);
-}
+      <form class="form"
+            action="https://formspree.io/f/xbdagyrw"
+            method="POST"
+            accept-charset="UTF-8">
 
-.btn--ghost{
-  border-color: rgba(255,255,255,0.22);
-  color: rgba(255,255,255,0.82);
-}
+        <input type="hidden" name="_subject" value="ZAL’THERA — Private Access Request" />
+        <input type="hidden" name="_next" value="success.html" />
 
-.btn--ghost:hover{
-  background: rgba(255,255,255,0.06);
-}
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Optional Message"></textarea>
 
-.btn--solid{
-  background: rgba(200,162,77,0.14);
-  border-color: rgba(200,162,77,0.72);
-  color: rgba(255,255,255,0.92);
-}
+        <button class="btn btn--solid" type="submit">Request Access</button>
 
-.btn--solid:hover{
-  background: rgba(200,162,77,0.22);
-}
+        <p class="tiny">
+          Mit dem Absenden akzeptierst du unsere
+          <a href="./datenschutz.html">Datenschutzerklärung</a>.
+        </p>
+      </form>
 
-/* PANELS */
-.panel{
-  padding: 90px 18px;
-}
+      <p class="footer">
+        © 2026 ZAL’THERA Studios · <a href="./impressum.html">Impressum</a> · <a href="./datenschutz.html">Datenschutz</a>
+      </p>
+    </div>
+  </section>
 
-.panel--dark{
-  background: linear-gradient(to bottom, rgba(7,8,11,1), rgba(11,13,18,1));
-}
+  <!-- ========== MANIFEST ========== -->
+  <section class="panel panel--dark" id="manifest">
+    <div class="panel__inner">
+      <div class="kicker">MANIFEST</div>
+      <h2>Governance ist der Standard</h2>
+      <p class="lead">
+        ZAL’THERA baut Systeme, die erklärbar bleiben. Jede Aktion ist gebunden an Regeln,
+        Identität und Audit — nicht an Stimmung, nicht an Autonomie.
+      </p>
+    </div>
+  </section>
 
-.panel__inner{
-  width:min(860px, 92vw);
-  margin: 0 auto;
-  text-align:center;
-}
-
-/* FORM */
-.form{
-  margin: 28px auto 0;
-  width: min(520px, 92vw);
-  display:flex;
-  flex-direction:column;
-  gap: 14px;
-  text-align:left;
-
-  padding: 20px;
-  border: 1px solid rgba(255,255,255,0.14);
-  border-radius: 18px;
-  background: rgba(0,0,0,0.28);
-  backdrop-filter: blur(8px);
-}
-
-input, textarea{
-  width: 100%;
-  padding: 12px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(0,0,0,0.25);
-  color: var(--text);
-  outline:none;
-}
-
-input:focus, textarea:focus{
-  border-color: rgba(200,162,77,0.72);
-  box-shadow: 0 0 0 3px rgba(200,162,77,0.14);
-}
-
-/* MOBILE */
-@media (max-width: 680px){
-  .nav{
-    padding: 0 16px;
-    height: 66px;
-  }
-  .links a{
-    margin-left: 12px;
-    font-size: 11px;
-  }
-}
+</body>
+</html>
