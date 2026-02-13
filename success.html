@@ -1,87 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZAL’THERA — Access Received</title>
-  <meta name="description" content="ZAL’THERA — Request received. Access is confirmed manually." />
+  <meta charset="UTF-8">
+  <title>Danke — ZAL’THERA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./styles.css" />
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png" />
-  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
-  <!-- PRELOADER -->
-  <div id="preloader">
-    <img src="assets/apple-touch-icon.png" alt="ZALTHERA Emblem" class="loader-logo">
-  </div>
+  <section class="panel panel--dark">
+    <div class="panel__inner" style="text-align:center; padding:120px 20px;">
 
-  <!-- NAV -->
-  <header class="nav">
-    <a class="brand" href="./index.html#top">ZAL’THERA</a>
+      <h2>Danke.</h2>
+      <p class="lead">
+        Deine Anfrage wurde erfolgreich übermittelt.
+      </p>
 
-    <nav class="links">
-      <a href="./index.html#drop">Drop 01</a>
-      <a href="./index.html#craft">Craft</a>
-      <a href="./index.html#access">Access</a>
-      <a href="./index.html#contact">Contact</a>
-    </nav>
-  </header>
+      <a href="index.html#top" class="btn btn--solid">
+        Zurück zur Seite
+      </a>
 
-  <main id="top">
-
-    <section class="hero hero--two">
-      <div class="overlay overlay--strong"></div>
-
-      <div class="hero__inner">
-        <div class="kicker">REQUEST RECEIVED</div>
-        <h1>ACCESS CONFIRMED<br/>MANUALLY</h1>
-
-        <p class="sub" style="max-width: 760px; margin-left:auto; margin-right:auto;">
-          Your request has been recorded.  
-          Founder access is reviewed and approved by hand — no automation, no mass release.
-        </p>
-
-        <div class="meta" style="justify-content:center;">
-          <span>Private list</span>
-          <span>Manual approval</span>
-          <span>Limited to 50</span>
-        </div>
-
-        <div class="cta" style="justify-content:center;">
-          <a class="btn btn--solid" href="./index.html#drop">Back to Drop 01</a>
-          <a class="btn btn--ghost" href="./index.html#top">Return to Home</a>
-        </div>
-
-        <p class="form-note" style="margin-top:18px;">
-          If you don’t hear back, check spam — or contact <a class="mail" href="mailto:studios@zalthera.de">studios@zalthera.de</a>.
-        </p>
-
-        <footer class="footer" style="margin-top:34px;">
-          <div>© <span id="year"></span> ZAL’THERA</div>
-        </footer>
-      </div>
-
-      <div class="fade"></div>
-    </section>
-
-  </main>
-
-  <script>
-    window.addEventListener("load", function () {
-      const loader = document.getElementById("preloader");
-      loader.style.opacity = "0";
-      setTimeout(() => {
-        loader.style.display = "none";
-      }, 600);
-    });
-
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+    </div>
+  </section>
 
 </body>
 </html>
