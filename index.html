@@ -1,51 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>ZAL’THERA — Digital Identity & Governance Universe</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ZAL’THERA ist ein digitales Governance- und Identity-System für kontrollierte, erklärbare Ausführung in komplexen Umgebungen." />
+
+  <link rel="icon" href="./assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body id="top">
 
-  <!-- PRELOADER -->
-  <div id="preloader" aria-hidden="true">
-    <div class="preloader-inner">
-      <div class="seal"></div>
-      <div class="preloader-text">ZAL’THERA</div>
-    </div>
-  </div>
-
   <!-- NAV -->
-  <nav class="nav">
-    <a href="#top" class="brand">ZAL’THERA</a>
-    <div class="links">
-      <a href="#identity">Identity</a>
-      <a href="#system">System</a>
-      <a href="#studio">Studio</a>
-      <a href="#access">Access</a>
-      <a href="#manifest">Manifest</a>
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
-    </div>
-  </nav>
+  <header class="nav">
+    <a class="brand" href="#top">ZAL’THERA</a>
+    <nav class="links">
+      <a href="#identity">IDENTITY</a>
+      <a href="#system">SYSTEM</a>
+      <a href="#studio">STUDIO</a>
+      <a href="#access">ACCESS</a>
+      <a href="#manifest">MANIFEST</a>
+      <a href="./impressum.html">IMPRESSUM</a>
+      <a href="./datenschutz.html">DATENSCHUTZ</a>
+    </nav>
+  </header>
 
-  <!-- HOME / HERO -->
-  <section class="hero hero--studio">
-    <div class="overlay overlay--soft"></div>
+  <!-- ========== 1) HOME (Bild 1) ========== -->
+  <section class="hero hero--one" aria-label="Home">
+    <div class="overlay"></div>
 
     <div class="hero__inner">
-      <div class="kicker">Digital Identity & Governance Universe</div>
+      <div class="kicker">DIGITAL IDENTITY & GOVERNANCE UNIVERSE</div>
       <h1>ZAL’THERA</h1>
       <p class="sub">
         Ein Governance- und Identity-System für kontrollierte, erklärbare Ausführung in komplexen Umgebungen.
       </p>
 
       <div class="cta">
-        <a href="#identity" class="btn btn--solid">Identity</a>
-        <a href="#access" class="btn btn--ghost">Private Access</a>
+        <a class="btn btn--solid" href="#identity">IDENTITY</a>
+        <a class="btn btn--ghost" href="#access">PRIVATE ACCESS</a>
       </div>
 
       <div class="meta">
@@ -59,129 +53,82 @@
     <div class="fade"></div>
   </section>
 
-  <!-- IDENTITY (Section Background) -->
-  <section id="identity" class="section-bg section-bg--two panel">
-    <div class="overlay overlay--cool"></div>
-    <div class="panel__inner">
+  <!-- ========== 2) IDENTITY (Bild 2) ========== -->
+  <section class="hero hero--two" id="identity" aria-label="Identity">
+    <div class="overlay"></div>
 
-      <div class="section-head">
-        <div class="section-kicker">Identity</div>
-        <h2>Was ist ZAL’THERA?</h2>
-        <p class="lead">
-          ZAL’THERA ist ein digitales Governance- und Identity-System für kontrollierte, erklärbare Ausführung
-          in komplexen Umgebungen — vom Demo-Core bis zu industriellen Stacks.
-        </p>
+    <div class="hero__inner">
+      <div class="kicker">IDENTITY</div>
+      <h2>Was ist ZAL’THERA?</h2>
+      <p class="sub">
+        ZAL’THERA definiert digitale Identität als kontrollierbaren Ursprung: Entscheidungen sind überprüfbar,
+        Aktionen sind begrenzt, und alles läuft durch Governance.
+      </p>
+
+      <div class="cta">
+        <a class="btn btn--solid" href="#system">SYSTEM</a>
+        <a class="btn btn--ghost" href="#access">ACCESS</a>
       </div>
-
-      <div class="grid grid--3">
-        <div class="card">
-          <h3>Governance</h3>
-          <p>Regeln entscheiden, was erlaubt ist. Keine Ausführung ohne Policy-Gate.</p>
-        </div>
-        <div class="card">
-          <h3>Identity</h3>
-          <p>Aktionen sind an Identität gebunden. Zugriff ist nachvollziehbar und kontrolliert.</p>
-        </div>
-        <div class="card">
-          <h3>Audit</h3>
-          <p>Jede Aktion erzeugt ein Audit-Event. Transparenz ist Pflicht.</p>
-        </div>
-      </div>
-
-      <div class="note">
-        <strong>Kernsatz:</strong> ZAL’THERA verbindet digitale Identität mit kontrollierter Ausführung — nachvollziehbar, erklärbar, auditierbar.
-      </div>
-
     </div>
+
+    <div class="fade"></div>
   </section>
 
-  <!-- SYSTEM -->
-  <section id="system" class="section-bg section-bg--three panel">
-    <div class="overlay overlay--nature"></div>
-    <div class="panel__inner">
+  <!-- ========== 3) SYSTEM (Bild 3) ========== -->
+  <section class="hero hero--three" id="system" aria-label="System">
+    <div class="overlay"></div>
 
-      <div class="section-head">
-        <div class="section-kicker">System</div>
-        <h2>Der Core (vereinfacht)</h2>
-        <p class="lead">
-          Das System ist modular. Jede Aktion läuft durch Policy → Identity → Audit → Execute.
-        </p>
+    <div class="hero__inner">
+      <div class="kicker">SYSTEM</div>
+      <h2>Architektur, nicht Marketing</h2>
+      <p class="sub">
+        Kernprinzip: Policy → Identity → Audit → Execute.
+        Keine Autonomie. Keine unsichtbaren Aktionen. Nur kontrollierte Ausführung.
+      </p>
+
+      <div class="cta">
+        <a class="btn btn--solid" href="#studio">STUDIO</a>
+        <a class="btn btn--ghost" href="#manifest">MANIFEST</a>
       </div>
-
-      <div class="stack">
-        <div class="stack-row">
-          <div class="stack-pill">Policy</div>
-          <div class="stack-text">Regeln, Profile, Time Windows, SafeMode</div>
-        </div>
-        <div class="stack-row">
-          <div class="stack-pill">Identity</div>
-          <div class="stack-text">Owner Unlock, Rollen, Session Binding</div>
-        </div>
-        <div class="stack-row">
-          <div class="stack-pill">Audit</div>
-          <div class="stack-text">Command Events, Timeline, Export</div>
-        </div>
-        <div class="stack-row">
-          <div class="stack-pill">Execute</div>
-          <div class="stack-text">Action Engine, kontrollierte Ausführung</div>
-        </div>
-      </div>
-
-      <div class="grid grid--2">
-        <div class="card">
-          <h3>VoiceOS</h3>
-          <p>Voice ist Interface — nicht Autonomie. Sprache triggert Aktionen, Aktionen laufen durch Governance.</p>
-        </div>
-        <div class="card">
-          <h3>Stack-Struktur</h3>
-          <p>Core bleibt stabil. Stacks kommen später — ohne den Core zu brechen.</p>
-        </div>
-      </div>
-
     </div>
+
+    <div class="fade"></div>
   </section>
 
-  <!-- STUDIO -->
-  <section id="studio" class="section-bg section-bg--four panel">
-    <div class="overlay overlay--soft"></div>
-    <div class="panel__inner">
+  <!-- ========== 4) STUDIO (Bild 4) ========== -->
+  <section class="hero hero--studio" id="studio" aria-label="Studio">
+    <div class="overlay"></div>
 
-      <div class="section-head">
-        <div class="section-kicker">Studio</div>
-        <h2>Manifestation (nicht der Kern)</h2>
-        <p class="lead">
-          Studio ist sichtbare Form: Emblem, Visual Art, Craft.  
-          Der Core bleibt das digitale System.
-        </p>
+    <div class="hero__inner">
+      <div class="kicker">STUDIO</div>
+      <h2>Manifestation (nicht der Kern)</h2>
+      <p class="sub">
+        Studio ist sichtbare Form: Emblem, Visual Art, Craft. Der Core bleibt das digitale System.
+      </p>
+
+      <div class="meta">
+        <span>Emblem</span>
+        <span>Visual Art</span>
+        <span>Craft</span>
       </div>
 
-      <div class="grid grid--3">
-        <div class="card">
-          <h3>Emblem</h3>
-          <p>System-Siegel. Governance & Identität — nicht „Merch“.</p>
-        </div>
-        <div class="card">
-          <h3>Visual Art</h3>
-          <p>Technik als Ästhetik. Kohärent. Wiedererkennbar. Präzise.</p>
-        </div>
-        <div class="card">
-          <h3>Craft</h3>
-          <p>Kleidung als Ausdruck, Prototypen, Qualität. Keine Massenware.</p>
-        </div>
+      <div class="cta">
+        <a class="btn btn--solid" href="#access">PRIVATE ACCESS</a>
+        <a class="btn btn--ghost" href="#top">TOP</a>
       </div>
-
     </div>
+
+    <div class="fade"></div>
   </section>
 
-  <!-- ACCESS -->
-  <section id="access" class="panel panel--black">
+  <!-- ========== ACCESS (Form) ========== -->
+  <section class="panel panel--dark" id="access">
     <div class="panel__inner">
-
-      <div class="section-head">
-        <div class="section-kicker">Access</div>
-        <h2>Private Access</h2>
-        <p class="lead">Zugang ist limitiert. Anfrage senden — wir prüfen und melden uns.</p>
-      </div>
+      <div class="kicker">ACCESS</div>
+      <h2>Private Access</h2>
+      <p class="sub">
+        Zugang ist limitiert. Anfrage senden — wir prüfen und melden uns.
+      </p>
 
       <form class="form"
             action="https://formspree.io/f/xbdagyrw"
@@ -189,76 +136,37 @@
             accept-charset="UTF-8">
 
         <input type="hidden" name="_subject" value="ZAL’THERA — Private Access Request" />
-        <input type="hidden" name="_next" value="https://zalthera.de/success.html" />
+        <input type="hidden" name="_next" value="success.html" />
 
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" required />
-        </label>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Optional Message"></textarea>
 
-        <label>
-          <span>Email</span>
-          <input type="email" name="email" required />
-        </label>
-
-        <label>
-          <span>Message (optional)</span>
-          <textarea name="message" rows="4"></textarea>
-        </label>
-
-        <button type="submit" class="btn btn--solid">Request Access</button>
+        <button class="btn btn--solid" type="submit">Request Access</button>
 
         <p class="tiny">
-          By submitting this form you agree to our <a href="datenschutz.html">privacy policy</a>.
+          Mit dem Absenden akzeptierst du unsere
+          <a href="./datenschutz.html">Datenschutzerklärung</a>.
         </p>
       </form>
 
-      <div class="footer-links">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-      </div>
-
-      <div class="footer">© 2026 ZAL’THERA Studios</div>
-
+      <p class="footer">
+        © 2026 ZAL’THERA Studios · <a href="./impressum.html">Impressum</a> · <a href="./datenschutz.html">Datenschutz</a>
+      </p>
     </div>
   </section>
 
-  <!-- MANIFEST -->
-  <section id="manifest" class="panel panel--dark">
+  <!-- ========== MANIFEST ========== -->
+  <section class="panel panel--dark" id="manifest">
     <div class="panel__inner">
-
-      <div class="section-head">
-        <div class="section-kicker">Manifest</div>
-        <h2>Ein kurzer Standard</h2>
-        <p class="lead">Klar. Stark. Ohne Übertreibung.</p>
-      </div>
-
-      <div class="manifest">
-        <p><strong>1.</strong> Wir bauen Systeme, die kontrolliert ausführbar sind.</p>
-        <p><strong>2.</strong> Keine Aktion ohne Policy. Keine Macht ohne Grenze.</p>
-        <p><strong>3.</strong> Identität ist bindend. Verantwortung ist sichtbar.</p>
-        <p><strong>4.</strong> Audit ist Pflicht. Transparenz ist Standard.</p>
-        <p><strong>5.</strong> Autonomie ist ausgeschlossen. Governance ist Kern.</p>
-        <p><strong>6.</strong> Studio ist Ausdruck — nicht Ersatz für Substanz.</p>
-        <p><strong>7.</strong> Qualität vor Geschwindigkeit. Struktur vor Chaos.</p>
-      </div>
-
-      <div class="cta">
-        <a href="#top" class="btn btn--ghost">Back to top</a>
-        <a href="#access" class="btn btn--solid">Access</a>
-      </div>
-
+      <div class="kicker">MANIFEST</div>
+      <h2>Governance ist der Standard</h2>
+      <p class="lead">
+        ZAL’THERA baut Systeme, die erklärbar bleiben. Jede Aktion ist gebunden an Regeln,
+        Identität und Audit — nicht an Stimmung, nicht an Autonomie.
+      </p>
     </div>
   </section>
-
-  <script>
-    window.addEventListener("load", () => {
-      const p = document.getElementById("preloader");
-      if (!p) return;
-      p.classList.add("is-hidden");
-      setTimeout(() => p.remove(), 650);
-    });
-  </script>
 
 </body>
 </html>
