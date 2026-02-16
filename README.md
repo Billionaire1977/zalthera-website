@@ -19,3 +19,5 @@ Website: https://zalthera.de
 
 ZAL’THERA  
 Controlled. Traceable. Without Autonomy.
+
+Rename + professionalize README
