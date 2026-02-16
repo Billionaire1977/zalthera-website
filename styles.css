@@ -358,6 +358,91 @@ body{
   .grid2{ grid-template-columns: 1fr; }
   .formRow{ grid-template-columns: 1fr; }
 }
+/* =========================
+   LEGAL PAGES (Impressum/Datenschutz)
+   ========================= */
 
+.page--legal{
+  background: var(--bg);
+  color: var(--text);
+}
+
+.legal-hero{
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 18px 60px;
+  background-image: url("./assets/hero-web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.legal-hero__overlay{
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(900px 520px at 50% 35%, rgba(200,162,77,0.10), transparent 60%),
+    linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.78));
+}
+
+.legal{
+  position: relative;
+  z-index: 2;
+  width: min(920px, 92vw);
+  margin: 0 auto;
+}
+
+.legal__card{
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 18px;
+  padding: 22px 22px;
+  background: rgba(0,0,0,0.30);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 18px 42px var(--shadow);
+}
+
+.legal__title{
+  margin: 8px 0 16px;
+  font-size: clamp(26px, 3.2vw, 36px);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.legal__h2{
+  margin: 20px 0 10px;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgba(255,255,255,0.90);
+}
+
+.legal p{
+  color: rgba(255,255,255,0.74);
+  line-height: 1.75;
+  font-size: 14px;
+}
+
+.legal a{
+  color: rgba(255,255,255,0.86);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.22);
+}
+.legal a:hover{
+  color: var(--text);
+  border-bottom-color: rgba(200,162,77,0.55);
+}
+
+.cta--left{
+  justify-content: flex-start;
+  margin-top: 18px;
+}
+
+.legal__footer{
+  margin-top: 14px;
+  color: rgba(255,255,255,0.56);
+  font-size: 12px;
+}
   
 
