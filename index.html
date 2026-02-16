@@ -3,191 +3,278 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZAL’THERA — Governance & Audit</title>
+  <title>ZAL’THERA — Governance & Audit for AI and Automation</title>
 
-  <link rel="icon" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/styles.css?v=10" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css?v=20" />
+  <meta name="theme-color" content="#0b1020" />
 </head>
 
-<body id="top">
+<body class="page-home" id="top">
 
-  <header class="nav">
-    <a class="brand" href="#top">ZAL’THERA</a>
-    <nav class="links">
-      <a href="#top">Home</a>
-      <a href="#angebot">Angebot</a>
-      <a href="#ueber">Über mich</a>
-      <a href="#contact">Kontakt</a>
-      <a href="/impressum.html">Impressum</a>
-      <a href="/datenschutz.html">Datenschutz</a>
-    </nav>
+  <!-- NAV -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#top" aria-label="ZAL’THERA">
+        <span class="brand__mark">ZAL’THERA</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation">
+        <a class="nav__link" href="#model">MODEL</a>
+        <a class="nav__link" href="#offer">ANGEBOT</a>
+        <a class="nav__link" href="#for">FÜR WEN</a>
+        <a class="nav__link" href="#contact">KONTAKT</a>
+        <a class="nav__link" href="impressum.html">IMPRESSUM</a>
+        <a class="nav__link" href="datenschutz.html">DATENSCHUTZ</a>
+      </nav>
+
+      <div class="topbar__cta">
+        <a class="btn btn--primary" href="#contact">30-Min Call</a>
+      </div>
+    </div>
   </header>
 
   <!-- HERO -->
-  <section class="hero hero--main" aria-label="Home">
-    <div class="overlay"></div>
+  <section class="hero" aria-label="Hero">
+    <div class="wrap hero__inner">
+      <div class="kicker">GOVERNANCE • IDENTITY • AUDIT • EXPLAINABILITY</div>
 
-    <div class="hero__inner">
-      <div class="kicker">GOVERNANCE • IDENTITY • AUDIT</div>
-      <h1>Governance & Audit für<br/>KI- und Automationsprozesse.</h1>
-      <p class="sub">Kontrolliert. Nachvollziehbar. Ohne Autonomie.</p>
+      <h1 class="hero__title">
+        Kontrollierte Ausführung<br />
+        für AI &amp; Automation.
+      </h1>
 
-      <div class="cta">
-        <a class="btn btn--solid" href="#angebot">30-Min Call buchen</a>
-        <a class="btn" href="#contact">Kontakt / Private Access</a>
-      </div>
-
-      <div class="meta">
-        <span>Policy</span>
-        <span>Identity</span>
-        <span>Safeguard</span>
-        <span>Audit</span>
-        <span>Explainability</span>
-      </div>
-    </div>
-
-    <div class="fade"></div>
-  </section>
-
-  <!-- ÜBERBLICK -->
-  <section class="panel panel--dark" id="ueber">
-    <div class="panel__inner">
-      <div class="kicker">Was ich tue</div>
-      <h2>Governance – nicht Marketing</h2>
-      <p class="sub">
-        Ich baue Governance-Flows, die riskante Aktionen verhindern, Entscheidungen nachvollziehbar machen
-        und Compliance vereinfachen — lokal, erklärbar und ohne Autonomie.
+      <p class="hero__subtitle">
+        ZAL’THERA ist ein Governance-Rahmen für kritische Systeme:
+        Aktionen laufen nur durch Regeln, Identität und Audit — nicht durch Autonomie.
       </p>
 
-      <div class="cards">
-        <div class="card">
-          <div class="card__title">Governance Layer</div>
-          <div class="card__text">Regeln, Freigaben, Kontrollstufen — damit Systeme kontrolliert ausführbar bleiben.</div>
-        </div>
-        <div class="card">
-          <div class="card__title">Identity & Safeguards</div>
-          <div class="card__text">Berechtigungen & Schutzmechanismen — wer darf was, wann, wozu und warum.</div>
-        </div>
-        <div class="card">
-          <div class="card__title">Audit & Explainability</div>
-          <div class="card__text">Protokollierung & Nachvollziehbarkeit — Beweisbarkeit, Exporte, klare WHY-Ansichten.</div>
-        </div>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#offer">Angebot ansehen</a>
+        <a class="btn btn--ghost" href="#contact">Kontakt / Private Access</a>
       </div>
 
-      <div class="kicker" style="margin-top:36px;">Für wen ich arbeite</div>
-
-      <!-- ✅ Tiles with real backgrounds -->
-      <div class="tiles">
-        <div class="tile tile--industry">
-          <div class="tile__bg"></div>
-          <div class="tile__shade"></div>
-          <div class="tile__content">
-            <div class="tile__label">Mittelstand & Industrie</div>
-          </div>
-        </div>
-
-        <div class="tile tile--automation">
-          <div class="tile__bg"></div>
-          <div class="tile__shade"></div>
-          <div class="tile__content">
-            <div class="tile__label">Automatisierungsteams</div>
-          </div>
-        </div>
-
-        <div class="tile tile--compliance">
-          <div class="tile__bg"></div>
-          <div class="tile__shade"></div>
-          <div class="tile__content">
-            <div class="tile__label">Compliance-sensible Bereiche</div>
-          </div>
-        </div>
+      <div class="hero__chips" aria-label="Principles">
+        <span class="chip">Policy → Identity → Safeguard → Audit → Execute</span>
+        <span class="chip chip--danger">No Autonomy</span>
+        <span class="chip">Export-fähig</span>
+        <span class="chip">Board-tauglich</span>
       </div>
     </div>
   </section>
 
-  <!-- ANGEBOT -->
-  <section class="panel panel--dark" id="angebot">
-    <div class="panel__inner">
-      <div class="kicker">Unser Angebot</div>
-      <h2>Start klar – und auditierbar</h2>
-      <p class="sub">Zwei Einstiege: schneller Blueprint oder Pilot-Umsetzung.</p>
+  <!-- MODEL -->
+  <section class="section section--light" id="model">
+    <div class="wrap">
+      <h2 class="section__title">Das Modell</h2>
+      <p class="section__lead">
+        ZAL’THERA baut keine KI. ZAL’THERA baut den Kontrollrahmen darum.
+        Das Ergebnis: klare Verantwortlichkeit, nachvollziehbare Entscheidungen, auditierbare Ausführung.
+      </p>
 
-      <div class="cards" style="grid-template-columns: repeat(2, minmax(0,1fr));">
-        <div class="card" style="text-align:center;">
-          <div class="card__title">Governance QuickCheck</div>
-          <div class="card__text">90 Min. Risikoanalyse & Blueprint</div>
-          <div class="card__text" style="margin-top:10px; font-weight:900; color:rgba(255,255,255,0.88);">ab 490 €</div>
-          <div class="cta" style="margin-top:14px;">
-            <a class="btn btn--solid" href="#contact">QuickCheck anfragen</a>
-          </div>
+      <div class="stack">
+        <div class="stack__row">
+          <span class="pill">Policy</span>
+          <span class="arrow">→</span>
+          <span class="pill">Identity</span>
+          <span class="arrow">→</span>
+          <span class="pill">Safeguard</span>
+          <span class="arrow">→</span>
+          <span class="pill">Audit</span>
+          <span class="arrow">→</span>
+          <span class="pill">Execute</span>
         </div>
+      </div>
 
-        <div class="card" style="text-align:center;">
-          <div class="card__title">Pilot-Projekt</div>
-          <div class="card__text">2–4 Wochen Umsetzung & Testing</div>
-          <div class="card__text" style="margin-top:10px; font-weight:900; color:rgba(255,255,255,0.88);">ab 2.500 €</div>
-          <div class="cta" style="margin-top:14px;">
-            <a class="btn btn--solid" href="#contact">Pilot anfragen</a>
-          </div>
-        </div>
+      <div class="grid-3">
+        <article class="card card--light">
+          <div class="card__icon">🧩</div>
+          <h3 class="card__title">Governance</h3>
+          <p class="card__text">Explizite Regeln statt impliziter Automatismen. Keine unsichtbaren Aktionen.</p>
+        </article>
+
+        <article class="card card--light">
+          <div class="card__icon">🛡️</div>
+          <h3 class="card__title">Identity &amp; Safeguards</h3>
+          <p class="card__text">Wer darf was – wann – wozu. Kritische Aktionen sind scoped &amp; timeboxed.</p>
+        </article>
+
+        <article class="card card--light">
+          <div class="card__icon">📜</div>
+          <h3 class="card__title">Audit &amp; Explainability</h3>
+          <p class="card__text">WHY/WHO/WHAT: Jede Entscheidung wird protokolliert, erklärbar und exportierbar.</p>
+        </article>
+      </div>
+
+      <div class="guarantee">
+        <h3 class="guarantee__title">Kern-Garantien</h3>
+        <ul class="guarantee__list">
+          <li><strong>Controlled Execution</strong> — Aktionen laufen nur durch Gates.</li>
+          <li><strong>Attribution</strong> — Identität, Scope, Target und Entscheidung sind gebunden.</li>
+          <li><strong>Audit Ready</strong> — vollständige Nachvollziehbarkeit inkl. Exporte.</li>
+          <li><strong>Explainable</strong> — klare Gründe für Allow/Block.</li>
+          <li><strong>No Autonomy</strong> — kein selbstständiges Handeln, keine Blackbox-Ausführung.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER -->
+  <section class="section section--light" id="offer">
+    <div class="wrap">
+      <h2 class="section__title">Angebot</h2>
+      <p class="section__lead">
+        Drei Einstiegspunkte — Premium-Scope, ohne Paket-Show. Projektumfang wird im Erstgespräch definiert.
+      </p>
+
+      <div class="grid-3 offers">
+        <article class="offerCard">
+          <div class="offerCard__kicker">STUFE 1</div>
+          <h3 class="offerCard__title">Governance Architecture Assessment</h3>
+          <p class="offerCard__text">
+            Risiko- und Entscheidungsanalyse, Gap-Mapping, Board-tauglicher Executive Report.
+          </p>
+          <ul class="offerCard__list">
+            <li>Risiko-Heatmap &amp; Scope</li>
+            <li>Governance-Blueprint</li>
+            <li>Prioritäten &amp; Roadmap</li>
+          </ul>
+          <a class="btn btn--primary btn--full" href="#contact">Assessment anfragen</a>
+        </article>
+
+        <article class="offerCard">
+          <div class="offerCard__kicker">STUFE 2</div>
+          <h3 class="offerCard__title">Controlled Pilot Implementation</h3>
+          <p class="offerCard__text">
+            Ein kontrollierter Live-Prozess mit Policy-Gates, Identity-Binding, Safeguards &amp; Audit-Trail.
+          </p>
+          <ul class="offerCard__list">
+            <li>1 definierter Prozess</li>
+            <li>Safeguard + Timebox</li>
+            <li>Explainability View</li>
+          </ul>
+          <a class="btn btn--primary btn--full" href="#contact">Pilot anfragen</a>
+        </article>
+
+        <article class="offerCard">
+          <div class="offerCard__kicker">STUFE 3</div>
+          <h3 class="offerCard__title">Governance Stack Integration</h3>
+          <p class="offerCard__text">
+            Skalierung auf mehrere Prozesse, Compliance-Struktur, Exporte und Rollout-Blueprint.
+          </p>
+          <ul class="offerCard__list">
+            <li>Multi-Process Governance</li>
+            <li>Compliance Mapping</li>
+            <li>Reporting &amp; Exports</li>
+          </ul>
+          <a class="btn btn--primary btn--full" href="#contact">Integration anfragen</a>
+        </article>
+      </div>
+
+      <p class="section__note">
+        Hinweis: Preise werden nicht öffentlich diskutiert. Premium-Scope wird nach Risiko, Kritikalität und Integrations-Tiefe definiert.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOR WHO -->
+  <section class="section section--light" id="for">
+    <div class="wrap">
+      <h2 class="section__title">Für wen</h2>
+      <p class="section__lead">
+        ZAL’THERA ist für Teams, die Verantwortung tragen — nicht für „AI-Spielwiesen“.
+      </p>
+
+      <div class="tiles">
+        <a class="tile tile--industry" href="#contact" aria-label="Mittelstand & Industrie">
+          <div class="tile__label">Mittelstand &amp; Industrie</div>
+        </a>
+
+        <a class="tile tile--automation" href="#contact" aria-label="Automatisierungsteams">
+          <div class="tile__label">Automatisierungsteams</div>
+        </a>
+
+        <a class="tile tile--compliance" href="#contact" aria-label="Compliance-sensible Bereiche">
+          <div class="tile__label">Compliance-sensible Bereiche</div>
+        </a>
+      </div>
+
+      <div class="grid-3" style="margin-top:14px;">
+        <article class="card card--light">
+          <h3 class="card__title">Industry / Operations</h3>
+          <p class="card__text">Kontrollierte Ausführung in produktionsnahen oder geschäftskritischen Abläufen.</p>
+        </article>
+        <article class="card card--light">
+          <h3 class="card__title">Automation / Engineering</h3>
+          <p class="card__text">Governance-Gates für Automationsflows: wer, wann, was — und warum.</p>
+        </article>
+        <article class="card card--light">
+          <h3 class="card__title">Compliance / Risk</h3>
+          <p class="card__text">Audit-Fähigkeit und Explainability als Standard, nicht als Zusatz.</p>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="panel panel--dark" id="contact">
-    <div class="panel__inner">
-      <div class="kicker">Kontakt</div>
-      <h2>Kontakt / Private Access</h2>
-      <p class="sub">Schreib mir kurz, worum es geht. Antwort in der Regel innerhalb von 24–48h.</p>
+  <section class="section section--dark" id="contact">
+    <div class="wrap">
+      <div class="section__topline">
+        <h2 class="section__title section__title--dark">Kontakt</h2>
+        <div class="section__actions">
+          <a class="btn btn--primary" href="#contact">30-Min Call buchen</a>
+          <a class="btn btn--ghost" href="#contact">Private Access</a>
+        </div>
+      </div>
 
-      <form class="form"
-            action="https://formspree.io/f/xbdagyrw"
-            method="POST"
-            accept-charset="UTF-8">
+      <div class="contact">
+        <h3 class="contact__title">Kontakt / Private Access</h3>
+        <p class="contact__subtitle">Kurzer Kontext reicht. Antwort in der Regel innerhalb von 24–48h.</p>
 
-        <input type="hidden" name="_subject" value="ZAL’THERA — Kontaktanfrage" />
-        <input type="hidden" name="_next" value="/success.html" />
+        <!-- TODO: Replace Formspree URL -->
+        <form class="form" method="POST" action="https://formspree.io/f/XXXXXXXX">
+          <div class="form__row">
+            <label class="field">
+              <span class="field__label">Name</span>
+              <input class="field__input" type="text" name="name" placeholder="Dein Name" required />
+            </label>
 
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" placeholder="Dein Name" required />
-        </label>
+            <label class="field">
+              <span class="field__label">E-Mail</span>
+              <input class="field__input" type="email" name="email" placeholder="name@firma.de" required />
+            </label>
+          </div>
 
-        <label>
-          <span>E-Mail</span>
-          <input type="email" name="email" placeholder="dein.name@email.de" required />
-        </label>
+          <label class="field">
+            <span class="field__label">Interesse</span>
+            <select class="field__input" name="interest" required>
+              <option value="" selected disabled>Bitte auswählen…</option>
+              <option>Governance Architecture Assessment</option>
+              <option>Controlled Pilot Implementation</option>
+              <option>Governance Stack Integration</option>
+              <option>Allgemeine Anfrage</option>
+            </select>
+          </label>
 
-        <label>
-          <span>Interesse</span>
-          <select name="interest" required>
-            <option value="">Bitte auswählen…</option>
-            <option>Governance QuickCheck</option>
-            <option>Pilot-Projekt</option>
-            <option>Compliance / Audit</option>
-            <option>Industrie / Automatisierung</option>
-            <option>Sonstiges</option>
-          </select>
-        </label>
+          <label class="field">
+            <span class="field__label">Nachricht</span>
+            <textarea class="field__input field__textarea" name="message" rows="5"
+              placeholder="Kurz: System / Prozess / Risiko / Ziel / Timeline …" required></textarea>
+          </label>
 
-        <label>
-          <span>Nachricht</span>
-          <textarea name="message" placeholder="Kurz Kontext: System, Ziel, Risiko, Timeline …"></textarea>
-        </label>
+          <button class="btn btn--primary btn--full" type="submit">Absenden</button>
+          <p class="form__fineprint">Mit dem Absenden akzeptierst du unsere <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+        </form>
 
-        <button class="btn btn--solid" type="submit">Absenden</button>
-
-        <p class="tiny">
-          Mit dem Absenden akzeptierst du unsere
-          <a href="/datenschutz.html">Datenschutzerklärung</a>.
-        </p>
-      </form>
-
-      <p class="footer">
-        © 2026 ZAL’THERA · <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
-      </p>
+        <footer class="footer">
+          <span>© 2026 ZAL’THERA</span>
+          <span class="footer__sep">·</span>
+          <a href="impressum.html">Impressum</a>
+          <span class="footer__sep">·</span>
+          <a href="datenschutz.html">Datenschutz</a>
+        </footer>
+      </div>
     </div>
   </section>
 
