@@ -240,33 +240,64 @@
             </div>
           </div>
 
-          <!-- Formspree: replace action URL with your endpoint -->
-          <form class="form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+          <!--
+            FORMSPREE:
+            1) Replace action URL with your real endpoint (Formspree -> Settings -> Form endpoint)
+            2) success.html must exist in repo if you use _redirect (you already have it)
+          -->
+          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
+            <!-- optional: clean subject line in the email -->
+            <input type="hidden" name="_subject" value="ZAL’THERA — Website Anfrage (Private Access)" />
+            <!-- optional: redirect after submit -->
+            <input type="hidden" name="_redirect" value="https://zalthera.de/success.html" />
+            <!-- optional: anti-spam honeypot (must stay hidden via CSS) -->
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" />
+
             <div class="form-grid">
               <div class="field">
                 <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Dein Name" required />
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Dein Name"
+                  required
+                />
               </div>
 
               <div class="field">
                 <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="name@firma.de"
+                  required
+                />
               </div>
 
               <div class="field field-full">
                 <label for="interest">Interesse</label>
                 <select id="interest" name="interest" required>
                   <option value="" selected>Bitte auswählen…</option>
-                  <option>Assessment (Stufe 1)</option>
-                  <option>Pilot (Stufe 2)</option>
-                  <option>Integration (Stufe 3)</option>
-                  <option>Private Access</option>
+                  <option value="Assessment (Stufe 1)">Assessment (Stufe 1)</option>
+                  <option value="Pilot (Stufe 2)">Pilot (Stufe 2)</option>
+                  <option value="Integration (Stufe 3)">Integration (Stufe 3)</option>
+                  <option value="Private Access">Private Access</option>
                 </select>
               </div>
 
               <div class="field field-full">
                 <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Kurz: System / Prozess / Risiko / Ziel / Timeline …" required></textarea>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Kurz: System / Prozess / Risiko / Ziel / Timeline …"
+                  required
+                ></textarea>
               </div>
             </div>
 
@@ -296,4 +327,3 @@
   </script>
 </body>
 </html>
-
