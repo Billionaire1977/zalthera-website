@@ -1,53 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZAL’THERA — Governance & Audit</title>
 
-  <title>ZAL’THERA – Governance & Audit</title>
-  <meta name="description" content="Governance & Audit für KI- und Automationsprozesse. Kontrolliert. Nachvollziehbar. Ohne Autonomie." />
-
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="./styles.css?v=21" />
+  <link rel="icon" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css?v=10" />
 </head>
 
-<body>
+<body id="top">
 
-  <!-- NAV -->
   <header class="nav">
-    <div class="nav-left">ZAL’THERA</div>
-
-    <nav class="nav-center">
-      <a href="#home">Home</a>
+    <a class="brand" href="#top">ZAL’THERA</a>
+    <nav class="links">
+      <a href="#top">Home</a>
       <a href="#angebot">Angebot</a>
       <a href="#ueber">Über mich</a>
       <a href="#contact">Kontakt</a>
-      <a href="./impressum.html">Impressum</a>
-      <a href="./datenschutz.html">Datenschutz</a>
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutz</a>
     </nav>
-
-    <div class="nav-right">
-      <a class="btn-primary" href="#contact">30-Min Call buchen</a>
-    </div>
   </header>
 
   <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Governance &amp; Audit für<br>KI- und Automationsprozesse.</h1>
-      <p>Kontrolliert. Nachvollziehbar. Ohne Autonomie.</p>
+  <section class="hero hero--main" aria-label="Home">
+    <div class="overlay"></div>
 
-      <div class="hero-buttons">
-        <a class="btn-primary" href="#contact">30-Min Call buchen</a>
-        <a class="btn-secondary" href="#contact">Kontakt / Private Access</a>
+    <div class="hero__inner">
+      <div class="kicker">GOVERNANCE • IDENTITY • AUDIT</div>
+      <h1>Governance & Audit für<br/>KI- und Automationsprozesse.</h1>
+      <p class="sub">Kontrolliert. Nachvollziehbar. Ohne Autonomie.</p>
+
+      <div class="cta">
+        <a class="btn btn--solid" href="#angebot">30-Min Call buchen</a>
+        <a class="btn" href="#contact">Kontakt / Private Access</a>
       </div>
 
-      <div class="tag-row" aria-label="Schwerpunkte">
+      <div class="meta">
         <span>Policy</span>
         <span>Identity</span>
         <span>Safeguard</span>
@@ -55,95 +46,89 @@
         <span>Explainability</span>
       </div>
     </div>
+
+    <div class="fade"></div>
   </section>
 
-  <!-- WHAT I DO -->
-  <section id="ueber" class="audience">
-    <h2>Was ich tue:</h2>
+  <!-- ÜBERBLICK -->
+  <section class="panel panel--dark" id="ueber">
+    <div class="panel__inner">
+      <div class="kicker">Was ich tue</div>
+      <h2>Governance – nicht Marketing</h2>
+      <p class="sub">
+        Ich baue Governance-Flows, die riskante Aktionen verhindern, Entscheidungen nachvollziehbar machen
+        und Compliance vereinfachen — lokal, erklärbar und ohne Autonomie.
+      </p>
 
-    <div class="audience-grid" style="max-width:1050px; margin-bottom:26px;">
-      <div class="audience-tile" style="height:140px; background: rgba(255,255,255,0.06); background-image:none;">
-        <div class="audience-label" style="position:static; padding:18px 16px;">
-          <div style="font-weight:900; letter-spacing:0.06em;">Governance Layer</div>
-          <div style="margin-top:8px; font-weight:600; color:rgba(255,255,255,0.72); font-size:13px; line-height:1.5;">
-            Regeln, Freigaben, Kontrollstufen — damit Systeme kontrolliert ausführbar bleiben.
-          </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card__title">Governance Layer</div>
+          <div class="card__text">Regeln, Freigaben, Kontrollstufen — damit Systeme kontrolliert ausführbar bleiben.</div>
+        </div>
+        <div class="card">
+          <div class="card__title">Identity & Safeguards</div>
+          <div class="card__text">Berechtigungen & Schutzmechanismen — wer darf was, wann, wozu und warum.</div>
+        </div>
+        <div class="card">
+          <div class="card__title">Audit & Explainability</div>
+          <div class="card__text">Protokollierung & Nachvollziehbarkeit — Beweisbarkeit, Exporte, klare WHY-Ansichten.</div>
         </div>
       </div>
 
-      <div class="audience-tile" style="height:140px; background: rgba(255,255,255,0.06); background-image:none;">
-        <div class="audience-label" style="position:static; padding:18px 16px;">
-          <div style="font-weight:900; letter-spacing:0.06em;">Identity &amp; Safeguards</div>
-          <div style="margin-top:8px; font-weight:600; color:rgba(255,255,255,0.72); font-size:13px; line-height:1.5;">
-            Berechtigungen &amp; Schutzmechanismen — wer darf was, wann, wozu, und warum.
+      <div class="kicker" style="margin-top:36px;">Für wen ich arbeite</div>
+
+      <!-- ✅ Tiles with real backgrounds -->
+      <div class="tiles">
+        <div class="tile tile--industry">
+          <div class="tile__bg"></div>
+          <div class="tile__shade"></div>
+          <div class="tile__content">
+            <div class="tile__label">Mittelstand & Industrie</div>
           </div>
         </div>
-      </div>
 
-      <div class="audience-tile" style="height:140px; background: rgba(255,255,255,0.06); background-image:none;">
-        <div class="audience-label" style="position:static; padding:18px 16px;">
-          <div style="font-weight:900; letter-spacing:0.06em;">Audit &amp; Explainability</div>
-          <div style="margin-top:8px; font-weight:600; color:rgba(255,255,255,0.72); font-size:13px; line-height:1.5;">
-            Protokollierung &amp; Nachvollziehbarkeit — Beweisbarkeit, Exporte, klare WHY-Ansichten.
+        <div class="tile tile--automation">
+          <div class="tile__bg"></div>
+          <div class="tile__shade"></div>
+          <div class="tile__content">
+            <div class="tile__label">Automatisierungsteams</div>
+          </div>
+        </div>
+
+        <div class="tile tile--compliance">
+          <div class="tile__bg"></div>
+          <div class="tile__shade"></div>
+          <div class="tile__content">
+            <div class="tile__label">Compliance-sensible Bereiche</div>
           </div>
         </div>
       </div>
     </div>
-
-    <h2 style="margin-top:42px;">Für wen ich arbeite:</h2>
-
-    <!-- ✅ Deine 3 Bilder als Tiles (aus /assets) -->
-    <div class="audience-grid">
-      <div class="audience-tile audience-tile--industry">
-        <div class="audience-label">Mittelstand &amp; Industrie</div>
-      </div>
-
-      <div class="audience-tile audience-tile--automation">
-        <div class="audience-label">Automatisierungsteams</div>
-      </div>
-
-      <div class="audience-tile audience-tile--compliance">
-        <div class="audience-label">Compliance-sensitive Bereiche</div>
-      </div>
-    </div>
-
-    <p style="max-width:980px; margin:26px auto 0; color:rgba(255,255,255,0.68); font-size:13px; line-height:1.7;">
-      Ich baue Governance-Flows, die riskante Aktionen verhindern, Entscheidungen nachvollziehbar machen und Compliance
-      vereinfachen — lokal, erklärbar und ohne Autonomie.
-    </p>
   </section>
 
   <!-- ANGEBOT -->
-  <section id="angebot" class="audience" style="padding-top:66px;">
-    <h2>Unser Angebot:</h2>
+  <section class="panel panel--dark" id="angebot">
+    <div class="panel__inner">
+      <div class="kicker">Unser Angebot</div>
+      <h2>Start klar – und auditierbar</h2>
+      <p class="sub">Zwei Einstiege: schneller Blueprint oder Pilot-Umsetzung.</p>
 
-    <div class="audience-grid" style="grid-template-columns: repeat(2, minmax(0,1fr)); max-width:920px;">
-      <div class="audience-tile" style="height:auto; background-image:none; padding:0;">
-        <div style="padding:22px 20px 18px; position:relative; z-index:2;">
-          <div style="font-weight:900; letter-spacing:0.05em; font-size:15px;">Governance QuickCheck</div>
-          <div style="margin-top:8px; color:rgba(255,255,255,0.70); font-size:13px;">90 Min. Risikoanalyse &amp; Blueprint</div>
-
-          <div style="margin-top:14px; padding:10px 12px; border-radius:12px; background:rgba(0,0,0,0.22); border:1px solid rgba(255,255,255,0.14);">
-            <span style="font-weight:900;">ab 490 €</span>
-          </div>
-
-          <div style="margin-top:14px;">
-            <a class="btn-primary" href="#contact" style="width:100%;">QuickCheck anfragen</a>
+      <div class="cards" style="grid-template-columns: repeat(2, minmax(0,1fr));">
+        <div class="card" style="text-align:center;">
+          <div class="card__title">Governance QuickCheck</div>
+          <div class="card__text">90 Min. Risikoanalyse & Blueprint</div>
+          <div class="card__text" style="margin-top:10px; font-weight:900; color:rgba(255,255,255,0.88);">ab 490 €</div>
+          <div class="cta" style="margin-top:14px;">
+            <a class="btn btn--solid" href="#contact">QuickCheck anfragen</a>
           </div>
         </div>
-      </div>
 
-      <div class="audience-tile" style="height:auto; background-image:none; padding:0;">
-        <div style="padding:22px 20px 18px; position:relative; z-index:2;">
-          <div style="font-weight:900; letter-spacing:0.05em; font-size:15px;">Pilot-Projekt</div>
-          <div style="margin-top:8px; color:rgba(255,255,255,0.70); font-size:13px;">2–4 Wochen Umsetzung &amp; Testing</div>
-
-          <div style="margin-top:14px; padding:10px 12px; border-radius:12px; background:rgba(0,0,0,0.22); border:1px solid rgba(255,255,255,0.14);">
-            <span style="font-weight:900;">ab 2.500 €</span>
-          </div>
-
-          <div style="margin-top:14px;">
-            <a class="btn-primary" href="#contact" style="width:100%;">Pilot anfragen</a>
+        <div class="card" style="text-align:center;">
+          <div class="card__title">Pilot-Projekt</div>
+          <div class="card__text">2–4 Wochen Umsetzung & Testing</div>
+          <div class="card__text" style="margin-top:10px; font-weight:900; color:rgba(255,255,255,0.88);">ab 2.500 €</div>
+          <div class="cta" style="margin-top:14px;">
+            <a class="btn btn--solid" href="#contact">Pilot anfragen</a>
           </div>
         </div>
       </div>
@@ -151,41 +136,61 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <div class="contact-card">
+  <section class="panel panel--dark" id="contact">
+    <div class="panel__inner">
+      <div class="kicker">Kontakt</div>
       <h2>Kontakt / Private Access</h2>
-      <p>Schreib mir kurz, worum es geht. Antwort in der Regel innerhalb von 24–48h.</p>
+      <p class="sub">Schreib mir kurz, worum es geht. Antwort in der Regel innerhalb von 24–48h.</p>
 
-      <!-- Formspree: ersetze ACTION mit deiner Formspree URL -->
-      <form action="https://formspree.io/f/XXXXXXXX" method="POST">
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="E-Mail" required />
+      <form class="form"
+            action="https://formspree.io/f/xbdagyrw"
+            method="POST"
+            accept-charset="UTF-8">
 
-        <select name="interest" required>
-          <option value="" disabled selected>Interesse</option>
-          <option value="QuickCheck">QuickCheck</option>
-          <option value="Pilot-Projekt">Pilot-Projekt</option>
-          <option value="Private Access">Private Access</option>
-        </select>
+        <input type="hidden" name="_subject" value="ZAL’THERA — Kontaktanfrage" />
+        <input type="hidden" name="_next" value="/success.html" />
 
-        <textarea name="message" rows="5" placeholder="Kurz Kontext: System, Ziel, Risiko, Timeline ..." required></textarea>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Dein Name" required />
+        </label>
 
-        <button type="submit">Absenden</button>
+        <label>
+          <span>E-Mail</span>
+          <input type="email" name="email" placeholder="dein.name@email.de" required />
+        </label>
+
+        <label>
+          <span>Interesse</span>
+          <select name="interest" required>
+            <option value="">Bitte auswählen…</option>
+            <option>Governance QuickCheck</option>
+            <option>Pilot-Projekt</option>
+            <option>Compliance / Audit</option>
+            <option>Industrie / Automatisierung</option>
+            <option>Sonstiges</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Nachricht</span>
+          <textarea name="message" placeholder="Kurz Kontext: System, Ziel, Risiko, Timeline …"></textarea>
+        </label>
+
+        <button class="btn btn--solid" type="submit">Absenden</button>
+
+        <p class="tiny">
+          Mit dem Absenden akzeptierst du unsere
+          <a href="/datenschutz.html">Datenschutzerklärung</a>.
+        </p>
       </form>
 
-      <p style="margin-top:12px; font-size:12px; color:rgba(255,255,255,0.60); line-height:1.5;">
-        Mit dem Absenden akzeptierst du unsere <a href="./datenschutz.html">Datenschutzerklärung</a>.
+      <p class="footer">
+        © 2026 ZAL’THERA · <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
       </p>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    © 2026 ZAL’THERA · <a href="./impressum.html">Impressum</a> · <a href="./datenschutz.html">Datenschutz</a>
-  </footer>
-
-  <!-- Premium -->
-  <script src="./premium.js"></script>
 </body>
 </html>
 
