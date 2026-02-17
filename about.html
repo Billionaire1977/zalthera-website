@@ -1,26 +1,87 @@
-<section class="about-hero">
-  <div class="container about-hero-grid">
+<!-- about.html -->
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Über Patrick — ZAL’THERA</title>
+  <meta name="description" content="Über Patrick Walker — Founder von ZAL’THERA. Governance für KI & Automation: kontrolliert, nachvollziehbar, ohne Autonomie." />
 
-    <div class="about-hero-text">
-      <div class="eyebrow">FOUNDER · GOVERNANCE · AUDIT</div>
-      <h1>Kontrolle ist kein Feature.<br>Sie ist Verantwortung.</h1>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+</head>
 
-      <p class="lead">
-        Patrick Walker — Founder von ZAL’THERA.
-        Ich baue Governance für KI & Automation:
-        Aktionen laufen nur durch Policy, Identität,
-        Safeguards und Audit — ohne Autonomie.
-      </p>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html#home" aria-label="ZAL’THERA Home">
+        <span class="brand-mark">ZAL’THERA</span>
+      </a>
 
-      <div class="hero-actions">
-        <a href="#kontakt" class="btn primary">Governance anfragen</a>
-        <a href="#angebot" class="btn ghost">Angebot ansehen</a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#modell">Modell</a>
+        <a href="index.html#angebot">Angebot</a>
+        <a href="about.html">Über Patrick</a>
+        <a href="index.html#kontakt">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+
+      <div class="topbar-cta">
+        <a class="chip chip-cta" href="index.html#kontakt">30-Min Call</a>
       </div>
     </div>
+  </header>
 
-    <div class="about-hero-image">
-      <img src="assets/patrick-hero.png" alt="Patrick Walker">
-    </div>
+  <main>
+    <section class="about-hero">
+      <div class="container about-hero-grid">
 
-  </div>
-</section>
+        <div class="about-hero-text">
+          <div class="eyebrow">FOUNDER · GOVERNANCE · AUDIT</div>
+          <h1>Kontrolle ist kein Feature.<br>Sie ist Verantwortung.</h1>
+
+          <p class="lead">
+            Patrick Walker — Founder von ZAL’THERA.
+            Ich baue Governance für KI & Automation:
+            Aktionen laufen nur durch Policy, Identität, Safeguards und Audit — ohne Autonomie.
+          </p>
+
+          <div class="hero-actions">
+            <a href="index.html#kontakt" class="btn primary">Governance anfragen</a>
+            <a href="index.html#angebot" class="btn ghost">Angebot ansehen</a>
+          </div>
+
+          <div class="tag-row" role="list" aria-label="Key Tags">
+            <span class="tag" role="listitem">Controlled Execution</span>
+            <span class="tag" role="listitem">Identity & Safeguards</span>
+            <span class="tag" role="listitem">Audit & Explainability</span>
+            <span class="tag" role="listitem">Local-first</span>
+            <span class="tag" role="listitem">No Autonomy</span>
+          </div>
+        </div>
+
+        <div class="about-hero-image">
+          <img src="assets/patrick-hero.png" alt="Patrick Walker">
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer container" style="padding-bottom:28px;">
+      <div>© <span id="year"></span> ZAL’THERA</div>
+      <div class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <span>·</span>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
