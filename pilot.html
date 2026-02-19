@@ -1,106 +1,153 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — ZAL-Gate Pilot A</title>
-  <meta name="description" content="ZAL-Gate Pilot A: controlled deviation release for production & QA. Auditable. Traceable. No employee surveillance." />
-  <link rel="icon" href="assets/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZAL-Gate — Pilot A</title>
+  <meta name="description" content="Controlled deviation approval — auditable, explainable, no surveillance." />
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+  /* --- Hotfix: layout stability (nav/hero/sections) --- */
+  :root{--topbar-h:72px;}
+  html{scroll-behavior:smooth;}
+  body{padding-top:var(--topbar-h);}
+  section[id]{scroll-margin-top:calc(var(--topbar-h) + 16px);}
+
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:1000;}
+  .topbar .container{max-width:1200px;margin:0 auto;padding:0 20px;}
+  .topbar-inner{display:flex !important;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+  .topbar-brand{display:flex;align-items:center;gap:12px;min-width:180px;}
+  .topbar-nav{display:flex;align-items:center;gap:18px;flex-wrap:wrap;}
+  .topbar-nav a{white-space:nowrap;}
+  .topbar-cta{margin-left:auto;white-space:nowrap;}
+
+  @media (max-width: 980px){
+    :root{--topbar-h:92px;}
+  }
+  @media (max-width: 640px){
+    :root{--topbar-h:112px;}
+    .topbar-nav{gap:12px;}
+  }
+
+  .hero{position:relative;}
+  .hero-media img{width:100%;height:min(520px,60vh);object-fit:cover;border-radius:20px;display:block;}
+  .hero-panel{max-width:820px;}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:10px;}
+
+  img{max-width:100%;height:auto;}
+  .container{box-sizing:border-box;}
+  </style>
 </head>
 
 <body>
-  <header class="top">
-    <div class="wrap top-inner">
-      <a class="brand" href="index.html">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="topbar-brand" href="index.html" aria-label="Back to ZAL’THERA">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="index.html#modell">Model</a>
-        <a href="index.html#angebot">Offer</a>
-        <a href="index.html#kontakt">Contact</a>
-        <a href="ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf">PDF</a>
+      <nav class="topbar-nav" aria-label="Pilot navigation">
+        <a href="index.html#model">MODELL</a>
+        <a href="index.html#offer">ANGEBOT</a>
+        <a href="#usecase">USE CASE</a>
+        <a href="#scope">SCOPE</a>
+        <a href="#audit">AUDIT</a>
+        <a href="#onepager">ONE-PAGER</a>
       </nav>
 
-      <div class="top-actions">
-        <a class="btn pill" href="index.html#kontakt">30-Min Call</a>
-      </div>
+      <a class="topbar-cta btn pill" href="index.html#contact">30-Min Call</a>
     </div>
   </header>
 
-  <main class="hero hero-pilot">
-    <div class="wrap hero-inner">
-      <div class="hero-copy glass">
-        <div class="kicker">ZAL-GATE · CONTROLLED RELEASE · NO SURVEILLANCE</div>
-        <h1>ZAL-Gate — Pilot A</h1>
-        <p>
-          Controlled deviation release for production & QA processes.
-          Auditable. Traceable. Without employee surveillance.
-        </p>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-media">
+          <img src="assets/hero-pilot.jpg" alt="ZAL-Gate pilot scene" />
+        </div>
 
+        <div class="hero-panel glass">
+          <div class="kicker">ZAL-GATE · CONTROLLED RELEASE · NO SURVEILLANCE</div>
+          <h1>ZAL-Gate — Pilot A</h1>
+          <p>
+            Kontrollierte Abweichungsfreigabe für Produktions- und QS-Prozesse.
+            <strong>Auditierbar. Nachvollziehbar.</strong> Ohne Mitarbeiterüberwachung.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="index.html#contact">Pilot anfragen</a>
+            <a class="btn ghost" href="assets/ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf">Download PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="usecase" class="section">
+      <div class="container">
+        <h2>Use Case</h2>
+        <p>
+          Abweichungsfreigaben werden häufig über E-Mail oder informelle Prozesse dokumentiert.
+          ZAL-Gate ersetzt diese Struktur durch ein identitätsgebundenes, scoped und zeitlich begrenztes Freigabesystem.
+        </p>
+      </div>
+    </section>
+
+    <section id="scope" class="section">
+      <div class="container">
+        <h2>Scope</h2>
+        <div class="cards">
+          <article class="card glass">
+            <h3>Scope Units</h3>
+            <p>z. B. 20 Teile / 1 Charge / 1 Auftrag</p>
+          </article>
+          <article class="card glass">
+            <h3>Timebox</h3>
+            <p>z. B. 30 Minuten / 2 Stunden / Schichtfenster</p>
+          </article>
+          <article class="card glass">
+            <h3>Rollen</h3>
+            <p>Operator (Bediener) · TeamLead · optional QS</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="audit" class="section">
+      <div class="container">
+        <h2>Audit</h2>
+        <p>
+          Jede Freigabe enthält: <strong>Begründung</strong>, <strong>Evidence</strong> (Fotos/Notizen),
+          <strong>Identity</strong> (wer sign-off), sowie <strong>Export</strong> (Timeline + Paket).
+        </p>
+        <p class="note">
+          Kein Leistungs- oder Verhaltens-Tracking. Fokus ist Prozess-Sicherheit und Nachweisbarkeit.
+        </p>
+      </div>
+    </section>
+
+    <section id="onepager" class="section">
+      <div class="container">
+        <h2>One-Pager</h2>
+        <p>Kurze Übersicht als PDF für Weitergabe intern (QS/Produktion/Management).</p>
         <div class="hero-actions">
-          <a class="btn primary" href="index.html#kontakt">Request Pilot</a>
-          <a class="btn ghost" href="ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf">Download PDF</a>
-          <a class="btn soft" href="index.html">Back to site</a>
-        </div>
-
-        <div class="hero-badges">
-          <span class="badge">Local-first</span>
-          <span class="badge">No autonomy</span>
-          <span class="badge">Audit required</span>
-          <span class="badge">Privacy-by-Design</span>
+          <a class="btn primary" href="assets/ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf">One-Pager PDF öffnen</a>
+          <a class="btn ghost" href="index.html#contact">Pilot anfragen</a>
         </div>
       </div>
-    </div>
-    <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <footer class="footer">
+          <div>© 2026 ZAL’THERA</div>
+          <div class="footer-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+        </footer>
+      </div>
+    </section>
   </main>
-
-  <section class="section">
-    <div class="wrap">
-      <h2>Use Case</h2>
-      <div class="card glass">
-        <p>
-          Deviations are often documented via e-mail or informal processes.
-          ZAL-Gate replaces that with an identity-bound, scoped and timeboxed release workflow — fully auditable.
-        </p>
-        <ul>
-          <li>Release decision with reason + scope (lot/parts/time window)</li>
-          <li>Evidence attachment (photo/doc) and audit log</li>
-          <li>Exportable record for compliance & traceability</li>
-        </ul>
-      </div>
-
-      <div class="grid3" style="margin-top:16px">
-        <div class="card glass">
-          <h3>What it is</h3>
-          <p>Process & release governance. Proof instead of assumptions.</p>
-        </div>
-        <div class="card glass">
-          <h3>What it is not</h3>
-          <p>No employee monitoring, no behavior tracking, no hidden scoring.</p>
-        </div>
-        <div class="card glass">
-          <h3>Boundary</h3>
-          <p>No autonomous actions. No machine control. No parameter changes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <div class="muted">© <span id="year"></span> ZAL’THERA</div>
-      <div class="footer-links">
-        <a href="index.html#kontakt">Contact</a>
-        <a href="ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf">PDF</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
