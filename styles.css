@@ -449,5 +449,39 @@ input:focus, select:focus, textarea:focus{
   .about-portrait-media{aspect-ratio: 16 / 10;}
   .about-portrait-media img{object-position: 50% 18%;}
 }
+/* Language switch */
+.lang-switch{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  margin-right:10px;
+}
+.lang{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.05);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.12em;
+  opacity:.78;
+}
+.lang:hover{opacity:1}
+.lang.active{
+  opacity:1;
+  background: linear-gradient(180deg, rgba(120,150,255,.28), rgba(120,150,255,.14));
+  border-color: rgba(120,150,255,.38);
+}
+
+/* small legal note in EN page */
+.legal-note{
+  margin-top:10px;
+  font-size:12px;
+  color: rgba(242,243,246,.55);
+  text-align:center;
+}
 
 
