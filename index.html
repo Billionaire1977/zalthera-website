@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- Path: index.html -->
 <!doctype html>
 <html lang="de">
 <head>
@@ -11,9 +11,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
+  <link rel="canonical" href="https://zalthera.de/" />
+  <meta property="og:url" content="https://zalthera.de/" />
   <meta property="og:title" content="ZAL’THERA — Governance & Audit" />
   <meta property="og:description" content="Kontrollierte Ausführung für AI & Automation. Policy → Identity → Safeguard → Audit → Execute." />
   <meta property="og:image" content="assets/hero-web.png" />
+  <meta name="twitter:card" content="summary_large_image" />
 </head>
 
 <body>
@@ -240,8 +243,12 @@
             </div>
           </div>
 
-          <!-- Formspree: replace action URL with your endpoint -->
-          <form class="form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+          <!-- Formspree: replace endpoint -->
+          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
+            <!-- ✅ Redirect nach success.html -->
+            <input type="hidden" name="_next" value="https://zalthera.de/success.html">
+            <input type="hidden" name="_subject" value="ZAL’THERA — New Private Access Request">
+
             <div class="form-grid">
               <div class="field">
                 <label for="name">Name</label>
