@@ -3,301 +3,250 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — Governance & Audit</title>
-  <meta name="description" content="ZAL’THERA — Governance & Audit für KI- und Automationsprozesse. Kontrolliert. Nachvollziehbar. Ohne Autonomie." />
-
+  <title>ZAL’THERA — Governance OS</title>
+  <meta name="description" content="ZAL’THERA: Governance-gesteuerte Abweichungsfreigabe. Auditierbar. Nachvollziehbar. Ohne Mitarbeiterüberwachung." />
+  <link rel="icon" href="assets/favicon.png" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-
-  <meta property="og:title" content="ZAL’THERA — Governance & Audit" />
-  <meta property="og:description" content="Kontrollierte Ausführung für AI & Automation. Policy → Identity → Safeguard → Audit → Execute." />
-  <meta property="og:image" content="assets/hero-web.png" />
-
-  <link rel="alternate" hreflang="de" href="/" />
-  <link rel="alternate" hreflang="en" href="/en/" />
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="#home" aria-label="ZAL’THERA Home">
+  <!-- Topbar -->
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#top">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="#home">Home</a>
+      <nav class="nav">
+        <a href="#top">Home</a>
         <a href="#modell">Modell</a>
         <a href="#angebot">Angebot</a>
-        <a href="about.html">Über Patrick</a>
+        <a href="#patrick">Über Patrick</a>
         <a href="#fuerwen">Für wen</a>
+        <a href="pilot.html">Pilot A</a>
         <a href="#kontakt">Kontakt</a>
         <a href="impressum.html">Impressum</a>
         <a href="datenschutz.html">Datenschutz</a>
       </nav>
 
-      <div class="topbar-cta">
-        <div class="lang-switch" aria-label="Sprache">
-          <a class="lang active" href="/" aria-current="page">DE</a>
-          <a class="lang" href="/en/">EN</a>
-        </div>
-        <a class="chip chip-cta" href="#kontakt">30-Min Call</a>
+      <div class="top-actions">
+        <a class="btn pill" href="#kontakt">30-Min Call</a>
       </div>
     </div>
   </header>
 
-  <main id="home">
-    <!-- HERO -->
-    <section class="hero" aria-label="Hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-
-      <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">GOVERNANCE · IDENTITY · AUDIT · EXPLAINABILITY</div>
-          <h1>Kontrollierte Ausführung<br/>für AI &amp; Automation.</h1>
-          <p class="lead">
-            ZAL’THERA ist ein Governance-Rahmen für kritische Systeme:
-            Aktionen laufen nur durch Regeln, Identität und Audit — nicht durch Autonomie.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="#angebot">Angebot ansehen</a>
-            <a class="btn ghost" href="#kontakt">Kontakt / Private Access</a>
-          </div>
-
-          <div class="tag-row" role="list" aria-label="Key Tags">
-            <span class="tag" role="listitem">Policy → Identity → Safeguard → Audit → Execute</span>
-            <span class="tag" role="listitem">No Autonomy</span>
-            <span class="tag" role="listitem">Export-fähig</span>
-            <span class="tag" role="listitem">Board-tauglich</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-fade" aria-hidden="true"></div>
-    </section>
-
-    <!-- MODEL -->
-    <section id="modell" class="section">
-      <div class="container">
-        <h2>Das Modell</h2>
-        <p class="muted">
-          ZAL’THERA baut keine KI. ZAL’THERA baut den Kontrollrahmen darum.
-          Ergebnis: klare Verantwortlichkeit, nachvollziehbare Entscheidungen und auditierbare Ausführung.
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy glass">
+        <div class="kicker">Controlled Release · No Surveillance</div>
+        <h1>Governance für Abweichungsfreigaben — auditierbar, nachvollziehbar, ohne Mitarbeiterüberwachung.</h1>
+        <p>
+          ZAL’THERA bindet jede Freigabe an <b>Identität</b>, <b>Scope</b> und <b>Begründung</b> —
+          als beweisbare Entscheidungskette (Policy → Identity → Audit → Execute).
         </p>
 
-        <div class="flowbar" aria-label="Flow">
-          <span class="flow-pill">Policy</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Identity</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Safeguard</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Audit</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Execute</span>
+        <div class="hero-actions">
+          <a class="btn primary" href="#angebot">Angebot ansehen</a>
+          <a class="btn ghost" href="#kontakt">Kontakt</a>
+          <a class="btn soft" href="pilot.html">ZAL-Gate Pilot A · One-Pager</a>
+          <a class="btn soft" href="ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf" download>PDF herunterladen</a>
         </div>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title">
-              <span class="icon">🧩</span>
-              <strong>Governance</strong>
-            </div>
-            <p>Explizite Regeln statt impliziter Automatismen. Keine unsichtbaren Aktionen.</p>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title">
-              <span class="icon">🛡️</span>
-              <strong>Identity &amp; Safeguards</strong>
-            </div>
-            <p>Wer darf was — wann — wozu. Kritische Aktionen sind scoped &amp; timeboxed.</p>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title">
-              <span class="icon">📜</span>
-              <strong>Audit &amp; Explainability</strong>
-            </div>
-            <p>WHY/WHO/WHAT: Jede Entscheidung wird protokolliert, erklärbar und exportierbar.</p>
-          </div>
-        </div>
-
-        <div class="panel glass panel-wide">
-          <h3>Kern-Garantien</h3>
-          <ul>
-            <li><strong>Controlled Execution</strong> — Aktionen laufen nur durch Gates.</li>
-            <li><strong>Attribution</strong> — Identität, Scope, Target und Entscheidung sind gebunden.</li>
-            <li><strong>Audit Ready</strong> — vollständige Nachvollziehbarkeit inkl. Exporte.</li>
-            <li><strong>Explainable</strong> — klare Gründe für Allow/Block.</li>
-            <li><strong>No Autonomy</strong> — kein selbstständiges Handeln, keine Blackbox-Ausführung.</li>
-          </ul>
+        <div class="hero-badges">
+          <span class="badge">Local-first</span>
+          <span class="badge">Keine Autonomie</span>
+          <span class="badge">Audit-Pflicht</span>
+          <span class="badge">Privacy-by-Design</span>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- OFFER -->
-    <section id="angebot" class="section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">UNSER ANGEBOT</div>
-            <h2>Start klar — und auditierbar</h2>
-            <p class="muted">
-              Drei Einstiegspunkte. Premium-Scope: Preise werden nicht öffentlich diskutiert.
-              Du bekommst klare Deliverables, klare Grenzen, klare Nachweise.
-            </p>
-          </div>
-        </div>
-
-        <div class="offer-grid">
-          <div class="offer glass">
-            <div class="offer-top">
-              <div class="badge">Stufe 1</div>
-              <h3>Governance Architecture<br/>Assessment</h3>
-              <p class="muted">Risiko-Analyse, Gap-Mapping, Executive Report.</p>
-            </div>
-            <ul class="bullets">
-              <li>Risiko-Heatmap &amp; Scope</li>
-              <li>Governance-Blueprint</li>
-              <li>Prioritäten &amp; Roadmap</li>
-            </ul>
-            <a class="btn soft" href="#kontakt">Assessment anfragen</a>
-          </div>
-
-          <div class="offer glass focus">
-            <div class="offer-top">
-              <div class="badge">Stufe 2</div>
-              <h3>Controlled Pilot<br/>Implementation</h3>
-              <p class="muted">Ein kontrollierter Live-Prozess mit Gates &amp; Audit-Trail.</p>
-            </div>
-            <ul class="bullets">
-              <li>1 definierter Prozess</li>
-              <li>Safeguard + Timebox</li>
-              <li>Explainability View</li>
-            </ul>
-            <a class="btn primary" href="#kontakt">Pilot anfragen</a>
-          </div>
-
-          <div class="offer glass">
-            <div class="offer-top">
-              <div class="badge">Stufe 3</div>
-              <h3>Governance Stack<br/>Integration</h3>
-              <p class="muted">Skalierung auf mehrere Prozesse, Compliance-Struktur, Exporte.</p>
-            </div>
-            <ul class="bullets">
-              <li>Multi-Process Governance</li>
-              <li>Compliance Mapping</li>
-              <li>Reporting &amp; Exports</li>
-            </ul>
-            <a class="btn soft" href="#kontakt">Integration anfragen</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOR WHOM -->
-    <section id="fuerwen" class="section">
-      <div class="container">
-        <h2>Für wen ich arbeite</h2>
-        <p class="muted">
-          Für Produktions- &amp; QS-Teams, die Abweichungsfreigaben kontrolliert abwickeln müssen —
-          auditierbar, nachvollziehbar und ohne Mitarbeiterüberwachung.
-        </p>
-
-        <div class="tiles">
-          <a class="tile" href="#kontakt" aria-label="Produktion & QS">
-            <div class="tile-img" style="background-image:url('assets/tile-industry.png');"></div>
-            <div class="tile-label">PRODUKTION &amp; QS</div>
-          </a>
-
-          <a class="tile" href="#kontakt" aria-label="Abweichungsprozesse">
-            <div class="tile-img" style="background-image:url('assets/tile-automation.png');"></div>
-            <div class="tile-label">ABWEICHUNGSPROZESSE</div>
-          </a>
-
-          <a class="tile" href="#kontakt" aria-label="Audit & Compliance">
-            <div class="tile-img" style="background-image:url('assets/tile-compliance.png');"></div>
-            <div class="tile-label">AUDIT &amp; COMPLIANCE</div>
-          </a>
-        </div>
-
-        <p class="muted small">
-          ZAL’THERA bindet jede Freigabe an Identität, Scope und Begründung — und macht sie beweisbar.
-          <strong>Kein Tracking</strong> von Leistung oder Verhalten.
-        </p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="kontakt" class="section section-contact">
-      <div class="container">
-        <div class="contact-wrap glass">
-          <div class="contact-head">
-            <div>
-              <h2>Kontakt / Private Access</h2>
-              <p class="muted">Kurzer Kontext reicht. Antwort i. d. R. innerhalb von 24–48h.</p>
-            </div>
-
-            <div class="contact-actions">
-              <a class="chip chip-cta" href="#kontakt">30-Min Call buchen</a>
-              <a class="chip" href="mailto:contact@zalthera.de">E-Mail</a>
-            </div>
-          </div>
-
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <div class="form-grid">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Dein Name" required />
-              </div>
-
-              <div class="field">
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
-              </div>
-
-              <div class="field field-full">
-                <label for="interest">Interesse</label>
-                <select id="interest" name="interest" required>
-                  <option value="" selected>Bitte auswählen…</option>
-                  <option>Assessment (Stufe 1)</option>
-                  <option>Pilot (Stufe 2)</option>
-                  <option>Integration (Stufe 3)</option>
-                  <option>Private Access</option>
-                </select>
-              </div>
-
-              <div class="field field-full">
-                <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Kurz: System / Prozess / Risiko / Ziel / Timeline …" required></textarea>
-              </div>
-            </div>
-
-            <div class="form-footer">
-              <button class="btn primary" type="submit">Absenden</button>
-              <div class="fineprint">
-                Mit dem Absenden akzeptierst du unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
-          <div class="footer-links">
-            <a href="impressum.html">Impressum</a>
-            <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
-          </div>
-        </footer>
-      </div>
-    </section>
+    <div class="hero-bg" aria-hidden="true"></div>
   </main>
 
+  <!-- Modell -->
+  <section id="modell" class="section">
+    <div class="wrap">
+      <h2>Das Modell</h2>
+      <p class="sub">
+        Governance-Kette statt Tool-Chaos: Jede Freigabe ist nachvollziehbar, begründet und exportierbar.
+      </p>
+
+      <div class="grid3">
+        <div class="card glass">
+          <h3>Policy</h3>
+          <p>Was ist erlaubt? Was ist verboten? Regeln sind explizit.</p>
+        </div>
+        <div class="card glass">
+          <h3>Identity</h3>
+          <p>Wer hat entschieden? Rollen, Owner-Lock, Sign-off.</p>
+        </div>
+        <div class="card glass">
+          <h3>Audit</h3>
+          <p>Was ist passiert? Timeline + Export (Beweise statt Vermutungen).</p>
+        </div>
+      </div>
+
+      <div class="note glass">
+        <b>Wichtig:</b> ZAL’THERA ist <u>keine Mitarbeiterüberwachung</u>.
+        Es überwacht Prozesse & Freigaben — nicht Leistung oder Verhalten.
+      </div>
+    </div>
+  </section>
+
+  <!-- Angebot -->
+  <section id="angebot" class="section">
+    <div class="wrap">
+      <h2>Angebot</h2>
+      <p class="sub">Der schnellste Weg zu einem zahlbaren Pilot — ohne Umwege.</p>
+
+      <div class="offers">
+        <div class="offer glass">
+          <h3>QuickCheck (Remote)</h3>
+          <p>90-Min Blueprint: Use-Case, Scope, Rollen, Audit-Format, Pilot-Plan.</p>
+          <ul>
+            <li>Use-Case Definition</li>
+            <li>Risiken & No-Go Grenzen</li>
+            <li>Entscheidungs- und Audit-Schema</li>
+          </ul>
+          <a class="btn soft" href="#kontakt">Anfragen</a>
+        </div>
+
+        <div class="offer glass focus">
+          <h3>Pilot A — ZAL-Gate</h3>
+          <p class="muted">
+            Kontrollierte Abweichungsfreigabe für Produktions- und QS-Prozesse.
+            Auditierbar. Nachvollziehbar. Ohne Mitarbeiterüberwachung.
+          </p>
+
+          <div class="hero-actions" style="margin-top:10px">
+              <a class="btn primary" href="#kontakt">Pilot anfragen</a>
+              <a class="btn soft" href="pilot.html">Pilot A · One-Pager</a>
+              <a class="btn soft" href="ZALTHERA_OnePager_ZAL-Gate_PilotA_v1.0.pdf" download>One-Pager PDF</a>
+          </div>
+
+          <div class="mini grid2" style="margin-top:14px">
+            <div class="mini-card glass">
+              <b>Scope</b>
+              <div class="muted">Zeitfenster + Stückzahl/Charge</div>
+            </div>
+            <div class="mini-card glass">
+              <b>Audit</b>
+              <div class="muted">Begründung + Evidence + Export</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer glass">
+          <h3>Governance Doku & Training</h3>
+          <p>Rollout-Material, Onboarding, klare Begriffe, klare Grenzen.</p>
+          <ul>
+            <li>Keine Autonomie</li>
+            <li>Keine Cloud-Pflicht</li>
+            <li>Explizite Zuständigkeiten</li>
+          </ul>
+          <a class="btn soft" href="#kontakt">Anfragen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Für wen -->
+  <section id="fuerwen" class="section">
+    <div class="wrap">
+      <h2>Für wen ich arbeite</h2>
+      <p class="sub">
+        Für Produktions- & QS-Teams, die Abweichungsfreigaben kontrolliert abwickeln müssen —
+        auditierbar, nachvollziehbar und ohne Mitarbeiterüberwachung.
+      </p>
+
+      <div class="tiles">
+        <div class="tile glass">
+          <img src="assets/tile-industry.png" alt="Produktion & QS" />
+          <div class="tile-label">PRODUKTION & QS</div>
+        </div>
+        <div class="tile glass">
+          <img src="assets/tile-automation.png" alt="Abweichungsprozesse" />
+          <div class="tile-label">ABWEICHUNGSPROZESSE</div>
+        </div>
+        <div class="tile glass">
+          <img src="assets/tile-compliance.png" alt="Audit & Compliance" />
+          <div class="tile-label">AUDIT & COMPLIANCE</div>
+        </div>
+      </div>
+
+      <p class="muted" style="margin-top:10px">
+        ZAL’THERA bindet jede Freigabe an Identität, Scope und Begründung — und macht sie beweisbar.
+        <b>Kein Tracking</b> von Leistung oder Verhalten.
+      </p>
+    </div>
+  </section>
+
+  <!-- Über Patrick -->
+  <section id="patrick" class="section">
+    <div class="wrap">
+      <h2>Über Patrick</h2>
+      <div class="card glass">
+        <p>
+          Ich baue Governance-Systeme, die Entscheidungen nachvollziehbar machen:
+          <b>Policy → Identity → Audit → Execute</b>.
+          Fokus: Industrie-Use-Cases, Freigaben, Safety, Compliance — ohne Überwachungscharakter.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="section">
+    <div class="wrap">
+      <h2>Kontakt / Private Access</h2>
+      <p class="sub">Kurzer Kontext reicht. Antwort i. d. R. innerhalb von 24–48h.</p>
+
+      <div class="card glass">
+        <!-- Formspree -->
+        <form action="https://formspree.io/f/xbdagyrw" method="POST" class="form">
+          <div class="row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Name" required />
+            </div>
+            <div class="field">
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" placeholder="name@firma.de" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="msg">Nachricht</label>
+            <textarea id="msg" name="message" rows="5" placeholder="Worum geht’s? (Use-Case, Kontext, Ziel)"></textarea>
+          </div>
+
+          <input type="hidden" name="_subject" value="ZAL’THERA Website Anfrage" />
+          <input type="hidden" name="_next" value="success.html" />
+
+          <div class="actions">
+            <button class="btn primary" type="submit">Senden</button>
+            <a class="btn soft" href="mailto:contact@zalthera.de">E-Mail</a>
+            <a class="btn pill" href="#top">Zurück nach oben</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="muted">© <span id="year"></span> ZAL’THERA</div>
+      <div class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
