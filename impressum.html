@@ -1,60 +1,102 @@
-<!-- Path: impressum.html -->
+<!-- impressum.html -->
 <!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — Impressum</title>
+  <title>Impressum — ZAL’THERA</title>
   <meta name="description" content="Impressum von ZAL’THERA." />
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+      <a class="brand" href="index.html#home" aria-label="ZAL’THERA Home">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#modell">Modell</a>
+        <a href="index.html#angebot">Angebot</a>
+        <a href="about.html">Über Patrick</a>
+        <a href="index.html#fuerwen">Für wen</a>
+        <a href="index.html#kontakt">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="index.html#kontakt">Kontakt</a>
+        <a class="chip chip-cta" href="index.html#kontakt">30-Min Call</a>
       </div>
     </div>
   </header>
 
-  <main class="section">
-    <div class="container">
-      <div class="panel glass">
-        <div class="eyebrow">LEGAL</div>
-        <h2>Impressum</h2>
-        <p class="muted">Bitte hier deine Impressumsdaten eintragen (Name, Anschrift, Kontakt, ggf. USt-ID).</p>
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Impressum</h1>
+        <p class="muted">Angaben gemäß § 5 TMG</p>
 
         <div class="panel glass panel-wide">
-          <h3>Angaben gemäß § 5 TMG</h3>
+          <h2 style="margin-top:0">Diensteanbieter</h2>
+
           <p>
             <strong>Patrick Walker</strong><br/>
-            [Straße Hausnr.]<br/>
-            [PLZ Ort]<br/>
+            Stauffenbergstraße 138<br/>
+            96052 Bamberg<br/>
             Deutschland
           </p>
 
-          <h3>Kontakt</h3>
+          <h2>Kontakt</h2>
           <p>
             E-Mail: <a href="mailto:contact@zalthera.de">contact@zalthera.de</a>
           </p>
 
-          <h3>Haftungshinweis</h3>
+          <h2>Haftung für Inhalte</h2>
           <p class="muted">
-            Inhalte werden sorgfältig gepflegt. Für externe Links wird keine Haftung übernommen.
+            Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+            Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen
+            oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+          </p>
+
+          <h2>Haftung für Links</h2>
+          <p class="muted">
+            Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+            Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+            Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+          </p>
+
+          <h2>Urheberrecht</h2>
+          <p class="muted">
+            Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
+            Beiträge Dritter sind als solche gekennzeichnet.
           </p>
         </div>
 
-        <div style="margin-top:14px;">
-          <a class="btn primary" href="index.html">Zur Startseite</a>
-        </div>
+        <div style="height:18px"></div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> ZAL’THERA</div>
+          <div class="footer-links">
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+        </footer>
       </div>
-    </div>
+    </section>
   </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
 
 
