@@ -1,17 +1,20 @@
-<!-- success.html -->
+<!-- Path: success.html -->
 <!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Gesendet — ZAL’THERA</title>
+  <title>ZAL’THERA — Anfrage gesendet</title>
+  <meta name="description" content="Danke. Deine Anfrage ist angekommen." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="index.html#home"><span class="brand-mark">ZAL’THERA</span></a>
+      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+        <span class="brand-mark">ZAL’THERA</span>
+      </a>
       <div class="topbar-cta">
         <a class="chip chip-cta" href="index.html#kontakt">Zurück</a>
       </div>
@@ -20,12 +23,16 @@
 
   <main class="section">
     <div class="container">
-      <div class="panel glass panel-wide">
-        <h2>Gesendet.</h2>
+      <div class="panel glass">
+        <div class="eyebrow">SUCCESS</div>
+        <h2>Anfrage gesendet.</h2>
         <p class="muted">
-          Danke. Ich melde mich in der Regel innerhalb von 24–48 Stunden.
+          Danke. Deine Nachricht ist angekommen. Ich melde mich i. d. R. innerhalb von 24–48h.
         </p>
-        <a class="btn primary" href="index.html#home">Zur Startseite</a>
+        <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn primary" href="index.html">Zur Startseite</a>
+          <a class="btn ghost" href="mailto:contact@zalthera.de">E-Mail senden</a>
+        </div>
       </div>
     </div>
   </main>
