@@ -6,13 +6,13 @@
   <title>ZAL’THERA — Digital Systems for Real Processes</title>
   <meta name="description" content="LifeFlow, ProofFlow and ShiftLog — digital systems by ZAL’THERA for visible processes, verifiable proof and structured handovers." />
 
-  <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
 
   <meta property="og:title" content="ZAL’THERA — Digital Systems for Real Processes" />
   <meta property="og:description" content="LifeFlow shows what is really happening. ProofFlow documents it as proof. ShiftLog makes handovers digitally traceable." />
-  <meta property="og:image" content="/assets/hero-web.png" />
+  <meta property="og:image" content="../assets/hero-web.png" />
 
   <link rel="alternate" hreflang="de" href="/" />
   <link rel="alternate" hreflang="en" href="/en/" />
@@ -21,7 +21,7 @@
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="#home" aria-label="ZAL’THERA Home">
+      <a class="brand" href="/en/" aria-label="ZAL’THERA Home">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
@@ -30,10 +30,11 @@
         <a href="#systems">Systems</a>
         <a href="#advantages">Advantages</a>
         <a href="#industries">Industries</a>
-        <a href="/lifeflow.html">LifeFlow</a>
-        <a href="/proofflow.html">ProofFlow</a>
-        <a href="/shiftlog.html">ShiftLog</a>
-        <a href="/core.html">CORE</a>
+        <a href="/en/lifeflow.html">LifeFlow</a>
+        <a href="/en/proofflow.html">ProofFlow</a>
+        <a href="/en/shiftlog.html">ShiftLog</a>
+        <a href="/en/core.html">CORE</a>
+        <a href="/en/pilot.html">Pilot</a>
         <a href="#contact">Contact</a>
         <a href="/impressum.html">Imprint</a>
         <a href="/datenschutz.html">Privacy</a>
@@ -51,7 +52,8 @@
 
   <main id="home">
     <section class="hero" aria-label="Hero">
-      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
+      <div class="hero-bg" aria-hidden="true"
+           style="background-image:url('../assets/hero-web.png');"></div>
 
       <div class="container hero-content">
         <div class="hero-panel">
@@ -164,17 +166,17 @@
 
         <div class="tiles">
           <a class="tile" href="/en/proofflow.html" aria-label="Industry and production">
-            <div class="tile-img" style="background-image:url('/assets/tile-industry.png');"></div>
+            <div class="tile-img" style="background-image:url('../assets/tile-industry.png');"></div>
             <div class="tile-label">INDUSTRY &amp; PRODUCTION</div>
           </a>
 
           <a class="tile" href="/en/shiftlog.html" aria-label="Handovers and teams">
-            <div class="tile-img" style="background-image:url('/assets/tile-compliance.png');"></div>
+            <div class="tile-img" style="background-image:url('../assets/tile-compliance.png');"></div>
             <div class="tile-label">HANDOVERS &amp; TEAMS</div>
           </a>
 
           <a class="tile" href="/en/lifeflow.html" aria-label="Visibility and flow">
-            <div class="tile-img" style="background-image:url('/assets/tile-automation.png');"></div>
+            <div class="tile-img" style="background-image:url('../assets/tile-automation.png');"></div>
             <div class="tile-label">VISIBILITY &amp; FLOW</div>
           </a>
         </div>
@@ -217,6 +219,7 @@
           </div>
 
           <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
+            <input type="hidden" name="subject" value="ZAL'THERA Website Inquiry" />
             <div class="form-grid">
               <div class="field">
                 <label for="name">Name</label>
