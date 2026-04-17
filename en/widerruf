@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Withdrawal — ZAL’THERA</title>
+
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <main class="section">
+    <div class="container">
+      <h1>Right of Withdrawal</h1>
+
+      <p>
+        You have the right to withdraw from this contract within 14 days.
+      </p>
+
+      <p>
+        For digital products, the right of withdrawal may expire once access is granted.
+      </p>
+
+      <p>
+        To exercise your right, contact:
+        contact@zalthera.de
+      </p>
+
+      <a class="btn primary" href="/en/lifeflow.html">Back</a>
+    </div>
+  </main>
+</body>
+</html>
