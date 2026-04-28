@@ -3,333 +3,299 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>ZAL’THERA – Reality Control System</title>
+  <meta name="description" content="ZAL’THERA ist ein Reality Control System: Policy, Identity, Audit und Execute. Ein System, das Realität sichtbar macht, Verantwortung zuordnet und Chaos beendet." />
 
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif;
-      background: #000;
-      color: #fff;
-      line-height: 1.5;
-    }
-
-    .page {
-      max-width: 1050px;
-      margin: 0 auto;
-      padding: 32px 22px 80px;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 80px;
-    }
-
-    .brand {
-      font-size: 24px;
-      font-weight: 900;
-      letter-spacing: -0.03em;
-    }
-
-    .badge {
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: rgba(59,175,255,0.14);
-      color: #3BAFFF;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    h1 {
-      font-size: clamp(48px, 9vw, 92px);
-      line-height: 0.95;
-      letter-spacing: -0.06em;
-      margin: 0 0 28px;
-    }
-
-    h2 {
-      font-size: clamp(30px, 5vw, 48px);
-      letter-spacing: -0.04em;
-      margin: 0 0 18px;
-    }
-
-    p {
-      font-size: 19px;
-      color: #bdbdbd;
-      margin: 0 0 16px;
-    }
-
-    .hero {
-      margin-bottom: 70px;
-    }
-
-    .blue { color: #3BAFFF; }
-    .green { color: #2ECC71; }
-    .gold { color: #D7A94F; }
-
-    section {
-      margin: 42px 0;
-      padding: 30px;
-      border-radius: 30px;
-      background: linear-gradient(180deg, #0B1018, #050505);
-      border: 1px solid #202020;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 16px;
-      margin-top: 24px;
-    }
-
-    .card {
-      padding: 22px;
-      border-radius: 24px;
-      background: #111;
-      border: 1px solid #272727;
-    }
-
-    .card strong {
-      display: block;
-      font-size: 21px;
-      margin-bottom: 8px;
-      color: #fff;
-    }
-
-    .chain {
-      font-size: clamp(24px, 5vw, 42px);
-      font-weight: 900;
-      color: #fff;
-      margin-top: 18px;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 28px;
-    }
-
-    .button {
-      display: inline-block;
-      text-decoration: none;
-      padding: 16px 22px;
-      border-radius: 16px;
-      font-weight: 800;
-      font-size: 17px;
-    }
-
-    .primary {
-      background: #3BAFFF;
-      color: #000;
-    }
-
-    .secondary {
-      background: #151515;
-      color: #fff;
-      border: 1px solid #2a2a2a;
-    }
-
-    ul {
-      padding-left: 22px;
-      color: #cfcfcf;
-      font-size: 18px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .warning {
-      border-color: rgba(255,193,7,0.35);
-      background: rgba(255,193,7,0.06);
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 70px;
-      color: #777;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 </head>
 
 <body>
-  <div class="page">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+        <span class="brand-mark">ZAL’THERA</span>
+      </a>
 
-    <header>
-      <div class="brand">ZAL’THERA</div>
-      <div class="badge">Reality Control System</div>
-    </header>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Home</a>
+        <a href="core.html">LifeVault</a>
+        <a href="lifeflow.html">LifeFlow</a>
+        <a href="proofflow.html">ProofFlow</a>
+        <a href="shiftlog.html">ShiftLog</a>
+        <a href="pilot.html">Pilot</a>
+        <a href="about.html">Über Patrick</a>
+      </nav>
 
-    <main>
+      <div class="topbar-cta">
+        <a class="chip chip-cta"
+           href="https://www.paypal.com/paypalme/zaltheralifevault/29"
+           target="_blank"
+           rel="noopener">
+          LifeVault 29€
+        </a>
+      </div>
+    </div>
+  </header>
 
-      <section class="hero">
-        <h1>
-          Realität sichtbar machen.<br />
-          Verantwortung auslösen.<br />
-          <span class="blue">Chaos beenden.</span>
-        </h1>
+  <main>
+    <section class="hero hero-system" aria-label="ZAL’THERA Hero">
+      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
-        <p>
-          ZAL’THERA ist ein System, das Zustände sichtbar macht, Regeln prüft,
-          Verantwortung zuordnet und Aktionen nachvollziehbar macht.
-        </p>
+      <div class="container hero-content">
+        <div class="hero-panel">
+          <div class="kicker">REALITY CONTROL SYSTEM</div>
+          <div class="hero-product">ZAL’THERA</div>
 
-        <p>
-          Es geht nicht um eine einzelne App. Es geht um eine Kette, die reale Probleme strukturiert löst.
-        </p>
-      </section>
+          <h1>
+            Realität sichtbar machen.<br />
+            Verantwortung auslösen.<br />
+            Chaos beenden.
+          </h1>
 
-      <section>
+          <p class="lead">
+            ZAL’THERA ist ein System, das Zustände sichtbar macht, Regeln prüft,
+            Verantwortung zuordnet und Aktionen nachvollziehbar macht.
+          </p>
+
+          <p class="lead">
+            Es geht nicht um eine einzelne App. Es geht um eine Kette, die reale Probleme strukturiert löst.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="core.html">LifeVault ansehen</a>
+            <a class="btn ghost" href="#principle">Kernprinzip</a>
+          </div>
+
+          <div class="tag-row" role="list" aria-label="ZAL’THERA Tags">
+            <span class="tag" role="listitem">Policy</span>
+            <span class="tag" role="listitem">Identity</span>
+            <span class="tag" role="listitem">Audit</span>
+            <span class="tag" role="listitem">Execute</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-fade" aria-hidden="true"></div>
+    </section>
+
+    <section id="principle" class="section">
+      <div class="container">
         <h2>Das Kernprinzip</h2>
-        <p>
+        <p class="muted">
           Jede Handlung läuft durch eine klare Kontrollkette.
           Nicht Gefühl. Nicht Chaos. Nicht Zufall.
         </p>
 
-        <div class="chain">
-          Policy → Identity → Audit → Execute
+        <div class="flowbar" aria-label="ZAL’THERA Kontrollkette">
+          <span class="flow-pill">Policy</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-pill">Identity</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-pill">Audit</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-pill">Execute</span>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
+    <section class="section">
+      <div class="container">
         <h2>Was ZAL’THERA macht</h2>
 
-        <div class="grid">
-          <div class="card">
-            <strong>Policy</strong>
+        <div class="cards-3">
+          <div class="card glass">
+            <div class="card-title"><span class="icon">⚖️</span><strong>Policy</strong></div>
             <p>Regeln definieren, was erlaubt, offen, kritisch oder blockiert ist.</p>
           </div>
 
-          <div class="card">
-            <strong>Identity</strong>
+          <div class="card glass">
+            <div class="card-title"><span class="icon">🧬</span><strong>Identity</strong></div>
             <p>Jede Handlung wird einer Person, Rolle oder Verantwortung zugeordnet.</p>
           </div>
 
-          <div class="card">
-            <strong>Audit</strong>
+          <div class="card glass">
+            <div class="card-title"><span class="icon">🧾</span><strong>Audit</strong></div>
             <p>Alles Wichtige wird nachvollziehbar dokumentiert.</p>
           </div>
-
-          <div class="card">
-            <strong>Execute</strong>
-            <p>Aktionen werden erst ausgelöst, wenn die Kette erfüllt ist.</p>
-          </div>
         </div>
-      </section>
 
-      <section>
+        <div class="panel glass panel-wide">
+          <p>
+            <strong>Execute</strong> bedeutet: Eine Aktion wird erst ausgelöst, wenn die Kette erfüllt ist.
+            Dadurch entstehen Klarheit, Kontrolle und Nachvollziehbarkeit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
         <h2>Ein System. Viele Anwendungsbereiche.</h2>
+        <p class="muted">
+          ZAL’THERA ist der Kern. Die Apps und Module sind verschiedene Anwendungen derselben Logik.
+        </p>
 
-        <div class="grid">
-          <div class="card">
-            <strong>LifeVault</strong>
-            <p>Dokumente, Verträge, Finanzen, Nachweise und offene Punkte im privaten Leben sichtbar machen.</p>
+        <div class="offer-grid">
+          <div class="offer glass">
+            <div class="offer-top">
+              <div class="badge">Privat</div>
+              <h3>LifeVault</h3>
+              <p class="muted">Dokumente, Verträge, Finanzen, Nachweise und offene Punkte im privaten Leben sichtbar machen.</p>
+            </div>
+            <a class="btn soft" href="core.html">LifeVault öffnen</a>
           </div>
 
-          <div class="card">
-            <strong>EasyProof</strong>
-            <p>Aufgaben erst abschließen, wenn der notwendige Nachweis vorhanden ist.</p>
+          <div class="offer glass focus">
+            <div class="offer-top">
+              <div class="badge">Nachweis</div>
+              <h3>EasyProof</h3>
+              <p class="muted">Aufgaben erst abschließen, wenn der notwendige Nachweis vorhanden ist.</p>
+            </div>
+            <a class="btn soft" href="proofflow.html">ProofFlow ansehen</a>
           </div>
 
-          <div class="card">
-            <strong>LifeShield</strong>
-            <p>Menschen in Gefahr mit einem Signal sichtbar machen und Hilfe aktivieren.</p>
-          </div>
-
-          <div class="card">
-            <strong>ZAL-Gate</strong>
-            <p>Industrieprozesse, Verantwortung, Prüfungen und Eskalationen nachvollziehbar steuern.</p>
+          <div class="offer glass">
+            <div class="offer-top">
+              <div class="badge">Industrie</div>
+              <h3>ZAL-Gate</h3>
+              <p class="muted">Industrieprozesse, Verantwortung, Prüfungen und Eskalationen nachvollziehbar steuern.</p>
+            </div>
+            <a class="btn soft" href="pilot.html">Pilot ansehen</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
+    <section class="section">
+      <div class="container">
         <h2>Warum das wichtig ist</h2>
-        <p>
+        <p class="muted">
           Viele Probleme entstehen nicht, weil Menschen nichts tun wollen.
           Sie entstehen, weil Zustände unsichtbar bleiben.
         </p>
 
-        <ul>
-          <li>Pflichten werden übersehen</li>
-          <li>Nachweise fehlen</li>
-          <li>Verantwortung bleibt unklar</li>
-          <li>Probleme werden weitergegeben</li>
-          <li>Entscheidungen basieren auf Gefühl statt Fakten</li>
-        </ul>
+        <div class="cards-3">
+          <div class="card glass">
+            <div class="card-title"><span class="icon">⚠️</span><strong>Pflichten werden übersehen</strong></div>
+            <p>Was nicht sichtbar ist, wird oft nicht rechtzeitig erledigt.</p>
+          </div>
 
-        <p>
-          ZAL’THERA macht genau diese Punkte sichtbar.
-        </p>
-      </section>
+          <div class="card glass">
+            <div class="card-title"><span class="icon">🔍</span><strong>Nachweise fehlen</strong></div>
+            <p>Ohne Nachweis entstehen Diskussionen, Schuldfragen und Unsicherheit.</p>
+          </div>
 
-      <section>
-        <h2>Aktuell verfügbar: LifeVault</h2>
-        <p>
-          LifeVault ist der erste private Stack innerhalb von ZAL’THERA.
-          Er hilft dabei, Dokumente, Kosten, Verträge, Nachweise und offene Punkte zu strukturieren.
-        </p>
-
-        <p>
-          Kernsatz:
-          <strong>Ich speichere es einmal – und finde es für immer.</strong>
-        </p>
-
-        <div class="cta-row">
-          <a class="button primary" href="DEIN_PAYPAL_LINK_HIER">LifeVault vorbestellen</a>
-          <a class="button secondary" href="#testflight">Testzugang vormerken</a>
+          <div class="card glass">
+            <div class="card-title"><span class="icon">🔗</span><strong>Verantwortung bleibt unklar</strong></div>
+            <p>ZAL’THERA ordnet Zustand, Person, Regel und Handlung zusammen.</p>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="testflight" class="warning">
-        <h2>Limitierter TestFlight-Zugang</h2>
-        <p>
-          LifeVault befindet sich aktuell in einer aktiven iOS-Testphase.
-          Ein begrenzter Kreis von Nutzern kann vor dem offiziellen Release Zugang zur Testversion über Apple TestFlight erhalten.
-        </p>
+    <section class="section">
+      <div class="container">
+        <div class="panel glass panel-wide">
+          <div class="eyebrow">AKTUELL VERFÜGBAR</div>
+          <h2>LifeVault Early Access</h2>
 
-        <p>
-          Wer LifeVault vorbestellt, kann sich für einen limitierten Testplatz vormerken lassen.
-        </p>
+          <p class="muted">
+            LifeVault ist der erste private Stack innerhalb von ZAL’THERA.
+            Er hilft dabei, Dokumente, Kosten, Verträge, Nachweise und offene Punkte zu strukturieren.
+          </p>
 
-        <ul>
-          <li>Nur für iPhone / iOS</li>
-          <li>Freischaltung nach Verfügbarkeit</li>
-          <li>Testplätze sind begrenzt</li>
-          <li>Feedback kann in die finale Version einfließen</li>
-        </ul>
-      </section>
+          <p>
+            <strong>Kernsatz:</strong> Ich speichere es einmal – und finde es für immer.
+          </p>
 
-      <section>
-        <h2>English Summary</h2>
-        <p>
-          ZAL’THERA is a reality control system based on a clear chain:
-          Policy → Identity → Audit → Execute.
-        </p>
+          <div class="hero-actions">
+            <a class="btn primary"
+               href="https://www.paypal.com/paypalme/zaltheralifevault/29"
+               target="_blank"
+               rel="noopener">
+              LifeVault 29€ sichern
+            </a>
 
-        <p>
-          It makes states visible, assigns responsibility, stores proof and triggers action only when the system rules are fulfilled.
-        </p>
+            <a class="btn ghost" href="core.html">Mehr erfahren</a>
+          </div>
 
-        <p>
-          LifeVault is the first private stack inside ZAL’THERA and is currently available for preorder with limited TestFlight access.
-        </p>
-      </section>
+          <p class="fineprint" style="margin-top:12px;">
+            Early Access über PayPal. TestFlight-Zugang ist begrenzt und wird nach Verfügbarkeit freigeschaltet.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <section class="section section-contact">
+      <div class="container">
+        <div class="contact-wrap glass">
+          <div class="contact-head">
+            <div>
+              <h2>Kontakt</h2>
+              <p class="muted">Fragen zu ZAL’THERA, LifeVault oder einem Pilotprojekt?</p>
+            </div>
 
-    <footer>
-      ZAL’THERA · Reality. Responsibility. Control.
-    </footer>
+            <div class="contact-actions">
+              <a class="chip chip-cta" href="mailto:contact@zalthera.de">E-Mail senden</a>
+              <a class="chip" href="core.html">LifeVault</a>
+            </div>
+          </div>
 
-  </div>
+          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
+            <input type="hidden" name="subject" value="ZAL’THERA Anfrage" />
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Dein Name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">E-Mail</label>
+                <input id="email" name="email" type="email" placeholder="deine@email.de" required />
+              </div>
+
+              <div class="field field-full">
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="5" placeholder="Deine Nachricht …" required></textarea>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <button class="btn primary" type="submit">Senden</button>
+              <div class="fineprint">
+                Mit dem Absenden akzeptierst du unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> ZAL’THERA</div>
+          <div class="footer-links">
+            <a href="about.html">Über Patrick</a>
+            <span>·</span>
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+            <span>·</span>
+            <a href="agb.html">AGB</a>
+            <span>·</span>
+            <a href="widerruf.html">Widerruf</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
 
 
 
