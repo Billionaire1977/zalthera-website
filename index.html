@@ -1,293 +1,338 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — Digitale Systeme für reale Prozesse</title>
-  <meta name="description" content="LifeFlow, LifeVault, ProofFlow und ShiftLog – digitale Systeme von ZAL’THERA für Klarheit, Nachweisbarkeit und nachvollziehbare Abläufe." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeVault – Dein Leben. Dein System.</title>
 
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-  <meta property="og:title" content="ZAL’THERA — Digitale Systeme für reale Prozesse" />
-  <meta property="og:description" content="LifeFlow ist der einfache Einstieg für Kostenkontrolle. LifeVault ist das vollständige Lebenssystem für Dokumente, Geld, Nachweise und Verbindungen." />
-  <meta property="og:image" content="/assets/hero-web.png" />
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.5;
+    }
 
-  <link rel="alternate" hreflang="de" href="/" />
-  <link rel="alternate" hreflang="en" href="/en/" />
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 22px 80px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 72px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+    }
+
+    .badge {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(59, 175, 255, 0.12);
+      color: #3bafff;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .hero {
+      text-align: left;
+      margin-bottom: 72px;
+    }
+
+    h1 {
+      font-size: clamp(44px, 8vw, 82px);
+      line-height: 0.95;
+      margin: 0 0 24px;
+      letter-spacing: -0.04em;
+    }
+
+    .green {
+      color: #2ecc71;
+    }
+
+    .blue {
+      color: #3bafff;
+    }
+
+    .gold {
+      color: #d7a94f;
+    }
+
+    .subtitle {
+      font-size: clamp(20px, 3vw, 30px);
+      color: #aaa;
+      max-width: 760px;
+      margin-bottom: 34px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 16px 22px;
+      border-radius: 16px;
+      font-weight: 800;
+      font-size: 17px;
+    }
+
+    .primary {
+      background: #3bafff;
+      color: #000;
+    }
+
+    .secondary {
+      background: #151515;
+      color: #fff;
+      border: 1px solid #2a2a2a;
+    }
+
+    section {
+      margin: 46px 0;
+      padding: 28px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, #0b0f14, #050505);
+      border: 1px solid #1f1f1f;
+    }
+
+    h2 {
+      font-size: clamp(28px, 5vw, 44px);
+      margin: 0 0 16px;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      color: #b8b8b8;
+      font-size: 18px;
+      margin: 0 0 14px;
+    }
+
+    ul {
+      padding-left: 22px;
+      color: #c9c9c9;
+      font-size: 18px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #252525;
+      border-radius: 22px;
+      padding: 22px;
+    }
+
+    .card strong {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .small {
+      font-size: 15px;
+      color: #888;
+    }
+
+    .warning {
+      border-color: rgba(255, 193, 7, 0.35);
+      background: rgba(255, 193, 7, 0.06);
+    }
+
+    footer {
+      margin-top: 70px;
+      color: #777;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="#home" aria-label="ZAL’THERA Home">
-        <span class="brand-mark">ZAL’THERA</span>
-      </a>
+  <div class="page">
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="#home">Home</a>
-        <a href="#systeme">Systeme</a>
-        <a href="#vorteile">Vorteile</a>
-        <a href="#branchen">Branchen</a>
-        <a href="lifeflow.html">LifeFlow</a>
-        <a href="core.html">LifeVault</a>
-        <a href="proofflow.html">ProofFlow</a>
-        <a href="shiftlog.html">ShiftLog</a>
-        <a href="#kontakt">Kontakt</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-      </nav>
-
-      <div class="topbar-cta">
-        <div class="lang-switch" aria-label="Sprache">
-          <a class="lang active" href="/" aria-current="page">DE</a>
-          <a class="lang" href="/en/">EN</a>
-        </div>
-        <a class="chip chip-cta" href="lifeflow.html">LifeFlow – 3,99€</a>
+    <header>
+      <div class="brand">
+        <img src="lifevault_paypal_logo.png" alt="LifeVault Logo" class="logo" />
+        LifeVault
       </div>
-    </div>
-  </header>
+      <div class="badge">iOS Testphase</div>
+    </header>
 
-  <main id="home">
-    <section class="hero" aria-label="Hero">
-      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
+    <main>
 
-      <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">KLARHEIT · NACHWEIS · KONTROLLE</div>
-          <div class="hero-product">ZAL’THERA</div>
+      <section class="hero">
+        <h1>
+          Dein Leben.<br />
+          Deine Daten.<br />
+          <span class="blue">Dein System.</span>
+        </h1>
 
-          <h1>Digitale Systeme<br/>für reale Prozesse.</h1>
-
-          <p class="lead">
-            LifeFlow ist der einfache Einstieg für Kosten, Verträge und Fristen.
-            LifeVault ist das vollständige System für Dokumente, Geld, Nachweise und Verbindungen.
-            ProofFlow und ShiftLog machen reale Abläufe nachvollziehbar.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="lifeflow.html">LifeFlow ansehen – 3,99€</a>
-            <a class="btn ghost" href="core.html">LifeVault Early Access</a>
-          </div>
-
-          <div class="tag-row" role="list" aria-label="Key Tags">
-            <span class="tag" role="listitem">LifeFlow im App Store</span>
-            <span class="tag" role="listitem">LifeVault Early Access 29€</span>
-            <span class="tag" role="listitem">Später 99€</span>
-            <span class="tag" role="listitem">Kein Abo</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-fade" aria-hidden="true"></div>
-    </section>
-
-    <section id="systeme" class="section">
-      <div class="container">
-        <h2>Unsere Systeme</h2>
-        <p class="muted">
-          ZAL’THERA baut keine losen Tools. Jedes System hat eine klare Aufgabe:
-          sichtbar machen, ordnen, nachweisen oder strukturiert übergeben.
+        <p class="subtitle">
+          LifeVault macht Dokumente, Finanzen, Verträge, Nachweise und offene Punkte sichtbar –
+          klar, lokal und nachvollziehbar.
         </p>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🌊</span><strong>LifeFlow</strong></div>
-            <p>Behalte laufende Kosten, Verträge, Fristen und deinen finanziellen Alltag im Blick.</p>
-            <p class="muted">Einfacher Einstieg · App Store · 3,99€ · kein Abo</p>
-            <div class="hero-actions" style="margin-top:14px;">
-              <a class="btn primary" href="lifeflow.html">LifeFlow ansehen</a>
-            </div>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🔐</span><strong>LifeVault</strong></div>
-            <p>Das vollständige Lebenssystem: Dokumente, Geld, Nachweise, Lücken und Verbindungen an einem Ort.</p>
-            <p class="muted">Early Access 29€ · später 99€ · für vollständige Lebensordnung</p>
-            <div class="hero-actions" style="margin-top:14px;">
-              <a class="btn primary" href="core.html">LifeVault ansehen</a>
-            </div>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📎</span><strong>ProofFlow</strong></div>
-            <p>Dokumentiert, was passiert ist – nachvollziehbar, zeitlich fixiert und belegbar.</p>
-            <p class="muted">Für Pilotprojekte und reale Unternehmensprozesse.</p>
-            <div class="hero-actions" style="margin-top:14px;">
-              <a class="btn primary" href="proofflow.html">Pilot ansehen</a>
-            </div>
-          </div>
+        <div class="cta-row">
+          <a class="button primary" href="#preorder">Vorbestellen</a>
+          <a class="button secondary" href="#testflight">Testzugang vormerken</a>
         </div>
+      </section>
 
-        <div class="cards-3" style="margin-top:18px;">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📘</span><strong>ShiftLog</strong></div>
-            <p>Digitale Schichtübergabe mit klarer Struktur und nachvollziehbaren Informationen.</p>
-            <p class="muted">Für Teams, Linien und echte Übergaben im Betrieb.</p>
-            <div class="hero-actions" style="margin-top:14px;">
-              <a class="btn primary" href="shiftlog.html">Mehr erfahren</a>
-            </div>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🧠</span><strong>ZAL’THERA Core</strong></div>
-            <p>Die gemeinsame Grundlage hinter den Systemen: Klarheit, Kontrolle, Zustand und Nachvollziehbarkeit.</p>
-            <p class="muted">Systemlogik statt Chaos.</p>
-            <div class="hero-actions" style="margin-top:14px;">
-              <a class="btn primary" href="core.html">Core ansehen</a>
-            </div>
-          </div>
-
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🚀</span><strong>Weitere Systeme</strong></div>
-            <p>Weitere Module entstehen Schritt für Schritt – immer nach dem gleichen Prinzip: Realität sichtbar machen.</p>
-            <p class="muted">Kein Overengineering. Ein System nach dem anderen.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="vorteile" class="section">
-      <div class="container">
-        <h2>Warum ZAL’THERA</h2>
-        <p class="muted">
-          Wenn Informationen, Zahlen, Dokumente oder Übergaben nicht klar sichtbar sind,
-          entstehen Rückfragen, Fehler, Unsicherheit und unnötige Kosten.
+      <section>
+        <h2>Alles, was dein Leben betrifft – an einem Ort.</h2>
+        <p>
+          LifeVault ist kein Notizbuch und kein Chat. Es ist ein lokales System,
+          das zeigt, was existiert, was fehlt, was zusammengehört und was erledigt ist.
         </p>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">👁️</span><strong>Sichtbarkeit</strong></div>
-            <p>Du siehst, was wirklich da ist – statt später zu raten.</p>
+        <div class="grid">
+          <div class="card">
+            <strong>DocCore</strong>
+            <p>Dokumente, Bilder, Dateien und wichtige Nachweise strukturiert speichern.</p>
           </div>
 
-          <div class="card glass">
-            <div class="card-title"><span class="icon">✅</span><strong>Nachweis</strong></div>
-            <p>Entscheidungen, Zustände und Ereignisse bleiben nachvollziehbar.</p>
+          <div class="card">
+            <strong>LifeFlow</strong>
+            <p>Verträge, laufende Kosten, Fristen und Verpflichtungen sichtbar machen.</p>
           </div>
 
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🔄</span><strong>Verbindung</strong></div>
-            <p>Dokumente, Kosten, Nachweise und Ziele stehen nicht mehr isoliert nebeneinander.</p>
+          <div class="card">
+            <strong>Cashflow</strong>
+            <p>Einnahmen, Kosten, Schulden und finanzielle Realität an einem Ort erfassen.</p>
+          </div>
+
+          <div class="card">
+            <strong>ProofFlow</strong>
+            <p>Nachweise und Ereignisse nachvollziehbar festhalten.</p>
           </div>
         </div>
+      </section>
 
-        <div class="panel glass panel-wide">
-          <p>
-            <strong>Grundprinzip:</strong> ZAL’THERA macht Realität sichtbar.
-            LifeFlow startet mit Kosten und Verträgen. LifeVault erweitert das Ganze zu einem vollständigen Lebenssystem.
-          </p>
-        </div>
-      </div>
-    </section>
+      <section>
+        <h2>Was LifeVault zeigt</h2>
+        <ul>
+          <li>Was bereits vorhanden ist</li>
+          <li>Welche Dokumente oder Nachweise fehlen</li>
+          <li>Welche Bereiche miteinander verbunden sind</li>
+          <li>Welche Aufgaben offen, erledigt oder kritisch sind</li>
+        </ul>
+      </section>
 
-    <section id="branchen" class="section">
-      <div class="container">
-        <h2>Einsatzbereiche</h2>
-        <p class="muted">
-          Für Menschen und Unternehmen, bei denen Informationen, Prozesse, Zahlen und Nachweise nicht dem Zufall überlassen werden dürfen.
+      <section id="preorder">
+        <h2>Vorbestellen & LifeVault sichern</h2>
+        <p>
+          LifeVault kann vor dem offiziellen Release vorbestellt werden.
+          Damit sicherst du dir den frühen Zugang zum System und unterstützt die weitere Entwicklung.
         </p>
 
-        <div class="tiles">
-          <a class="tile" href="lifeflow.html" aria-label="Finanzielle Klarheit">
-            <div class="tile-img" style="background-image:url('/assets/tile-automation.png');"></div>
-            <div class="tile-label">FINANZIELLE KLARHEIT</div>
-          </a>
+        <p>
+          <strong>Einmal kaufen. Lebenslang nutzen.</strong><br />
+          Keine monatliche Pflicht. Kein Abo-Zwang.
+        </p>
 
-          <a class="tile" href="core.html" aria-label="LifeVault">
-            <div class="tile-img" style="background-image:url('/assets/tile-compliance.png');"></div>
-            <div class="tile-label">LIFE VAULT</div>
-          </a>
-
-          <a class="tile" href="proofflow.html" aria-label="Industrie und Nachweis">
-            <div class="tile-img" style="background-image:url('/assets/tile-industry.png');"></div>
-            <div class="tile-label">NACHWEIS &amp; PROZESSE</div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="panel glass panel-wide">
-          <div class="eyebrow">DIREKTER EINSTIEG</div>
-          <h2>Starte klein. Wachse ins System.</h2>
-          <p class="muted">
-            LifeFlow ist der schnelle Einstieg für deine laufenden Kosten und Verträge.
-            LifeVault ist das große System für Menschen, die ihr Leben vollständig ordnen, sichern und verknüpfen wollen.
-          </p>
-
-          <div class="hero-actions" style="margin-top:12px">
-            <a class="btn primary" href="lifeflow.html">LifeFlow – 3,99€</a>
-            <a class="btn ghost" href="core.html">LifeVault Early Access</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="kontakt" class="section section-contact">
-      <div class="container">
-        <div class="contact-wrap glass">
-          <div class="contact-head">
-            <div>
-              <h2>Starten Sie Ihre Anfrage</h2>
-              <p class="muted">
-                Beschreiben Sie Ihr Ziel – wir zeigen Ihnen,
-                welches ZAL’THERA System dazu passt.
-              </p>
-            </div>
-
-            <div class="contact-actions">
-              <a class="chip chip-cta" href="lifeflow.html">LifeFlow</a>
-              <a class="chip" href="mailto:contact@zalthera.de">E-Mail</a>
-            </div>
-          </div>
-
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <div class="form-grid">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Ihr Name" required />
-              </div>
-
-              <div class="field">
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
-              </div>
-
-              <div class="field field-full">
-                <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Worum geht es?" required></textarea>
-              </div>
-            </div>
-
-            <div class="form-footer">
-              <button class="btn primary" type="submit">Anfrage senden</button>
-              <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
-              </div>
-            </div>
-          </form>
+        <div class="cta-row">
+          <!-- HIER DEINEN PAYPAL LINK EINSETZEN -->
+          <a class="button primary" href="DEIN_PAYPAL_LINK_HIER">Jetzt vorbestellen</a>
         </div>
 
-        <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
-          <div class="footer-links">
-            <a href="about.html">Über Patrick</a>
-            <span>·</span>
-            <a href="impressum.html">Impressum</a>
-            <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
-          </div>
-        </footer>
-      </div>
-    </section>
-  </main>
+        <p class="small">
+          Hinweis: Die finale Veröffentlichung erfolgt über den Apple App Store.
+          Die Vorbestellung ist ein früher Unterstützer-Zugang und wird dokumentiert.
+        </p>
+      </section>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+      <section id="testflight" class="warning">
+        <h2>Limitierter TestFlight-Zugang</h2>
+
+        <p>
+          LifeVault befindet sich aktuell in einer aktiven iOS-Testphase.
+          Ein begrenzter Kreis von Nutzern kann vor dem offiziellen Release Zugang zur Testversion über Apple TestFlight erhalten.
+        </p>
+
+        <p>
+          Wenn du LifeVault vorbestellst, kannst du dich für einen der limitierten Testplätze vormerken lassen.
+        </p>
+
+        <ul>
+          <li>Testzugang nur für iPhone / iOS</li>
+          <li>Freischaltung nach Verfügbarkeit</li>
+          <li>Die Anzahl der Testplätze ist stark begrenzt</li>
+          <li>Feedback kann in die finale Version einfließen</li>
+        </ul>
+
+        <p class="small">
+          Wichtig: Ein TestFlight-Zugang ist nicht unbegrenzt garantiert.
+          Die Plätze werden kontrolliert und nach Verfügbarkeit vergeben.
+        </p>
+      </section>
+
+      <section>
+        <h2>English Summary</h2>
+        <p>
+          LifeVault is a local-first life organization system for documents, finances,
+          contracts, proof and personal status.
+        </p>
+
+        <p>
+          It helps you see what exists, what is missing, what belongs together and what still needs action.
+        </p>
+
+        <p>
+          Preorder users may request limited early access to the iOS TestFlight version,
+          depending on available testing slots.
+        </p>
+      </section>
+
+      <section>
+        <h2>Der Kernsatz</h2>
+        <p>
+          <strong>
+            Ich speichere es einmal – und finde es für immer.
+          </strong>
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      LifeVault by ZAL’THERA · Dein Leben. Deine Daten. Dein System.
+    </footer>
+
+  </div>
 </body>
 </html>
 
