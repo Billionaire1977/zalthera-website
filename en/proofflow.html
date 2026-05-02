@@ -1,173 +1,234 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ProofFlow — Verifiable Processes</title>
-  <meta name="description" content="ProofFlow documents what really happened — structured, traceable and verifiable." />
+  <title>ProofFlow — Nachweise, Jobs & Audit</title>
+  <meta name="description" content="ProofFlow und EasyProof dokumentieren Aufgaben, Nachweise und Aktionen nachvollziehbar. Teil des ZAL’THERA Systems." />
 
-  <link rel="stylesheet" href="../styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
-
-  <meta property="og:title" content="ProofFlow — Verifiable Processes" />
-  <meta property="og:description" content="What happened is no longer debatable." />
-  <meta property="og:image" content="../assets/hero-web.png" />
-
-  <link rel="alternate" hreflang="de" href="/proofflow.html" />
-  <link rel="alternate" hreflang="en" href="/en/proofflow.html" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 </head>
 
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="/en/">
+      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav">
-        <a href="/en/">Home</a>
-        <a href="#problem">Problem</a>
-        <a href="#solution">Solution</a>
-        <a href="#flow">Flow</a>
-        <a href="#contact">Contact</a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Home</a>
+        <a href="lifeflow.html">LifeFlow</a>
+        <a href="proofflow.html">ProofFlow</a>
+        <a href="shiftlog.html">ShiftLog</a>
+        <a href="support.html">Support</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
       </nav>
 
       <div class="topbar-cta">
-        <div class="lang-switch">
-          <a class="lang" href="/proofflow.html">DE</a>
-          <a class="lang active" href="/en/proofflow.html">EN</a>
-        </div>
-        <a class="chip chip-cta" href="/en/pilot.html">Start Pilot</a>
+        <a class="chip chip-cta" href="support.html">Support</a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-bg" style="background-image:url('../assets/hero-web.png');"></div>
+    <section class="hero" aria-label="ProofFlow Hero">
+      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
       <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">PROOF · TRACEABILITY · CONTROL</div>
-          <div class="hero-product">ProofFlow</div>
+        <div class="hero-panel glass">
+          <div class="kicker">NACHWEIS · JOBS · AUDIT · EXPORT</div>
+          <div class="hero-product">ProofFlow / EasyProof</div>
 
-          <h1>What happened<br/>is no longer debatable.</h1>
+          <h1>Erledigt ist erst erledigt,<br />wenn es bewiesen ist.</h1>
 
           <p class="lead">
-            ProofFlow turns actions, incidents and decisions into structured,
-            traceable and verifiable proofs.
+            ProofFlow und EasyProof dokumentieren Aufgaben mit Nachweisen:
+            Foto, Notiz, Signatur, Audit und Export.
+          </p>
+
+          <p class="lead">
+            Jede wichtige Aktion wird sichtbar, nachvollziehbar und überprüfbar.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="/en/pilot.html">Start pilot</a>
-            <a class="btn ghost" href="#solution">How it works</a>
+            <a class="btn primary" href="#system">System ansehen</a>
+            <a class="btn ghost" href="support.html">Support</a>
           </div>
 
-          <div class="tag-row">
-            <span class="tag">Traceable</span>
-            <span class="tag">Structured</span>
-            <span class="tag">Verifiable</span>
-            <span class="tag">Audit-ready</span>
+          <div class="tag-row" role="list" aria-label="ProofFlow Tags">
+            <span class="tag" role="listitem">Proof</span>
+            <span class="tag" role="listitem">Audit</span>
+            <span class="tag" role="listitem">PDF Export</span>
+            <span class="tag" role="listitem">ZAL’THERA</span>
           </div>
         </div>
       </div>
+
+      <div class="hero-fade" aria-hidden="true"></div>
     </section>
 
     <section id="problem" class="section">
       <div class="container">
-        <h2>The problem</h2>
+        <h2>Das Problem</h2>
         <p class="muted">
-          In many companies, actions and decisions are not properly documented.
-          When something goes wrong, no one can clearly prove what happened.
+          Ohne Nachweis bleibt Arbeit oft diskutierbar. Wer hat was gemacht?
+          Wann wurde es erledigt? Gibt es einen Beleg?
         </p>
 
         <div class="cards-3">
           <div class="card glass">
-            <strong>No proof</strong>
-            <p>Actions are not documented clearly.</p>
+            <div class="card-title"><span class="icon">❓</span><strong>Keine Klarheit</strong></div>
+            <p>Was ist wirklich passiert?</p>
           </div>
+
           <div class="card glass">
-            <strong>Discussions</strong>
-            <p>Everyone has a different version of reality.</p>
+            <div class="card-title"><span class="icon">⚠️</span><strong>Keine Absicherung</strong></div>
+            <p>Wer hat wann entschieden oder gehandelt?</p>
           </div>
+
           <div class="card glass">
-            <strong>Risk</strong>
-            <p>No traceability leads to mistakes and cost.</p>
+            <div class="card-title"><span class="icon">📎</span><strong>Kein Beweis</strong></div>
+            <p>Ohne Nachweis bleibt nur Diskussion.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="solution" class="section">
+    <section id="system" class="section">
       <div class="container">
-        <h2>The solution</h2>
+        <h2>Was ProofFlow macht</h2>
         <p class="muted">
-          ProofFlow creates a clear structure for documenting what really happened.
+          ProofFlow macht Arbeitsrealität nachweisbar. Aufgaben werden erstellt,
+          mit Nachweisen ergänzt und erst mit gültigem Proof abgeschlossen.
         </p>
 
         <div class="cards-3">
           <div class="card glass">
-            <strong>Capture</strong>
-            <p>Actions and events are recorded.</p>
+            <div class="card-title"><span class="icon">📸</span><strong>Proof hinzufügen</strong></div>
+            <p>Fotos, Notizen und Signaturen können als Nachweise gespeichert werden.</p>
           </div>
+
           <div class="card glass">
-            <strong>Structure</strong>
-            <p>Everything is stored in a clear system.</p>
+            <div class="card-title"><span class="icon">🧾</span><strong>Audit sichtbar</strong></div>
+            <p>Aktionen bleiben nachvollziehbar: erstellt, gestartet, ergänzt, abgeschlossen.</p>
           </div>
+
           <div class="card glass">
-            <strong>Proof</strong>
-            <p>Every action becomes verifiable.</p>
+            <div class="card-title"><span class="icon">📄</span><strong>Export möglich</strong></div>
+            <p>Berichte können als Nachweis weitergegeben oder archiviert werden.</p>
           </div>
         </div>
 
         <div class="panel glass panel-wide">
-          <p><strong>Result:</strong> No discussions. Only facts.</p>
+          <p>
+            <strong>ProofFlow ist Teil des ZAL’THERA Systems:</strong>
+            Es verbindet reale Aufgaben mit Nachweis, Audit und überprüfbarer Verantwortung.
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="flow" class="section">
+    <section id="apps" class="section">
       <div class="container">
-        <h2>Flow</h2>
+        <div class="panel glass panel-wide">
+          <div class="eyebrow">APPS & MODULE</div>
+          <h2>EasyProof und EasyProof Pro</h2>
 
-        <div class="flowbar">
-          <span class="flow-pill">Event</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Documentation</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Proof</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Audit</span>
+          <p class="muted">
+            EasyProof ist die einfache App für proof-basierte Aufgaben.
+            EasyProof Pro erweitert den Ansatz um stärkere Dokumentation, Monatsarchive,
+            Export und professionelle Arbeitsabläufe.
+          </p>
+
+          <div class="cards-3" style="margin-top:18px;">
+            <div class="card glass">
+              <div class="card-title"><strong>EasyProof</strong></div>
+              <p class="muted">Schnelle Aufgaben, Proof hinzufügen, Abschluss nur mit Nachweis.</p>
+            </div>
+
+            <div class="card glass">
+              <div class="card-title"><strong>EasyProof Pro</strong></div>
+              <p class="muted">Erweiterte Nachweise, Audit, Monatsübersicht und Export.</p>
+            </div>
+
+            <div class="card glass">
+              <div class="card-title"><strong>ZAL Trust Ledger</strong></div>
+              <p class="muted">Zukünftige Verbindung: signierte Ereignisse, Chain und Trust-Auswertung.</p>
+            </div>
+          </div>
+
+          <div class="hero-actions" style="margin-top:18px;">
+            <a class="btn primary" href="support.html">Support öffnen</a>
+            <a class="btn ghost" href="mailto:contact@zalthera.de?subject=ProofFlow%20Anfrage">Kontakt</a>
+          </div>
         </div>
-
-        <p class="muted" style="margin-top:20px;">
-          ProofFlow fits directly into real processes — no complexity, no unnecessary steps.
-        </p>
       </div>
     </section>
 
     <section id="contact" class="section section-contact">
       <div class="container">
         <div class="contact-wrap glass">
-          <h2>Start a ProofFlow pilot</h2>
-          <p class="muted">Describe your process — we build your system.</p>
-
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <input type="hidden" name="subject" value="ProofFlow Pilot Inquiry" />
-
-            <div class="form-grid">
-              <input name="name" placeholder="Name" required />
-              <input name="email" type="email" placeholder="E-Mail" required />
-              <textarea name="message" rows="5" placeholder="Describe your process…" required></textarea>
+          <div class="contact-head">
+            <div>
+              <h2>Fragen zu ProofFlow?</h2>
+              <p class="muted">Beschreibe kurz dein Anliegen. Ich melde mich per E-Mail zurück.</p>
             </div>
 
-            <button class="btn primary">Send request</button>
+            <div class="contact-actions">
+              <a class="chip chip-cta" href="mailto:contact@zalthera.de?subject=ProofFlow%20Anfrage">E-Mail</a>
+              <a class="chip" href="support.html">Support</a>
+            </div>
+          </div>
+
+          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
+            <input type="hidden" name="subject" value="ProofFlow Anfrage" />
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Dein Name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">E-Mail</label>
+                <input id="email" name="email" type="email" placeholder="deine@email.de" required />
+              </div>
+
+              <div class="field field-full">
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="5" placeholder="Frage zu ProofFlow oder EasyProof …" required></textarea>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <button class="btn primary" type="submit">Senden</button>
+              <div class="fineprint">
+                Mit dem Absenden akzeptierst du unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
+              </div>
+            </div>
           </form>
         </div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> ZAL’THERA</div>
+          <div class="footer-links">
+            <a href="support.html">Support</a>
+            <span>·</span>
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+        </footer>
       </div>
     </section>
   </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
