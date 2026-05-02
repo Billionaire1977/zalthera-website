@@ -1,132 +1,168 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ShiftLog — Digital Handover</title>
-  <meta name="description" content="ShiftLog replaces unread shift books with a structured digital system." />
+  <title>ShiftLog — Digitale Schichtübergabe</title>
+  <meta name="description" content="ShiftLog macht Schichtübergaben digital, strukturiert und nachvollziehbar. Teil des ZAL’THERA Systems." />
 
-  <link rel="stylesheet" href="../styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
-
-  <meta property="og:title" content="ShiftLog — Digital Handover" />
-  <meta property="og:description" content="No more lost information between shifts." />
-  <meta property="og:image" content="../assets/hero-web.png" />
-
-  <link rel="alternate" hreflang="de" href="/shiftlog.html" />
-  <link rel="alternate" hreflang="en" href="/en/shiftlog.html" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 </head>
 
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="/en/">
+      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav">
-        <a href="/en/">Home</a>
-        <a href="#problem">Problem</a>
-        <a href="#solution">Solution</a>
-        <a href="#flow">Flow</a>
-        <a href="#contact">Contact</a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Home</a>
+        <a href="lifeflow.html">LifeFlow</a>
+        <a href="proofflow.html">ProofFlow</a>
+        <a href="shiftlog.html">ShiftLog</a>
+        <a href="support.html">Support</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
       </nav>
 
       <div class="topbar-cta">
-        <div class="lang-switch">
-          <a class="lang" href="/shiftlog.html">DE</a>
-          <a class="lang active" href="/en/shiftlog.html">EN</a>
-        </div>
-        <a class="chip chip-cta" href="/en/pilot.html">Start Pilot</a>
+        <a class="chip chip-cta" href="support.html">Support</a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-bg" style="background-image:url('../assets/hero-web.png');"></div>
+    <section class="hero" aria-label="ShiftLog Hero">
+      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
       <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">SHIFT · HANDOVER · CLARITY</div>
+        <div class="hero-panel glass">
+          <div class="kicker">ÜBERGABE · STRUKTUR · NACHVOLLZIEHBARKEIT</div>
           <div class="hero-product">ShiftLog</div>
 
-          <h1>No more lost<br/>shift information.</h1>
+          <h1>Schichtübergaben,<br />die nicht verloren gehen.</h1>
 
           <p class="lead">
-            ShiftLog replaces handwritten shift books with a clear, structured and digital system.
+            ShiftLog macht Schichtinformationen sichtbar, digital und nachvollziehbar –
+            damit Wissen nicht im Buch verschwindet oder zwischen Rollen verloren geht.
+          </p>
+
+          <p class="lead">
+            ShiftLog ist Teil des ZAL’THERA Systems für Verantwortung, Audit und reale Arbeitsabläufe.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="/en/pilot.html">Start pilot</a>
-            <a class="btn ghost" href="#solution">Learn more</a>
+            <a class="btn primary" href="#system">Mehr erfahren</a>
+            <a class="btn ghost" href="mailto:contact@zalthera.de?subject=ShiftLog%20Anfrage">Kontakt</a>
+          </div>
+
+          <div class="tag-row" role="list" aria-label="ShiftLog Tags">
+            <span class="tag" role="listitem">Schichtübergabe</span>
+            <span class="tag" role="listitem">Industrie</span>
+            <span class="tag" role="listitem">Audit</span>
+            <span class="tag" role="listitem">Verantwortung</span>
           </div>
         </div>
       </div>
+
+      <div class="hero-fade" aria-hidden="true"></div>
     </section>
 
     <section id="problem" class="section">
       <div class="container">
-        <h2>The problem</h2>
+        <h2>Das Problem</h2>
         <p class="muted">
-          Shift books are often incomplete, unread or ignored.
-          Important information gets lost between shifts.
+          Klassische Schichtbücher werden oft nicht konsequent gelesen, Informationen
+          gehen unter und wichtige Übergaben bleiben unklar.
         </p>
 
         <div class="cards-3">
           <div class="card glass">
-            <strong>Unread logs</strong>
-            <p>No one checks handwritten books.</p>
+            <div class="card-title"><span class="icon">📕</span><strong>Bücher werden übersehen</strong></div>
+            <p>Wichtige Infos stehen da – aber keiner sieht sie rechtzeitig.</p>
           </div>
+
           <div class="card glass">
-            <strong>Missing info</strong>
-            <p>Important details are lost.</p>
+            <div class="card-title"><span class="icon">🔄</span><strong>Übergaben sind unsauber</strong></div>
+            <p>Zwischen Schichten fehlt oft die klare Struktur.</p>
           </div>
+
           <div class="card glass">
-            <strong>Chaos</strong>
-            <p>No clear structure for handover.</p>
+            <div class="card-title"><span class="icon">🧠</span><strong>Wissen geht verloren</strong></div>
+            <p>Was gesagt wurde, bleibt nicht automatisch erhalten.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="solution" class="section">
+    <section id="system" class="section">
       <div class="container">
-        <h2>The solution</h2>
+        <h2>Was ShiftLog macht</h2>
+        <p class="muted">
+          ShiftLog strukturiert Übergaben digital und macht relevante Informationen
+          für Teams, Linien und Verantwortliche sichtbar.
+        </p>
 
         <div class="cards-3">
           <div class="card glass">
-            <strong>Structured input</strong>
-            <p>Clear and simple entries.</p>
+            <div class="card-title"><span class="icon">📝</span><strong>Digitale Einträge</strong></div>
+            <p>Wichtige Informationen werden strukturiert festgehalten.</p>
           </div>
+
           <div class="card glass">
-            <strong>Digital access</strong>
-            <p>Information always available.</p>
+            <div class="card-title"><span class="icon">👥</span><strong>Klare Übergabe</strong></div>
+            <p>Die nächste Schicht sieht sofort, was relevant ist.</p>
           </div>
+
           <div class="card glass">
-            <strong>Clear handover</strong>
-            <p>Next shift knows exactly what’s going on.</p>
+            <div class="card-title"><span class="icon">📍</span><strong>Nachvollziehbarer Verlauf</strong></div>
+            <p>Übergaben bleiben sichtbar und verschwinden nicht im Alltag.</p>
           </div>
         </div>
 
         <div class="panel glass panel-wide">
-          <p><strong>Result:</strong> No information loss between shifts.</p>
+          <p>
+            <strong>ShiftLog ist kein Chat und kein loses Notizbuch.</strong>
+            Es ist ein strukturiertes Übergabesystem für Probleme, Aufgaben, Status und Verantwortung.
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="flow" class="section">
+    <section id="usecases" class="section">
       <div class="container">
-        <h2>Flow</h2>
+        <div class="panel glass panel-wide">
+          <div class="eyebrow">EINSATZ</div>
+          <h2>Für reale Teams und Bereiche</h2>
+          <p class="muted">
+            ShiftLog eignet sich besonders dort, wo Übergaben entscheidend sind
+            und Informationen nicht zwischen Personen oder Schichten verloren gehen dürfen.
+          </p>
 
-        <div class="flowbar">
-          <span class="flow-pill">Shift</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Log</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Handover</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Next Shift</span>
+          <div class="cards-3" style="margin-top:18px;">
+            <div class="card glass">
+              <div class="card-title"><strong>Produktion</strong></div>
+              <p class="muted">Maschinen, Linien, Störungen, offene Punkte.</p>
+            </div>
+
+            <div class="card glass">
+              <div class="card-title"><strong>Wartung</strong></div>
+              <p class="muted">Aufgaben, Übergaben, Status und Zuständigkeit.</p>
+            </div>
+
+            <div class="card glass">
+              <div class="card-title"><strong>Qualität</strong></div>
+              <p class="muted">Auffälligkeiten, Prüfungen und Nachvollziehbarkeit.</p>
+            </div>
+          </div>
+
+          <div class="hero-actions" style="margin-top:18px;">
+            <a class="btn primary" href="mailto:contact@zalthera.de?subject=ShiftLog%20Anfrage">Kontakt aufnehmen</a>
+            <a class="btn ghost" href="support.html">Support</a>
+          </div>
         </div>
       </div>
     </section>
@@ -134,20 +170,63 @@
     <section id="contact" class="section section-contact">
       <div class="container">
         <div class="contact-wrap glass">
-          <h2>Start a ShiftLog pilot</h2>
+          <div class="contact-head">
+            <div>
+              <h2>ShiftLog anfragen</h2>
+              <p class="muted">Beschreiben Sie kurz Ihren Bereich oder Ihre Übergabesituation.</p>
+            </div>
+
+            <div class="contact-actions">
+              <a class="chip chip-cta" href="mailto:contact@zalthera.de?subject=ShiftLog%20Anfrage">E-Mail</a>
+              <a class="chip" href="support.html">Support</a>
+            </div>
+          </div>
 
           <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <input type="hidden" name="subject" value="ShiftLog Inquiry" />
+            <input type="hidden" name="subject" value="ShiftLog Anfrage" />
 
-            <input name="name" placeholder="Name" required />
-            <input name="email" type="email" placeholder="E-Mail" required />
-            <textarea name="message" rows="5" placeholder="Describe your shift process…" required></textarea>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Ihr Name" required />
+              </div>
 
-            <button class="btn primary">Send request</button>
+              <div class="field">
+                <label for="email">E-Mail</label>
+                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
+              </div>
+
+              <div class="field field-full">
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="5" placeholder="Wie laufen Übergaben aktuell bei Ihnen?" required></textarea>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <button class="btn primary" type="submit">Senden</button>
+              <div class="fineprint">
+                Mit dem Absenden akzeptieren Sie unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
+              </div>
+            </div>
           </form>
         </div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> ZAL’THERA</div>
+          <div class="footer-links">
+            <a href="support.html">Support</a>
+            <span>·</span>
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+        </footer>
       </div>
     </section>
   </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
