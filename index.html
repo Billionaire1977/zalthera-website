@@ -11,6 +11,8 @@
     content="ZAL’THERA ist eine souveräne technologische Architektur für Identität, Intelligenz, Daten, Vertrauen, Kommunikation und reale Prozesse."
   />
 
+  <meta name="theme-color" content="#030407" />
+
   <link rel="stylesheet" href="styles.css" />
 
   <link
@@ -28,11 +30,19 @@
 
 <body>
 
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
   <!-- =========================================================
        GLOBAL HEADER
        ========================================================= -->
 
-  <header class="topbar">
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
 
       <a
@@ -44,7 +54,26 @@
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
         <a href="core.html">System</a>
         <a href="#continuity">Continuity</a>
         <a href="#intelligence">Intelligence</a>
@@ -54,6 +83,7 @@
         <a href="about.html">About</a>
       </nav>
 
+
       <div class="topbar-cta">
         <a class="chip chip-cta" href="#system">
           Explore
@@ -61,6 +91,7 @@
       </div>
 
     </div>
+
   </header>
 
 
@@ -70,12 +101,22 @@
          HERO
          ========================================================= -->
 
-    <section class="hero hero-zal" aria-label="ZAL’THERA">
+    <section
+      class="hero hero-zal"
+      aria-label="ZAL’THERA"
+      data-hero
+    >
 
-      <div class="zal-field" aria-hidden="true">
+      <div class="zal-field" aria-hidden="true" data-zal-field>
+
         <span class="field-orbit orbit-a"></span>
         <span class="field-orbit orbit-b"></span>
         <span class="field-orbit orbit-c"></span>
+        <span class="field-orbit orbit-d"></span>
+
+        <span class="field-thread thread-a"></span>
+        <span class="field-thread thread-b"></span>
+        <span class="field-thread thread-c"></span>
 
         <span class="field-node node-1"></span>
         <span class="field-node node-2"></span>
@@ -83,15 +124,22 @@
         <span class="field-node node-4"></span>
         <span class="field-node node-5"></span>
         <span class="field-node node-6"></span>
+        <span class="field-node node-7"></span>
+        <span class="field-node node-8"></span>
 
         <span class="field-core"></span>
+
       </div>
+
 
       <div class="hero-grid" aria-hidden="true"></div>
 
+      <div class="hero-noise" aria-hidden="true"></div>
+
+
       <div class="container hero-content hero-content-wide">
 
-        <div class="hero-copy">
+        <div class="hero-copy hero-intro">
 
           <div class="kicker">
             SOVEREIGN DIGITAL ARCHITECTURE
@@ -114,6 +162,7 @@
           </p>
 
           <div class="hero-actions">
+
             <a class="btn primary" href="#system">
               System entdecken
             </a>
@@ -121,6 +170,7 @@
             <a class="btn ghost" href="core.html">
               ZAL’THERA Core
             </a>
+
           </div>
 
           <div class="hero-microline">
@@ -132,7 +182,8 @@
 
         </div>
 
-        <div class="hero-system-map glass">
+
+        <div class="hero-system-map glass hero-system-panel">
 
           <div class="system-map-label">
             SYSTEM STATE
@@ -173,8 +224,16 @@
             <span class="state state-system">SYSTEM MODULE</span>
           </div>
 
+          <div class="system-map-scan" aria-hidden="true"></div>
+
         </div>
 
+      </div>
+
+
+      <div class="scroll-marker" aria-hidden="true">
+        <span>SCROLL</span>
+        <i></i>
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
@@ -186,11 +245,15 @@
          ONE SYSTEM
          ========================================================= -->
 
-    <section id="system" class="section section-system">
+    <section
+      id="system"
+      class="section section-system"
+      data-section="system"
+    >
 
       <div class="container">
 
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
 
           <div class="eyebrow">
             ONE SYSTEM
@@ -211,7 +274,7 @@
 
         <div class="architecture-chain">
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-1">
             <div class="architecture-number">01</div>
             <h3>Identity</h3>
             <p>
@@ -221,7 +284,7 @@
 
           <div class="architecture-connector" aria-hidden="true"></div>
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-2">
             <div class="architecture-number">02</div>
             <h3>Context</h3>
             <p>
@@ -231,7 +294,7 @@
 
           <div class="architecture-connector" aria-hidden="true"></div>
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-3">
             <div class="architecture-number">03</div>
             <h3>Intelligence</h3>
             <p>
@@ -241,7 +304,7 @@
 
           <div class="architecture-connector" aria-hidden="true"></div>
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-4">
             <div class="architecture-number">04</div>
             <h3>Trust</h3>
             <p>
@@ -251,7 +314,7 @@
 
           <div class="architecture-connector" aria-hidden="true"></div>
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-5">
             <div class="architecture-number">05</div>
             <h3>Action</h3>
             <p>
@@ -262,7 +325,7 @@
         </div>
 
 
-        <div class="principle-callout glass">
+        <div class="principle-callout glass reveal">
 
           <div>
             <span class="principle-label">
@@ -289,11 +352,17 @@
          CONTINUITY
          ========================================================= -->
 
-    <section id="continuity" class="section ecosystem-section">
+    <section
+      id="continuity"
+      class="section ecosystem-section"
+      data-section="continuity"
+    >
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
 
       <div class="container ecosystem-layout">
 
-        <div class="ecosystem-copy">
+        <div class="ecosystem-copy reveal">
 
           <div class="eyebrow gold">
             PERSONAL SOVEREIGN SYSTEM
@@ -355,7 +424,9 @@
         </div>
 
 
-        <div class="ecosystem-visual continuity-visual glass">
+        <div class="ecosystem-visual continuity-visual glass reveal reveal-from-right">
+
+          <div class="visual-scanline" aria-hidden="true"></div>
 
           <div class="orbit-system" aria-hidden="true">
 
@@ -388,11 +459,17 @@
          INTELLIGENCE
          ========================================================= -->
 
-    <section id="intelligence" class="section ecosystem-section alternate">
+    <section
+      id="intelligence"
+      class="section ecosystem-section alternate"
+      data-section="intelligence"
+    >
+
+      <div class="section-signal signal-violet" aria-hidden="true"></div>
 
       <div class="container ecosystem-layout reverse">
 
-        <div class="ecosystem-copy">
+        <div class="ecosystem-copy reveal reveal-from-right">
 
           <div class="eyebrow violet">
             CONTEXTUAL INTELLIGENCE
@@ -432,9 +509,12 @@
         </div>
 
 
-        <div class="ecosystem-visual intelligence-visual glass">
+        <div class="ecosystem-visual intelligence-visual glass reveal">
+
+          <div class="visual-scanline violet-scan" aria-hidden="true"></div>
 
           <div class="intelligence-core" aria-hidden="true">
+
             <span class="intelligence-wave wave-1"></span>
             <span class="intelligence-wave wave-2"></span>
             <span class="intelligence-wave wave-3"></span>
@@ -443,6 +523,7 @@
               <small>CONTEXT</small>
               <strong>INTELLIGENCE</strong>
             </div>
+
           </div>
 
         </div>
@@ -456,11 +537,17 @@
          COMMUNICATION
          ========================================================= -->
 
-    <section id="communication" class="section ecosystem-section">
+    <section
+      id="communication"
+      class="section ecosystem-section"
+      data-section="communication"
+    >
+
+      <div class="section-signal signal-cyan signal-right" aria-hidden="true"></div>
 
       <div class="container ecosystem-layout">
 
-        <div class="ecosystem-copy">
+        <div class="ecosystem-copy reveal">
 
           <div class="eyebrow cyan">
             IDENTITY-TO-IDENTITY
@@ -501,7 +588,7 @@
         </div>
 
 
-        <div class="ecosystem-visual communication-visual glass">
+        <div class="ecosystem-visual communication-visual glass reveal reveal-from-right">
 
           <div class="identity-link">
 
@@ -513,6 +600,7 @@
             <div class="trust-channel">
 
               <span class="channel-line"></span>
+              <span class="channel-pulse"></span>
 
               <div class="channel-core">
                 TRUST
@@ -542,11 +630,17 @@
          INDUSTRY
          ========================================================= -->
 
-    <section id="industry" class="section ecosystem-section alternate">
+    <section
+      id="industry"
+      class="section ecosystem-section alternate"
+      data-section="industry"
+    >
+
+      <div class="section-signal signal-gold" aria-hidden="true"></div>
 
       <div class="container ecosystem-layout reverse">
 
-        <div class="ecosystem-copy">
+        <div class="ecosystem-copy reveal reveal-from-right">
 
           <div class="eyebrow gold">
             REAL-WORLD SYSTEMS
@@ -594,7 +688,7 @@
         </div>
 
 
-        <div class="ecosystem-visual industry-visual glass">
+        <div class="ecosystem-visual industry-visual glass reveal">
 
           <div class="machine-field" aria-hidden="true">
 
@@ -638,7 +732,7 @@
 
     <section class="section proof-section">
 
-      <div class="container proof-layout glass">
+      <div class="container proof-layout glass reveal">
 
         <div>
 
@@ -683,11 +777,15 @@
          PRODUCTS & STATUS
          ========================================================= -->
 
-    <section id="products" class="section">
+    <section
+      id="products"
+      class="section"
+      data-section="products"
+    >
 
       <div class="container">
 
-        <div class="section-heading">
+        <div class="section-heading reveal">
 
           <div class="eyebrow">
             SYSTEM PORTFOLIO
@@ -705,9 +803,34 @@
         </div>
 
 
+        <div class="status-legend reveal">
+
+          <span class="legend-item legend-available">
+            <i></i>
+            AVAILABLE
+          </span>
+
+          <span class="legend-item legend-development">
+            <i></i>
+            DEVELOPMENT
+          </span>
+
+          <span class="legend-item legend-system">
+            <i></i>
+            SYSTEM MODULE
+          </span>
+
+          <span class="legend-item legend-architecture">
+            <i></i>
+            ARCHITECTURE
+          </span>
+
+        </div>
+
+
         <div class="product-grid">
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-1">
 
             <div class="product-top">
               <span class="status-badge available">
@@ -729,7 +852,7 @@
           </article>
 
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-2">
 
             <div class="product-top">
               <span class="status-badge development">
@@ -752,7 +875,7 @@
           </article>
 
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-3">
 
             <div class="product-top">
               <span class="status-badge system">
@@ -774,7 +897,7 @@
           </article>
 
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-1">
 
             <div class="product-top">
               <span class="status-badge development">
@@ -797,7 +920,7 @@
           </article>
 
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-2">
 
             <div class="product-top">
               <span class="status-badge development">
@@ -820,7 +943,7 @@
           </article>
 
 
-          <article class="product-card glass">
+          <article class="product-card glass reveal reveal-delay-3">
 
             <div class="product-top">
               <span class="status-badge architecture">
@@ -857,7 +980,7 @@
 
       <div class="container">
 
-        <div class="core-cta glass">
+        <div class="core-cta glass reveal">
 
           <div class="core-cta-orb" aria-hidden="true"></div>
 
@@ -898,11 +1021,12 @@
 
       <div class="container">
 
-        <div class="contact-wrap glass">
+        <div class="contact-wrap glass reveal">
 
           <div class="contact-head">
 
             <div>
+
               <div class="eyebrow">
                 CONTACT
               </div>
@@ -914,7 +1038,9 @@
               <p class="muted">
                 Fragen zu ZAL’THERA, einem System oder bestehenden Modulen?
               </p>
+
             </div>
+
 
             <div class="contact-actions">
 
@@ -949,30 +1075,45 @@
             <div class="form-grid">
 
               <div class="field">
-                <label for="name">Name</label>
+
+                <label for="name">
+                  Name
+                </label>
 
                 <input
                   id="name"
                   name="name"
                   placeholder="Dein Name"
+                  autocomplete="name"
                   required
                 />
+
               </div>
 
+
               <div class="field">
-                <label for="email">E-Mail</label>
+
+                <label for="email">
+                  E-Mail
+                </label>
 
                 <input
                   id="email"
                   name="email"
                   type="email"
                   placeholder="deine@email.de"
+                  autocomplete="email"
                   required
                 />
+
               </div>
 
+
               <div class="field field-full">
-                <label for="message">Nachricht</label>
+
+                <label for="message">
+                  Nachricht
+                </label>
 
                 <textarea
                   id="message"
@@ -981,6 +1122,7 @@
                   placeholder="Deine Nachricht …"
                   required
                 ></textarea>
+
               </div>
 
             </div>
@@ -994,7 +1136,9 @@
 
               <div class="fineprint">
                 Mit dem Absenden akzeptierst du unsere
-                <a href="datenschutz.html">Datenschutzerklärung</a>.
+                <a href="datenschutz.html">
+                  Datenschutzerklärung
+                </a>.
               </div>
 
             </div>
@@ -1032,10 +1176,7 @@
   </main>
 
 
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
+  <script src="site.js"></script>
 
 </body>
 </html>
