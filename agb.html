@@ -3,64 +3,405 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>AGB — ZAL’THERA</title>
+
+  <meta
+    name="description"
+    content="Allgemeine Geschäftsbedingungen für ZAL’THERA und LifeFlow."
+  />
+
+  <meta name="theme-color" content="#020306" />
+
   <link rel="stylesheet" href="styles.css" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-<main class="section">
-  <div class="container">
-    <h1>Allgemeine Geschäftsbedingungen (AGB)</h1>
 
-    <h2>1. Anbieter</h2>
-    <p>
-      Patrick Walker<br>
-      Stauffenbergstraße 138<br>
-      96052 Bamberg<br>
-      Deutschland<br>
-      E-Mail: contact@zalthera.de
-    </p>
-
-    <h2>2. Vertragsgegenstand</h2>
-    <p>
-      Gegenstand ist der Verkauf einer digitalen Anwendung („LifeFlow“).
-      Es handelt sich aktuell um eine Vorbestellung. Der Zugriff erfolgt nach Veröffentlichung.
-    </p>
-
-    <h2>3. Vertragsschluss</h2>
-    <p>
-      Der Vertrag kommt zustande, sobald die Zahlung über den bereitgestellten Zahlungsanbieter (z. B. PayPal) erfolgt ist.
-    </p>
-
-    <h2>4. Lieferung</h2>
-    <p>
-      Die Lieferung erfolgt digital. Der Zugang zur Anwendung wird nach Veröffentlichung bereitgestellt.
-      Ein genauer Zeitpunkt kann nicht garantiert werden, erfolgt jedoch so schnell wie möglich.
-    </p>
-
-    <h2>5. Preise</h2>
-    <p>
-      Alle Preise sind Endpreise. Gemäß §19 UStG wird keine Umsatzsteuer berechnet.
-    </p>
-
-    <h2>6. Nutzungsrechte</h2>
-    <p>
-      Der Käufer erhält ein einfaches, nicht übertragbares Nutzungsrecht.
-      Weitergabe, Verkauf oder Vervielfältigung der Software ist nicht gestattet.
-    </p>
-
-    <h2>7. Haftung</h2>
-    <p>
-      Die Nutzung erfolgt auf eigene Verantwortung. Es wird keine Haftung für finanzielle Entscheidungen übernommen,
-      die auf Basis der App getroffen werden.
-    </p>
-
-    <h2>8. Schlussbestimmungen</h2>
-    <p>
-      Es gilt deutsches Recht.
-    </p>
-
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
   </div>
-</main>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
+    <div class="container topbar-inner">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
+        <span class="brand-mark">ZAL’THERA</span>
+      </a>
+
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
+      >
+
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a href="index.html#products" data-i18n="nav.products">
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
+
+      </nav>
+
+
+      <div class="topbar-cta">
+
+        <a
+          class="chip chip-cta"
+          href="mailto:contact@zalthera.de"
+          data-i18n="global.contact"
+        >
+          Kontakt
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================================================
+       MAIN
+       ========================================================= -->
+
+  <main class="section">
+
+    <div class="container">
+
+      <div class="panel glass panel-wide">
+
+        <div
+          class="eyebrow"
+          data-i18n="terms.hero.eyebrow"
+        >
+          ALLGEMEINE GESCHÄFTSBEDINGUNGEN
+        </div>
+
+
+        <h1 data-i18n="terms.hero.title">
+          Allgemeine Geschäftsbedingungen (AGB)
+        </h1>
+
+
+        <!-- =====================================================
+             1. PROVIDER
+             ===================================================== -->
+
+        <h2 data-i18n="terms.provider.title">
+          1. Anbieter
+        </h2>
+
+
+        <p>
+          Patrick Walker<br />
+          Stauffenbergstraße 138<br />
+          96052 Bamberg<br />
+          Deutschland<br />
+
+          <span data-i18n="terms.provider.emailLabel">
+            E-Mail:
+          </span>
+
+          <a href="mailto:contact@zalthera.de">
+            contact@zalthera.de
+          </a>
+        </p>
+
+
+        <!-- =====================================================
+             2. SUBJECT
+             ===================================================== -->
+
+        <h2 data-i18n="terms.subject.title">
+          2. Vertragsgegenstand
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.subject.text"
+        >
+          Gegenstand ist der Verkauf einer digitalen Anwendung („LifeFlow“).
+          Es handelt sich aktuell um eine Vorbestellung. Der Zugriff erfolgt nach Veröffentlichung.
+        </p>
+
+
+        <!-- =====================================================
+             3. CONTRACT
+             ===================================================== -->
+
+        <h2 data-i18n="terms.contract.title">
+          3. Vertragsschluss
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.contract.text"
+        >
+          Der Vertrag kommt zustande, sobald die Zahlung über den bereitgestellten Zahlungsanbieter
+          (z. B. PayPal) erfolgt ist.
+        </p>
+
+
+        <!-- =====================================================
+             4. DELIVERY
+             ===================================================== -->
+
+        <h2 data-i18n="terms.delivery.title">
+          4. Lieferung
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.delivery.text"
+        >
+          Die Lieferung erfolgt digital. Der Zugang zur Anwendung wird nach Veröffentlichung bereitgestellt.
+          Ein genauer Zeitpunkt kann nicht garantiert werden, erfolgt jedoch so schnell wie möglich.
+        </p>
+
+
+        <!-- =====================================================
+             5. PRICES
+             ===================================================== -->
+
+        <h2 data-i18n="terms.prices.title">
+          5. Preise
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.prices.text"
+        >
+          Alle Preise sind Endpreise. Gemäß §19 UStG wird keine Umsatzsteuer berechnet.
+        </p>
+
+
+        <!-- =====================================================
+             6. LICENSE
+             ===================================================== -->
+
+        <h2 data-i18n="terms.license.title">
+          6. Nutzungsrechte
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.license.text"
+        >
+          Der Käufer erhält ein einfaches, nicht übertragbares Nutzungsrecht.
+          Weitergabe, Verkauf oder Vervielfältigung der Software ist nicht gestattet.
+        </p>
+
+
+        <!-- =====================================================
+             7. LIABILITY
+             ===================================================== -->
+
+        <h2 data-i18n="terms.liability.title">
+          7. Haftung
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.liability.text"
+        >
+          Die Nutzung erfolgt auf eigene Verantwortung. Es wird keine Haftung für finanzielle Entscheidungen übernommen,
+          die auf Basis der App getroffen werden.
+        </p>
+
+
+        <!-- =====================================================
+             8. FINAL PROVISIONS
+             ===================================================== -->
+
+        <h2 data-i18n="terms.final.title">
+          8. Schlussbestimmungen
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="terms.final.text"
+        >
+          Es gilt deutsches Recht.
+        </p>
+
+
+        <!-- =====================================================
+             ACTIONS
+             ===================================================== -->
+
+        <div
+          class="hero-actions"
+          style="margin-top:18px;"
+        >
+
+          <a
+            class="btn primary"
+            href="index.html"
+            data-i18n="terms.actions.home"
+          >
+            Zur Startseite
+          </a>
+
+          <a
+            class="btn ghost"
+            href="support.html"
+            data-i18n="global.support"
+          >
+            Support
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- =======================================================
+           FOOTER
+           ======================================================= -->
+
+      <footer class="footer">
+
+        <div class="footer-brand">
+
+          <strong>
+            ZAL’THERA
+          </strong>
+
+          <span>
+            © <span id="year"></span>
+          </span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <a href="index.html" data-i18n="global.home">
+            Home
+          </a>
+
+          <span>·</span>
+
+          <a href="support.html" data-i18n="global.support">
+            Support
+          </a>
+
+          <span>·</span>
+
+          <a href="impressum.html" data-i18n="footer.imprint">
+            Impressum
+          </a>
+
+          <span>·</span>
+
+          <a href="datenschutz.html" data-i18n="footer.privacy">
+            Datenschutz
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="agb.html"
+            aria-current="page"
+            data-i18n="footer.terms"
+          >
+            AGB
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="widerruf.html"
+            data-i18n="footer.withdrawal"
+          >
+            Widerruf
+          </a>
+
+        </div>
+
+      </footer>
+
+    </div>
+
+  </main>
+
+
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
+
 </body>
 </html>
