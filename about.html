@@ -1,94 +1,553 @@
-<!-- Path: about.html -->
 <!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — Über Patrick</title>
-  <meta name="description" content="Über Patrick Walker — Fokus auf Governance für Abweichungsfreigaben: auditierbar, erklärbar, ohne Mitarbeiterüberwachung." />
+
+  <title>ZAL’THERA — About</title>
+
+  <meta
+    name="description"
+    content="Warum ZAL’THERA entsteht: digitale Systeme für Identität, Kontext, Vertrauen, Intelligenz und nachvollziehbare menschlich autorisierte Aktionen."
+  />
+
+  <meta name="theme-color" content="#020306" />
+
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="index.html#home" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#modell">Modell</a>
-        <a href="index.html#angebot">Angebot</a>
-        <a href="about.html">Über Patrick</a>
-        <a href="index.html#kontakt">Kontakt</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
+        <a href="core.html">System</a>
+        <a href="index.html#continuity">Continuity</a>
+        <a href="index.html#intelligence">Intelligence</a>
+        <a href="index.html#communication">Communication</a>
+        <a href="index.html#industry">Industry</a>
+        <a href="index.html#products">Products</a>
+        <a href="about.html" aria-current="page">About</a>
       </nav>
 
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="index.html#kontakt">30-Min Call</a>
+        <a class="chip chip-cta" href="#founder">
+          About
+        </a>
       </div>
+
     </div>
+
   </header>
 
-  <main class="about-hero">
-    <div class="container">
-      <div class="about-hero-grid">
-        <div class="about-hero-text glass">
-          <div class="eyebrow">ÜBER</div>
-          <h1>Patrick Walker</h1>
-          <p class="muted">
-            Ich entwickle Governance-Flows für kritische Produktionsentscheidungen —
-            speziell für <strong>Abweichungsfreigaben</strong>:
-            identitätsgebunden, scoped, timeboxed und auditierbar.
-            <strong>Keine Mitarbeiterüberwachung</strong>, sondern Entscheidungsabsicherung.
-          </p>
 
-          <div class="panel glass panel-wide">
-            <h3>Wofür ZAL’THERA steht</h3>
-            <ul>
-              <li><strong>Verantwortung bleibt beim Menschen</strong> — Governance sorgt für Sicherheit und Nachweise.</li>
-              <li><strong>Audit &amp; Explainability</strong> — klare Gründe für Allow/Block, exportierbar.</li>
-              <li><strong>Local-first</strong> — keine Cloud-Pflicht.</li>
-              <li><strong>No Autonomy</strong> — keine selbstständige Ausführung ohne menschliche Entscheidung.</li>
-            </ul>
-          </div>
+  <main>
 
-          <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="btn primary" href="index.html#kontakt">Kontakt / Private Access</a>
-            <a class="btn ghost" href="index.html#angebot">Pilot ansehen</a>
-          </div>
-        </div>
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
 
-        <aside class="about-hero-portrait glass">
-          <div class="about-portrait-media">
-            <img src="assets/patrick-hero.png" alt="Patrick Walker" />
-          </div>
-          <div class="about-portrait-meta">
-            <div class="about-name">Patrick Walker</div>
-            <div class="about-role muted">Founder — ZAL’THERA (Deviation Release Governance)</div>
-          </div>
-        </aside>
+    <section
+      class="hero hero-zal"
+      aria-label="About ZAL’THERA"
+      data-hero
+    >
+
+      <div class="zal-field" aria-hidden="true" data-zal-field>
+
+        <span class="field-orbit orbit-a"></span>
+        <span class="field-orbit orbit-b"></span>
+        <span class="field-orbit orbit-c"></span>
+        <span class="field-orbit orbit-d"></span>
+
+        <span class="field-thread thread-a"></span>
+        <span class="field-thread thread-b"></span>
+        <span class="field-thread thread-c"></span>
+
+        <span class="field-node node-1"></span>
+        <span class="field-node node-2"></span>
+        <span class="field-node node-3"></span>
+        <span class="field-node node-4"></span>
+        <span class="field-node node-5"></span>
+        <span class="field-node node-6"></span>
+
+        <span class="field-core"></span>
+
       </div>
 
-      <footer class="footer" style="margin-top:22px;">
-        <div>© <span id="year"></span> ZAL’THERA</div>
-        <div class="footer-links">
-          <a href="impressum.html">Impressum</a>
-          <span>·</span>
-          <a href="datenschutz.html">Datenschutz</a>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+
+      <div class="container hero-content">
+
+        <div class="hero-copy hero-intro">
+
+          <div class="kicker">
+            WHY ZAL’THERA EXISTS
+          </div>
+
+          <div class="hero-product hero-product-large">
+            BUILT FROM FIRST PRINCIPLES
+          </div>
+
+          <h1 class="hero-title">
+            Technology should<br />
+            understand responsibility.
+          </h1>
+
+          <p class="hero-lead">
+            ZAL’THERA entsteht aus einer einfachen Frage:
+            Wie können digitale Systeme intelligenter werden,
+            ohne Identität, Verantwortung, Nachvollziehbarkeit
+            und menschliche Kontrolle zu verlieren?
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="btn primary" href="#principles">
+              Prinzipien entdecken
+            </a>
+
+            <a class="btn ghost" href="#founder">
+              Founder
+            </a>
+
+          </div>
+
+          <div class="hero-microline">
+            <span>LOCAL-FIRST</span>
+            <span>SOVEREIGN</span>
+            <span>TRACEABLE</span>
+            <span>HUMAN-AUTHORIZED</span>
+          </div>
+
         </div>
-      </footer>
-    </div>
+
+      </div>
+
+      <div class="hero-fade" aria-hidden="true"></div>
+
+    </section>
+
+
+    <!-- =========================================================
+         WHY
+         ========================================================= -->
+
+    <section id="principles" class="section">
+
+      <div class="container">
+
+        <div class="section-heading centered reveal">
+
+          <div class="eyebrow">
+            FIRST PRINCIPLES
+          </div>
+
+          <h2>
+            Digitale Systeme sollten Menschen nicht entmündigen.
+          </h2>
+
+          <p class="section-lead">
+            Je mehr Systeme wissen und vorbereiten können,
+            desto wichtiger werden Identität, Kontext,
+            Berechtigung, Nachweis und klare Verantwortlichkeit.
+          </p>
+
+        </div>
+
+
+        <div class="trust-grid">
+
+          <article class="trust-card glass reveal reveal-delay-1">
+
+            <span class="trust-index">
+              A
+            </span>
+
+            <h3>Identity belongs to the person.</h3>
+
+            <p class="muted">
+              Digitale Identität soll nicht von einer einzelnen
+              App, Plattform oder Sitzung abhängig sein.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-2">
+
+            <span class="trust-index">
+              B
+            </span>
+
+            <h3>Context must remain understandable.</h3>
+
+            <p class="muted">
+              Information gewinnt Bedeutung durch Herkunft,
+              Beziehung, Zeitpunkt und Zusammenhang.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-3">
+
+            <span class="trust-index">
+              C
+            </span>
+
+            <h3>Trust should be verifiable.</h3>
+
+            <p class="muted">
+              Vertrauen soll aus nachvollziehbaren Zuständen,
+              Berechtigungen und Nachweisen entstehen.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-4">
+
+            <span class="trust-index">
+              D
+            </span>
+
+            <h3>Authority remains explicit.</h3>
+
+            <p class="muted">
+              Intelligenz darf vorbereiten.
+              Konsequente Aktionen benötigen Autorisierung.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         NOT JUST APPS
+         ========================================================= -->
+
+    <section class="section section-deep">
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="authorization-panel glass reveal">
+
+          <div class="authorization-symbol" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <div>
+
+            <div class="eyebrow cyan">
+              ONE ARCHITECTURE
+            </div>
+
+            <h2>
+              ZAL’THERA ist nicht als Sammlung isolierter Apps gedacht.
+            </h2>
+
+            <p class="muted">
+              CONTINUITY, Proof, Communication, Intelligence und
+              industrielle Systeme folgen einer gemeinsamen Logik:
+              Identität, Kontext, Vertrauen, Audit und kontrollierte Aktion.
+            </p>
+
+            <div class="hero-actions">
+
+              <a class="btn primary" href="core.html">
+                ZAL’THERA Core
+              </a>
+
+              <a class="btn ghost" href="index.html#products">
+                Systeme ansehen
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FOUNDER
+         ========================================================= -->
+
+    <section
+      id="founder"
+      class="section ecosystem-section"
+    >
+
+      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+
+      <div class="container ecosystem-layout">
+
+        <div class="ecosystem-copy reveal">
+
+          <div class="eyebrow gold">
+            FOUNDER
+          </div>
+
+          <h2 class="ecosystem-title">
+            Patrick Walker
+          </h2>
+
+          <p class="ecosystem-tagline">
+            Founder and builder of ZAL’THERA.
+          </p>
+
+          <p class="muted ecosystem-text">
+            ZAL’THERA entsteht aus dem Ziel, digitale Systeme nicht
+            nur leistungsfähiger, sondern verständlicher,
+            verantwortlicher und souveräner zu machen.
+          </p>
+
+          <p class="muted ecosystem-text">
+            Der Schwerpunkt liegt auf Systemarchitekturen,
+            die persönliche Daten, Identität, künstliche Intelligenz,
+            Kommunikation, Nachweise und reale Prozesse miteinander
+            verbinden, ohne menschliche Autorität unsichtbar zu ersetzen.
+          </p>
+
+          <div class="hero-actions">
+
+            <a
+              class="btn primary"
+              href="mailto:contact@zalthera.de"
+            >
+              Kontakt
+            </a>
+
+            <a
+              class="btn ghost"
+              href="index.html"
+            >
+              ZAL’THERA entdecken
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="ecosystem-visual glass reveal reveal-from-right"
+          style="
+            min-height:560px;
+            display:flex;
+            align-items:flex-end;
+            justify-content:center;
+            padding:0;
+          "
+        >
+
+          <img
+            src="assets/patrick-hero.png"
+            alt="Patrick Walker"
+            style="
+              display:block;
+              width:100%;
+              height:100%;
+              object-fit:cover;
+              object-position:center top;
+              position:absolute;
+              inset:0;
+              opacity:.86;
+            "
+          />
+
+          <div
+            style="
+              position:absolute;
+              inset:0;
+              background:
+                linear-gradient(
+                  180deg,
+                  rgba(2,3,6,.04),
+                  rgba(2,3,6,.18) 48%,
+                  rgba(2,3,6,.94) 100%
+                );
+            "
+            aria-hidden="true"
+          ></div>
+
+          <div
+            style="
+              position:relative;
+              z-index:3;
+              width:100%;
+              padding:28px;
+            "
+          >
+
+            <div class="eyebrow gold">
+              ZAL’THERA
+            </div>
+
+            <h3 style="margin-bottom:5px;">
+              Patrick Walker
+            </h3>
+
+            <p class="muted" style="margin:0;">
+              Founder · Systems Architecture
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PRINCIPLE
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="core-cta glass reveal">
+
+          <div class="core-cta-orb" aria-hidden="true"></div>
+
+          <div class="core-cta-content">
+
+            <div class="eyebrow">
+              THE DIRECTION
+            </div>
+
+            <h2>
+              Intelligence should increase capability without removing accountability.
+            </h2>
+
+            <p class="muted">
+              Je mächtiger ein digitales System wird,
+              desto wichtiger werden nachvollziehbare Grenzen,
+              klare Identität und bewusste Autorisierung.
+            </p>
+
+            <a class="btn primary" href="index.html">
+              Zurück zum System
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+
+    <section class="section section-contact">
+
+      <div class="container">
+
+        <footer class="footer">
+
+          <div class="footer-brand">
+            <strong>ZAL’THERA</strong>
+            <span>© <span id="year"></span></span>
+          </div>
+
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <span>·</span>
+            <a href="core.html">System</a>
+            <span>·</span>
+            <a href="support.html">Support</a>
+            <span>·</span>
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+
+        </footer>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+
+  <script src="site.js"></script>
+
 </body>
 </html>
-
-
