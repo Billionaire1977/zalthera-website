@@ -3,256 +3,797 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LifeFlow — Kosten & Verträge im Griff</title>
-  <meta name="description" content="LifeFlow hilft dir, laufende Kosten, Verträge, Fristen, Einkommen und Schulden sichtbar zu machen. Jetzt für 3,99€ im App Store." />
+
+  <title>LifeFlow — Kosten, Verträge & Fristen | ZAL’THERA</title>
+
+  <meta
+    name="description"
+    content="LifeFlow macht laufende Kosten, Verträge, Fristen, Einkommen und finanzielle Verpflichtungen sichtbar. Der fokussierte Einstieg in persönliche Finanzübersicht."
+  />
+
+  <meta name="theme-color" content="#020306" />
+
+  <meta
+    property="og:title"
+    content="LifeFlow — Kosten, Verträge & Fristen"
+  />
+
+  <meta
+    property="og:description"
+    content="LifeFlow macht laufende Kosten, Verträge und Fristen übersichtlich sichtbar."
+  />
+
+  <meta
+    property="og:image"
+    content="/assets/hero-web.png"
+  />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 
-  <meta property="og:title" content="LifeFlow — Kosten & Verträge im Griff" />
-  <meta property="og:description" content="Behalte laufende Kosten, Verträge und Fristen im Blick. LifeFlow ist der einfache Einstieg in finanzielle Klarheit." />
-  <meta property="og:image" content="/assets/hero-web.png" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
 
-  <link rel="alternate" hreflang="de" href="/lifeflow.html" />
-  <link rel="alternate" hreflang="en" href="/en/lifeflow.html" />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
+
+  <link
+    rel="alternate"
+    hreflang="de"
+    href="/lifeflow.html"
+  />
+
+  <link
+    rel="alternate"
+    hreflang="en"
+    href="/en/lifeflow.html"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="/" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="LifeFlow Navigation">
-        <a href="/">Home</a>
-        <a href="#problem">Problem</a>
-        <a href="#system">System</a>
-        <a href="#offer">Preis</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Kontakt</a>
-        <a href="agb.html">AGB</a>
-        <a href="widerruf.html">Widerruf</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
+        <a href="core.html">System</a>
+        <a href="index.html#continuity">Continuity</a>
+        <a href="index.html#intelligence">Intelligence</a>
+        <a href="index.html#communication">Communication</a>
+        <a href="index.html#industry">Industry</a>
+        <a href="index.html#products" aria-current="page">Products</a>
+        <a href="about.html">About</a>
       </nav>
 
+
       <div class="topbar-cta">
-        <div class="lang-switch" aria-label="Sprache">
-          <a class="lang active" href="/lifeflow.html" aria-current="page">DE</a>
-          <a class="lang" href="/en/lifeflow.html">EN</a>
-        </div>
-        <a class="chip chip-cta" href="#offer">LifeFlow – 3,99€</a>
+        <a class="chip chip-cta" href="#offer">
+          LifeFlow
+        </a>
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="hero" aria-label="LifeFlow Hero">
-      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
-      <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">KOSTEN · VERTRÄGE · FRISTEN · CASHFLOW</div>
-          <div class="hero-product">LifeFlow</div>
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
 
-          <h1>Behalte deine Kosten<br/>unter Kontrolle.</h1>
+    <section
+      class="hero hero-zal"
+      aria-label="LifeFlow"
+      data-hero
+    >
 
-          <p class="lead">
-            LifeFlow zeigt dir, welche laufenden Kosten und Verträge existieren,
-            welche Fristen wichtig sind und was dir finanziell wirklich bleibt.
+      <div class="zal-field" aria-hidden="true" data-zal-field>
+
+        <span class="field-orbit orbit-a"></span>
+        <span class="field-orbit orbit-b"></span>
+        <span class="field-orbit orbit-c"></span>
+        <span class="field-orbit orbit-d"></span>
+
+        <span class="field-thread thread-a"></span>
+        <span class="field-thread thread-b"></span>
+        <span class="field-thread thread-c"></span>
+
+        <span class="field-node node-1"></span>
+        <span class="field-node node-2"></span>
+        <span class="field-node node-3"></span>
+        <span class="field-node node-4"></span>
+        <span class="field-node node-5"></span>
+
+        <span class="field-core"></span>
+
+      </div>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+
+      <div class="container hero-content hero-content-wide">
+
+        <div class="hero-copy hero-intro">
+
+          <div class="kicker">
+            PERSONAL FINANCE CLARITY
+          </div>
+
+          <div class="hero-product hero-product-large">
+            LIFEFLOW
+          </div>
+
+          <h1 class="hero-title">
+            See what comes in.<br />
+            See what goes out.<br />
+            Know what remains.
+          </h1>
+
+          <p class="hero-lead">
+            LifeFlow macht laufende Kosten, Verträge,
+            Fristen und finanzielle Verpflichtungen sichtbar –
+            fokussiert, verständlich und ohne unnötige Komplexität.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="#offer">LifeFlow ansehen – 3,99€</a>
-            <a class="btn ghost" href="#system">So funktioniert es</a>
+
+            <a class="btn primary" href="#offer">
+              LifeFlow ansehen
+            </a>
+
+            <a class="btn ghost" href="#system">
+              System verstehen
+            </a>
+
           </div>
 
-          <div class="tag-row" role="list" aria-label="Key Tags">
-            <span class="tag" role="listitem">3,99€</span>
-            <span class="tag" role="listitem">iPhone / iOS</span>
-            <span class="tag" role="listitem">Kein Abo</span>
-            <span class="tag" role="listitem">Einfacher Einstieg</span>
+          <div class="hero-microline">
+            <span>COSTS</span>
+            <span>CONTRACTS</span>
+            <span>DEADLINES</span>
+            <span>MONEY VIEW</span>
           </div>
+
         </div>
+
+
+        <div class="hero-system-map glass hero-system-panel">
+
+          <div class="system-map-label">
+            FINANCE VIEW
+          </div>
+
+          <div class="system-map-core">
+            <span class="system-map-dot"></span>
+            <strong>LIFEFLOW</strong>
+          </div>
+
+          <div class="system-map-row">
+            <span>INCOME</span>
+            <span class="state state-core">VISIBLE</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>COSTS</span>
+            <span class="state state-dev">TRACKED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>CONTRACTS</span>
+            <span class="state state-system">STRUCTURED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>DEADLINES</span>
+            <span class="state state-architecture">KNOWN</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>REMAINDER</span>
+            <span class="state state-core">CALCULATED</span>
+          </div>
+
+          <div class="system-map-scan" aria-hidden="true"></div>
+
+        </div>
+
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
+
     </section>
+
+
+    <!-- =========================================================
+         PROBLEM
+         ========================================================= -->
 
     <section id="problem" class="section">
+
       <div class="container">
-        <h2>Das Problem</h2>
-        <p class="muted">
-          Viele Menschen wissen ungefähr, was sie verdienen – aber nicht genau,
-          welche laufenden Kosten jeden Monat verschwinden, welche Verträge aktiv sind
-          und welche Fristen sie verpassen könnten.
-        </p>
+
+        <div class="section-heading centered reveal">
+
+          <div class="eyebrow">
+            FINANCIAL VISIBILITY
+          </div>
+
+          <h2>
+            Kleine Verpflichtungen werden groß, wenn sie unsichtbar bleiben.
+          </h2>
+
+          <p class="section-lead">
+            Viele laufende Kosten sind einzeln überschaubar.
+            Das Problem entsteht, wenn Verträge, Fristen und
+            wiederkehrende Zahlungen keinen gemeinsamen Überblick haben.
+          </p>
+
+        </div>
+
 
         <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">💸</span><strong>Kein echter Überblick</strong></div>
-            <p>Was kommt rein, was geht raus und was bleibt wirklich übrig?</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📅</span><strong>Fristen werden übersehen</strong></div>
-            <p>Verträge laufen weiter, weil Kündigungsfenster zu spät auffallen.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">⚠️</span><strong>Kosten bleiben unsichtbar</strong></div>
-            <p>Kleine Beträge werden übersehen – bis sie jeden Monat spürbar werden.</p>
-          </div>
+
+          <article class="card glass reveal reveal-delay-1">
+
+            <div class="card-title">
+              <strong>Kein Gesamtbild</strong>
+            </div>
+
+            <p class="muted">
+              Einkommen und Ausgaben werden getrennt wahrgenommen,
+              statt gemeinsam betrachtet.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-2">
+
+            <div class="card-title">
+              <strong>Fristen verschwinden</strong>
+            </div>
+
+            <p class="muted">
+              Vertrags- und Kündigungsdaten werden erst relevant,
+              wenn es bereits zu spät ist.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-3">
+
+            <div class="card-title">
+              <strong>Restbetrag bleibt Gefühl</strong>
+            </div>
+
+            <p class="muted">
+              Ohne klare Übersicht ist schwer einzuschätzen,
+              wie viel finanzieller Spielraum tatsächlich bleibt.
+            </p>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section id="system" class="section">
+
+    <!-- =========================================================
+         SYSTEM
+         ========================================================= -->
+
+    <section
+      id="system"
+      class="section section-deep"
+      data-section="system"
+    >
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+
       <div class="container">
-        <h2>Was LifeFlow macht</h2>
-        <p class="muted">
-          LifeFlow macht deine finanzielle Alltagsrealität sichtbar – einfach, direkt und ohne unnötigen Overkill.
-        </p>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📄</span><strong>Verträge &amp; Fristen</strong></div>
-            <p>Behalte laufende Verträge, Startdaten, Enddaten und Kündigungsfristen im Blick.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">💶</span><strong>Money View</strong></div>
-            <p>Sieh Einkommen, monatliche Kosten, Schulden und deinen verbleibenden Betrag an einem Ort.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🟢</span><strong>Klarer Status</strong></div>
-            <p>Erkenne sofort, ob deine Lage stabil, knapp oder kritisch ist.</p>
-          </div>
-        </div>
+        <div class="section-heading reveal">
 
-        <div class="panel glass panel-wide">
-          <p>
-            <strong>LifeFlow 1.0 ist bewusst fokussiert:</strong> keine Spielerei, kein komplizierter Finanzberater,
-            sondern ein einfacher Einstieg für laufende Kosten, Verträge und finanzielle Klarheit.
+          <div class="eyebrow cyan">
+            LIFEFLOW SYSTEM
+          </div>
+
+          <h2>
+            Finanzielle Alltagsrealität an einem Ort.
+          </h2>
+
+          <p class="section-lead">
+            LifeFlow konzentriert sich bewusst auf das,
+            was regelmäßig sichtbar sein muss.
           </p>
+
         </div>
+
+
+        <div class="trust-grid">
+
+          <article class="trust-card glass reveal reveal-delay-1">
+
+            <span class="trust-index">
+              A
+            </span>
+
+            <h3>Contracts</h3>
+
+            <p class="muted">
+              Laufende Verträge, Startdaten,
+              Enddaten und Fristen im Blick behalten.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-2">
+
+            <span class="trust-index">
+              B
+            </span>
+
+            <h3>Costs</h3>
+
+            <p class="muted">
+              Wiederkehrende finanzielle Verpflichtungen
+              strukturiert sichtbar machen.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-3">
+
+            <span class="trust-index">
+              C
+            </span>
+
+            <h3>Money View</h3>
+
+            <p class="muted">
+              Einkommen, Kosten, Schulden
+              und verbleibenden Betrag zusammen betrachten.
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-4">
+
+            <span class="trust-index">
+              D
+            </span>
+
+            <h3>Status</h3>
+
+            <p class="muted">
+              Finanzielle Lage schneller
+              und verständlicher einschätzen.
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="offer" class="section">
+
+    <!-- =========================================================
+         CONTINUITY CONNECTION
+         ========================================================= -->
+
+    <section class="section">
+
       <div class="container">
-        <div class="panel glass panel-wide">
-          <div class="eyebrow">JETZT VERFÜGBAR</div>
-          <h2>LifeFlow für 3,99€</h2>
-          <p class="muted">
-            LifeFlow ist der einfache Einstieg in das ZAL’THERA System:
-            laufende Kosten, Verträge, Fristen und Money View – klar und direkt.
-          </p>
 
-          <div class="cards-3" style="margin-top:18px;">
-            <div class="card glass">
-              <div class="card-title"><strong>LifeFlow</strong></div>
-              <p><strong>3,99€</strong></p>
-              <p class="muted">Einmalzahlung · kein Abo</p>
-            </div>
-            <div class="card glass">
-              <div class="card-title"><strong>Fokus</strong></div>
-              <p><strong>Kosten &amp; Verträge</strong></p>
-              <p class="muted">Schneller Einstieg statt komplexes System.</p>
-            </div>
-            <div class="card glass">
-              <div class="card-title"><strong>Plattform</strong></div>
-              <p><strong>iPhone / iOS</strong></p>
-              <p class="muted">Zum Start nur für iPhone verfügbar.</p>
-            </div>
+        <div class="authorization-panel glass reveal">
+
+          <div class="authorization-symbol" aria-hidden="true">
+            <span></span>
           </div>
 
-          <div class="hero-actions" style="margin-top:18px;">
-            <a class="btn primary" href="mailto:contact@zalthera.de?subject=LifeFlow%20App%20Store%20Link">App Store Link anfragen</a>
-            <a class="btn ghost" href="core.html">LifeVault Early Access</a>
+          <div>
+
+            <div class="eyebrow gold">
+              FROM LIFEFLOW TO CONTINUITY
+            </div>
+
+            <h2>
+              LifeFlow bleibt fokussiert. CONTINUITY geht weiter.
+            </h2>
+
+            <p class="muted">
+              LifeFlow ist ein eigenständig nutzbares,
+              fokussiertes Produkt für Kosten, Verträge und Fristen.
+              CONTINUITY entwickelt daraus eine wesentlich größere
+              persönliche Umgebung für Dokumente, Finance, Cards,
+              Timeline, Herkunft und Kontext.
+            </p>
+
+            <div class="hero-actions">
+
+              <a class="btn primary" href="index.html#continuity">
+                CONTINUITY ansehen
+              </a>
+
+              <a class="btn ghost" href="core.html">
+                ZAL’THERA Core
+              </a>
+
+            </div>
+
           </div>
 
-          <p class="muted" style="margin-top:14px;">
-            Hinweis: LifeFlow ist eigenständig nutzbar und bleibt der einfache Einstieg.
-            LifeVault ist das größere System für Dokumente, Nachweise, Geld und Verknüpfungen.
-          </p>
-
-          <p class="fineprint" style="margin-top:12px;">
-            Es gelten die
-            <a href="agb.html">AGB</a>,
-            die <a href="widerruf.html">Widerrufsbelehrung</a>
-            und die <a href="datenschutz.html">Datenschutzerklärung</a>.
-          </p>
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================================================
+         OFFER
+         ========================================================= -->
+
+    <section id="offer" class="section section-deep">
+
+      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="ledger-layout glass reveal">
+
+          <div>
+
+            <div class="eyebrow gold">
+              AVAILABLE
+            </div>
+
+            <h2>
+              LifeFlow
+            </h2>
+
+            <p class="muted">
+              Ein fokussierter Einstieg für persönliche
+              Kosten, Verträge, Fristen und Money View.
+            </p>
+
+            <div class="hero-actions">
+
+              <a
+                class="btn primary"
+                href="mailto:contact@zalthera.de?subject=LifeFlow%20App%20Store%20Link"
+              >
+                App Store Link anfragen
+              </a>
+
+              <a
+                class="btn ghost"
+                href="#faq"
+              >
+                FAQ
+              </a>
+
+            </div>
+
+            <p class="fineprint" style="margin-top:18px;">
+              Es gelten die
+              <a href="agb.html">AGB</a>,
+              die <a href="widerruf.html">Widerrufsbelehrung</a>
+              und die
+              <a href="datenschutz.html">Datenschutzerklärung</a>.
+            </p>
+
+          </div>
+
+
+          <div class="ledger-chain">
+
+            <div class="ledger-event">
+              <span>MODEL</span>
+              <strong>ONE-TIME PURCHASE</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>SUBSCRIPTION</span>
+              <strong>NONE</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>PLATFORM</span>
+              <strong>iPHONE / iOS</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>STATUS</span>
+              <strong>AVAILABLE</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FAQ
+         ========================================================= -->
 
     <section id="faq" class="section">
+
       <div class="container">
-        <h2>FAQ</h2>
+
+        <div class="section-heading reveal">
+
+          <div class="eyebrow">
+            FAQ
+          </div>
+
+          <h2>
+            LifeFlow kurz erklärt.
+          </h2>
+
+        </div>
+
 
         <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><strong>Ist LifeFlow ein Abo?</strong></div>
-            <p>Nein. LifeFlow ist als einfacher Einstieg ohne Abo gedacht.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><strong>Ist LifeFlow dasselbe wie LifeVault?</strong></div>
-            <p>Nein. LifeFlow konzentriert sich auf Kosten, Verträge und Fristen. LifeVault ist das größere Lebenssystem.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><strong>Ist LifeFlow auch für Android verfügbar?</strong></div>
-            <p>Nein. Zum Start ist LifeFlow nur für iPhone (iOS) verfügbar.</p>
-          </div>
+
+          <article class="card glass reveal reveal-delay-1">
+
+            <div class="card-title">
+              <strong>Ist LifeFlow ein Abo?</strong>
+            </div>
+
+            <p class="muted">
+              Nein. LifeFlow ist als fokussiertes Produkt
+              ohne laufendes Abonnement gedacht.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-2">
+
+            <div class="card-title">
+              <strong>Ist LifeFlow CONTINUITY?</strong>
+            </div>
+
+            <p class="muted">
+              Nein. LifeFlow konzentriert sich auf persönliche
+              Finanzübersicht. CONTINUITY ist die größere
+              souveräne persönliche Systemarchitektur.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-3">
+
+            <div class="card-title">
+              <strong>Welche Plattform?</strong>
+            </div>
+
+            <p class="muted">
+              LifeFlow ist aktuell auf iPhone / iOS ausgerichtet.
+            </p>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- =========================================================
+         CONTACT
+         ========================================================= -->
+
     <section id="contact" class="section section-contact">
+
       <div class="container">
-        <div class="contact-wrap glass">
+
+        <div class="contact-wrap glass reveal">
+
           <div class="contact-head">
+
             <div>
-              <h2>Fragen zu LifeFlow?</h2>
-              <p class="muted">Kurze Nachricht reicht. Ich melde mich direkt per E-Mail zurück.</p>
+
+              <div class="eyebrow">
+                LIFEFLOW
+              </div>
+
+              <h2>
+                Fragen zu LifeFlow?
+              </h2>
+
+              <p class="muted">
+                Kurze Nachricht reicht.
+              </p>
+
             </div>
+
 
             <div class="contact-actions">
-              <a class="chip chip-cta" href="mailto:contact@zalthera.de?subject=LifeFlow%20Frage">LifeFlow Frage</a>
-              <a class="chip" href="mailto:contact@zalthera.de">E-Mail</a>
+
+              <a
+                class="chip chip-cta"
+                href="mailto:contact@zalthera.de?subject=LifeFlow%20Frage"
+              >
+                LifeFlow Frage
+              </a>
+
             </div>
+
           </div>
 
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <input type="hidden" name="subject" value="LifeFlow Anfrage" />
+
+          <form
+            class="form"
+            action="https://formspree.io/f/xbdagyrw"
+            method="POST"
+          >
+
+            <input
+              type="hidden"
+              name="subject"
+              value="LifeFlow Anfrage"
+            />
+
 
             <div class="form-grid">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Dein Name" required />
-              </div>
 
               <div class="field">
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="deine@email.de" required />
+
+                <label for="name">
+                  Name
+                </label>
+
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Dein Name"
+                  autocomplete="name"
+                  required
+                />
+
               </div>
+
+
+              <div class="field">
+
+                <label for="email">
+                  E-Mail
+                </label>
+
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="deine@email.de"
+                  autocomplete="email"
+                  required
+                />
+
+              </div>
+
 
               <div class="field field-full">
-                <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Frage zu LifeFlow …" required></textarea>
+
+                <label for="message">
+                  Nachricht
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Frage zu LifeFlow …"
+                  required
+                ></textarea>
+
               </div>
+
             </div>
+
 
             <div class="form-footer">
-              <button class="btn primary" type="submit">Senden</button>
+
+              <button class="btn primary" type="submit">
+                Senden
+              </button>
+
               <div class="fineprint">
                 Mit dem Absenden akzeptierst du unsere
-                <a href="datenschutz.html">Datenschutzerklärung</a>.
+                <a href="datenschutz.html">
+                  Datenschutzerklärung
+                </a>.
               </div>
+
             </div>
+
           </form>
+
         </div>
 
+
         <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
+
+          <div class="footer-brand">
+            <strong>ZAL’THERA</strong>
+            <span>© <span id="year"></span></span>
+          </div>
+
           <div class="footer-links">
+            <a href="index.html">Home</a>
+            <span>·</span>
+            <a href="about.html">About</a>
+            <span>·</span>
             <a href="impressum.html">Impressum</a>
             <span>·</span>
             <a href="datenschutz.html">Datenschutz</a>
@@ -261,15 +802,17 @@
             <span>·</span>
             <a href="widerruf.html">Widerruf</a>
           </div>
+
         </footer>
+
       </div>
+
     </section>
+
   </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+
+  <script src="site.js"></script>
+
 </body>
 </html>
-
-
