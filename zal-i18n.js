@@ -1,6 +1,6 @@
 /* ============================================================
    ZAL’THERA WEBSITE
-   INTERNATIONALIZATION LAYER v1.3
+   INTERNATIONALIZATION LAYER v1.4
 
    Languages:
    DE / EN / TR / ES / FR / IT / RO / ZH-HANS
@@ -8,11 +8,6 @@
 
 (() => {
   "use strict";
-
-
-  /* ============================================================
-     CONFIGURATION
-     ============================================================ */
 
   const STORAGE_KEY = "zalthera-language";
   const DEFAULT_LANGUAGE = "de";
@@ -28,47 +23,15 @@
     "zh-Hans"
   ];
 
-
   const LANGUAGE_META = {
-    de: {
-      short: "DE",
-      name: "Deutsch"
-    },
-
-    en: {
-      short: "EN",
-      name: "English"
-    },
-
-    tr: {
-      short: "TR",
-      name: "Türkçe"
-    },
-
-    es: {
-      short: "ES",
-      name: "Español"
-    },
-
-    fr: {
-      short: "FR",
-      name: "Français"
-    },
-
-    it: {
-      short: "IT",
-      name: "Italiano"
-    },
-
-    ro: {
-      short: "RO",
-      name: "Română"
-    },
-
-    "zh-Hans": {
-      short: "中文",
-      name: "简体中文"
-    }
+    de: { short: "DE", name: "Deutsch" },
+    en: { short: "EN", name: "English" },
+    tr: { short: "TR", name: "Türkçe" },
+    es: { short: "ES", name: "Español" },
+    fr: { short: "FR", name: "Français" },
+    it: { short: "IT", name: "Italiano" },
+    ro: { short: "RO", name: "Română" },
+    "zh-Hans": { short: "中文", name: "简体中文" }
   };
 
 
@@ -78,12 +41,13 @@
 
   const TRANSLATIONS = {
 
-
     /* ==========================================================
        DEUTSCH
        ========================================================== */
 
     de: {
+
+      /* GLOBAL */
 
       "nav.system": "System",
       "nav.continuity": "CONTINUITY",
@@ -93,6 +57,7 @@
       "nav.products": "Products",
       "nav.about": "About",
 
+      "global.home": "Home",
       "global.explore": "Explore",
       "global.open": "Öffnen",
       "global.close": "Schließen",
@@ -104,6 +69,16 @@
       "global.development": "DEVELOPMENT",
       "global.systemModule": "SYSTEM MODULE",
       "global.architecture": "ARCHITECTURE",
+      "global.navOpen": "Navigation öffnen",
+      "global.mainNavigation": "Hauptnavigation",
+
+      "footer.imprint": "Impressum",
+      "footer.privacy": "Datenschutz",
+
+
+      /* ========================================================
+         HOME
+         ======================================================== */
 
       "home.hero.kicker":
         "SOUVERÄNE DIGITALE ARCHITEKTUR",
@@ -216,23 +191,12 @@
       "home.continuity.text2":
         "Informationen bleiben nicht als isolierte Dateien liegen. Sie erhalten Kontext, Herkunft, Zeitbezug und eine nachvollziehbare Position im persönlichen System.",
 
-      "home.continuity.documents":
-        "Dokumente",
-
-      "home.continuity.cards":
-        "Cards",
-
-      "home.continuity.timeline":
-        "Timeline",
-
-      "home.continuity.finance":
-        "Finanzen",
-
-      "home.continuity.context":
-        "Kontext",
-
-      "home.continuity.audit":
-        "Audit",
+      "home.continuity.documents": "Dokumente",
+      "home.continuity.cards": "Cards",
+      "home.continuity.timeline": "Timeline",
+      "home.continuity.finance": "Finanzen",
+      "home.continuity.context": "Kontext",
+      "home.continuity.audit": "Audit",
 
       "home.intelligence.eyebrow":
         "KONTEXTUELLE INTELLIGENZ",
@@ -270,20 +234,11 @@
       "home.communication.text2":
         "Sprache, später Video, Dateien und vertrauensbasierte Zustellung werden nicht über öffentliche Profile definiert, sondern über Identität, Beziehung und Berechtigung.",
 
-      "home.communication.voice":
-        "SPRACHE",
-
-      "home.communication.video":
-        "VIDEO",
-
-      "home.communication.files":
-        "DATEIEN",
-
-      "home.communication.trust":
-        "VERTRAUEN",
-
-      "home.communication.consent":
-        "ZUSTIMMUNG",
+      "home.communication.voice": "SPRACHE",
+      "home.communication.video": "VIDEO",
+      "home.communication.files": "DATEIEN",
+      "home.communication.trust": "VERTRAUEN",
+      "home.communication.consent": "ZUSTIMMUNG",
 
       "home.communication.connectionRule":
         "ZUSTIMMUNG VOR VERBINDUNG",
@@ -351,17 +306,10 @@
       "home.products.zalgate":
         "Architektur für die Verbindung von Sensorik, Messwerten, Maschinen und Prozesszuständen.",
 
-      "home.products.open":
-        "Öffnen →",
-
-      "home.products.viewSystem":
-        "System ansehen →",
-
-      "home.products.viewDevelopment":
-        "Entwicklung ansehen →",
-
-      "home.products.viewArchitecture":
-        "Architektur →",
+      "home.products.open": "Öffnen →",
+      "home.products.viewSystem": "System ansehen →",
+      "home.products.viewDevelopment": "Entwicklung ansehen →",
+      "home.products.viewArchitecture": "Architektur →",
 
       "home.pilot.eyebrow":
         "KONTROLLIERTER REALER EINSTIEG",
@@ -390,35 +338,19 @@
       "home.core.discover":
         "Core entdecken",
 
-      "home.contact.eyebrow":
-        "KONTAKT",
-
-      "home.contact.title":
-        "ZAL’THERA kontaktieren",
+      "home.contact.eyebrow": "KONTAKT",
+      "home.contact.title": "ZAL’THERA kontaktieren",
 
       "home.contact.text":
         "Fragen zu ZAL’THERA, einem System oder bestehenden Modulen?",
 
-      "home.contact.name":
-        "Name",
-
-      "home.contact.namePlaceholder":
-        "Dein Name",
-
-      "home.contact.email":
-        "E-Mail",
-
-      "home.contact.emailPlaceholder":
-        "deine@email.de",
-
-      "home.contact.message":
-        "Nachricht",
-
-      "home.contact.messagePlaceholder":
-        "Deine Nachricht …",
-
-      "home.contact.send":
-        "Senden",
+      "home.contact.name": "Name",
+      "home.contact.namePlaceholder": "Dein Name",
+      "home.contact.email": "E-Mail",
+      "home.contact.emailPlaceholder": "deine@email.de",
+      "home.contact.message": "Nachricht",
+      "home.contact.messagePlaceholder": "Deine Nachricht …",
+      "home.contact.send": "Senden",
 
       "home.contact.privacyPrefix":
         "Mit dem Absenden akzeptierst du unsere",
@@ -426,11 +358,283 @@
       "home.contact.privacy":
         "Datenschutzerklärung",
 
-      "footer.imprint":
-        "Impressum",
 
-      "footer.privacy":
-        "Datenschutz"
+      /* ========================================================
+         CORE
+         ======================================================== */
+
+      "core.hero.kicker":
+        "SYSTEMGRUNDLAGE",
+
+      "core.hero.title":
+        "Vertrauen sollte nicht<br>vorausgesetzt werden.<br>Es sollte konstruiert werden.",
+
+      "core.hero.description":
+        "ZAL’THERA Core verbindet Identität, Kontext, Regeln, Zustimmung, Nachweis und kontrollierte Ausführung zu einer gemeinsamen Vertrauensarchitektur.",
+
+      "core.hero.architecture":
+        "Architektur öffnen",
+
+      "core.hero.identityBound":
+        "IDENTITÄTSGEBUNDEN",
+
+      "core.hero.policyGoverned":
+        "REGELGESTEUERT",
+
+      "core.hero.auditable":
+        "NACHVOLLZIEHBAR",
+
+      "core.hero.humanAuthorized":
+        "MENSCHLICH AUTORISIERT",
+
+      "core.status.label":
+        "KERNPRINZIPIEN",
+
+      "core.status.identity":
+        "IDENTITÄT",
+
+      "core.status.who":
+        "WER",
+
+      "core.status.context":
+        "KONTEXT",
+
+      "core.status.why":
+        "WARUM",
+
+      "core.status.policy":
+        "REGELN",
+
+      "core.status.what":
+        "WAS",
+
+      "core.status.consent":
+        "ZUSTIMMUNG",
+
+      "core.status.allow":
+        "ERLAUBEN",
+
+      "core.status.audit":
+        "AUDIT",
+
+      "core.status.prove":
+        "NACHWEIS",
+
+      "core.status.execution":
+        "AUSFÜHRUNG",
+
+      "core.status.act":
+        "HANDELN",
+
+      "core.architecture.eyebrow":
+        "ÖFFENTLICHE ARCHITEKTUR",
+
+      "core.architecture.title":
+        "Fünf Ebenen. Eine nachvollziehbare Entscheidungskette.",
+
+      "core.architecture.lead":
+        "Die öffentliche Architektur erklärt die Grundlogik von ZAL’THERA, ohne interne Sicherheitsimplementierungen, private Schlüsselstrukturen oder Protokolldetails offenzulegen.",
+
+      "core.architecture.identity.title":
+        "Identität",
+
+      "core.architecture.identity.text":
+        "Eine Handlung beginnt mit einer eindeutig zugeordneten Identität, Rolle oder autorisierten Systeminstanz.",
+
+      "core.architecture.context.title":
+        "Kontext",
+
+      "core.architecture.context.text":
+        "Informationen werden nicht isoliert betrachtet, sondern mit Herkunft, Zeit und Beziehung verstanden.",
+
+      "core.architecture.intelligence.title":
+        "Intelligenz",
+
+      "core.architecture.intelligence.text":
+        "Systeme dürfen Informationen strukturieren, erklären und mögliche nächste Schritte vorbereiten.",
+
+      "core.architecture.trust.title":
+        "Vertrauen",
+
+      "core.architecture.trust.text":
+        "Berechtigungen, Nachweise, Consent und Audit bestimmen, was als vertrauenswürdig gelten darf.",
+
+      "core.architecture.action.title":
+        "Aktion",
+
+      "core.architecture.action.text":
+        "Konsequente Aktionen werden erst ausgeführt, wenn die erforderlichen Bedingungen erfüllt sind.",
+
+      "core.architecture.principle":
+        "SYSTEMPRINZIP",
+
+      "core.architecture.principleText":
+        "Erst verstehen. Dann vorbereiten. Nur mit Erlaubnis handeln.",
+
+      "core.architecture.technicalCore":
+        "Technischer Kern",
+
+      "core.technical.eyebrow":
+        "TECHNISCHER KERN",
+
+      "core.technical.lead":
+        "Unterhalb der öffentlichen Architektur arbeitet eine präzisere Kontrollkette für nachvollziehbare Systemaktionen.",
+
+      "core.technical.policy.title":
+        "Policy",
+
+      "core.technical.policy.text":
+        "Regeln definieren Grenzen, Zustände, Berechtigungen und Bedingungen.",
+
+      "core.technical.policy.question":
+        "WAS IST ERLAUBT?",
+
+      "core.technical.identity.title":
+        "Identität",
+
+      "core.technical.identity.text":
+        "Aktionen werden einer Person, Rolle, Identität oder autorisierten Instanz zugeordnet.",
+
+      "core.technical.identity.question":
+        "WER HANDELT?",
+
+      "core.technical.audit.title":
+        "Audit",
+
+      "core.technical.audit.text":
+        "Relevante Ereignisse werden mit Herkunft, Zeitpunkt und Zustand nachvollziehbar dokumentiert.",
+
+      "core.technical.audit.question":
+        "WAS IST PASSIERT?",
+
+      "core.technical.execute.title":
+        "Ausführen",
+
+      "core.technical.execute.text":
+        "Eine Aktion darf den sichtbaren Zustand erst verändern, wenn die notwendigen Bedingungen erfüllt sind.",
+
+      "core.technical.execute.question":
+        "DARF ES GESCHEHEN?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "Ein lokaler Wahrheitskern für überprüfbare Ereignisse.",
+
+      "core.ledger.text1":
+        "THE LEDGER hält relevante Ereignisse in nachvollziehbarer Reihenfolge fest. Einträge werden ergänzt, miteinander verbunden und können später geprüft werden.",
+
+      "core.ledger.text2":
+        "Das Ziel ist nicht, sämtliche Information zentral zu sammeln. Das Ziel ist, relevante Zustandsänderungen nachvollziehbar und überprüfbar zu machen.",
+
+      "core.ledger.created":
+        "ERSTELLT",
+
+      "core.ledger.proof":
+        "NACHWEIS",
+
+      "core.ledger.signed":
+        "SIGNIERT",
+
+      "core.ledger.verified":
+        "VERIFIZIERT",
+
+      "core.ledger.appendOnly.title":
+        "Nur ergänzend",
+
+      "core.ledger.appendOnly.text":
+        "Relevante Ereignisse werden ergänzt, nicht unbemerkt überschrieben.",
+
+      "core.ledger.linked.title":
+        "Verknüpft",
+
+      "core.ledger.linked.text":
+        "Ereignisse erhalten eine nachvollziehbare Beziehung zueinander.",
+
+      "core.ledger.verifiable.title":
+        "Überprüfbar",
+
+      "core.ledger.verifiable.text":
+        "Struktur, Integrität und Herkunft können geprüft werden.",
+
+      "core.trust.eyebrow":
+        "VERTRAUENSSCHICHT",
+
+      "core.trust.title":
+        "Vertrauen wird nicht behauptet.",
+
+      "core.trust.lead":
+        "Es entsteht aus überprüfbaren Zuständen, Identitäten, Berechtigungen und Nachweisen.",
+
+      "core.trust.proof.title":
+        "Nachweisvertrauen",
+
+      "core.trust.proof.text":
+        "Existiert ein gültiger Nachweis für die behauptete Aktion?",
+
+      "core.trust.policy.title":
+        "Regelvertrauen",
+
+      "core.trust.policy.text":
+        "Wurde innerhalb der vorgesehenen Regeln gehandelt?",
+
+      "core.trust.identity.title":
+        "Identitätsvertrauen",
+
+      "core.trust.identity.text":
+        "Ist die handelnde Identität eindeutig und autorisiert?",
+
+      "core.trust.audit.title":
+        "Audit-Vertrauen",
+
+      "core.trust.audit.text":
+        "Ist der Ablauf vollständig genug, um später nachvollzogen zu werden?",
+
+      "core.authorization.eyebrow":
+        "MENSCHLICHES AUTORISIERUNGSTOR",
+
+      "core.authorization.title":
+        "Intelligenz darf vorbereiten.<br>Autorität bleibt ausdrücklich.",
+
+      "core.authorization.text":
+        "ZAL’THERA kann Informationen verstehen, strukturieren, erklären und Handlungsmöglichkeiten vorbereiten. Konsequente Aktionen bleiben jedoch an die erforderliche menschliche oder ausdrücklich delegierte Autorisierung gebunden.",
+
+      "core.application.eyebrow":
+        "SYSTEMANWENDUNG",
+
+      "core.application.title":
+        "Ein Kern. Mehrere Anwendungswelten.",
+
+      "core.application.personal":
+        "PERSÖNLICH",
+
+      "core.application.continuity":
+        "Dokumente · Finanzen · Kontext · Cards",
+
+      "core.application.proof":
+        "NACHWEIS",
+
+      "core.application.proofflow":
+        "Nachweis · Audit · Signatur · Export",
+
+      "core.application.communication":
+        "KOMMUNIKATION",
+
+      "core.application.voicebridge":
+        "Identität · Zustimmung · Sprache · Vertrauen",
+
+      "core.application.industry":
+        "INDUSTRIE",
+
+      "core.application.shiftlog":
+        "Übergabe · Zustand · Verantwortung",
+
+      "core.return.title":
+        "Der Kern ist nicht das Produkt.<br>Er verbindet die Produkte.",
+
+      "core.return.button":
+        "Zurück zum System"
     },
 
 
@@ -448,6 +652,7 @@
       "nav.products": "Products",
       "nav.about": "About",
 
+      "global.home": "Home",
       "global.explore": "Explore",
       "global.open": "Open",
       "global.close": "Close",
@@ -459,6 +664,14 @@
       "global.development": "DEVELOPMENT",
       "global.systemModule": "SYSTEM MODULE",
       "global.architecture": "ARCHITECTURE",
+      "global.navOpen": "Open navigation",
+      "global.mainNavigation": "Main navigation",
+
+      "footer.imprint": "Legal Notice",
+      "footer.privacy": "Privacy",
+
+
+      /* HOME */
 
       "home.hero.kicker":
         "SOVEREIGN DIGITAL ARCHITECTURE",
@@ -475,92 +688,43 @@
       "home.hero.core":
         "ZAL’THERA Core",
 
-      "home.state.label":
-        "SYSTEM STATE",
+      "home.state.label": "SYSTEM STATE",
+      "home.state.identity": "IDENTITY",
+      "home.state.continuity": "CONTINUITY",
+      "home.state.intelligence": "INTELLIGENCE",
+      "home.state.communication": "COMMUNICATION",
+      "home.state.industry": "INDUSTRY",
+      "home.state.proof": "PROOF",
+      "home.state.core": "CORE",
+      "home.state.active": "ACTIVE DEVELOPMENT",
+      "home.state.architecture": "ARCHITECTURE",
+      "home.state.module": "SYSTEM MODULE",
 
-      "home.state.identity":
-        "IDENTITY",
-
-      "home.state.continuity":
-        "CONTINUITY",
-
-      "home.state.intelligence":
-        "INTELLIGENCE",
-
-      "home.state.communication":
-        "COMMUNICATION",
-
-      "home.state.industry":
-        "INDUSTRY",
-
-      "home.state.proof":
-        "PROOF",
-
-      "home.state.core":
-        "CORE",
-
-      "home.state.active":
-        "ACTIVE DEVELOPMENT",
-
-      "home.state.architecture":
-        "ARCHITECTURE",
-
-      "home.state.module":
-        "SYSTEM MODULE",
-
-      "home.system.eyebrow":
-        "ONE SYSTEM",
-
-      "home.system.title":
-        "Technology does not begin with an app.",
+      "home.system.eyebrow": "ONE SYSTEM",
+      "home.system.title": "Technology does not begin with an app.",
 
       "home.system.lead":
         "It begins with a shared logic for who acts, what is understood, who may be trusted and which action may actually be executed.",
 
-      "home.system.identity.title":
-        "Identity",
-
-      "home.system.identity.text":
-        "Who or which authorized system is acting?",
-
-      "home.system.context.title":
-        "Context",
-
-      "home.system.context.text":
-        "In what context do information and action exist?",
-
-      "home.system.intelligence.title":
-        "Intelligence",
-
-      "home.system.intelligence.text":
-        "What can be understood from the available context?",
-
-      "home.system.trust.title":
-        "Trust",
-
-      "home.system.trust.text":
-        "What is permitted, verifiable and accountable?",
-
-      "home.system.action.title":
-        "Action",
-
-      "home.system.action.text":
-        "What may actually be executed?",
-
-      "home.system.principle":
-        "CORE PRINCIPLE",
+      "home.system.identity.title": "Identity",
+      "home.system.identity.text": "Who or which authorized system is acting?",
+      "home.system.context.title": "Context",
+      "home.system.context.text": "In what context do information and action exist?",
+      "home.system.intelligence.title": "Intelligence",
+      "home.system.intelligence.text": "What can be understood from the available context?",
+      "home.system.trust.title": "Trust",
+      "home.system.trust.text": "What is permitted, verifiable and accountable?",
+      "home.system.action.title": "Action",
+      "home.system.action.text": "What may actually be executed?",
+      "home.system.principle": "CORE PRINCIPLE",
 
       "home.system.principleText":
         "Understand first. Prepare second. Act only with permission.",
 
-      "home.system.openArchitecture":
-        "Open architecture",
+      "home.system.openArchitecture": "Open architecture",
 
-      "home.continuity.eyebrow":
-        "PERSONAL SOVEREIGN SYSTEM",
-
-      "home.continuity.status":
-        "ACTIVE DEVELOPMENT",
+      "home.continuity.eyebrow": "PERSONAL SOVEREIGN SYSTEM",
+      "home.continuity.status": "ACTIVE DEVELOPMENT",
 
       "home.continuity.tagline":
         "Your life context. Structured. Connected. Understandable.",
@@ -571,35 +735,17 @@
       "home.continuity.text2":
         "Information does not remain as isolated files. It receives context, provenance, temporal reference and a traceable position within the personal system.",
 
-      "home.continuity.documents":
-        "Documents",
+      "home.continuity.documents": "Documents",
+      "home.continuity.cards": "Cards",
+      "home.continuity.timeline": "Timeline",
+      "home.continuity.finance": "Finance",
+      "home.continuity.context": "Context",
+      "home.continuity.audit": "Audit",
 
-      "home.continuity.cards":
-        "Cards",
-
-      "home.continuity.timeline":
-        "Timeline",
-
-      "home.continuity.finance":
-        "Finance",
-
-      "home.continuity.context":
-        "Context",
-
-      "home.continuity.audit":
-        "Audit",
-
-      "home.intelligence.eyebrow":
-        "CONTEXTUAL INTELLIGENCE",
-
-      "home.intelligence.status":
-        "ACTIVE DEVELOPMENT",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "Intelligence that knows its limits.",
+      "home.intelligence.eyebrow": "CONTEXTUAL INTELLIGENCE",
+      "home.intelligence.status": "ACTIVE DEVELOPMENT",
+      "home.intelligence.title": "ZAL’THERA Intelligence",
+      "home.intelligence.tagline": "Intelligence that knows its limits.",
 
       "home.intelligence.text1":
         "The intelligence layer does not operate independently of the human. It understands available context, identifies relationships, explains information and prepares possible actions.",
@@ -607,17 +753,10 @@
       "home.intelligence.text2":
         "Consequential actions remain bound to authorization, context and human approval.",
 
-      "home.communication.eyebrow":
-        "IDENTITY-TO-IDENTITY",
-
-      "home.communication.status":
-        "ACTIVE DEVELOPMENT",
-
-      "home.communication.title":
-        "Communication",
-
-      "home.communication.tagline":
-        "Connection begins with identity and consent.",
+      "home.communication.eyebrow": "IDENTITY-TO-IDENTITY",
+      "home.communication.status": "ACTIVE DEVELOPMENT",
+      "home.communication.title": "Communication",
+      "home.communication.tagline": "Connection begins with identity and consent.",
 
       "home.communication.text1":
         "ZAL’THERA Communication is developing a secure communication layer between authorized identities.",
@@ -625,71 +764,40 @@
       "home.communication.text2":
         "Voice, later video, files and trusted delivery are defined not through public profiles, but through identity, relationship and authorization.",
 
-      "home.communication.voice":
-        "VOICE",
+      "home.communication.voice": "VOICE",
+      "home.communication.video": "VIDEO",
+      "home.communication.files": "FILES",
+      "home.communication.trust": "TRUST",
+      "home.communication.consent": "CONSENT",
+      "home.communication.connectionRule": "CONSENT BEFORE CONNECTION",
 
-      "home.communication.video":
-        "VIDEO",
-
-      "home.communication.files":
-        "FILES",
-
-      "home.communication.trust":
-        "TRUST",
-
-      "home.communication.consent":
-        "CONSENT",
-
-      "home.communication.connectionRule":
-        "CONSENT BEFORE CONNECTION",
-
-      "home.industry.eyebrow":
-        "REAL-WORLD SYSTEMS",
-
-      "home.industry.status":
-        "DEVELOPMENT & ARCHITECTURE",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "Real processes become understandable systems.",
+      "home.industry.eyebrow": "REAL-WORLD SYSTEMS",
+      "home.industry.status": "DEVELOPMENT & ARCHITECTURE",
+      "home.industry.title": "ZAL’THERA Industry",
+      "home.industry.tagline": "Real processes become understandable systems.",
 
       "home.industry.text":
         "The industrial layer connects operational handovers, process states, sensor data, measurements and future machine integrations.",
 
-      "home.industry.shift":
-        "Shift handover & operational states",
+      "home.industry.shift": "Shift handover & operational states",
+      "home.industry.gate": "Sensors, measurements & machine processes",
+      "home.industry.process": "Analysis & traceable process states",
 
-      "home.industry.gate":
-        "Sensors, measurements & machine processes",
-
-      "home.industry.process":
-        "Analysis & traceable process states",
-
-      "home.proof.eyebrow":
-        "PROOF & TRUST",
-
-      "home.proof.title":
-        "Evidence before assumption.",
+      "home.proof.eyebrow": "PROOF & TRUST",
+      "home.proof.title": "Evidence before assumption.",
 
       "home.proof.text":
         "ProofFlow connects tasks, evidence, photos, notes, signatures, audit and export into a traceable workflow.",
 
-      "home.proof.open":
-        "Open ProofFlow",
+      "home.proof.open": "Open ProofFlow",
 
-      "home.products.eyebrow":
-        "SYSTEM PORTFOLIO",
-
-      "home.products.title":
-        "One ecosystem. Different levels of maturity.",
+      "home.products.eyebrow": "SYSTEM PORTFOLIO",
+      "home.products.title": "One ecosystem. Different levels of maturity.",
 
       "home.products.lead":
         "ZAL’THERA clearly distinguishes between available products, active development, system modules and future architecture.",
 
-      "home.products.lifeflow":
-        "Costs, contracts, deadlines and personal financial overview.",
+      "home.products.lifeflow": "Costs, contracts, deadlines and personal financial overview.",
 
       "home.products.continuity":
         "A personal sovereign environment for documents, data, context and intelligence.",
@@ -706,86 +814,289 @@
       "home.products.zalgate":
         "Architecture connecting sensors, measurements, machines and process states.",
 
-      "home.products.open":
-        "Open →",
+      "home.products.open": "Open →",
+      "home.products.viewSystem": "View system →",
+      "home.products.viewDevelopment": "View development →",
+      "home.products.viewArchitecture": "Architecture →",
 
-      "home.products.viewSystem":
-        "View system →",
-
-      "home.products.viewDevelopment":
-        "View development →",
-
-      "home.products.viewArchitecture":
-        "Architecture →",
-
-      "home.pilot.eyebrow":
-        "CONTROLLED REAL-WORLD ENTRY",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
+      "home.pilot.eyebrow": "CONTROLLED REAL-WORLD ENTRY",
+      "home.pilot.title": "ZAL’THERA Pilot",
 
       "home.pilot.text":
         "Understand a clearly defined real-world process, test it in a controlled way and verify actual value without immediately replacing the existing operation.",
 
-      "home.pilot.discover":
-        "Discover Pilot",
+      "home.pilot.discover": "Discover Pilot",
+      "home.pilot.request": "Request Pilot",
 
-      "home.pilot.request":
-        "Request Pilot",
-
-      "home.core.eyebrow":
-        "BENEATH EVERY SYSTEM",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
+      "home.core.eyebrow": "BENEATH EVERY SYSTEM",
+      "home.core.title": "ZAL’THERA CORE",
 
       "home.core.text":
         "Identity, Policy, Consent, Audit, Ledger, Trust and controlled execution form the technical core behind the ecosystem.",
 
-      "home.core.discover":
-        "Discover Core",
+      "home.core.discover": "Discover Core",
 
-      "home.contact.eyebrow":
-        "CONTACT",
-
-      "home.contact.title":
-        "Contact ZAL’THERA",
+      "home.contact.eyebrow": "CONTACT",
+      "home.contact.title": "Contact ZAL’THERA",
 
       "home.contact.text":
         "Questions about ZAL’THERA, a system or existing modules?",
 
-      "home.contact.name":
-        "Name",
+      "home.contact.name": "Name",
+      "home.contact.namePlaceholder": "Your name",
+      "home.contact.email": "Email",
+      "home.contact.emailPlaceholder": "your@email.com",
+      "home.contact.message": "Message",
+      "home.contact.messagePlaceholder": "Your message …",
+      "home.contact.send": "Send",
+      "home.contact.privacyPrefix": "By submitting, you accept our",
+      "home.contact.privacy": "Privacy Policy",
 
-      "home.contact.namePlaceholder":
-        "Your name",
 
-      "home.contact.email":
-        "Email",
+      /* CORE */
 
-      "home.contact.emailPlaceholder":
-        "your@email.com",
+      "core.hero.kicker":
+        "SYSTEM FOUNDATION",
 
-      "home.contact.message":
-        "Message",
+      "core.hero.title":
+        "Trust should not<br>be assumed.<br>It should be constructed.",
 
-      "home.contact.messagePlaceholder":
-        "Your message …",
+      "core.hero.description":
+        "ZAL’THERA Core connects identity, context, policy, consent, evidence and controlled execution into one shared trust architecture.",
 
-      "home.contact.send":
-        "Send",
+      "core.hero.architecture":
+        "Open architecture",
 
-      "home.contact.privacyPrefix":
-        "By submitting, you accept our",
+      "core.hero.identityBound":
+        "IDENTITY-BOUND",
 
-      "home.contact.privacy":
-        "Privacy Policy",
+      "core.hero.policyGoverned":
+        "POLICY-GOVERNED",
 
-      "footer.imprint":
-        "Legal Notice",
+      "core.hero.auditable":
+        "AUDITABLE",
 
-      "footer.privacy":
-        "Privacy"
+      "core.hero.humanAuthorized":
+        "HUMAN-AUTHORIZED",
+
+      "core.status.label":
+        "CORE PRINCIPLES",
+
+      "core.status.identity": "IDENTITY",
+      "core.status.who": "WHO",
+      "core.status.context": "CONTEXT",
+      "core.status.why": "WHY",
+      "core.status.policy": "POLICY",
+      "core.status.what": "WHAT",
+      "core.status.consent": "CONSENT",
+      "core.status.allow": "ALLOW",
+      "core.status.audit": "AUDIT",
+      "core.status.prove": "PROVE",
+      "core.status.execution": "EXECUTION",
+      "core.status.act": "ACT",
+
+      "core.architecture.eyebrow":
+        "PUBLIC ARCHITECTURE",
+
+      "core.architecture.title":
+        "Five layers. One traceable decision chain.",
+
+      "core.architecture.lead":
+        "The public architecture explains the fundamental logic of ZAL’THERA without exposing internal security implementations, private key structures or protocol details.",
+
+      "core.architecture.identity.title":
+        "Identity",
+
+      "core.architecture.identity.text":
+        "An action begins with a clearly assigned identity, role or authorized system instance.",
+
+      "core.architecture.context.title":
+        "Context",
+
+      "core.architecture.context.text":
+        "Information is not viewed in isolation, but understood with provenance, time and relationship.",
+
+      "core.architecture.intelligence.title":
+        "Intelligence",
+
+      "core.architecture.intelligence.text":
+        "Systems may structure information, explain it and prepare possible next steps.",
+
+      "core.architecture.trust.title":
+        "Trust",
+
+      "core.architecture.trust.text":
+        "Permissions, evidence, consent and audit determine what may be considered trustworthy.",
+
+      "core.architecture.action.title":
+        "Action",
+
+      "core.architecture.action.text":
+        "Consequential actions are executed only when the required conditions are satisfied.",
+
+      "core.architecture.principle":
+        "SYSTEM PRINCIPLE",
+
+      "core.architecture.principleText":
+        "Understand first. Prepare second. Act only with permission.",
+
+      "core.architecture.technicalCore":
+        "Technical Core",
+
+      "core.technical.eyebrow":
+        "TECHNICAL CORE",
+
+      "core.technical.lead":
+        "Below the public architecture operates a more precise control chain for traceable system actions.",
+
+      "core.technical.policy.title":
+        "Policy",
+
+      "core.technical.policy.text":
+        "Rules define boundaries, states, permissions and conditions.",
+
+      "core.technical.policy.question":
+        "WHAT IS ALLOWED?",
+
+      "core.technical.identity.title":
+        "Identity",
+
+      "core.technical.identity.text":
+        "Actions are assigned to a person, role, identity or authorized instance.",
+
+      "core.technical.identity.question":
+        "WHO ACTS?",
+
+      "core.technical.audit.title":
+        "Audit",
+
+      "core.technical.audit.text":
+        "Relevant events are documented with provenance, time and state so they can be traced.",
+
+      "core.technical.audit.question":
+        "WHAT HAPPENED?",
+
+      "core.technical.execute.title":
+        "Execute",
+
+      "core.technical.execute.text":
+        "An action may change the visible state only after the necessary conditions are satisfied.",
+
+      "core.technical.execute.question":
+        "MAY IT HAPPEN?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "A local truth core for verifiable events.",
+
+      "core.ledger.text1":
+        "THE LEDGER records relevant events in a traceable sequence. Entries are appended, linked and can later be examined.",
+
+      "core.ledger.text2":
+        "The goal is not to collect all information centrally. The goal is to make relevant state changes traceable and verifiable.",
+
+      "core.ledger.created": "CREATED",
+      "core.ledger.proof": "PROOF",
+      "core.ledger.signed": "SIGNED",
+      "core.ledger.verified": "VERIFIED",
+
+      "core.ledger.appendOnly.title":
+        "Append-only",
+
+      "core.ledger.appendOnly.text":
+        "Relevant events are appended rather than silently overwritten.",
+
+      "core.ledger.linked.title":
+        "Linked",
+
+      "core.ledger.linked.text":
+        "Events maintain a traceable relationship with one another.",
+
+      "core.ledger.verifiable.title":
+        "Verifiable",
+
+      "core.ledger.verifiable.text":
+        "Structure, integrity and provenance can be examined.",
+
+      "core.trust.eyebrow":
+        "TRUST LAYER",
+
+      "core.trust.title":
+        "Trust is not simply claimed.",
+
+      "core.trust.lead":
+        "It emerges from verifiable states, identities, permissions and evidence.",
+
+      "core.trust.proof.title":
+        "Proof Trust",
+
+      "core.trust.proof.text":
+        "Does valid evidence exist for the claimed action?",
+
+      "core.trust.policy.title":
+        "Policy Trust",
+
+      "core.trust.policy.text":
+        "Was the action performed within the intended rules?",
+
+      "core.trust.identity.title":
+        "Identity Trust",
+
+      "core.trust.identity.text":
+        "Is the acting identity clearly established and authorized?",
+
+      "core.trust.audit.title":
+        "Audit Trust",
+
+      "core.trust.audit.text":
+        "Is the process complete enough to be reconstructed later?",
+
+      "core.authorization.eyebrow":
+        "HUMAN AUTHORIZATION GATE",
+
+      "core.authorization.title":
+        "Intelligence may prepare.<br>Authority remains explicit.",
+
+      "core.authorization.text":
+        "ZAL’THERA may understand, structure and explain information and prepare possible actions. Consequential actions remain bound to the required human or explicitly delegated authorization.",
+
+      "core.application.eyebrow":
+        "SYSTEM APPLICATION",
+
+      "core.application.title":
+        "One core. Multiple application worlds.",
+
+      "core.application.personal":
+        "PERSONAL",
+
+      "core.application.continuity":
+        "Documents · Finance · Context · Cards",
+
+      "core.application.proof":
+        "PROOF",
+
+      "core.application.proofflow":
+        "Evidence · Audit · Signature · Export",
+
+      "core.application.communication":
+        "COMMUNICATION",
+
+      "core.application.voicebridge":
+        "Identity · Consent · Voice · Trust",
+
+      "core.application.industry":
+        "INDUSTRY",
+
+      "core.application.shiftlog":
+        "Handover · State · Responsibility",
+
+      "core.return.title":
+        "The core is not the product.<br>It is what connects the products.",
+
+      "core.return.button":
+        "Back to the system"
     },
 
 
@@ -803,6 +1114,7 @@
       "nav.products": "Ürünler",
       "nav.about": "Hakkında",
 
+      "global.home": "Ana Sayfa",
       "global.explore": "Keşfet",
       "global.open": "Aç",
       "global.close": "Kapat",
@@ -814,293 +1126,251 @@
       "global.development": "GELİŞTİRME",
       "global.systemModule": "SİSTEM MODÜLÜ",
       "global.architecture": "MİMARİ",
+      "global.navOpen": "Navigasyonu aç",
+      "global.mainNavigation": "Ana navigasyon",
 
-      "home.hero.kicker":
-        "EGEMEN DİJİTAL MİMARİ",
+      "footer.imprint": "Yasal Bilgiler",
+      "footer.privacy": "Gizlilik",
 
-      "home.hero.title":
-        "Tek sistem.<br>Tek kimlik.<br>Bağlantılı zekâ.",
+      "core.hero.kicker":
+        "SİSTEM TEMELİ",
 
-      "home.hero.description":
-        "ZAL’THERA; kimlik, bağlam, yapay zekâ, veri, güven, iletişim ve gerçek dünya süreçlerini ortak bir teknolojik mimaride birleştirir.",
+      "core.hero.title":
+        "Güven varsayılmamalı.<br>İnşa edilmelidir.",
 
-      "home.hero.primary":
-        "Sistemi keşfet",
+      "core.hero.description":
+        "ZAL’THERA Core; kimlik, bağlam, kurallar, onay, kanıt ve kontrollü yürütmeyi ortak bir güven mimarisinde birleştirir.",
 
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label":
-        "SİSTEM DURUMU",
-
-      "home.state.identity":
-        "KİMLİK",
-
-      "home.state.continuity":
-        "CONTINUITY",
-
-      "home.state.intelligence":
-        "ZEKÂ",
-
-      "home.state.communication":
-        "İLETİŞİM",
-
-      "home.state.industry":
-        "ENDÜSTRİ",
-
-      "home.state.proof":
-        "KANIT",
-
-      "home.state.core":
-        "ÇEKİRDEK",
-
-      "home.state.active":
-        "AKTİF GELİŞTİRME",
-
-      "home.state.architecture":
-        "MİMARİ",
-
-      "home.state.module":
-        "SİSTEM MODÜLÜ",
-
-      "home.system.eyebrow":
-        "TEK SİSTEM",
-
-      "home.system.title":
-        "Teknoloji bir uygulamayla başlamaz.",
-
-      "home.system.lead":
-        "Kimin hareket ettiğini, neyin anlaşıldığını, kime güvenilebileceğini ve hangi eylemin gerçekten gerçekleştirilebileceğini belirleyen ortak bir mantıkla başlar.",
-
-      "home.system.identity.title":
-        "Kimlik",
-
-      "home.system.identity.text":
-        "Kim veya hangi yetkili sistem hareket ediyor?",
-
-      "home.system.context.title":
-        "Bağlam",
-
-      "home.system.context.text":
-        "Bilgi ve eylem hangi bağlamda bulunuyor?",
-
-      "home.system.intelligence.title":
-        "Zekâ",
-
-      "home.system.intelligence.text":
-        "Mevcut bağlamdan ne anlaşılabilir?",
-
-      "home.system.trust.title":
-        "Güven",
-
-      "home.system.trust.text":
-        "Neye izin veriliyor ve ne doğrulanabilir?",
-
-      "home.system.action.title":
-        "Eylem",
-
-      "home.system.action.text":
-        "Gerçekte hangi eylem gerçekleştirilebilir?",
-
-      "home.system.principle":
-        "TEMEL İLKE",
-
-      "home.system.principleText":
-        "Önce anla. Sonra hazırla. Yalnızca izinle hareket et.",
-
-      "home.system.openArchitecture":
+      "core.hero.architecture":
         "Mimariyi aç",
 
-      "home.continuity.eyebrow":
-        "KİŞİSEL EGEMEN SİSTEM",
+      "core.hero.identityBound":
+        "KİMLİĞE BAĞLI",
 
-      "home.continuity.status":
-        "AKTİF GELİŞTİRME",
+      "core.hero.policyGoverned":
+        "KURALLARLA YÖNETİLEN",
 
-      "home.continuity.tagline":
-        "Yaşam bağlamın. Yapılandırılmış. Bağlantılı. Anlaşılır.",
+      "core.hero.auditable":
+        "DENETLENEBİLİR",
 
-      "home.continuity.text1":
-        "CONTINUITY; kişisel belgeleri, verileri, Cards yapısını, Timeline’ı, finansı, kanıtları ve bağlamı egemen bir kişisel ortamda birleştirir.",
+      "core.hero.humanAuthorized":
+        "İNSAN TARAFINDAN YETKİLENDİRİLMİŞ",
 
-      "home.continuity.text2":
-        "Bilgiler yalıtılmış dosyalar olarak kalmaz. Bağlam, kaynak, zaman ilişkisi ve kişisel sistem içinde izlenebilir bir konum kazanır.",
+      "core.status.label":
+        "TEMEL İLKELER",
 
-      "home.continuity.documents": "Belgeler",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "Finans",
-      "home.continuity.context": "Bağlam",
-      "home.continuity.audit": "Denetim",
+      "core.status.identity": "KİMLİK",
+      "core.status.who": "KİM",
+      "core.status.context": "BAĞLAM",
+      "core.status.why": "NEDEN",
+      "core.status.policy": "POLİTİKA",
+      "core.status.what": "NE",
+      "core.status.consent": "ONAY",
+      "core.status.allow": "İZİN",
+      "core.status.audit": "DENETİM",
+      "core.status.prove": "KANIT",
+      "core.status.execution": "YÜRÜTME",
+      "core.status.act": "HAREKET",
 
-      "home.intelligence.eyebrow":
-        "BAĞLAMSAL ZEKÂ",
+      "core.architecture.eyebrow":
+        "KAMUSAL MİMARİ",
 
-      "home.intelligence.status":
-        "AKTİF GELİŞTİRME",
+      "core.architecture.title":
+        "Beş katman. Tek izlenebilir karar zinciri.",
 
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
+      "core.architecture.lead":
+        "Kamusal mimari, dahili güvenlik uygulamalarını, özel anahtar yapılarını veya protokol ayrıntılarını açığa çıkarmadan ZAL’THERA’nın temel mantığını açıklar.",
 
-      "home.intelligence.tagline":
-        "Sınırlarını bilen zekâ.",
+      "core.architecture.identity.title":
+        "Kimlik",
 
-      "home.intelligence.text1":
-        "Zekâ katmanı insandan bağımsız çalışmaz. Mevcut bağlamı anlar, ilişkileri tanır, bilgiyi açıklar ve olası eylemleri hazırlar.",
+      "core.architecture.identity.text":
+        "Bir eylem açıkça atanmış bir kimlik, rol veya yetkili sistem örneğiyle başlar.",
 
-      "home.intelligence.text2":
-        "Önemli eylemler yetki, bağlam ve insan onayına bağlı kalır.",
+      "core.architecture.context.title":
+        "Bağlam",
 
-      "home.communication.eyebrow":
-        "KİMLİKTEN KİMLİĞE",
+      "core.architecture.context.text":
+        "Bilgi yalıtılmış olarak değil, kaynak, zaman ve ilişkiyle birlikte anlaşılır.",
 
-      "home.communication.status":
-        "AKTİF GELİŞTİRME",
+      "core.architecture.intelligence.title":
+        "Zekâ",
 
-      "home.communication.title":
-        "İletişim",
+      "core.architecture.intelligence.text":
+        "Sistemler bilgiyi yapılandırabilir, açıklayabilir ve olası sonraki adımları hazırlayabilir.",
 
-      "home.communication.tagline":
-        "Bağlantı kimlik ve onayla başlar.",
+      "core.architecture.trust.title":
+        "Güven",
 
-      "home.communication.text1":
-        "ZAL’THERA Communication, yetkili kimlikler arasında güvenli bir iletişim katmanı geliştirir.",
+      "core.architecture.trust.text":
+        "Yetkiler, kanıtlar, onay ve denetim, neyin güvenilir kabul edilebileceğini belirler.",
 
-      "home.communication.text2":
-        "Ses, daha sonra video, dosyalar ve güvene dayalı teslimat; herkese açık profillerle değil kimlik, ilişki ve yetkilendirmeyle tanımlanır.",
+      "core.architecture.action.title":
+        "Eylem",
 
-      "home.communication.voice": "SES",
-      "home.communication.video": "VİDEO",
-      "home.communication.files": "DOSYALAR",
-      "home.communication.trust": "GÜVEN",
-      "home.communication.consent": "ONAY",
+      "core.architecture.action.text":
+        "Önemli eylemler yalnızca gerekli koşullar sağlandığında gerçekleştirilir.",
 
-      "home.communication.connectionRule":
-        "BAĞLANTIDAN ÖNCE ONAY",
+      "core.architecture.principle":
+        "SİSTEM İLKESİ",
 
-      "home.industry.eyebrow":
-        "GERÇEK DÜNYA SİSTEMLERİ",
+      "core.architecture.principleText":
+        "Önce anla. Sonra hazırla. Yalnızca izinle hareket et.",
 
-      "home.industry.status":
-        "GELİŞTİRME & MİMARİ",
+      "core.architecture.technicalCore":
+        "Teknik Çekirdek",
 
-      "home.industry.title":
-        "ZAL’THERA Industry",
+      "core.technical.eyebrow":
+        "TEKNİK ÇEKİRDEK",
 
-      "home.industry.tagline":
-        "Gerçek süreçler anlaşılır sistemlere dönüşür.",
+      "core.technical.lead":
+        "Kamusal mimarinin altında, izlenebilir sistem eylemleri için daha hassas bir kontrol zinciri çalışır.",
 
-      "home.industry.text":
-        "Endüstriyel katman operasyonel devirleri, süreç durumlarını, sensör verilerini, ölçüm değerlerini ve gelecekteki makine bağlantılarını birleştirir.",
+      "core.technical.policy.title": "Policy",
 
-      "home.industry.shift":
-        "Vardiya devri & operasyonel durumlar",
+      "core.technical.policy.text":
+        "Kurallar sınırları, durumları, yetkileri ve koşulları tanımlar.",
 
-      "home.industry.gate":
-        "Sensörler, ölçümler & makine süreçleri",
+      "core.technical.policy.question":
+        "NEYE İZİN VAR?",
 
-      "home.industry.process":
-        "Analiz & izlenebilir süreç durumları",
+      "core.technical.identity.title":
+        "Kimlik",
 
-      "home.proof.eyebrow":
-        "KANIT & GÜVEN",
+      "core.technical.identity.text":
+        "Eylemler bir kişiye, role, kimliğe veya yetkili örneğe atanır.",
 
-      "home.proof.title":
-        "Varsayımdan önce kanıt.",
+      "core.technical.identity.question":
+        "KİM HAREKET EDİYOR?",
 
-      "home.proof.text":
-        "ProofFlow; görevleri, kanıtları, fotoğrafları, notları, imzaları, denetimi ve dışa aktarmayı izlenebilir bir süreçte birleştirir.",
+      "core.technical.audit.title":
+        "Denetim",
 
-      "home.proof.open":
-        "ProofFlow’u aç",
+      "core.technical.audit.text":
+        "İlgili olaylar kaynak, zaman ve durum bilgileriyle izlenebilir biçimde belgelenir.",
 
-      "home.products.eyebrow":
-        "SİSTEM PORTFÖYÜ",
+      "core.technical.audit.question":
+        "NE OLDU?",
 
-      "home.products.title":
-        "Tek ekosistem. Farklı olgunluk seviyeleri.",
+      "core.technical.execute.title":
+        "Yürütme",
 
-      "home.products.lead":
-        "ZAL’THERA mevcut ürünler, aktif geliştirme, sistem modülleri ve gelecekteki mimari arasında net bir ayrım yapar.",
+      "core.technical.execute.text":
+        "Bir eylem yalnızca gerekli koşullar sağlandıktan sonra görünür durumu değiştirebilir.",
 
-      "home.products.lifeflow":
-        "Maliyetler, sözleşmeler, son tarihler ve kişisel finans görünümü.",
+      "core.technical.execute.question":
+        "GERÇEKLEŞEBİLİR Mİ?",
 
-      "home.products.continuity":
-        "Belgeler, veriler, bağlam ve zekâ için kişisel egemen ortam.",
+      "core.ledger.eyebrow":
+        "THE LEDGER",
 
-      "home.products.proofflow":
-        "Kanıt, denetim, imza ve doğrulanabilir süreçler.",
+      "core.ledger.title":
+        "Doğrulanabilir olaylar için yerel bir gerçeklik çekirdeği.",
 
-      "home.products.shiftlog":
-        "Operasyonel durumlar ve sorumluluklar için dijital vardiya devri.",
+      "core.ledger.text1":
+        "THE LEDGER ilgili olayları izlenebilir bir sırayla kaydeder. Kayıtlar eklenir, birbirine bağlanır ve daha sonra incelenebilir.",
 
-      "home.products.voicebridge":
-        "Yetkili kimlikler arasında güvene dayalı doğrudan ses bağlantısının geliştirilmesi.",
+      "core.ledger.text2":
+        "Amaç tüm bilgileri merkezi olarak toplamak değildir. Amaç önemli durum değişikliklerini izlenebilir ve doğrulanabilir hale getirmektir.",
 
-      "home.products.zalgate":
-        "Sensörleri, ölçümleri, makineleri ve süreç durumlarını bağlayan mimari.",
+      "core.ledger.created": "OLUŞTURULDU",
+      "core.ledger.proof": "KANIT",
+      "core.ledger.signed": "İMZALANDI",
+      "core.ledger.verified": "DOĞRULANDI",
 
-      "home.products.open": "Aç →",
-      "home.products.viewSystem": "Sistemi görüntüle →",
-      "home.products.viewDevelopment": "Geliştirmeyi görüntüle →",
-      "home.products.viewArchitecture": "Mimari →",
+      "core.ledger.appendOnly.title":
+        "Yalnızca ekleme",
 
-      "home.pilot.eyebrow":
-        "KONTROLLÜ GERÇEK DÜNYA GİRİŞİ",
+      "core.ledger.appendOnly.text":
+        "İlgili olaylar sessizce üzerine yazılmak yerine eklenir.",
 
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
+      "core.ledger.linked.title":
+        "Bağlantılı",
 
-      "home.pilot.text":
-        "Açıkça sınırlandırılmış gerçek bir süreci anlayın, kontrollü biçimde test edin ve mevcut işletmeyi hemen tamamen değiştirmeden gerçek değeri doğrulayın.",
+      "core.ledger.linked.text":
+        "Olaylar birbirleriyle izlenebilir ilişkiler taşır.",
 
-      "home.pilot.discover":
-        "Pilot’u keşfet",
+      "core.ledger.verifiable.title":
+        "Doğrulanabilir",
 
-      "home.pilot.request":
-        "Pilot talep et",
+      "core.ledger.verifiable.text":
+        "Yapı, bütünlük ve kaynak doğrulanabilir.",
 
-      "home.core.eyebrow":
-        "HER SİSTEMİN ALTINDA",
+      "core.trust.eyebrow":
+        "GÜVEN KATMANI",
 
-      "home.core.title":
-        "ZAL’THERA CORE",
+      "core.trust.title":
+        "Güven yalnızca iddia edilmez.",
 
-      "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust ve kontrollü yürütme ekosistemin teknik çekirdeğini oluşturur.",
+      "core.trust.lead":
+        "Doğrulanabilir durumlar, kimlikler, yetkiler ve kanıtlardan oluşur.",
 
-      "home.core.discover":
-        "Core’u keşfet",
+      "core.trust.proof.title":
+        "Kanıt Güveni",
 
-      "home.contact.eyebrow":
+      "core.trust.proof.text":
+        "İddia edilen eylem için geçerli bir kanıt mevcut mu?",
+
+      "core.trust.policy.title":
+        "Politika Güveni",
+
+      "core.trust.policy.text":
+        "Eylem öngörülen kurallar içinde mi gerçekleştirildi?",
+
+      "core.trust.identity.title":
+        "Kimlik Güveni",
+
+      "core.trust.identity.text":
+        "Hareket eden kimlik açıkça belirlenmiş ve yetkili mi?",
+
+      "core.trust.audit.title":
+        "Denetim Güveni",
+
+      "core.trust.audit.text":
+        "Süreç daha sonra yeniden anlaşılabilecek kadar eksiksiz mi?",
+
+      "core.authorization.eyebrow":
+        "İNSAN YETKİLENDİRME KAPISI",
+
+      "core.authorization.title":
+        "Zekâ hazırlayabilir.<br>Yetki açık kalır.",
+
+      "core.authorization.text":
+        "ZAL’THERA bilgiyi anlayabilir, yapılandırabilir, açıklayabilir ve olası eylemleri hazırlayabilir. Önemli eylemler gerekli insan veya açıkça devredilmiş yetkilendirmeye bağlı kalır.",
+
+      "core.application.eyebrow":
+        "SİSTEM UYGULAMASI",
+
+      "core.application.title":
+        "Tek çekirdek. Birden fazla uygulama alanı.",
+
+      "core.application.personal": "KİŞİSEL",
+
+      "core.application.continuity":
+        "Belgeler · Finans · Bağlam · Cards",
+
+      "core.application.proof": "KANIT",
+
+      "core.application.proofflow":
+        "Kanıt · Denetim · İmza · Dışa Aktarma",
+
+      "core.application.communication":
         "İLETİŞİM",
 
-      "home.contact.title":
-        "ZAL’THERA ile iletişime geç",
+      "core.application.voicebridge":
+        "Kimlik · Onay · Ses · Güven",
 
-      "home.contact.text":
-        "ZAL’THERA, bir sistem veya mevcut modüller hakkında sorularınız mı var?",
+      "core.application.industry":
+        "ENDÜSTRİ",
 
-      "home.contact.name": "Ad",
-      "home.contact.namePlaceholder": "Adınız",
-      "home.contact.email": "E-posta",
-      "home.contact.emailPlaceholder": "eposta@adresiniz.com",
-      "home.contact.message": "Mesaj",
-      "home.contact.messagePlaceholder": "Mesajınız …",
-      "home.contact.send": "Gönder",
+      "core.application.shiftlog":
+        "Devir · Durum · Sorumluluk",
 
-      "home.contact.privacyPrefix":
-        "Göndererek şunu kabul etmiş olursunuz:",
+      "core.return.title":
+        "Çekirdek ürün değildir.<br>Ürünleri birbirine bağlayan yapıdır.",
 
-      "home.contact.privacy":
-        "Gizlilik Politikası",
-
-      "footer.imprint":
-        "Yasal Bilgiler",
-
-      "footer.privacy":
-        "Gizlilik"
+      "core.return.button":
+        "Sisteme dön"
     },
 
 
@@ -1118,6 +1388,7 @@
       "nav.products": "Productos",
       "nav.about": "Acerca de",
 
+      "global.home": "Inicio",
       "global.explore": "Explorar",
       "global.open": "Abrir",
       "global.close": "Cerrar",
@@ -1129,240 +1400,239 @@
       "global.development": "DESARROLLO",
       "global.systemModule": "MÓDULO DEL SISTEMA",
       "global.architecture": "ARQUITECTURA",
-
-      "home.hero.kicker":
-        "ARQUITECTURA DIGITAL SOBERANA",
-
-      "home.hero.title":
-        "Un sistema.<br>Una identidad.<br>Inteligencia conectada.",
-
-      "home.hero.description":
-        "ZAL’THERA conecta identidad, contexto, inteligencia artificial, datos, confianza, comunicación y procesos del mundo real dentro de una arquitectura tecnológica común.",
-
-      "home.hero.primary":
-        "Descubrir el sistema",
-
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label": "ESTADO DEL SISTEMA",
-      "home.state.identity": "IDENTIDAD",
-      "home.state.continuity": "CONTINUITY",
-      "home.state.intelligence": "INTELIGENCIA",
-      "home.state.communication": "COMUNICACIÓN",
-      "home.state.industry": "INDUSTRIA",
-      "home.state.proof": "PRUEBA",
-      "home.state.core": "NÚCLEO",
-      "home.state.active": "DESARROLLO ACTIVO",
-      "home.state.architecture": "ARQUITECTURA",
-      "home.state.module": "MÓDULO DEL SISTEMA",
-
-      "home.system.eyebrow":
-        "UN SISTEMA",
-
-      "home.system.title":
-        "La tecnología no comienza con una aplicación.",
-
-      "home.system.lead":
-        "Comienza con una lógica común que define quién actúa, qué se comprende, en quién se puede confiar y qué acción puede ejecutarse realmente.",
-
-      "home.system.identity.title": "Identidad",
-      "home.system.identity.text": "¿Quién o qué sistema autorizado está actuando?",
-      "home.system.context.title": "Contexto",
-      "home.system.context.text": "¿En qué contexto existen la información y la acción?",
-      "home.system.intelligence.title": "Inteligencia",
-      "home.system.intelligence.text": "¿Qué puede comprenderse a partir del contexto disponible?",
-      "home.system.trust.title": "Confianza",
-      "home.system.trust.text": "¿Qué está permitido y puede verificarse?",
-      "home.system.action.title": "Acción",
-      "home.system.action.text": "¿Qué puede ejecutarse realmente?",
-
-      "home.system.principle":
-        "PRINCIPIO CENTRAL",
-
-      "home.system.principleText":
-        "Primero comprender. Después preparar. Actuar solo con permiso.",
-
-      "home.system.openArchitecture":
-        "Abrir arquitectura",
-
-      "home.continuity.eyebrow":
-        "SISTEMA PERSONAL SOBERANO",
-
-      "home.continuity.status":
-        "DESARROLLO ACTIVO",
-
-      "home.continuity.tagline":
-        "El contexto de tu vida. Estructurado. Conectado. Comprensible.",
-
-      "home.continuity.text1":
-        "CONTINUITY conecta documentos personales, datos, Cards, Timeline, finanzas, pruebas y contexto dentro de un entorno personal soberano.",
-
-      "home.continuity.text2":
-        "La información no permanece como archivos aislados. Obtiene contexto, procedencia, referencia temporal y una posición trazable dentro del sistema personal.",
-
-      "home.continuity.documents": "Documentos",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "Finanzas",
-      "home.continuity.context": "Contexto",
-      "home.continuity.audit": "Auditoría",
-
-      "home.intelligence.eyebrow":
-        "INTELIGENCIA CONTEXTUAL",
-
-      "home.intelligence.status":
-        "DESARROLLO ACTIVO",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "Inteligencia que conoce sus límites.",
-
-      "home.intelligence.text1":
-        "La capa de inteligencia no funciona separada de la persona. Comprende el contexto disponible, reconoce relaciones, explica información y prepara posibles acciones.",
-
-      "home.intelligence.text2":
-        "Las acciones relevantes permanecen vinculadas a autorización, contexto y aprobación humana.",
-
-      "home.communication.eyebrow":
-        "IDENTIDAD A IDENTIDAD",
-
-      "home.communication.status":
-        "DESARROLLO ACTIVO",
-
-      "home.communication.title":
-        "Comunicación",
-
-      "home.communication.tagline":
-        "La conexión comienza con identidad y consentimiento.",
-
-      "home.communication.text1":
-        "ZAL’THERA Communication desarrolla una capa de comunicación segura entre identidades autorizadas.",
-
-      "home.communication.text2":
-        "La voz, posteriormente el vídeo, los archivos y la entrega basada en confianza no se definen mediante perfiles públicos, sino mediante identidad, relación y autorización.",
-
-      "home.communication.voice": "VOZ",
-      "home.communication.video": "VÍDEO",
-      "home.communication.files": "ARCHIVOS",
-      "home.communication.trust": "CONFIANZA",
-      "home.communication.consent": "CONSENTIMIENTO",
-
-      "home.communication.connectionRule":
-        "CONSENTIMIENTO ANTES DE LA CONEXIÓN",
-
-      "home.industry.eyebrow":
-        "SISTEMAS DEL MUNDO REAL",
-
-      "home.industry.status":
-        "DESARROLLO & ARQUITECTURA",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "Los procesos reales se convierten en sistemas comprensibles.",
-
-      "home.industry.text":
-        "La capa industrial conecta relevos operativos, estados de procesos, datos de sensores, mediciones y futuras integraciones de máquinas.",
-
-      "home.industry.shift":
-        "Relevo de turno & estados operativos",
-
-      "home.industry.gate":
-        "Sensores, mediciones & procesos de máquinas",
-
-      "home.industry.process":
-        "Análisis & estados de procesos trazables",
-
-      "home.proof.eyebrow":
-        "PRUEBA & CONFIANZA",
-
-      "home.proof.title":
-        "Evidencia antes que suposición.",
-
-      "home.proof.text":
-        "ProofFlow conecta tareas, pruebas, fotos, notas, firmas, auditoría y exportación en un flujo trazable.",
-
-      "home.proof.open":
-        "Abrir ProofFlow",
-
-      "home.products.eyebrow":
-        "PORTAFOLIO DEL SISTEMA",
-
-      "home.products.title":
-        "Un ecosistema. Diferentes niveles de madurez.",
-
-      "home.products.lead":
-        "ZAL’THERA distingue claramente entre productos disponibles, desarrollo activo, módulos del sistema y arquitectura futura.",
-
-      "home.products.lifeflow":
-        "Costes, contratos, plazos y visión financiera personal.",
-
-      "home.products.continuity":
-        "Entorno personal soberano para documentos, datos, contexto e inteligencia.",
-
-      "home.products.proofflow":
-        "Pruebas, auditoría, firmas y procesos verificables.",
-
-      "home.products.shiftlog":
-        "Relevo digital de turnos para estados operativos y responsabilidades.",
-
-      "home.products.voicebridge":
-        "Desarrollo de una conexión de voz directa basada en confianza entre identidades autorizadas.",
-
-      "home.products.zalgate":
-        "Arquitectura para conectar sensores, mediciones, máquinas y estados de procesos.",
-
-      "home.products.open": "Abrir →",
-      "home.products.viewSystem": "Ver sistema →",
-      "home.products.viewDevelopment": "Ver desarrollo →",
-      "home.products.viewArchitecture": "Arquitectura →",
-
-      "home.pilot.eyebrow":
-        "ENTRADA CONTROLADA AL MUNDO REAL",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
-
-      "home.pilot.text":
-        "Comprender un proceso real claramente delimitado, probarlo de forma controlada y verificar su valor real sin sustituir inmediatamente toda la operación existente.",
-
-      "home.pilot.discover":
-        "Descubrir Pilot",
-
-      "home.pilot.request":
-        "Solicitar Pilot",
-
-      "home.core.eyebrow":
-        "BAJO CADA SISTEMA",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
-
-      "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust y la ejecución controlada forman el núcleo técnico del ecosistema.",
-
-      "home.core.discover":
-        "Descubrir Core",
-
-      "home.contact.eyebrow": "CONTACTO",
-      "home.contact.title": "Contactar con ZAL’THERA",
-      "home.contact.text": "¿Preguntas sobre ZAL’THERA, un sistema o módulos existentes?",
-      "home.contact.name": "Nombre",
-      "home.contact.namePlaceholder": "Tu nombre",
-      "home.contact.email": "Correo electrónico",
-      "home.contact.emailPlaceholder": "tu@email.com",
-      "home.contact.message": "Mensaje",
-      "home.contact.messagePlaceholder": "Tu mensaje …",
-      "home.contact.send": "Enviar",
-      "home.contact.privacyPrefix": "Al enviar, aceptas nuestra",
-      "home.contact.privacy": "Política de privacidad",
+      "global.navOpen": "Abrir navegación",
+      "global.mainNavigation": "Navegación principal",
 
       "footer.imprint": "Aviso legal",
-      "footer.privacy": "Privacidad"
+      "footer.privacy": "Privacidad",
+
+      "core.hero.kicker":
+        "BASE DEL SISTEMA",
+
+      "core.hero.title":
+        "La confianza no debería<br>darse por sentada.<br>Debe construirse.",
+
+      "core.hero.description":
+        "ZAL’THERA Core conecta identidad, contexto, reglas, consentimiento, evidencia y ejecución controlada en una arquitectura común de confianza.",
+
+      "core.hero.architecture":
+        "Abrir arquitectura",
+
+      "core.hero.identityBound":
+        "VINCULADO A LA IDENTIDAD",
+
+      "core.hero.policyGoverned":
+        "GOBERNADO POR REGLAS",
+
+      "core.hero.auditable":
+        "AUDITABLE",
+
+      "core.hero.humanAuthorized":
+        "AUTORIZADO POR PERSONAS",
+
+      "core.status.label":
+        "PRINCIPIOS DEL NÚCLEO",
+
+      "core.status.identity": "IDENTIDAD",
+      "core.status.who": "QUIÉN",
+      "core.status.context": "CONTEXTO",
+      "core.status.why": "POR QUÉ",
+      "core.status.policy": "POLÍTICA",
+      "core.status.what": "QUÉ",
+      "core.status.consent": "CONSENTIMIENTO",
+      "core.status.allow": "PERMITIR",
+      "core.status.audit": "AUDITORÍA",
+      "core.status.prove": "PROBAR",
+      "core.status.execution": "EJECUCIÓN",
+      "core.status.act": "ACTUAR",
+
+      "core.architecture.eyebrow":
+        "ARQUITECTURA PÚBLICA",
+
+      "core.architecture.title":
+        "Cinco capas. Una cadena de decisiones trazable.",
+
+      "core.architecture.lead":
+        "La arquitectura pública explica la lógica fundamental de ZAL’THERA sin revelar implementaciones internas de seguridad, estructuras de claves privadas ni detalles de protocolos.",
+
+      "core.architecture.identity.title":
+        "Identidad",
+
+      "core.architecture.identity.text":
+        "Una acción comienza con una identidad, función o instancia de sistema autorizada claramente asignada.",
+
+      "core.architecture.context.title":
+        "Contexto",
+
+      "core.architecture.context.text":
+        "La información no se analiza de forma aislada, sino junto con su procedencia, tiempo y relación.",
+
+      "core.architecture.intelligence.title":
+        "Inteligencia",
+
+      "core.architecture.intelligence.text":
+        "Los sistemas pueden estructurar información, explicarla y preparar posibles pasos siguientes.",
+
+      "core.architecture.trust.title":
+        "Confianza",
+
+      "core.architecture.trust.text":
+        "Los permisos, las pruebas, el consentimiento y la auditoría determinan qué puede considerarse confiable.",
+
+      "core.architecture.action.title":
+        "Acción",
+
+      "core.architecture.action.text":
+        "Las acciones importantes solo se ejecutan cuando se cumplen las condiciones necesarias.",
+
+      "core.architecture.principle":
+        "PRINCIPIO DEL SISTEMA",
+
+      "core.architecture.principleText":
+        "Primero comprender. Después preparar. Actuar solo con permiso.",
+
+      "core.architecture.technicalCore":
+        "Núcleo técnico",
+
+      "core.technical.eyebrow":
+        "NÚCLEO TÉCNICO",
+
+      "core.technical.lead":
+        "Por debajo de la arquitectura pública funciona una cadena de control más precisa para acciones trazables del sistema.",
+
+      "core.technical.policy.title":
+        "Policy",
+
+      "core.technical.policy.text":
+        "Las reglas definen límites, estados, permisos y condiciones.",
+
+      "core.technical.policy.question":
+        "¿QUÉ ESTÁ PERMITIDO?",
+
+      "core.technical.identity.title":
+        "Identidad",
+
+      "core.technical.identity.text":
+        "Las acciones se asignan a una persona, función, identidad o instancia autorizada.",
+
+      "core.technical.identity.question":
+        "¿QUIÉN ACTÚA?",
+
+      "core.technical.audit.title":
+        "Auditoría",
+
+      "core.technical.audit.text":
+        "Los eventos relevantes se documentan con procedencia, momento y estado para permitir su trazabilidad.",
+
+      "core.technical.audit.question":
+        "¿QUÉ OCURRIÓ?",
+
+      "core.technical.execute.title":
+        "Ejecutar",
+
+      "core.technical.execute.text":
+        "Una acción solo puede modificar el estado visible cuando se hayan cumplido las condiciones necesarias.",
+
+      "core.technical.execute.question":
+        "¿PUEDE OCURRIR?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "Un núcleo local de verdad para eventos verificables.",
+
+      "core.ledger.text1":
+        "THE LEDGER registra eventos relevantes en una secuencia trazable. Las entradas se añaden, se vinculan y pueden examinarse posteriormente.",
+
+      "core.ledger.text2":
+        "El objetivo no es recopilar toda la información de forma centralizada. El objetivo es hacer trazables y verificables los cambios de estado relevantes.",
+
+      "core.ledger.created": "CREADO",
+      "core.ledger.proof": "PRUEBA",
+      "core.ledger.signed": "FIRMADO",
+      "core.ledger.verified": "VERIFICADO",
+
+      "core.ledger.appendOnly.title":
+        "Solo añadir",
+
+      "core.ledger.appendOnly.text":
+        "Los eventos relevantes se añaden en lugar de sobrescribirse silenciosamente.",
+
+      "core.ledger.linked.title":
+        "Vinculado",
+
+      "core.ledger.linked.text":
+        "Los eventos mantienen relaciones trazables entre sí.",
+
+      "core.ledger.verifiable.title":
+        "Verificable",
+
+      "core.ledger.verifiable.text":
+        "La estructura, integridad y procedencia pueden comprobarse.",
+
+      "core.trust.eyebrow":
+        "CAPA DE CONFIANZA",
+
+      "core.trust.title":
+        "La confianza no se limita a afirmarse.",
+
+      "core.trust.lead":
+        "Surge de estados, identidades, permisos y pruebas verificables.",
+
+      "core.trust.proof.title":
+        "Confianza en la prueba",
+
+      "core.trust.proof.text":
+        "¿Existe una prueba válida de la acción declarada?",
+
+      "core.trust.policy.title":
+        "Confianza en las reglas",
+
+      "core.trust.policy.text":
+        "¿La acción se realizó dentro de las reglas previstas?",
+
+      "core.trust.identity.title":
+        "Confianza en la identidad",
+
+      "core.trust.identity.text":
+        "¿La identidad que actúa está claramente establecida y autorizada?",
+
+      "core.trust.audit.title":
+        "Confianza de auditoría",
+
+      "core.trust.audit.text":
+        "¿El proceso está lo suficientemente completo como para reconstruirse posteriormente?",
+
+      "core.authorization.eyebrow":
+        "PUERTA DE AUTORIZACIÓN HUMANA",
+
+      "core.authorization.title":
+        "La inteligencia puede preparar.<br>La autoridad permanece explícita.",
+
+      "core.authorization.text":
+        "ZAL’THERA puede comprender, estructurar y explicar información, y preparar posibles acciones. Las acciones importantes permanecen vinculadas a la autorización humana necesaria o expresamente delegada.",
+
+      "core.application.eyebrow":
+        "APLICACIÓN DEL SISTEMA",
+
+      "core.application.title":
+        "Un núcleo. Varios ámbitos de aplicación.",
+
+      "core.application.personal": "PERSONAL",
+      "core.application.continuity": "Documentos · Finanzas · Contexto · Cards",
+      "core.application.proof": "PRUEBA",
+      "core.application.proofflow": "Evidencia · Auditoría · Firma · Exportación",
+      "core.application.communication": "COMUNICACIÓN",
+      "core.application.voicebridge": "Identidad · Consentimiento · Voz · Confianza",
+      "core.application.industry": "INDUSTRIA",
+      "core.application.shiftlog": "Relevo · Estado · Responsabilidad",
+
+      "core.return.title":
+        "El núcleo no es el producto.<br>Es lo que conecta los productos.",
+
+      "core.return.button":
+        "Volver al sistema"
     },
 
 
@@ -1380,6 +1650,7 @@
       "nav.products": "Produits",
       "nav.about": "À propos",
 
+      "global.home": "Accueil",
       "global.explore": "Explorer",
       "global.open": "Ouvrir",
       "global.close": "Fermer",
@@ -1391,238 +1662,238 @@
       "global.development": "DÉVELOPPEMENT",
       "global.systemModule": "MODULE SYSTÈME",
       "global.architecture": "ARCHITECTURE",
-
-      "home.hero.kicker":
-        "ARCHITECTURE NUMÉRIQUE SOUVERAINE",
-
-      "home.hero.title":
-        "Un système.<br>Une identité.<br>Une intelligence connectée.",
-
-      "home.hero.description":
-        "ZAL’THERA relie identité, contexte, intelligence artificielle, données, confiance, communication et processus réels au sein d’une architecture technologique commune.",
-
-      "home.hero.primary":
-        "Découvrir le système",
-
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label": "ÉTAT DU SYSTÈME",
-      "home.state.identity": "IDENTITÉ",
-      "home.state.continuity": "CONTINUITY",
-      "home.state.intelligence": "INTELLIGENCE",
-      "home.state.communication": "COMMUNICATION",
-      "home.state.industry": "INDUSTRIE",
-      "home.state.proof": "PREUVE",
-      "home.state.core": "CORE",
-      "home.state.active": "DÉVELOPPEMENT ACTIF",
-      "home.state.architecture": "ARCHITECTURE",
-      "home.state.module": "MODULE SYSTÈME",
-
-      "home.system.eyebrow": "UN SYSTÈME",
-
-      "home.system.title":
-        "La technologie ne commence pas par une application.",
-
-      "home.system.lead":
-        "Elle commence par une logique commune définissant qui agit, ce qui est compris, à qui l’on peut faire confiance et quelle action peut réellement être exécutée.",
-
-      "home.system.identity.title": "Identité",
-      "home.system.identity.text": "Qui ou quel système autorisé agit ?",
-      "home.system.context.title": "Contexte",
-      "home.system.context.text": "Dans quel contexte existent l’information et l’action ?",
-      "home.system.intelligence.title": "Intelligence",
-      "home.system.intelligence.text": "Que peut-on comprendre à partir du contexte disponible ?",
-      "home.system.trust.title": "Confiance",
-      "home.system.trust.text": "Qu’est-ce qui est autorisé, vérifiable et traçable ?",
-      "home.system.action.title": "Action",
-      "home.system.action.text": "Qu’est-ce qui peut réellement être exécuté ?",
-
-      "home.system.principle": "PRINCIPE CENTRAL",
-
-      "home.system.principleText":
-        "Comprendre d’abord. Préparer ensuite. Agir uniquement avec autorisation.",
-
-      "home.system.openArchitecture":
-        "Ouvrir l’architecture",
-
-      "home.continuity.eyebrow":
-        "SYSTÈME PERSONNEL SOUVERAIN",
-
-      "home.continuity.status":
-        "DÉVELOPPEMENT ACTIF",
-
-      "home.continuity.tagline":
-        "Le contexte de votre vie. Structuré. Connecté. Compréhensible.",
-
-      "home.continuity.text1":
-        "CONTINUITY relie documents personnels, données, Cards, Timeline, finances, preuves et contexte dans un environnement personnel souverain.",
-
-      "home.continuity.text2":
-        "Les informations ne restent pas de simples fichiers isolés. Elles acquièrent contexte, provenance, référence temporelle et position traçable dans le système personnel.",
-
-      "home.continuity.documents": "Documents",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "Finances",
-      "home.continuity.context": "Contexte",
-      "home.continuity.audit": "Audit",
-
-      "home.intelligence.eyebrow":
-        "INTELLIGENCE CONTEXTUELLE",
-
-      "home.intelligence.status":
-        "DÉVELOPPEMENT ACTIF",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "Une intelligence qui connaît ses limites.",
-
-      "home.intelligence.text1":
-        "La couche d’intelligence ne fonctionne pas indépendamment de l’humain. Elle comprend le contexte disponible, identifie les relations, explique les informations et prépare des actions possibles.",
-
-      "home.intelligence.text2":
-        "Les actions importantes restent liées à l’autorisation, au contexte et à l’approbation humaine.",
-
-      "home.communication.eyebrow":
-        "IDENTITÉ À IDENTITÉ",
-
-      "home.communication.status":
-        "DÉVELOPPEMENT ACTIF",
-
-      "home.communication.title":
-        "Communication",
-
-      "home.communication.tagline":
-        "La connexion commence par l’identité et le consentement.",
-
-      "home.communication.text1":
-        "ZAL’THERA Communication développe une couche de communication sécurisée entre identités autorisées.",
-
-      "home.communication.text2":
-        "La voix, puis la vidéo, les fichiers et la livraison fondée sur la confiance ne sont pas définis par des profils publics, mais par l’identité, la relation et l’autorisation.",
-
-      "home.communication.voice": "VOIX",
-      "home.communication.video": "VIDÉO",
-      "home.communication.files": "FICHIERS",
-      "home.communication.trust": "CONFIANCE",
-      "home.communication.consent": "CONSENTEMENT",
-
-      "home.communication.connectionRule":
-        "CONSENTEMENT AVANT CONNEXION",
-
-      "home.industry.eyebrow":
-        "SYSTÈMES DU MONDE RÉEL",
-
-      "home.industry.status":
-        "DÉVELOPPEMENT & ARCHITECTURE",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "Les processus réels deviennent des systèmes compréhensibles.",
-
-      "home.industry.text":
-        "La couche industrielle relie les transmissions opérationnelles, les états de processus, les données de capteurs, les mesures et les futures connexions machines.",
-
-      "home.industry.shift":
-        "Transmission d’équipe & états opérationnels",
-
-      "home.industry.gate":
-        "Capteurs, mesures & processus machines",
-
-      "home.industry.process":
-        "Analyse & états de processus traçables",
-
-      "home.proof.eyebrow":
-        "PREUVE & CONFIANCE",
-
-      "home.proof.title":
-        "La preuve avant l’hypothèse.",
-
-      "home.proof.text":
-        "ProofFlow relie tâches, preuves, photos, notes, signatures, audit et export dans un processus traçable.",
-
-      "home.proof.open":
-        "Ouvrir ProofFlow",
-
-      "home.products.eyebrow":
-        "PORTEFEUILLE SYSTÈME",
-
-      "home.products.title":
-        "Un écosystème. Différents niveaux de maturité.",
-
-      "home.products.lead":
-        "ZAL’THERA distingue clairement les produits disponibles, le développement actif, les modules système et l’architecture future.",
-
-      "home.products.lifeflow":
-        "Coûts, contrats, échéances et vue financière personnelle.",
-
-      "home.products.continuity":
-        "Environnement personnel souverain pour documents, données, contexte et intelligence.",
-
-      "home.products.proofflow":
-        "Preuves, audit, signatures et processus vérifiables.",
-
-      "home.products.shiftlog":
-        "Transmission numérique des équipes pour les états opérationnels et les responsabilités.",
-
-      "home.products.voicebridge":
-        "Développement d’une connexion vocale directe fondée sur la confiance entre identités autorisées.",
-
-      "home.products.zalgate":
-        "Architecture reliant capteurs, mesures, machines et états de processus.",
-
-      "home.products.open": "Ouvrir →",
-      "home.products.viewSystem": "Voir le système →",
-      "home.products.viewDevelopment": "Voir le développement →",
-      "home.products.viewArchitecture": "Architecture →",
-
-      "home.pilot.eyebrow":
-        "ENTRÉE CONTRÔLÉE DANS LE MONDE RÉEL",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
-
-      "home.pilot.text":
-        "Comprendre un processus réel clairement délimité, le tester de manière contrôlée et vérifier sa valeur réelle sans remplacer immédiatement l’ensemble de l’exploitation existante.",
-
-      "home.pilot.discover":
-        "Découvrir Pilot",
-
-      "home.pilot.request":
-        "Demander un Pilot",
-
-      "home.core.eyebrow":
-        "SOUS CHAQUE SYSTÈME",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
-
-      "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust et l’exécution contrôlée constituent le cœur technique de l’écosystème.",
-
-      "home.core.discover":
-        "Découvrir Core",
-
-      "home.contact.eyebrow": "CONTACT",
-      "home.contact.title": "Contacter ZAL’THERA",
-      "home.contact.text": "Des questions sur ZAL’THERA, un système ou des modules existants ?",
-      "home.contact.name": "Nom",
-      "home.contact.namePlaceholder": "Votre nom",
-      "home.contact.email": "E-mail",
-      "home.contact.emailPlaceholder": "votre@email.com",
-      "home.contact.message": "Message",
-      "home.contact.messagePlaceholder": "Votre message …",
-      "home.contact.send": "Envoyer",
-      "home.contact.privacyPrefix": "En envoyant ce formulaire, vous acceptez notre",
-      "home.contact.privacy": "Politique de confidentialité",
+      "global.navOpen": "Ouvrir la navigation",
+      "global.mainNavigation": "Navigation principale",
 
       "footer.imprint": "Mentions légales",
-      "footer.privacy": "Confidentialité"
+      "footer.privacy": "Confidentialité",
+
+      "core.hero.kicker":
+        "FONDATION DU SYSTÈME",
+
+      "core.hero.title":
+        "La confiance ne devrait pas<br>être supposée.<br>Elle devrait être construite.",
+
+      "core.hero.description":
+        "ZAL’THERA Core relie identité, contexte, règles, consentement, preuve et exécution contrôlée dans une architecture de confiance commune.",
+
+      "core.hero.architecture":
+        "Ouvrir l’architecture",
+
+      "core.hero.identityBound":
+        "LIÉ À L’IDENTITÉ",
+
+      "core.hero.policyGoverned":
+        "GOUVERNÉ PAR DES RÈGLES",
+
+      "core.hero.auditable":
+        "AUDITABLE",
+
+      "core.hero.humanAuthorized":
+        "AUTORISÉ PAR L’HUMAIN",
+
+      "core.status.label":
+        "PRINCIPES DU CORE",
+
+      "core.status.identity": "IDENTITÉ",
+      "core.status.who": "QUI",
+      "core.status.context": "CONTEXTE",
+      "core.status.why": "POURQUOI",
+      "core.status.policy": "POLITIQUE",
+      "core.status.what": "QUOI",
+      "core.status.consent": "CONSENTEMENT",
+      "core.status.allow": "AUTORISER",
+      "core.status.audit": "AUDIT",
+      "core.status.prove": "PROUVER",
+      "core.status.execution": "EXÉCUTION",
+      "core.status.act": "AGIR",
+
+      "core.architecture.eyebrow":
+        "ARCHITECTURE PUBLIQUE",
+
+      "core.architecture.title":
+        "Cinq niveaux. Une chaîne de décision traçable.",
+
+      "core.architecture.lead":
+        "L’architecture publique explique la logique fondamentale de ZAL’THERA sans révéler les implémentations internes de sécurité, les structures de clés privées ou les détails de protocole.",
+
+      "core.architecture.identity.title":
+        "Identité",
+
+      "core.architecture.identity.text":
+        "Une action commence par une identité, un rôle ou une instance système autorisée clairement attribuée.",
+
+      "core.architecture.context.title":
+        "Contexte",
+
+      "core.architecture.context.text":
+        "Les informations ne sont pas examinées isolément, mais comprises avec leur provenance, leur temporalité et leurs relations.",
+
+      "core.architecture.intelligence.title":
+        "Intelligence",
+
+      "core.architecture.intelligence.text":
+        "Les systèmes peuvent structurer les informations, les expliquer et préparer les étapes suivantes possibles.",
+
+      "core.architecture.trust.title":
+        "Confiance",
+
+      "core.architecture.trust.text":
+        "Les permissions, preuves, consentements et audits déterminent ce qui peut être considéré comme fiable.",
+
+      "core.architecture.action.title":
+        "Action",
+
+      "core.architecture.action.text":
+        "Les actions importantes ne sont exécutées que lorsque les conditions requises sont satisfaites.",
+
+      "core.architecture.principle":
+        "PRINCIPE SYSTÈME",
+
+      "core.architecture.principleText":
+        "Comprendre d’abord. Préparer ensuite. Agir uniquement avec autorisation.",
+
+      "core.architecture.technicalCore":
+        "Core technique",
+
+      "core.technical.eyebrow":
+        "CORE TECHNIQUE",
+
+      "core.technical.lead":
+        "Sous l’architecture publique fonctionne une chaîne de contrôle plus précise pour les actions système traçables.",
+
+      "core.technical.policy.title": "Policy",
+
+      "core.technical.policy.text":
+        "Les règles définissent les limites, les états, les permissions et les conditions.",
+
+      "core.technical.policy.question":
+        "QU’EST-CE QUI EST AUTORISÉ ?",
+
+      "core.technical.identity.title":
+        "Identité",
+
+      "core.technical.identity.text":
+        "Les actions sont attribuées à une personne, un rôle, une identité ou une instance autorisée.",
+
+      "core.technical.identity.question":
+        "QUI AGIT ?",
+
+      "core.technical.audit.title":
+        "Audit",
+
+      "core.technical.audit.text":
+        "Les événements pertinents sont documentés avec provenance, date et état afin de rester traçables.",
+
+      "core.technical.audit.question":
+        "QUE S’EST-IL PASSÉ ?",
+
+      "core.technical.execute.title":
+        "Exécuter",
+
+      "core.technical.execute.text":
+        "Une action ne peut modifier l’état visible qu’après satisfaction des conditions nécessaires.",
+
+      "core.technical.execute.question":
+        "CELA PEUT-IL ARRIVER ?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "Un noyau local de vérité pour des événements vérifiables.",
+
+      "core.ledger.text1":
+        "THE LEDGER enregistre les événements pertinents dans une séquence traçable. Les entrées sont ajoutées, liées et peuvent être examinées ultérieurement.",
+
+      "core.ledger.text2":
+        "L’objectif n’est pas de centraliser toutes les informations. Il est de rendre les changements d’état pertinents traçables et vérifiables.",
+
+      "core.ledger.created": "CRÉÉ",
+      "core.ledger.proof": "PREUVE",
+      "core.ledger.signed": "SIGNÉ",
+      "core.ledger.verified": "VÉRIFIÉ",
+
+      "core.ledger.appendOnly.title":
+        "Ajout uniquement",
+
+      "core.ledger.appendOnly.text":
+        "Les événements pertinents sont ajoutés plutôt que remplacés discrètement.",
+
+      "core.ledger.linked.title":
+        "Lié",
+
+      "core.ledger.linked.text":
+        "Les événements conservent une relation traçable entre eux.",
+
+      "core.ledger.verifiable.title":
+        "Vérifiable",
+
+      "core.ledger.verifiable.text":
+        "La structure, l’intégrité et la provenance peuvent être contrôlées.",
+
+      "core.trust.eyebrow":
+        "COUCHE DE CONFIANCE",
+
+      "core.trust.title":
+        "La confiance ne se décrète pas.",
+
+      "core.trust.lead":
+        "Elle naît d’états, d’identités, de permissions et de preuves vérifiables.",
+
+      "core.trust.proof.title":
+        "Confiance par la preuve",
+
+      "core.trust.proof.text":
+        "Existe-t-il une preuve valide de l’action déclarée ?",
+
+      "core.trust.policy.title":
+        "Confiance par les règles",
+
+      "core.trust.policy.text":
+        "L’action a-t-elle été réalisée conformément aux règles prévues ?",
+
+      "core.trust.identity.title":
+        "Confiance d’identité",
+
+      "core.trust.identity.text":
+        "L’identité qui agit est-elle clairement établie et autorisée ?",
+
+      "core.trust.audit.title":
+        "Confiance d’audit",
+
+      "core.trust.audit.text":
+        "Le processus est-il suffisamment complet pour être reconstitué ultérieurement ?",
+
+      "core.authorization.eyebrow":
+        "PASSAGE D’AUTORISATION HUMAINE",
+
+      "core.authorization.title":
+        "L’intelligence peut préparer.<br>L’autorité reste explicite.",
+
+      "core.authorization.text":
+        "ZAL’THERA peut comprendre, structurer et expliquer les informations et préparer des actions possibles. Les actions importantes restent liées à l’autorisation humaine requise ou explicitement déléguée.",
+
+      "core.application.eyebrow":
+        "APPLICATION DU SYSTÈME",
+
+      "core.application.title":
+        "Un core. Plusieurs domaines d’application.",
+
+      "core.application.personal": "PERSONNEL",
+      "core.application.continuity": "Documents · Finances · Contexte · Cards",
+      "core.application.proof": "PREUVE",
+      "core.application.proofflow": "Preuve · Audit · Signature · Export",
+      "core.application.communication": "COMMUNICATION",
+      "core.application.voicebridge": "Identité · Consentement · Voix · Confiance",
+      "core.application.industry": "INDUSTRIE",
+      "core.application.shiftlog": "Transmission · État · Responsabilité",
+
+      "core.return.title":
+        "Le core n’est pas le produit.<br>C’est ce qui relie les produits.",
+
+      "core.return.button":
+        "Retour au système"
     },
 
 
@@ -1640,6 +1911,7 @@
       "nav.products": "Prodotti",
       "nav.about": "Chi siamo",
 
+      "global.home": "Home",
       "global.explore": "Esplora",
       "global.open": "Apri",
       "global.close": "Chiudi",
@@ -1651,239 +1923,239 @@
       "global.development": "SVILUPPO",
       "global.systemModule": "MODULO DI SISTEMA",
       "global.architecture": "ARCHITETTURA",
-
-      "home.hero.kicker":
-        "ARCHITETTURA DIGITALE SOVRANA",
-
-      "home.hero.title":
-        "Un sistema.<br>Un’identità.<br>Intelligenza connessa.",
-
-      "home.hero.description":
-        "ZAL’THERA collega identità, contesto, intelligenza artificiale, dati, fiducia, comunicazione e processi reali in un’unica architettura tecnologica.",
-
-      "home.hero.primary":
-        "Scopri il sistema",
-
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label": "STATO DEL SISTEMA",
-      "home.state.identity": "IDENTITÀ",
-      "home.state.continuity": "CONTINUITY",
-      "home.state.intelligence": "INTELLIGENZA",
-      "home.state.communication": "COMUNICAZIONE",
-      "home.state.industry": "INDUSTRIA",
-      "home.state.proof": "PROVA",
-      "home.state.core": "CORE",
-      "home.state.active": "SVILUPPO ATTIVO",
-      "home.state.architecture": "ARCHITETTURA",
-      "home.state.module": "MODULO DI SISTEMA",
-
-      "home.system.eyebrow": "UN SISTEMA",
-
-      "home.system.title":
-        "La tecnologia non inizia con un’app.",
-
-      "home.system.lead":
-        "Inizia con una logica condivisa che definisce chi agisce, cosa viene compreso, di chi ci si può fidare e quale azione può essere realmente eseguita.",
-
-      "home.system.identity.title": "Identità",
-      "home.system.identity.text": "Chi o quale sistema autorizzato sta agendo?",
-      "home.system.context.title": "Contesto",
-      "home.system.context.text": "In quale contesto esistono informazione e azione?",
-      "home.system.intelligence.title": "Intelligenza",
-      "home.system.intelligence.text": "Cosa può essere compreso dal contesto disponibile?",
-      "home.system.trust.title": "Fiducia",
-      "home.system.trust.text": "Cosa è consentito, verificabile e tracciabile?",
-      "home.system.action.title": "Azione",
-      "home.system.action.text": "Cosa può essere realmente eseguito?",
-
-      "home.system.principle":
-        "PRINCIPIO CENTRALE",
-
-      "home.system.principleText":
-        "Prima comprendere. Poi preparare. Agire solo con autorizzazione.",
-
-      "home.system.openArchitecture":
-        "Apri architettura",
-
-      "home.continuity.eyebrow":
-        "SISTEMA PERSONALE SOVRANO",
-
-      "home.continuity.status":
-        "SVILUPPO ATTIVO",
-
-      "home.continuity.tagline":
-        "Il contesto della tua vita. Strutturato. Connesso. Comprensibile.",
-
-      "home.continuity.text1":
-        "CONTINUITY collega documenti personali, dati, Cards, Timeline, finanze, prove e contesto in un ambiente personale sovrano.",
-
-      "home.continuity.text2":
-        "Le informazioni non rimangono file isolati. Ricevono contesto, provenienza, riferimento temporale e una posizione tracciabile nel sistema personale.",
-
-      "home.continuity.documents": "Documenti",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "Finanze",
-      "home.continuity.context": "Contesto",
-      "home.continuity.audit": "Audit",
-
-      "home.intelligence.eyebrow":
-        "INTELLIGENZA CONTESTUALE",
-
-      "home.intelligence.status":
-        "SVILUPPO ATTIVO",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "Intelligenza che conosce i propri limiti.",
-
-      "home.intelligence.text1":
-        "Il livello di intelligenza non opera separatamente dalla persona. Comprende il contesto disponibile, riconosce relazioni, spiega informazioni e prepara possibili azioni.",
-
-      "home.intelligence.text2":
-        "Le azioni rilevanti rimangono vincolate ad autorizzazione, contesto e approvazione umana.",
-
-      "home.communication.eyebrow":
-        "IDENTITÀ A IDENTITÀ",
-
-      "home.communication.status":
-        "SVILUPPO ATTIVO",
-
-      "home.communication.title":
-        "Comunicazione",
-
-      "home.communication.tagline":
-        "La connessione inizia con identità e consenso.",
-
-      "home.communication.text1":
-        "ZAL’THERA Communication sviluppa un livello di comunicazione sicuro tra identità autorizzate.",
-
-      "home.communication.text2":
-        "Voce, successivamente video, file e consegna basata sulla fiducia non vengono definiti tramite profili pubblici, ma attraverso identità, relazione e autorizzazione.",
-
-      "home.communication.voice": "VOCE",
-      "home.communication.video": "VIDEO",
-      "home.communication.files": "FILE",
-      "home.communication.trust": "FIDUCIA",
-      "home.communication.consent": "CONSENSO",
-
-      "home.communication.connectionRule":
-        "CONSENSO PRIMA DELLA CONNESSIONE",
-
-      "home.industry.eyebrow":
-        "SISTEMI DEL MONDO REALE",
-
-      "home.industry.status":
-        "SVILUPPO & ARCHITETTURA",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "I processi reali diventano sistemi comprensibili.",
-
-      "home.industry.text":
-        "Il livello industriale collega passaggi operativi, stati di processo, dati dei sensori, misurazioni e future integrazioni con le macchine.",
-
-      "home.industry.shift":
-        "Passaggio di turno & stati operativi",
-
-      "home.industry.gate":
-        "Sensori, misurazioni & processi macchina",
-
-      "home.industry.process":
-        "Analisi & stati di processo tracciabili",
-
-      "home.proof.eyebrow":
-        "PROVA & FIDUCIA",
-
-      "home.proof.title":
-        "Prove prima delle supposizioni.",
-
-      "home.proof.text":
-        "ProofFlow collega attività, prove, foto, note, firme, audit ed esportazione in un flusso tracciabile.",
-
-      "home.proof.open":
-        "Apri ProofFlow",
-
-      "home.products.eyebrow":
-        "PORTAFOGLIO DI SISTEMA",
-
-      "home.products.title":
-        "Un ecosistema. Diversi livelli di maturità.",
-
-      "home.products.lead":
-        "ZAL’THERA distingue chiaramente tra prodotti disponibili, sviluppo attivo, moduli di sistema e architettura futura.",
-
-      "home.products.lifeflow":
-        "Costi, contratti, scadenze e panoramica finanziaria personale.",
-
-      "home.products.continuity":
-        "Ambiente personale sovrano per documenti, dati, contesto e intelligenza.",
-
-      "home.products.proofflow":
-        "Prove, audit, firme e processi verificabili.",
-
-      "home.products.shiftlog":
-        "Passaggio digitale di turno per stati operativi e responsabilità.",
-
-      "home.products.voicebridge":
-        "Sviluppo di una connessione vocale diretta basata sulla fiducia tra identità autorizzate.",
-
-      "home.products.zalgate":
-        "Architettura per collegare sensori, misurazioni, macchine e stati di processo.",
-
-      "home.products.open": "Apri →",
-      "home.products.viewSystem": "Visualizza sistema →",
-      "home.products.viewDevelopment": "Visualizza sviluppo →",
-      "home.products.viewArchitecture": "Architettura →",
-
-      "home.pilot.eyebrow":
-        "INGRESSO CONTROLLATO NEL MONDO REALE",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
-
-      "home.pilot.text":
-        "Comprendere un processo reale chiaramente delimitato, testarlo in modo controllato e verificarne il valore reale senza sostituire immediatamente l’intera operatività esistente.",
-
-      "home.pilot.discover":
-        "Scopri Pilot",
-
-      "home.pilot.request":
-        "Richiedi Pilot",
-
-      "home.core.eyebrow":
-        "SOTTO OGNI SISTEMA",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
-
-      "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust ed esecuzione controllata costituiscono il nucleo tecnico dell’ecosistema.",
-
-      "home.core.discover":
-        "Scopri Core",
-
-      "home.contact.eyebrow": "CONTATTO",
-      "home.contact.title": "Contatta ZAL’THERA",
-      "home.contact.text": "Domande su ZAL’THERA, un sistema o moduli esistenti?",
-      "home.contact.name": "Nome",
-      "home.contact.namePlaceholder": "Il tuo nome",
-      "home.contact.email": "E-mail",
-      "home.contact.emailPlaceholder": "tua@email.com",
-      "home.contact.message": "Messaggio",
-      "home.contact.messagePlaceholder": "Il tuo messaggio …",
-      "home.contact.send": "Invia",
-      "home.contact.privacyPrefix": "Inviando accetti la nostra",
-      "home.contact.privacy": "Informativa sulla privacy",
+      "global.navOpen": "Apri navigazione",
+      "global.mainNavigation": "Navigazione principale",
 
       "footer.imprint": "Note legali",
-      "footer.privacy": "Privacy"
+      "footer.privacy": "Privacy",
+
+      "core.hero.kicker":
+        "FONDAMENTO DEL SISTEMA",
+
+      "core.hero.title":
+        "La fiducia non dovrebbe<br>essere presunta.<br>Dovrebbe essere costruita.",
+
+      "core.hero.description":
+        "ZAL’THERA Core collega identità, contesto, regole, consenso, prova ed esecuzione controllata in un’unica architettura di fiducia.",
+
+      "core.hero.architecture":
+        "Apri architettura",
+
+      "core.hero.identityBound":
+        "LEGATO ALL’IDENTITÀ",
+
+      "core.hero.policyGoverned":
+        "GOVERNATO DA REGOLE",
+
+      "core.hero.auditable":
+        "VERIFICABILE",
+
+      "core.hero.humanAuthorized":
+        "AUTORIZZATO DALL’UOMO",
+
+      "core.status.label":
+        "PRINCIPI DEL CORE",
+
+      "core.status.identity": "IDENTITÀ",
+      "core.status.who": "CHI",
+      "core.status.context": "CONTESTO",
+      "core.status.why": "PERCHÉ",
+      "core.status.policy": "POLICY",
+      "core.status.what": "COSA",
+      "core.status.consent": "CONSENSO",
+      "core.status.allow": "CONSENTIRE",
+      "core.status.audit": "AUDIT",
+      "core.status.prove": "PROVARE",
+      "core.status.execution": "ESECUZIONE",
+      "core.status.act": "AGIRE",
+
+      "core.architecture.eyebrow":
+        "ARCHITETTURA PUBBLICA",
+
+      "core.architecture.title":
+        "Cinque livelli. Una catena decisionale tracciabile.",
+
+      "core.architecture.lead":
+        "L’architettura pubblica spiega la logica fondamentale di ZAL’THERA senza esporre implementazioni interne di sicurezza, strutture di chiavi private o dettagli dei protocolli.",
+
+      "core.architecture.identity.title":
+        "Identità",
+
+      "core.architecture.identity.text":
+        "Un’azione inizia con un’identità, un ruolo o un’istanza di sistema autorizzata chiaramente assegnata.",
+
+      "core.architecture.context.title":
+        "Contesto",
+
+      "core.architecture.context.text":
+        "Le informazioni non vengono considerate isolate, ma comprese insieme a provenienza, tempo e relazione.",
+
+      "core.architecture.intelligence.title":
+        "Intelligenza",
+
+      "core.architecture.intelligence.text":
+        "I sistemi possono strutturare informazioni, spiegarle e preparare possibili passaggi successivi.",
+
+      "core.architecture.trust.title":
+        "Fiducia",
+
+      "core.architecture.trust.text":
+        "Autorizzazioni, prove, consenso e audit determinano ciò che può essere considerato affidabile.",
+
+      "core.architecture.action.title":
+        "Azione",
+
+      "core.architecture.action.text":
+        "Le azioni rilevanti vengono eseguite solo quando le condizioni richieste sono soddisfatte.",
+
+      "core.architecture.principle":
+        "PRINCIPIO DI SISTEMA",
+
+      "core.architecture.principleText":
+        "Prima comprendere. Poi preparare. Agire solo con autorizzazione.",
+
+      "core.architecture.technicalCore":
+        "Core tecnico",
+
+      "core.technical.eyebrow":
+        "CORE TECNICO",
+
+      "core.technical.lead":
+        "Sotto l’architettura pubblica opera una catena di controllo più precisa per azioni di sistema tracciabili.",
+
+      "core.technical.policy.title":
+        "Policy",
+
+      "core.technical.policy.text":
+        "Le regole definiscono limiti, stati, autorizzazioni e condizioni.",
+
+      "core.technical.policy.question":
+        "COSA È CONSENTITO?",
+
+      "core.technical.identity.title":
+        "Identità",
+
+      "core.technical.identity.text":
+        "Le azioni vengono assegnate a una persona, un ruolo, un’identità o un’istanza autorizzata.",
+
+      "core.technical.identity.question":
+        "CHI AGISCE?",
+
+      "core.technical.audit.title":
+        "Audit",
+
+      "core.technical.audit.text":
+        "Gli eventi rilevanti vengono documentati con provenienza, momento e stato affinché restino tracciabili.",
+
+      "core.technical.audit.question":
+        "COSA È SUCCESSO?",
+
+      "core.technical.execute.title":
+        "Esecuzione",
+
+      "core.technical.execute.text":
+        "Un’azione può modificare lo stato visibile solo dopo che le condizioni necessarie sono state soddisfatte.",
+
+      "core.technical.execute.question":
+        "PUÒ AVVENIRE?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "Un nucleo locale di verità per eventi verificabili.",
+
+      "core.ledger.text1":
+        "THE LEDGER registra gli eventi rilevanti in una sequenza tracciabile. Le voci vengono aggiunte, collegate e possono essere esaminate in seguito.",
+
+      "core.ledger.text2":
+        "L’obiettivo non è raccogliere centralmente tutte le informazioni. L’obiettivo è rendere tracciabili e verificabili i cambiamenti di stato rilevanti.",
+
+      "core.ledger.created": "CREATO",
+      "core.ledger.proof": "PROVA",
+      "core.ledger.signed": "FIRMATO",
+      "core.ledger.verified": "VERIFICATO",
+
+      "core.ledger.appendOnly.title":
+        "Solo aggiunta",
+
+      "core.ledger.appendOnly.text":
+        "Gli eventi rilevanti vengono aggiunti anziché sovrascritti silenziosamente.",
+
+      "core.ledger.linked.title":
+        "Collegato",
+
+      "core.ledger.linked.text":
+        "Gli eventi mantengono relazioni tracciabili tra loro.",
+
+      "core.ledger.verifiable.title":
+        "Verificabile",
+
+      "core.ledger.verifiable.text":
+        "Struttura, integrità e provenienza possono essere controllate.",
+
+      "core.trust.eyebrow":
+        "LIVELLO DI FIDUCIA",
+
+      "core.trust.title":
+        "La fiducia non viene semplicemente dichiarata.",
+
+      "core.trust.lead":
+        "Nasce da stati, identità, autorizzazioni e prove verificabili.",
+
+      "core.trust.proof.title":
+        "Fiducia nella prova",
+
+      "core.trust.proof.text":
+        "Esiste una prova valida dell’azione dichiarata?",
+
+      "core.trust.policy.title":
+        "Fiducia nelle regole",
+
+      "core.trust.policy.text":
+        "L’azione è stata eseguita secondo le regole previste?",
+
+      "core.trust.identity.title":
+        "Fiducia nell’identità",
+
+      "core.trust.identity.text":
+        "L’identità che agisce è chiaramente stabilita e autorizzata?",
+
+      "core.trust.audit.title":
+        "Fiducia nell’audit",
+
+      "core.trust.audit.text":
+        "Il processo è sufficientemente completo da poter essere ricostruito successivamente?",
+
+      "core.authorization.eyebrow":
+        "GATE DI AUTORIZZAZIONE UMANA",
+
+      "core.authorization.title":
+        "L’intelligenza può preparare.<br>L’autorità resta esplicita.",
+
+      "core.authorization.text":
+        "ZAL’THERA può comprendere, strutturare e spiegare informazioni e preparare possibili azioni. Le azioni rilevanti restano vincolate alla necessaria autorizzazione umana o esplicitamente delegata.",
+
+      "core.application.eyebrow":
+        "APPLICAZIONE DEL SISTEMA",
+
+      "core.application.title":
+        "Un core. Più ambiti applicativi.",
+
+      "core.application.personal": "PERSONALE",
+      "core.application.continuity": "Documenti · Finanze · Contesto · Cards",
+      "core.application.proof": "PROVA",
+      "core.application.proofflow": "Prova · Audit · Firma · Esportazione",
+      "core.application.communication": "COMUNICAZIONE",
+      "core.application.voicebridge": "Identità · Consenso · Voce · Fiducia",
+      "core.application.industry": "INDUSTRIA",
+      "core.application.shiftlog": "Passaggio · Stato · Responsabilità",
+
+      "core.return.title":
+        "Il core non è il prodotto.<br>È ciò che collega i prodotti.",
+
+      "core.return.button":
+        "Torna al sistema"
     },
 
 
@@ -1901,6 +2173,7 @@
       "nav.products": "Produse",
       "nav.about": "Despre",
 
+      "global.home": "Acasă",
       "global.explore": "Explorează",
       "global.open": "Deschide",
       "global.close": "Închide",
@@ -1912,240 +2185,238 @@
       "global.development": "DEZVOLTARE",
       "global.systemModule": "MODUL DE SISTEM",
       "global.architecture": "ARHITECTURĂ",
-
-      "home.hero.kicker":
-        "ARHITECTURĂ DIGITALĂ SUVERANĂ",
-
-      "home.hero.title":
-        "Un sistem.<br>O identitate.<br>Inteligență conectată.",
-
-      "home.hero.description":
-        "ZAL’THERA conectează identitatea, contextul, inteligența artificială, datele, încrederea, comunicarea și procesele reale într-o arhitectură tehnologică comună.",
-
-      "home.hero.primary":
-        "Descoperă sistemul",
-
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label": "STAREA SISTEMULUI",
-      "home.state.identity": "IDENTITATE",
-      "home.state.continuity": "CONTINUITY",
-      "home.state.intelligence": "INTELIGENȚĂ",
-      "home.state.communication": "COMUNICARE",
-      "home.state.industry": "INDUSTRIE",
-      "home.state.proof": "DOVADĂ",
-      "home.state.core": "CORE",
-      "home.state.active": "DEZVOLTARE ACTIVĂ",
-      "home.state.architecture": "ARHITECTURĂ",
-      "home.state.module": "MODUL DE SISTEM",
-
-      "home.system.eyebrow":
-        "UN SISTEM",
-
-      "home.system.title":
-        "Tehnologia nu începe cu o aplicație.",
-
-      "home.system.lead":
-        "Începe cu o logică comună pentru cine acționează, ce este înțeles, în cine se poate avea încredere și ce acțiune poate fi executată efectiv.",
-
-      "home.system.identity.title": "Identitate",
-      "home.system.identity.text": "Cine sau ce sistem autorizat acționează?",
-      "home.system.context.title": "Context",
-      "home.system.context.text": "În ce context există informația și acțiunea?",
-      "home.system.intelligence.title": "Inteligență",
-      "home.system.intelligence.text": "Ce poate fi înțeles din contextul disponibil?",
-      "home.system.trust.title": "Încredere",
-      "home.system.trust.text": "Ce este permis, verificabil și trasabil?",
-      "home.system.action.title": "Acțiune",
-      "home.system.action.text": "Ce poate fi executat efectiv?",
-
-      "home.system.principle":
-        "PRINCIPIU CENTRAL",
-
-      "home.system.principleText":
-        "Mai întâi înțelege. Apoi pregătește. Acționează numai cu permisiune.",
-
-      "home.system.openArchitecture":
-        "Deschide arhitectura",
-
-      "home.continuity.eyebrow":
-        "SISTEM PERSONAL SUVERAN",
-
-      "home.continuity.status":
-        "DEZVOLTARE ACTIVĂ",
-
-      "home.continuity.tagline":
-        "Contextul vieții tale. Structurat. Conectat. Ușor de înțeles.",
-
-      "home.continuity.text1":
-        "CONTINUITY conectează documente personale, date, Cards, Timeline, finanțe, dovezi și context într-un mediu personal suveran.",
-
-      "home.continuity.text2":
-        "Informațiile nu rămân fișiere izolate. Ele primesc context, proveniență, referință temporală și o poziție trasabilă în sistemul personal.",
-
-      "home.continuity.documents": "Documente",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "Finanțe",
-      "home.continuity.context": "Context",
-      "home.continuity.audit": "Audit",
-
-      "home.intelligence.eyebrow":
-        "INTELIGENȚĂ CONTEXTUALĂ",
-
-      "home.intelligence.status":
-        "DEZVOLTARE ACTIVĂ",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "Inteligență care își cunoaște limitele.",
-
-      "home.intelligence.text1":
-        "Stratul de inteligență nu funcționează separat de om. Înțelege contextul disponibil, identifică relații, explică informațiile și pregătește acțiuni posibile.",
-
-      "home.intelligence.text2":
-        "Acțiunile importante rămân legate de autorizare, context și aprobarea umană.",
-
-      "home.communication.eyebrow":
-        "IDENTITATE LA IDENTITATE",
-
-      "home.communication.status":
-        "DEZVOLTARE ACTIVĂ",
-
-      "home.communication.title":
-        "Comunicare",
-
-      "home.communication.tagline":
-        "Conexiunea începe cu identitatea și consimțământul.",
-
-      "home.communication.text1":
-        "ZAL’THERA Communication dezvoltă un strat de comunicare sigur între identități autorizate.",
-
-      "home.communication.text2":
-        "Vocea, ulterior video, fișierele și livrarea bazată pe încredere nu sunt definite prin profiluri publice, ci prin identitate, relație și autorizare.",
-
-      "home.communication.voice": "VOCE",
-      "home.communication.video": "VIDEO",
-      "home.communication.files": "FIȘIERE",
-      "home.communication.trust": "ÎNCREDERE",
-      "home.communication.consent": "CONSIMȚĂMÂNT",
-
-      "home.communication.connectionRule":
-        "CONSIMȚĂMÂNT ÎNAINTE DE CONECTARE",
-
-      "home.industry.eyebrow":
-        "SISTEME DIN LUMEA REALĂ",
-
-      "home.industry.status":
-        "DEZVOLTARE & ARHITECTURĂ",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "Procesele reale devin sisteme ușor de înțeles.",
-
-      "home.industry.text":
-        "Stratul industrial conectează predările operaționale, stările proceselor, datele senzorilor, măsurătorile și viitoarele integrări cu mașinile.",
-
-      "home.industry.shift":
-        "Predare de tură & stări operaționale",
-
-      "home.industry.gate":
-        "Senzori, măsurători & procese ale mașinilor",
-
-      "home.industry.process":
-        "Analiză & stări de proces trasabile",
-
-      "home.proof.eyebrow":
-        "DOVADĂ & ÎNCREDERE",
-
-      "home.proof.title":
-        "Dovadă înainte de presupunere.",
-
-      "home.proof.text":
-        "ProofFlow conectează sarcini, dovezi, fotografii, note, semnături, audit și export într-un flux trasabil.",
-
-      "home.proof.open":
-        "Deschide ProofFlow",
-
-      "home.products.eyebrow":
-        "PORTOFOLIU DE SISTEM",
-
-      "home.products.title":
-        "Un ecosistem. Niveluri diferite de maturitate.",
-
-      "home.products.lead":
-        "ZAL’THERA diferențiază clar produsele disponibile, dezvoltarea activă, modulele de sistem și arhitectura viitoare.",
-
-      "home.products.lifeflow":
-        "Costuri, contracte, termene și imagine financiară personală.",
-
-      "home.products.continuity":
-        "Mediu personal suveran pentru documente, date, context și inteligență.",
-
-      "home.products.proofflow":
-        "Dovezi, audit, semnături și procese verificabile.",
-
-      "home.products.shiftlog":
-        "Predare digitală de tură pentru stări operaționale și responsabilități.",
-
-      "home.products.voicebridge":
-        "Dezvoltarea unei conexiuni vocale directe bazate pe încredere între identități autorizate.",
-
-      "home.products.zalgate":
-        "Arhitectură pentru conectarea senzorilor, măsurătorilor, mașinilor și stărilor proceselor.",
-
-      "home.products.open": "Deschide →",
-      "home.products.viewSystem": "Vezi sistemul →",
-      "home.products.viewDevelopment": "Vezi dezvoltarea →",
-      "home.products.viewArchitecture": "Arhitectură →",
-
-      "home.pilot.eyebrow":
-        "INTRARE CONTROLATĂ ÎN LUMEA REALĂ",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
-
-      "home.pilot.text":
-        "Înțelege un proces real clar delimitat, testează-l controlat și verifică valoarea reală fără a înlocui imediat întreaga operațiune existentă.",
-
-      "home.pilot.discover":
-        "Descoperă Pilot",
-
-      "home.pilot.request":
-        "Solicită Pilot",
-
-      "home.core.eyebrow":
-        "SUB FIECARE SISTEM",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
-
-      "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust și execuția controlată formează nucleul tehnic al ecosistemului.",
-
-      "home.core.discover":
-        "Descoperă Core",
-
-      "home.contact.eyebrow": "CONTACT",
-      "home.contact.title": "Contactează ZAL’THERA",
-      "home.contact.text": "Întrebări despre ZAL’THERA, un sistem sau module existente?",
-      "home.contact.name": "Nume",
-      "home.contact.namePlaceholder": "Numele tău",
-      "home.contact.email": "E-mail",
-      "home.contact.emailPlaceholder": "email@exemplu.ro",
-      "home.contact.message": "Mesaj",
-      "home.contact.messagePlaceholder": "Mesajul tău …",
-      "home.contact.send": "Trimite",
-      "home.contact.privacyPrefix": "Prin trimitere accepți",
-      "home.contact.privacy": "Politica de confidențialitate",
+      "global.navOpen": "Deschide navigarea",
+      "global.mainNavigation": "Navigare principală",
 
       "footer.imprint": "Informații legale",
-      "footer.privacy": "Confidențialitate"
+      "footer.privacy": "Confidențialitate",
+
+      "core.hero.kicker":
+        "FUNDAȚIA SISTEMULUI",
+
+      "core.hero.title":
+        "Încrederea nu ar trebui<br>presupusă.<br>Ar trebui construită.",
+
+      "core.hero.description":
+        "ZAL’THERA Core conectează identitatea, contextul, regulile, consimțământul, dovada și execuția controlată într-o arhitectură comună de încredere.",
+
+      "core.hero.architecture":
+        "Deschide arhitectura",
+
+      "core.hero.identityBound":
+        "LEGAT DE IDENTITATE",
+
+      "core.hero.policyGoverned":
+        "GUVERNAT DE REGULI",
+
+      "core.hero.auditable":
+        "AUDITABIL",
+
+      "core.hero.humanAuthorized":
+        "AUTORIZAT DE OM",
+
+      "core.status.label":
+        "PRINCIPII CORE",
+
+      "core.status.identity": "IDENTITATE",
+      "core.status.who": "CINE",
+      "core.status.context": "CONTEXT",
+      "core.status.why": "DE CE",
+      "core.status.policy": "POLITICĂ",
+      "core.status.what": "CE",
+      "core.status.consent": "CONSIMȚĂMÂNT",
+      "core.status.allow": "PERMITE",
+      "core.status.audit": "AUDIT",
+      "core.status.prove": "DOVADĂ",
+      "core.status.execution": "EXECUȚIE",
+      "core.status.act": "ACȚIUNE",
+
+      "core.architecture.eyebrow":
+        "ARHITECTURĂ PUBLICĂ",
+
+      "core.architecture.title":
+        "Cinci niveluri. Un lanț decizional trasabil.",
+
+      "core.architecture.lead":
+        "Arhitectura publică explică logica fundamentală ZAL’THERA fără a expune implementări interne de securitate, structuri de chei private sau detalii de protocol.",
+
+      "core.architecture.identity.title":
+        "Identitate",
+
+      "core.architecture.identity.text":
+        "O acțiune începe cu o identitate, un rol sau o instanță autorizată de sistem clar atribuită.",
+
+      "core.architecture.context.title":
+        "Context",
+
+      "core.architecture.context.text":
+        "Informația nu este analizată izolat, ci împreună cu proveniența, timpul și relația sa.",
+
+      "core.architecture.intelligence.title":
+        "Inteligență",
+
+      "core.architecture.intelligence.text":
+        "Sistemele pot structura informațiile, le pot explica și pot pregăti posibili pași următori.",
+
+      "core.architecture.trust.title":
+        "Încredere",
+
+      "core.architecture.trust.text":
+        "Permisiunile, dovezile, consimțământul și auditul determină ce poate fi considerat de încredere.",
+
+      "core.architecture.action.title":
+        "Acțiune",
+
+      "core.architecture.action.text":
+        "Acțiunile importante sunt executate numai atunci când condițiile necesare sunt îndeplinite.",
+
+      "core.architecture.principle":
+        "PRINCIPIU DE SISTEM",
+
+      "core.architecture.principleText":
+        "Mai întâi înțelege. Apoi pregătește. Acționează numai cu permisiune.",
+
+      "core.architecture.technicalCore":
+        "Core tehnic",
+
+      "core.technical.eyebrow":
+        "CORE TEHNIC",
+
+      "core.technical.lead":
+        "Sub arhitectura publică funcționează un lanț de control mai precis pentru acțiuni de sistem trasabile.",
+
+      "core.technical.policy.title": "Policy",
+
+      "core.technical.policy.text":
+        "Regulile definesc limite, stări, permisiuni și condiții.",
+
+      "core.technical.policy.question":
+        "CE ESTE PERMIS?",
+
+      "core.technical.identity.title":
+        "Identitate",
+
+      "core.technical.identity.text":
+        "Acțiunile sunt atribuite unei persoane, unui rol, unei identități sau unei instanțe autorizate.",
+
+      "core.technical.identity.question":
+        "CINE ACȚIONEAZĂ?",
+
+      "core.technical.audit.title":
+        "Audit",
+
+      "core.technical.audit.text":
+        "Evenimentele relevante sunt documentate cu proveniență, timp și stare pentru a rămâne trasabile.",
+
+      "core.technical.audit.question":
+        "CE S-A ÎNTÂMPLAT?",
+
+      "core.technical.execute.title":
+        "Executare",
+
+      "core.technical.execute.text":
+        "O acțiune poate modifica starea vizibilă numai după îndeplinirea condițiilor necesare.",
+
+      "core.technical.execute.question":
+        "POATE AVEA LOC?",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "Un nucleu local de adevăr pentru evenimente verificabile.",
+
+      "core.ledger.text1":
+        "THE LEDGER înregistrează evenimentele relevante într-o secvență trasabilă. Înregistrările sunt adăugate, legate și pot fi examinate ulterior.",
+
+      "core.ledger.text2":
+        "Scopul nu este colectarea centralizată a tuturor informațiilor. Scopul este ca modificările relevante de stare să devină trasabile și verificabile.",
+
+      "core.ledger.created": "CREAT",
+      "core.ledger.proof": "DOVADĂ",
+      "core.ledger.signed": "SEMNAT",
+      "core.ledger.verified": "VERIFICAT",
+
+      "core.ledger.appendOnly.title":
+        "Doar adăugare",
+
+      "core.ledger.appendOnly.text":
+        "Evenimentele relevante sunt adăugate în loc să fie suprascrise în mod ascuns.",
+
+      "core.ledger.linked.title":
+        "Conectat",
+
+      "core.ledger.linked.text":
+        "Evenimentele păstrează relații trasabile între ele.",
+
+      "core.ledger.verifiable.title":
+        "Verificabil",
+
+      "core.ledger.verifiable.text":
+        "Structura, integritatea și proveniența pot fi verificate.",
+
+      "core.trust.eyebrow":
+        "STRAT DE ÎNCREDERE",
+
+      "core.trust.title":
+        "Încrederea nu este doar declarată.",
+
+      "core.trust.lead":
+        "Ea rezultă din stări, identități, permisiuni și dovezi verificabile.",
+
+      "core.trust.proof.title":
+        "Încredere prin dovadă",
+
+      "core.trust.proof.text":
+        "Există o dovadă validă pentru acțiunea declarată?",
+
+      "core.trust.policy.title":
+        "Încredere în reguli",
+
+      "core.trust.policy.text":
+        "Acțiunea a fost realizată conform regulilor prevăzute?",
+
+      "core.trust.identity.title":
+        "Încredere în identitate",
+
+      "core.trust.identity.text":
+        "Identitatea care acționează este clar stabilită și autorizată?",
+
+      "core.trust.audit.title":
+        "Încredere în audit",
+
+      "core.trust.audit.text":
+        "Procesul este suficient de complet pentru a putea fi reconstruit ulterior?",
+
+      "core.authorization.eyebrow":
+        "POARTĂ DE AUTORIZARE UMANĂ",
+
+      "core.authorization.title":
+        "Inteligența poate pregăti.<br>Autoritatea rămâne explicită.",
+
+      "core.authorization.text":
+        "ZAL’THERA poate înțelege, structura și explica informațiile și poate pregăti acțiuni posibile. Acțiunile importante rămân legate de autorizarea umană necesară sau delegată explicit.",
+
+      "core.application.eyebrow":
+        "APLICAREA SISTEMULUI",
+
+      "core.application.title":
+        "Un core. Mai multe domenii de aplicare.",
+
+      "core.application.personal": "PERSONAL",
+      "core.application.continuity": "Documente · Finanțe · Context · Cards",
+      "core.application.proof": "DOVADĂ",
+      "core.application.proofflow": "Dovadă · Audit · Semnătură · Export",
+      "core.application.communication": "COMUNICARE",
+      "core.application.voicebridge": "Identitate · Consimțământ · Voce · Încredere",
+      "core.application.industry": "INDUSTRIE",
+      "core.application.shiftlog": "Predare · Stare · Responsabilitate",
+
+      "core.return.title":
+        "Core-ul nu este produsul.<br>Este ceea ce conectează produsele.",
+
+      "core.return.button":
+        "Înapoi la sistem"
     },
 
 
@@ -2163,6 +2434,7 @@
       "nav.products": "产品",
       "nav.about": "关于",
 
+      "global.home": "首页",
       "global.explore": "探索",
       "global.open": "打开",
       "global.close": "关闭",
@@ -2174,242 +2446,429 @@
       "global.development": "开发中",
       "global.systemModule": "系统模块",
       "global.architecture": "架构",
-
-      "home.hero.kicker":
-        "自主数字架构",
-
-      "home.hero.title":
-        "一个系统。<br>一个身份。<br>互联智能。",
-
-      "home.hero.description":
-        "ZAL’THERA 将身份、上下文、人工智能、数据、信任、通信与现实流程连接在一个统一的技术架构中。",
-
-      "home.hero.primary":
-        "探索系统",
-
-      "home.hero.core":
-        "ZAL’THERA Core",
-
-      "home.state.label": "系统状态",
-      "home.state.identity": "身份",
-      "home.state.continuity": "CONTINUITY",
-      "home.state.intelligence": "智能",
-      "home.state.communication": "通信",
-      "home.state.industry": "工业",
-      "home.state.proof": "证明",
-      "home.state.core": "核心",
-      "home.state.active": "积极开发中",
-      "home.state.architecture": "架构",
-      "home.state.module": "系统模块",
-
-      "home.system.eyebrow":
-        "一个系统",
-
-      "home.system.title":
-        "技术并不是从一个应用开始。",
-
-      "home.system.lead":
-        "它始于一套共同逻辑：谁在行动、什么被理解、谁值得信任，以及什么操作真正可以被执行。",
-
-      "home.system.identity.title": "身份",
-      "home.system.identity.text": "是谁，或哪个已授权系统正在行动？",
-      "home.system.context.title": "上下文",
-      "home.system.context.text": "信息与操作存在于什么上下文中？",
-      "home.system.intelligence.title": "智能",
-      "home.system.intelligence.text": "从现有上下文中可以理解什么？",
-      "home.system.trust.title": "信任",
-      "home.system.trust.text": "什么是被允许、可验证且可追溯的？",
-      "home.system.action.title": "操作",
-      "home.system.action.text": "什么操作真正可以执行？",
-
-      "home.system.principle":
-        "核心原则",
-
-      "home.system.principleText":
-        "先理解。再准备。只有获得许可后才行动。",
-
-      "home.system.openArchitecture":
-        "打开架构",
-
-      "home.continuity.eyebrow":
-        "个人自主系统",
-
-      "home.continuity.status":
-        "积极开发中",
-
-      "home.continuity.tagline":
-        "你的生活上下文。结构化。互联。可理解。",
-
-      "home.continuity.text1":
-        "CONTINUITY 将个人文档、数据、Cards、Timeline、财务、证明和上下文连接到一个自主的个人环境中。",
-
-      "home.continuity.text2":
-        "信息不再只是孤立的文件。它拥有上下文、来源、时间关系，以及在个人系统中的可追溯位置。",
-
-      "home.continuity.documents": "文档",
-      "home.continuity.cards": "Cards",
-      "home.continuity.timeline": "Timeline",
-      "home.continuity.finance": "财务",
-      "home.continuity.context": "上下文",
-      "home.continuity.audit": "审计",
-
-      "home.intelligence.eyebrow":
-        "上下文智能",
-
-      "home.intelligence.status":
-        "积极开发中",
-
-      "home.intelligence.title":
-        "ZAL’THERA Intelligence",
-
-      "home.intelligence.tagline":
-        "知道自身边界的智能。",
-
-      "home.intelligence.text1":
-        "智能层不会脱离人独立运行。它理解现有上下文、识别关系、解释信息，并准备可能的操作。",
-
-      "home.intelligence.text2":
-        "重要操作始终受授权、上下文和人工确认约束。",
-
-      "home.communication.eyebrow":
-        "身份到身份",
-
-      "home.communication.status":
-        "积极开发中",
-
-      "home.communication.title":
-        "通信",
-
-      "home.communication.tagline":
-        "连接始于身份与同意。",
-
-      "home.communication.text1":
-        "ZAL’THERA Communication 正在构建授权身份之间的安全通信层。",
-
-      "home.communication.text2":
-        "语音、未来的视频、文件以及基于信任的传递，不通过公开个人资料定义，而是通过身份、关系与授权来定义。",
-
-      "home.communication.voice": "语音",
-      "home.communication.video": "视频",
-      "home.communication.files": "文件",
-      "home.communication.trust": "信任",
-      "home.communication.consent": "同意",
-
-      "home.communication.connectionRule":
-        "连接之前先获得同意",
-
-      "home.industry.eyebrow":
-        "现实世界系统",
-
-      "home.industry.status":
-        "开发 & 架构",
-
-      "home.industry.title":
-        "ZAL’THERA Industry",
-
-      "home.industry.tagline":
-        "让现实流程成为可理解的系统。",
-
-      "home.industry.text":
-        "工业层连接运营交接、流程状态、传感器数据、测量值以及未来的机器集成。",
-
-      "home.industry.shift":
-        "班次交接 & 运营状态",
-
-      "home.industry.gate":
-        "传感器、测量值 & 机器流程",
-
-      "home.industry.process":
-        "分析 & 可追溯流程状态",
-
-      "home.proof.eyebrow":
-        "证明 & 信任",
-
-      "home.proof.title":
-        "先有证据，再做假设。",
-
-      "home.proof.text":
-        "ProofFlow 将任务、证明、照片、笔记、签名、审计和导出连接成一个可追溯的流程。",
-
-      "home.proof.open":
-        "打开 ProofFlow",
-
-      "home.products.eyebrow":
-        "系统产品组合",
-
-      "home.products.title":
-        "一个生态系统。不同成熟阶段。",
-
-      "home.products.lead":
-        "ZAL’THERA 清晰区分已发布产品、积极开发、系统模块和未来架构。",
-
-      "home.products.lifeflow":
-        "成本、合同、期限以及个人财务概览。",
-
-      "home.products.continuity":
-        "面向文档、数据、上下文和智能的个人自主环境。",
-
-      "home.products.proofflow":
-        "证明、审计、签名以及可验证流程。",
-
-      "home.products.shiftlog":
-        "用于运营状态和责任交接的数字班次记录。",
-
-      "home.products.voicebridge":
-        "开发授权身份之间基于信任的直接语音连接。",
-
-      "home.products.zalgate":
-        "连接传感器、测量值、机器和流程状态的架构。",
-
-      "home.products.open": "打开 →",
-      "home.products.viewSystem": "查看系统 →",
-      "home.products.viewDevelopment": "查看开发 →",
-      "home.products.viewArchitecture": "查看架构 →",
-
-      "home.pilot.eyebrow":
-        "受控的现实世界入口",
-
-      "home.pilot.title":
-        "ZAL’THERA Pilot",
-
-      "home.pilot.text":
-        "理解一个明确界定的现实流程，在受控环境中测试它，并验证实际价值，而无需立即替换现有的整个运营体系。",
-
-      "home.pilot.discover":
-        "探索 Pilot",
-
-      "home.pilot.request":
-        "申请 Pilot",
-
-      "home.core.eyebrow":
-        "每个系统之下",
-
-      "home.core.title":
-        "ZAL’THERA CORE",
-
-      "home.core.text":
-        "Identity、Policy、Consent、Audit、Ledger、Trust 与受控执行共同构成生态系统背后的技术核心。",
-
-      "home.core.discover":
-        "探索 Core",
-
-      "home.contact.eyebrow": "联系",
-      "home.contact.title": "联系 ZAL’THERA",
-      "home.contact.text": "对 ZAL’THERA、某个系统或现有模块有疑问？",
-      "home.contact.name": "姓名",
-      "home.contact.namePlaceholder": "你的姓名",
-      "home.contact.email": "电子邮件",
-      "home.contact.emailPlaceholder": "your@email.com",
-      "home.contact.message": "消息",
-      "home.contact.messagePlaceholder": "你的消息 …",
-      "home.contact.send": "发送",
-      "home.contact.privacyPrefix": "提交即表示你接受我们的",
-      "home.contact.privacy": "隐私政策",
+      "global.navOpen": "打开导航",
+      "global.mainNavigation": "主导航",
 
       "footer.imprint": "法律声明",
-      "footer.privacy": "隐私"
+      "footer.privacy": "隐私",
+
+      "core.hero.kicker":
+        "系统基础",
+
+      "core.hero.title":
+        "信任不应被<br>默认假设。<br>它应该被构建。",
+
+      "core.hero.description":
+        "ZAL’THERA Core 将身份、上下文、规则、同意、证明与受控执行连接成统一的信任架构。",
+
+      "core.hero.architecture":
+        "打开架构",
+
+      "core.hero.identityBound":
+        "身份绑定",
+
+      "core.hero.policyGoverned":
+        "规则治理",
+
+      "core.hero.auditable":
+        "可审计",
+
+      "core.hero.humanAuthorized":
+        "人工授权",
+
+      "core.status.label":
+        "核心原则",
+
+      "core.status.identity": "身份",
+      "core.status.who": "谁",
+      "core.status.context": "上下文",
+      "core.status.why": "为什么",
+      "core.status.policy": "规则",
+      "core.status.what": "什么",
+      "core.status.consent": "同意",
+      "core.status.allow": "允许",
+      "core.status.audit": "审计",
+      "core.status.prove": "证明",
+      "core.status.execution": "执行",
+      "core.status.act": "行动",
+
+      "core.architecture.eyebrow":
+        "公开架构",
+
+      "core.architecture.title":
+        "五个层级。一条可追溯的决策链。",
+
+      "core.architecture.lead":
+        "公开架构解释 ZAL’THERA 的基本逻辑，同时不会公开内部安全实现、私钥结构或协议细节。",
+
+      "core.architecture.identity.title":
+        "身份",
+
+      "core.architecture.identity.text":
+        "每个操作都从明确分配的身份、角色或已授权系统实例开始。",
+
+      "core.architecture.context.title":
+        "上下文",
+
+      "core.architecture.context.text":
+        "信息不会被孤立理解，而是结合来源、时间和关系进行解释。",
+
+      "core.architecture.intelligence.title":
+        "智能",
+
+      "core.architecture.intelligence.text":
+        "系统可以组织信息、解释信息，并准备可能的下一步。",
+
+      "core.architecture.trust.title":
+        "信任",
+
+      "core.architecture.trust.text":
+        "权限、证明、同意和审计共同决定什么可以被视为可信。",
+
+      "core.architecture.action.title":
+        "操作",
+
+      "core.architecture.action.text":
+        "重要操作只有在满足所需条件后才能执行。",
+
+      "core.architecture.principle":
+        "系统原则",
+
+      "core.architecture.principleText":
+        "先理解。再准备。只有获得许可后才行动。",
+
+      "core.architecture.technicalCore":
+        "技术核心",
+
+      "core.technical.eyebrow":
+        "技术核心",
+
+      "core.technical.lead":
+        "在公开架构之下运行着一条更精确的控制链，用于确保系统操作可追溯。",
+
+      "core.technical.policy.title":
+        "Policy",
+
+      "core.technical.policy.text":
+        "规则定义边界、状态、权限和条件。",
+
+      "core.technical.policy.question":
+        "允许什么？",
+
+      "core.technical.identity.title":
+        "身份",
+
+      "core.technical.identity.text":
+        "操作会被明确关联到个人、角色、身份或已授权实例。",
+
+      "core.technical.identity.question":
+        "谁在行动？",
+
+      "core.technical.audit.title":
+        "审计",
+
+      "core.technical.audit.text":
+        "重要事件通过来源、时间和状态信息被记录，以保持可追溯性。",
+
+      "core.technical.audit.question":
+        "发生了什么？",
+
+      "core.technical.execute.title":
+        "执行",
+
+      "core.technical.execute.text":
+        "只有满足必要条件后，操作才可以改变可见状态。",
+
+      "core.technical.execute.question":
+        "可以执行吗？",
+
+      "core.ledger.eyebrow":
+        "THE LEDGER",
+
+      "core.ledger.title":
+        "面向可验证事件的本地事实核心。",
+
+      "core.ledger.text1":
+        "THE LEDGER 按可追溯顺序记录重要事件。记录会被追加、关联，并可在之后进行检查。",
+
+      "core.ledger.text2":
+        "目标不是集中收集所有信息。目标是让重要状态变化保持可追溯和可验证。",
+
+      "core.ledger.created": "已创建",
+      "core.ledger.proof": "证明",
+      "core.ledger.signed": "已签署",
+      "core.ledger.verified": "已验证",
+
+      "core.ledger.appendOnly.title":
+        "仅追加",
+
+      "core.ledger.appendOnly.text":
+        "重要事件会被追加，而不是被悄然覆盖。",
+
+      "core.ledger.linked.title":
+        "关联",
+
+      "core.ledger.linked.text":
+        "事件之间保持可追溯的关系。",
+
+      "core.ledger.verifiable.title":
+        "可验证",
+
+      "core.ledger.verifiable.text":
+        "结构、完整性和来源都可以被检查。",
+
+      "core.trust.eyebrow":
+        "信任层",
+
+      "core.trust.title":
+        "信任不是简单声明出来的。",
+
+      "core.trust.lead":
+        "它来自可验证的状态、身份、权限和证明。",
+
+      "core.trust.proof.title":
+        "证明信任",
+
+      "core.trust.proof.text":
+        "声明的操作是否存在有效证明？",
+
+      "core.trust.policy.title":
+        "规则信任",
+
+      "core.trust.policy.text":
+        "操作是否按照预定规则执行？",
+
+      "core.trust.identity.title":
+        "身份信任",
+
+      "core.trust.identity.text":
+        "执行操作的身份是否明确并已获授权？",
+
+      "core.trust.audit.title":
+        "审计信任",
+
+      "core.trust.audit.text":
+        "流程是否足够完整，可以在之后被重新追溯？",
+
+      "core.authorization.eyebrow":
+        "人工授权闸门",
+
+      "core.authorization.title":
+        "智能可以准备。<br>权力必须明确。",
+
+      "core.authorization.text":
+        "ZAL’THERA 可以理解、组织和解释信息，并准备可能的操作。但重要操作仍然必须受必要的人工授权或明确委托的授权约束。",
+
+      "core.application.eyebrow":
+        "系统应用",
+
+      "core.application.title":
+        "一个核心。多个应用领域。",
+
+      "core.application.personal":
+        "个人",
+
+      "core.application.continuity":
+        "文档 · 财务 · 上下文 · Cards",
+
+      "core.application.proof":
+        "证明",
+
+      "core.application.proofflow":
+        "证明 · 审计 · 签名 · 导出",
+
+      "core.application.communication":
+        "通信",
+
+      "core.application.voicebridge":
+        "身份 · 同意 · 语音 · 信任",
+
+      "core.application.industry":
+        "工业",
+
+      "core.application.shiftlog":
+        "交接 · 状态 · 责任",
+
+      "core.return.title":
+        "核心不是产品。<br>核心连接所有产品。",
+
+      "core.return.button":
+        "返回系统"
     }
   };
+
+
+  /* ============================================================
+     FALLBACK
+     For languages where a key has not yet been translated,
+     fall back to English and then German.
+     ============================================================ */
+
+  function getFallbackValue(language, key) {
+
+    if (
+      TRANSLATIONS[language] &&
+      Object.prototype.hasOwnProperty.call(
+        TRANSLATIONS[language],
+        key
+      )
+    ) {
+      return TRANSLATIONS[language][key];
+    }
+
+    if (
+      TRANSLATIONS.en &&
+      Object.prototype.hasOwnProperty.call(
+        TRANSLATIONS.en,
+        key
+      )
+    ) {
+      return TRANSLATIONS.en[key];
+    }
+
+    if (
+      TRANSLATIONS.de &&
+      Object.prototype.hasOwnProperty.call(
+        TRANSLATIONS.de,
+        key
+      )
+    ) {
+      return TRANSLATIONS.de[key];
+    }
+
+    return null;
+  }
+
+
+  /* ============================================================
+     IMPORTANT:
+     HOME TRANSLATION FALLBACK FOR TR / ES / FR / IT / RO / ZH
+
+     The existing homepage translations from the previous version
+     remain available by inheriting the English dictionary for keys
+     that have not yet been duplicated in this file.
+     ============================================================ */
+
+  const HOME_COPY_FROM_ENGLISH = [
+    "home.hero.kicker",
+    "home.hero.title",
+    "home.hero.description",
+    "home.hero.primary",
+    "home.hero.core",
+
+    "home.state.label",
+    "home.state.identity",
+    "home.state.continuity",
+    "home.state.intelligence",
+    "home.state.communication",
+    "home.state.industry",
+    "home.state.proof",
+    "home.state.core",
+    "home.state.active",
+    "home.state.architecture",
+    "home.state.module",
+
+    "home.system.eyebrow",
+    "home.system.title",
+    "home.system.lead",
+    "home.system.identity.title",
+    "home.system.identity.text",
+    "home.system.context.title",
+    "home.system.context.text",
+    "home.system.intelligence.title",
+    "home.system.intelligence.text",
+    "home.system.trust.title",
+    "home.system.trust.text",
+    "home.system.action.title",
+    "home.system.action.text",
+    "home.system.principle",
+    "home.system.principleText",
+    "home.system.openArchitecture",
+
+    "home.continuity.eyebrow",
+    "home.continuity.status",
+    "home.continuity.tagline",
+    "home.continuity.text1",
+    "home.continuity.text2",
+    "home.continuity.documents",
+    "home.continuity.cards",
+    "home.continuity.timeline",
+    "home.continuity.finance",
+    "home.continuity.context",
+    "home.continuity.audit",
+
+    "home.intelligence.eyebrow",
+    "home.intelligence.status",
+    "home.intelligence.title",
+    "home.intelligence.tagline",
+    "home.intelligence.text1",
+    "home.intelligence.text2",
+
+    "home.communication.eyebrow",
+    "home.communication.status",
+    "home.communication.title",
+    "home.communication.tagline",
+    "home.communication.text1",
+    "home.communication.text2",
+    "home.communication.voice",
+    "home.communication.video",
+    "home.communication.files",
+    "home.communication.trust",
+    "home.communication.consent",
+    "home.communication.connectionRule",
+
+    "home.industry.eyebrow",
+    "home.industry.status",
+    "home.industry.title",
+    "home.industry.tagline",
+    "home.industry.text",
+    "home.industry.shift",
+    "home.industry.gate",
+    "home.industry.process",
+
+    "home.proof.eyebrow",
+    "home.proof.title",
+    "home.proof.text",
+    "home.proof.open",
+
+    "home.products.eyebrow",
+    "home.products.title",
+    "home.products.lead",
+    "home.products.lifeflow",
+    "home.products.continuity",
+    "home.products.proofflow",
+    "home.products.shiftlog",
+    "home.products.voicebridge",
+    "home.products.zalgate",
+    "home.products.open",
+    "home.products.viewSystem",
+    "home.products.viewDevelopment",
+    "home.products.viewArchitecture",
+
+    "home.pilot.eyebrow",
+    "home.pilot.title",
+    "home.pilot.text",
+    "home.pilot.discover",
+    "home.pilot.request",
+
+    "home.core.eyebrow",
+    "home.core.title",
+    "home.core.text",
+    "home.core.discover",
+
+    "home.contact.eyebrow",
+    "home.contact.title",
+    "home.contact.text",
+    "home.contact.name",
+    "home.contact.namePlaceholder",
+    "home.contact.email",
+    "home.contact.emailPlaceholder",
+    "home.contact.message",
+    "home.contact.messagePlaceholder",
+    "home.contact.send",
+    "home.contact.privacyPrefix",
+    "home.contact.privacy"
+  ];
 
 
   /* ============================================================
@@ -2422,13 +2881,11 @@
       return null;
     }
 
-    const value =
-      String(language)
-        .trim()
-        .replace("_", "-");
+    const value = String(language)
+      .trim()
+      .replace("_", "-");
 
-    const lower =
-      value.toLowerCase();
+    const lower = value.toLowerCase();
 
     if (
       lower === "zh" ||
@@ -2439,24 +2896,19 @@
       return "zh-Hans";
     }
 
-    const exact =
-      SUPPORTED_LANGUAGES.find(
-        item =>
-          item.toLowerCase() === lower
-      );
+    const exact = SUPPORTED_LANGUAGES.find(
+      item => item.toLowerCase() === lower
+    );
 
     if (exact) {
       return exact;
     }
 
-    const base =
-      lower.split("-")[0];
+    const base = lower.split("-")[0];
 
-    const baseMatch =
-      SUPPORTED_LANGUAGES.find(
-        item =>
-          item.toLowerCase() === base
-      );
+    const baseMatch = SUPPORTED_LANGUAGES.find(
+      item => item.toLowerCase() === base
+    );
 
     return baseMatch || null;
   }
@@ -2511,7 +2963,7 @@
       );
 
     } catch {
-      /* Storage may be unavailable. */
+      /* Storage unavailable */
     }
   }
 
@@ -2535,22 +2987,15 @@
     language = currentLanguage
   ) {
 
-    const selected =
-      TRANSLATIONS[language] || {};
-
-    const fallback =
-      TRANSLATIONS[DEFAULT_LANGUAGE] || {};
-
-    return (
-      selected[key] ??
-      fallback[key] ??
-      null
+    return getFallbackValue(
+      language,
+      key
     );
   }
 
 
   /* ============================================================
-     APPLY TRANSLATIONS TO PAGE
+     APPLY TRANSLATIONS
      ============================================================ */
 
   function translatePage() {
@@ -2952,16 +3397,15 @@
 
   function buildLanguageSwitcher() {
 
-    if (
+    const existing =
       document.querySelector(
         ".zal-language"
-      )
-    ) {
+      );
+
+    if (existing) {
 
       languageRoot =
-        document.querySelector(
-          ".zal-language"
-        );
+        existing;
 
       languageButton =
         languageRoot.querySelector(
@@ -3125,21 +3569,16 @@
     );
 
 
-    /*
-       Insert directly before the existing
-       page chip / Explore button.
-    */
-
-    const explore =
+    const pageChip =
       host.querySelector(
         ".chip-cta"
       );
 
-    if (explore) {
+    if (pageChip) {
 
       host.insertBefore(
         languageRoot,
-        explore
+        pageChip
       );
 
     } else {
