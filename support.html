@@ -3,104 +3,463 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>Support — ZAL’THERA</title>
-  <meta name="description" content="Support für ZAL’THERA Apps: LifeFlow, EasyProof, EasyProof Pro, LifeShield, Delivery Core, Origin und weitere Module." />
+
+  <meta
+    name="description"
+    content="Support für ZAL’THERA Apps: LifeFlow, EasyProof, EasyProof Pro, LifeShield, Delivery Core, Origin und weitere Module."
+  />
+
+  <meta name="theme-color" content="#020306" />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="index.html">Home</a>
-        <a href="lifeflow.html">LifeFlow</a>
-        <a href="proofflow.html">ProofFlow</a>
-        <a href="shiftlog.html">ShiftLog</a>
-        <a href="support.html">Support</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
+      >
+
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a href="index.html#products" data-i18n="nav.products">
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
+
       </nav>
 
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="mailto:contact@zalthera.de">Kontakt</a>
+
+        <a
+          class="chip chip-cta"
+          href="mailto:contact@zalthera.de"
+          data-i18n="global.contact"
+        >
+          Kontakt
+        </a>
+
       </div>
+
     </div>
+
   </header>
 
-  <main class="section">
-    <div class="container">
-      <div class="panel glass panel-wide">
-        <div class="eyebrow">SUPPORT</div>
-        <h1>ZAL’THERA Support</h1>
 
-        <p class="muted">
-          Wenn du Hilfe zu einer ZAL’THERA App brauchst, Fragen hast oder ein Problem melden möchtest,
+  <!-- =========================================================
+       MAIN
+       ========================================================= -->
+
+  <main class="section">
+
+    <div class="container">
+
+      <div class="panel glass panel-wide">
+
+        <div
+          class="eyebrow"
+          data-i18n="support.hero.eyebrow"
+        >
+          SUPPORT
+        </div>
+
+
+        <h1 data-i18n="support.hero.title">
+          ZAL’THERA Support
+        </h1>
+
+
+        <p
+          class="muted"
+          data-i18n="support.hero.text"
+        >
+          Wenn du Hilfe zu einer ZAL’THERA App brauchst,
+          Fragen hast oder ein Problem melden möchtest,
           kontaktiere uns bitte per E-Mail.
         </p>
 
-        <h2>Kontakt</h2>
+
+        <!-- =====================================================
+             CONTACT
+             ===================================================== -->
+
+        <h2 data-i18n="support.contact.title">
+          Kontakt
+        </h2>
+
+
         <p>
-          E-Mail: <a href="mailto:contact@zalthera.de">contact@zalthera.de</a>
+          <span data-i18n="support.contact.emailLabel">
+            E-Mail:
+          </span>
+
+          <a href="mailto:contact@zalthera.de">
+            contact@zalthera.de
+          </a>
         </p>
 
-        <h2>Unterstützte Apps und Module</h2>
+
+        <!-- =====================================================
+             SUPPORTED APPS
+             ===================================================== -->
+
+        <h2 data-i18n="support.apps.title">
+          Unterstützte Apps und Module
+        </h2>
+
+
         <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><strong>LifeFlow</strong></div>
-            <p class="muted">Kosten, Verträge, Fristen und finanzielle Übersicht.</p>
-          </div>
 
           <div class="card glass">
-            <div class="card-title"><strong>EasyProof / EasyProof Pro</strong></div>
-            <p class="muted">Jobs, Nachweise, Audit, Fotos, Notizen, Signaturen und Export.</p>
+
+            <div class="card-title">
+              <strong>
+                LifeFlow
+              </strong>
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.lifeflow"
+            >
+              Kosten, Verträge, Fristen und finanzielle Übersicht.
+            </p>
+
           </div>
 
-          <div class="card glass">
-            <div class="card-title"><strong>LifeShield</strong></div>
-            <p class="muted">Strukturierte Aktionen, Regeln, Sichtbarkeit und Kontrolle.</p>
-          </div>
 
           <div class="card glass">
-            <div class="card-title"><strong>Delivery Core</strong></div>
-            <p class="muted">Paketstatus, Zustellung, Proof und nachvollziehbare Abläufe.</p>
+
+            <div class="card-title">
+              <strong>
+                EasyProof / EasyProof Pro
+              </strong>
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.easyproof"
+            >
+              Jobs, Nachweise, Audit, Fotos, Notizen,
+              Signaturen und Export.
+            </p>
+
           </div>
 
-          <div class="card glass">
-            <div class="card-title"><strong>Origin</strong></div>
-            <p class="muted">Persönliche Ordnung, Entwicklung und strukturierte Entscheidungen.</p>
-          </div>
 
           <div class="card glass">
-            <div class="card-title"><strong>Weitere ZAL’THERA Module</strong></div>
-            <p class="muted">Support für alle aktuellen und zukünftigen ZAL’THERA Apps.</p>
+
+            <div class="card-title">
+              <strong>
+                LifeShield
+              </strong>
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.lifeshield"
+            >
+              Strukturierte Aktionen, Regeln,
+              Sichtbarkeit und Kontrolle.
+            </p>
+
           </div>
+
+
+          <div class="card glass">
+
+            <div class="card-title">
+              <strong>
+                Delivery Core
+              </strong>
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.deliveryCore"
+            >
+              Paketstatus, Zustellung, Proof
+              und nachvollziehbare Abläufe.
+            </p>
+
+          </div>
+
+
+          <div class="card glass">
+
+            <div class="card-title">
+              <strong>
+                Origin
+              </strong>
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.origin"
+            >
+              Persönliche Ordnung, Entwicklung
+              und strukturierte Entscheidungen.
+            </p>
+
+          </div>
+
+
+          <div class="card glass">
+
+            <div class="card-title">
+
+              <strong data-i18n="support.apps.other.title">
+                Weitere ZAL’THERA Module
+              </strong>
+
+            </div>
+
+            <p
+              class="muted"
+              data-i18n="support.apps.other.text"
+            >
+              Support für alle aktuellen
+              und zukünftigen ZAL’THERA Apps.
+            </p>
+
+          </div>
+
         </div>
 
-        <h2 style="margin-top:28px;">Was du in deiner Nachricht angeben solltest</h2>
+
+        <!-- =====================================================
+             WHAT TO INCLUDE
+             ===================================================== -->
+
+        <h2
+          style="margin-top:28px;"
+          data-i18n="support.message.title"
+        >
+          Was du in deiner Nachricht angeben solltest
+        </h2>
+
+
         <ul>
-          <li>Name der App</li>
-          <li>Kurze Beschreibung des Problems</li>
-          <li>Gerät und iOS-Version, falls relevant</li>
-          <li>Screenshot oder kurze Erklärung, wenn möglich</li>
+
+          <li data-i18n="support.message.app">
+            Name der App
+          </li>
+
+          <li data-i18n="support.message.problem">
+            Kurze Beschreibung des Problems
+          </li>
+
+          <li data-i18n="support.message.device">
+            Gerät und iOS-Version, falls relevant
+          </li>
+
+          <li data-i18n="support.message.screenshot">
+            Screenshot oder kurze Erklärung, wenn möglich
+          </li>
+
         </ul>
 
-        <p class="muted">
+
+        <p
+          class="muted"
+          data-i18n="support.responseTime"
+        >
           Wir antworten in der Regel innerhalb von 24–48 Stunden.
         </p>
 
-        <div class="hero-actions" style="margin-top:18px;">
-          <a class="btn primary" href="mailto:contact@zalthera.de?subject=ZALTHERA%20Support">Support kontaktieren</a>
-          <a class="btn ghost" href="index.html">Zur Startseite</a>
+
+        <div
+          class="hero-actions"
+          style="margin-top:18px;"
+        >
+
+          <a
+            class="btn primary"
+            href="mailto:contact@zalthera.de?subject=ZALTHERA%20Support"
+            data-i18n="support.actions.contact"
+          >
+            Support kontaktieren
+          </a>
+
+
+          <a
+            class="btn ghost"
+            href="index.html"
+            data-i18n="support.actions.home"
+          >
+            Zur Startseite
+          </a>
+
         </div>
+
       </div>
+
+
+      <!-- =======================================================
+           FOOTER
+           ======================================================= -->
+
+      <footer class="footer">
+
+        <div class="footer-brand">
+
+          <strong>
+            ZAL’THERA
+          </strong>
+
+          <span>
+            © <span id="year"></span>
+          </span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <a
+            href="index.html"
+            data-i18n="global.home"
+          >
+            Home
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="core.html"
+            data-i18n="nav.system"
+          >
+            System
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="about.html"
+            data-i18n="nav.about"
+          >
+            About
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="support.html"
+            data-i18n="global.support"
+          >
+            Support
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="impressum.html"
+            data-i18n="footer.imprint"
+          >
+            Impressum
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="datenschutz.html"
+            data-i18n="footer.privacy"
+          >
+            Datenschutz
+          </a>
+
+        </div>
+
+      </footer>
+
     </div>
+
   </main>
+
+
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
+
 </body>
 </html>
