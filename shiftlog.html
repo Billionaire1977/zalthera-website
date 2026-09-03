@@ -62,6 +62,8 @@
         aria-controls="main-navigation"
         aria-expanded="false"
         data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
       >
         <span></span>
         <span></span>
@@ -73,21 +75,54 @@
         class="nav"
         aria-label="Hauptnavigation"
         data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
       >
-        <a href="core.html">System</a>
-        <a href="index.html#continuity">Continuity</a>
-        <a href="index.html#intelligence">Intelligence</a>
-        <a href="index.html#communication">Communication</a>
-        <a href="index.html#industry" aria-current="page">Industry</a>
-        <a href="index.html#products">Products</a>
-        <a href="about.html">About</a>
+
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a
+          href="index.html#industry"
+          aria-current="page"
+          data-i18n="nav.industry"
+        >
+          Industry
+        </a>
+
+        <a href="index.html#products" data-i18n="nav.products">
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
+
       </nav>
 
 
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#contact">
+
+        <a
+          class="chip chip-cta"
+          href="#contact"
+        >
           ShiftLog
         </a>
+
       </div>
 
     </div>
@@ -117,6 +152,7 @@
 
       </div>
 
+
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-noise" aria-hidden="true"></div>
 
@@ -125,43 +161,79 @@
 
         <div class="hero-copy hero-intro">
 
-          <div class="kicker">
+          <div
+            class="kicker"
+            data-i18n="shiftlog.hero.kicker"
+          >
             ZAL’THERA INDUSTRY
           </div>
+
 
           <div class="hero-product hero-product-large">
             SHIFTLOG
           </div>
 
-          <h1 class="hero-title">
+
+          <h1
+            class="hero-title"
+            data-i18n="shiftlog.hero.title"
+            data-i18n-html
+          >
             Operational knowledge<br />
             should survive<br />
             the shift change.
           </h1>
 
-          <p class="hero-lead">
+
+          <p
+            class="hero-lead"
+            data-i18n="shiftlog.hero.lead"
+          >
             ShiftLog strukturiert operative Übergaben digital,
             damit relevante Zustände, offene Punkte und Verantwortlichkeiten
             nicht zwischen Schichten verloren gehen.
           </p>
 
+
           <div class="hero-actions">
 
-            <a class="btn primary" href="#system">
+            <a
+              class="btn primary"
+              href="#system"
+              data-i18n="shiftlog.hero.understand"
+            >
               System verstehen
             </a>
 
-            <a class="btn ghost" href="#contact">
+            <a
+              class="btn ghost"
+              href="#contact"
+              data-i18n="shiftlog.hero.interest"
+            >
               Interesse anmelden
             </a>
 
           </div>
 
+
           <div class="hero-microline">
-            <span>HANDOVER</span>
-            <span>STATE</span>
-            <span>RESPONSIBILITY</span>
-            <span>TRACEABILITY</span>
+
+            <span data-i18n="shiftlog.hero.handover">
+              HANDOVER
+            </span>
+
+            <span data-i18n="shiftlog.hero.state">
+              STATE
+            </span>
+
+            <span data-i18n="shiftlog.hero.responsibility">
+              RESPONSIBILITY
+            </span>
+
+            <span data-i18n="shiftlog.hero.traceability">
+              TRACEABILITY
+            </span>
+
           </div>
 
         </div>
@@ -169,45 +241,114 @@
 
         <div class="hero-system-map glass hero-system-panel">
 
-          <div class="system-map-label">
+          <div
+            class="system-map-label"
+            data-i18n="shiftlog.state.label"
+          >
             SHIFT STATE
           </div>
 
+
           <div class="system-map-core">
+
             <span class="system-map-dot"></span>
-            <strong>SHIFTLOG</strong>
+
+            <strong>
+              SHIFTLOG
+            </strong>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>STATUS</span>
-            <span class="state state-core">CAPTURE</span>
+
+            <span data-i18n="shiftlog.state.status">
+              STATUS
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="shiftlog.state.capture"
+            >
+              CAPTURE
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>OPEN POINTS</span>
-            <span class="state state-dev">VISIBLE</span>
+
+            <span data-i18n="shiftlog.state.openPoints">
+              OPEN POINTS
+            </span>
+
+            <span
+              class="state state-dev"
+              data-i18n="shiftlog.state.visible"
+            >
+              VISIBLE
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>HANDOVER</span>
-            <span class="state state-system">STRUCTURED</span>
+
+            <span data-i18n="shiftlog.state.handover">
+              HANDOVER
+            </span>
+
+            <span
+              class="state state-system"
+              data-i18n="shiftlog.state.structured"
+            >
+              STRUCTURED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>RESPONSIBILITY</span>
-            <span class="state state-architecture">ASSIGNED</span>
+
+            <span data-i18n="shiftlog.state.responsibility">
+              RESPONSIBILITY
+            </span>
+
+            <span
+              class="state state-architecture"
+              data-i18n="shiftlog.state.assigned"
+            >
+              ASSIGNED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>HISTORY</span>
-            <span class="state state-core">TRACEABLE</span>
+
+            <span data-i18n="shiftlog.state.history">
+              HISTORY
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="shiftlog.state.traceable"
+            >
+              TRACEABLE
+            </span>
+
           </div>
 
-          <div class="system-map-scan" aria-hidden="true"></div>
+
+          <div
+            class="system-map-scan"
+            aria-hidden="true"
+          ></div>
 
         </div>
 
       </div>
+
 
       <div class="hero-fade" aria-hidden="true"></div>
 
@@ -218,21 +359,32 @@
          PROBLEM
          ========================================================= -->
 
-    <section id="problem" class="section">
+    <section
+      id="problem"
+      class="section"
+    >
 
       <div class="container">
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow gold">
+          <div
+            class="eyebrow gold"
+            data-i18n="shiftlog.problem.eyebrow"
+          >
             THE HANDOVER GAP
           </div>
 
-          <h2>
+
+          <h2 data-i18n="shiftlog.problem.title">
             Wissen darf nicht mit der Schicht verschwinden.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="shiftlog.problem.lead"
+          >
             Operative Informationen verlieren ihren Wert,
             wenn sie zu spät gesehen, nur mündlich weitergegeben
             oder nicht eindeutig einem Zustand zugeordnet werden.
@@ -246,10 +398,18 @@
           <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
-              <strong>Information wird übersehen</strong>
+
+              <strong data-i18n="shiftlog.problem.overlooked.title">
+                Information wird übersehen
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="shiftlog.problem.overlooked.text"
+            >
               Ein Eintrag existiert, erreicht aber die nächste
               verantwortliche Person nicht rechtzeitig.
             </p>
@@ -260,10 +420,18 @@
           <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
-              <strong>Zustände bleiben unklar</strong>
+
+              <strong data-i18n="shiftlog.problem.states.title">
+                Zustände bleiben unklar
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="shiftlog.problem.states.text"
+            >
               Offen, erledigt, kritisch oder übernommen
               wird nicht eindeutig sichtbar.
             </p>
@@ -274,10 +442,18 @@
           <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
-              <strong>Verantwortung verliert Kontext</strong>
+
+              <strong data-i18n="shiftlog.problem.context.title">
+                Verantwortung verliert Kontext
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="shiftlog.problem.context.text"
+            >
               Später ist schwer nachvollziehbar,
               was bekannt war und was übergeben wurde.
             </p>
@@ -301,21 +477,33 @@
       data-section="system"
     >
 
-      <div class="section-signal signal-gold" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-gold"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow gold">
+          <div
+            class="eyebrow gold"
+            data-i18n="shiftlog.system.eyebrow"
+          >
             SHIFTLOG SYSTEM
           </div>
 
-          <h2>
+
+          <h2 data-i18n="shiftlog.system.title">
             Aus einzelnen Einträgen wird ein operativer Verlauf.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="shiftlog.system.lead"
+          >
             ShiftLog verbindet Information, Zustand,
             Übergabe und Verantwortung in einem strukturierten Ablauf.
           </p>
@@ -331,9 +519,13 @@
               01
             </div>
 
-            <h3>Capture</h3>
 
-            <p>
+            <h3 data-i18n="shiftlog.system.capture.title">
+              Capture
+            </h3>
+
+
+            <p data-i18n="shiftlog.system.capture.text">
               Relevante operative Informationen werden
               strukturiert festgehalten.
             </p>
@@ -341,7 +533,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-2">
@@ -350,9 +545,13 @@
               02
             </div>
 
-            <h3>State</h3>
 
-            <p>
+            <h3 data-i18n="shiftlog.system.state.title">
+              State
+            </h3>
+
+
+            <p data-i18n="shiftlog.system.state.text">
               Einträge erhalten einen sichtbaren
               operativen Zustand.
             </p>
@@ -360,7 +559,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-3">
@@ -369,9 +571,13 @@
               03
             </div>
 
-            <h3>Handover</h3>
 
-            <p>
+            <h3 data-i18n="shiftlog.system.handover.title">
+              Handover
+            </h3>
+
+
+            <p data-i18n="shiftlog.system.handover.text">
               Die nächste Schicht erhält den
               relevanten Kontext der Übergabe.
             </p>
@@ -379,7 +585,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-4">
@@ -388,9 +597,13 @@
               04
             </div>
 
-            <h3>Responsibility</h3>
 
-            <p>
+            <h3 data-i18n="shiftlog.system.responsibility.title">
+              Responsibility
+            </h3>
+
+
+            <p data-i18n="shiftlog.system.responsibility.text">
               Offene Punkte bleiben sichtbar,
               bis sie übernommen oder abgeschlossen sind.
             </p>
@@ -398,7 +611,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-5">
@@ -407,9 +623,13 @@
               05
             </div>
 
-            <h3>History</h3>
 
-            <p>
+            <h3 data-i18n="shiftlog.system.history.title">
+              History
+            </h3>
+
+
+            <p data-i18n="shiftlog.system.history.text">
               Der operative Verlauf bleibt
               später nachvollziehbar.
             </p>
@@ -433,9 +653,13 @@
 
         <div class="authorization-panel glass reveal">
 
-          <div class="authorization-symbol" aria-hidden="true">
+          <div
+            class="authorization-symbol"
+            aria-hidden="true"
+          >
             <span></span>
           </div>
+
 
           <div>
 
@@ -443,24 +667,37 @@
               ZAL’THERA INDUSTRY
             </div>
 
-            <h2>
+
+            <h2 data-i18n="shiftlog.industry.title">
               ShiftLog ist die menschliche Übergabeschicht im industriellen System.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="shiftlog.industry.text"
+            >
               Während zukünftige ZAL’THERA-Industry-Komponenten
               Sensordaten, Messwerte und Maschinenzustände anbinden können,
               konzentriert sich ShiftLog auf operative Information,
               menschliche Übergabe und Verantwortung.
             </p>
 
+
             <div class="hero-actions">
 
-              <a class="btn primary" href="index.html#industry">
+              <a
+                class="btn primary"
+                href="index.html#industry"
+                data-i18n="shiftlog.industry.view"
+              >
                 Industry ansehen
               </a>
 
-              <a class="btn ghost" href="core.html">
+              <a
+                class="btn ghost"
+                href="core.html"
+              >
                 ZAL’THERA Core
               </a>
 
@@ -476,12 +713,19 @@
 
 
     <!-- =========================================================
-         USE
+         REAL-WORLD USE
          ========================================================= -->
 
-    <section id="pilot" class="section section-deep">
+    <section
+      id="pilot"
+      class="section section-deep"
+    >
 
-      <div class="section-signal signal-cyan signal-right" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-cyan signal-right"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
@@ -489,29 +733,43 @@
 
           <div>
 
-            <div class="eyebrow cyan">
+            <div
+              class="eyebrow cyan"
+              data-i18n="shiftlog.use.eyebrow"
+            >
               REAL-WORLD USE
             </div>
 
-            <h2>
+
+            <h2 data-i18n="shiftlog.use.title">
               Für Bereiche, in denen Übergabe Teil des Prozesses ist.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="shiftlog.use.text"
+            >
               ShiftLog eignet sich für operative Umgebungen,
               in denen relevante Informationen über Schichtgrenzen
               hinweg erhalten bleiben müssen.
             </p>
 
+
             <div class="hero-actions">
 
-              <a class="btn primary" href="#contact">
+              <a
+                class="btn primary"
+                href="#contact"
+                data-i18n="shiftlog.use.interest"
+              >
                 Interesse anmelden
               </a>
 
               <a
                 class="btn ghost"
                 href="mailto:contact@zalthera.de?subject=ShiftLog%20Anfrage"
+                data-i18n="shiftlog.use.email"
               >
                 E-Mail senden
               </a>
@@ -524,29 +782,63 @@
           <div class="ledger-chain">
 
             <div class="ledger-event">
-              <span>STATE 01</span>
-              <strong>CAPTURED</strong>
+
+              <span data-i18n="shiftlog.use.state1">
+                STATE 01
+              </span>
+
+              <strong data-i18n="shiftlog.use.captured">
+                CAPTURED
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>STATE 02</span>
-              <strong>OPEN</strong>
+
+              <span data-i18n="shiftlog.use.state2">
+                STATE 02
+              </span>
+
+              <strong data-i18n="shiftlog.use.open">
+                OPEN
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>STATE 03</span>
-              <strong>HANDED OVER</strong>
+
+              <span data-i18n="shiftlog.use.state3">
+                STATE 03
+              </span>
+
+              <strong data-i18n="shiftlog.use.handedOver">
+                HANDED OVER
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>STATE 04</span>
-              <strong>RESOLVED</strong>
+
+              <span data-i18n="shiftlog.use.state4">
+                STATE 04
+              </span>
+
+              <strong data-i18n="shiftlog.use.resolved">
+                RESOLVED
+              </strong>
+
             </div>
 
           </div>
@@ -562,7 +854,10 @@
          CONTACT
          ========================================================= -->
 
-    <section id="contact" class="section section-contact">
+    <section
+      id="contact"
+      class="section section-contact"
+    >
 
       <div class="container">
 
@@ -576,11 +871,16 @@
                 SHIFTLOG
               </div>
 
-              <h2>
+
+              <h2 data-i18n="shiftlog.contact.title">
                 ShiftLog anfragen
               </h2>
 
-              <p class="muted">
+
+              <p
+                class="muted"
+                data-i18n="shiftlog.contact.text"
+              >
                 Beschreiben Sie kurz Ihren Bereich
                 und wie Übergaben aktuell organisiert werden.
               </p>
@@ -619,9 +919,13 @@
 
               <div class="field">
 
-                <label for="name">
+                <label
+                  for="name"
+                  data-i18n="home.contact.name"
+                >
                   Name
                 </label>
+
 
                 <input
                   id="name"
@@ -629,6 +933,8 @@
                   placeholder="Ihr Name"
                   autocomplete="name"
                   required
+                  data-i18n="shiftlog.contact.namePlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -636,9 +942,13 @@
 
               <div class="field">
 
-                <label for="email">
+                <label
+                  for="email"
+                  data-i18n="home.contact.email"
+                >
                   E-Mail
                 </label>
+
 
                 <input
                   id="email"
@@ -647,6 +957,8 @@
                   placeholder="name@firma.de"
                   autocomplete="email"
                   required
+                  data-i18n="shiftlog.contact.emailPlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -654,9 +966,13 @@
 
               <div class="field field-full">
 
-                <label for="message">
+                <label
+                  for="message"
+                  data-i18n="home.contact.message"
+                >
                   Nachricht
                 </label>
+
 
                 <textarea
                   id="message"
@@ -664,6 +980,8 @@
                   rows="5"
                   placeholder="Wie laufen Übergaben aktuell bei Ihnen?"
                   required
+                  data-i18n="shiftlog.contact.messagePlaceholder"
+                  data-i18n-attribute="placeholder"
                 ></textarea>
 
               </div>
@@ -673,15 +991,28 @@
 
             <div class="form-footer">
 
-              <button class="btn primary" type="submit">
+              <button
+                class="btn primary"
+                type="submit"
+                data-i18n="shiftlog.contact.send"
+              >
                 Interesse senden
               </button>
 
+
               <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere
-                <a href="datenschutz.html">
+
+                <span data-i18n="shiftlog.contact.privacyPrefix">
+                  Mit dem Absenden akzeptieren Sie unsere
+                </span>
+
+                <a
+                  href="datenschutz.html"
+                  data-i18n="home.contact.privacy"
+                >
                   Datenschutzerklärung
                 </a>.
+
               </div>
 
             </div>
@@ -694,20 +1025,63 @@
         <footer class="footer">
 
           <div class="footer-brand">
-            <strong>ZAL’THERA</strong>
-            <span>© <span id="year"></span></span>
+
+            <strong>
+              ZAL’THERA
+            </strong>
+
+            <span>
+              © <span id="year"></span>
+            </span>
+
           </div>
 
+
           <div class="footer-links">
-            <a href="index.html">Home</a>
+
+            <a
+              href="index.html"
+              data-i18n="global.home"
+            >
+              Home
+            </a>
+
             <span>·</span>
-            <a href="core.html">System</a>
+
+            <a
+              href="core.html"
+              data-i18n="nav.system"
+            >
+              System
+            </a>
+
             <span>·</span>
-            <a href="about.html">About</a>
+
+            <a
+              href="about.html"
+              data-i18n="nav.about"
+            >
+              About
+            </a>
+
             <span>·</span>
-            <a href="impressum.html">Impressum</a>
+
+            <a
+              href="impressum.html"
+              data-i18n="footer.imprint"
+            >
+              Impressum
+            </a>
+
             <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
+
+            <a
+              href="datenschutz.html"
+              data-i18n="footer.privacy"
+            >
+              Datenschutz
+            </a>
+
           </div>
 
         </footer>
@@ -719,7 +1093,9 @@
   </main>
 
 
-  <script src="site.js"></script>
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
 
 </body>
 </html>
+
