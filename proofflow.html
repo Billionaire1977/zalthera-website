@@ -62,6 +62,8 @@
         aria-controls="main-navigation"
         aria-expanded="false"
         data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
       >
         <span></span>
         <span></span>
@@ -73,21 +75,53 @@
         class="nav"
         aria-label="Hauptnavigation"
         data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
       >
-        <a href="core.html">System</a>
-        <a href="index.html#continuity">Continuity</a>
-        <a href="index.html#intelligence">Intelligence</a>
-        <a href="index.html#communication">Communication</a>
-        <a href="index.html#industry">Industry</a>
-        <a href="index.html#products">Products</a>
-        <a href="about.html">About</a>
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a
+          href="index.html#products"
+          aria-current="page"
+          data-i18n="nav.products"
+        >
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
       </nav>
 
 
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#contact">
+
+        <a
+          class="chip chip-cta"
+          href="#contact"
+          data-i18n="proofflow.header.pilot"
+        >
           Pilot
         </a>
+
       </div>
 
     </div>
@@ -126,42 +160,78 @@
 
         <div class="hero-copy hero-intro">
 
-          <div class="kicker">
+          <div
+            class="kicker"
+            data-i18n="proofflow.hero.kicker"
+          >
             PROOF · AUDIT · TRACEABILITY
           </div>
+
 
           <div class="hero-product hero-product-large">
             PROOFFLOW
           </div>
 
-          <h1 class="hero-title">
+
+          <h1
+            class="hero-title"
+            data-i18n="proofflow.hero.title"
+            data-i18n-html
+          >
             Evidence before<br />
             assumption.
           </h1>
 
-          <p class="hero-lead">
+
+          <p
+            class="hero-lead"
+            data-i18n="proofflow.hero.lead"
+          >
             ProofFlow verbindet Aufgaben, Nachweise, Fotos,
             Notizen, Signaturen, Audit und Export zu einem
             nachvollziehbaren Ablauf.
           </p>
 
+
           <div class="hero-actions">
 
-            <a class="btn primary" href="#system">
+            <a
+              class="btn primary"
+              href="#system"
+              data-i18n="proofflow.hero.understand"
+            >
               System verstehen
             </a>
 
-            <a class="btn ghost" href="#contact">
+            <a
+              class="btn ghost"
+              href="#contact"
+              data-i18n="proofflow.hero.requestPilot"
+            >
               Pilot anfragen
             </a>
 
           </div>
 
+
           <div class="hero-microline">
-            <span>PROVENANCE</span>
-            <span>IDENTITY</span>
-            <span>AUDIT</span>
-            <span>EXPORT</span>
+
+            <span data-i18n="proofflow.hero.provenance">
+              PROVENANCE
+            </span>
+
+            <span data-i18n="proofflow.hero.identity">
+              IDENTITY
+            </span>
+
+            <span data-i18n="proofflow.hero.audit">
+              AUDIT
+            </span>
+
+            <span data-i18n="proofflow.hero.export">
+              EXPORT
+            </span>
+
           </div>
 
         </div>
@@ -169,45 +239,111 @@
 
         <div class="hero-system-map glass hero-system-panel">
 
-          <div class="system-map-label">
+          <div
+            class="system-map-label"
+            data-i18n="proofflow.state.label"
+          >
             PROOF FLOW
           </div>
 
+
           <div class="system-map-core">
+
             <span class="system-map-dot"></span>
-            <strong>PROOFFLOW</strong>
+
+            <strong>
+              PROOFFLOW
+            </strong>
+
           </div>
 
-          <div class="system-map-row">
-            <span>JOB</span>
-            <span class="state state-core">CONTEXT</span>
-          </div>
 
           <div class="system-map-row">
-            <span>PROOF</span>
-            <span class="state state-dev">CAPTURE</span>
+
+            <span data-i18n="proofflow.state.job">
+              JOB
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="proofflow.state.context"
+            >
+              CONTEXT
+            </span>
+
           </div>
 
-          <div class="system-map-row">
-            <span>SIGN</span>
-            <span class="state state-system">IDENTITY</span>
-          </div>
 
           <div class="system-map-row">
-            <span>AUDIT</span>
-            <span class="state state-architecture">TRACE</span>
+
+            <span data-i18n="proofflow.state.proof">
+              PROOF
+            </span>
+
+            <span
+              class="state state-dev"
+              data-i18n="proofflow.state.capture"
+            >
+              CAPTURE
+            </span>
+
           </div>
 
+
           <div class="system-map-row">
-            <span>EXPORT</span>
-            <span class="state state-core">OUTPUT</span>
+
+            <span data-i18n="proofflow.state.sign">
+              SIGN
+            </span>
+
+            <span
+              class="state state-system"
+              data-i18n="proofflow.state.identity"
+            >
+              IDENTITY
+            </span>
+
           </div>
+
+
+          <div class="system-map-row">
+
+            <span data-i18n="proofflow.state.audit">
+              AUDIT
+            </span>
+
+            <span
+              class="state state-architecture"
+              data-i18n="proofflow.state.trace"
+            >
+              TRACE
+            </span>
+
+          </div>
+
+
+          <div class="system-map-row">
+
+            <span data-i18n="proofflow.state.export">
+              EXPORT
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="proofflow.state.output"
+            >
+              OUTPUT
+            </span>
+
+          </div>
+
 
           <div class="system-map-scan" aria-hidden="true"></div>
 
         </div>
 
       </div>
+
 
       <div class="hero-fade" aria-hidden="true"></div>
 
@@ -218,21 +354,32 @@
          PROBLEM
          ========================================================= -->
 
-    <section id="problem" class="section">
+    <section
+      id="problem"
+      class="section"
+    >
 
       <div class="container">
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow">
+          <div
+            class="eyebrow"
+            data-i18n="proofflow.problem.eyebrow"
+          >
             THE PROBLEM
           </div>
 
-          <h2>
+
+          <h2 data-i18n="proofflow.problem.title">
             Erinnerung ist kein Nachweis.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="proofflow.problem.lead"
+          >
             Wenn Vorfälle, Maßnahmen und Entscheidungen nicht
             strukturiert dokumentiert werden, entstehen später
             Interpretationen statt überprüfbarer Abläufe.
@@ -246,10 +393,18 @@
           <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
-              <strong>Unklarer Ablauf</strong>
+
+              <strong data-i18n="proofflow.problem.process.title">
+                Unklarer Ablauf
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="proofflow.problem.process.text"
+            >
               Was ist tatsächlich passiert und in welcher Reihenfolge?
             </p>
 
@@ -259,10 +414,18 @@
           <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
-              <strong>Unklare Verantwortung</strong>
+
+              <strong data-i18n="proofflow.problem.responsibility.title">
+                Unklare Verantwortung
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="proofflow.problem.responsibility.text"
+            >
               Wer hat wann gehandelt, bestätigt oder entschieden?
             </p>
 
@@ -272,10 +435,18 @@
           <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
-              <strong>Fehlender Nachweis</strong>
+
+              <strong data-i18n="proofflow.problem.evidence.title">
+                Fehlender Nachweis
+              </strong>
+
             </div>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="proofflow.problem.evidence.text"
+            >
               Ohne belegbare Informationen bleiben später
               Aussagen gegeneinander stehen.
             </p>
@@ -299,21 +470,33 @@
       data-section="system"
     >
 
-      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-cyan"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow cyan">
+          <div
+            class="eyebrow cyan"
+            data-i18n="proofflow.system.eyebrow"
+          >
             PROOF SYSTEM
           </div>
 
-          <h2>
+
+          <h2 data-i18n="proofflow.system.title">
             Ein nachvollziehbarer Ablauf statt isolierter Dateien.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="proofflow.system.lead"
+          >
             ProofFlow strukturiert den Weg von einem Vorgang
             bis zu einem überprüfbaren Ergebnis.
           </p>
@@ -329,16 +512,23 @@
               01
             </div>
 
-            <h3>Job</h3>
 
-            <p>
+            <h3 data-i18n="proofflow.system.job.title">
+              Job
+            </h3>
+
+
+            <p data-i18n="proofflow.system.job.text">
               Der Vorgang erhält einen klaren Kontext und Ausgangspunkt.
             </p>
 
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-2">
@@ -347,16 +537,23 @@
               02
             </div>
 
-            <h3>Proof</h3>
 
-            <p>
+            <h3 data-i18n="proofflow.system.proof.title">
+              Proof
+            </h3>
+
+
+            <p data-i18n="proofflow.system.proof.text">
               Relevante Nachweise werden dem Vorgang zugeordnet.
             </p>
 
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-3">
@@ -365,16 +562,23 @@
               03
             </div>
 
-            <h3>Sign</h3>
 
-            <p>
+            <h3 data-i18n="proofflow.system.sign.title">
+              Sign
+            </h3>
+
+
+            <p data-i18n="proofflow.system.sign.text">
               Bestätigung oder Signatur wird mit Identität verbunden.
             </p>
 
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-4">
@@ -383,16 +587,23 @@
               04
             </div>
 
-            <h3>Audit</h3>
 
-            <p>
+            <h3 data-i18n="proofflow.system.audit.title">
+              Audit
+            </h3>
+
+
+            <p data-i18n="proofflow.system.audit.text">
               Relevante Zustandsänderungen bleiben nachvollziehbar.
             </p>
 
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-5">
@@ -401,9 +612,13 @@
               05
             </div>
 
-            <h3>Export</h3>
 
-            <p>
+            <h3 data-i18n="proofflow.system.export.title">
+              Export
+            </h3>
+
+
+            <p data-i18n="proofflow.system.export.text">
               Der dokumentierte Ablauf kann strukturiert ausgegeben werden.
             </p>
 
@@ -426,15 +641,23 @@
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow violet">
+          <div
+            class="eyebrow violet"
+            data-i18n="proofflow.trust.eyebrow"
+          >
             PROOF & TRUST
           </div>
 
-          <h2>
+
+          <h2 data-i18n="proofflow.trust.title">
             Ein Nachweis ist mehr als ein Foto.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="proofflow.trust.lead"
+          >
             Entscheidend ist der Zusammenhang zwischen
             Herkunft, Zeitpunkt, Identität und Prozess.
           </p>
@@ -450,9 +673,16 @@
               A
             </span>
 
-            <h3>Context</h3>
 
-            <p class="muted">
+            <h3 data-i18n="proofflow.trust.context.title">
+              Context
+            </h3>
+
+
+            <p
+              class="muted"
+              data-i18n="proofflow.trust.context.text"
+            >
               Zu welchem Vorgang gehört der Nachweis?
             </p>
 
@@ -465,9 +695,16 @@
               B
             </span>
 
-            <h3>Identity</h3>
 
-            <p class="muted">
+            <h3 data-i18n="proofflow.trust.identity.title">
+              Identity
+            </h3>
+
+
+            <p
+              class="muted"
+              data-i18n="proofflow.trust.identity.text"
+            >
               Wer hat dokumentiert, bestätigt oder gehandelt?
             </p>
 
@@ -480,9 +717,16 @@
               C
             </span>
 
-            <h3>Time</h3>
 
-            <p class="muted">
+            <h3 data-i18n="proofflow.trust.time.title">
+              Time
+            </h3>
+
+
+            <p
+              class="muted"
+              data-i18n="proofflow.trust.time.text"
+            >
               Wann entstand der relevante Zustand oder Nachweis?
             </p>
 
@@ -495,9 +739,16 @@
               D
             </span>
 
-            <h3>Audit</h3>
 
-            <p class="muted">
+            <h3 data-i18n="proofflow.trust.audit.title">
+              Audit
+            </h3>
+
+
+            <p
+              class="muted"
+              data-i18n="proofflow.trust.audit.text"
+            >
               Ist die Entwicklung des Vorgangs später nachvollziehbar?
             </p>
 
@@ -514,9 +765,16 @@
          PILOT
          ========================================================= -->
 
-    <section id="pilot" class="section section-deep">
+    <section
+      id="pilot"
+      class="section section-deep"
+    >
 
-      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-gold signal-right"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
@@ -524,29 +782,43 @@
 
           <div>
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="proofflow.pilot.eyebrow"
+            >
               PILOT
             </div>
 
-            <h2>
+
+            <h2 data-i18n="proofflow.pilot.title">
               ProofFlow wird an einem realen Prozess geprüft.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="proofflow.pilot.text"
+            >
               Für einen Pilot wird ein konkreter Vorgang ausgewählt,
               strukturiert und mit den benötigten Nachweis- und
               Audit-Schritten abgebildet.
             </p>
 
+
             <div class="hero-actions">
 
-              <a class="btn primary" href="#contact">
+              <a
+                class="btn primary"
+                href="#contact"
+                data-i18n="proofflow.pilot.request"
+              >
                 Pilot anfragen
               </a>
 
               <a
                 class="btn ghost"
                 href="mailto:contact@zalthera.de?subject=ProofFlow%20Pilot"
+                data-i18n="proofflow.pilot.email"
               >
                 E-Mail senden
               </a>
@@ -559,29 +831,63 @@
           <div class="ledger-chain">
 
             <div class="ledger-event">
-              <span>PHASE 01</span>
-              <strong>ANALYSIS</strong>
+
+              <span data-i18n="proofflow.pilot.phase1">
+                PHASE 01
+              </span>
+
+              <strong data-i18n="proofflow.pilot.analysis">
+                ANALYSIS
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>PHASE 02</span>
-              <strong>MODEL</strong>
+
+              <span data-i18n="proofflow.pilot.phase2">
+                PHASE 02
+              </span>
+
+              <strong data-i18n="proofflow.pilot.model">
+                MODEL
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>PHASE 03</span>
-              <strong>PILOT</strong>
+
+              <span data-i18n="proofflow.pilot.phase3">
+                PHASE 03
+              </span>
+
+              <strong data-i18n="proofflow.pilot.pilot">
+                PILOT
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>PHASE 04</span>
-              <strong>REVIEW</strong>
+
+              <span data-i18n="proofflow.pilot.phase4">
+                PHASE 04
+              </span>
+
+              <strong data-i18n="proofflow.pilot.review">
+                REVIEW
+              </strong>
+
             </div>
 
           </div>
@@ -603,25 +909,41 @@
 
         <div class="core-cta glass reveal">
 
-          <div class="core-cta-orb" aria-hidden="true"></div>
+          <div
+            class="core-cta-orb"
+            aria-hidden="true"
+          ></div>
+
 
           <div class="core-cta-content">
 
-            <div class="eyebrow">
+            <div
+              class="eyebrow"
+              data-i18n="proofflow.core.eyebrow"
+            >
               CONNECTED TO THE CORE
             </div>
 
-            <h2>
+
+            <h2 data-i18n="proofflow.core.title">
               Proof without context is incomplete.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="proofflow.core.text"
+            >
               ProofFlow folgt denselben Grundprinzipien wie
               ZAL’THERA Core: Identität, Kontext, Audit,
               Vertrauen und kontrollierte Zustandsänderungen.
             </p>
 
-            <a class="btn primary" href="core.html">
+
+            <a
+              class="btn primary"
+              href="core.html"
+            >
               ZAL’THERA Core
             </a>
 
@@ -638,7 +960,10 @@
          CONTACT
          ========================================================= -->
 
-    <section id="contact" class="section section-contact">
+    <section
+      id="contact"
+      class="section section-contact"
+    >
 
       <div class="container">
 
@@ -652,11 +977,16 @@
                 PROOFFLOW PILOT
               </div>
 
-              <h2>
+
+              <h2 data-i18n="proofflow.contact.title">
                 Pilot anfragen
               </h2>
 
-              <p class="muted">
+
+              <p
+                class="muted"
+                data-i18n="proofflow.contact.text"
+              >
                 Beschreiben Sie kurz den Prozess oder Anwendungsfall,
                 der mit ProofFlow abgebildet werden soll.
               </p>
@@ -695,9 +1025,13 @@
 
               <div class="field">
 
-                <label for="name">
+                <label
+                  for="name"
+                  data-i18n="home.contact.name"
+                >
                   Name
                 </label>
+
 
                 <input
                   id="name"
@@ -705,6 +1039,8 @@
                   placeholder="Ihr Name"
                   autocomplete="name"
                   required
+                  data-i18n="proofflow.contact.namePlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -712,9 +1048,13 @@
 
               <div class="field">
 
-                <label for="email">
+                <label
+                  for="email"
+                  data-i18n="home.contact.email"
+                >
                   E-Mail
                 </label>
+
 
                 <input
                   id="email"
@@ -723,6 +1063,8 @@
                   placeholder="name@firma.de"
                   autocomplete="email"
                   required
+                  data-i18n="proofflow.contact.emailPlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -730,9 +1072,13 @@
 
               <div class="field field-full">
 
-                <label for="message">
+                <label
+                  for="message"
+                  data-i18n="home.contact.message"
+                >
                   Nachricht
                 </label>
+
 
                 <textarea
                   id="message"
@@ -740,6 +1086,8 @@
                   rows="5"
                   placeholder="Welcher Prozess oder Fall soll mit ProofFlow abgebildet werden?"
                   required
+                  data-i18n="proofflow.contact.messagePlaceholder"
+                  data-i18n-attribute="placeholder"
                 ></textarea>
 
               </div>
@@ -749,15 +1097,28 @@
 
             <div class="form-footer">
 
-              <button class="btn primary" type="submit">
+              <button
+                class="btn primary"
+                type="submit"
+                data-i18n="proofflow.contact.send"
+              >
                 Pilot anfragen
               </button>
 
+
               <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere
-                <a href="datenschutz.html">
+
+                <span data-i18n="proofflow.contact.privacyPrefix">
+                  Mit dem Absenden akzeptieren Sie unsere
+                </span>
+
+                <a
+                  href="datenschutz.html"
+                  data-i18n="home.contact.privacy"
+                >
                   Datenschutzerklärung
                 </a>.
+
               </div>
 
             </div>
@@ -770,20 +1131,63 @@
         <footer class="footer">
 
           <div class="footer-brand">
-            <strong>ZAL’THERA</strong>
-            <span>© <span id="year"></span></span>
+
+            <strong>
+              ZAL’THERA
+            </strong>
+
+            <span>
+              © <span id="year"></span>
+            </span>
+
           </div>
 
+
           <div class="footer-links">
-            <a href="index.html">Home</a>
+
+            <a
+              href="index.html"
+              data-i18n="global.home"
+            >
+              Home
+            </a>
+
             <span>·</span>
-            <a href="core.html">System</a>
+
+            <a
+              href="core.html"
+              data-i18n="nav.system"
+            >
+              System
+            </a>
+
             <span>·</span>
-            <a href="about.html">About</a>
+
+            <a
+              href="about.html"
+              data-i18n="nav.about"
+            >
+              About
+            </a>
+
             <span>·</span>
-            <a href="impressum.html">Impressum</a>
+
+            <a
+              href="impressum.html"
+              data-i18n="footer.imprint"
+            >
+              Impressum
+            </a>
+
             <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
+
+            <a
+              href="datenschutz.html"
+              data-i18n="footer.privacy"
+            >
+              Datenschutz
+            </a>
+
           </div>
 
         </footer>
@@ -795,7 +1199,9 @@
   </main>
 
 
-  <script src="site.js"></script>
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
 
 </body>
 </html>
+
