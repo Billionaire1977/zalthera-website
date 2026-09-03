@@ -41,18 +41,6 @@
     rel="apple-touch-icon"
     href="/assets/apple-touch-icon.png"
   />
-
-  <link
-    rel="alternate"
-    hreflang="de"
-    href="/lifeflow.html"
-  />
-
-  <link
-    rel="alternate"
-    hreflang="en"
-    href="/en/lifeflow.html"
-  />
 </head>
 
 <body>
@@ -89,6 +77,8 @@
         aria-controls="main-navigation"
         aria-expanded="false"
         data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
       >
         <span></span>
         <span></span>
@@ -100,21 +90,51 @@
         class="nav"
         aria-label="Hauptnavigation"
         data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
       >
-        <a href="core.html">System</a>
-        <a href="index.html#continuity">Continuity</a>
-        <a href="index.html#intelligence">Intelligence</a>
-        <a href="index.html#communication">Communication</a>
-        <a href="index.html#industry">Industry</a>
-        <a href="index.html#products" aria-current="page">Products</a>
-        <a href="about.html">About</a>
+
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a
+          href="index.html#products"
+          aria-current="page"
+          data-i18n="nav.products"
+        >
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
+
       </nav>
 
 
       <div class="topbar-cta">
+
         <a class="chip chip-cta" href="#offer">
           LifeFlow
         </a>
+
       </div>
 
     </div>
@@ -134,7 +154,11 @@
       data-hero
     >
 
-      <div class="zal-field" aria-hidden="true" data-zal-field>
+      <div
+        class="zal-field"
+        aria-hidden="true"
+        data-zal-field
+      >
 
         <span class="field-orbit orbit-a"></span>
         <span class="field-orbit orbit-b"></span>
@@ -155,6 +179,7 @@
 
       </div>
 
+
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-noise" aria-hidden="true"></div>
 
@@ -163,7 +188,10 @@
 
         <div class="hero-copy hero-intro">
 
-          <div class="kicker">
+          <div
+            class="kicker"
+            data-i18n="lifeflow.hero.kicker"
+          >
             PERSONAL FINANCE CLARITY
           </div>
 
@@ -171,35 +199,65 @@
             LIFEFLOW
           </div>
 
-          <h1 class="hero-title">
+          <h1
+            class="hero-title"
+            data-i18n="lifeflow.hero.title"
+            data-i18n-html
+          >
             See what comes in.<br />
             See what goes out.<br />
             Know what remains.
           </h1>
 
-          <p class="hero-lead">
+          <p
+            class="hero-lead"
+            data-i18n="lifeflow.hero.lead"
+          >
             LifeFlow macht laufende Kosten, Verträge,
             Fristen und finanzielle Verpflichtungen sichtbar –
             fokussiert, verständlich und ohne unnötige Komplexität.
           </p>
 
+
           <div class="hero-actions">
 
-            <a class="btn primary" href="#offer">
+            <a
+              class="btn primary"
+              href="#offer"
+              data-i18n="lifeflow.hero.view"
+            >
               LifeFlow ansehen
             </a>
 
-            <a class="btn ghost" href="#system">
+            <a
+              class="btn ghost"
+              href="#system"
+              data-i18n="lifeflow.hero.understand"
+            >
               System verstehen
             </a>
 
           </div>
 
+
           <div class="hero-microline">
-            <span>COSTS</span>
-            <span>CONTRACTS</span>
-            <span>DEADLINES</span>
-            <span>MONEY VIEW</span>
+
+            <span data-i18n="lifeflow.hero.costs">
+              COSTS
+            </span>
+
+            <span data-i18n="lifeflow.hero.contracts">
+              CONTRACTS
+            </span>
+
+            <span data-i18n="lifeflow.hero.deadlines">
+              DEADLINES
+            </span>
+
+            <span data-i18n="lifeflow.hero.moneyView">
+              MONEY VIEW
+            </span>
+
           </div>
 
         </div>
@@ -207,45 +265,114 @@
 
         <div class="hero-system-map glass hero-system-panel">
 
-          <div class="system-map-label">
+          <div
+            class="system-map-label"
+            data-i18n="lifeflow.state.label"
+          >
             FINANCE VIEW
           </div>
 
+
           <div class="system-map-core">
+
             <span class="system-map-dot"></span>
-            <strong>LIFEFLOW</strong>
+
+            <strong>
+              LIFEFLOW
+            </strong>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>INCOME</span>
-            <span class="state state-core">VISIBLE</span>
+
+            <span data-i18n="lifeflow.state.income">
+              INCOME
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="lifeflow.state.visible"
+            >
+              VISIBLE
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>COSTS</span>
-            <span class="state state-dev">TRACKED</span>
+
+            <span data-i18n="lifeflow.state.costs">
+              COSTS
+            </span>
+
+            <span
+              class="state state-dev"
+              data-i18n="lifeflow.state.tracked"
+            >
+              TRACKED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>CONTRACTS</span>
-            <span class="state state-system">STRUCTURED</span>
+
+            <span data-i18n="lifeflow.state.contracts">
+              CONTRACTS
+            </span>
+
+            <span
+              class="state state-system"
+              data-i18n="lifeflow.state.structured"
+            >
+              STRUCTURED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>DEADLINES</span>
-            <span class="state state-architecture">KNOWN</span>
+
+            <span data-i18n="lifeflow.state.deadlines">
+              DEADLINES
+            </span>
+
+            <span
+              class="state state-architecture"
+              data-i18n="lifeflow.state.known"
+            >
+              KNOWN
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>REMAINDER</span>
-            <span class="state state-core">CALCULATED</span>
+
+            <span data-i18n="lifeflow.state.remainder">
+              REMAINDER
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="lifeflow.state.calculated"
+            >
+              CALCULATED
+            </span>
+
           </div>
 
-          <div class="system-map-scan" aria-hidden="true"></div>
+
+          <div
+            class="system-map-scan"
+            aria-hidden="true"
+          ></div>
 
         </div>
 
       </div>
+
 
       <div class="hero-fade" aria-hidden="true"></div>
 
@@ -256,21 +383,32 @@
          PROBLEM
          ========================================================= -->
 
-    <section id="problem" class="section">
+    <section
+      id="problem"
+      class="section"
+    >
 
       <div class="container">
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow">
+          <div
+            class="eyebrow"
+            data-i18n="lifeflow.problem.eyebrow"
+          >
             FINANCIAL VISIBILITY
           </div>
 
-          <h2>
+
+          <h2 data-i18n="lifeflow.problem.title">
             Kleine Verpflichtungen werden groß, wenn sie unsichtbar bleiben.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="lifeflow.problem.lead"
+          >
             Viele laufende Kosten sind einzeln überschaubar.
             Das Problem entsteht, wenn Verträge, Fristen und
             wiederkehrende Zahlungen keinen gemeinsamen Überblick haben.
@@ -284,10 +422,17 @@
           <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
-              <strong>Kein Gesamtbild</strong>
+
+              <strong data-i18n="lifeflow.problem.overview.title">
+                Kein Gesamtbild
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.problem.overview.text"
+            >
               Einkommen und Ausgaben werden getrennt wahrgenommen,
               statt gemeinsam betrachtet.
             </p>
@@ -298,10 +443,17 @@
           <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
-              <strong>Fristen verschwinden</strong>
+
+              <strong data-i18n="lifeflow.problem.deadlines.title">
+                Fristen verschwinden
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.problem.deadlines.text"
+            >
               Vertrags- und Kündigungsdaten werden erst relevant,
               wenn es bereits zu spät ist.
             </p>
@@ -312,10 +464,17 @@
           <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
-              <strong>Restbetrag bleibt Gefühl</strong>
+
+              <strong data-i18n="lifeflow.problem.remainder.title">
+                Restbetrag bleibt Gefühl
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.problem.remainder.text"
+            >
               Ohne klare Übersicht ist schwer einzuschätzen,
               wie viel finanzieller Spielraum tatsächlich bleibt.
             </p>
@@ -339,21 +498,33 @@
       data-section="system"
     >
 
-      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-cyan"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow cyan">
+          <div
+            class="eyebrow cyan"
+            data-i18n="lifeflow.system.eyebrow"
+          >
             LIFEFLOW SYSTEM
           </div>
 
-          <h2>
+
+          <h2 data-i18n="lifeflow.system.title">
             Finanzielle Alltagsrealität an einem Ort.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="lifeflow.system.lead"
+          >
             LifeFlow konzentriert sich bewusst auf das,
             was regelmäßig sichtbar sein muss.
           </p>
@@ -369,9 +540,14 @@
               A
             </span>
 
-            <h3>Contracts</h3>
+            <h3 data-i18n="lifeflow.system.contracts.title">
+              Contracts
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.system.contracts.text"
+            >
               Laufende Verträge, Startdaten,
               Enddaten und Fristen im Blick behalten.
             </p>
@@ -385,9 +561,14 @@
               B
             </span>
 
-            <h3>Costs</h3>
+            <h3 data-i18n="lifeflow.system.costs.title">
+              Costs
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.system.costs.text"
+            >
               Wiederkehrende finanzielle Verpflichtungen
               strukturiert sichtbar machen.
             </p>
@@ -401,9 +582,14 @@
               C
             </span>
 
-            <h3>Money View</h3>
+            <h3 data-i18n="lifeflow.system.money.title">
+              Money View
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.system.money.text"
+            >
               Einkommen, Kosten, Schulden
               und verbleibenden Betrag zusammen betrachten.
             </p>
@@ -417,9 +603,14 @@
               D
             </span>
 
-            <h3>Status</h3>
+            <h3 data-i18n="lifeflow.system.status.title">
+              Status
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.system.status.text"
+            >
               Finanzielle Lage schneller
               und verständlicher einschätzen.
             </p>
@@ -443,21 +634,33 @@
 
         <div class="authorization-panel glass reveal">
 
-          <div class="authorization-symbol" aria-hidden="true">
+          <div
+            class="authorization-symbol"
+            aria-hidden="true"
+          >
             <span></span>
           </div>
 
+
           <div>
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="lifeflow.continuity.eyebrow"
+            >
               FROM LIFEFLOW TO CONTINUITY
             </div>
 
-            <h2>
+
+            <h2 data-i18n="lifeflow.continuity.title">
               LifeFlow bleibt fokussiert. CONTINUITY geht weiter.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="lifeflow.continuity.text"
+            >
               LifeFlow ist ein eigenständig nutzbares,
               fokussiertes Produkt für Kosten, Verträge und Fristen.
               CONTINUITY entwickelt daraus eine wesentlich größere
@@ -465,13 +668,21 @@
               Timeline, Herkunft und Kontext.
             </p>
 
+
             <div class="hero-actions">
 
-              <a class="btn primary" href="index.html#continuity">
+              <a
+                class="btn primary"
+                href="index.html#continuity"
+                data-i18n="lifeflow.continuity.view"
+              >
                 CONTINUITY ansehen
               </a>
 
-              <a class="btn ghost" href="core.html">
+              <a
+                class="btn ghost"
+                href="core.html"
+              >
                 ZAL’THERA Core
               </a>
 
@@ -490,9 +701,16 @@
          OFFER
          ========================================================= -->
 
-    <section id="offer" class="section section-deep">
+    <section
+      id="offer"
+      class="section section-deep"
+    >
 
-      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-gold signal-right"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
@@ -500,24 +718,34 @@
 
           <div>
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="lifeflow.offer.eyebrow"
+            >
               AVAILABLE
             </div>
+
 
             <h2>
               LifeFlow
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="lifeflow.offer.text"
+            >
               Ein fokussierter Einstieg für persönliche
               Kosten, Verträge, Fristen und Money View.
             </p>
+
 
             <div class="hero-actions">
 
               <a
                 class="btn primary"
                 href="mailto:contact@zalthera.de?subject=LifeFlow%20App%20Store%20Link"
+                data-i18n="lifeflow.offer.appStore"
               >
                 App Store Link anfragen
               </a>
@@ -531,12 +759,42 @@
 
             </div>
 
+
             <p class="fineprint" style="margin-top:18px;">
-              Es gelten die
-              <a href="agb.html">AGB</a>,
-              die <a href="widerruf.html">Widerrufsbelehrung</a>
-              und die
-              <a href="datenschutz.html">Datenschutzerklärung</a>.
+
+              <span data-i18n="lifeflow.offer.legalPrefix">
+                Es gelten die
+              </span>
+
+              <a
+                href="agb.html"
+                data-i18n="lifeflow.offer.terms"
+              >
+                AGB
+              </a>,
+
+              <span data-i18n="lifeflow.offer.legalMiddle">
+                die
+              </span>
+
+              <a
+                href="widerruf.html"
+                data-i18n="lifeflow.offer.withdrawal"
+              >
+                Widerrufsbelehrung
+              </a>
+
+              <span data-i18n="lifeflow.offer.legalAnd">
+                und die
+              </span>
+
+              <a
+                href="datenschutz.html"
+                data-i18n="home.contact.privacy"
+              >
+                Datenschutzerklärung
+              </a>.
+
             </p>
 
           </div>
@@ -545,29 +803,63 @@
           <div class="ledger-chain">
 
             <div class="ledger-event">
-              <span>MODEL</span>
-              <strong>ONE-TIME PURCHASE</strong>
+
+              <span data-i18n="lifeflow.offer.model">
+                MODEL
+              </span>
+
+              <strong data-i18n="lifeflow.offer.oneTime">
+                ONE-TIME PURCHASE
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>SUBSCRIPTION</span>
-              <strong>NONE</strong>
+
+              <span data-i18n="lifeflow.offer.subscription">
+                SUBSCRIPTION
+              </span>
+
+              <strong data-i18n="lifeflow.offer.none">
+                NONE
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>PLATFORM</span>
-              <strong>iPHONE / iOS</strong>
+
+              <span data-i18n="lifeflow.offer.platform">
+                PLATFORM
+              </span>
+
+              <strong>
+                iPHONE / iOS
+              </strong>
+
             </div>
+
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
-              <span>STATUS</span>
-              <strong>AVAILABLE</strong>
+
+              <span data-i18n="lifeflow.offer.status">
+                STATUS
+              </span>
+
+              <strong data-i18n="global.available">
+                AVAILABLE
+              </strong>
+
             </div>
 
           </div>
@@ -583,7 +875,10 @@
          FAQ
          ========================================================= -->
 
-    <section id="faq" class="section">
+    <section
+      id="faq"
+      class="section"
+    >
 
       <div class="container">
 
@@ -593,7 +888,8 @@
             FAQ
           </div>
 
-          <h2>
+
+          <h2 data-i18n="lifeflow.faq.title">
             LifeFlow kurz erklärt.
           </h2>
 
@@ -605,10 +901,17 @@
           <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
-              <strong>Ist LifeFlow ein Abo?</strong>
+
+              <strong data-i18n="lifeflow.faq.subscription.question">
+                Ist LifeFlow ein Abo?
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.faq.subscription.answer"
+            >
               Nein. LifeFlow ist als fokussiertes Produkt
               ohne laufendes Abonnement gedacht.
             </p>
@@ -619,10 +922,17 @@
           <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
-              <strong>Ist LifeFlow CONTINUITY?</strong>
+
+              <strong data-i18n="lifeflow.faq.continuity.question">
+                Ist LifeFlow CONTINUITY?
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.faq.continuity.answer"
+            >
               Nein. LifeFlow konzentriert sich auf persönliche
               Finanzübersicht. CONTINUITY ist die größere
               souveräne persönliche Systemarchitektur.
@@ -634,10 +944,17 @@
           <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
-              <strong>Welche Plattform?</strong>
+
+              <strong data-i18n="lifeflow.faq.platform.question">
+                Welche Plattform?
+              </strong>
+
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="lifeflow.faq.platform.answer"
+            >
               LifeFlow ist aktuell auf iPhone / iOS ausgerichtet.
             </p>
 
@@ -654,7 +971,10 @@
          CONTACT
          ========================================================= -->
 
-    <section id="contact" class="section section-contact">
+    <section
+      id="contact"
+      class="section section-contact"
+    >
 
       <div class="container">
 
@@ -668,11 +988,16 @@
                 LIFEFLOW
               </div>
 
-              <h2>
+
+              <h2 data-i18n="lifeflow.contact.title">
                 Fragen zu LifeFlow?
               </h2>
 
-              <p class="muted">
+
+              <p
+                class="muted"
+                data-i18n="lifeflow.contact.text"
+              >
                 Kurze Nachricht reicht.
               </p>
 
@@ -684,6 +1009,7 @@
               <a
                 class="chip chip-cta"
                 href="mailto:contact@zalthera.de?subject=LifeFlow%20Frage"
+                data-i18n="lifeflow.contact.question"
               >
                 LifeFlow Frage
               </a>
@@ -710,7 +1036,10 @@
 
               <div class="field">
 
-                <label for="name">
+                <label
+                  for="name"
+                  data-i18n="home.contact.name"
+                >
                   Name
                 </label>
 
@@ -720,6 +1049,8 @@
                   placeholder="Dein Name"
                   autocomplete="name"
                   required
+                  data-i18n="home.contact.namePlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -727,7 +1058,10 @@
 
               <div class="field">
 
-                <label for="email">
+                <label
+                  for="email"
+                  data-i18n="home.contact.email"
+                >
                   E-Mail
                 </label>
 
@@ -738,6 +1072,8 @@
                   placeholder="deine@email.de"
                   autocomplete="email"
                   required
+                  data-i18n="home.contact.emailPlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -745,7 +1081,10 @@
 
               <div class="field field-full">
 
-                <label for="message">
+                <label
+                  for="message"
+                  data-i18n="home.contact.message"
+                >
                   Nachricht
                 </label>
 
@@ -755,6 +1094,8 @@
                   rows="5"
                   placeholder="Frage zu LifeFlow …"
                   required
+                  data-i18n="lifeflow.contact.messagePlaceholder"
+                  data-i18n-attribute="placeholder"
                 ></textarea>
 
               </div>
@@ -764,15 +1105,28 @@
 
             <div class="form-footer">
 
-              <button class="btn primary" type="submit">
+              <button
+                class="btn primary"
+                type="submit"
+                data-i18n="home.contact.send"
+              >
                 Senden
               </button>
 
+
               <div class="fineprint">
-                Mit dem Absenden akzeptierst du unsere
-                <a href="datenschutz.html">
+
+                <span data-i18n="home.contact.privacyPrefix">
+                  Mit dem Absenden akzeptierst du unsere
+                </span>
+
+                <a
+                  href="datenschutz.html"
+                  data-i18n="home.contact.privacy"
+                >
                   Datenschutzerklärung
                 </a>.
+
               </div>
 
             </div>
@@ -785,22 +1139,72 @@
         <footer class="footer">
 
           <div class="footer-brand">
-            <strong>ZAL’THERA</strong>
-            <span>© <span id="year"></span></span>
+
+            <strong>
+              ZAL’THERA
+            </strong>
+
+            <span>
+              © <span id="year"></span>
+            </span>
+
           </div>
 
+
           <div class="footer-links">
-            <a href="index.html">Home</a>
+
+            <a
+              href="index.html"
+              data-i18n="global.home"
+            >
+              Home
+            </a>
+
             <span>·</span>
-            <a href="about.html">About</a>
+
+            <a
+              href="about.html"
+              data-i18n="nav.about"
+            >
+              About
+            </a>
+
             <span>·</span>
-            <a href="impressum.html">Impressum</a>
+
+            <a
+              href="impressum.html"
+              data-i18n="footer.imprint"
+            >
+              Impressum
+            </a>
+
             <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
+
+            <a
+              href="datenschutz.html"
+              data-i18n="footer.privacy"
+            >
+              Datenschutz
+            </a>
+
             <span>·</span>
-            <a href="agb.html">AGB</a>
+
+            <a
+              href="agb.html"
+              data-i18n="lifeflow.offer.terms"
+            >
+              AGB
+            </a>
+
             <span>·</span>
-            <a href="widerruf.html">Widerruf</a>
+
+            <a
+              href="widerruf.html"
+              data-i18n="lifeflow.footer.withdrawal"
+            >
+              Widerruf
+            </a>
+
           </div>
 
         </footer>
@@ -812,7 +1216,8 @@
   </main>
 
 
-  <script src="site.js"></script>
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
 
 </body>
 </html>
