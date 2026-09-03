@@ -1,6 +1,6 @@
 /* ============================================================
    ZAL’THERA WEBSITE
-   INTERNATIONALIZATION LAYER v1.0
+   INTERNATIONALIZATION LAYER v1.1
 
    Languages:
    DE / EN / TR / ES / FR / IT / RO / ZH-HANS
@@ -14,9 +14,11 @@
      CONFIGURATION
      ============================================================ */
 
-  const STORAGE_KEY = "zalthera-language";
+  const STORAGE_KEY =
+    "zalthera-language";
 
-  const DEFAULT_LANGUAGE = "de";
+  const DEFAULT_LANGUAGE =
+    "de";
 
   const SUPPORTED_LANGUAGES = [
     "de",
@@ -106,6 +108,7 @@
       "global.learnMore": "Mehr erfahren",
       "global.support": "Support",
       "global.contact": "Kontakt",
+
       "global.available": "Verfügbar",
       "global.development": "Entwicklung",
       "global.systemModule": "Systemmodul",
@@ -115,7 +118,8 @@
       "search.title": "Explore the system",
       "search.placeholder":
         "System, Produkt oder Bereich suchen …",
-      "search.quickAccess": "SCHNELLZUGRIFF",
+      "search.quickAccess":
+        "SCHNELLZUGRIFF",
       "search.noResults":
         "Kein Systembereich gefunden.",
       "search.noResultsHint":
@@ -125,8 +129,10 @@
       "search.close": "Schließen",
 
       "language.label": "Sprache",
-      "language.select": "Sprache auswählen",
-      "language.current": "Aktuelle Sprache"
+      "language.select":
+        "Sprache auswählen",
+      "language.current":
+        "Aktuelle Sprache"
 
     },
 
@@ -148,6 +154,7 @@
       "global.learnMore": "Learn more",
       "global.support": "Support",
       "global.contact": "Contact",
+
       "global.available": "Available",
       "global.development": "Development",
       "global.systemModule": "System Module",
@@ -157,7 +164,8 @@
       "search.title": "Explore the system",
       "search.placeholder":
         "Search for a system, product or area …",
-      "search.quickAccess": "QUICK ACCESS",
+      "search.quickAccess":
+        "QUICK ACCESS",
       "search.noResults":
         "No system area found.",
       "search.noResultsHint":
@@ -167,8 +175,10 @@
       "search.close": "Close",
 
       "language.label": "Language",
-      "language.select": "Select language",
-      "language.current": "Current language"
+      "language.select":
+        "Select language",
+      "language.current":
+        "Current language"
 
     },
 
@@ -187,19 +197,23 @@
       "global.open": "Aç",
       "global.close": "Kapat",
       "global.discover": "Keşfet",
-      "global.learnMore": "Daha fazla bilgi",
+      "global.learnMore":
+        "Daha fazla bilgi",
       "global.support": "Destek",
       "global.contact": "İletişim",
+
       "global.available": "Mevcut",
       "global.development": "Geliştirme",
-      "global.systemModule": "Sistem Modülü",
+      "global.systemModule":
+        "Sistem Modülü",
       "global.architecture": "Mimari",
 
       "search.label": "ZAL SEARCH",
       "search.title": "Sistemi keşfet",
       "search.placeholder":
         "Sistem, ürün veya alan ara …",
-      "search.quickAccess": "HIZLI ERİŞİM",
+      "search.quickAccess":
+        "HIZLI ERİŞİM",
       "search.noResults":
         "Sistem alanı bulunamadı.",
       "search.noResultsHint":
@@ -210,7 +224,8 @@
 
       "language.label": "Dil",
       "language.select": "Dil seç",
-      "language.current": "Mevcut dil"
+      "language.current":
+        "Mevcut dil"
 
     },
 
@@ -229,19 +244,24 @@
       "global.open": "Abrir",
       "global.close": "Cerrar",
       "global.discover": "Descubrir",
-      "global.learnMore": "Más información",
+      "global.learnMore":
+        "Más información",
       "global.support": "Soporte",
       "global.contact": "Contacto",
+
       "global.available": "Disponible",
       "global.development": "Desarrollo",
-      "global.systemModule": "Módulo del sistema",
+      "global.systemModule":
+        "Módulo del sistema",
       "global.architecture": "Arquitectura",
 
       "search.label": "ZAL SEARCH",
-      "search.title": "Explora el sistema",
+      "search.title":
+        "Explora el sistema",
       "search.placeholder":
         "Buscar sistema, producto o área …",
-      "search.quickAccess": "ACCESO RÁPIDO",
+      "search.quickAccess":
+        "ACCESO RÁPIDO",
       "search.noResults":
         "No se encontró ningún área del sistema.",
       "search.noResultsHint":
@@ -251,8 +271,10 @@
       "search.close": "Cerrar",
 
       "language.label": "Idioma",
-      "language.select": "Seleccionar idioma",
-      "language.current": "Idioma actual"
+      "language.select":
+        "Seleccionar idioma",
+      "language.current":
+        "Idioma actual"
 
     },
 
@@ -271,19 +293,26 @@
       "global.open": "Ouvrir",
       "global.close": "Fermer",
       "global.discover": "Découvrir",
-      "global.learnMore": "En savoir plus",
+      "global.learnMore":
+        "En savoir plus",
       "global.support": "Support",
       "global.contact": "Contact",
+
       "global.available": "Disponible",
-      "global.development": "Développement",
-      "global.systemModule": "Module système",
-      "global.architecture": "Architecture",
+      "global.development":
+        "Développement",
+      "global.systemModule":
+        "Module système",
+      "global.architecture":
+        "Architecture",
 
       "search.label": "ZAL SEARCH",
-      "search.title": "Explorer le système",
+      "search.title":
+        "Explorer le système",
       "search.placeholder":
         "Rechercher un système, un produit ou un domaine …",
-      "search.quickAccess": "ACCÈS RAPIDE",
+      "search.quickAccess":
+        "ACCÈS RAPIDE",
       "search.noResults":
         "Aucun domaine du système trouvé.",
       "search.noResultsHint":
@@ -293,8 +322,10 @@
       "search.close": "Fermer",
 
       "language.label": "Langue",
-      "language.select": "Choisir la langue",
-      "language.current": "Langue actuelle"
+      "language.select":
+        "Choisir la langue",
+      "language.current":
+        "Langue actuelle"
 
     },
 
@@ -313,19 +344,25 @@
       "global.open": "Apri",
       "global.close": "Chiudi",
       "global.discover": "Scopri",
-      "global.learnMore": "Scopri di più",
+      "global.learnMore":
+        "Scopri di più",
       "global.support": "Supporto",
       "global.contact": "Contatto",
+
       "global.available": "Disponibile",
       "global.development": "Sviluppo",
-      "global.systemModule": "Modulo di sistema",
-      "global.architecture": "Architettura",
+      "global.systemModule":
+        "Modulo di sistema",
+      "global.architecture":
+        "Architettura",
 
       "search.label": "ZAL SEARCH",
-      "search.title": "Esplora il sistema",
+      "search.title":
+        "Esplora il sistema",
       "search.placeholder":
         "Cerca un sistema, prodotto o area …",
-      "search.quickAccess": "ACCESSO RAPIDO",
+      "search.quickAccess":
+        "ACCESSO RAPIDO",
       "search.noResults":
         "Nessuna area del sistema trovata.",
       "search.noResultsHint":
@@ -335,8 +372,10 @@
       "search.close": "Chiudi",
 
       "language.label": "Lingua",
-      "language.select": "Seleziona lingua",
-      "language.current": "Lingua attuale"
+      "language.select":
+        "Seleziona lingua",
+      "language.current":
+        "Lingua attuale"
 
     },
 
@@ -355,19 +394,26 @@
       "global.open": "Deschide",
       "global.close": "Închide",
       "global.discover": "Descoperă",
-      "global.learnMore": "Află mai multe",
+      "global.learnMore":
+        "Află mai multe",
       "global.support": "Suport",
       "global.contact": "Contact",
+
       "global.available": "Disponibil",
-      "global.development": "Dezvoltare",
-      "global.systemModule": "Modul de sistem",
-      "global.architecture": "Arhitectură",
+      "global.development":
+        "Dezvoltare",
+      "global.systemModule":
+        "Modul de sistem",
+      "global.architecture":
+        "Arhitectură",
 
       "search.label": "ZAL SEARCH",
-      "search.title": "Explorează sistemul",
+      "search.title":
+        "Explorează sistemul",
       "search.placeholder":
         "Caută un sistem, produs sau domeniu …",
-      "search.quickAccess": "ACCES RAPID",
+      "search.quickAccess":
+        "ACCES RAPID",
       "search.noResults":
         "Nu a fost găsit niciun domeniu al sistemului.",
       "search.noResultsHint":
@@ -377,8 +423,10 @@
       "search.close": "Închide",
 
       "language.label": "Limbă",
-      "language.select": "Selectează limba",
-      "language.current": "Limba curentă"
+      "language.select":
+        "Selectează limba",
+      "language.current":
+        "Limba curentă"
 
     },
 
@@ -400,6 +448,7 @@
       "global.learnMore": "了解更多",
       "global.support": "支持",
       "global.contact": "联系",
+
       "global.available": "可用",
       "global.development": "开发中",
       "global.systemModule": "系统模块",
@@ -428,97 +477,643 @@
 
 
   /* ============================================================
+     LANGUAGE SWITCHER STYLES
+     ============================================================ */
+
+  const styleId =
+    "zal-language-styles";
+
+
+  if (
+    !document.getElementById(
+      styleId
+    )
+  ) {
+
+    const style =
+      document.createElement(
+        "style"
+      );
+
+
+    style.id =
+      styleId;
+
+
+    style.textContent = `
+
+      /* ========================================================
+         ZAL LANGUAGE — ROOT
+         ======================================================== */
+
+      .zal-language {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        flex: 0 0 auto;
+        z-index: 1002;
+      }
+
+
+      /* ========================================================
+         TRIGGER
+         ======================================================== */
+
+      .zal-language-trigger {
+        appearance: none;
+        -webkit-appearance: none;
+
+        min-width: 42px;
+        height: 40px;
+
+        padding: 0 10px;
+
+        border:
+          1px solid
+          rgba(255,255,255,.09);
+
+        border-radius: 999px;
+
+        background:
+          rgba(255,255,255,.025);
+
+        color:
+          rgba(238,242,250,.72);
+
+        display:
+          inline-flex;
+
+        align-items:
+          center;
+
+        justify-content:
+          center;
+
+        gap:
+          5px;
+
+        cursor:
+          pointer;
+
+        font:
+          inherit;
+
+        font-size:
+          10px;
+
+        font-weight:
+          650;
+
+        letter-spacing:
+          .08em;
+
+        line-height:
+          1;
+
+        white-space:
+          nowrap;
+
+        backdrop-filter:
+          blur(18px);
+
+        -webkit-backdrop-filter:
+          blur(18px);
+
+        transition:
+          border-color .2s ease,
+          background .2s ease,
+          color .2s ease,
+          transform .2s ease;
+      }
+
+
+      .zal-language-trigger:hover {
+        color:
+          rgba(255,255,255,.96);
+
+        border-color:
+          rgba(88,224,255,.24);
+
+        background:
+          rgba(88,224,255,.045);
+
+        transform:
+          translateY(-1px);
+      }
+
+
+      .zal-language-trigger:focus-visible {
+        outline:
+          2px solid
+          rgba(88,224,255,.62);
+
+        outline-offset:
+          3px;
+      }
+
+
+      .zal-language-trigger-label {
+        display:
+          inline-flex;
+
+        align-items:
+          center;
+
+        justify-content:
+          center;
+      }
+
+
+      .zal-language-trigger-chevron {
+        font-size:
+          8px;
+
+        opacity:
+          .48;
+
+        transform:
+          translateY(-1px);
+
+        transition:
+          transform .18s ease;
+      }
+
+
+      .zal-language.is-open
+      .zal-language-trigger-chevron {
+        transform:
+          translateY(-1px)
+          rotate(180deg);
+      }
+
+
+      /* ========================================================
+         MENU — ABSOLUTE OVERLAY
+         ======================================================== */
+
+      .zal-language-menu {
+        position:
+          absolute;
+
+        top:
+          calc(100% + 12px);
+
+        right:
+          0;
+
+        width:
+          190px;
+
+        padding:
+          7px;
+
+        border:
+          1px solid
+          rgba(255,255,255,.10);
+
+        border-radius:
+          16px;
+
+        background:
+          linear-gradient(
+            180deg,
+            rgba(17,23,36,.97),
+            rgba(5,8,15,.98)
+          );
+
+        box-shadow:
+          0 24px 70px
+          rgba(0,0,0,.52);
+
+        backdrop-filter:
+          blur(24px);
+
+        -webkit-backdrop-filter:
+          blur(24px);
+
+        opacity:
+          0;
+
+        visibility:
+          hidden;
+
+        pointer-events:
+          none;
+
+        transform:
+          translateY(-6px)
+          scale(.985);
+
+        transform-origin:
+          top right;
+
+        transition:
+          opacity .18s ease,
+          visibility .18s ease,
+          transform .18s ease;
+      }
+
+
+      .zal-language-menu::before {
+        content:
+          "";
+
+        position:
+          absolute;
+
+        left:
+          16px;
+
+        right:
+          16px;
+
+        top:
+          0;
+
+        height:
+          1px;
+
+        background:
+          linear-gradient(
+            90deg,
+            transparent,
+            rgba(88,224,255,.45),
+            rgba(219,177,94,.32),
+            transparent
+          );
+
+        pointer-events:
+          none;
+      }
+
+
+      .zal-language.is-open
+      .zal-language-menu {
+        opacity:
+          1;
+
+        visibility:
+          visible;
+
+        pointer-events:
+          auto;
+
+        transform:
+          translateY(0)
+          scale(1);
+      }
+
+
+      /* ========================================================
+         OPTIONS
+         ======================================================== */
+
+      .zal-language-option {
+        appearance:
+          none;
+
+        -webkit-appearance:
+          none;
+
+        width:
+          100%;
+
+        min-height:
+          38px;
+
+        margin:
+          0;
+
+        padding:
+          0 10px;
+
+        border:
+          1px solid
+          transparent;
+
+        border-radius:
+          10px;
+
+        background:
+          transparent;
+
+        color:
+          rgba(238,242,250,.66);
+
+        display:
+          grid;
+
+        grid-template-columns:
+          44px 1fr 18px;
+
+        align-items:
+          center;
+
+        gap:
+          4px;
+
+        text-align:
+          left;
+
+        cursor:
+          pointer;
+
+        font:
+          inherit;
+
+        transition:
+          background .14s ease,
+          border-color .14s ease,
+          color .14s ease;
+      }
+
+
+      .zal-language-option:hover,
+      .zal-language-option:focus-visible {
+        background:
+          rgba(88,224,255,.055);
+
+        border-color:
+          rgba(88,224,255,.09);
+
+        color:
+          rgba(255,255,255,.94);
+
+        outline:
+          none;
+      }
+
+
+      .zal-language-option.is-active {
+        background:
+          linear-gradient(
+            90deg,
+            rgba(88,224,255,.07),
+            rgba(157,136,255,.025)
+          );
+
+        border-color:
+          rgba(88,224,255,.12);
+
+        color:
+          rgba(255,255,255,.96);
+      }
+
+
+      .zal-language-option-code {
+        font-size:
+          9px;
+
+        font-weight:
+          750;
+
+        letter-spacing:
+          .11em;
+
+        color:
+          rgba(88,224,255,.74);
+      }
+
+
+      .zal-language-option-name {
+        font-size:
+          11px;
+
+        font-weight:
+          520;
+
+        white-space:
+          nowrap;
+      }
+
+
+      .zal-language-option-check {
+        opacity:
+          0;
+
+        color:
+          rgba(88,224,255,.85);
+
+        font-size:
+          11px;
+
+        text-align:
+          right;
+      }
+
+
+      .zal-language-option.is-active
+      .zal-language-option-check {
+        opacity:
+          1;
+      }
+
+
+      /* ========================================================
+         TOPBAR SAFETY
+         ======================================================== */
+
+      .topbar-cta {
+        position:
+          relative;
+
+        display:
+          flex;
+
+        align-items:
+          center;
+
+        justify-content:
+          flex-end;
+
+        gap:
+          8px;
+
+        flex:
+          0 0 auto;
+
+        white-space:
+          nowrap;
+      }
+
+
+      /* ========================================================
+         MOBILE
+         ======================================================== */
+
+      @media
+      (max-width: 820px) {
+
+        .zal-language-trigger {
+          width:
+            40px;
+
+          min-width:
+            40px;
+
+          height:
+            40px;
+
+          padding:
+            0 5px;
+
+          border-radius:
+            50%;
+        }
+
+
+        .zal-language-trigger-chevron {
+          display:
+            none;
+        }
+
+
+        .zal-language-menu {
+          position:
+            fixed;
+
+          top:
+            70px;
+
+          right:
+            12px;
+
+          width:
+            min(
+              210px,
+              calc(100vw - 24px)
+            );
+        }
+
+      }
+
+
+      /* ========================================================
+         REDUCED MOTION
+         ======================================================== */
+
+      @media
+      (prefers-reduced-motion: reduce) {
+
+        .zal-language-trigger,
+        .zal-language-menu,
+        .zal-language-option,
+        .zal-language-trigger-chevron {
+          transition:
+            none !important;
+        }
+
+      }
+
+    `;
+
+
+    document.head.appendChild(
+      style
+    );
+
+  }
+
+
+  /* ============================================================
      LANGUAGE RESOLUTION
      ============================================================ */
 
-  const normalizeLanguage = (value) => {
+  const normalizeLanguage =
+    (value) => {
 
-    if (!value) {
-      return null;
-    }
-
-    const language =
-      String(value)
-        .trim()
-        .toLowerCase();
+      if (!value) {
+        return null;
+      }
 
 
-    if (
-      language === "zh" ||
-      language === "zh-cn" ||
-      language === "zh-sg" ||
-      language === "zh-hans"
-    ) {
-      return "zh-Hans";
-    }
+      const language =
+        String(value)
+          .trim()
+          .toLowerCase();
 
 
-    const shortCode =
-      language.split("-")[0];
+      if (
+        language === "zh" ||
+        language === "zh-cn" ||
+        language === "zh-sg" ||
+        language === "zh-hans"
+      ) {
+
+        return "zh-Hans";
+
+      }
 
 
-    const match =
-      SUPPORTED_LANGUAGES.find(
-        (supportedLanguage) =>
-          supportedLanguage.toLowerCase() ===
-          shortCode
-      );
+      const shortCode =
+        language.split("-")[0];
 
 
-    return match || null;
-
-  };
-
-
-  const getStoredLanguage = () => {
-
-    try {
-
-      return normalizeLanguage(
-        window.localStorage.getItem(
-          STORAGE_KEY
-        )
-      );
-
-    } catch (error) {
-
-      return null;
-
-    }
-
-  };
-
-
-  const getBrowserLanguage = () => {
-
-    const browserLanguages =
-      navigator.languages &&
-      navigator.languages.length
-        ? navigator.languages
-        : [navigator.language];
-
-
-    for (
-      const browserLanguage
-      of browserLanguages
-    ) {
-
-      const normalized =
-        normalizeLanguage(
-          browserLanguage
+      const match =
+        SUPPORTED_LANGUAGES.find(
+          (supportedLanguage) =>
+            supportedLanguage
+              .toLowerCase() ===
+            shortCode
         );
 
 
-      if (normalized) {
-        return normalized;
+      return match || null;
+
+    };
+
+
+  const getStoredLanguage =
+    () => {
+
+      try {
+
+        return normalizeLanguage(
+          window.localStorage.getItem(
+            STORAGE_KEY
+          )
+        );
+
+      } catch (error) {
+
+        return null;
+
       }
 
-    }
+    };
 
 
-    return null;
+  const getBrowserLanguage =
+    () => {
 
-  };
+      const browserLanguages =
+        navigator.languages &&
+        navigator.languages.length
+          ? navigator.languages
+          : [navigator.language];
+
+
+      for (
+        const browserLanguage
+        of browserLanguages
+      ) {
+
+        const normalized =
+          normalizeLanguage(
+            browserLanguage
+          );
+
+
+        if (normalized) {
+          return normalized;
+        }
+
+      }
+
+
+      return null;
+
+    };
 
 
   let currentLanguage =
@@ -531,23 +1126,29 @@
      TRANSLATION HELPERS
      ============================================================ */
 
-  const translate = (
-    key,
-    language = currentLanguage
-  ) => {
+  const translate =
+    (
+      key,
+      language =
+        currentLanguage
+    ) => {
 
-    const dictionary =
-      translations[language] ||
-      translations[DEFAULT_LANGUAGE];
+      const dictionary =
+        translations[language] ||
+        translations[
+          DEFAULT_LANGUAGE
+        ];
 
 
-    return (
-      dictionary[key] ??
-      translations[DEFAULT_LANGUAGE][key] ??
-      key
-    );
+      return (
+        dictionary[key] ??
+        translations[
+          DEFAULT_LANGUAGE
+        ][key] ??
+        key
+      );
 
-  };
+    };
 
 
   const translateElement =
@@ -589,104 +1190,114 @@
       element.textContent =
         value;
 
-  };
+    };
 
 
-  const translateDocument = () => {
+  const translateDocument =
+    () => {
 
-    document
-      .querySelectorAll(
-        "[data-i18n]"
-      )
-      .forEach(
-        translateElement
+      document
+        .querySelectorAll(
+          "[data-i18n]"
+        )
+        .forEach(
+          translateElement
+        );
+
+
+      document.documentElement.lang =
+        currentLanguage ===
+        "zh-Hans"
+          ? "zh-Hans"
+          : currentLanguage;
+
+
+      document.documentElement
+        .setAttribute(
+          "data-language",
+          currentLanguage
+        );
+
+
+      updateLanguageTrigger();
+      updateLanguageOptions();
+
+
+      document.dispatchEvent(
+        new CustomEvent(
+          "zal:languagechange",
+          {
+            detail: {
+
+              language:
+                currentLanguage,
+
+              locale:
+                LANGUAGE_META[
+                  currentLanguage
+                ].locale
+
+            }
+          }
+        )
       );
 
-
-    document.documentElement.lang =
-      LANGUAGE_META[
-        currentLanguage
-      ].locale;
-
-
-    document.documentElement.setAttribute(
-      "data-language",
-      currentLanguage
-    );
-
-
-    updateLanguageTrigger();
-
-    updateLanguageOptions();
-
-
-    document.dispatchEvent(
-      new CustomEvent(
-        "zal:languagechange",
-        {
-          detail: {
-            language:
-              currentLanguage,
-            locale:
-              LANGUAGE_META[
-                currentLanguage
-              ].locale
-          }
-        }
-      )
-    );
-
-  };
+    };
 
 
   /* ============================================================
      SAVE / CHANGE LANGUAGE
      ============================================================ */
 
-  const setLanguage = (
-    language,
-    options = {}
-  ) => {
+  const setLanguage =
+    (
+      language,
+      options = {}
+    ) => {
 
-    const normalized =
-      normalizeLanguage(
-        language
-      );
-
-
-    if (!normalized) {
-      return false;
-    }
-
-
-    currentLanguage =
-      normalized;
-
-
-    if (
-      options.persist !== false
-    ) {
-
-      try {
-
-        window.localStorage.setItem(
-          STORAGE_KEY,
-          currentLanguage
+      const normalized =
+        normalizeLanguage(
+          language
         );
 
-      } catch (error) {
-        /* localStorage unavailable */
+
+      if (!normalized) {
+        return false;
       }
 
-    }
+
+      currentLanguage =
+        normalized;
 
 
-    translateDocument();
+      if (
+        options.persist !==
+        false
+      ) {
+
+        try {
+
+          window.localStorage
+            .setItem(
+              STORAGE_KEY,
+              currentLanguage
+            );
+
+        } catch (error) {
+
+          /* Storage unavailable */
+
+        }
+
+      }
 
 
-    return true;
+      translateDocument();
 
-  };
+
+      return true;
+
+    };
 
 
   /* ============================================================
@@ -730,13 +1341,6 @@
     "false"
   );
 
-  languageTrigger.setAttribute(
-    "aria-label",
-    translate(
-      "language.select"
-    )
-  );
-
 
   const languageMenu =
     document.createElement(
@@ -752,13 +1356,6 @@
     "listbox"
   );
 
-  languageMenu.setAttribute(
-    "aria-label",
-    translate(
-      "language.select"
-    )
-  );
-
 
   languageRoot.appendChild(
     languageTrigger
@@ -770,14 +1367,16 @@
 
 
   /* ============================================================
-     LANGUAGE MENU OPTIONS
+     CREATE LANGUAGE OPTIONS
      ============================================================ */
 
   SUPPORTED_LANGUAGES.forEach(
     (language) => {
 
       const meta =
-        LANGUAGE_META[language];
+        LANGUAGE_META[
+          language
+        ];
 
 
       const option =
@@ -804,11 +1403,16 @@
 
 
       option.innerHTML = `
-        <span class="zal-language-option-code">
+
+        <span
+          class="zal-language-option-code"
+        >
           ${meta.code}
         </span>
 
-        <span class="zal-language-option-name">
+        <span
+          class="zal-language-option-name"
+        >
           ${meta.label}
         </span>
 
@@ -818,6 +1422,7 @@
         >
           ✓
         </span>
+
       `;
 
 
@@ -830,6 +1435,8 @@
           );
 
           closeLanguageMenu();
+
+          languageTrigger.focus();
 
         }
       );
@@ -844,15 +1451,10 @@
 
 
   /* ============================================================
-     LANGUAGE SWITCHER STATE
+     LANGUAGE STATE
      ============================================================ */
 
   function updateLanguageTrigger() {
-
-    if (!languageTrigger) {
-      return;
-    }
-
 
     const meta =
       LANGUAGE_META[
@@ -861,6 +1463,7 @@
 
 
     languageTrigger.innerHTML = `
+
       <span
         class="zal-language-trigger-label"
       >
@@ -873,6 +1476,7 @@
       >
         ▾
       </span>
+
     `;
 
 
@@ -933,6 +1537,10 @@
   }
 
 
+  /* ============================================================
+     OPEN / CLOSE
+     ============================================================ */
+
   function openLanguageMenu() {
 
     languageRoot.classList.add(
@@ -956,9 +1564,11 @@
 
       window.setTimeout(
         () => {
+
           activeOption.focus();
+
         },
-        0
+        20
       );
 
     }
@@ -1000,10 +1610,15 @@
   }
 
 
+  /* ============================================================
+     TRIGGER
+     ============================================================ */
+
   languageTrigger.addEventListener(
     "click",
     (event) => {
 
+      event.preventDefault();
       event.stopPropagation();
 
       toggleLanguageMenu();
@@ -1013,57 +1628,88 @@
 
 
   /* ============================================================
-     INSERT SWITCHER INTO TOPBAR
+     MOUNT INTO TOPBAR
      ============================================================ */
 
-  const mountLanguageSwitcher = () => {
+  const mountLanguageSwitcher =
+    () => {
 
-    const topbarCTA =
-      document.querySelector(
-        ".topbar-cta"
-      );
-
-
-    if (!topbarCTA) {
-      return false;
-    }
+      const topbarCTA =
+        document.querySelector(
+          ".topbar-cta"
+        );
 
 
-    if (
-      topbarCTA.querySelector(
-        "[data-zal-language]"
-      )
-    ) {
-      return true;
-    }
+      if (!topbarCTA) {
+        return false;
+      }
 
 
-    const searchTrigger =
-      topbarCTA.querySelector(
-        "[data-search-trigger]"
-      );
+      const existing =
+        topbarCTA.querySelector(
+          "[data-zal-language]"
+        );
 
 
-    if (searchTrigger) {
-
-      searchTrigger.insertAdjacentElement(
-        "afterend",
+      if (
+        existing &&
+        existing !==
         languageRoot
-      );
+      ) {
 
-    } else {
+        existing.remove();
 
-      topbarCTA.insertBefore(
-        languageRoot,
-        topbarCTA.firstChild
-      );
-
-    }
+      }
 
 
-    return true;
+      if (
+        languageRoot.parentElement ===
+        topbarCTA
+      ) {
 
-  };
+        return true;
+
+      }
+
+
+      /*
+       * site.js creates the search button
+       * after zal-i18n.js loads.
+       *
+       * Therefore language is mounted
+       * before Explore. site.js later
+       * inserts Search before it.
+       *
+       * Final order:
+       *
+       * Search · Language · Explore
+       */
+
+      const exploreTrigger =
+        topbarCTA.querySelector(
+          "[data-command-open]"
+        );
+
+
+      if (exploreTrigger) {
+
+        topbarCTA.insertBefore(
+          languageRoot,
+          exploreTrigger
+        );
+
+      } else {
+
+        topbarCTA.appendChild(
+          languageRoot
+        );
+
+      }
+
+
+      return true;
+
+    };
 
 
   mountLanguageSwitcher();
@@ -1100,11 +1746,15 @@
     (event) => {
 
       if (
-        event.key === "Escape" &&
-        languageRoot.classList.contains(
-          "is-open"
-        )
+        event.key ===
+        "Escape" &&
+        languageRoot.classList
+          .contains(
+            "is-open"
+          )
       ) {
+
+        event.preventDefault();
 
         closeLanguageMenu();
 
@@ -1116,26 +1766,32 @@
 
 
       if (
-        !languageRoot.classList.contains(
-          "is-open"
-        )
+        !languageRoot.classList
+          .contains(
+            "is-open"
+          )
       ) {
+
         return;
+
       }
 
 
       const options =
         Array.from(
-          languageMenu.querySelectorAll(
-            ".zal-language-option"
-          )
+          languageMenu
+            .querySelectorAll(
+              ".zal-language-option"
+            )
         );
 
 
       if (
         options.length === 0
       ) {
+
         return;
+
       }
 
 
@@ -1146,7 +1802,8 @@
 
 
       if (
-        event.key === "ArrowDown"
+        event.key ===
+        "ArrowDown"
       ) {
 
         event.preventDefault();
@@ -1157,18 +1814,22 @@
             ? 0
             : (
               focusedIndex + 1
-            ) % options.length;
+            ) %
+            options.length;
 
 
         options[
           nextIndex
         ].focus();
 
+        return;
+
       }
 
 
       if (
-        event.key === "ArrowUp"
+        event.key ===
+        "ArrowUp"
       ) {
 
         event.preventDefault();
@@ -1184,6 +1845,36 @@
           nextIndex
         ].focus();
 
+        return;
+
+      }
+
+
+      if (
+        event.key ===
+        "Home"
+      ) {
+
+        event.preventDefault();
+
+        options[0].focus();
+
+        return;
+
+      }
+
+
+      if (
+        event.key ===
+        "End"
+      ) {
+
+        event.preventDefault();
+
+        options[
+          options.length - 1
+        ].focus();
+
       }
 
     }
@@ -1197,22 +1888,33 @@
   window.ZAL_I18N = {
 
     getLanguage() {
+
       return currentLanguage;
+
     },
 
+
     getLocale() {
+
       return LANGUAGE_META[
         currentLanguage
       ].locale;
+
     },
+
 
     setLanguage,
 
+
     translate,
 
+
     refresh() {
+
       translateDocument();
+
     },
+
 
     registerTranslations(
       language,
@@ -1229,19 +1931,24 @@
         !normalized ||
         !dictionary ||
         typeof dictionary !==
-          "object"
+        "object"
       ) {
+
         return false;
+
       }
 
 
       translations[
         normalized
       ] = {
+
         ...translations[
           normalized
         ],
+
         ...dictionary
+
       };
 
 
@@ -1266,6 +1973,8 @@
      INITIALIZE
      ============================================================ */
 
+  updateLanguageTrigger();
+  updateLanguageOptions();
   translateDocument();
 
 })();
