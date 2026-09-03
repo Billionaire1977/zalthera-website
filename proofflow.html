@@ -3,197 +3,799 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ProofFlow — Pilot</title>
-  <meta name="description" content="ProofFlow dokumentiert, was passiert ist – nachvollziehbar und belegbar. Für Piloten und reale Unternehmensprozesse." />
+
+  <title>ProofFlow — Evidence, Audit & Traceability</title>
+
+  <meta
+    name="description"
+    content="ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu nachvollziehbaren und überprüfbaren Abläufen."
+  />
+
+  <meta name="theme-color" content="#020306" />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="/" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="ProofFlow Navigation">
-        <a href="/">Home</a>
-        <a href="#problem">Problem</a>
-        <a href="#system">System</a>
-        <a href="#pilot">Pilot</a>
-        <a href="#contact">Kontakt</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
+        <a href="core.html">System</a>
+        <a href="index.html#continuity">Continuity</a>
+        <a href="index.html#intelligence">Intelligence</a>
+        <a href="index.html#communication">Communication</a>
+        <a href="index.html#industry">Industry</a>
+        <a href="index.html#products">Products</a>
+        <a href="about.html">About</a>
       </nav>
 
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#contact">Pilot anfragen</a>
+        <a class="chip chip-cta" href="#contact">
+          Pilot
+        </a>
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="hero" aria-label="ProofFlow Hero">
-      <div class="hero-bg" aria-hidden="true"
-           style="background-image:url('/assets/hero-web.png');"></div>
 
-      <div class="container hero-content">
-        <div class="hero-panel">
-          <div class="kicker">NACHWEIS · ENTSCHEIDUNG · KLARHEIT</div>
-          <div class="hero-product">ProofFlow</div>
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
 
-          <h1>Was passiert ist,<br/>ist nicht mehr diskutierbar.</h1>
+    <section
+      class="hero hero-core"
+      aria-label="ProofFlow"
+      data-hero
+    >
 
-          <p class="lead">
-            ProofFlow dokumentiert Vorfälle, Maßnahmen und Entscheidungen so,
-            dass sie später nachvollziehbar und belegbar bleiben.
+      <div class="core-field" aria-hidden="true">
+
+        <span class="core-ring core-ring-a"></span>
+        <span class="core-ring core-ring-b"></span>
+        <span class="core-ring core-ring-c"></span>
+
+        <span class="core-pulse"></span>
+
+      </div>
+
+
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+
+      <div class="container hero-content hero-content-wide">
+
+        <div class="hero-copy hero-intro">
+
+          <div class="kicker">
+            PROOF · AUDIT · TRACEABILITY
+          </div>
+
+          <div class="hero-product hero-product-large">
+            PROOFFLOW
+          </div>
+
+          <h1 class="hero-title">
+            Evidence before<br />
+            assumption.
+          </h1>
+
+          <p class="hero-lead">
+            ProofFlow verbindet Aufgaben, Nachweise, Fotos,
+            Notizen, Signaturen, Audit und Export zu einem
+            nachvollziehbaren Ablauf.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="#contact">Pilot anfragen</a>
-            <a class="btn ghost" href="#system">Mehr erfahren</a>
+
+            <a class="btn primary" href="#system">
+              System verstehen
+            </a>
+
+            <a class="btn ghost" href="#contact">
+              Pilot anfragen
+            </a>
+
           </div>
+
+          <div class="hero-microline">
+            <span>PROVENANCE</span>
+            <span>IDENTITY</span>
+            <span>AUDIT</span>
+            <span>EXPORT</span>
+          </div>
+
         </div>
+
+
+        <div class="hero-system-map glass hero-system-panel">
+
+          <div class="system-map-label">
+            PROOF FLOW
+          </div>
+
+          <div class="system-map-core">
+            <span class="system-map-dot"></span>
+            <strong>PROOFFLOW</strong>
+          </div>
+
+          <div class="system-map-row">
+            <span>JOB</span>
+            <span class="state state-core">CONTEXT</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>PROOF</span>
+            <span class="state state-dev">CAPTURE</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>SIGN</span>
+            <span class="state state-system">IDENTITY</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>AUDIT</span>
+            <span class="state state-architecture">TRACE</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>EXPORT</span>
+            <span class="state state-core">OUTPUT</span>
+          </div>
+
+          <div class="system-map-scan" aria-hidden="true"></div>
+
+        </div>
+
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
+
     </section>
+
+
+    <!-- =========================================================
+         PROBLEM
+         ========================================================= -->
 
     <section id="problem" class="section">
+
       <div class="container">
-        <h2>Das Problem</h2>
-        <p class="muted">
-          Wenn Vorfälle, Maßnahmen und Entscheidungen nicht sauber dokumentiert werden,
-          entstehen Konflikte, Unklarheit und unnötige Kosten.
-        </p>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">❓</span><strong>Keine Klarheit</strong></div>
-            <p>Was ist wirklich passiert?</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">⚠️</span><strong>Keine Absicherung</strong></div>
-            <p>Wer hat wann entschieden oder gehandelt?</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📎</span><strong>Kein Beweis</strong></div>
-            <p>Ohne Nachweis bleibt nur Diskussion.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="section-heading centered reveal">
 
-    <section id="system" class="section">
-      <div class="container">
-        <h2>Was ProofFlow macht</h2>
-        <p class="muted">
-          ProofFlow sichert reale Prozesse durch dokumentierte Nachweise,
-          Zeitpunkte, Verantwortlichkeiten und exportierbare Berichte.
-        </p>
+          <div class="eyebrow">
+            THE PROBLEM
+          </div>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🕒</span><strong>Zeitlich fixiert</strong></div>
-            <p>Nachweise bleiben an einen konkreten Zeitpunkt gebunden.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">👤</span><strong>Eindeutig zugeordnet</strong></div>
-            <p>Wer gehandelt hat und was passiert ist, bleibt sichtbar.</p>
-          </div>
-          <div class="card glass">
-            <div class="card-title"><span class="icon">📄</span><strong>Exportierbar</strong></div>
-            <p>Nachweisberichte können sauber weitergegeben werden.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <h2>
+            Erinnerung ist kein Nachweis.
+          </h2>
 
-    <section id="pilot" class="section">
-      <div class="container">
-        <div class="panel glass panel-wide">
-          <div class="eyebrow">PILOT</div>
-          <h2>ProofFlow als Pilot starten</h2>
-          <p class="muted">
-            ProofFlow ist kein Massenprodukt, sondern für reale Abläufe und Unternehmensprozesse gedacht.
-            Deshalb startet ProofFlow als Pilotprojekt.
+          <p class="section-lead">
+            Wenn Vorfälle, Maßnahmen und Entscheidungen nicht
+            strukturiert dokumentiert werden, entstehen später
+            Interpretationen statt überprüfbarer Abläufe.
           </p>
 
-          <div class="cards-3" style="margin-top:18px;">
-            <div class="card glass">
-              <div class="card-title"><strong>Analyse</strong></div>
-              <p>Ein konkreter Fall oder Prozess wird gemeinsam ausgewählt.</p>
+        </div>
+
+
+        <div class="cards-3">
+
+          <article class="card glass reveal reveal-delay-1">
+
+            <div class="card-title">
+              <strong>Unklarer Ablauf</strong>
             </div>
-            <div class="card glass">
-              <div class="card-title"><strong>Umsetzung</strong></div>
-              <p>ProofFlow wird auf den realen Ablauf angepasst.</p>
+
+            <p class="muted">
+              Was ist tatsächlich passiert und in welcher Reihenfolge?
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-2">
+
+            <div class="card-title">
+              <strong>Unklare Verantwortung</strong>
             </div>
-            <div class="card glass">
-              <div class="card-title"><strong>Ergebnis</strong></div>
-              <p>Nachvollziehbare, belegbare Prozesse statt Diskussionen.</p>
+
+            <p class="muted">
+              Wer hat wann gehandelt, bestätigt oder entschieden?
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-3">
+
+            <div class="card-title">
+              <strong>Fehlender Nachweis</strong>
             </div>
+
+            <p class="muted">
+              Ohne belegbare Informationen bleiben später
+              Aussagen gegeneinander stehen.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SYSTEM
+         ========================================================= -->
+
+    <section
+      id="system"
+      class="section section-deep"
+      data-section="system"
+    >
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div class="eyebrow cyan">
+            PROOF SYSTEM
           </div>
 
-          <div class="hero-actions" style="margin-top:18px;">
-            <a class="btn primary" href="#contact">Pilot anfragen</a>
-            <a class="btn ghost" href="mailto:contact@zalthera.de?subject=ProofFlow%20Pilot">E-Mail senden</a>
-          </div>
+          <h2>
+            Ein nachvollziehbarer Ablauf statt isolierter Dateien.
+          </h2>
+
+          <p class="section-lead">
+            ProofFlow strukturiert den Weg von einem Vorgang
+            bis zu einem überprüfbaren Ergebnis.
+          </p>
+
         </div>
+
+
+        <div class="architecture-chain">
+
+          <article class="architecture-step glass reveal reveal-delay-1">
+
+            <div class="architecture-number">
+              01
+            </div>
+
+            <h3>Job</h3>
+
+            <p>
+              Der Vorgang erhält einen klaren Kontext und Ausgangspunkt.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-2">
+
+            <div class="architecture-number">
+              02
+            </div>
+
+            <h3>Proof</h3>
+
+            <p>
+              Relevante Nachweise werden dem Vorgang zugeordnet.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-3">
+
+            <div class="architecture-number">
+              03
+            </div>
+
+            <h3>Sign</h3>
+
+            <p>
+              Bestätigung oder Signatur wird mit Identität verbunden.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-4">
+
+            <div class="architecture-number">
+              04
+            </div>
+
+            <h3>Audit</h3>
+
+            <p>
+              Relevante Zustandsänderungen bleiben nachvollziehbar.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-5">
+
+            <div class="architecture-number">
+              05
+            </div>
+
+            <h3>Export</h3>
+
+            <p>
+              Der dokumentierte Ablauf kann strukturiert ausgegeben werden.
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================================================
+         TRUST
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-heading centered reveal">
+
+          <div class="eyebrow violet">
+            PROOF & TRUST
+          </div>
+
+          <h2>
+            Ein Nachweis ist mehr als ein Foto.
+          </h2>
+
+          <p class="section-lead">
+            Entscheidend ist der Zusammenhang zwischen
+            Herkunft, Zeitpunkt, Identität und Prozess.
+          </p>
+
+        </div>
+
+
+        <div class="trust-grid">
+
+          <article class="trust-card glass reveal reveal-delay-1">
+
+            <span class="trust-index">
+              A
+            </span>
+
+            <h3>Context</h3>
+
+            <p class="muted">
+              Zu welchem Vorgang gehört der Nachweis?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-2">
+
+            <span class="trust-index">
+              B
+            </span>
+
+            <h3>Identity</h3>
+
+            <p class="muted">
+              Wer hat dokumentiert, bestätigt oder gehandelt?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-3">
+
+            <span class="trust-index">
+              C
+            </span>
+
+            <h3>Time</h3>
+
+            <p class="muted">
+              Wann entstand der relevante Zustand oder Nachweis?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass reveal reveal-delay-4">
+
+            <span class="trust-index">
+              D
+            </span>
+
+            <h3>Audit</h3>
+
+            <p class="muted">
+              Ist die Entwicklung des Vorgangs später nachvollziehbar?
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PILOT
+         ========================================================= -->
+
+    <section id="pilot" class="section section-deep">
+
+      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="ledger-layout glass reveal">
+
+          <div>
+
+            <div class="eyebrow gold">
+              PILOT
+            </div>
+
+            <h2>
+              ProofFlow wird an einem realen Prozess geprüft.
+            </h2>
+
+            <p class="muted">
+              Für einen Pilot wird ein konkreter Vorgang ausgewählt,
+              strukturiert und mit den benötigten Nachweis- und
+              Audit-Schritten abgebildet.
+            </p>
+
+            <div class="hero-actions">
+
+              <a class="btn primary" href="#contact">
+                Pilot anfragen
+              </a>
+
+              <a
+                class="btn ghost"
+                href="mailto:contact@zalthera.de?subject=ProofFlow%20Pilot"
+              >
+                E-Mail senden
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <div class="ledger-chain">
+
+            <div class="ledger-event">
+              <span>PHASE 01</span>
+              <strong>ANALYSIS</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>PHASE 02</span>
+              <strong>MODEL</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>PHASE 03</span>
+              <strong>PILOT</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>PHASE 04</span>
+              <strong>REVIEW</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CORE CONNECTION
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="core-cta glass reveal">
+
+          <div class="core-cta-orb" aria-hidden="true"></div>
+
+          <div class="core-cta-content">
+
+            <div class="eyebrow">
+              CONNECTED TO THE CORE
+            </div>
+
+            <h2>
+              Proof without context is incomplete.
+            </h2>
+
+            <p class="muted">
+              ProofFlow folgt denselben Grundprinzipien wie
+              ZAL’THERA Core: Identität, Kontext, Audit,
+              Vertrauen und kontrollierte Zustandsänderungen.
+            </p>
+
+            <a class="btn primary" href="core.html">
+              ZAL’THERA Core
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CONTACT
+         ========================================================= -->
 
     <section id="contact" class="section section-contact">
+
       <div class="container">
-        <div class="contact-wrap glass">
+
+        <div class="contact-wrap glass reveal">
+
           <div class="contact-head">
+
             <div>
-              <h2>ProofFlow Pilot anfragen</h2>
-              <p class="muted">Beschreiben Sie kurz Ihren Anwendungsfall – ich melde mich direkt zurück.</p>
+
+              <div class="eyebrow">
+                PROOFFLOW PILOT
+              </div>
+
+              <h2>
+                Pilot anfragen
+              </h2>
+
+              <p class="muted">
+                Beschreiben Sie kurz den Prozess oder Anwendungsfall,
+                der mit ProofFlow abgebildet werden soll.
+              </p>
+
             </div>
+
 
             <div class="contact-actions">
-              <a class="chip chip-cta" href="mailto:contact@zalthera.de">E-Mail</a>
+
+              <a
+                class="chip chip-cta"
+                href="mailto:contact@zalthera.de"
+              >
+                contact@zalthera.de
+              </a>
+
             </div>
+
           </div>
 
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <input type="hidden" name="subject" value="ProofFlow Pilot Anfrage" />
+
+          <form
+            class="form"
+            action="https://formspree.io/f/xbdagyrw"
+            method="POST"
+          >
+
+            <input
+              type="hidden"
+              name="subject"
+              value="ProofFlow Pilot Anfrage"
+            />
+
 
             <div class="form-grid">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Ihr Name" required />
-              </div>
 
               <div class="field">
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
+
+                <label for="name">
+                  Name
+                </label>
+
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Ihr Name"
+                  autocomplete="name"
+                  required
+                />
+
               </div>
+
+
+              <div class="field">
+
+                <label for="email">
+                  E-Mail
+                </label>
+
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="name@firma.de"
+                  autocomplete="email"
+                  required
+                />
+
+              </div>
+
 
               <div class="field field-full">
-                <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Welcher Prozess oder Fall soll mit ProofFlow abgebildet werden?" required></textarea>
+
+                <label for="message">
+                  Nachricht
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Welcher Prozess oder Fall soll mit ProofFlow abgebildet werden?"
+                  required
+                ></textarea>
+
               </div>
+
             </div>
+
 
             <div class="form-footer">
-              <button class="btn primary" type="submit">Pilot anfragen</button>
+
+              <button class="btn primary" type="submit">
+                Pilot anfragen
+              </button>
+
               <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
+                Mit dem Absenden akzeptieren Sie unsere
+                <a href="datenschutz.html">
+                  Datenschutzerklärung
+                </a>.
               </div>
+
             </div>
+
           </form>
+
         </div>
 
+
         <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
+
+          <div class="footer-brand">
+            <strong>ZAL’THERA</strong>
+            <span>© <span id="year"></span></span>
+          </div>
+
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <span>·</span>
+            <a href="core.html">System</a>
+            <span>·</span>
+            <a href="about.html">About</a>
+            <span>·</span>
+            <a href="impressum.html">Impressum</a>
+            <span>·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+
         </footer>
+
       </div>
+
     </section>
+
   </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+
+  <script src="site.js"></script>
+
 </body>
 </html>
