@@ -11,6 +11,8 @@
     content="ZAL’THERA Core ist die gemeinsame Vertrauens- und Kontrollarchitektur hinter dem ZAL’THERA Ökosystem: Identity, Context, Policy, Consent, Audit, Ledger, Trust und kontrollierte Ausführung."
   />
 
+  <meta name="theme-color" content="#020306" />
+
   <link rel="stylesheet" href="styles.css" />
 
   <link
@@ -28,11 +30,18 @@
 
 <body>
 
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
   <!-- =========================================================
        HEADER
        ========================================================= -->
 
-  <header class="topbar">
+  <header class="topbar" data-topbar>
 
     <div class="container topbar-inner">
 
@@ -45,7 +54,26 @@
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
         <a href="core.html" aria-current="page">System</a>
         <a href="index.html#continuity">Continuity</a>
         <a href="index.html#intelligence">Intelligence</a>
@@ -54,6 +82,7 @@
         <a href="index.html#products">Products</a>
         <a href="about.html">About</a>
       </nav>
+
 
       <div class="topbar-cta">
         <a class="chip chip-cta" href="#architecture">
@@ -72,7 +101,11 @@
          HERO
          ========================================================= -->
 
-    <section class="hero hero-core" aria-label="ZAL’THERA Core">
+    <section
+      class="hero hero-core"
+      aria-label="ZAL’THERA Core"
+      data-hero
+    >
 
       <div class="core-field" aria-hidden="true">
 
@@ -84,12 +117,14 @@
 
       </div>
 
+
       <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
 
 
       <div class="container hero-content hero-content-wide">
 
-        <div class="hero-copy">
+        <div class="hero-copy hero-intro">
 
           <div class="kicker">
             SYSTEM FOUNDATION
@@ -100,20 +135,21 @@
           </div>
 
           <h1 class="hero-title">
-            Trust should not be assumed.<br />
+            Trust should not<br />
+            be assumed.<br />
             It should be constructed.
           </h1>
 
           <p class="hero-lead">
-            ZAL’THERA Core verbindet Identität, Regeln, Kontext,
+            ZAL’THERA Core verbindet Identität, Kontext, Regeln,
             Zustimmung, Nachweis und kontrollierte Ausführung zu
-            einer gemeinsamen Systemarchitektur.
+            einer gemeinsamen Vertrauensarchitektur.
           </p>
 
           <div class="hero-actions">
 
             <a class="btn primary" href="#architecture">
-              Architektur
+              Architektur öffnen
             </a>
 
             <a class="btn ghost" href="#ledger">
@@ -122,10 +158,17 @@
 
           </div>
 
+          <div class="hero-microline">
+            <span>IDENTITY-BOUND</span>
+            <span>POLICY-GOVERNED</span>
+            <span>AUDITABLE</span>
+            <span>HUMAN-AUTHORIZED</span>
+          </div>
+
         </div>
 
 
-        <div class="core-status glass">
+        <div class="core-status glass hero-system-panel">
 
           <div class="system-map-label">
             CORE PRINCIPLES
@@ -161,8 +204,15 @@
             <strong>ACT</strong>
           </div>
 
+          <div class="system-map-scan" aria-hidden="true"></div>
+
         </div>
 
+      </div>
+
+      <div class="scroll-marker" aria-hidden="true">
+        <span>CORE</span>
+        <i></i>
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
@@ -174,11 +224,15 @@
          PUBLIC ARCHITECTURE
          ========================================================= -->
 
-    <section id="architecture" class="section">
+    <section
+      id="architecture"
+      class="section"
+      data-section="architecture"
+    >
 
       <div class="container">
 
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
 
           <div class="eyebrow">
             PUBLIC ARCHITECTURE
@@ -190,8 +244,8 @@
 
           <p class="section-lead">
             Die öffentliche Architektur erklärt die Grundlogik von
-            ZAL’THERA, ohne interne Sicherheitsimplementierungen oder
-            private Protokolldetails offenzulegen.
+            ZAL’THERA, ohne interne Sicherheitsimplementierungen,
+            private Schlüsselstrukturen oder Protokolldetails offenzulegen.
           </p>
 
         </div>
@@ -199,7 +253,7 @@
 
         <div class="architecture-chain">
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-1">
 
             <div class="architecture-number">
               01
@@ -215,10 +269,10 @@
           </article>
 
 
-          <div class="architecture-connector"></div>
+          <div class="architecture-connector" aria-hidden="true"></div>
 
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-2">
 
             <div class="architecture-number">
               02
@@ -234,10 +288,10 @@
           </article>
 
 
-          <div class="architecture-connector"></div>
+          <div class="architecture-connector" aria-hidden="true"></div>
 
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-3">
 
             <div class="architecture-number">
               03
@@ -253,10 +307,10 @@
           </article>
 
 
-          <div class="architecture-connector"></div>
+          <div class="architecture-connector" aria-hidden="true"></div>
 
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-4">
 
             <div class="architecture-number">
               04
@@ -266,16 +320,16 @@
 
             <p>
               Berechtigungen, Nachweise, Consent und Audit bestimmen,
-              was tatsächlich als vertrauenswürdig gelten darf.
+              was als vertrauenswürdig gelten darf.
             </p>
 
           </article>
 
 
-          <div class="architecture-connector"></div>
+          <div class="architecture-connector" aria-hidden="true"></div>
 
 
-          <article class="architecture-step glass">
+          <article class="architecture-step glass reveal reveal-delay-5">
 
             <div class="architecture-number">
               05
@@ -285,10 +339,29 @@
 
             <p>
               Konsequente Aktionen werden erst ausgeführt,
-              wenn die notwendigen Bedingungen erfüllt sind.
+              wenn die erforderlichen Bedingungen erfüllt sind.
             </p>
 
           </article>
+
+        </div>
+
+
+        <div class="principle-callout glass reveal">
+
+          <div>
+            <span class="principle-label">
+              SYSTEM PRINCIPLE
+            </span>
+
+            <h3>
+              Understand first. Prepare second. Act only with permission.
+            </h3>
+          </div>
+
+          <a class="btn soft" href="#technical-core">
+            Technical Core
+          </a>
 
         </div>
 
@@ -301,11 +374,17 @@
          TECHNICAL CORE
          ========================================================= -->
 
-    <section class="section section-deep">
+    <section
+      id="technical-core"
+      class="section section-deep"
+      data-section="technical-core"
+    >
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
 
       <div class="container">
 
-        <div class="section-heading">
+        <div class="section-heading reveal">
 
           <div class="eyebrow cyan">
             TECHNICAL CORE
@@ -325,7 +404,7 @@
 
         <div class="core-grid">
 
-          <article class="core-card glass">
+          <article class="core-card glass reveal reveal-delay-1">
 
             <div class="core-card-index">
               01
@@ -345,7 +424,7 @@
           </article>
 
 
-          <article class="core-card glass">
+          <article class="core-card glass reveal reveal-delay-2">
 
             <div class="core-card-index">
               02
@@ -365,7 +444,7 @@
           </article>
 
 
-          <article class="core-card glass">
+          <article class="core-card glass reveal reveal-delay-3">
 
             <div class="core-card-index">
               03
@@ -385,7 +464,7 @@
           </article>
 
 
-          <article class="core-card glass">
+          <article class="core-card glass reveal reveal-delay-4">
 
             <div class="core-card-index">
               04
@@ -394,7 +473,7 @@
             <h3>Execute</h3>
 
             <p class="muted">
-              Eine Aktion darf den sichtbaren Zustand erst ändern,
+              Eine Aktion darf den sichtbaren Zustand erst verändern,
               wenn die notwendigen Bedingungen erfüllt sind.
             </p>
 
@@ -415,11 +494,17 @@
          LEDGER
          ========================================================= -->
 
-    <section id="ledger" class="section">
+    <section
+      id="ledger"
+      class="section"
+      data-section="ledger"
+    >
+
+      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
 
       <div class="container">
 
-        <div class="ledger-layout glass">
+        <div class="ledger-layout glass reveal">
 
           <div class="ledger-copy">
 
@@ -432,15 +517,15 @@
             </h2>
 
             <p class="muted">
-              THE LEDGER hält wichtige Ereignisse in nachvollziehbarer
-              Reihenfolge fest. Einträge werden hinzugefügt,
-              miteinander verbunden und können später geprüft werden.
+              THE LEDGER hält relevante Ereignisse in nachvollziehbarer
+              Reihenfolge fest. Einträge werden ergänzt, miteinander
+              verbunden und können später geprüft werden.
             </p>
 
             <p class="muted">
-              Das Ziel ist nicht, jede Information zentral zu sammeln.
+              Das Ziel ist nicht, sämtliche Information zentral zu sammeln.
               Das Ziel ist, relevante Zustandsänderungen nachvollziehbar
-              beweisbar zu machen.
+              und überprüfbar zu machen.
             </p>
 
           </div>
@@ -481,7 +566,7 @@
 
         <div class="cards-3 core-principles">
 
-          <div class="card glass">
+          <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
               <strong>Append-only</strong>
@@ -492,10 +577,10 @@
               nicht unbemerkt überschrieben.
             </p>
 
-          </div>
+          </article>
 
 
-          <div class="card glass">
+          <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
               <strong>Linked</strong>
@@ -506,10 +591,10 @@
               Beziehung zueinander.
             </p>
 
-          </div>
+          </article>
 
 
-          <div class="card glass">
+          <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
               <strong>Verifiable</strong>
@@ -520,7 +605,7 @@
               geprüft werden.
             </p>
 
-          </div>
+          </article>
 
         </div>
 
@@ -533,11 +618,17 @@
          TRUST
          ========================================================= -->
 
-    <section id="trust" class="section section-deep">
+    <section
+      id="trust"
+      class="section section-deep"
+      data-section="trust"
+    >
+
+      <div class="section-signal signal-violet" aria-hidden="true"></div>
 
       <div class="container">
 
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
 
           <div class="eyebrow violet">
             TRUST LAYER
@@ -557,7 +648,7 @@
 
         <div class="trust-grid">
 
-          <article class="trust-card glass">
+          <article class="trust-card glass reveal reveal-delay-1">
 
             <span class="trust-index">
               A
@@ -573,7 +664,7 @@
           </article>
 
 
-          <article class="trust-card glass">
+          <article class="trust-card glass reveal reveal-delay-2">
 
             <span class="trust-index">
               B
@@ -589,7 +680,7 @@
           </article>
 
 
-          <article class="trust-card glass">
+          <article class="trust-card glass reveal reveal-delay-3">
 
             <span class="trust-index">
               C
@@ -605,7 +696,7 @@
           </article>
 
 
-          <article class="trust-card glass">
+          <article class="trust-card glass reveal reveal-delay-4">
 
             <span class="trust-index">
               D
@@ -635,7 +726,7 @@
 
       <div class="container">
 
-        <div class="authorization-panel glass">
+        <div class="authorization-panel glass reveal">
 
           <div class="authorization-symbol" aria-hidden="true">
             <span></span>
@@ -653,8 +744,8 @@
             </h2>
 
             <p class="muted">
-              ZAL’THERA kann Informationen verstehen, vorbereiten
-              und Handlungsmöglichkeiten darstellen.
+              ZAL’THERA kann Informationen verstehen, strukturieren,
+              erklären und Handlungsmöglichkeiten vorbereiten.
               Konsequente Aktionen bleiben jedoch an die erforderliche
               menschliche oder ausdrücklich delegierte Autorisierung gebunden.
             </p>
@@ -669,14 +760,14 @@
 
 
     <!-- =========================================================
-         SYSTEM USE
+         SYSTEM APPLICATION
          ========================================================= -->
 
     <section class="section">
 
       <div class="container">
 
-        <div class="section-heading">
+        <div class="section-heading reveal">
 
           <div class="eyebrow">
             SYSTEM APPLICATION
@@ -692,23 +783,27 @@
         <div class="system-use-grid">
 
           <a
-            class="system-use-card glass"
+            class="system-use-card glass reveal reveal-delay-1"
             href="index.html#continuity"
           >
             <span>PERSONAL</span>
+
             <strong>CONTINUITY</strong>
+
             <small>
-              Dokumente · Finance · Context · Cards
+              Documents · Finance · Context · Cards
             </small>
           </a>
 
 
           <a
-            class="system-use-card glass"
+            class="system-use-card glass reveal reveal-delay-2"
             href="proofflow.html"
           >
             <span>PROOF</span>
+
             <strong>ProofFlow</strong>
+
             <small>
               Evidence · Audit · Signature · Export
             </small>
@@ -716,11 +811,13 @@
 
 
           <a
-            class="system-use-card glass"
+            class="system-use-card glass reveal reveal-delay-3"
             href="index.html#communication"
           >
             <span>COMMUNICATION</span>
+
             <strong>VoiceBridge</strong>
+
             <small>
               Identity · Consent · Voice · Trust
             </small>
@@ -728,11 +825,13 @@
 
 
           <a
-            class="system-use-card glass"
+            class="system-use-card glass reveal reveal-delay-4"
             href="shiftlog.html"
           >
             <span>INDUSTRY</span>
+
             <strong>ShiftLog</strong>
+
             <small>
               Handover · State · Responsibility
             </small>
@@ -746,16 +845,17 @@
 
 
     <!-- =========================================================
-         FOOTER
+         RETURN
          ========================================================= -->
 
     <section class="section section-contact">
 
       <div class="container">
 
-        <div class="core-return glass">
+        <div class="core-return glass reveal">
 
           <div>
+
             <div class="eyebrow">
               ZAL’THERA
             </div>
@@ -764,6 +864,7 @@
               The core is not the product.<br />
               It is what connects the products.
             </h2>
+
           </div>
 
           <a class="btn primary" href="index.html">
@@ -801,10 +902,7 @@
   </main>
 
 
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
+  <script src="site.js"></script>
 
 </body>
 </html>
