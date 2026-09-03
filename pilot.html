@@ -3,210 +3,735 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pilotprojekte — ZAL’THERA</title>
-  <meta name="description" content="Pilotprojekte mit ZAL’THERA: Nachweis, Übergabe, Audit, Schutz und strukturierte Abläufe für reale Prozesse." />
+
+  <title>ZAL’THERA Pilot — Real Systems. Controlled Entry.</title>
+
+  <meta
+    name="description"
+    content="ZAL’THERA Pilot ermöglicht die kontrollierte Erprobung ausgewählter Systeme in realen Prozessen: Proof, Industry, Trust und strukturierte Abläufe."
+  />
+
+  <meta name="theme-color" content="#020306" />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="index.html">Home</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+      >
         <a href="core.html">System</a>
-        <a href="lifeflow.html">LifeFlow</a>
-        <a href="proofflow.html">ProofFlow</a>
-        <a href="shiftlog.html">ShiftLog</a>
-        <a href="support.html">Support</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+        <a href="index.html#continuity">Continuity</a>
+        <a href="index.html#intelligence">Intelligence</a>
+        <a href="index.html#communication">Communication</a>
+        <a href="index.html#industry">Industry</a>
+        <a href="index.html#products">Products</a>
+        <a href="about.html">About</a>
       </nav>
 
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#contact">Pilot anfragen</a>
+        <a class="chip chip-cta" href="#contact">
+          Pilot
+        </a>
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="hero" aria-label="Pilotprojekte Hero">
-      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
-      <div class="container hero-content">
-        <div class="hero-panel glass">
-          <div class="kicker">PILOTPROJEKTE</div>
-          <div class="hero-product">ZAL’THERA PILOT</div>
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
 
-          <h1>Reale Prozesse testen.<br />Klarheit schaffen.<br />Nachweise sichern.</h1>
+    <section
+      class="hero hero-zal"
+      aria-label="ZAL’THERA Pilot"
+      data-hero
+    >
 
-          <p class="lead">
-            ZAL’THERA Pilotprojekte zeigen, wie Nachweis, Übergabe, Audit und Schutz
-            in echten Abläufen eingesetzt werden können.
-          </p>
+      <div class="zal-field" aria-hidden="true" data-zal-field>
 
-          <p class="lead">
-            Fokus: einfache Einführung, sichtbarer Nutzen, klare Verantwortlichkeit.
+        <span class="field-orbit orbit-a"></span>
+        <span class="field-orbit orbit-b"></span>
+        <span class="field-orbit orbit-c"></span>
+        <span class="field-orbit orbit-d"></span>
+
+        <span class="field-thread thread-a"></span>
+        <span class="field-thread thread-b"></span>
+        <span class="field-thread thread-c"></span>
+
+        <span class="field-node node-1"></span>
+        <span class="field-node node-2"></span>
+        <span class="field-node node-3"></span>
+        <span class="field-node node-4"></span>
+        <span class="field-node node-5"></span>
+        <span class="field-node node-6"></span>
+
+        <span class="field-core"></span>
+
+      </div>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+
+      <div class="container hero-content hero-content-wide">
+
+        <div class="hero-copy hero-intro">
+
+          <div class="kicker">
+            CONTROLLED REAL-WORLD ENTRY
+          </div>
+
+          <div class="hero-product hero-product-large">
+            ZAL’THERA PILOT
+          </div>
+
+          <h1 class="hero-title">
+            Start small.<br />
+            Test reality.<br />
+            Prove value.
+          </h1>
+
+          <p class="hero-lead">
+            Ein ZAL’THERA Pilot überträgt einen klar abgegrenzten
+            realen Prozess in ein überprüfbares System,
+            ohne den bestehenden Betrieb sofort vollständig zu ersetzen.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="#contact">Pilot anfragen</a>
-            <a class="btn ghost" href="core.html">Systemkern ansehen</a>
+
+            <a class="btn primary" href="#process">
+              Pilot verstehen
+            </a>
+
+            <a class="btn ghost" href="#contact">
+              Pilot anfragen
+            </a>
+
           </div>
+
+          <div class="hero-microline">
+            <span>SCOPED</span>
+            <span>CONTROLLED</span>
+            <span>MEASURABLE</span>
+            <span>REVIEWABLE</span>
+          </div>
+
         </div>
+
+
+        <div class="hero-system-map glass hero-system-panel">
+
+          <div class="system-map-label">
+            PILOT STATE
+          </div>
+
+          <div class="system-map-core">
+            <span class="system-map-dot"></span>
+            <strong>REAL PROCESS</strong>
+          </div>
+
+          <div class="system-map-row">
+            <span>SCOPE</span>
+            <span class="state state-core">DEFINED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>MODEL</span>
+            <span class="state state-dev">PREPARED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>TEST</span>
+            <span class="state state-system">CONTROLLED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>RESULT</span>
+            <span class="state state-architecture">MEASURED</span>
+          </div>
+
+          <div class="system-map-row">
+            <span>DECISION</span>
+            <span class="state state-core">REVIEWED</span>
+          </div>
+
+          <div class="system-map-scan" aria-hidden="true"></div>
+
+        </div>
+
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
+
     </section>
+
+
+    <!-- =========================================================
+         WHEN
+         ========================================================= -->
 
     <section id="focus" class="section">
+
       <div class="container">
-        <h2>Wofür ein Pilot geeignet ist</h2>
-        <p class="muted">
-          Ein Pilot ist sinnvoll, wenn ein konkreter Ablauf heute unklar, papierbasiert,
-          schwer nachvollziehbar oder nicht sauber übergeben wird.
-        </p>
+
+        <div class="section-heading centered reveal">
+
+          <div class="eyebrow">
+            WHEN A PILOT MAKES SENSE
+          </div>
+
+          <h2>
+            Nicht das ganze Unternehmen muss sich ändern.
+          </h2>
+
+          <p class="section-lead">
+            Ein Pilot beginnt dort, wo ein konkreter Ablauf
+            heute unklar, papierbasiert, schwer nachvollziehbar
+            oder unnötig abhängig von einzelnen Personen ist.
+          </p>
+
+        </div>
+
 
         <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🧾</span><strong>Nachweis</strong></div>
-            <p>Aufgaben, Prüfungen oder Ereignisse sollen belegbar werden.</p>
-          </div>
 
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🔄</span><strong>Übergabe</strong></div>
-            <p>Informationen dürfen nicht zwischen Personen oder Schichten verloren gehen.</p>
-          </div>
+          <article class="card glass reveal reveal-delay-1">
 
-          <div class="card glass">
-            <div class="card-title"><span class="icon">🛡️</span><strong>Schutz</strong></div>
-            <p>Bestimmte Aktionen sollen nur mit klaren Bedingungen möglich sein.</p>
-          </div>
+            <div class="card-title">
+              <strong>Proof</strong>
+            </div>
+
+            <p class="muted">
+              Ein Vorgang soll später nachvollziehbar
+              und belegbar bleiben.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-2">
+
+            <div class="card-title">
+              <strong>Handover</strong>
+            </div>
+
+            <p class="muted">
+              Information darf nicht zwischen
+              Personen, Rollen oder Schichten verloren gehen.
+            </p>
+
+          </article>
+
+
+          <article class="card glass reveal reveal-delay-3">
+
+            <div class="card-title">
+              <strong>Control</strong>
+            </div>
+
+            <p class="muted">
+              Zustände, Verantwortlichkeiten oder Aktionen
+              brauchen klarere Bedingungen.
+            </p>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section id="process" class="section">
+
+    <!-- =========================================================
+         PROCESS
+         ========================================================= -->
+
+    <section
+      id="process"
+      class="section section-deep"
+      data-section="process"
+    >
+
+      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+
       <div class="container">
-        <div class="panel glass panel-wide">
-          <div class="eyebrow">ABLAUF</div>
-          <h2>Wie ein Pilot abläuft</h2>
 
-          <div class="cards-3" style="margin-top:18px;">
-            <div class="card glass">
-              <div class="card-title"><strong>1. Prozess wählen</strong></div>
-              <p class="muted">Ein konkreter Ablauf wird festgelegt: Aufgabe, Übergabe, Nachweis oder Kontrolle.</p>
-            </div>
+        <div class="section-heading reveal">
 
-            <div class="card glass">
-              <div class="card-title"><strong>2. Einfach testen</strong></div>
-              <p class="muted">Das System wird klein eingesetzt, ohne den bestehenden Betrieb sofort zu ersetzen.</p>
-            </div>
-
-            <div class="card glass">
-              <div class="card-title"><strong>3. Nutzen prüfen</strong></div>
-              <p class="muted">Am Ende steht die Frage: Wird der Ablauf klarer, sicherer und nachvollziehbarer?</p>
-            </div>
+          <div class="eyebrow cyan">
+            PILOT PROCESS
           </div>
+
+          <h2>
+            Vom realen Problem zur überprüfbaren Entscheidung.
+          </h2>
+
+          <p class="section-lead">
+            Der Pilot bleibt bewusst begrenzt.
+            Erst wenn der Nutzen sichtbar ist,
+            wird über den nächsten Schritt entschieden.
+          </p>
+
         </div>
+
+
+        <div class="architecture-chain">
+
+          <article class="architecture-step glass reveal reveal-delay-1">
+
+            <div class="architecture-number">
+              01
+            </div>
+
+            <h3>Scope</h3>
+
+            <p>
+              Ein konkreter Prozess,
+              Bereich oder Anwendungsfall wird abgegrenzt.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-2">
+
+            <div class="architecture-number">
+              02
+            </div>
+
+            <h3>Understand</h3>
+
+            <p>
+              Der bestehende Ablauf und seine
+              relevanten Zustände werden verstanden.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-3">
+
+            <div class="architecture-number">
+              03
+            </div>
+
+            <h3>Model</h3>
+
+            <p>
+              Das benötigte ZAL’THERA-System wird
+              auf den Prozess zugeschnitten.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-4">
+
+            <div class="architecture-number">
+              04
+            </div>
+
+            <h3>Pilot</h3>
+
+            <p>
+              Das System wird begrenzt
+              im realen Ablauf eingesetzt.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector" aria-hidden="true"></div>
+
+
+          <article class="architecture-step glass reveal reveal-delay-5">
+
+            <div class="architecture-number">
+              05
+            </div>
+
+            <h3>Review</h3>
+
+            <p>
+              Nutzen, Grenzen und nächster Schritt
+              werden gemeinsam bewertet.
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================================================
+         SYSTEMS
+         ========================================================= -->
 
     <section id="modules" class="section">
+
       <div class="container">
-        <h2>Mögliche Pilotbereiche</h2>
 
-        <div class="offer-grid">
-          <div class="offer glass">
-            <div class="badge">Proof</div>
-            <h3>EasyProof / ProofFlow</h3>
-            <p class="muted">Nachweise, Jobs, Fotos, Signaturen, Audit und Export.</p>
-            <a class="btn soft" href="proofflow.html">Mehr erfahren</a>
+        <div class="section-heading reveal">
+
+          <div class="eyebrow gold">
+            PILOT ENTRY POINTS
           </div>
 
-          <div class="offer glass">
-            <div class="badge">Industrie</div>
-            <h3>ShiftLog</h3>
-            <p class="muted">Schichtübergaben, offene Punkte und Verantwortlichkeiten.</p>
-            <a class="btn soft" href="shiftlog.html">Mehr erfahren</a>
-          </div>
-
-          <div class="offer glass">
-            <div class="badge">Core</div>
-            <h3>Ledger / Trust</h3>
-            <p class="muted">Signierte Ereignisse, Audit-Chain und spätere Vertrauensauswertung.</p>
-            <a class="btn soft" href="core.html">Mehr erfahren</a>
-          </div>
+          <h2>
+            Unterschiedliche Probleme. Gemeinsamer Systemkern.
+          </h2>
         </div>
+
+
+        <div class="system-use-grid">
+
+          <a
+            class="system-use-card glass reveal reveal-delay-1"
+            href="proofflow.html"
+          >
+            <span>PROOF</span>
+
+            <strong>ProofFlow</strong>
+
+            <small>
+              Evidence · Audit · Signature · Export
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass reveal reveal-delay-2"
+            href="shiftlog.html"
+          >
+            <span>INDUSTRY</span>
+
+            <strong>ShiftLog</strong>
+
+            <small>
+              Handover · State · Responsibility
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass reveal reveal-delay-3"
+            href="core.html#ledger"
+          >
+            <span>TRUST</span>
+
+            <strong>Ledger</strong>
+
+            <small>
+              Events · Traceability · Verification
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass reveal reveal-delay-4"
+            href="index.html#industry"
+          >
+            <span>ARCHITECTURE</span>
+
+            <strong>Industry</strong>
+
+            <small>
+              Process · Data · Sensors · Future Integration
+            </small>
+          </a>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="contact" class="section section-contact">
-      <div class="container">
-        <div class="contact-wrap glass">
-          <div class="contact-head">
-            <div>
-              <h2>Pilotprojekt anfragen</h2>
-              <p class="muted">Beschreiben Sie kurz den Ablauf, der klarer oder nachweisbarer werden soll.</p>
-            </div>
 
-            <div class="contact-actions">
-              <a class="chip chip-cta" href="mailto:contact@zalthera.de?subject=ZALTHERA%20Pilotprojekt">E-Mail</a>
-              <a class="chip" href="support.html">Support</a>
-            </div>
+    <!-- =========================================================
+         PRINCIPLE
+         ========================================================= -->
+
+    <section class="section section-deep">
+
+      <div class="container">
+
+        <div class="authorization-panel glass reveal">
+
+          <div class="authorization-symbol" aria-hidden="true">
+            <span></span>
           </div>
 
-          <form class="form" action="https://formspree.io/f/xbdagyrw" method="POST">
-            <input type="hidden" name="subject" value="ZAL’THERA Pilotprojekt Anfrage" />
+          <div>
 
-            <div class="form-grid">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" placeholder="Ihr Name" required />
-              </div>
-
-              <div class="field">
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="name@firma.de" required />
-              </div>
-
-              <div class="field field-full">
-                <label for="message">Nachricht</label>
-                <textarea id="message" name="message" rows="5" placeholder="Welcher Prozess soll als Pilot getestet werden?" required></textarea>
-              </div>
+            <div class="eyebrow gold">
+              CONTROLLED ENTRY
             </div>
 
-            <div class="form-footer">
-              <button class="btn primary" type="submit">Anfrage senden</button>
-              <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere <a href="datenschutz.html">Datenschutzerklärung</a>.
-              </div>
-            </div>
-          </form>
+            <h2>
+              A pilot should reduce uncertainty, not create dependency.
+            </h2>
+
+            <p class="muted">
+              Der Pilot dient nicht dazu, einen bestehenden
+              Prozess blind zu ersetzen. Er soll zeigen,
+              ob ein klar definiertes Systemproblem tatsächlich
+              besser gelöst werden kann.
+            </p>
+
+            <a class="btn primary" href="#contact">
+              Pilot anfragen
+            </a>
+
+          </div>
+
         </div>
 
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CONTACT
+         ========================================================= -->
+
+    <section id="contact" class="section section-contact">
+
+      <div class="container">
+
+        <div class="contact-wrap glass reveal">
+
+          <div class="contact-head">
+
+            <div>
+
+              <div class="eyebrow">
+                ZAL’THERA PILOT
+              </div>
+
+              <h2>
+                Pilotprojekt anfragen
+              </h2>
+
+              <p class="muted">
+                Beschreiben Sie kurz den Prozess,
+                der klarer, nachvollziehbarer oder strukturierter werden soll.
+              </p>
+
+            </div>
+
+
+            <div class="contact-actions">
+
+              <a
+                class="chip chip-cta"
+                href="mailto:contact@zalthera.de?subject=ZALTHERA%20Pilotprojekt"
+              >
+                contact@zalthera.de
+              </a>
+
+              <a class="chip" href="support.html">
+                Support
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <form
+            class="form"
+            action="https://formspree.io/f/xbdagyrw"
+            method="POST"
+          >
+
+            <input
+              type="hidden"
+              name="subject"
+              value="ZAL’THERA Pilotprojekt Anfrage"
+            />
+
+
+            <div class="form-grid">
+
+              <div class="field">
+
+                <label for="name">
+                  Name
+                </label>
+
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Ihr Name"
+                  autocomplete="name"
+                  required
+                />
+
+              </div>
+
+
+              <div class="field">
+
+                <label for="email">
+                  E-Mail
+                </label>
+
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="name@firma.de"
+                  autocomplete="email"
+                  required
+                />
+
+              </div>
+
+
+              <div class="field field-full">
+
+                <label for="message">
+                  Nachricht
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Welcher Prozess soll als Pilot getestet werden?"
+                  required
+                ></textarea>
+
+              </div>
+
+            </div>
+
+
+            <div class="form-footer">
+
+              <button class="btn primary" type="submit">
+                Anfrage senden
+              </button>
+
+              <div class="fineprint">
+                Mit dem Absenden akzeptieren Sie unsere
+                <a href="datenschutz.html">
+                  Datenschutzerklärung
+                </a>.
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+
         <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
+
+          <div class="footer-brand">
+            <strong>ZAL’THERA</strong>
+            <span>© <span id="year"></span></span>
+          </div>
+
           <div class="footer-links">
+            <a href="index.html">Home</a>
+            <span>·</span>
+            <a href="core.html">System</a>
+            <span>·</span>
+            <a href="about.html">About</a>
+            <span>·</span>
             <a href="support.html">Support</a>
             <span>·</span>
             <a href="impressum.html">Impressum</a>
             <span>·</span>
             <a href="datenschutz.html">Datenschutz</a>
           </div>
+
         </footer>
+
       </div>
+
     </section>
+
   </main>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+
+  <script src="site.js"></script>
+
 </body>
 </html>
