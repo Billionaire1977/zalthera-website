@@ -36,6 +36,32 @@
       .replace(/[\u2019']/g, "")
       .trim();
 
+  /* LOAD SEARCH CSS
+     The HTML pages do not all link zal-search.css directly,
+     so the interaction layer loads it once, just like the original working version. */
+  const ensureSearchStylesheet = () => {
+    if (
+      document.querySelector('link[data-zal-search-styles]') ||
+      [...document.styleSheets].some((sheet) => {
+        try {
+          return String(sheet.href || "").includes("zal-search.css");
+        } catch (_) {
+          return false;
+        }
+      })
+    ) {
+      return;
+    }
+
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "zal-search.css?v=2.2";
+    link.dataset.zalSearchStyles = "true";
+    document.head.appendChild(link);
+  };
+
+  ensureSearchStylesheet();
+
   const reducedMotion =
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
