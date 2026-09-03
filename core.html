@@ -62,6 +62,8 @@
         aria-controls="main-navigation"
         aria-expanded="false"
         data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
       >
         <span></span>
         <span></span>
@@ -73,21 +75,70 @@
         class="nav"
         aria-label="Hauptnavigation"
         data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
       >
-        <a href="core.html" aria-current="page">System</a>
-        <a href="index.html#continuity">Continuity</a>
-        <a href="index.html#intelligence">Intelligence</a>
-        <a href="index.html#communication">Communication</a>
-        <a href="index.html#industry">Industry</a>
-        <a href="index.html#products">Products</a>
-        <a href="about.html">About</a>
+        <a
+          href="core.html"
+          aria-current="page"
+          data-i18n="nav.system"
+        >
+          System
+        </a>
+
+        <a
+          href="index.html#continuity"
+          data-i18n="nav.continuity"
+        >
+          CONTINUITY
+        </a>
+
+        <a
+          href="index.html#intelligence"
+          data-i18n="nav.intelligence"
+        >
+          Intelligence
+        </a>
+
+        <a
+          href="index.html#communication"
+          data-i18n="nav.communication"
+        >
+          Communication
+        </a>
+
+        <a
+          href="index.html#industry"
+          data-i18n="nav.industry"
+        >
+          Industry
+        </a>
+
+        <a
+          href="index.html#products"
+          data-i18n="nav.products"
+        >
+          Products
+        </a>
+
+        <a
+          href="about.html"
+          data-i18n="nav.about"
+        >
+          About
+        </a>
       </nav>
 
 
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#architecture">
+
+        <a
+          class="chip chip-cta"
+          href="#architecture"
+        >
           Core
         </a>
+
       </div>
 
     </div>
@@ -126,7 +177,10 @@
 
         <div class="hero-copy hero-intro">
 
-          <div class="kicker">
+          <div
+            class="kicker"
+            data-i18n="core.hero.kicker"
+          >
             SYSTEM FOUNDATION
           </div>
 
@@ -134,35 +188,64 @@
             ZAL’THERA CORE
           </div>
 
-          <h1 class="hero-title">
+          <h1
+            class="hero-title"
+            data-i18n="core.hero.title"
+            data-i18n-html
+          >
             Trust should not<br />
             be assumed.<br />
             It should be constructed.
           </h1>
 
-          <p class="hero-lead">
+          <p
+            class="hero-lead"
+            data-i18n="core.hero.description"
+          >
             ZAL’THERA Core verbindet Identität, Kontext, Regeln,
             Zustimmung, Nachweis und kontrollierte Ausführung zu
             einer gemeinsamen Vertrauensarchitektur.
           </p>
 
+
           <div class="hero-actions">
 
-            <a class="btn primary" href="#architecture">
+            <a
+              class="btn primary"
+              href="#architecture"
+              data-i18n="core.hero.architecture"
+            >
               Architektur öffnen
             </a>
 
-            <a class="btn ghost" href="#ledger">
+            <a
+              class="btn ghost"
+              href="#ledger"
+            >
               THE LEDGER
             </a>
 
           </div>
 
+
           <div class="hero-microline">
-            <span>IDENTITY-BOUND</span>
-            <span>POLICY-GOVERNED</span>
-            <span>AUDITABLE</span>
-            <span>HUMAN-AUTHORIZED</span>
+
+            <span data-i18n="core.hero.identityBound">
+              IDENTITY-BOUND
+            </span>
+
+            <span data-i18n="core.hero.policyGoverned">
+              POLICY-GOVERNED
+            </span>
+
+            <span data-i18n="core.hero.auditable">
+              AUDITABLE
+            </span>
+
+            <span data-i18n="core.hero.humanAuthorized">
+              HUMAN-AUTHORIZED
+            </span>
+
           </div>
 
         </div>
@@ -170,52 +253,115 @@
 
         <div class="core-status glass hero-system-panel">
 
-          <div class="system-map-label">
+          <div
+            class="system-map-label"
+            data-i18n="core.status.label"
+          >
             CORE PRINCIPLES
           </div>
 
-          <div class="core-status-item">
-            <span>IDENTITY</span>
-            <strong>WHO</strong>
-          </div>
 
           <div class="core-status-item">
-            <span>CONTEXT</span>
-            <strong>WHY</strong>
+
+            <span data-i18n="core.status.identity">
+              IDENTITY
+            </span>
+
+            <strong data-i18n="core.status.who">
+              WHO
+            </strong>
+
           </div>
+
 
           <div class="core-status-item">
-            <span>POLICY</span>
-            <strong>WHAT</strong>
+
+            <span data-i18n="core.status.context">
+              CONTEXT
+            </span>
+
+            <strong data-i18n="core.status.why">
+              WHY
+            </strong>
+
           </div>
+
 
           <div class="core-status-item">
-            <span>CONSENT</span>
-            <strong>ALLOW</strong>
+
+            <span data-i18n="core.status.policy">
+              POLICY
+            </span>
+
+            <strong data-i18n="core.status.what">
+              WHAT
+            </strong>
+
           </div>
+
 
           <div class="core-status-item">
-            <span>AUDIT</span>
-            <strong>PROVE</strong>
+
+            <span data-i18n="core.status.consent">
+              CONSENT
+            </span>
+
+            <strong data-i18n="core.status.allow">
+              ALLOW
+            </strong>
+
           </div>
+
 
           <div class="core-status-item">
-            <span>EXECUTION</span>
-            <strong>ACT</strong>
+
+            <span data-i18n="core.status.audit">
+              AUDIT
+            </span>
+
+            <strong data-i18n="core.status.prove">
+              PROVE
+            </strong>
+
           </div>
 
-          <div class="system-map-scan" aria-hidden="true"></div>
+
+          <div class="core-status-item">
+
+            <span data-i18n="core.status.execution">
+              EXECUTION
+            </span>
+
+            <strong data-i18n="core.status.act">
+              ACT
+            </strong>
+
+          </div>
+
+
+          <div
+            class="system-map-scan"
+            aria-hidden="true"
+          ></div>
 
         </div>
 
       </div>
 
-      <div class="scroll-marker" aria-hidden="true">
+
+      <div
+        class="scroll-marker"
+        aria-hidden="true"
+      >
         <span>CORE</span>
         <i></i>
       </div>
 
-      <div class="hero-fade" aria-hidden="true"></div>
+
+      <div
+        class="hero-fade"
+        aria-hidden="true"
+      ></div>
 
     </section>
 
@@ -234,15 +380,21 @@
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow">
+          <div
+            class="eyebrow"
+            data-i18n="core.architecture.eyebrow"
+          >
             PUBLIC ARCHITECTURE
           </div>
 
-          <h2>
+          <h2 data-i18n="core.architecture.title">
             Fünf Ebenen. Eine nachvollziehbare Entscheidungskette.
           </h2>
 
-          <p class="section-lead">
+          <p
+            class="section-lead"
+            data-i18n="core.architecture.lead"
+          >
             Die öffentliche Architektur erklärt die Grundlogik von
             ZAL’THERA, ohne interne Sicherheitsimplementierungen,
             private Schlüsselstrukturen oder Protokolldetails offenzulegen.
@@ -253,15 +405,19 @@
 
         <div class="architecture-chain">
 
-          <article class="architecture-step glass reveal reveal-delay-1">
+          <article
+            class="architecture-step glass reveal reveal-delay-1"
+          >
 
             <div class="architecture-number">
               01
             </div>
 
-            <h3>Identity</h3>
+            <h3 data-i18n="core.architecture.identity.title">
+              Identity
+            </h3>
 
-            <p>
+            <p data-i18n="core.architecture.identity.text">
               Eine Handlung beginnt mit einer eindeutig zugeordneten
               Identität, Rolle oder autorisierten Systeminstanz.
             </p>
@@ -269,18 +425,25 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
-          <article class="architecture-step glass reveal reveal-delay-2">
+          <article
+            class="architecture-step glass reveal reveal-delay-2"
+          >
 
             <div class="architecture-number">
               02
             </div>
 
-            <h3>Context</h3>
+            <h3 data-i18n="core.architecture.context.title">
+              Context
+            </h3>
 
-            <p>
+            <p data-i18n="core.architecture.context.text">
               Informationen werden nicht isoliert betrachtet,
               sondern mit Herkunft, Zeit und Beziehung verstanden.
             </p>
@@ -288,18 +451,25 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
-          <article class="architecture-step glass reveal reveal-delay-3">
+          <article
+            class="architecture-step glass reveal reveal-delay-3"
+          >
 
             <div class="architecture-number">
               03
             </div>
 
-            <h3>Intelligence</h3>
+            <h3 data-i18n="core.architecture.intelligence.title">
+              Intelligence
+            </h3>
 
-            <p>
+            <p data-i18n="core.architecture.intelligence.text">
               Systeme dürfen Informationen strukturieren,
               erklären und mögliche nächste Schritte vorbereiten.
             </p>
@@ -307,18 +477,25 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
-          <article class="architecture-step glass reveal reveal-delay-4">
+          <article
+            class="architecture-step glass reveal reveal-delay-4"
+          >
 
             <div class="architecture-number">
               04
             </div>
 
-            <h3>Trust</h3>
+            <h3 data-i18n="core.architecture.trust.title">
+              Trust
+            </h3>
 
-            <p>
+            <p data-i18n="core.architecture.trust.text">
               Berechtigungen, Nachweise, Consent und Audit bestimmen,
               was als vertrauenswürdig gelten darf.
             </p>
@@ -326,18 +503,25 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
-          <article class="architecture-step glass reveal reveal-delay-5">
+          <article
+            class="architecture-step glass reveal reveal-delay-5"
+          >
 
             <div class="architecture-number">
               05
             </div>
 
-            <h3>Action</h3>
+            <h3 data-i18n="core.architecture.action.title">
+              Action
+            </h3>
 
-            <p>
+            <p data-i18n="core.architecture.action.text">
               Konsequente Aktionen werden erst ausgeführt,
               wenn die erforderlichen Bedingungen erfüllt sind.
             </p>
@@ -350,16 +534,26 @@
         <div class="principle-callout glass reveal">
 
           <div>
-            <span class="principle-label">
+
+            <span
+              class="principle-label"
+              data-i18n="core.architecture.principle"
+            >
               SYSTEM PRINCIPLE
             </span>
 
-            <h3>
+            <h3 data-i18n="core.architecture.principleText">
               Understand first. Prepare second. Act only with permission.
             </h3>
+
           </div>
 
-          <a class="btn soft" href="#technical-core">
+
+          <a
+            class="btn soft"
+            href="#technical-core"
+            data-i18n="core.architecture.technicalCore"
+          >
             Technical Core
           </a>
 
@@ -380,13 +574,20 @@
       data-section="technical-core"
     >
 
-      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-cyan"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow cyan">
+          <div
+            class="eyebrow cyan"
+            data-i18n="core.technical.eyebrow"
+          >
             TECHNICAL CORE
           </div>
 
@@ -394,7 +595,10 @@
             Policy → Identity → Audit → Execute
           </h2>
 
-          <p class="section-lead">
+          <p
+            class="section-lead"
+            data-i18n="core.technical.lead"
+          >
             Unterhalb der öffentlichen Architektur arbeitet eine
             präzisere Kontrollkette für nachvollziehbare Systemaktionen.
           </p>
@@ -404,80 +608,120 @@
 
         <div class="core-grid">
 
-          <article class="core-card glass reveal reveal-delay-1">
+          <article
+            class="core-card glass reveal reveal-delay-1"
+          >
 
             <div class="core-card-index">
               01
             </div>
 
-            <h3>Policy</h3>
+            <h3 data-i18n="core.technical.policy.title">
+              Policy
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.technical.policy.text"
+            >
               Regeln definieren Grenzen, Zustände,
               Berechtigungen und Bedingungen.
             </p>
 
-            <div class="core-card-footer">
+            <div
+              class="core-card-footer"
+              data-i18n="core.technical.policy.question"
+            >
               WHAT IS ALLOWED?
             </div>
 
           </article>
 
 
-          <article class="core-card glass reveal reveal-delay-2">
+          <article
+            class="core-card glass reveal reveal-delay-2"
+          >
 
             <div class="core-card-index">
               02
             </div>
 
-            <h3>Identity</h3>
+            <h3 data-i18n="core.technical.identity.title">
+              Identity
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.technical.identity.text"
+            >
               Aktionen werden einer Person, Rolle,
               Identität oder autorisierten Instanz zugeordnet.
             </p>
 
-            <div class="core-card-footer">
+            <div
+              class="core-card-footer"
+              data-i18n="core.technical.identity.question"
+            >
               WHO ACTS?
             </div>
 
           </article>
 
 
-          <article class="core-card glass reveal reveal-delay-3">
+          <article
+            class="core-card glass reveal reveal-delay-3"
+          >
 
             <div class="core-card-index">
               03
             </div>
 
-            <h3>Audit</h3>
+            <h3 data-i18n="core.technical.audit.title">
+              Audit
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.technical.audit.text"
+            >
               Relevante Ereignisse werden mit Herkunft,
               Zeitpunkt und Zustand nachvollziehbar dokumentiert.
             </p>
 
-            <div class="core-card-footer">
+            <div
+              class="core-card-footer"
+              data-i18n="core.technical.audit.question"
+            >
               WHAT HAPPENED?
             </div>
 
           </article>
 
 
-          <article class="core-card glass reveal reveal-delay-4">
+          <article
+            class="core-card glass reveal reveal-delay-4"
+          >
 
             <div class="core-card-index">
               04
             </div>
 
-            <h3>Execute</h3>
+            <h3 data-i18n="core.technical.execute.title">
+              Execute
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.technical.execute.text"
+            >
               Eine Aktion darf den sichtbaren Zustand erst verändern,
               wenn die notwendigen Bedingungen erfüllt sind.
             </p>
 
-            <div class="core-card-footer">
+            <div
+              class="core-card-footer"
+              data-i18n="core.technical.execute.question"
+            >
               MAY IT HAPPEN?
             </div>
 
@@ -500,7 +744,11 @@
       data-section="ledger"
     >
 
-      <div class="section-signal signal-gold signal-right" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-gold signal-right"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
@@ -508,21 +756,30 @@
 
           <div class="ledger-copy">
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="core.ledger.eyebrow"
+            >
               THE LEDGER
             </div>
 
-            <h2>
+            <h2 data-i18n="core.ledger.title">
               Ein lokaler Wahrheitskern für überprüfbare Ereignisse.
             </h2>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.ledger.text1"
+            >
               THE LEDGER hält relevante Ereignisse in nachvollziehbarer
               Reihenfolge fest. Einträge werden ergänzt, miteinander
               verbunden und können später geprüft werden.
             </p>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.ledger.text2"
+            >
               Das Ziel ist nicht, sämtliche Information zentral zu sammeln.
               Das Ziel ist, relevante Zustandsänderungen nachvollziehbar
               und überprüfbar zu machen.
@@ -531,32 +788,50 @@
           </div>
 
 
-          <div class="ledger-chain" aria-label="Ledger Event Chain">
+          <div
+            class="ledger-chain"
+            aria-label="Ledger Event Chain"
+          >
 
             <div class="ledger-event">
               <span>EVENT 001</span>
-              <strong>CREATED</strong>
+
+              <strong data-i18n="core.ledger.created">
+                CREATED
+              </strong>
             </div>
 
             <div class="ledger-link"></div>
+
 
             <div class="ledger-event">
               <span>EVENT 002</span>
-              <strong>PROOF</strong>
+
+              <strong data-i18n="core.ledger.proof">
+                PROOF
+              </strong>
             </div>
 
             <div class="ledger-link"></div>
+
 
             <div class="ledger-event">
               <span>EVENT 003</span>
-              <strong>SIGNED</strong>
+
+              <strong data-i18n="core.ledger.signed">
+                SIGNED
+              </strong>
             </div>
 
             <div class="ledger-link"></div>
 
+
             <div class="ledger-event">
               <span>EVENT 004</span>
-              <strong>VERIFIED</strong>
+
+              <strong data-i18n="core.ledger.verified">
+                VERIFIED
+              </strong>
             </div>
 
           </div>
@@ -566,13 +841,20 @@
 
         <div class="cards-3 core-principles">
 
-          <article class="card glass reveal reveal-delay-1">
+          <article
+            class="card glass reveal reveal-delay-1"
+          >
 
             <div class="card-title">
-              <strong>Append-only</strong>
+              <strong data-i18n="core.ledger.appendOnly.title">
+                Append-only
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.ledger.appendOnly.text"
+            >
               Relevante Ereignisse werden ergänzt,
               nicht unbemerkt überschrieben.
             </p>
@@ -580,13 +862,20 @@
           </article>
 
 
-          <article class="card glass reveal reveal-delay-2">
+          <article
+            class="card glass reveal reveal-delay-2"
+          >
 
             <div class="card-title">
-              <strong>Linked</strong>
+              <strong data-i18n="core.ledger.linked.title">
+                Linked
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.ledger.linked.text"
+            >
               Ereignisse erhalten eine nachvollziehbare
               Beziehung zueinander.
             </p>
@@ -594,13 +883,20 @@
           </article>
 
 
-          <article class="card glass reveal reveal-delay-3">
+          <article
+            class="card glass reveal reveal-delay-3"
+          >
 
             <div class="card-title">
-              <strong>Verifiable</strong>
+              <strong data-i18n="core.ledger.verifiable.title">
+                Verifiable
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.ledger.verifiable.text"
+            >
               Struktur, Integrität und Herkunft können
               geprüft werden.
             </p>
@@ -624,21 +920,31 @@
       data-section="trust"
     >
 
-      <div class="section-signal signal-violet" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-violet"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow violet">
+          <div
+            class="eyebrow violet"
+            data-i18n="core.trust.eyebrow"
+          >
             TRUST LAYER
           </div>
 
-          <h2>
+          <h2 data-i18n="core.trust.title">
             Vertrauen wird nicht behauptet.
           </h2>
 
-          <p class="section-lead">
+          <p
+            class="section-lead"
+            data-i18n="core.trust.lead"
+          >
             Es entsteht aus überprüfbaren Zuständen,
             Identitäten, Berechtigungen und Nachweisen.
           </p>
@@ -648,15 +954,22 @@
 
         <div class="trust-grid">
 
-          <article class="trust-card glass reveal reveal-delay-1">
+          <article
+            class="trust-card glass reveal reveal-delay-1"
+          >
 
             <span class="trust-index">
               A
             </span>
 
-            <h3>Proof Trust</h3>
+            <h3 data-i18n="core.trust.proof.title">
+              Proof Trust
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.trust.proof.text"
+            >
               Existiert ein gültiger Nachweis für
               die behauptete Aktion?
             </p>
@@ -664,15 +977,22 @@
           </article>
 
 
-          <article class="trust-card glass reveal reveal-delay-2">
+          <article
+            class="trust-card glass reveal reveal-delay-2"
+          >
 
             <span class="trust-index">
               B
             </span>
 
-            <h3>Policy Trust</h3>
+            <h3 data-i18n="core.trust.policy.title">
+              Policy Trust
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.trust.policy.text"
+            >
               Wurde innerhalb der vorgesehenen
               Regeln gehandelt?
             </p>
@@ -680,15 +1000,22 @@
           </article>
 
 
-          <article class="trust-card glass reveal reveal-delay-3">
+          <article
+            class="trust-card glass reveal reveal-delay-3"
+          >
 
             <span class="trust-index">
               C
             </span>
 
-            <h3>Identity Trust</h3>
+            <h3 data-i18n="core.trust.identity.title">
+              Identity Trust
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.trust.identity.text"
+            >
               Ist die handelnde Identität
               eindeutig und autorisiert?
             </p>
@@ -696,15 +1023,22 @@
           </article>
 
 
-          <article class="trust-card glass reveal reveal-delay-4">
+          <article
+            class="trust-card glass reveal reveal-delay-4"
+          >
 
             <span class="trust-index">
               D
             </span>
 
-            <h3>Audit Trust</h3>
+            <h3 data-i18n="core.trust.audit.title">
+              Audit Trust
+            </h3>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.trust.audit.text"
+            >
               Ist der Ablauf vollständig genug,
               um später nachvollzogen zu werden?
             </p>
@@ -728,22 +1062,35 @@
 
         <div class="authorization-panel glass reveal">
 
-          <div class="authorization-symbol" aria-hidden="true">
+          <div
+            class="authorization-symbol"
+            aria-hidden="true"
+          >
             <span></span>
           </div>
 
+
           <div>
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="core.authorization.eyebrow"
+            >
               HUMAN AUTHORIZATION GATE
             </div>
 
-            <h2>
+            <h2
+              data-i18n="core.authorization.title"
+              data-i18n-html
+            >
               Intelligence may prepare.<br />
               Authority remains explicit.
             </h2>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="core.authorization.text"
+            >
               ZAL’THERA kann Informationen verstehen, strukturieren,
               erklären und Handlungsmöglichkeiten vorbereiten.
               Konsequente Aktionen bleiben jedoch an die erforderliche
@@ -769,11 +1116,14 @@
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow">
+          <div
+            class="eyebrow"
+            data-i18n="core.application.eyebrow"
+          >
             SYSTEM APPLICATION
           </div>
 
-          <h2>
+          <h2 data-i18n="core.application.title">
             Ein Kern. Mehrere Anwendungswelten.
           </h2>
 
@@ -786,13 +1136,19 @@
             class="system-use-card glass reveal reveal-delay-1"
             href="index.html#continuity"
           >
-            <span>PERSONAL</span>
 
-            <strong>CONTINUITY</strong>
+            <span data-i18n="core.application.personal">
+              PERSONAL
+            </span>
 
-            <small>
+            <strong>
+              CONTINUITY
+            </strong>
+
+            <small data-i18n="core.application.continuity">
               Documents · Finance · Context · Cards
             </small>
+
           </a>
 
 
@@ -800,13 +1156,19 @@
             class="system-use-card glass reveal reveal-delay-2"
             href="proofflow.html"
           >
-            <span>PROOF</span>
 
-            <strong>ProofFlow</strong>
+            <span data-i18n="core.application.proof">
+              PROOF
+            </span>
 
-            <small>
+            <strong>
+              ProofFlow
+            </strong>
+
+            <small data-i18n="core.application.proofflow">
               Evidence · Audit · Signature · Export
             </small>
+
           </a>
 
 
@@ -814,13 +1176,19 @@
             class="system-use-card glass reveal reveal-delay-3"
             href="index.html#communication"
           >
-            <span>COMMUNICATION</span>
 
-            <strong>VoiceBridge</strong>
+            <span data-i18n="core.application.communication">
+              COMMUNICATION
+            </span>
 
-            <small>
+            <strong>
+              VoiceBridge
+            </strong>
+
+            <small data-i18n="core.application.voicebridge">
               Identity · Consent · Voice · Trust
             </small>
+
           </a>
 
 
@@ -828,13 +1196,19 @@
             class="system-use-card glass reveal reveal-delay-4"
             href="shiftlog.html"
           >
-            <span>INDUSTRY</span>
 
-            <strong>ShiftLog</strong>
+            <span data-i18n="core.application.industry">
+              INDUSTRY
+            </span>
 
-            <small>
+            <strong>
+              ShiftLog
+            </strong>
+
+            <small data-i18n="core.application.shiftlog">
               Handover · State · Responsibility
             </small>
+
           </a>
 
         </div>
@@ -860,14 +1234,22 @@
               ZAL’THERA
             </div>
 
-            <h2>
+            <h2
+              data-i18n="core.return.title"
+              data-i18n-html
+            >
               The core is not the product.<br />
               It is what connects the products.
             </h2>
 
           </div>
 
-          <a class="btn primary" href="index.html">
+
+          <a
+            class="btn primary"
+            href="index.html"
+            data-i18n="core.return.button"
+          >
             Zurück zum System
           </a>
 
@@ -881,16 +1263,52 @@
             <span>© <span id="year"></span></span>
           </div>
 
+
           <div class="footer-links">
-            <a href="index.html">Home</a>
+
+            <a
+              href="index.html"
+              data-i18n="global.home"
+            >
+              Home
+            </a>
+
             <span>·</span>
-            <a href="about.html">About</a>
+
+            <a
+              href="about.html"
+              data-i18n="nav.about"
+            >
+              About
+            </a>
+
             <span>·</span>
-            <a href="support.html">Support</a>
+
+            <a
+              href="support.html"
+              data-i18n="global.support"
+            >
+              Support
+            </a>
+
             <span>·</span>
-            <a href="impressum.html">Impressum</a>
+
+            <a
+              href="impressum.html"
+              data-i18n="footer.imprint"
+            >
+              Impressum
+            </a>
+
             <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
+
+            <a
+              href="datenschutz.html"
+              data-i18n="footer.privacy"
+            >
+              Datenschutz
+            </a>
+
           </div>
 
         </footer>
@@ -902,7 +1320,12 @@
   </main>
 
 
-  <script src="site.js"></script>
+  <!-- =========================================================
+       LANGUAGE + SITE INTERACTION
+       ========================================================= -->
+
+  <script src="zal-i18n.js?v=1.3"></script>
+  <script src="site.js?v=2.2"></script>
 
 </body>
 </html>
