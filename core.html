@@ -3,207 +3,808 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA Systemkern — Policy, Identity, Audit, Ledger</title>
-  <meta name="description" content="Der ZAL’THERA Systemkern verbindet Policy, Identity, Audit, Execute, Ledger und Trust zu einem nachvollziehbaren digitalen System." />
+
+  <title>ZAL’THERA Core — Identity, Policy, Trust, Audit & Execution</title>
+
+  <meta
+    name="description"
+    content="ZAL’THERA Core ist die gemeinsame Vertrauens- und Kontrollarchitektur hinter dem ZAL’THERA Ökosystem: Identity, Context, Policy, Consent, Audit, Ledger, Trust und kontrollierte Ausführung."
+  />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
   <header class="topbar">
+
     <div class="container topbar-inner">
-      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
       <nav class="nav" aria-label="Hauptnavigation">
-        <a href="index.html">Home</a>
-        <a href="core.html">System</a>
-        <a href="lifeflow.html">LifeFlow</a>
-        <a href="proofflow.html">ProofFlow</a>
-        <a href="shiftlog.html">ShiftLog</a>
-        <a href="support.html">Support</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+        <a href="core.html" aria-current="page">System</a>
+        <a href="index.html#continuity">Continuity</a>
+        <a href="index.html#intelligence">Intelligence</a>
+        <a href="index.html#communication">Communication</a>
+        <a href="index.html#industry">Industry</a>
+        <a href="index.html#products">Products</a>
+        <a href="about.html">About</a>
       </nav>
 
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="mailto:contact@zalthera.de">Kontakt</a>
+        <a class="chip chip-cta" href="#architecture">
+          Core
+        </a>
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="hero" aria-label="ZAL’THERA Systemkern">
-      <div class="hero-bg" aria-hidden="true" style="background-image:url('/assets/hero-web.png');"></div>
 
-      <div class="container hero-content">
-        <div class="hero-panel glass">
-          <div class="kicker">SYSTEMKERN</div>
-          <div class="hero-product">ZAL’THERA CORE</div>
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
 
-          <h1>Ein Kern für Regeln,<br />Nachweise und Vertrauen.</h1>
+    <section class="hero hero-core" aria-label="ZAL’THERA Core">
 
-          <p class="lead">
-            Der ZAL’THERA Systemkern verbindet Policy, Identity, Audit, Execute,
-            Ledger und Trust zu einer nachvollziehbaren Architektur.
-          </p>
+      <div class="core-field" aria-hidden="true">
 
-          <p class="lead">
-            Jede App bleibt einfach nutzbar – aber der gemeinsame Kern macht Aktionen erklärbar und überprüfbar.
+        <span class="core-ring core-ring-a"></span>
+        <span class="core-ring core-ring-b"></span>
+        <span class="core-ring core-ring-c"></span>
+
+        <span class="core-pulse"></span>
+
+      </div>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+
+
+      <div class="container hero-content hero-content-wide">
+
+        <div class="hero-copy">
+
+          <div class="kicker">
+            SYSTEM FOUNDATION
+          </div>
+
+          <div class="hero-product hero-product-large">
+            ZAL’THERA CORE
+          </div>
+
+          <h1 class="hero-title">
+            Trust should not be assumed.<br />
+            It should be constructed.
+          </h1>
+
+          <p class="hero-lead">
+            ZAL’THERA Core verbindet Identität, Regeln, Kontext,
+            Zustimmung, Nachweis und kontrollierte Ausführung zu
+            einer gemeinsamen Systemarchitektur.
           </p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="#chain">Kontrollkette</a>
-            <a class="btn ghost" href="#ledger">THE LEDGER</a>
+
+            <a class="btn primary" href="#architecture">
+              Architektur
+            </a>
+
+            <a class="btn ghost" href="#ledger">
+              THE LEDGER
+            </a>
+
           </div>
+
         </div>
+
+
+        <div class="core-status glass">
+
+          <div class="system-map-label">
+            CORE PRINCIPLES
+          </div>
+
+          <div class="core-status-item">
+            <span>IDENTITY</span>
+            <strong>WHO</strong>
+          </div>
+
+          <div class="core-status-item">
+            <span>CONTEXT</span>
+            <strong>WHY</strong>
+          </div>
+
+          <div class="core-status-item">
+            <span>POLICY</span>
+            <strong>WHAT</strong>
+          </div>
+
+          <div class="core-status-item">
+            <span>CONSENT</span>
+            <strong>ALLOW</strong>
+          </div>
+
+          <div class="core-status-item">
+            <span>AUDIT</span>
+            <strong>PROVE</strong>
+          </div>
+
+          <div class="core-status-item">
+            <span>EXECUTION</span>
+            <strong>ACT</strong>
+          </div>
+
+        </div>
+
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
+
     </section>
 
-    <section id="chain" class="section">
+
+    <!-- =========================================================
+         PUBLIC ARCHITECTURE
+         ========================================================= -->
+
+    <section id="architecture" class="section">
+
       <div class="container">
-        <h2>Die Kontrollkette</h2>
-        <p class="muted">
-          ZAL’THERA basiert auf einer einfachen, aber starken Logik:
-          Keine wichtige Aktion ohne Regel, Identität und Nachvollziehbarkeit.
-        </p>
 
-        <div class="flowbar" aria-label="ZAL’THERA Kontrollkette">
-          <span class="flow-pill">Policy</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Identity</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Audit</span>
-          <span class="flow-arrow">→</span>
-          <span class="flow-pill">Execute</span>
+        <div class="section-heading centered">
+
+          <div class="eyebrow">
+            PUBLIC ARCHITECTURE
+          </div>
+
+          <h2>
+            Fünf Ebenen. Eine nachvollziehbare Entscheidungskette.
+          </h2>
+
+          <p class="section-lead">
+            Die öffentliche Architektur erklärt die Grundlogik von
+            ZAL’THERA, ohne interne Sicherheitsimplementierungen oder
+            private Protokolldetails offenzulegen.
+          </p>
+
         </div>
 
-        <div class="cards-3" style="margin-top:28px;">
-          <div class="card glass">
-            <div class="card-title"><strong>Policy</strong></div>
-            <p class="muted">Regeln entscheiden, was erlaubt, offen, kritisch oder blockiert ist.</p>
-          </div>
 
-          <div class="card glass">
-            <div class="card-title"><strong>Identity</strong></div>
-            <p class="muted">Aktionen werden Personen, Rollen, Geräten oder Verantwortlichkeiten zugeordnet.</p>
-          </div>
+        <div class="architecture-chain">
 
-          <div class="card glass">
-            <div class="card-title"><strong>Audit</strong></div>
-            <p class="muted">Wichtige Aktionen werden nachvollziehbar dokumentiert.</p>
-          </div>
+          <article class="architecture-step glass">
+
+            <div class="architecture-number">
+              01
+            </div>
+
+            <h3>Identity</h3>
+
+            <p>
+              Eine Handlung beginnt mit einer eindeutig zugeordneten
+              Identität, Rolle oder autorisierten Systeminstanz.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector"></div>
+
+
+          <article class="architecture-step glass">
+
+            <div class="architecture-number">
+              02
+            </div>
+
+            <h3>Context</h3>
+
+            <p>
+              Informationen werden nicht isoliert betrachtet,
+              sondern mit Herkunft, Zeit und Beziehung verstanden.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector"></div>
+
+
+          <article class="architecture-step glass">
+
+            <div class="architecture-number">
+              03
+            </div>
+
+            <h3>Intelligence</h3>
+
+            <p>
+              Systeme dürfen Informationen strukturieren,
+              erklären und mögliche nächste Schritte vorbereiten.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector"></div>
+
+
+          <article class="architecture-step glass">
+
+            <div class="architecture-number">
+              04
+            </div>
+
+            <h3>Trust</h3>
+
+            <p>
+              Berechtigungen, Nachweise, Consent und Audit bestimmen,
+              was tatsächlich als vertrauenswürdig gelten darf.
+            </p>
+
+          </article>
+
+
+          <div class="architecture-connector"></div>
+
+
+          <article class="architecture-step glass">
+
+            <div class="architecture-number">
+              05
+            </div>
+
+            <h3>Action</h3>
+
+            <p>
+              Konsequente Aktionen werden erst ausgeführt,
+              wenn die notwendigen Bedingungen erfüllt sind.
+            </p>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================================================
+         TECHNICAL CORE
+         ========================================================= -->
+
+    <section class="section section-deep">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="eyebrow cyan">
+            TECHNICAL CORE
+          </div>
+
+          <h2>
+            Policy → Identity → Audit → Execute
+          </h2>
+
+          <p class="section-lead">
+            Unterhalb der öffentlichen Architektur arbeitet eine
+            präzisere Kontrollkette für nachvollziehbare Systemaktionen.
+          </p>
+
+        </div>
+
+
+        <div class="core-grid">
+
+          <article class="core-card glass">
+
+            <div class="core-card-index">
+              01
+            </div>
+
+            <h3>Policy</h3>
+
+            <p class="muted">
+              Regeln definieren Grenzen, Zustände,
+              Berechtigungen und Bedingungen.
+            </p>
+
+            <div class="core-card-footer">
+              WHAT IS ALLOWED?
+            </div>
+
+          </article>
+
+
+          <article class="core-card glass">
+
+            <div class="core-card-index">
+              02
+            </div>
+
+            <h3>Identity</h3>
+
+            <p class="muted">
+              Aktionen werden einer Person, Rolle,
+              Identität oder autorisierten Instanz zugeordnet.
+            </p>
+
+            <div class="core-card-footer">
+              WHO ACTS?
+            </div>
+
+          </article>
+
+
+          <article class="core-card glass">
+
+            <div class="core-card-index">
+              03
+            </div>
+
+            <h3>Audit</h3>
+
+            <p class="muted">
+              Relevante Ereignisse werden mit Herkunft,
+              Zeitpunkt und Zustand nachvollziehbar dokumentiert.
+            </p>
+
+            <div class="core-card-footer">
+              WHAT HAPPENED?
+            </div>
+
+          </article>
+
+
+          <article class="core-card glass">
+
+            <div class="core-card-index">
+              04
+            </div>
+
+            <h3>Execute</h3>
+
+            <p class="muted">
+              Eine Aktion darf den sichtbaren Zustand erst ändern,
+              wenn die notwendigen Bedingungen erfüllt sind.
+            </p>
+
+            <div class="core-card-footer">
+              MAY IT HAPPEN?
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         LEDGER
+         ========================================================= -->
 
     <section id="ledger" class="section">
+
       <div class="container">
-        <div class="panel glass panel-wide">
-          <div class="eyebrow">THE LEDGER</div>
-          <h2>Lokaler Wahrheitskern</h2>
 
-          <p class="muted">
-            THE LEDGER ist der lokale Ereignis-Speicher für signierte, verkettete und überprüfbare Aktionen.
-            Er ist bewusst einfach: kein Netzwerk, keine Blockchain, keine zentrale Authority.
-          </p>
+        <div class="ledger-layout glass">
 
-          <div class="cards-3" style="margin-top:18px;">
-            <div class="card glass">
-              <div class="card-title"><strong>Append-only</strong></div>
-              <p class="muted">Einträge werden hinzugefügt, nicht still verändert oder gelöscht.</p>
+          <div class="ledger-copy">
+
+            <div class="eyebrow gold">
+              THE LEDGER
             </div>
 
-            <div class="card glass">
-              <div class="card-title"><strong>Hash-Chain</strong></div>
-              <p class="muted">Jeder Eintrag verweist auf den vorherigen. Manipulation wird sichtbar.</p>
-            </div>
+            <h2>
+              Ein lokaler Wahrheitskern für überprüfbare Ereignisse.
+            </h2>
 
-            <div class="card glass">
-              <div class="card-title"><strong>Verifikation</strong></div>
-              <p class="muted">Chain, Hash, Signatur und Struktur können geprüft werden.</p>
-            </div>
+            <p class="muted">
+              THE LEDGER hält wichtige Ereignisse in nachvollziehbarer
+              Reihenfolge fest. Einträge werden hinzugefügt,
+              miteinander verbunden und können später geprüft werden.
+            </p>
+
+            <p class="muted">
+              Das Ziel ist nicht, jede Information zentral zu sammeln.
+              Das Ziel ist, relevante Zustandsänderungen nachvollziehbar
+              beweisbar zu machen.
+            </p>
+
           </div>
 
-          <p class="muted" style="margin-top:18px;">
-            Kernsatz: Nichts wird gelöscht. Alles wird geprüft. Wahrheit entsteht durch signierte, verkettete Ereignisse.
-          </p>
+
+          <div class="ledger-chain" aria-label="Ledger Event Chain">
+
+            <div class="ledger-event">
+              <span>EVENT 001</span>
+              <strong>CREATED</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>EVENT 002</span>
+              <strong>PROOF</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>EVENT 003</span>
+              <strong>SIGNED</strong>
+            </div>
+
+            <div class="ledger-link"></div>
+
+            <div class="ledger-event">
+              <span>EVENT 004</span>
+              <strong>VERIFIED</strong>
+            </div>
+
+          </div>
+
         </div>
+
+
+        <div class="cards-3 core-principles">
+
+          <div class="card glass">
+
+            <div class="card-title">
+              <strong>Append-only</strong>
+            </div>
+
+            <p class="muted">
+              Relevante Ereignisse werden ergänzt,
+              nicht unbemerkt überschrieben.
+            </p>
+
+          </div>
+
+
+          <div class="card glass">
+
+            <div class="card-title">
+              <strong>Linked</strong>
+            </div>
+
+            <p class="muted">
+              Ereignisse erhalten eine nachvollziehbare
+              Beziehung zueinander.
+            </p>
+
+          </div>
+
+
+          <div class="card glass">
+
+            <div class="card-title">
+              <strong>Verifiable</strong>
+            </div>
+
+            <p class="muted">
+              Struktur, Integrität und Herkunft können
+              geprüft werden.
+            </p>
+
+          </div>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="trust" class="section">
+
+    <!-- =========================================================
+         TRUST
+         ========================================================= -->
+
+    <section id="trust" class="section section-deep">
+
       <div class="container">
-        <h2>Trust Engine</h2>
-        <p class="muted">
-          Die Trust Engine ist die zukünftige Auswertungsschicht: Sie macht Vertrauen nachvollziehbar,
-          indem sie abgeschlossene Aktionen, Nachweise und Ledger-Ereignisse auswertet.
-        </p>
 
-        <div class="cards-3">
-          <div class="card glass">
-            <div class="card-title"><strong>Proof Trust</strong></div>
-            <p>Wurde eine Aktion mit gültigem Nachweis abgeschlossen?</p>
+        <div class="section-heading centered">
+
+          <div class="eyebrow violet">
+            TRUST LAYER
           </div>
 
-          <div class="card glass">
-            <div class="card-title"><strong>Policy Trust</strong></div>
-            <p>Wurde eine Regel eingehalten oder verletzt?</p>
-          </div>
+          <h2>
+            Vertrauen wird nicht behauptet.
+          </h2>
 
-          <div class="card glass">
-            <div class="card-title"><strong>Audit Trust</strong></div>
-            <p>Ist der Ablauf nachvollziehbar dokumentiert?</p>
-          </div>
+          <p class="section-lead">
+            Es entsteht aus überprüfbaren Zuständen,
+            Identitäten, Berechtigungen und Nachweisen.
+          </p>
+
         </div>
+
+
+        <div class="trust-grid">
+
+          <article class="trust-card glass">
+
+            <span class="trust-index">
+              A
+            </span>
+
+            <h3>Proof Trust</h3>
+
+            <p class="muted">
+              Existiert ein gültiger Nachweis für
+              die behauptete Aktion?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass">
+
+            <span class="trust-index">
+              B
+            </span>
+
+            <h3>Policy Trust</h3>
+
+            <p class="muted">
+              Wurde innerhalb der vorgesehenen
+              Regeln gehandelt?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass">
+
+            <span class="trust-index">
+              C
+            </span>
+
+            <h3>Identity Trust</h3>
+
+            <p class="muted">
+              Ist die handelnde Identität
+              eindeutig und autorisiert?
+            </p>
+
+          </article>
+
+
+          <article class="trust-card glass">
+
+            <span class="trust-index">
+              D
+            </span>
+
+            <h3>Audit Trust</h3>
+
+            <p class="muted">
+              Ist der Ablauf vollständig genug,
+              um später nachvollzogen zu werden?
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="apps" class="section section-contact">
-      <div class="container">
-        <div class="contact-wrap glass">
-          <div class="contact-head">
-            <div>
-              <h2>Wo der Kern eingesetzt wird</h2>
-              <p class="muted">
-                EasyProof, Delivery Core, LifeShield, LifeVault, ShiftLog und weitere Module können über denselben Kern verbunden werden.
-              </p>
-            </div>
 
-            <div class="contact-actions">
-              <a class="chip chip-cta" href="proofflow.html">ProofFlow</a>
-              <a class="chip" href="support.html">Support</a>
-            </div>
+    <!-- =========================================================
+         HUMAN AUTHORIZATION
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="authorization-panel glass">
+
+          <div class="authorization-symbol" aria-hidden="true">
+            <span></span>
           </div>
 
-          <p class="muted">
-            Der erste starke Einsatzort für THE LEDGER ist EasyProof / EasyProof Pro,
-            weil dort jede relevante Aktion sofort beweisbar wird: Job erstellt, Proof hinzugefügt,
-            Signatur gespeichert, Job abgeschlossen, Bericht exportiert.
-          </p>
+          <div>
+
+            <div class="eyebrow gold">
+              HUMAN AUTHORIZATION GATE
+            </div>
+
+            <h2>
+              Intelligence may prepare.<br />
+              Authority remains explicit.
+            </h2>
+
+            <p class="muted">
+              ZAL’THERA kann Informationen verstehen, vorbereiten
+              und Handlungsmöglichkeiten darstellen.
+              Konsequente Aktionen bleiben jedoch an die erforderliche
+              menschliche oder ausdrücklich delegierte Autorisierung gebunden.
+            </p>
+
+          </div>
+
         </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SYSTEM USE
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="eyebrow">
+            SYSTEM APPLICATION
+          </div>
+
+          <h2>
+            Ein Kern. Mehrere Anwendungswelten.
+          </h2>
+
+        </div>
+
+
+        <div class="system-use-grid">
+
+          <a
+            class="system-use-card glass"
+            href="index.html#continuity"
+          >
+            <span>PERSONAL</span>
+            <strong>CONTINUITY</strong>
+            <small>
+              Dokumente · Finance · Context · Cards
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass"
+            href="proofflow.html"
+          >
+            <span>PROOF</span>
+            <strong>ProofFlow</strong>
+            <small>
+              Evidence · Audit · Signature · Export
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass"
+            href="index.html#communication"
+          >
+            <span>COMMUNICATION</span>
+            <strong>VoiceBridge</strong>
+            <small>
+              Identity · Consent · Voice · Trust
+            </small>
+          </a>
+
+
+          <a
+            class="system-use-card glass"
+            href="shiftlog.html"
+          >
+            <span>INDUSTRY</span>
+            <strong>ShiftLog</strong>
+            <small>
+              Handover · State · Responsibility
+            </small>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+
+    <section class="section section-contact">
+
+      <div class="container">
+
+        <div class="core-return glass">
+
+          <div>
+            <div class="eyebrow">
+              ZAL’THERA
+            </div>
+
+            <h2>
+              The core is not the product.<br />
+              It is what connects the products.
+            </h2>
+          </div>
+
+          <a class="btn primary" href="index.html">
+            Zurück zum System
+          </a>
+
+        </div>
+
 
         <footer class="footer">
-          <div>© <span id="year"></span> ZAL’THERA</div>
+
+          <div class="footer-brand">
+            <strong>ZAL’THERA</strong>
+            <span>© <span id="year"></span></span>
+          </div>
+
           <div class="footer-links">
+            <a href="index.html">Home</a>
+            <span>·</span>
+            <a href="about.html">About</a>
+            <span>·</span>
             <a href="support.html">Support</a>
             <span>·</span>
             <a href="impressum.html">Impressum</a>
             <span>·</span>
             <a href="datenschutz.html">Datenschutz</a>
           </div>
+
         </footer>
+
       </div>
+
     </section>
+
   </main>
 
+
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
   </script>
+
 </body>
 </html>
