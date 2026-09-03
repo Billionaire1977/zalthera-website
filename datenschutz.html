@@ -3,145 +3,535 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>Datenschutz — ZAL’THERA</title>
-  <meta name="description" content="Datenschutzerklärung für ZAL’THERA Website und ZAL’THERA Apps." />
+
+  <meta
+    name="description"
+    content="Datenschutzerklärung für ZAL’THERA Website und ZAL’THERA Apps."
+  />
+
+  <meta name="theme-color" content="#020306" />
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon-32.png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon.png"
+  />
 </head>
 
 <body>
-  <header class="topbar">
+
+  <div class="site-atmosphere" aria-hidden="true">
+    <span class="atmosphere-glow atmosphere-cyan"></span>
+    <span class="atmosphere-glow atmosphere-violet"></span>
+    <span class="atmosphere-glow atmosphere-gold"></span>
+  </div>
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header class="topbar" data-topbar>
+
     <div class="container topbar-inner">
-      <a class="brand" href="index.html" aria-label="ZAL’THERA Home">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="ZAL’THERA Home"
+      >
+        <span class="brand-symbol" aria-hidden="true"></span>
         <span class="brand-mark">ZAL’THERA</span>
       </a>
 
-      <nav class="nav" aria-label="Hauptnavigation">
-        <a href="index.html">Home</a>
-        <a href="lifeflow.html">LifeFlow</a>
-        <a href="proofflow.html">ProofFlow</a>
-        <a href="shiftlog.html">ShiftLog</a>
-        <a href="support.html">Support</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Navigation öffnen"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <nav
+        id="main-navigation"
+        class="nav"
+        aria-label="Hauptnavigation"
+        data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
+      >
+
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a href="index.html#products" data-i18n="nav.products">
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
+
       </nav>
 
+
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="mailto:contact@zalthera.de">Kontakt</a>
+
+        <a
+          class="chip chip-cta"
+          href="mailto:contact@zalthera.de"
+          data-i18n="global.contact"
+        >
+          Kontakt
+        </a>
+
       </div>
+
     </div>
+
   </header>
 
-  <main class="section">
-    <div class="container">
-      <div class="panel glass panel-wide">
-        <div class="eyebrow">DATENSCHUTZ</div>
-        <h1>Datenschutzerklärung</h1>
 
-        <p class="muted">
+  <!-- =========================================================
+       MAIN
+       ========================================================= -->
+
+  <main class="section">
+
+    <div class="container">
+
+      <div class="panel glass panel-wide">
+
+        <div
+          class="eyebrow"
+          data-i18n="privacy.hero.eyebrow"
+        >
+          DATENSCHUTZ
+        </div>
+
+
+        <h1 data-i18n="privacy.hero.title">
+          Datenschutzerklärung
+        </h1>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.hero.lead"
+        >
           Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten
-          beim Besuch dieser Website, bei der Kontaktaufnahme und bei der Nutzung von ZAL’THERA Apps verarbeitet werden können.
+          beim Besuch dieser Website, bei der Kontaktaufnahme und bei der Nutzung von
+          ZAL’THERA Apps verarbeitet werden können.
         </p>
 
-        <h2>1. Verantwortlicher</h2>
+
+        <!-- =====================================================
+             1. CONTROLLER
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.controller.title">
+          1. Verantwortlicher
+        </h2>
+
+
         <p>
           <strong>Patrick Walker</strong><br />
           Stauffenbergstraße 138<br />
           96052 Bamberg<br />
           Deutschland<br />
-          E-Mail: <a href="mailto:contact@zalthera.de">contact@zalthera.de</a>
+
+          <span data-i18n="privacy.controller.emailLabel">
+            E-Mail:
+          </span>
+
+          <a href="mailto:contact@zalthera.de">
+            contact@zalthera.de
+          </a>
         </p>
 
-        <h2>2. Zugriff auf die Website</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             2. WEBSITE ACCESS
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.website.title">
+          2. Zugriff auf die Website
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.website.text"
+        >
           Beim Aufruf dieser Website können technisch erforderliche Daten verarbeitet werden,
           insbesondere IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp, Betriebssystem
           und die aufgerufene Seite. Diese Verarbeitung erfolgt zur sicheren Bereitstellung der Website.
         </p>
 
-        <h2>3. Kontaktaufnahme</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             3. CONTACT
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.contact.title">
+          3. Kontaktaufnahme
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.contact.text1"
+        >
           Wenn du uns per E-Mail oder über ein Kontaktformular kontaktierst, werden die von dir übermittelten Daten
           zur Bearbeitung deiner Anfrage verarbeitet.
         </p>
 
-        <p class="muted">
+
+        <p
+          class="muted"
+          data-i18n="privacy.contact.text2"
+        >
           Für Kontaktformulare kann der Dienst Formspree verwendet werden. Dabei können die eingegebenen Daten
           an Formspree übermittelt werden. Bitte sende keine sensiblen Daten, die für die Anfrage nicht erforderlich sind.
         </p>
 
-        <h2>4. ZAL’THERA Apps</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             4. APPS
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.apps.title">
+          4. ZAL’THERA Apps
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.apps.text1"
+        >
           ZAL’THERA Apps sind darauf ausgelegt, Informationen strukturiert, nachvollziehbar und nutzerkontrolliert zu speichern.
           Je nach App können Daten wie Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Dokumentinformationen,
           Statuswerte oder Audit-Einträge verarbeitet werden.
         </p>
 
-        <p class="muted">
+
+        <p
+          class="muted"
+          data-i18n="privacy.apps.text2"
+        >
           Soweit nicht ausdrücklich anders angegeben, werden App-Daten lokal auf dem Gerät gespeichert.
           Es erfolgt keine automatische Veröffentlichung persönlicher Inhalte.
         </p>
 
-        <h2>5. Kamera, Fotos und Dateien</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             5. CAMERA / PHOTOS / FILES
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.files.title">
+          5. Kamera, Fotos und Dateien
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.files.text"
+        >
           Einige Apps können Zugriff auf Kamera, Fotos oder Dateien benötigen, um Nachweise, Bilder,
           Dokumente oder Exporte zu erstellen. Der Zugriff erfolgt nur, wenn der Nutzer die entsprechende Berechtigung erteilt.
         </p>
 
-        <h2>6. Kein Tracking für Werbezwecke</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             6. TRACKING
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.tracking.title">
+          6. Kein Tracking für Werbezwecke
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.tracking.text"
+        >
           ZAL’THERA Apps sind nicht darauf ausgelegt, Nutzer für Werbezwecke zu verfolgen.
           Es werden keine personenbezogenen Profile für Werbung erstellt.
         </p>
 
-        <h2>7. Zwecke der Verarbeitung</h2>
+
+        <!-- =====================================================
+             7. PURPOSES
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.purposes.title">
+          7. Zwecke der Verarbeitung
+        </h2>
+
+
         <ul>
-          <li>Bereitstellung der Website</li>
-          <li>Bearbeitung von Kontakt- und Supportanfragen</li>
-          <li>Bereitstellung und Nutzung der App-Funktionen</li>
-          <li>Speicherung von Nachweisen, Einträgen und Exporten durch den Nutzer</li>
-          <li>Verbesserung der Stabilität und Nutzbarkeit der angebotenen Systeme</li>
+
+          <li data-i18n="privacy.purposes.website">
+            Bereitstellung der Website
+          </li>
+
+          <li data-i18n="privacy.purposes.support">
+            Bearbeitung von Kontakt- und Supportanfragen
+          </li>
+
+          <li data-i18n="privacy.purposes.features">
+            Bereitstellung und Nutzung der App-Funktionen
+          </li>
+
+          <li data-i18n="privacy.purposes.storage">
+            Speicherung von Nachweisen, Einträgen und Exporten durch den Nutzer
+          </li>
+
+          <li data-i18n="privacy.purposes.improvement">
+            Verbesserung der Stabilität und Nutzbarkeit der angebotenen Systeme
+          </li>
+
         </ul>
 
-        <h2>8. Rechtsgrundlagen</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             8. LEGAL BASES
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.legalBasis.title">
+          8. Rechtsgrundlagen
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.legalBasis.text"
+        >
           Die Verarbeitung erfolgt je nach Fall auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO
           (Vertragsanbahnung / Vertragserfüllung), Art. 6 Abs. 1 lit. f DSGVO
           (berechtigtes Interesse an sicherem Betrieb, Support und Kommunikation)
           oder auf Grundlage deiner Einwilligung, wenn diese erforderlich ist.
         </p>
 
-        <h2>9. Speicherdauer</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             9. STORAGE
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.storage.title">
+          9. Speicherdauer
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.storage.text"
+        >
           Personenbezogene Daten werden nur so lange gespeichert, wie dies für die genannten Zwecke erforderlich ist
           oder gesetzliche Aufbewahrungspflichten bestehen.
         </p>
 
-        <h2>10. Deine Rechte</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             10. RIGHTS
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.rights.title">
+          10. Deine Rechte
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.rights.text1"
+        >
           Du hast nach Maßgabe der gesetzlichen Vorgaben insbesondere das Recht auf Auskunft,
           Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Widerspruch.
         </p>
 
+
         <p class="muted">
-          Wenn du eines dieser Rechte ausüben möchtest, schreibe an:
-          <a href="mailto:contact@zalthera.de">contact@zalthera.de</a>
+
+          <span data-i18n="privacy.rights.text2">
+            Wenn du eines dieser Rechte ausüben möchtest, schreibe an:
+          </span>
+
+          <a href="mailto:contact@zalthera.de">
+            contact@zalthera.de
+          </a>
+
         </p>
 
-        <h2>11. Externe Links</h2>
-        <p class="muted">
+
+        <!-- =====================================================
+             11. EXTERNAL LINKS
+             ===================================================== -->
+
+        <h2 data-i18n="privacy.externalLinks.title">
+          11. Externe Links
+        </h2>
+
+
+        <p
+          class="muted"
+          data-i18n="privacy.externalLinks.text"
+        >
           Diese Website kann Links zu externen Diensten und Seiten enthalten.
           Für die Datenverarbeitung auf externen Seiten sind ausschließlich deren Betreiber verantwortlich.
         </p>
 
-        <div class="hero-actions" style="margin-top:18px;">
-          <a class="btn primary" href="index.html">Zur Startseite</a>
-          <a class="btn ghost" href="support.html">Support</a>
+
+        <!-- =====================================================
+             ACTIONS
+             ===================================================== -->
+
+        <div
+          class="hero-actions"
+          style="margin-top:18px;"
+        >
+
+          <a
+            class="btn primary"
+            href="index.html"
+            data-i18n="privacy.actions.home"
+          >
+            Zur Startseite
+          </a>
+
+          <a
+            class="btn ghost"
+            href="support.html"
+            data-i18n="global.support"
+          >
+            Support
+          </a>
+
         </div>
+
       </div>
+
+
+      <!-- =======================================================
+           FOOTER
+           ======================================================= -->
+
+      <footer class="footer">
+
+        <div class="footer-brand">
+
+          <strong>
+            ZAL’THERA
+          </strong>
+
+          <span>
+            © <span id="year"></span>
+          </span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <a
+            href="index.html"
+            data-i18n="global.home"
+          >
+            Home
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="core.html"
+            data-i18n="nav.system"
+          >
+            System
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="about.html"
+            data-i18n="nav.about"
+          >
+            About
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="support.html"
+            data-i18n="global.support"
+          >
+            Support
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="impressum.html"
+            data-i18n="footer.imprint"
+          >
+            Impressum
+          </a>
+
+          <span>·</span>
+
+          <a
+            href="datenschutz.html"
+            aria-current="page"
+            data-i18n="footer.privacy"
+          >
+            Datenschutz
+          </a>
+
+        </div>
+
+      </footer>
+
     </div>
+
   </main>
+
+
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
+
 </body>
 </html>
+
