@@ -62,6 +62,8 @@
         aria-controls="main-navigation"
         aria-expanded="false"
         data-nav-toggle
+        data-i18n="global.navOpen"
+        data-i18n-attribute="aria-label"
       >
         <span></span>
         <span></span>
@@ -73,21 +75,49 @@
         class="nav"
         aria-label="Hauptnavigation"
         data-nav
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
       >
-        <a href="core.html">System</a>
-        <a href="index.html#continuity">Continuity</a>
-        <a href="index.html#intelligence">Intelligence</a>
-        <a href="index.html#communication">Communication</a>
-        <a href="index.html#industry">Industry</a>
-        <a href="index.html#products">Products</a>
-        <a href="about.html">About</a>
+        <a href="core.html" data-i18n="nav.system">
+          System
+        </a>
+
+        <a href="index.html#continuity" data-i18n="nav.continuity">
+          CONTINUITY
+        </a>
+
+        <a href="index.html#intelligence" data-i18n="nav.intelligence">
+          Intelligence
+        </a>
+
+        <a href="index.html#communication" data-i18n="nav.communication">
+          Communication
+        </a>
+
+        <a href="index.html#industry" data-i18n="nav.industry">
+          Industry
+        </a>
+
+        <a href="index.html#products" data-i18n="nav.products">
+          Products
+        </a>
+
+        <a href="about.html" data-i18n="nav.about">
+          About
+        </a>
       </nav>
 
 
       <div class="topbar-cta">
-        <a class="chip chip-cta" href="#contact">
+
+        <a
+          class="chip chip-cta"
+          href="#contact"
+          data-i18n="pilot.header.chip"
+        >
           Pilot
         </a>
+
       </div>
 
     </div>
@@ -107,7 +137,11 @@
       data-hero
     >
 
-      <div class="zal-field" aria-hidden="true" data-zal-field>
+      <div
+        class="zal-field"
+        aria-hidden="true"
+        data-zal-field
+      >
 
         <span class="field-orbit orbit-a"></span>
         <span class="field-orbit orbit-b"></span>
@@ -129,6 +163,7 @@
 
       </div>
 
+
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-noise" aria-hidden="true"></div>
 
@@ -137,43 +172,79 @@
 
         <div class="hero-copy hero-intro">
 
-          <div class="kicker">
+          <div
+            class="kicker"
+            data-i18n="pilot.hero.kicker"
+          >
             CONTROLLED REAL-WORLD ENTRY
           </div>
+
 
           <div class="hero-product hero-product-large">
             ZAL’THERA PILOT
           </div>
 
-          <h1 class="hero-title">
+
+          <h1
+            class="hero-title"
+            data-i18n="pilot.hero.title"
+            data-i18n-html
+          >
             Start small.<br />
             Test reality.<br />
             Prove value.
           </h1>
 
-          <p class="hero-lead">
+
+          <p
+            class="hero-lead"
+            data-i18n="pilot.hero.lead"
+          >
             Ein ZAL’THERA Pilot überträgt einen klar abgegrenzten
             realen Prozess in ein überprüfbares System,
             ohne den bestehenden Betrieb sofort vollständig zu ersetzen.
           </p>
 
+
           <div class="hero-actions">
 
-            <a class="btn primary" href="#process">
+            <a
+              class="btn primary"
+              href="#process"
+              data-i18n="pilot.hero.understand"
+            >
               Pilot verstehen
             </a>
 
-            <a class="btn ghost" href="#contact">
+            <a
+              class="btn ghost"
+              href="#contact"
+              data-i18n="pilot.hero.request"
+            >
               Pilot anfragen
             </a>
 
           </div>
 
+
           <div class="hero-microline">
-            <span>SCOPED</span>
-            <span>CONTROLLED</span>
-            <span>MEASURABLE</span>
-            <span>REVIEWABLE</span>
+
+            <span data-i18n="pilot.hero.scoped">
+              SCOPED
+            </span>
+
+            <span data-i18n="pilot.hero.controlled">
+              CONTROLLED
+            </span>
+
+            <span data-i18n="pilot.hero.measurable">
+              MEASURABLE
+            </span>
+
+            <span data-i18n="pilot.hero.reviewable">
+              REVIEWABLE
+            </span>
+
           </div>
 
         </div>
@@ -181,45 +252,114 @@
 
         <div class="hero-system-map glass hero-system-panel">
 
-          <div class="system-map-label">
+          <div
+            class="system-map-label"
+            data-i18n="pilot.state.label"
+          >
             PILOT STATE
           </div>
 
+
           <div class="system-map-core">
+
             <span class="system-map-dot"></span>
-            <strong>REAL PROCESS</strong>
+
+            <strong data-i18n="pilot.state.realProcess">
+              REAL PROCESS
+            </strong>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>SCOPE</span>
-            <span class="state state-core">DEFINED</span>
+
+            <span data-i18n="pilot.state.scope">
+              SCOPE
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="pilot.state.defined"
+            >
+              DEFINED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>MODEL</span>
-            <span class="state state-dev">PREPARED</span>
+
+            <span data-i18n="pilot.state.model">
+              MODEL
+            </span>
+
+            <span
+              class="state state-dev"
+              data-i18n="pilot.state.prepared"
+            >
+              PREPARED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>TEST</span>
-            <span class="state state-system">CONTROLLED</span>
+
+            <span data-i18n="pilot.state.test">
+              TEST
+            </span>
+
+            <span
+              class="state state-system"
+              data-i18n="pilot.state.controlled"
+            >
+              CONTROLLED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>RESULT</span>
-            <span class="state state-architecture">MEASURED</span>
+
+            <span data-i18n="pilot.state.result">
+              RESULT
+            </span>
+
+            <span
+              class="state state-architecture"
+              data-i18n="pilot.state.measured"
+            >
+              MEASURED
+            </span>
+
           </div>
+
 
           <div class="system-map-row">
-            <span>DECISION</span>
-            <span class="state state-core">REVIEWED</span>
+
+            <span data-i18n="pilot.state.decision">
+              DECISION
+            </span>
+
+            <span
+              class="state state-core"
+              data-i18n="pilot.state.reviewed"
+            >
+              REVIEWED
+            </span>
+
           </div>
 
-          <div class="system-map-scan" aria-hidden="true"></div>
+
+          <div
+            class="system-map-scan"
+            aria-hidden="true"
+          ></div>
 
         </div>
 
       </div>
+
 
       <div class="hero-fade" aria-hidden="true"></div>
 
@@ -230,21 +370,32 @@
          WHEN
          ========================================================= -->
 
-    <section id="focus" class="section">
+    <section
+      id="focus"
+      class="section"
+    >
 
       <div class="container">
 
         <div class="section-heading centered reveal">
 
-          <div class="eyebrow">
+          <div
+            class="eyebrow"
+            data-i18n="pilot.focus.eyebrow"
+          >
             WHEN A PILOT MAKES SENSE
           </div>
 
-          <h2>
+
+          <h2 data-i18n="pilot.focus.title">
             Nicht das ganze Unternehmen muss sich ändern.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="pilot.focus.lead"
+          >
             Ein Pilot beginnt dort, wo ein konkreter Ablauf
             heute unklar, papierbasiert, schwer nachvollziehbar
             oder unnötig abhängig von einzelnen Personen ist.
@@ -258,10 +409,15 @@
           <article class="card glass reveal reveal-delay-1">
 
             <div class="card-title">
-              <strong>Proof</strong>
+              <strong data-i18n="pilot.focus.proof.title">
+                Proof
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="pilot.focus.proof.text"
+            >
               Ein Vorgang soll später nachvollziehbar
               und belegbar bleiben.
             </p>
@@ -272,10 +428,15 @@
           <article class="card glass reveal reveal-delay-2">
 
             <div class="card-title">
-              <strong>Handover</strong>
+              <strong data-i18n="pilot.focus.handover.title">
+                Handover
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="pilot.focus.handover.text"
+            >
               Information darf nicht zwischen
               Personen, Rollen oder Schichten verloren gehen.
             </p>
@@ -286,10 +447,15 @@
           <article class="card glass reveal reveal-delay-3">
 
             <div class="card-title">
-              <strong>Control</strong>
+              <strong data-i18n="pilot.focus.control.title">
+                Control
+              </strong>
             </div>
 
-            <p class="muted">
+            <p
+              class="muted"
+              data-i18n="pilot.focus.control.text"
+            >
               Zustände, Verantwortlichkeiten oder Aktionen
               brauchen klarere Bedingungen.
             </p>
@@ -313,21 +479,33 @@
       data-section="process"
     >
 
-      <div class="section-signal signal-cyan" aria-hidden="true"></div>
+      <div
+        class="section-signal signal-cyan"
+        aria-hidden="true"
+      ></div>
+
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow cyan">
+          <div
+            class="eyebrow cyan"
+            data-i18n="pilot.process.eyebrow"
+          >
             PILOT PROCESS
           </div>
 
-          <h2>
+
+          <h2 data-i18n="pilot.process.title">
             Vom realen Problem zur überprüfbaren Entscheidung.
           </h2>
 
-          <p class="section-lead">
+
+          <p
+            class="section-lead"
+            data-i18n="pilot.process.lead"
+          >
             Der Pilot bleibt bewusst begrenzt.
             Erst wenn der Nutzen sichtbar ist,
             wird über den nächsten Schritt entschieden.
@@ -344,9 +522,11 @@
               01
             </div>
 
-            <h3>Scope</h3>
+            <h3 data-i18n="pilot.process.scope.title">
+              Scope
+            </h3>
 
-            <p>
+            <p data-i18n="pilot.process.scope.text">
               Ein konkreter Prozess,
               Bereich oder Anwendungsfall wird abgegrenzt.
             </p>
@@ -354,7 +534,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-2">
@@ -363,9 +546,11 @@
               02
             </div>
 
-            <h3>Understand</h3>
+            <h3 data-i18n="pilot.process.understand.title">
+              Understand
+            </h3>
 
-            <p>
+            <p data-i18n="pilot.process.understand.text">
               Der bestehende Ablauf und seine
               relevanten Zustände werden verstanden.
             </p>
@@ -373,7 +558,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-3">
@@ -382,9 +570,11 @@
               03
             </div>
 
-            <h3>Model</h3>
+            <h3 data-i18n="pilot.process.model.title">
+              Model
+            </h3>
 
-            <p>
+            <p data-i18n="pilot.process.model.text">
               Das benötigte ZAL’THERA-System wird
               auf den Prozess zugeschnitten.
             </p>
@@ -392,7 +582,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-4">
@@ -401,9 +594,11 @@
               04
             </div>
 
-            <h3>Pilot</h3>
+            <h3 data-i18n="pilot.process.pilot.title">
+              Pilot
+            </h3>
 
-            <p>
+            <p data-i18n="pilot.process.pilot.text">
               Das System wird begrenzt
               im realen Ablauf eingesetzt.
             </p>
@@ -411,7 +606,10 @@
           </article>
 
 
-          <div class="architecture-connector" aria-hidden="true"></div>
+          <div
+            class="architecture-connector"
+            aria-hidden="true"
+          ></div>
 
 
           <article class="architecture-step glass reveal reveal-delay-5">
@@ -420,9 +618,11 @@
               05
             </div>
 
-            <h3>Review</h3>
+            <h3 data-i18n="pilot.process.review.title">
+              Review
+            </h3>
 
-            <p>
+            <p data-i18n="pilot.process.review.text">
               Nutzen, Grenzen und nächster Schritt
               werden gemeinsam bewertet.
             </p>
@@ -440,19 +640,27 @@
          SYSTEMS
          ========================================================= -->
 
-    <section id="modules" class="section">
+    <section
+      id="modules"
+      class="section"
+    >
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <div class="eyebrow gold">
+          <div
+            class="eyebrow gold"
+            data-i18n="pilot.modules.eyebrow"
+          >
             PILOT ENTRY POINTS
           </div>
 
-          <h2>
+
+          <h2 data-i18n="pilot.modules.title">
             Unterschiedliche Probleme. Gemeinsamer Systemkern.
           </h2>
+
         </div>
 
 
@@ -462,11 +670,15 @@
             class="system-use-card glass reveal reveal-delay-1"
             href="proofflow.html"
           >
-            <span>PROOF</span>
+            <span data-i18n="pilot.modules.proof">
+              PROOF
+            </span>
 
-            <strong>ProofFlow</strong>
+            <strong>
+              ProofFlow
+            </strong>
 
-            <small>
+            <small data-i18n="pilot.modules.proofflow">
               Evidence · Audit · Signature · Export
             </small>
           </a>
@@ -476,11 +688,15 @@
             class="system-use-card glass reveal reveal-delay-2"
             href="shiftlog.html"
           >
-            <span>INDUSTRY</span>
+            <span data-i18n="pilot.modules.industry">
+              INDUSTRY
+            </span>
 
-            <strong>ShiftLog</strong>
+            <strong>
+              ShiftLog
+            </strong>
 
-            <small>
+            <small data-i18n="pilot.modules.shiftlog">
               Handover · State · Responsibility
             </small>
           </a>
@@ -490,11 +706,15 @@
             class="system-use-card glass reveal reveal-delay-3"
             href="core.html#ledger"
           >
-            <span>TRUST</span>
+            <span data-i18n="pilot.modules.trust">
+              TRUST
+            </span>
 
-            <strong>Ledger</strong>
+            <strong>
+              Ledger
+            </strong>
 
-            <small>
+            <small data-i18n="pilot.modules.ledger">
               Events · Traceability · Verification
             </small>
           </a>
@@ -504,11 +724,15 @@
             class="system-use-card glass reveal reveal-delay-4"
             href="index.html#industry"
           >
-            <span>ARCHITECTURE</span>
+            <span data-i18n="pilot.modules.architecture">
+              ARCHITECTURE
+            </span>
 
-            <strong>Industry</strong>
+            <strong>
+              Industry
+            </strong>
 
-            <small>
+            <small data-i18n="pilot.modules.industryText">
               Process · Data · Sensors · Future Integration
             </small>
           </a>
@@ -530,28 +754,45 @@
 
         <div class="authorization-panel glass reveal">
 
-          <div class="authorization-symbol" aria-hidden="true">
+          <div
+            class="authorization-symbol"
+            aria-hidden="true"
+          >
             <span></span>
           </div>
 
+
           <div>
 
-            <div class="eyebrow gold">
+            <div
+              class="eyebrow gold"
+              data-i18n="pilot.principle.eyebrow"
+            >
               CONTROLLED ENTRY
             </div>
 
-            <h2>
+
+            <h2 data-i18n="pilot.principle.title">
               A pilot should reduce uncertainty, not create dependency.
             </h2>
 
-            <p class="muted">
+
+            <p
+              class="muted"
+              data-i18n="pilot.principle.text"
+            >
               Der Pilot dient nicht dazu, einen bestehenden
               Prozess blind zu ersetzen. Er soll zeigen,
               ob ein klar definiertes Systemproblem tatsächlich
               besser gelöst werden kann.
             </p>
 
-            <a class="btn primary" href="#contact">
+
+            <a
+              class="btn primary"
+              href="#contact"
+              data-i18n="pilot.principle.request"
+            >
               Pilot anfragen
             </a>
 
@@ -568,7 +809,10 @@
          CONTACT
          ========================================================= -->
 
-    <section id="contact" class="section section-contact">
+    <section
+      id="contact"
+      class="section section-contact"
+    >
 
       <div class="container">
 
@@ -582,11 +826,16 @@
                 ZAL’THERA PILOT
               </div>
 
-              <h2>
+
+              <h2 data-i18n="pilot.contact.title">
                 Pilotprojekt anfragen
               </h2>
 
-              <p class="muted">
+
+              <p
+                class="muted"
+                data-i18n="pilot.contact.text"
+              >
                 Beschreiben Sie kurz den Prozess,
                 der klarer, nachvollziehbarer oder strukturierter werden soll.
               </p>
@@ -603,7 +852,11 @@
                 contact@zalthera.de
               </a>
 
-              <a class="chip" href="support.html">
+              <a
+                class="chip"
+                href="support.html"
+                data-i18n="global.support"
+              >
                 Support
               </a>
 
@@ -629,7 +882,10 @@
 
               <div class="field">
 
-                <label for="name">
+                <label
+                  for="name"
+                  data-i18n="home.contact.name"
+                >
                   Name
                 </label>
 
@@ -639,6 +895,8 @@
                   placeholder="Ihr Name"
                   autocomplete="name"
                   required
+                  data-i18n="pilot.contact.namePlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -646,7 +904,10 @@
 
               <div class="field">
 
-                <label for="email">
+                <label
+                  for="email"
+                  data-i18n="home.contact.email"
+                >
                   E-Mail
                 </label>
 
@@ -657,6 +918,8 @@
                   placeholder="name@firma.de"
                   autocomplete="email"
                   required
+                  data-i18n="pilot.contact.emailPlaceholder"
+                  data-i18n-attribute="placeholder"
                 />
 
               </div>
@@ -664,7 +927,10 @@
 
               <div class="field field-full">
 
-                <label for="message">
+                <label
+                  for="message"
+                  data-i18n="home.contact.message"
+                >
                   Nachricht
                 </label>
 
@@ -674,6 +940,8 @@
                   rows="5"
                   placeholder="Welcher Prozess soll als Pilot getestet werden?"
                   required
+                  data-i18n="pilot.contact.messagePlaceholder"
+                  data-i18n-attribute="placeholder"
                 ></textarea>
 
               </div>
@@ -683,15 +951,28 @@
 
             <div class="form-footer">
 
-              <button class="btn primary" type="submit">
+              <button
+                class="btn primary"
+                type="submit"
+                data-i18n="pilot.contact.send"
+              >
                 Anfrage senden
               </button>
 
+
               <div class="fineprint">
-                Mit dem Absenden akzeptieren Sie unsere
-                <a href="datenschutz.html">
+
+                <span data-i18n="pilot.contact.privacyPrefix">
+                  Mit dem Absenden akzeptieren Sie unsere
+                </span>
+
+                <a
+                  href="datenschutz.html"
+                  data-i18n="home.contact.privacy"
+                >
                   Datenschutzerklärung
                 </a>.
+
               </div>
 
             </div>
@@ -704,22 +985,72 @@
         <footer class="footer">
 
           <div class="footer-brand">
-            <strong>ZAL’THERA</strong>
-            <span>© <span id="year"></span></span>
+
+            <strong>
+              ZAL’THERA
+            </strong>
+
+            <span>
+              © <span id="year"></span>
+            </span>
+
           </div>
 
+
           <div class="footer-links">
-            <a href="index.html">Home</a>
+
+            <a
+              href="index.html"
+              data-i18n="global.home"
+            >
+              Home
+            </a>
+
             <span>·</span>
-            <a href="core.html">System</a>
+
+            <a
+              href="core.html"
+              data-i18n="nav.system"
+            >
+              System
+            </a>
+
             <span>·</span>
-            <a href="about.html">About</a>
+
+            <a
+              href="about.html"
+              data-i18n="nav.about"
+            >
+              About
+            </a>
+
             <span>·</span>
-            <a href="support.html">Support</a>
+
+            <a
+              href="support.html"
+              data-i18n="global.support"
+            >
+              Support
+            </a>
+
             <span>·</span>
-            <a href="impressum.html">Impressum</a>
+
+            <a
+              href="impressum.html"
+              data-i18n="footer.imprint"
+            >
+              Impressum
+            </a>
+
             <span>·</span>
-            <a href="datenschutz.html">Datenschutz</a>
+
+            <a
+              href="datenschutz.html"
+              data-i18n="footer.privacy"
+            >
+              Datenschutz
+            </a>
+
           </div>
 
         </footer>
@@ -731,7 +1062,8 @@
   </main>
 
 
-  <script src="site.js"></script>
+  <script src="zal-i18n.js?v=1.4"></script>
+  <script src="site.js?v=2.2"></script>
 
 </body>
 </html>
