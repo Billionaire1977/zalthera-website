@@ -1,5 +1,5 @@
 /* ============================================================
-   ZAL’THERA WEBSITE
+   ZALâ€™THERA WEBSITE
    INTERNATIONALIZATION LAYER v2.0
 
    Languages:
@@ -26,12 +26,12 @@
   const LANGUAGE_META = {
     de: { short: "DE", name: "Deutsch" },
     en: { short: "EN", name: "English" },
-    tr: { short: "TR", name: "Türkçe" },
-    es: { short: "ES", name: "Español" },
-    fr: { short: "FR", name: "Français" },
+    tr: { short: "TR", name: "TÃ¼rkÃ§e" },
+    es: { short: "ES", name: "EspaÃ±ol" },
+    fr: { short: "FR", name: "FranÃ§ais" },
     it: { short: "IT", name: "Italiano" },
-    ro: { short: "RO", name: "Română" },
-    "zh-Hans": { short: "中文", name: "简体中文" }
+    ro: { short: "RO", name: "RomÃ¢nÄƒ" },
+    "zh-Hans": { short: "ä¸­æ–‡", name: "ç®€ä½“ä¸­æ–‡" }
   };
 
 
@@ -47,6 +47,37 @@
 
     de: {
 
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "Hotelbetrieb, Gastronomie, Bestand und Teamarbeit in einem gemeinsamen System. Version 1.0 wird fÃ¼r die VerÃ¶ffentlichung vorbereitet.",
+      "hp.status": "1.0 Â· In Vorbereitung",
+      "hp.title": "Hospitality â€” Hotelbetrieb und Gastronomie | ZALâ€™THERA",
+      "hp.hero": "Der Hotelbetrieb. Gemeinsam im Blick.",
+      "hp.lead": "Von der Reservierung bis zur Bestellung: Hospitality verbindet Rezeption, Housekeeping und Service mit einem nachvollziehbaren gemeinsamen Stand.",
+      "hp.explore": "Funktionen entdecken",
+      "hp.contact": "Hospitality anfragen",
+      "hp.operations": "Ein Betrieb. Verbundene Bereiche.",
+      "hp.rooms": "Zimmer & GÃ¤ste",
+      "hp.roomsText": "Zimmerstatus, GÃ¤ste, Reservierungen sowie An- und Abreisen Ã¼bersichtlich organisieren.",
+      "hp.housekeeping": "Housekeeping & SchÃ¤den",
+      "hp.housekeepingText": "Aufgaben zuweisen, Reinigung verfolgen und SchÃ¤den mit nachvollziehbarem Status festhalten.",
+      "hp.dining": "Restaurant & KÃ¼che",
+      "hp.diningText": "Tische, Speisekarte und Bestellungen verbinden. Der Service erfasst die Bestellung, die KÃ¼che sieht den Arbeitsstand.",
+      "hp.stock": "Bestand & Verbrauch",
+      "hp.stockText": "WareneingÃ¤nge, Verbrauch und Korrekturen protokollieren. VerknÃ¼pfte Bestellungen berÃ¼cksichtigen den Lagerbestand.",
+      "hp.sync": "Team & ZAL Sync",
+      "hp.syncText": "Gekoppelte MitarbeitergerÃ¤te arbeiten im Hotelnetz mit der Zentrale am Mac. Rollen und Freigaben begrenzen den Zugriff.",
+      "hp.invoices": "Rechnungen & Auswertung",
+      "hp.invoicesText": "Rechnungen und erfasste Zahlungen im separaten Journal nachvollziehen und Auswertungen exportieren.",
+      "hp.roadmap": "Was bereitsteht. Was als NÃ¤chstes kommt.",
+      "hp.releaseText": "Die Betriebsfunktionen werden fÃ¼r Version 1.0 vorbereitet. Ein App-Store-Download wird nach der VerÃ¶ffentlichung hier ergÃ¤nzt.",
+      "hp.payments": "Online-Zahlungen Â· Integration & Test",
+      "hp.paymentsText": "Der Gastzugang per QR-Code und die Zahlungsanbindung werden erprobt. Echte Online-Zahlungen sind noch nicht freigeschaltet.",
+      "hp.ai": "2.0 Â· PersÃ¶nliche KI geplant",
+      "hp.aiText": "Geplant ist die Verbindung zwischen Gast und Hotel: persÃ¶nliche KI soll BuchungswÃ¼nsche und RÃ¼ckfragen vorbereiten und Ã¼bergeben. Verbindliche Buchungen und Zahlungen benÃ¶tigen die vorgesehenen BestÃ¤tigungen.",
+      "hp.contactText": "Du mÃ¶chtest Hospitality in deinem Betrieb kennenlernen? Schreib uns mit HotelgrÃ¶ÃŸe und gewÃ¼nschtem Einsatzbereich.",
+      "hp.note": "Das Rechnungsmodul ersetzt keine geprÃ¼fte Kassen- oder SteuerlÃ¶sung.",
+
+
       /* GLOBAL */
 
       "nav.system": "System",
@@ -59,8 +90,8 @@
 
       "global.home": "Home",
       "global.explore": "Explore",
-      "global.open": "Öffnen",
-      "global.close": "Schließen",
+      "global.open": "Ã–ffnen",
+      "global.close": "SchlieÃŸen",
       "global.discover": "Entdecken",
       "global.learnMore": "Mehr erfahren",
       "global.support": "Support",
@@ -69,7 +100,7 @@
       "global.development": "DEVELOPMENT",
       "global.systemModule": "SYSTEM MODULE",
       "global.architecture": "ARCHITECTURE",
-      "global.navOpen": "Navigation öffnen",
+      "global.navOpen": "Navigation Ã¶ffnen",
       "global.mainNavigation": "Hauptnavigation",
 
       "footer.imprint": "Impressum",
@@ -81,25 +112,25 @@
          ======================================================== */
 
       "home.hero.kicker":
-        "SOUVERÄNE DIGITALE ARCHITEKTUR",
+        "SOUVERÃ„NE DIGITALE ARCHITEKTUR",
 
       "home.hero.title":
         "One system.<br>One identity.<br>Connected intelligence.",
 
       "home.hero.description":
-        "ZAL’THERA verbindet Identität, Kontext, künstliche Intelligenz, Daten, Vertrauen, Kommunikation und reale Prozesse in einer gemeinsamen technologischen Architektur.",
+        "ZALâ€™THERA verbindet IdentitÃ¤t, Kontext, kÃ¼nstliche Intelligenz, Daten, Vertrauen, Kommunikation und reale Prozesse in einer gemeinsamen technologischen Architektur.",
 
       "home.hero.primary":
         "System entdecken",
 
       "home.hero.core":
-        "ZAL’THERA Core",
+        "ZALâ€™THERA Core",
 
       "home.state.label":
         "SYSTEMSTATUS",
 
       "home.state.identity":
-        "IDENTITÄT",
+        "IDENTITÃ„T",
 
       "home.state.continuity":
         "CONTINUITY",
@@ -135,10 +166,10 @@
         "Technologie beginnt nicht mit einer App.",
 
       "home.system.lead":
-        "Sie beginnt mit einer gemeinsamen Logik dafür, wer handelt, was verstanden wird, wem vertraut werden darf und welche Aktion tatsächlich ausgeführt werden kann.",
+        "Sie beginnt mit einer gemeinsamen Logik dafÃ¼r, wer handelt, was verstanden wird, wem vertraut werden darf und welche Aktion tatsÃ¤chlich ausgefÃ¼hrt werden kann.",
 
       "home.system.identity.title":
-        "Identität",
+        "IdentitÃ¤t",
 
       "home.system.identity.text":
         "Wer oder welches autorisierte System handelt?",
@@ -153,19 +184,19 @@
         "Intelligenz",
 
       "home.system.intelligence.text":
-        "Was lässt sich aus dem vorhandenen Kontext verstehen?",
+        "Was lÃ¤sst sich aus dem vorhandenen Kontext verstehen?",
 
       "home.system.trust.title":
         "Vertrauen",
 
       "home.system.trust.text":
-        "Was ist erlaubt, belegbar und überprüfbar?",
+        "Was ist erlaubt, belegbar und Ã¼berprÃ¼fbar?",
 
       "home.system.action.title":
         "Aktion",
 
       "home.system.action.text":
-        "Was darf tatsächlich ausgeführt werden?",
+        "Was darf tatsÃ¤chlich ausgefÃ¼hrt werden?",
 
       "home.system.principle":
         "KERNPRINZIP",
@@ -174,22 +205,22 @@
         "Erst verstehen. Dann vorbereiten. Nur mit Erlaubnis handeln.",
 
       "home.system.openArchitecture":
-        "Architektur öffnen",
+        "Architektur Ã¶ffnen",
 
       "home.continuity.eyebrow":
-        "PERSÖNLICHES SOUVERÄNES SYSTEM",
+        "PERSÃ–NLICHES SOUVERÃ„NES SYSTEM",
 
       "home.continuity.status":
         "AKTIVE ENTWICKLUNG",
 
       "home.continuity.tagline":
-        "Dein Lebenskontext. Strukturiert. Verbunden. Verständlich.",
+        "Dein Lebenskontext. Strukturiert. Verbunden. VerstÃ¤ndlich.",
 
       "home.continuity.text1":
-        "CONTINUITY verbindet persönliche Dokumente, Daten, Cards, Timeline, Finanzen, Nachweise und Kontext in einer souveränen persönlichen Umgebung.",
+        "CONTINUITY verbindet persÃ¶nliche Dokumente, Daten, Cards, Timeline, Finanzen, Nachweise und Kontext in einer souverÃ¤nen persÃ¶nlichen Umgebung.",
 
       "home.continuity.text2":
-        "Informationen bleiben nicht als isolierte Dateien liegen. Sie erhalten Kontext, Herkunft, Zeitbezug und eine nachvollziehbare Position im persönlichen System.",
+        "Informationen bleiben nicht als isolierte Dateien liegen. Sie erhalten Kontext, Herkunft, Zeitbezug und eine nachvollziehbare Position im persÃ¶nlichen System.",
 
       "home.continuity.documents": "Dokumente",
       "home.continuity.cards": "Cards",
@@ -205,19 +236,19 @@
         "AKTIVE ENTWICKLUNG",
 
       "home.intelligence.title":
-        "ZAL’THERA Intelligence",
+        "ZALâ€™THERA Intelligence",
 
       "home.intelligence.tagline":
         "Intelligenz, die ihre Grenzen kennt.",
 
       "home.intelligence.text1":
-        "Die Intelligenzschicht arbeitet nicht losgelöst vom Menschen. Sie versteht verfügbaren Kontext, erkennt Zusammenhänge, erklärt Informationen und bereitet mögliche Aktionen vor.",
+        "Die Intelligenzschicht arbeitet nicht losgelÃ¶st vom Menschen. Sie versteht verfÃ¼gbaren Kontext, erkennt ZusammenhÃ¤nge, erklÃ¤rt Informationen und bereitet mÃ¶gliche Aktionen vor.",
 
       "home.intelligence.text2":
         "Konsequente Aktionen bleiben an Berechtigung, Kontext und menschliche Autorisierung gebunden.",
 
       "home.communication.eyebrow":
-        "IDENTITÄT-ZU-IDENTITÄT",
+        "IDENTITÃ„T-ZU-IDENTITÃ„T",
 
       "home.communication.status":
         "AKTIVE ENTWICKLUNG",
@@ -226,13 +257,13 @@
         "Communication",
 
       "home.communication.tagline":
-        "Verbindung beginnt mit Identität und Zustimmung.",
+        "Verbindung beginnt mit IdentitÃ¤t und Zustimmung.",
 
       "home.communication.text1":
-        "ZAL’THERA Communication entwickelt eine sichere Kommunikationsschicht zwischen autorisierten Identitäten.",
+        "ZALâ€™THERA Communication entwickelt eine sichere Kommunikationsschicht zwischen autorisierten IdentitÃ¤ten.",
 
       "home.communication.text2":
-        "Sprache, später Video, Dateien und vertrauensbasierte Zustellung werden nicht über öffentliche Profile definiert, sondern über Identität, Beziehung und Berechtigung.",
+        "Sprache, spÃ¤ter Video, Dateien und vertrauensbasierte Zustellung werden nicht Ã¼ber Ã¶ffentliche Profile definiert, sondern Ã¼ber IdentitÃ¤t, Beziehung und Berechtigung.",
 
       "home.communication.voice": "SPRACHE",
       "home.communication.video": "VIDEO",
@@ -250,22 +281,22 @@
         "ENTWICKLUNG & ARCHITEKTUR",
 
       "home.industry.title":
-        "ZAL’THERA Industry",
+        "ZALâ€™THERA Industry",
 
       "home.industry.tagline":
-        "Reale Prozesse werden zu verständlichen Systemen.",
+        "Reale Prozesse werden zu verstÃ¤ndlichen Systemen.",
 
       "home.industry.text":
-        "Die industrielle Schicht verbindet operative Übergaben, Prozesszustände, Sensordaten, Messwerte und zukünftige Maschinenanbindungen.",
+        "Die industrielle Schicht verbindet operative Ãœbergaben, ProzesszustÃ¤nde, Sensordaten, Messwerte und zukÃ¼nftige Maschinenanbindungen.",
 
       "home.industry.shift":
-        "Schichtübergabe & operative Zustände",
+        "SchichtÃ¼bergabe & operative ZustÃ¤nde",
 
       "home.industry.gate":
         "Sensorik, Messwerte & Maschinenprozesse",
 
       "home.industry.process":
-        "Analyse & nachvollziehbare Prozesszustände",
+        "Analyse & nachvollziehbare ProzesszustÃ¤nde",
 
       "home.proof.eyebrow":
         "NACHWEIS & VERTRAUEN",
@@ -277,48 +308,48 @@
         "ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu einem nachvollziehbaren Ablauf.",
 
       "home.proof.open":
-        "ProofFlow öffnen",
+        "ProofFlow Ã¶ffnen",
 
       "home.products.eyebrow":
         "SYSTEMPORTFOLIO",
 
       "home.products.title":
-        "Ein Ökosystem. Unterschiedliche Reifegrade.",
+        "Ein Ã–kosystem. Unterschiedliche Reifegrade.",
 
       "home.products.lead":
-        "ZAL’THERA trennt klar zwischen verfügbaren Produkten, aktiver Entwicklung, Systemmodulen und zukünftiger Architektur.",
+        "ZALâ€™THERA trennt klar zwischen verfÃ¼gbaren Produkten, aktiver Entwicklung, Systemmodulen und zukÃ¼nftiger Architektur.",
 
       "home.products.lifeflow":
-        "Kosten, Verträge, Fristen und persönliche Finanzübersicht.",
+        "Kosten, VertrÃ¤ge, Fristen und persÃ¶nliche FinanzÃ¼bersicht.",
 
       "home.products.continuity":
-        "Persönliche souveräne Umgebung für Dokumente, Daten, Kontext und Intelligenz.",
+        "PersÃ¶nliche souverÃ¤ne Umgebung fÃ¼r Dokumente, Daten, Kontext und Intelligenz.",
 
       "home.products.proofflow":
-        "Nachweise, Audit, Signatur und überprüfbare Abläufe.",
+        "Nachweise, Audit, Signatur und Ã¼berprÃ¼fbare AblÃ¤ufe.",
 
       "home.products.shiftlog":
-        "Digitale Schichtübergabe für operative Zustände und Verantwortlichkeiten.",
+        "Digitale SchichtÃ¼bergabe fÃ¼r operative ZustÃ¤nde und Verantwortlichkeiten.",
 
       "home.products.voicebridge":
-        "Entwicklung einer vertrauensbasierten direkten Sprachverbindung zwischen autorisierten Identitäten.",
+        "Entwicklung einer vertrauensbasierten direkten Sprachverbindung zwischen autorisierten IdentitÃ¤ten.",
 
       "home.products.zalgate":
-        "Architektur für die Verbindung von Sensorik, Messwerten, Maschinen und Prozesszuständen.",
+        "Architektur fÃ¼r die Verbindung von Sensorik, Messwerten, Maschinen und ProzesszustÃ¤nden.",
 
-      "home.products.open": "Öffnen →",
-      "home.products.viewSystem": "System ansehen →",
-      "home.products.viewDevelopment": "Entwicklung ansehen →",
-      "home.products.viewArchitecture": "Architektur →",
+      "home.products.open": "Ã–ffnen â†’",
+      "home.products.viewSystem": "System ansehen â†’",
+      "home.products.viewDevelopment": "Entwicklung ansehen â†’",
+      "home.products.viewArchitecture": "Architektur â†’",
 
       "home.pilot.eyebrow":
         "KONTROLLIERTER REALER EINSTIEG",
 
       "home.pilot.title":
-        "ZAL’THERA Pilot",
+        "ZALâ€™THERA Pilot",
 
       "home.pilot.text":
-        "Einen klar abgegrenzten realen Prozess verstehen, kontrolliert testen und den tatsächlichen Nutzen prüfen – ohne den bestehenden Betrieb sofort vollständig zu ersetzen.",
+        "Einen klar abgegrenzten realen Prozess verstehen, kontrolliert testen und den tatsÃ¤chlichen Nutzen prÃ¼fen â€“ ohne den bestehenden Betrieb sofort vollstÃ¤ndig zu ersetzen.",
 
       "home.pilot.discover":
         "Pilot entdecken",
@@ -330,33 +361,33 @@
         "UNTER JEDEM SYSTEM",
 
       "home.core.title":
-        "ZAL’THERA CORE",
+        "ZALâ€™THERA CORE",
 
       "home.core.text":
-        "Identity, Policy, Consent, Audit, Ledger, Trust und kontrollierte Ausführung bilden den technischen Kern hinter dem Ökosystem.",
+        "Identity, Policy, Consent, Audit, Ledger, Trust und kontrollierte AusfÃ¼hrung bilden den technischen Kern hinter dem Ã–kosystem.",
 
       "home.core.discover":
         "Core entdecken",
 
       "home.contact.eyebrow": "KONTAKT",
-      "home.contact.title": "ZAL’THERA kontaktieren",
+      "home.contact.title": "ZALâ€™THERA kontaktieren",
 
       "home.contact.text":
-        "Fragen zu ZAL’THERA, einem System oder bestehenden Modulen?",
+        "Fragen zu ZALâ€™THERA, einem System oder bestehenden Modulen?",
 
       "home.contact.name": "Name",
       "home.contact.namePlaceholder": "Dein Name",
       "home.contact.email": "E-Mail",
       "home.contact.emailPlaceholder": "deine@email.de",
       "home.contact.message": "Nachricht",
-      "home.contact.messagePlaceholder": "Deine Nachricht …",
+      "home.contact.messagePlaceholder": "Deine Nachricht â€¦",
       "home.contact.send": "Senden",
 
       "home.contact.privacyPrefix":
         "Mit dem Absenden akzeptierst du unsere",
 
       "home.contact.privacy":
-        "Datenschutzerklärung",
+        "DatenschutzerklÃ¤rung",
 
 
       /* ========================================================
@@ -370,13 +401,13 @@
         "Vertrauen sollte nicht<br>vorausgesetzt werden.<br>Es sollte konstruiert werden.",
 
       "core.hero.description":
-        "ZAL’THERA Core verbindet Identität, Kontext, Regeln, Zustimmung, Nachweis und kontrollierte Ausführung zu einer gemeinsamen Vertrauensarchitektur.",
+        "ZALâ€™THERA Core verbindet IdentitÃ¤t, Kontext, Regeln, Zustimmung, Nachweis und kontrollierte AusfÃ¼hrung zu einer gemeinsamen Vertrauensarchitektur.",
 
       "core.hero.architecture":
-        "Architektur öffnen",
+        "Architektur Ã¶ffnen",
 
       "core.hero.identityBound":
-        "IDENTITÄTSGEBUNDEN",
+        "IDENTITÃ„TSGEBUNDEN",
 
       "core.hero.policyGoverned":
         "REGELGESTEUERT",
@@ -391,7 +422,7 @@
         "KERNPRINZIPIEN",
 
       "core.status.identity":
-        "IDENTITÄT",
+        "IDENTITÃ„T",
 
       "core.status.who":
         "WER",
@@ -421,25 +452,25 @@
         "NACHWEIS",
 
       "core.status.execution":
-        "AUSFÜHRUNG",
+        "AUSFÃœHRUNG",
 
       "core.status.act":
         "HANDELN",
 
       "core.architecture.eyebrow":
-        "ÖFFENTLICHE ARCHITEKTUR",
+        "Ã–FFENTLICHE ARCHITEKTUR",
 
       "core.architecture.title":
-        "Fünf Ebenen. Eine nachvollziehbare Entscheidungskette.",
+        "FÃ¼nf Ebenen. Eine nachvollziehbare Entscheidungskette.",
 
       "core.architecture.lead":
-        "Die öffentliche Architektur erklärt die Grundlogik von ZAL’THERA, ohne interne Sicherheitsimplementierungen, private Schlüsselstrukturen oder Protokolldetails offenzulegen.",
+        "Die Ã¶ffentliche Architektur erklÃ¤rt die Grundlogik von ZALâ€™THERA, ohne interne Sicherheitsimplementierungen, private SchlÃ¼sselstrukturen oder Protokolldetails offenzulegen.",
 
       "core.architecture.identity.title":
-        "Identität",
+        "IdentitÃ¤t",
 
       "core.architecture.identity.text":
-        "Eine Handlung beginnt mit einer eindeutig zugeordneten Identität, Rolle oder autorisierten Systeminstanz.",
+        "Eine Handlung beginnt mit einer eindeutig zugeordneten IdentitÃ¤t, Rolle oder autorisierten Systeminstanz.",
 
       "core.architecture.context.title":
         "Kontext",
@@ -451,19 +482,19 @@
         "Intelligenz",
 
       "core.architecture.intelligence.text":
-        "Systeme dürfen Informationen strukturieren, erklären und mögliche nächste Schritte vorbereiten.",
+        "Systeme dÃ¼rfen Informationen strukturieren, erklÃ¤ren und mÃ¶gliche nÃ¤chste Schritte vorbereiten.",
 
       "core.architecture.trust.title":
         "Vertrauen",
 
       "core.architecture.trust.text":
-        "Berechtigungen, Nachweise, Consent und Audit bestimmen, was als vertrauenswürdig gelten darf.",
+        "Berechtigungen, Nachweise, Consent und Audit bestimmen, was als vertrauenswÃ¼rdig gelten darf.",
 
       "core.architecture.action.title":
         "Aktion",
 
       "core.architecture.action.text":
-        "Konsequente Aktionen werden erst ausgeführt, wenn die erforderlichen Bedingungen erfüllt sind.",
+        "Konsequente Aktionen werden erst ausgefÃ¼hrt, wenn die erforderlichen Bedingungen erfÃ¼llt sind.",
 
       "core.architecture.principle":
         "SYSTEMPRINZIP",
@@ -478,22 +509,22 @@
         "TECHNISCHER KERN",
 
       "core.technical.lead":
-        "Unterhalb der öffentlichen Architektur arbeitet eine präzisere Kontrollkette für nachvollziehbare Systemaktionen.",
+        "Unterhalb der Ã¶ffentlichen Architektur arbeitet eine prÃ¤zisere Kontrollkette fÃ¼r nachvollziehbare Systemaktionen.",
 
       "core.technical.policy.title":
         "Policy",
 
       "core.technical.policy.text":
-        "Regeln definieren Grenzen, Zustände, Berechtigungen und Bedingungen.",
+        "Regeln definieren Grenzen, ZustÃ¤nde, Berechtigungen und Bedingungen.",
 
       "core.technical.policy.question":
         "WAS IST ERLAUBT?",
 
       "core.technical.identity.title":
-        "Identität",
+        "IdentitÃ¤t",
 
       "core.technical.identity.text":
-        "Aktionen werden einer Person, Rolle, Identität oder autorisierten Instanz zugeordnet.",
+        "Aktionen werden einer Person, Rolle, IdentitÃ¤t oder autorisierten Instanz zugeordnet.",
 
       "core.technical.identity.question":
         "WER HANDELT?",
@@ -508,10 +539,10 @@
         "WAS IST PASSIERT?",
 
       "core.technical.execute.title":
-        "Ausführen",
+        "AusfÃ¼hren",
 
       "core.technical.execute.text":
-        "Eine Aktion darf den sichtbaren Zustand erst verändern, wenn die notwendigen Bedingungen erfüllt sind.",
+        "Eine Aktion darf den sichtbaren Zustand erst verÃ¤ndern, wenn die notwendigen Bedingungen erfÃ¼llt sind.",
 
       "core.technical.execute.question":
         "DARF ES GESCHEHEN?",
@@ -520,13 +551,13 @@
         "THE LEDGER",
 
       "core.ledger.title":
-        "Ein lokaler Wahrheitskern für überprüfbare Ereignisse.",
+        "Ein lokaler Wahrheitskern fÃ¼r Ã¼berprÃ¼fbare Ereignisse.",
 
       "core.ledger.text1":
-        "THE LEDGER hält relevante Ereignisse in nachvollziehbarer Reihenfolge fest. Einträge werden ergänzt, miteinander verbunden und können später geprüft werden.",
+        "THE LEDGER hÃ¤lt relevante Ereignisse in nachvollziehbarer Reihenfolge fest. EintrÃ¤ge werden ergÃ¤nzt, miteinander verbunden und kÃ¶nnen spÃ¤ter geprÃ¼ft werden.",
 
       "core.ledger.text2":
-        "Das Ziel ist nicht, sämtliche Information zentral zu sammeln. Das Ziel ist, relevante Zustandsänderungen nachvollziehbar und überprüfbar zu machen.",
+        "Das Ziel ist nicht, sÃ¤mtliche Information zentral zu sammeln. Das Ziel ist, relevante ZustandsÃ¤nderungen nachvollziehbar und Ã¼berprÃ¼fbar zu machen.",
 
       "core.ledger.created":
         "ERSTELLT",
@@ -541,22 +572,22 @@
         "VERIFIZIERT",
 
       "core.ledger.appendOnly.title":
-        "Nur ergänzend",
+        "Nur ergÃ¤nzend",
 
       "core.ledger.appendOnly.text":
-        "Relevante Ereignisse werden ergänzt, nicht unbemerkt überschrieben.",
+        "Relevante Ereignisse werden ergÃ¤nzt, nicht unbemerkt Ã¼berschrieben.",
 
       "core.ledger.linked.title":
-        "Verknüpft",
+        "VerknÃ¼pft",
 
       "core.ledger.linked.text":
         "Ereignisse erhalten eine nachvollziehbare Beziehung zueinander.",
 
       "core.ledger.verifiable.title":
-        "Überprüfbar",
+        "ÃœberprÃ¼fbar",
 
       "core.ledger.verifiable.text":
-        "Struktur, Integrität und Herkunft können geprüft werden.",
+        "Struktur, IntegritÃ¤t und Herkunft kÃ¶nnen geprÃ¼ft werden.",
 
       "core.trust.eyebrow":
         "VERTRAUENSSCHICHT",
@@ -565,13 +596,13 @@
         "Vertrauen wird nicht behauptet.",
 
       "core.trust.lead":
-        "Es entsteht aus überprüfbaren Zuständen, Identitäten, Berechtigungen und Nachweisen.",
+        "Es entsteht aus Ã¼berprÃ¼fbaren ZustÃ¤nden, IdentitÃ¤ten, Berechtigungen und Nachweisen.",
 
       "core.trust.proof.title":
         "Nachweisvertrauen",
 
       "core.trust.proof.text":
-        "Existiert ein gültiger Nachweis für die behauptete Aktion?",
+        "Existiert ein gÃ¼ltiger Nachweis fÃ¼r die behauptete Aktion?",
 
       "core.trust.policy.title":
         "Regelvertrauen",
@@ -580,25 +611,25 @@
         "Wurde innerhalb der vorgesehenen Regeln gehandelt?",
 
       "core.trust.identity.title":
-        "Identitätsvertrauen",
+        "IdentitÃ¤tsvertrauen",
 
       "core.trust.identity.text":
-        "Ist die handelnde Identität eindeutig und autorisiert?",
+        "Ist die handelnde IdentitÃ¤t eindeutig und autorisiert?",
 
       "core.trust.audit.title":
         "Audit-Vertrauen",
 
       "core.trust.audit.text":
-        "Ist der Ablauf vollständig genug, um später nachvollzogen zu werden?",
+        "Ist der Ablauf vollstÃ¤ndig genug, um spÃ¤ter nachvollzogen zu werden?",
 
       "core.authorization.eyebrow":
         "MENSCHLICHES AUTORISIERUNGSTOR",
 
       "core.authorization.title":
-        "Intelligenz darf vorbereiten.<br>Autorität bleibt ausdrücklich.",
+        "Intelligenz darf vorbereiten.<br>AutoritÃ¤t bleibt ausdrÃ¼cklich.",
 
       "core.authorization.text":
-        "ZAL’THERA kann Informationen verstehen, strukturieren, erklären und Handlungsmöglichkeiten vorbereiten. Konsequente Aktionen bleiben jedoch an die erforderliche menschliche oder ausdrücklich delegierte Autorisierung gebunden.",
+        "ZALâ€™THERA kann Informationen verstehen, strukturieren, erklÃ¤ren und HandlungsmÃ¶glichkeiten vorbereiten. Konsequente Aktionen bleiben jedoch an die erforderliche menschliche oder ausdrÃ¼cklich delegierte Autorisierung gebunden.",
 
       "core.application.eyebrow":
         "SYSTEMANWENDUNG",
@@ -607,34 +638,34 @@
         "Ein Kern. Mehrere Anwendungswelten.",
 
       "core.application.personal":
-        "PERSÖNLICH",
+        "PERSÃ–NLICH",
 
       "core.application.continuity":
-        "Dokumente · Finanzen · Kontext · Cards",
+        "Dokumente Â· Finanzen Â· Kontext Â· Cards",
 
       "core.application.proof":
         "NACHWEIS",
 
       "core.application.proofflow":
-        "Nachweis · Audit · Signatur · Export",
+        "Nachweis Â· Audit Â· Signatur Â· Export",
 
       "core.application.communication":
         "KOMMUNIKATION",
 
       "core.application.voicebridge":
-        "Identität · Zustimmung · Sprache · Vertrauen",
+        "IdentitÃ¤t Â· Zustimmung Â· Sprache Â· Vertrauen",
 
       "core.application.industry":
         "INDUSTRIE",
 
       "core.application.shiftlog":
-        "Übergabe · Zustand · Verantwortung",
+        "Ãœbergabe Â· Zustand Â· Verantwortung",
 
       "core.return.title":
         "Der Kern ist nicht das Produkt.<br>Er verbindet die Produkte.",
 
       "core.return.button":
-        "Zurück zum System"
+        "ZurÃ¼ck zum System"
     },
 
 
@@ -643,6 +674,37 @@
        ========================================================== */
 
     en: {
+
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "Hotel operations, dining, inventory and teamwork in one shared system. Version 1.0 is being prepared for release.",
+      "hp.status": "1.0 Â· Preparing for release",
+      "hp.title": "Hospitality â€” Hotel operations and dining | ZALâ€™THERA",
+      "hp.hero": "Hotel operations. A shared view.",
+      "hp.lead": "From reservations to orders: Hospitality connects reception, housekeeping and service through a traceable shared view.",
+      "hp.explore": "Explore features",
+      "hp.contact": "Ask about Hospitality",
+      "hp.operations": "One operation. Connected teams.",
+      "hp.rooms": "Rooms & guests",
+      "hp.roomsText": "Organize room status, guests, reservations, arrivals and departures in one clear view.",
+      "hp.housekeeping": "Housekeeping & damage",
+      "hp.housekeepingText": "Assign tasks, track cleaning and record damage with a traceable status.",
+      "hp.dining": "Restaurant & kitchen",
+      "hp.diningText": "Connect tables, menus and orders. Service records the order; the kitchen follows its progress.",
+      "hp.stock": "Inventory & usage",
+      "hp.stockText": "Log incoming goods, usage and corrections. Linked orders update inventory.",
+      "hp.sync": "Team & ZAL Sync",
+      "hp.syncText": "Paired employee devices work with the Mac hotel centre over the hotel network. Roles and approvals limit access.",
+      "hp.invoices": "Invoices & reports",
+      "hp.invoicesText": "Trace invoices and recorded payments in a separate journal and export reports.",
+      "hp.roadmap": "Where we are. What comes next.",
+      "hp.releaseText": "Operational features are being prepared for version 1.0. An App Store download will be added here after release.",
+      "hp.payments": "Online payments Â· Integration & testing",
+      "hp.paymentsText": "QR guest access and payment integration are being tested. Live online payments are not enabled yet.",
+      "hp.ai": "2.0 Â· Personal AI planned",
+      "hp.aiText": "The plan connects guest and hotel: personal AI would prepare and relay booking requests and questions. Binding bookings and payments require the designated approvals.",
+      "hp.contactText": "Want to explore Hospitality for your business? Tell us your hotel size and intended use.",
+      "hp.note": "The invoice module does not replace a validated cash-register or tax solution.",
+
 
       "nav.system": "System",
       "nav.continuity": "CONTINUITY",
@@ -680,13 +742,13 @@
         "One system.<br>One identity.<br>Connected intelligence.",
 
       "home.hero.description":
-        "ZAL’THERA connects identity, context, artificial intelligence, data, trust, communication and real-world processes within one shared technological architecture.",
+        "ZALâ€™THERA connects identity, context, artificial intelligence, data, trust, communication and real-world processes within one shared technological architecture.",
 
       "home.hero.primary":
         "Discover the system",
 
       "home.hero.core":
-        "ZAL’THERA Core",
+        "ZALâ€™THERA Core",
 
       "home.state.label": "SYSTEM STATE",
       "home.state.identity": "IDENTITY",
@@ -744,7 +806,7 @@
 
       "home.intelligence.eyebrow": "CONTEXTUAL INTELLIGENCE",
       "home.intelligence.status": "ACTIVE DEVELOPMENT",
-      "home.intelligence.title": "ZAL’THERA Intelligence",
+      "home.intelligence.title": "ZALâ€™THERA Intelligence",
       "home.intelligence.tagline": "Intelligence that knows its limits.",
 
       "home.intelligence.text1":
@@ -759,7 +821,7 @@
       "home.communication.tagline": "Connection begins with identity and consent.",
 
       "home.communication.text1":
-        "ZAL’THERA Communication is developing a secure communication layer between authorized identities.",
+        "ZALâ€™THERA Communication is developing a secure communication layer between authorized identities.",
 
       "home.communication.text2":
         "Voice, later video, files and trusted delivery are defined not through public profiles, but through identity, relationship and authorization.",
@@ -773,7 +835,7 @@
 
       "home.industry.eyebrow": "REAL-WORLD SYSTEMS",
       "home.industry.status": "DEVELOPMENT & ARCHITECTURE",
-      "home.industry.title": "ZAL’THERA Industry",
+      "home.industry.title": "ZALâ€™THERA Industry",
       "home.industry.tagline": "Real processes become understandable systems.",
 
       "home.industry.text":
@@ -795,7 +857,7 @@
       "home.products.title": "One ecosystem. Different levels of maturity.",
 
       "home.products.lead":
-        "ZAL’THERA clearly distinguishes between available products, active development, system modules and future architecture.",
+        "ZALâ€™THERA clearly distinguishes between available products, active development, system modules and future architecture.",
 
       "home.products.lifeflow": "Costs, contracts, deadlines and personal financial overview.",
 
@@ -814,13 +876,13 @@
       "home.products.zalgate":
         "Architecture connecting sensors, measurements, machines and process states.",
 
-      "home.products.open": "Open →",
-      "home.products.viewSystem": "View system →",
-      "home.products.viewDevelopment": "View development →",
-      "home.products.viewArchitecture": "Architecture →",
+      "home.products.open": "Open â†’",
+      "home.products.viewSystem": "View system â†’",
+      "home.products.viewDevelopment": "View development â†’",
+      "home.products.viewArchitecture": "Architecture â†’",
 
       "home.pilot.eyebrow": "CONTROLLED REAL-WORLD ENTRY",
-      "home.pilot.title": "ZAL’THERA Pilot",
+      "home.pilot.title": "ZALâ€™THERA Pilot",
 
       "home.pilot.text":
         "Understand a clearly defined real-world process, test it in a controlled way and verify actual value without immediately replacing the existing operation.",
@@ -829,7 +891,7 @@
       "home.pilot.request": "Request Pilot",
 
       "home.core.eyebrow": "BENEATH EVERY SYSTEM",
-      "home.core.title": "ZAL’THERA CORE",
+      "home.core.title": "ZALâ€™THERA CORE",
 
       "home.core.text":
         "Identity, Policy, Consent, Audit, Ledger, Trust and controlled execution form the technical core behind the ecosystem.",
@@ -837,17 +899,17 @@
       "home.core.discover": "Discover Core",
 
       "home.contact.eyebrow": "CONTACT",
-      "home.contact.title": "Contact ZAL’THERA",
+      "home.contact.title": "Contact ZALâ€™THERA",
 
       "home.contact.text":
-        "Questions about ZAL’THERA, a system or existing modules?",
+        "Questions about ZALâ€™THERA, a system or existing modules?",
 
       "home.contact.name": "Name",
       "home.contact.namePlaceholder": "Your name",
       "home.contact.email": "Email",
       "home.contact.emailPlaceholder": "your@email.com",
       "home.contact.message": "Message",
-      "home.contact.messagePlaceholder": "Your message …",
+      "home.contact.messagePlaceholder": "Your message â€¦",
       "home.contact.send": "Send",
       "home.contact.privacyPrefix": "By submitting, you accept our",
       "home.contact.privacy": "Privacy Policy",
@@ -862,7 +924,7 @@
         "Trust should not<br>be assumed.<br>It should be constructed.",
 
       "core.hero.description":
-        "ZAL’THERA Core connects identity, context, policy, consent, evidence and controlled execution into one shared trust architecture.",
+        "ZALâ€™THERA Core connects identity, context, policy, consent, evidence and controlled execution into one shared trust architecture.",
 
       "core.hero.architecture":
         "Open architecture",
@@ -902,7 +964,7 @@
         "Five layers. One traceable decision chain.",
 
       "core.architecture.lead":
-        "The public architecture explains the fundamental logic of ZAL’THERA without exposing internal security implementations, private key structures or protocol details.",
+        "The public architecture explains the fundamental logic of ZALâ€™THERA without exposing internal security implementations, private key structures or protocol details.",
 
       "core.architecture.identity.title":
         "Identity",
@@ -1060,7 +1122,7 @@
         "Intelligence may prepare.<br>Authority remains explicit.",
 
       "core.authorization.text":
-        "ZAL’THERA may understand, structure and explain information and prepare possible actions. Consequential actions remain bound to the required human or explicitly delegated authorization.",
+        "ZALâ€™THERA may understand, structure and explain information and prepare possible actions. Consequential actions remain bound to the required human or explicitly delegated authorization.",
 
       "core.application.eyebrow":
         "SYSTEM APPLICATION",
@@ -1072,25 +1134,25 @@
         "PERSONAL",
 
       "core.application.continuity":
-        "Documents · Finance · Context · Cards",
+        "Documents Â· Finance Â· Context Â· Cards",
 
       "core.application.proof":
         "PROOF",
 
       "core.application.proofflow":
-        "Evidence · Audit · Signature · Export",
+        "Evidence Â· Audit Â· Signature Â· Export",
 
       "core.application.communication":
         "COMMUNICATION",
 
       "core.application.voicebridge":
-        "Identity · Consent · Voice · Trust",
+        "Identity Â· Consent Â· Voice Â· Trust",
 
       "core.application.industry":
         "INDUSTRY",
 
       "core.application.shiftlog":
-        "Handover · State · Responsibility",
+        "Handover Â· State Â· Responsibility",
 
       "core.return.title":
         "The core is not the product.<br>It is what connects the products.",
@@ -1101,289 +1163,351 @@
 
 
     /* ==========================================================
-       TÜRKÇE
+       TÃœRKÃ‡E
        ========================================================== */
 
     tr: {
 
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "Otel iÅŸletimi, restoran, stok ve ekip Ã§alÄ±ÅŸmasÄ± ortak bir sistemde. SÃ¼rÃ¼m 1.0 yayÄ±ma hazÄ±rlanÄ±yor.",
+      "hp.status": "1.0 Â· YayÄ±ma hazÄ±rlanÄ±yor",
+      "hp.title": "Hospitality â€” Otel iÅŸletimi ve restoran | ZALâ€™THERA",
+      "hp.hero": "Otel iÅŸletimi. Ortak bir bakÄ±ÅŸ.",
+      "hp.lead": "Rezervasyondan sipariÅŸe: Hospitality resepsiyon, kat hizmetleri ve servisi izlenebilir ortak bir gÃ¶rÃ¼nÃ¼mde birleÅŸtirir.",
+      "hp.explore": "Ã–zellikleri keÅŸfet",
+      "hp.contact": "Hospitality hakkÄ±nda bilgi alÄ±n",
+      "hp.operations": "Tek iÅŸletme. BaÄŸlÄ± ekipler.",
+      "hp.rooms": "Odalar ve misafirler",
+      "hp.roomsText": "Oda durumu, misafirler, rezervasyonlar, giriÅŸ ve Ã§Ä±kÄ±ÅŸlarÄ± dÃ¼zenleyin.",
+      "hp.housekeeping": "Kat hizmetleri ve hasarlar",
+      "hp.housekeepingText": "GÃ¶rev atayÄ±n, temizliÄŸi takip edin ve hasarlarÄ± izlenebilir durumlarla kaydedin.",
+      "hp.dining": "Restoran ve mutfak",
+      "hp.diningText": "MasalarÄ±, menÃ¼yÃ¼ ve sipariÅŸleri birleÅŸtirin. Servis sipariÅŸi kaydeder, mutfak ilerlemeyi gÃ¶rÃ¼r.",
+      "hp.stock": "Stok ve tÃ¼ketim",
+      "hp.stockText": "Mal giriÅŸlerini, tÃ¼ketimi ve dÃ¼zeltmeleri kaydedin. BaÄŸlÄ± sipariÅŸler stoku gÃ¼nceller.",
+      "hp.sync": "Ekip ve ZAL Sync",
+      "hp.syncText": "EÅŸleÅŸtirilmiÅŸ Ã§alÄ±ÅŸan cihazlarÄ± otel aÄŸÄ±nda Mac merkeziyle Ã§alÄ±ÅŸÄ±r. Roller ve onaylar eriÅŸimi sÄ±nÄ±rlar.",
+      "hp.invoices": "Faturalar ve raporlar",
+      "hp.invoicesText": "FaturalarÄ± ve kayÄ±tlÄ± Ã¶demeleri ayrÄ± bir gÃ¼nlÃ¼kte izleyin ve raporlarÄ± dÄ±ÅŸa aktarÄ±n.",
+      "hp.roadmap": "Mevcut durum. SÄ±rada ne var.",
+      "hp.releaseText": "Ä°ÅŸletim Ã¶zellikleri sÃ¼rÃ¼m 1.0 iÃ§in hazÄ±rlanÄ±yor. YayÄ±mdan sonra App Store baÄŸlantÄ±sÄ± eklenecek.",
+      "hp.payments": "Ã‡evrimiÃ§i Ã¶demeler Â· Entegrasyon ve test",
+      "hp.paymentsText": "QR misafir eriÅŸimi ve Ã¶deme entegrasyonu test ediliyor. GerÃ§ek Ã§evrimiÃ§i Ã¶demeler henÃ¼z etkin deÄŸil.",
+      "hp.ai": "2.0 Â· KiÅŸisel yapay zekÃ¢ planlanÄ±yor",
+      "hp.aiText": "Plan, misafir ve oteli baÄŸlar: kiÅŸisel yapay zekÃ¢ rezervasyon taleplerini ve sorularÄ± hazÄ±rlayÄ±p iletecek. BaÄŸlayÄ±cÄ± rezervasyonlar ve Ã¶demeler gerekli onaylarÄ± gerektirir.",
+      "hp.contactText": "Hospitalityâ€™yi iÅŸletmenizde tanÄ±mak ister misiniz? Otel bÃ¼yÃ¼klÃ¼ÄŸÃ¼nÃ¼ ve kullanÄ±m alanÄ±nÄ± bize yazÄ±n.",
+      "hp.note": "Fatura modÃ¼lÃ¼, doÄŸrulanmÄ±ÅŸ kasa veya vergi Ã§Ã¶zÃ¼mÃ¼nÃ¼n yerini almaz.",
+
+
       "nav.system": "Sistem",
       "nav.continuity": "CONTINUITY",
-      "nav.intelligence": "Zekâ",
-      "nav.communication": "İletişim",
-      "nav.industry": "Endüstri",
-      "nav.products": "Ürünler",
-      "nav.about": "Hakkında",
+      "nav.intelligence": "ZekÃ¢",
+      "nav.communication": "Ä°letiÅŸim",
+      "nav.industry": "EndÃ¼stri",
+      "nav.products": "ÃœrÃ¼nler",
+      "nav.about": "HakkÄ±nda",
 
       "global.home": "Ana Sayfa",
-      "global.explore": "Keşfet",
-      "global.open": "Aç",
+      "global.explore": "KeÅŸfet",
+      "global.open": "AÃ§",
       "global.close": "Kapat",
-      "global.discover": "Keşfet",
+      "global.discover": "KeÅŸfet",
       "global.learnMore": "Daha fazla bilgi",
       "global.support": "Destek",
-      "global.contact": "İletişim",
+      "global.contact": "Ä°letiÅŸim",
       "global.available": "MEVCUT",
-      "global.development": "GELİŞTİRME",
-      "global.systemModule": "SİSTEM MODÜLÜ",
-      "global.architecture": "MİMARİ",
-      "global.navOpen": "Navigasyonu aç",
+      "global.development": "GELÄ°ÅžTÄ°RME",
+      "global.systemModule": "SÄ°STEM MODÃœLÃœ",
+      "global.architecture": "MÄ°MARÄ°",
+      "global.navOpen": "Navigasyonu aÃ§",
       "global.mainNavigation": "Ana navigasyon",
 
       "footer.imprint": "Yasal Bilgiler",
       "footer.privacy": "Gizlilik",
 
       "core.hero.kicker":
-        "SİSTEM TEMELİ",
+        "SÄ°STEM TEMELÄ°",
 
       "core.hero.title":
-        "Güven varsayılmamalı.<br>İnşa edilmelidir.",
+        "GÃ¼ven varsayÄ±lmamalÄ±.<br>Ä°nÅŸa edilmelidir.",
 
       "core.hero.description":
-        "ZAL’THERA Core; kimlik, bağlam, kurallar, onay, kanıt ve kontrollü yürütmeyi ortak bir güven mimarisinde birleştirir.",
+        "ZALâ€™THERA Core; kimlik, baÄŸlam, kurallar, onay, kanÄ±t ve kontrollÃ¼ yÃ¼rÃ¼tmeyi ortak bir gÃ¼ven mimarisinde birleÅŸtirir.",
 
       "core.hero.architecture":
-        "Mimariyi aç",
+        "Mimariyi aÃ§",
 
       "core.hero.identityBound":
-        "KİMLİĞE BAĞLI",
+        "KÄ°MLÄ°ÄžE BAÄžLI",
 
       "core.hero.policyGoverned":
-        "KURALLARLA YÖNETİLEN",
+        "KURALLARLA YÃ–NETÄ°LEN",
 
       "core.hero.auditable":
-        "DENETLENEBİLİR",
+        "DENETLENEBÄ°LÄ°R",
 
       "core.hero.humanAuthorized":
-        "İNSAN TARAFINDAN YETKİLENDİRİLMİŞ",
+        "Ä°NSAN TARAFINDAN YETKÄ°LENDÄ°RÄ°LMÄ°Åž",
 
       "core.status.label":
-        "TEMEL İLKELER",
+        "TEMEL Ä°LKELER",
 
-      "core.status.identity": "KİMLİK",
-      "core.status.who": "KİM",
-      "core.status.context": "BAĞLAM",
+      "core.status.identity": "KÄ°MLÄ°K",
+      "core.status.who": "KÄ°M",
+      "core.status.context": "BAÄžLAM",
       "core.status.why": "NEDEN",
-      "core.status.policy": "POLİTİKA",
+      "core.status.policy": "POLÄ°TÄ°KA",
       "core.status.what": "NE",
       "core.status.consent": "ONAY",
-      "core.status.allow": "İZİN",
-      "core.status.audit": "DENETİM",
+      "core.status.allow": "Ä°ZÄ°N",
+      "core.status.audit": "DENETÄ°M",
       "core.status.prove": "KANIT",
-      "core.status.execution": "YÜRÜTME",
+      "core.status.execution": "YÃœRÃœTME",
       "core.status.act": "HAREKET",
 
       "core.architecture.eyebrow":
-        "KAMUSAL MİMARİ",
+        "KAMUSAL MÄ°MARÄ°",
 
       "core.architecture.title":
-        "Beş katman. Tek izlenebilir karar zinciri.",
+        "BeÅŸ katman. Tek izlenebilir karar zinciri.",
 
       "core.architecture.lead":
-        "Kamusal mimari, dahili güvenlik uygulamalarını, özel anahtar yapılarını veya protokol ayrıntılarını açığa çıkarmadan ZAL’THERA’nın temel mantığını açıklar.",
+        "Kamusal mimari, dahili gÃ¼venlik uygulamalarÄ±nÄ±, Ã¶zel anahtar yapÄ±larÄ±nÄ± veya protokol ayrÄ±ntÄ±larÄ±nÄ± aÃ§Ä±ÄŸa Ã§Ä±karmadan ZALâ€™THERAâ€™nÄ±n temel mantÄ±ÄŸÄ±nÄ± aÃ§Ä±klar.",
 
       "core.architecture.identity.title":
         "Kimlik",
 
       "core.architecture.identity.text":
-        "Bir eylem açıkça atanmış bir kimlik, rol veya yetkili sistem örneğiyle başlar.",
+        "Bir eylem aÃ§Ä±kÃ§a atanmÄ±ÅŸ bir kimlik, rol veya yetkili sistem Ã¶rneÄŸiyle baÅŸlar.",
 
       "core.architecture.context.title":
-        "Bağlam",
+        "BaÄŸlam",
 
       "core.architecture.context.text":
-        "Bilgi yalıtılmış olarak değil, kaynak, zaman ve ilişkiyle birlikte anlaşılır.",
+        "Bilgi yalÄ±tÄ±lmÄ±ÅŸ olarak deÄŸil, kaynak, zaman ve iliÅŸkiyle birlikte anlaÅŸÄ±lÄ±r.",
 
       "core.architecture.intelligence.title":
-        "Zekâ",
+        "ZekÃ¢",
 
       "core.architecture.intelligence.text":
-        "Sistemler bilgiyi yapılandırabilir, açıklayabilir ve olası sonraki adımları hazırlayabilir.",
+        "Sistemler bilgiyi yapÄ±landÄ±rabilir, aÃ§Ä±klayabilir ve olasÄ± sonraki adÄ±mlarÄ± hazÄ±rlayabilir.",
 
       "core.architecture.trust.title":
-        "Güven",
+        "GÃ¼ven",
 
       "core.architecture.trust.text":
-        "Yetkiler, kanıtlar, onay ve denetim, neyin güvenilir kabul edilebileceğini belirler.",
+        "Yetkiler, kanÄ±tlar, onay ve denetim, neyin gÃ¼venilir kabul edilebileceÄŸini belirler.",
 
       "core.architecture.action.title":
         "Eylem",
 
       "core.architecture.action.text":
-        "Önemli eylemler yalnızca gerekli koşullar sağlandığında gerçekleştirilir.",
+        "Ã–nemli eylemler yalnÄ±zca gerekli koÅŸullar saÄŸlandÄ±ÄŸÄ±nda gerÃ§ekleÅŸtirilir.",
 
       "core.architecture.principle":
-        "SİSTEM İLKESİ",
+        "SÄ°STEM Ä°LKESÄ°",
 
       "core.architecture.principleText":
-        "Önce anla. Sonra hazırla. Yalnızca izinle hareket et.",
+        "Ã–nce anla. Sonra hazÄ±rla. YalnÄ±zca izinle hareket et.",
 
       "core.architecture.technicalCore":
-        "Teknik Çekirdek",
+        "Teknik Ã‡ekirdek",
 
       "core.technical.eyebrow":
-        "TEKNİK ÇEKİRDEK",
+        "TEKNÄ°K Ã‡EKÄ°RDEK",
 
       "core.technical.lead":
-        "Kamusal mimarinin altında, izlenebilir sistem eylemleri için daha hassas bir kontrol zinciri çalışır.",
+        "Kamusal mimarinin altÄ±nda, izlenebilir sistem eylemleri iÃ§in daha hassas bir kontrol zinciri Ã§alÄ±ÅŸÄ±r.",
 
       "core.technical.policy.title": "Policy",
 
       "core.technical.policy.text":
-        "Kurallar sınırları, durumları, yetkileri ve koşulları tanımlar.",
+        "Kurallar sÄ±nÄ±rlarÄ±, durumlarÄ±, yetkileri ve koÅŸullarÄ± tanÄ±mlar.",
 
       "core.technical.policy.question":
-        "NEYE İZİN VAR?",
+        "NEYE Ä°ZÄ°N VAR?",
 
       "core.technical.identity.title":
         "Kimlik",
 
       "core.technical.identity.text":
-        "Eylemler bir kişiye, role, kimliğe veya yetkili örneğe atanır.",
+        "Eylemler bir kiÅŸiye, role, kimliÄŸe veya yetkili Ã¶rneÄŸe atanÄ±r.",
 
       "core.technical.identity.question":
-        "KİM HAREKET EDİYOR?",
+        "KÄ°M HAREKET EDÄ°YOR?",
 
       "core.technical.audit.title":
         "Denetim",
 
       "core.technical.audit.text":
-        "İlgili olaylar kaynak, zaman ve durum bilgileriyle izlenebilir biçimde belgelenir.",
+        "Ä°lgili olaylar kaynak, zaman ve durum bilgileriyle izlenebilir biÃ§imde belgelenir.",
 
       "core.technical.audit.question":
         "NE OLDU?",
 
       "core.technical.execute.title":
-        "Yürütme",
+        "YÃ¼rÃ¼tme",
 
       "core.technical.execute.text":
-        "Bir eylem yalnızca gerekli koşullar sağlandıktan sonra görünür durumu değiştirebilir.",
+        "Bir eylem yalnÄ±zca gerekli koÅŸullar saÄŸlandÄ±ktan sonra gÃ¶rÃ¼nÃ¼r durumu deÄŸiÅŸtirebilir.",
 
       "core.technical.execute.question":
-        "GERÇEKLEŞEBİLİR Mİ?",
+        "GERÃ‡EKLEÅžEBÄ°LÄ°R MÄ°?",
 
       "core.ledger.eyebrow":
         "THE LEDGER",
 
       "core.ledger.title":
-        "Doğrulanabilir olaylar için yerel bir gerçeklik çekirdeği.",
+        "DoÄŸrulanabilir olaylar iÃ§in yerel bir gerÃ§eklik Ã§ekirdeÄŸi.",
 
       "core.ledger.text1":
-        "THE LEDGER ilgili olayları izlenebilir bir sırayla kaydeder. Kayıtlar eklenir, birbirine bağlanır ve daha sonra incelenebilir.",
+        "THE LEDGER ilgili olaylarÄ± izlenebilir bir sÄ±rayla kaydeder. KayÄ±tlar eklenir, birbirine baÄŸlanÄ±r ve daha sonra incelenebilir.",
 
       "core.ledger.text2":
-        "Amaç tüm bilgileri merkezi olarak toplamak değildir. Amaç önemli durum değişikliklerini izlenebilir ve doğrulanabilir hale getirmektir.",
+        "AmaÃ§ tÃ¼m bilgileri merkezi olarak toplamak deÄŸildir. AmaÃ§ Ã¶nemli durum deÄŸiÅŸikliklerini izlenebilir ve doÄŸrulanabilir hale getirmektir.",
 
-      "core.ledger.created": "OLUŞTURULDU",
+      "core.ledger.created": "OLUÅžTURULDU",
       "core.ledger.proof": "KANIT",
-      "core.ledger.signed": "İMZALANDI",
-      "core.ledger.verified": "DOĞRULANDI",
+      "core.ledger.signed": "Ä°MZALANDI",
+      "core.ledger.verified": "DOÄžRULANDI",
 
       "core.ledger.appendOnly.title":
-        "Yalnızca ekleme",
+        "YalnÄ±zca ekleme",
 
       "core.ledger.appendOnly.text":
-        "İlgili olaylar sessizce üzerine yazılmak yerine eklenir.",
+        "Ä°lgili olaylar sessizce Ã¼zerine yazÄ±lmak yerine eklenir.",
 
       "core.ledger.linked.title":
-        "Bağlantılı",
+        "BaÄŸlantÄ±lÄ±",
 
       "core.ledger.linked.text":
-        "Olaylar birbirleriyle izlenebilir ilişkiler taşır.",
+        "Olaylar birbirleriyle izlenebilir iliÅŸkiler taÅŸÄ±r.",
 
       "core.ledger.verifiable.title":
-        "Doğrulanabilir",
+        "DoÄŸrulanabilir",
 
       "core.ledger.verifiable.text":
-        "Yapı, bütünlük ve kaynak doğrulanabilir.",
+        "YapÄ±, bÃ¼tÃ¼nlÃ¼k ve kaynak doÄŸrulanabilir.",
 
       "core.trust.eyebrow":
-        "GÜVEN KATMANI",
+        "GÃœVEN KATMANI",
 
       "core.trust.title":
-        "Güven yalnızca iddia edilmez.",
+        "GÃ¼ven yalnÄ±zca iddia edilmez.",
 
       "core.trust.lead":
-        "Doğrulanabilir durumlar, kimlikler, yetkiler ve kanıtlardan oluşur.",
+        "DoÄŸrulanabilir durumlar, kimlikler, yetkiler ve kanÄ±tlardan oluÅŸur.",
 
       "core.trust.proof.title":
-        "Kanıt Güveni",
+        "KanÄ±t GÃ¼veni",
 
       "core.trust.proof.text":
-        "İddia edilen eylem için geçerli bir kanıt mevcut mu?",
+        "Ä°ddia edilen eylem iÃ§in geÃ§erli bir kanÄ±t mevcut mu?",
 
       "core.trust.policy.title":
-        "Politika Güveni",
+        "Politika GÃ¼veni",
 
       "core.trust.policy.text":
-        "Eylem öngörülen kurallar içinde mi gerçekleştirildi?",
+        "Eylem Ã¶ngÃ¶rÃ¼len kurallar iÃ§inde mi gerÃ§ekleÅŸtirildi?",
 
       "core.trust.identity.title":
-        "Kimlik Güveni",
+        "Kimlik GÃ¼veni",
 
       "core.trust.identity.text":
-        "Hareket eden kimlik açıkça belirlenmiş ve yetkili mi?",
+        "Hareket eden kimlik aÃ§Ä±kÃ§a belirlenmiÅŸ ve yetkili mi?",
 
       "core.trust.audit.title":
-        "Denetim Güveni",
+        "Denetim GÃ¼veni",
 
       "core.trust.audit.text":
-        "Süreç daha sonra yeniden anlaşılabilecek kadar eksiksiz mi?",
+        "SÃ¼reÃ§ daha sonra yeniden anlaÅŸÄ±labilecek kadar eksiksiz mi?",
 
       "core.authorization.eyebrow":
-        "İNSAN YETKİLENDİRME KAPISI",
+        "Ä°NSAN YETKÄ°LENDÄ°RME KAPISI",
 
       "core.authorization.title":
-        "Zekâ hazırlayabilir.<br>Yetki açık kalır.",
+        "ZekÃ¢ hazÄ±rlayabilir.<br>Yetki aÃ§Ä±k kalÄ±r.",
 
       "core.authorization.text":
-        "ZAL’THERA bilgiyi anlayabilir, yapılandırabilir, açıklayabilir ve olası eylemleri hazırlayabilir. Önemli eylemler gerekli insan veya açıkça devredilmiş yetkilendirmeye bağlı kalır.",
+        "ZALâ€™THERA bilgiyi anlayabilir, yapÄ±landÄ±rabilir, aÃ§Ä±klayabilir ve olasÄ± eylemleri hazÄ±rlayabilir. Ã–nemli eylemler gerekli insan veya aÃ§Ä±kÃ§a devredilmiÅŸ yetkilendirmeye baÄŸlÄ± kalÄ±r.",
 
       "core.application.eyebrow":
-        "SİSTEM UYGULAMASI",
+        "SÄ°STEM UYGULAMASI",
 
       "core.application.title":
-        "Tek çekirdek. Birden fazla uygulama alanı.",
+        "Tek Ã§ekirdek. Birden fazla uygulama alanÄ±.",
 
-      "core.application.personal": "KİŞİSEL",
+      "core.application.personal": "KÄ°ÅžÄ°SEL",
 
       "core.application.continuity":
-        "Belgeler · Finans · Bağlam · Cards",
+        "Belgeler Â· Finans Â· BaÄŸlam Â· Cards",
 
       "core.application.proof": "KANIT",
 
       "core.application.proofflow":
-        "Kanıt · Denetim · İmza · Dışa Aktarma",
+        "KanÄ±t Â· Denetim Â· Ä°mza Â· DÄ±ÅŸa Aktarma",
 
       "core.application.communication":
-        "İLETİŞİM",
+        "Ä°LETÄ°ÅžÄ°M",
 
       "core.application.voicebridge":
-        "Kimlik · Onay · Ses · Güven",
+        "Kimlik Â· Onay Â· Ses Â· GÃ¼ven",
 
       "core.application.industry":
-        "ENDÜSTRİ",
+        "ENDÃœSTRÄ°",
 
       "core.application.shiftlog":
-        "Devir · Durum · Sorumluluk",
+        "Devir Â· Durum Â· Sorumluluk",
 
       "core.return.title":
-        "Çekirdek ürün değildir.<br>Ürünleri birbirine bağlayan yapıdır.",
+        "Ã‡ekirdek Ã¼rÃ¼n deÄŸildir.<br>ÃœrÃ¼nleri birbirine baÄŸlayan yapÄ±dÄ±r.",
 
       "core.return.button":
-        "Sisteme dön"
+        "Sisteme dÃ¶n"
     },
 
 
     /* ==========================================================
-       ESPAÑOL
+       ESPAÃ‘OL
        ========================================================== */
 
     es: {
 
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "OperaciÃ³n hotelera, restauraciÃ³n, inventario y equipo en un sistema compartido. La versiÃ³n 1.0 se prepara para su lanzamiento.",
+      "hp.status": "1.0 Â· En preparaciÃ³n",
+      "hp.title": "Hospitality â€” OperaciÃ³n hotelera y restauraciÃ³n | ZALâ€™THERA",
+      "hp.hero": "El hotel. Una visiÃ³n compartida.",
+      "hp.lead": "De las reservas a los pedidos: Hospitality conecta recepciÃ³n, limpieza y servicio con una visiÃ³n compartida y trazable.",
+      "hp.explore": "Explorar funciones",
+      "hp.contact": "Consultar sobre Hospitality",
+      "hp.operations": "Un hotel. Equipos conectados.",
+      "hp.rooms": "Habitaciones y huÃ©spedes",
+      "hp.roomsText": "Organiza estados de habitaciones, huÃ©spedes, reservas, llegadas y salidas.",
+      "hp.housekeeping": "Limpieza e incidencias",
+      "hp.housekeepingText": "Asigna tareas, sigue la limpieza y registra incidencias con estados trazables.",
+      "hp.dining": "Restaurante y cocina",
+      "hp.diningText": "Conecta mesas, carta y pedidos. El servicio registra el pedido y cocina sigue su estado.",
+      "hp.stock": "Inventario y consumo",
+      "hp.stockText": "Registra entradas, consumos y ajustes. Los pedidos vinculados actualizan las existencias.",
+      "hp.sync": "Equipo y ZAL Sync",
+      "hp.syncText": "Los dispositivos vinculados trabajan con la central del Mac en la red del hotel. Roles y autorizaciones limitan el acceso.",
+      "hp.invoices": "Facturas e informes",
+      "hp.invoicesText": "Consulta facturas y pagos registrados en un diario separado y exporta informes.",
+      "hp.roadmap": "DÃ³nde estamos. QuÃ© sigue.",
+      "hp.releaseText": "Las funciones operativas se preparan para la versiÃ³n 1.0. El enlace de App Store se aÃ±adirÃ¡ tras el lanzamiento.",
+      "hp.payments": "Pagos en lÃ­nea Â· IntegraciÃ³n y pruebas",
+      "hp.paymentsText": "El acceso QR para huÃ©spedes y la integraciÃ³n de pagos estÃ¡n en pruebas. Los pagos reales aÃºn no estÃ¡n habilitados.",
+      "hp.ai": "2.0 Â· IA personal prevista",
+      "hp.aiText": "El plan conecta huÃ©sped y hotel: la IA personal prepararÃ¡ y transmitirÃ¡ solicitudes y preguntas. Reservas vinculantes y pagos requieren las confirmaciones previstas.",
+      "hp.contactText": "Â¿Quieres conocer Hospitality para tu negocio? Indica el tamaÃ±o del hotel y el uso previsto.",
+      "hp.note": "El mÃ³dulo de facturaciÃ³n no sustituye una soluciÃ³n de caja o fiscal validada.",
+
+
       "nav.system": "Sistema",
       "nav.continuity": "CONTINUITY",
       "nav.intelligence": "Inteligencia",
-      "nav.communication": "Comunicación",
+      "nav.communication": "ComunicaciÃ³n",
       "nav.industry": "Industria",
       "nav.products": "Productos",
       "nav.about": "Acerca de",
@@ -1393,15 +1517,15 @@
       "global.open": "Abrir",
       "global.close": "Cerrar",
       "global.discover": "Descubrir",
-      "global.learnMore": "Más información",
+      "global.learnMore": "MÃ¡s informaciÃ³n",
       "global.support": "Soporte",
       "global.contact": "Contacto",
       "global.available": "DISPONIBLE",
       "global.development": "DESARROLLO",
-      "global.systemModule": "MÓDULO DEL SISTEMA",
+      "global.systemModule": "MÃ“DULO DEL SISTEMA",
       "global.architecture": "ARQUITECTURA",
-      "global.navOpen": "Abrir navegación",
-      "global.mainNavigation": "Navegación principal",
+      "global.navOpen": "Abrir navegaciÃ³n",
+      "global.mainNavigation": "NavegaciÃ³n principal",
 
       "footer.imprint": "Aviso legal",
       "footer.privacy": "Privacidad",
@@ -1410,10 +1534,10 @@
         "BASE DEL SISTEMA",
 
       "core.hero.title":
-        "La confianza no debería<br>darse por sentada.<br>Debe construirse.",
+        "La confianza no deberÃ­a<br>darse por sentada.<br>Debe construirse.",
 
       "core.hero.description":
-        "ZAL’THERA Core conecta identidad, contexto, reglas, consentimiento, evidencia y ejecución controlada en una arquitectura común de confianza.",
+        "ZALâ€™THERA Core conecta identidad, contexto, reglas, consentimiento, evidencia y ejecuciÃ³n controlada en una arquitectura comÃºn de confianza.",
 
       "core.hero.architecture":
         "Abrir arquitectura",
@@ -1431,56 +1555,56 @@
         "AUTORIZADO POR PERSONAS",
 
       "core.status.label":
-        "PRINCIPIOS DEL NÚCLEO",
+        "PRINCIPIOS DEL NÃšCLEO",
 
       "core.status.identity": "IDENTIDAD",
-      "core.status.who": "QUIÉN",
+      "core.status.who": "QUIÃ‰N",
       "core.status.context": "CONTEXTO",
-      "core.status.why": "POR QUÉ",
-      "core.status.policy": "POLÍTICA",
-      "core.status.what": "QUÉ",
+      "core.status.why": "POR QUÃ‰",
+      "core.status.policy": "POLÃTICA",
+      "core.status.what": "QUÃ‰",
       "core.status.consent": "CONSENTIMIENTO",
       "core.status.allow": "PERMITIR",
-      "core.status.audit": "AUDITORÍA",
+      "core.status.audit": "AUDITORÃA",
       "core.status.prove": "PROBAR",
-      "core.status.execution": "EJECUCIÓN",
+      "core.status.execution": "EJECUCIÃ“N",
       "core.status.act": "ACTUAR",
 
       "core.architecture.eyebrow":
-        "ARQUITECTURA PÚBLICA",
+        "ARQUITECTURA PÃšBLICA",
 
       "core.architecture.title":
         "Cinco capas. Una cadena de decisiones trazable.",
 
       "core.architecture.lead":
-        "La arquitectura pública explica la lógica fundamental de ZAL’THERA sin revelar implementaciones internas de seguridad, estructuras de claves privadas ni detalles de protocolos.",
+        "La arquitectura pÃºblica explica la lÃ³gica fundamental de ZALâ€™THERA sin revelar implementaciones internas de seguridad, estructuras de claves privadas ni detalles de protocolos.",
 
       "core.architecture.identity.title":
         "Identidad",
 
       "core.architecture.identity.text":
-        "Una acción comienza con una identidad, función o instancia de sistema autorizada claramente asignada.",
+        "Una acciÃ³n comienza con una identidad, funciÃ³n o instancia de sistema autorizada claramente asignada.",
 
       "core.architecture.context.title":
         "Contexto",
 
       "core.architecture.context.text":
-        "La información no se analiza de forma aislada, sino junto con su procedencia, tiempo y relación.",
+        "La informaciÃ³n no se analiza de forma aislada, sino junto con su procedencia, tiempo y relaciÃ³n.",
 
       "core.architecture.intelligence.title":
         "Inteligencia",
 
       "core.architecture.intelligence.text":
-        "Los sistemas pueden estructurar información, explicarla y preparar posibles pasos siguientes.",
+        "Los sistemas pueden estructurar informaciÃ³n, explicarla y preparar posibles pasos siguientes.",
 
       "core.architecture.trust.title":
         "Confianza",
 
       "core.architecture.trust.text":
-        "Los permisos, las pruebas, el consentimiento y la auditoría determinan qué puede considerarse confiable.",
+        "Los permisos, las pruebas, el consentimiento y la auditorÃ­a determinan quÃ© puede considerarse confiable.",
 
       "core.architecture.action.title":
-        "Acción",
+        "AcciÃ³n",
 
       "core.architecture.action.text":
         "Las acciones importantes solo se ejecutan cuando se cumplen las condiciones necesarias.",
@@ -1489,64 +1613,64 @@
         "PRINCIPIO DEL SISTEMA",
 
       "core.architecture.principleText":
-        "Primero comprender. Después preparar. Actuar solo con permiso.",
+        "Primero comprender. DespuÃ©s preparar. Actuar solo con permiso.",
 
       "core.architecture.technicalCore":
-        "Núcleo técnico",
+        "NÃºcleo tÃ©cnico",
 
       "core.technical.eyebrow":
-        "NÚCLEO TÉCNICO",
+        "NÃšCLEO TÃ‰CNICO",
 
       "core.technical.lead":
-        "Por debajo de la arquitectura pública funciona una cadena de control más precisa para acciones trazables del sistema.",
+        "Por debajo de la arquitectura pÃºblica funciona una cadena de control mÃ¡s precisa para acciones trazables del sistema.",
 
       "core.technical.policy.title":
         "Policy",
 
       "core.technical.policy.text":
-        "Las reglas definen límites, estados, permisos y condiciones.",
+        "Las reglas definen lÃ­mites, estados, permisos y condiciones.",
 
       "core.technical.policy.question":
-        "¿QUÉ ESTÁ PERMITIDO?",
+        "Â¿QUÃ‰ ESTÃ PERMITIDO?",
 
       "core.technical.identity.title":
         "Identidad",
 
       "core.technical.identity.text":
-        "Las acciones se asignan a una persona, función, identidad o instancia autorizada.",
+        "Las acciones se asignan a una persona, funciÃ³n, identidad o instancia autorizada.",
 
       "core.technical.identity.question":
-        "¿QUIÉN ACTÚA?",
+        "Â¿QUIÃ‰N ACTÃšA?",
 
       "core.technical.audit.title":
-        "Auditoría",
+        "AuditorÃ­a",
 
       "core.technical.audit.text":
         "Los eventos relevantes se documentan con procedencia, momento y estado para permitir su trazabilidad.",
 
       "core.technical.audit.question":
-        "¿QUÉ OCURRIÓ?",
+        "Â¿QUÃ‰ OCURRIÃ“?",
 
       "core.technical.execute.title":
         "Ejecutar",
 
       "core.technical.execute.text":
-        "Una acción solo puede modificar el estado visible cuando se hayan cumplido las condiciones necesarias.",
+        "Una acciÃ³n solo puede modificar el estado visible cuando se hayan cumplido las condiciones necesarias.",
 
       "core.technical.execute.question":
-        "¿PUEDE OCURRIR?",
+        "Â¿PUEDE OCURRIR?",
 
       "core.ledger.eyebrow":
         "THE LEDGER",
 
       "core.ledger.title":
-        "Un núcleo local de verdad para eventos verificables.",
+        "Un nÃºcleo local de verdad para eventos verificables.",
 
       "core.ledger.text1":
-        "THE LEDGER registra eventos relevantes en una secuencia trazable. Las entradas se añaden, se vinculan y pueden examinarse posteriormente.",
+        "THE LEDGER registra eventos relevantes en una secuencia trazable. Las entradas se aÃ±aden, se vinculan y pueden examinarse posteriormente.",
 
       "core.ledger.text2":
-        "El objetivo no es recopilar toda la información de forma centralizada. El objetivo es hacer trazables y verificables los cambios de estado relevantes.",
+        "El objetivo no es recopilar toda la informaciÃ³n de forma centralizada. El objetivo es hacer trazables y verificables los cambios de estado relevantes.",
 
       "core.ledger.created": "CREADO",
       "core.ledger.proof": "PRUEBA",
@@ -1554,16 +1678,16 @@
       "core.ledger.verified": "VERIFICADO",
 
       "core.ledger.appendOnly.title":
-        "Solo añadir",
+        "Solo aÃ±adir",
 
       "core.ledger.appendOnly.text":
-        "Los eventos relevantes se añaden en lugar de sobrescribirse silenciosamente.",
+        "Los eventos relevantes se aÃ±aden en lugar de sobrescribirse silenciosamente.",
 
       "core.ledger.linked.title":
         "Vinculado",
 
       "core.ledger.linked.text":
-        "Los eventos mantienen relaciones trazables entre sí.",
+        "Los eventos mantienen relaciones trazables entre sÃ­.",
 
       "core.ledger.verifiable.title":
         "Verificable",
@@ -1584,52 +1708,52 @@
         "Confianza en la prueba",
 
       "core.trust.proof.text":
-        "¿Existe una prueba válida de la acción declarada?",
+        "Â¿Existe una prueba vÃ¡lida de la acciÃ³n declarada?",
 
       "core.trust.policy.title":
         "Confianza en las reglas",
 
       "core.trust.policy.text":
-        "¿La acción se realizó dentro de las reglas previstas?",
+        "Â¿La acciÃ³n se realizÃ³ dentro de las reglas previstas?",
 
       "core.trust.identity.title":
         "Confianza en la identidad",
 
       "core.trust.identity.text":
-        "¿La identidad que actúa está claramente establecida y autorizada?",
+        "Â¿La identidad que actÃºa estÃ¡ claramente establecida y autorizada?",
 
       "core.trust.audit.title":
-        "Confianza de auditoría",
+        "Confianza de auditorÃ­a",
 
       "core.trust.audit.text":
-        "¿El proceso está lo suficientemente completo como para reconstruirse posteriormente?",
+        "Â¿El proceso estÃ¡ lo suficientemente completo como para reconstruirse posteriormente?",
 
       "core.authorization.eyebrow":
-        "PUERTA DE AUTORIZACIÓN HUMANA",
+        "PUERTA DE AUTORIZACIÃ“N HUMANA",
 
       "core.authorization.title":
-        "La inteligencia puede preparar.<br>La autoridad permanece explícita.",
+        "La inteligencia puede preparar.<br>La autoridad permanece explÃ­cita.",
 
       "core.authorization.text":
-        "ZAL’THERA puede comprender, estructurar y explicar información, y preparar posibles acciones. Las acciones importantes permanecen vinculadas a la autorización humana necesaria o expresamente delegada.",
+        "ZALâ€™THERA puede comprender, estructurar y explicar informaciÃ³n, y preparar posibles acciones. Las acciones importantes permanecen vinculadas a la autorizaciÃ³n humana necesaria o expresamente delegada.",
 
       "core.application.eyebrow":
-        "APLICACIÓN DEL SISTEMA",
+        "APLICACIÃ“N DEL SISTEMA",
 
       "core.application.title":
-        "Un núcleo. Varios ámbitos de aplicación.",
+        "Un nÃºcleo. Varios Ã¡mbitos de aplicaciÃ³n.",
 
       "core.application.personal": "PERSONAL",
-      "core.application.continuity": "Documentos · Finanzas · Contexto · Cards",
+      "core.application.continuity": "Documentos Â· Finanzas Â· Contexto Â· Cards",
       "core.application.proof": "PRUEBA",
-      "core.application.proofflow": "Evidencia · Auditoría · Firma · Exportación",
-      "core.application.communication": "COMUNICACIÓN",
-      "core.application.voicebridge": "Identidad · Consentimiento · Voz · Confianza",
+      "core.application.proofflow": "Evidencia Â· AuditorÃ­a Â· Firma Â· ExportaciÃ³n",
+      "core.application.communication": "COMUNICACIÃ“N",
+      "core.application.voicebridge": "Identidad Â· Consentimiento Â· Voz Â· Confianza",
       "core.application.industry": "INDUSTRIA",
-      "core.application.shiftlog": "Relevo · Estado · Responsabilidad",
+      "core.application.shiftlog": "Relevo Â· Estado Â· Responsabilidad",
 
       "core.return.title":
-        "El núcleo no es el producto.<br>Es lo que conecta los productos.",
+        "El nÃºcleo no es el producto.<br>Es lo que conecta los productos.",
 
       "core.return.button":
         "Volver al sistema"
@@ -1637,65 +1761,96 @@
 
 
     /* ==========================================================
-       FRANÇAIS
+       FRANÃ‡AIS
        ========================================================== */
 
     fr: {
 
-      "nav.system": "Système",
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "Exploitation hÃ´teliÃ¨re, restauration, stocks et travail en Ã©quipe dans un systÃ¨me commun. La version 1.0 est en prÃ©paration.",
+      "hp.status": "1.0 Â· En prÃ©paration",
+      "hp.title": "Hospitality â€” HÃ´tellerie et restauration | ZALâ€™THERA",
+      "hp.hero": "Lâ€™hÃ´tel. Une vision partagÃ©e.",
+      "hp.lead": "Des rÃ©servations aux commandes : Hospitality relie rÃ©ception, entretien et service autour dâ€™un Ã©tat commun et traÃ§able.",
+      "hp.explore": "DÃ©couvrir les fonctions",
+      "hp.contact": "Se renseigner sur Hospitality",
+      "hp.operations": "Un Ã©tablissement. Des Ã©quipes reliÃ©es.",
+      "hp.rooms": "Chambres et clients",
+      "hp.roomsText": "Organisez lâ€™Ã©tat des chambres, les clients, rÃ©servations, arrivÃ©es et dÃ©parts.",
+      "hp.housekeeping": "Entretien et dommages",
+      "hp.housekeepingText": "Attribuez les tÃ¢ches, suivez le nettoyage et consignez les dommages avec un statut traÃ§able.",
+      "hp.dining": "Restaurant et cuisine",
+      "hp.diningText": "Reliez tables, carte et commandes. Le service saisit la commande ; la cuisine suit son avancement.",
+      "hp.stock": "Stocks et consommation",
+      "hp.stockText": "Consignez rÃ©ceptions, consommations et corrections. Les commandes liÃ©es mettent Ã  jour les stocks.",
+      "hp.sync": "Ã‰quipe et ZAL Sync",
+      "hp.syncText": "Les appareils associÃ©s travaillent avec la centrale sur Mac via le rÃ©seau de lâ€™hÃ´tel. RÃ´les et autorisations limitent lâ€™accÃ¨s.",
+      "hp.invoices": "Factures et rapports",
+      "hp.invoicesText": "Suivez factures et paiements enregistrÃ©s dans un journal sÃ©parÃ© et exportez les rapports.",
+      "hp.roadmap": "OÃ¹ nous en sommes. La suite.",
+      "hp.releaseText": "Les fonctions opÃ©rationnelles sont prÃ©parÃ©es pour la version 1.0. Le lien App Store sera ajoutÃ© aprÃ¨s publication.",
+      "hp.payments": "Paiements en ligne Â· IntÃ©gration et tests",
+      "hp.paymentsText": "Lâ€™accÃ¨s client par QR et lâ€™intÃ©gration des paiements sont en test. Les paiements rÃ©els ne sont pas encore activÃ©s.",
+      "hp.ai": "2.0 Â· IA personnelle prÃ©vue",
+      "hp.aiText": "Le projet relie client et hÃ´tel : lâ€™IA personnelle prÃ©parerait et transmettrait demandes et questions. RÃ©servations fermes et paiements nÃ©cessitent les validations prÃ©vues.",
+      "hp.contactText": "Vous souhaitez dÃ©couvrir Hospitality pour votre Ã©tablissement ? Indiquez sa taille et lâ€™usage prÃ©vu.",
+      "hp.note": "Le module de facturation ne remplace pas une solution de caisse ou fiscale validÃ©e.",
+
+
+      "nav.system": "SystÃ¨me",
       "nav.continuity": "CONTINUITY",
       "nav.intelligence": "Intelligence",
       "nav.communication": "Communication",
       "nav.industry": "Industrie",
       "nav.products": "Produits",
-      "nav.about": "À propos",
+      "nav.about": "Ã€ propos",
 
       "global.home": "Accueil",
       "global.explore": "Explorer",
       "global.open": "Ouvrir",
       "global.close": "Fermer",
-      "global.discover": "Découvrir",
+      "global.discover": "DÃ©couvrir",
       "global.learnMore": "En savoir plus",
       "global.support": "Support",
       "global.contact": "Contact",
       "global.available": "DISPONIBLE",
-      "global.development": "DÉVELOPPEMENT",
-      "global.systemModule": "MODULE SYSTÈME",
+      "global.development": "DÃ‰VELOPPEMENT",
+      "global.systemModule": "MODULE SYSTÃˆME",
       "global.architecture": "ARCHITECTURE",
       "global.navOpen": "Ouvrir la navigation",
       "global.mainNavigation": "Navigation principale",
 
-      "footer.imprint": "Mentions légales",
-      "footer.privacy": "Confidentialité",
+      "footer.imprint": "Mentions lÃ©gales",
+      "footer.privacy": "ConfidentialitÃ©",
 
       "core.hero.kicker":
-        "FONDATION DU SYSTÈME",
+        "FONDATION DU SYSTÃˆME",
 
       "core.hero.title":
-        "La confiance ne devrait pas<br>être supposée.<br>Elle devrait être construite.",
+        "La confiance ne devrait pas<br>Ãªtre supposÃ©e.<br>Elle devrait Ãªtre construite.",
 
       "core.hero.description":
-        "ZAL’THERA Core relie identité, contexte, règles, consentement, preuve et exécution contrôlée dans une architecture de confiance commune.",
+        "ZALâ€™THERA Core relie identitÃ©, contexte, rÃ¨gles, consentement, preuve et exÃ©cution contrÃ´lÃ©e dans une architecture de confiance commune.",
 
       "core.hero.architecture":
-        "Ouvrir l’architecture",
+        "Ouvrir lâ€™architecture",
 
       "core.hero.identityBound":
-        "LIÉ À L’IDENTITÉ",
+        "LIÃ‰ Ã€ Lâ€™IDENTITÃ‰",
 
       "core.hero.policyGoverned":
-        "GOUVERNÉ PAR DES RÈGLES",
+        "GOUVERNÃ‰ PAR DES RÃˆGLES",
 
       "core.hero.auditable":
         "AUDITABLE",
 
       "core.hero.humanAuthorized":
-        "AUTORISÉ PAR L’HUMAIN",
+        "AUTORISÃ‰ PAR Lâ€™HUMAIN",
 
       "core.status.label":
         "PRINCIPES DU CORE",
 
-      "core.status.identity": "IDENTITÉ",
+      "core.status.identity": "IDENTITÃ‰",
       "core.status.who": "QUI",
       "core.status.context": "CONTEXTE",
       "core.status.why": "POURQUOI",
@@ -1705,53 +1860,53 @@
       "core.status.allow": "AUTORISER",
       "core.status.audit": "AUDIT",
       "core.status.prove": "PROUVER",
-      "core.status.execution": "EXÉCUTION",
+      "core.status.execution": "EXÃ‰CUTION",
       "core.status.act": "AGIR",
 
       "core.architecture.eyebrow":
         "ARCHITECTURE PUBLIQUE",
 
       "core.architecture.title":
-        "Cinq niveaux. Une chaîne de décision traçable.",
+        "Cinq niveaux. Une chaÃ®ne de dÃ©cision traÃ§able.",
 
       "core.architecture.lead":
-        "L’architecture publique explique la logique fondamentale de ZAL’THERA sans révéler les implémentations internes de sécurité, les structures de clés privées ou les détails de protocole.",
+        "Lâ€™architecture publique explique la logique fondamentale de ZALâ€™THERA sans rÃ©vÃ©ler les implÃ©mentations internes de sÃ©curitÃ©, les structures de clÃ©s privÃ©es ou les dÃ©tails de protocole.",
 
       "core.architecture.identity.title":
-        "Identité",
+        "IdentitÃ©",
 
       "core.architecture.identity.text":
-        "Une action commence par une identité, un rôle ou une instance système autorisée clairement attribuée.",
+        "Une action commence par une identitÃ©, un rÃ´le ou une instance systÃ¨me autorisÃ©e clairement attribuÃ©e.",
 
       "core.architecture.context.title":
         "Contexte",
 
       "core.architecture.context.text":
-        "Les informations ne sont pas examinées isolément, mais comprises avec leur provenance, leur temporalité et leurs relations.",
+        "Les informations ne sont pas examinÃ©es isolÃ©ment, mais comprises avec leur provenance, leur temporalitÃ© et leurs relations.",
 
       "core.architecture.intelligence.title":
         "Intelligence",
 
       "core.architecture.intelligence.text":
-        "Les systèmes peuvent structurer les informations, les expliquer et préparer les étapes suivantes possibles.",
+        "Les systÃ¨mes peuvent structurer les informations, les expliquer et prÃ©parer les Ã©tapes suivantes possibles.",
 
       "core.architecture.trust.title":
         "Confiance",
 
       "core.architecture.trust.text":
-        "Les permissions, preuves, consentements et audits déterminent ce qui peut être considéré comme fiable.",
+        "Les permissions, preuves, consentements et audits dÃ©terminent ce qui peut Ãªtre considÃ©rÃ© comme fiable.",
 
       "core.architecture.action.title":
         "Action",
 
       "core.architecture.action.text":
-        "Les actions importantes ne sont exécutées que lorsque les conditions requises sont satisfaites.",
+        "Les actions importantes ne sont exÃ©cutÃ©es que lorsque les conditions requises sont satisfaites.",
 
       "core.architecture.principle":
-        "PRINCIPE SYSTÈME",
+        "PRINCIPE SYSTÃˆME",
 
       "core.architecture.principleText":
-        "Comprendre d’abord. Préparer ensuite. Agir uniquement avec autorisation.",
+        "Comprendre dâ€™abord. PrÃ©parer ensuite. Agir uniquement avec autorisation.",
 
       "core.architecture.technicalCore":
         "Core technique",
@@ -1760,21 +1915,21 @@
         "CORE TECHNIQUE",
 
       "core.technical.lead":
-        "Sous l’architecture publique fonctionne une chaîne de contrôle plus précise pour les actions système traçables.",
+        "Sous lâ€™architecture publique fonctionne une chaÃ®ne de contrÃ´le plus prÃ©cise pour les actions systÃ¨me traÃ§ables.",
 
       "core.technical.policy.title": "Policy",
 
       "core.technical.policy.text":
-        "Les règles définissent les limites, les états, les permissions et les conditions.",
+        "Les rÃ¨gles dÃ©finissent les limites, les Ã©tats, les permissions et les conditions.",
 
       "core.technical.policy.question":
-        "QU’EST-CE QUI EST AUTORISÉ ?",
+        "QUâ€™EST-CE QUI EST AUTORISÃ‰ ?",
 
       "core.technical.identity.title":
-        "Identité",
+        "IdentitÃ©",
 
       "core.technical.identity.text":
-        "Les actions sont attribuées à une personne, un rôle, une identité ou une instance autorisée.",
+        "Les actions sont attribuÃ©es Ã  une personne, un rÃ´le, une identitÃ© ou une instance autorisÃ©e.",
 
       "core.technical.identity.question":
         "QUI AGIT ?",
@@ -1783,16 +1938,16 @@
         "Audit",
 
       "core.technical.audit.text":
-        "Les événements pertinents sont documentés avec provenance, date et état afin de rester traçables.",
+        "Les Ã©vÃ©nements pertinents sont documentÃ©s avec provenance, date et Ã©tat afin de rester traÃ§ables.",
 
       "core.technical.audit.question":
-        "QUE S’EST-IL PASSÉ ?",
+        "QUE Sâ€™EST-IL PASSÃ‰ ?",
 
       "core.technical.execute.title":
-        "Exécuter",
+        "ExÃ©cuter",
 
       "core.technical.execute.text":
-        "Une action ne peut modifier l’état visible qu’après satisfaction des conditions nécessaires.",
+        "Une action ne peut modifier lâ€™Ã©tat visible quâ€™aprÃ¨s satisfaction des conditions nÃ©cessaires.",
 
       "core.technical.execute.question":
         "CELA PEUT-IL ARRIVER ?",
@@ -1801,99 +1956,99 @@
         "THE LEDGER",
 
       "core.ledger.title":
-        "Un noyau local de vérité pour des événements vérifiables.",
+        "Un noyau local de vÃ©ritÃ© pour des Ã©vÃ©nements vÃ©rifiables.",
 
       "core.ledger.text1":
-        "THE LEDGER enregistre les événements pertinents dans une séquence traçable. Les entrées sont ajoutées, liées et peuvent être examinées ultérieurement.",
+        "THE LEDGER enregistre les Ã©vÃ©nements pertinents dans une sÃ©quence traÃ§able. Les entrÃ©es sont ajoutÃ©es, liÃ©es et peuvent Ãªtre examinÃ©es ultÃ©rieurement.",
 
       "core.ledger.text2":
-        "L’objectif n’est pas de centraliser toutes les informations. Il est de rendre les changements d’état pertinents traçables et vérifiables.",
+        "Lâ€™objectif nâ€™est pas de centraliser toutes les informations. Il est de rendre les changements dâ€™Ã©tat pertinents traÃ§ables et vÃ©rifiables.",
 
-      "core.ledger.created": "CRÉÉ",
+      "core.ledger.created": "CRÃ‰Ã‰",
       "core.ledger.proof": "PREUVE",
-      "core.ledger.signed": "SIGNÉ",
-      "core.ledger.verified": "VÉRIFIÉ",
+      "core.ledger.signed": "SIGNÃ‰",
+      "core.ledger.verified": "VÃ‰RIFIÃ‰",
 
       "core.ledger.appendOnly.title":
         "Ajout uniquement",
 
       "core.ledger.appendOnly.text":
-        "Les événements pertinents sont ajoutés plutôt que remplacés discrètement.",
+        "Les Ã©vÃ©nements pertinents sont ajoutÃ©s plutÃ´t que remplacÃ©s discrÃ¨tement.",
 
       "core.ledger.linked.title":
-        "Lié",
+        "LiÃ©",
 
       "core.ledger.linked.text":
-        "Les événements conservent une relation traçable entre eux.",
+        "Les Ã©vÃ©nements conservent une relation traÃ§able entre eux.",
 
       "core.ledger.verifiable.title":
-        "Vérifiable",
+        "VÃ©rifiable",
 
       "core.ledger.verifiable.text":
-        "La structure, l’intégrité et la provenance peuvent être contrôlées.",
+        "La structure, lâ€™intÃ©gritÃ© et la provenance peuvent Ãªtre contrÃ´lÃ©es.",
 
       "core.trust.eyebrow":
         "COUCHE DE CONFIANCE",
 
       "core.trust.title":
-        "La confiance ne se décrète pas.",
+        "La confiance ne se dÃ©crÃ¨te pas.",
 
       "core.trust.lead":
-        "Elle naît d’états, d’identités, de permissions et de preuves vérifiables.",
+        "Elle naÃ®t dâ€™Ã©tats, dâ€™identitÃ©s, de permissions et de preuves vÃ©rifiables.",
 
       "core.trust.proof.title":
         "Confiance par la preuve",
 
       "core.trust.proof.text":
-        "Existe-t-il une preuve valide de l’action déclarée ?",
+        "Existe-t-il une preuve valide de lâ€™action dÃ©clarÃ©e ?",
 
       "core.trust.policy.title":
-        "Confiance par les règles",
+        "Confiance par les rÃ¨gles",
 
       "core.trust.policy.text":
-        "L’action a-t-elle été réalisée conformément aux règles prévues ?",
+        "Lâ€™action a-t-elle Ã©tÃ© rÃ©alisÃ©e conformÃ©ment aux rÃ¨gles prÃ©vues ?",
 
       "core.trust.identity.title":
-        "Confiance d’identité",
+        "Confiance dâ€™identitÃ©",
 
       "core.trust.identity.text":
-        "L’identité qui agit est-elle clairement établie et autorisée ?",
+        "Lâ€™identitÃ© qui agit est-elle clairement Ã©tablie et autorisÃ©e ?",
 
       "core.trust.audit.title":
-        "Confiance d’audit",
+        "Confiance dâ€™audit",
 
       "core.trust.audit.text":
-        "Le processus est-il suffisamment complet pour être reconstitué ultérieurement ?",
+        "Le processus est-il suffisamment complet pour Ãªtre reconstituÃ© ultÃ©rieurement ?",
 
       "core.authorization.eyebrow":
-        "PASSAGE D’AUTORISATION HUMAINE",
+        "PASSAGE Dâ€™AUTORISATION HUMAINE",
 
       "core.authorization.title":
-        "L’intelligence peut préparer.<br>L’autorité reste explicite.",
+        "Lâ€™intelligence peut prÃ©parer.<br>Lâ€™autoritÃ© reste explicite.",
 
       "core.authorization.text":
-        "ZAL’THERA peut comprendre, structurer et expliquer les informations et préparer des actions possibles. Les actions importantes restent liées à l’autorisation humaine requise ou explicitement déléguée.",
+        "ZALâ€™THERA peut comprendre, structurer et expliquer les informations et prÃ©parer des actions possibles. Les actions importantes restent liÃ©es Ã  lâ€™autorisation humaine requise ou explicitement dÃ©lÃ©guÃ©e.",
 
       "core.application.eyebrow":
-        "APPLICATION DU SYSTÈME",
+        "APPLICATION DU SYSTÃˆME",
 
       "core.application.title":
-        "Un core. Plusieurs domaines d’application.",
+        "Un core. Plusieurs domaines dâ€™application.",
 
       "core.application.personal": "PERSONNEL",
-      "core.application.continuity": "Documents · Finances · Contexte · Cards",
+      "core.application.continuity": "Documents Â· Finances Â· Contexte Â· Cards",
       "core.application.proof": "PREUVE",
-      "core.application.proofflow": "Preuve · Audit · Signature · Export",
+      "core.application.proofflow": "Preuve Â· Audit Â· Signature Â· Export",
       "core.application.communication": "COMMUNICATION",
-      "core.application.voicebridge": "Identité · Consentement · Voix · Confiance",
+      "core.application.voicebridge": "IdentitÃ© Â· Consentement Â· Voix Â· Confiance",
       "core.application.industry": "INDUSTRIE",
-      "core.application.shiftlog": "Transmission · État · Responsabilité",
+      "core.application.shiftlog": "Transmission Â· Ã‰tat Â· ResponsabilitÃ©",
 
       "core.return.title":
-        "Le core n’est pas le produit.<br>C’est ce qui relie les produits.",
+        "Le core nâ€™est pas le produit.<br>Câ€™est ce qui relie les produits.",
 
       "core.return.button":
-        "Retour au système"
+        "Retour au systÃ¨me"
     },
 
 
@@ -1902,6 +2057,37 @@
        ========================================================== */
 
     it: {
+
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "Gestione alberghiera, ristorazione, scorte e lavoro di squadra in un sistema condiviso. La versione 1.0 Ã¨ in preparazione.",
+      "hp.status": "1.0 Â· In preparazione",
+      "hp.title": "Hospitality â€” Gestione alberghiera e ristorazione | ZALâ€™THERA",
+      "hp.hero": "Lâ€™hotel. Una visione condivisa.",
+      "hp.lead": "Dalle prenotazioni agli ordini: Hospitality collega reception, pulizie e servizio con una visione condivisa e tracciabile.",
+      "hp.explore": "Scopri le funzioni",
+      "hp.contact": "Informazioni su Hospitality",
+      "hp.operations": "Una struttura. Team connessi.",
+      "hp.rooms": "Camere e ospiti",
+      "hp.roomsText": "Organizza stato camere, ospiti, prenotazioni, arrivi e partenze.",
+      "hp.housekeeping": "Pulizie e danni",
+      "hp.housekeepingText": "Assegna attivitÃ , segui le pulizie e registra danni con uno stato tracciabile.",
+      "hp.dining": "Ristorante e cucina",
+      "hp.diningText": "Collega tavoli, menu e ordini. Il servizio registra lâ€™ordine e la cucina ne segue lo stato.",
+      "hp.stock": "Scorte e consumi",
+      "hp.stockText": "Registra entrate, consumi e correzioni. Gli ordini collegati aggiornano le scorte.",
+      "hp.sync": "Team e ZAL Sync",
+      "hp.syncText": "I dispositivi associati lavorano con la centrale Mac sulla rete dellâ€™hotel. Ruoli e autorizzazioni limitano lâ€™accesso.",
+      "hp.invoices": "Fatture e report",
+      "hp.invoicesText": "Segui fatture e pagamenti registrati in un registro separato ed esporta i report.",
+      "hp.roadmap": "A che punto siamo. I prossimi passi.",
+      "hp.releaseText": "Le funzioni operative sono in preparazione per la versione 1.0. Il link App Store verrÃ  aggiunto dopo il lancio.",
+      "hp.payments": "Pagamenti online Â· Integrazione e test",
+      "hp.paymentsText": "Accesso ospite via QR e integrazione dei pagamenti sono in fase di test. I pagamenti reali non sono ancora attivi.",
+      "hp.ai": "2.0 Â· IA personale prevista",
+      "hp.aiText": "Il progetto collega ospite e hotel: lâ€™IA personale preparerÃ  e trasmetterÃ  richieste e domande. Prenotazioni vincolanti e pagamenti richiedono le conferme previste.",
+      "hp.contactText": "Vuoi conoscere Hospitality per la tua struttura? Scrivici dimensioni dellâ€™hotel e uso previsto.",
+      "hp.note": "Il modulo fatture non sostituisce una soluzione di cassa o fiscale verificata.",
+
 
       "nav.system": "Sistema",
       "nav.continuity": "CONTINUITY",
@@ -1916,7 +2102,7 @@
       "global.open": "Apri",
       "global.close": "Chiudi",
       "global.discover": "Scopri",
-      "global.learnMore": "Scopri di più",
+      "global.learnMore": "Scopri di piÃ¹",
       "global.support": "Supporto",
       "global.contact": "Contatto",
       "global.available": "DISPONIBILE",
@@ -1936,13 +2122,13 @@
         "La fiducia non dovrebbe<br>essere presunta.<br>Dovrebbe essere costruita.",
 
       "core.hero.description":
-        "ZAL’THERA Core collega identità, contesto, regole, consenso, prova ed esecuzione controllata in un’unica architettura di fiducia.",
+        "ZALâ€™THERA Core collega identitÃ , contesto, regole, consenso, prova ed esecuzione controllata in unâ€™unica architettura di fiducia.",
 
       "core.hero.architecture":
         "Apri architettura",
 
       "core.hero.identityBound":
-        "LEGATO ALL’IDENTITÀ",
+        "LEGATO ALLâ€™IDENTITÃ€",
 
       "core.hero.policyGoverned":
         "GOVERNATO DA REGOLE",
@@ -1951,15 +2137,15 @@
         "VERIFICABILE",
 
       "core.hero.humanAuthorized":
-        "AUTORIZZATO DALL’UOMO",
+        "AUTORIZZATO DALLâ€™UOMO",
 
       "core.status.label":
         "PRINCIPI DEL CORE",
 
-      "core.status.identity": "IDENTITÀ",
+      "core.status.identity": "IDENTITÃ€",
       "core.status.who": "CHI",
       "core.status.context": "CONTESTO",
-      "core.status.why": "PERCHÉ",
+      "core.status.why": "PERCHÃ‰",
       "core.status.policy": "POLICY",
       "core.status.what": "COSA",
       "core.status.consent": "CONSENSO",
@@ -1976,13 +2162,13 @@
         "Cinque livelli. Una catena decisionale tracciabile.",
 
       "core.architecture.lead":
-        "L’architettura pubblica spiega la logica fondamentale di ZAL’THERA senza esporre implementazioni interne di sicurezza, strutture di chiavi private o dettagli dei protocolli.",
+        "Lâ€™architettura pubblica spiega la logica fondamentale di ZALâ€™THERA senza esporre implementazioni interne di sicurezza, strutture di chiavi private o dettagli dei protocolli.",
 
       "core.architecture.identity.title":
-        "Identità",
+        "IdentitÃ ",
 
       "core.architecture.identity.text":
-        "Un’azione inizia con un’identità, un ruolo o un’istanza di sistema autorizzata chiaramente assegnata.",
+        "Unâ€™azione inizia con unâ€™identitÃ , un ruolo o unâ€™istanza di sistema autorizzata chiaramente assegnata.",
 
       "core.architecture.context.title":
         "Contesto",
@@ -2000,7 +2186,7 @@
         "Fiducia",
 
       "core.architecture.trust.text":
-        "Autorizzazioni, prove, consenso e audit determinano ciò che può essere considerato affidabile.",
+        "Autorizzazioni, prove, consenso e audit determinano ciÃ² che puÃ² essere considerato affidabile.",
 
       "core.architecture.action.title":
         "Azione",
@@ -2021,7 +2207,7 @@
         "CORE TECNICO",
 
       "core.technical.lead":
-        "Sotto l’architettura pubblica opera una catena di controllo più precisa per azioni di sistema tracciabili.",
+        "Sotto lâ€™architettura pubblica opera una catena di controllo piÃ¹ precisa per azioni di sistema tracciabili.",
 
       "core.technical.policy.title":
         "Policy",
@@ -2030,13 +2216,13 @@
         "Le regole definiscono limiti, stati, autorizzazioni e condizioni.",
 
       "core.technical.policy.question":
-        "COSA È CONSENTITO?",
+        "COSA Ãˆ CONSENTITO?",
 
       "core.technical.identity.title":
-        "Identità",
+        "IdentitÃ ",
 
       "core.technical.identity.text":
-        "Le azioni vengono assegnate a una persona, un ruolo, un’identità o un’istanza autorizzata.",
+        "Le azioni vengono assegnate a una persona, un ruolo, unâ€™identitÃ  o unâ€™istanza autorizzata.",
 
       "core.technical.identity.question":
         "CHI AGISCE?",
@@ -2045,31 +2231,31 @@
         "Audit",
 
       "core.technical.audit.text":
-        "Gli eventi rilevanti vengono documentati con provenienza, momento e stato affinché restino tracciabili.",
+        "Gli eventi rilevanti vengono documentati con provenienza, momento e stato affinchÃ© restino tracciabili.",
 
       "core.technical.audit.question":
-        "COSA È SUCCESSO?",
+        "COSA Ãˆ SUCCESSO?",
 
       "core.technical.execute.title":
         "Esecuzione",
 
       "core.technical.execute.text":
-        "Un’azione può modificare lo stato visibile solo dopo che le condizioni necessarie sono state soddisfatte.",
+        "Unâ€™azione puÃ² modificare lo stato visibile solo dopo che le condizioni necessarie sono state soddisfatte.",
 
       "core.technical.execute.question":
-        "PUÒ AVVENIRE?",
+        "PUÃ’ AVVENIRE?",
 
       "core.ledger.eyebrow":
         "THE LEDGER",
 
       "core.ledger.title":
-        "Un nucleo locale di verità per eventi verificabili.",
+        "Un nucleo locale di veritÃ  per eventi verificabili.",
 
       "core.ledger.text1":
         "THE LEDGER registra gli eventi rilevanti in una sequenza tracciabile. Le voci vengono aggiunte, collegate e possono essere esaminate in seguito.",
 
       "core.ledger.text2":
-        "L’obiettivo non è raccogliere centralmente tutte le informazioni. L’obiettivo è rendere tracciabili e verificabili i cambiamenti di stato rilevanti.",
+        "Lâ€™obiettivo non Ã¨ raccogliere centralmente tutte le informazioni. Lâ€™obiettivo Ã¨ rendere tracciabili e verificabili i cambiamenti di stato rilevanti.",
 
       "core.ledger.created": "CREATO",
       "core.ledger.proof": "PROVA",
@@ -2080,7 +2266,7 @@
         "Solo aggiunta",
 
       "core.ledger.appendOnly.text":
-        "Gli eventi rilevanti vengono aggiunti anziché sovrascritti silenziosamente.",
+        "Gli eventi rilevanti vengono aggiunti anzichÃ© sovrascritti silenziosamente.",
 
       "core.ledger.linked.title":
         "Collegato",
@@ -2092,7 +2278,7 @@
         "Verificabile",
 
       "core.ledger.verifiable.text":
-        "Struttura, integrità e provenienza possono essere controllate.",
+        "Struttura, integritÃ  e provenienza possono essere controllate.",
 
       "core.trust.eyebrow":
         "LIVELLO DI FIDUCIA",
@@ -2101,58 +2287,58 @@
         "La fiducia non viene semplicemente dichiarata.",
 
       "core.trust.lead":
-        "Nasce da stati, identità, autorizzazioni e prove verificabili.",
+        "Nasce da stati, identitÃ , autorizzazioni e prove verificabili.",
 
       "core.trust.proof.title":
         "Fiducia nella prova",
 
       "core.trust.proof.text":
-        "Esiste una prova valida dell’azione dichiarata?",
+        "Esiste una prova valida dellâ€™azione dichiarata?",
 
       "core.trust.policy.title":
         "Fiducia nelle regole",
 
       "core.trust.policy.text":
-        "L’azione è stata eseguita secondo le regole previste?",
+        "Lâ€™azione Ã¨ stata eseguita secondo le regole previste?",
 
       "core.trust.identity.title":
-        "Fiducia nell’identità",
+        "Fiducia nellâ€™identitÃ ",
 
       "core.trust.identity.text":
-        "L’identità che agisce è chiaramente stabilita e autorizzata?",
+        "Lâ€™identitÃ  che agisce Ã¨ chiaramente stabilita e autorizzata?",
 
       "core.trust.audit.title":
-        "Fiducia nell’audit",
+        "Fiducia nellâ€™audit",
 
       "core.trust.audit.text":
-        "Il processo è sufficientemente completo da poter essere ricostruito successivamente?",
+        "Il processo Ã¨ sufficientemente completo da poter essere ricostruito successivamente?",
 
       "core.authorization.eyebrow":
         "GATE DI AUTORIZZAZIONE UMANA",
 
       "core.authorization.title":
-        "L’intelligenza può preparare.<br>L’autorità resta esplicita.",
+        "Lâ€™intelligenza puÃ² preparare.<br>Lâ€™autoritÃ  resta esplicita.",
 
       "core.authorization.text":
-        "ZAL’THERA può comprendere, strutturare e spiegare informazioni e preparare possibili azioni. Le azioni rilevanti restano vincolate alla necessaria autorizzazione umana o esplicitamente delegata.",
+        "ZALâ€™THERA puÃ² comprendere, strutturare e spiegare informazioni e preparare possibili azioni. Le azioni rilevanti restano vincolate alla necessaria autorizzazione umana o esplicitamente delegata.",
 
       "core.application.eyebrow":
         "APPLICAZIONE DEL SISTEMA",
 
       "core.application.title":
-        "Un core. Più ambiti applicativi.",
+        "Un core. PiÃ¹ ambiti applicativi.",
 
       "core.application.personal": "PERSONALE",
-      "core.application.continuity": "Documenti · Finanze · Contesto · Cards",
+      "core.application.continuity": "Documenti Â· Finanze Â· Contesto Â· Cards",
       "core.application.proof": "PROVA",
-      "core.application.proofflow": "Prova · Audit · Firma · Esportazione",
+      "core.application.proofflow": "Prova Â· Audit Â· Firma Â· Esportazione",
       "core.application.communication": "COMUNICAZIONE",
-      "core.application.voicebridge": "Identità · Consenso · Voce · Fiducia",
+      "core.application.voicebridge": "IdentitÃ  Â· Consenso Â· Voce Â· Fiducia",
       "core.application.industry": "INDUSTRIA",
-      "core.application.shiftlog": "Passaggio · Stato · Responsabilità",
+      "core.application.shiftlog": "Passaggio Â· Stato Â· ResponsabilitÃ ",
 
       "core.return.title":
-        "Il core non è il prodotto.<br>È ciò che collega i prodotti.",
+        "Il core non Ã¨ il prodotto.<br>Ãˆ ciÃ² che collega i prodotti.",
 
       "core.return.button":
         "Torna al sistema"
@@ -2160,45 +2346,76 @@
 
 
     /* ==========================================================
-       ROMÂNĂ
+       ROMÃ‚NÄ‚
        ========================================================== */
 
     ro: {
 
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "OperaÈ›iuni hoteliere, restaurant, stocuri È™i echipÄƒ Ã®ntr-un sistem comun. Versiunea 1.0 este Ã®n pregÄƒtire pentru lansare.",
+      "hp.status": "1.0 Â· ÃŽn pregÄƒtire",
+      "hp.title": "Hospitality â€” OperaÈ›iuni hoteliere È™i restaurant | ZALâ€™THERA",
+      "hp.hero": "Hotelul. O perspectivÄƒ comunÄƒ.",
+      "hp.lead": "De la rezervÄƒri la comenzi: Hospitality conecteazÄƒ recepÈ›ia, curÄƒÈ›enia È™i serviciul printr-o imagine comunÄƒ È™i trasabilÄƒ.",
+      "hp.explore": "DescoperÄƒ funcÈ›iile",
+      "hp.contact": "SolicitÄƒ informaÈ›ii",
+      "hp.operations": "Un hotel. Echipe conectate.",
+      "hp.rooms": "Camere È™i oaspeÈ›i",
+      "hp.roomsText": "OrganizeazÄƒ starea camerelor, oaspeÈ›ii, rezervÄƒrile, sosirile È™i plecÄƒrile.",
+      "hp.housekeeping": "CurÄƒÈ›enie È™i daune",
+      "hp.housekeepingText": "Atribuie sarcini, urmÄƒreÈ™te curÄƒÈ›enia È™i Ã®nregistreazÄƒ daunele cu un statut trasabil.",
+      "hp.dining": "Restaurant È™i bucÄƒtÄƒrie",
+      "hp.diningText": "ConecteazÄƒ mese, meniu È™i comenzi. Serviciul Ã®nregistreazÄƒ comanda, iar bucÄƒtÄƒria urmÄƒreÈ™te progresul.",
+      "hp.stock": "Stocuri È™i consum",
+      "hp.stockText": "ÃŽnregistreazÄƒ intrÄƒrile, consumul È™i corecÈ›iile. Comenzile asociate actualizeazÄƒ stocul.",
+      "hp.sync": "EchipÄƒ È™i ZAL Sync",
+      "hp.syncText": "Dispozitivele asociate lucreazÄƒ cu centrala Mac prin reÈ›eaua hotelului. Rolurile È™i aprobÄƒrile limiteazÄƒ accesul.",
+      "hp.invoices": "Facturi È™i rapoarte",
+      "hp.invoicesText": "UrmÄƒreÈ™te facturile È™i plÄƒÈ›ile Ã®nregistrate Ã®ntr-un jurnal separat È™i exportÄƒ rapoarte.",
+      "hp.roadmap": "Unde suntem. Ce urmeazÄƒ.",
+      "hp.releaseText": "FuncÈ›iile operaÈ›ionale sunt pregÄƒtite pentru versiunea 1.0. Linkul App Store va fi adÄƒugat dupÄƒ lansare.",
+      "hp.payments": "PlÄƒÈ›i online Â· Integrare È™i testare",
+      "hp.paymentsText": "Accesul oaspeÈ›ilor prin QR È™i integrarea plÄƒÈ›ilor sunt Ã®n testare. PlÄƒÈ›ile reale nu sunt Ã®ncÄƒ activate.",
+      "hp.ai": "2.0 Â· IA personalÄƒ planificatÄƒ",
+      "hp.aiText": "Planul conecteazÄƒ oaspetele È™i hotelul: IA personalÄƒ va pregÄƒti È™i transmite cereri È™i Ã®ntrebÄƒri. RezervÄƒrile ferme È™i plÄƒÈ›ile necesitÄƒ aprobÄƒrile prevÄƒzute.",
+      "hp.contactText": "Vrei sÄƒ descoperi Hospitality pentru afacerea ta? Scrie-ne dimensiunea hotelului È™i utilizarea doritÄƒ.",
+      "hp.note": "Modulul de facturare nu Ã®nlocuieÈ™te o soluÈ›ie de casÄƒ sau fiscalÄƒ validatÄƒ.",
+
+
       "nav.system": "Sistem",
       "nav.continuity": "CONTINUITY",
-      "nav.intelligence": "Inteligență",
+      "nav.intelligence": "InteligenÈ›Äƒ",
       "nav.communication": "Comunicare",
       "nav.industry": "Industrie",
       "nav.products": "Produse",
       "nav.about": "Despre",
 
-      "global.home": "Acasă",
-      "global.explore": "Explorează",
+      "global.home": "AcasÄƒ",
+      "global.explore": "ExploreazÄƒ",
       "global.open": "Deschide",
-      "global.close": "Închide",
-      "global.discover": "Descoperă",
-      "global.learnMore": "Află mai multe",
+      "global.close": "ÃŽnchide",
+      "global.discover": "DescoperÄƒ",
+      "global.learnMore": "AflÄƒ mai multe",
       "global.support": "Suport",
       "global.contact": "Contact",
       "global.available": "DISPONIBIL",
       "global.development": "DEZVOLTARE",
       "global.systemModule": "MODUL DE SISTEM",
-      "global.architecture": "ARHITECTURĂ",
+      "global.architecture": "ARHITECTURÄ‚",
       "global.navOpen": "Deschide navigarea",
-      "global.mainNavigation": "Navigare principală",
+      "global.mainNavigation": "Navigare principalÄƒ",
 
-      "footer.imprint": "Informații legale",
-      "footer.privacy": "Confidențialitate",
+      "footer.imprint": "InformaÈ›ii legale",
+      "footer.privacy": "ConfidenÈ›ialitate",
 
       "core.hero.kicker":
-        "FUNDAȚIA SISTEMULUI",
+        "FUNDAÈšIA SISTEMULUI",
 
       "core.hero.title":
-        "Încrederea nu ar trebui<br>presupusă.<br>Ar trebui construită.",
+        "ÃŽncrederea nu ar trebui<br>presupusÄƒ.<br>Ar trebui construitÄƒ.",
 
       "core.hero.description":
-        "ZAL’THERA Core conectează identitatea, contextul, regulile, consimțământul, dovada și execuția controlată într-o arhitectură comună de încredere.",
+        "ZALâ€™THERA Core conecteazÄƒ identitatea, contextul, regulile, consimÈ›ÄƒmÃ¢ntul, dovada È™i execuÈ›ia controlatÄƒ Ã®ntr-o arhitecturÄƒ comunÄƒ de Ã®ncredere.",
 
       "core.hero.architecture":
         "Deschide arhitectura",
@@ -2222,59 +2439,59 @@
       "core.status.who": "CINE",
       "core.status.context": "CONTEXT",
       "core.status.why": "DE CE",
-      "core.status.policy": "POLITICĂ",
+      "core.status.policy": "POLITICÄ‚",
       "core.status.what": "CE",
-      "core.status.consent": "CONSIMȚĂMÂNT",
+      "core.status.consent": "CONSIMÈšÄ‚MÃ‚NT",
       "core.status.allow": "PERMITE",
       "core.status.audit": "AUDIT",
-      "core.status.prove": "DOVADĂ",
-      "core.status.execution": "EXECUȚIE",
-      "core.status.act": "ACȚIUNE",
+      "core.status.prove": "DOVADÄ‚",
+      "core.status.execution": "EXECUÈšIE",
+      "core.status.act": "ACÈšIUNE",
 
       "core.architecture.eyebrow":
-        "ARHITECTURĂ PUBLICĂ",
+        "ARHITECTURÄ‚ PUBLICÄ‚",
 
       "core.architecture.title":
-        "Cinci niveluri. Un lanț decizional trasabil.",
+        "Cinci niveluri. Un lanÈ› decizional trasabil.",
 
       "core.architecture.lead":
-        "Arhitectura publică explică logica fundamentală ZAL’THERA fără a expune implementări interne de securitate, structuri de chei private sau detalii de protocol.",
+        "Arhitectura publicÄƒ explicÄƒ logica fundamentalÄƒ ZALâ€™THERA fÄƒrÄƒ a expune implementÄƒri interne de securitate, structuri de chei private sau detalii de protocol.",
 
       "core.architecture.identity.title":
         "Identitate",
 
       "core.architecture.identity.text":
-        "O acțiune începe cu o identitate, un rol sau o instanță autorizată de sistem clar atribuită.",
+        "O acÈ›iune Ã®ncepe cu o identitate, un rol sau o instanÈ›Äƒ autorizatÄƒ de sistem clar atribuitÄƒ.",
 
       "core.architecture.context.title":
         "Context",
 
       "core.architecture.context.text":
-        "Informația nu este analizată izolat, ci împreună cu proveniența, timpul și relația sa.",
+        "InformaÈ›ia nu este analizatÄƒ izolat, ci Ã®mpreunÄƒ cu provenienÈ›a, timpul È™i relaÈ›ia sa.",
 
       "core.architecture.intelligence.title":
-        "Inteligență",
+        "InteligenÈ›Äƒ",
 
       "core.architecture.intelligence.text":
-        "Sistemele pot structura informațiile, le pot explica și pot pregăti posibili pași următori.",
+        "Sistemele pot structura informaÈ›iile, le pot explica È™i pot pregÄƒti posibili paÈ™i urmÄƒtori.",
 
       "core.architecture.trust.title":
-        "Încredere",
+        "ÃŽncredere",
 
       "core.architecture.trust.text":
-        "Permisiunile, dovezile, consimțământul și auditul determină ce poate fi considerat de încredere.",
+        "Permisiunile, dovezile, consimÈ›ÄƒmÃ¢ntul È™i auditul determinÄƒ ce poate fi considerat de Ã®ncredere.",
 
       "core.architecture.action.title":
-        "Acțiune",
+        "AcÈ›iune",
 
       "core.architecture.action.text":
-        "Acțiunile importante sunt executate numai atunci când condițiile necesare sunt îndeplinite.",
+        "AcÈ›iunile importante sunt executate numai atunci cÃ¢nd condiÈ›iile necesare sunt Ã®ndeplinite.",
 
       "core.architecture.principle":
         "PRINCIPIU DE SISTEM",
 
       "core.architecture.principleText":
-        "Mai întâi înțelege. Apoi pregătește. Acționează numai cu permisiune.",
+        "Mai Ã®ntÃ¢i Ã®nÈ›elege. Apoi pregÄƒteÈ™te. AcÈ›ioneazÄƒ numai cu permisiune.",
 
       "core.architecture.technicalCore":
         "Core tehnic",
@@ -2283,12 +2500,12 @@
         "CORE TEHNIC",
 
       "core.technical.lead":
-        "Sub arhitectura publică funcționează un lanț de control mai precis pentru acțiuni de sistem trasabile.",
+        "Sub arhitectura publicÄƒ funcÈ›ioneazÄƒ un lanÈ› de control mai precis pentru acÈ›iuni de sistem trasabile.",
 
       "core.technical.policy.title": "Policy",
 
       "core.technical.policy.text":
-        "Regulile definesc limite, stări, permisiuni și condiții.",
+        "Regulile definesc limite, stÄƒri, permisiuni È™i condiÈ›ii.",
 
       "core.technical.policy.question":
         "CE ESTE PERMIS?",
@@ -2297,25 +2514,25 @@
         "Identitate",
 
       "core.technical.identity.text":
-        "Acțiunile sunt atribuite unei persoane, unui rol, unei identități sau unei instanțe autorizate.",
+        "AcÈ›iunile sunt atribuite unei persoane, unui rol, unei identitÄƒÈ›i sau unei instanÈ›e autorizate.",
 
       "core.technical.identity.question":
-        "CINE ACȚIONEAZĂ?",
+        "CINE ACÈšIONEAZÄ‚?",
 
       "core.technical.audit.title":
         "Audit",
 
       "core.technical.audit.text":
-        "Evenimentele relevante sunt documentate cu proveniență, timp și stare pentru a rămâne trasabile.",
+        "Evenimentele relevante sunt documentate cu provenienÈ›Äƒ, timp È™i stare pentru a rÄƒmÃ¢ne trasabile.",
 
       "core.technical.audit.question":
-        "CE S-A ÎNTÂMPLAT?",
+        "CE S-A ÃŽNTÃ‚MPLAT?",
 
       "core.technical.execute.title":
         "Executare",
 
       "core.technical.execute.text":
-        "O acțiune poate modifica starea vizibilă numai după îndeplinirea condițiilor necesare.",
+        "O acÈ›iune poate modifica starea vizibilÄƒ numai dupÄƒ Ã®ndeplinirea condiÈ›iilor necesare.",
 
       "core.technical.execute.question":
         "POATE AVEA LOC?",
@@ -2324,78 +2541,78 @@
         "THE LEDGER",
 
       "core.ledger.title":
-        "Un nucleu local de adevăr pentru evenimente verificabile.",
+        "Un nucleu local de adevÄƒr pentru evenimente verificabile.",
 
       "core.ledger.text1":
-        "THE LEDGER înregistrează evenimentele relevante într-o secvență trasabilă. Înregistrările sunt adăugate, legate și pot fi examinate ulterior.",
+        "THE LEDGER Ã®nregistreazÄƒ evenimentele relevante Ã®ntr-o secvenÈ›Äƒ trasabilÄƒ. ÃŽnregistrÄƒrile sunt adÄƒugate, legate È™i pot fi examinate ulterior.",
 
       "core.ledger.text2":
-        "Scopul nu este colectarea centralizată a tuturor informațiilor. Scopul este ca modificările relevante de stare să devină trasabile și verificabile.",
+        "Scopul nu este colectarea centralizatÄƒ a tuturor informaÈ›iilor. Scopul este ca modificÄƒrile relevante de stare sÄƒ devinÄƒ trasabile È™i verificabile.",
 
       "core.ledger.created": "CREAT",
-      "core.ledger.proof": "DOVADĂ",
+      "core.ledger.proof": "DOVADÄ‚",
       "core.ledger.signed": "SEMNAT",
       "core.ledger.verified": "VERIFICAT",
 
       "core.ledger.appendOnly.title":
-        "Doar adăugare",
+        "Doar adÄƒugare",
 
       "core.ledger.appendOnly.text":
-        "Evenimentele relevante sunt adăugate în loc să fie suprascrise în mod ascuns.",
+        "Evenimentele relevante sunt adÄƒugate Ã®n loc sÄƒ fie suprascrise Ã®n mod ascuns.",
 
       "core.ledger.linked.title":
         "Conectat",
 
       "core.ledger.linked.text":
-        "Evenimentele păstrează relații trasabile între ele.",
+        "Evenimentele pÄƒstreazÄƒ relaÈ›ii trasabile Ã®ntre ele.",
 
       "core.ledger.verifiable.title":
         "Verificabil",
 
       "core.ledger.verifiable.text":
-        "Structura, integritatea și proveniența pot fi verificate.",
+        "Structura, integritatea È™i provenienÈ›a pot fi verificate.",
 
       "core.trust.eyebrow":
-        "STRAT DE ÎNCREDERE",
+        "STRAT DE ÃŽNCREDERE",
 
       "core.trust.title":
-        "Încrederea nu este doar declarată.",
+        "ÃŽncrederea nu este doar declaratÄƒ.",
 
       "core.trust.lead":
-        "Ea rezultă din stări, identități, permisiuni și dovezi verificabile.",
+        "Ea rezultÄƒ din stÄƒri, identitÄƒÈ›i, permisiuni È™i dovezi verificabile.",
 
       "core.trust.proof.title":
-        "Încredere prin dovadă",
+        "ÃŽncredere prin dovadÄƒ",
 
       "core.trust.proof.text":
-        "Există o dovadă validă pentru acțiunea declarată?",
+        "ExistÄƒ o dovadÄƒ validÄƒ pentru acÈ›iunea declaratÄƒ?",
 
       "core.trust.policy.title":
-        "Încredere în reguli",
+        "ÃŽncredere Ã®n reguli",
 
       "core.trust.policy.text":
-        "Acțiunea a fost realizată conform regulilor prevăzute?",
+        "AcÈ›iunea a fost realizatÄƒ conform regulilor prevÄƒzute?",
 
       "core.trust.identity.title":
-        "Încredere în identitate",
+        "ÃŽncredere Ã®n identitate",
 
       "core.trust.identity.text":
-        "Identitatea care acționează este clar stabilită și autorizată?",
+        "Identitatea care acÈ›ioneazÄƒ este clar stabilitÄƒ È™i autorizatÄƒ?",
 
       "core.trust.audit.title":
-        "Încredere în audit",
+        "ÃŽncredere Ã®n audit",
 
       "core.trust.audit.text":
         "Procesul este suficient de complet pentru a putea fi reconstruit ulterior?",
 
       "core.authorization.eyebrow":
-        "POARTĂ DE AUTORIZARE UMANĂ",
+        "POARTÄ‚ DE AUTORIZARE UMANÄ‚",
 
       "core.authorization.title":
-        "Inteligența poate pregăti.<br>Autoritatea rămâne explicită.",
+        "InteligenÈ›a poate pregÄƒti.<br>Autoritatea rÄƒmÃ¢ne explicitÄƒ.",
 
       "core.authorization.text":
-        "ZAL’THERA poate înțelege, structura și explica informațiile și poate pregăti acțiuni posibile. Acțiunile importante rămân legate de autorizarea umană necesară sau delegată explicit.",
+        "ZALâ€™THERA poate Ã®nÈ›elege, structura È™i explica informaÈ›iile È™i poate pregÄƒti acÈ›iuni posibile. AcÈ›iunile importante rÄƒmÃ¢n legate de autorizarea umanÄƒ necesarÄƒ sau delegatÄƒ explicit.",
 
       "core.application.eyebrow":
         "APLICAREA SISTEMULUI",
@@ -2404,296 +2621,327 @@
         "Un core. Mai multe domenii de aplicare.",
 
       "core.application.personal": "PERSONAL",
-      "core.application.continuity": "Documente · Finanțe · Context · Cards",
-      "core.application.proof": "DOVADĂ",
-      "core.application.proofflow": "Dovadă · Audit · Semnătură · Export",
+      "core.application.continuity": "Documente Â· FinanÈ›e Â· Context Â· Cards",
+      "core.application.proof": "DOVADÄ‚",
+      "core.application.proofflow": "DovadÄƒ Â· Audit Â· SemnÄƒturÄƒ Â· Export",
       "core.application.communication": "COMUNICARE",
-      "core.application.voicebridge": "Identitate · Consimțământ · Voce · Încredere",
+      "core.application.voicebridge": "Identitate Â· ConsimÈ›ÄƒmÃ¢nt Â· Voce Â· ÃŽncredere",
       "core.application.industry": "INDUSTRIE",
-      "core.application.shiftlog": "Predare · Stare · Responsabilitate",
+      "core.application.shiftlog": "Predare Â· Stare Â· Responsabilitate",
 
       "core.return.title":
-        "Core-ul nu este produsul.<br>Este ceea ce conectează produsele.",
+        "Core-ul nu este produsul.<br>Este ceea ce conecteazÄƒ produsele.",
 
       "core.return.button":
-        "Înapoi la sistem"
+        "ÃŽnapoi la sistem"
     },
 
 
     /* ==========================================================
-       简体中文
+       ç®€ä½“ä¸­æ–‡
        ========================================================== */
 
     "zh-Hans": {
 
-      "nav.system": "系统",
+      /* Hospitality: release preparation, payments in test, AI planned. */
+      "home.products.hospitality": "é…’åº—è¿è¥ã€é¤é¥®ã€åº“å­˜ä¸Žå›¢é˜Ÿåä½œï¼Œæ±‡èšäºŽåŒä¸€ç³»ç»Ÿã€‚1.0 ç‰ˆæœ¬æ­£åœ¨å‡†å¤‡å‘å¸ƒã€‚",
+      "hp.status": "1.0 Â· å‘å¸ƒå‡†å¤‡ä¸­",
+      "hp.title": "Hospitality â€” é…’åº—è¿è¥ä¸Žé¤é¥® | ZALâ€™THERA",
+      "hp.hero": "é…’åº—è¿è¥ï¼Œå›¢é˜Ÿå…±åŒæŽŒæ¡ã€‚",
+      "hp.lead": "ä»Žé¢„è®¢åˆ°ç‚¹å•ï¼šHospitality å°†å‰å°ã€å®¢æˆ¿æ¸…æ´ä¸ŽæœåŠ¡å›¢é˜Ÿè¿žæŽ¥åˆ°å¯è¿½æº¯çš„å…±åŒçŠ¶æ€ã€‚",
+      "hp.explore": "äº†è§£åŠŸèƒ½",
+      "hp.contact": "å’¨è¯¢ Hospitality",
+      "hp.operations": "ä¸€ä¸ªé…’åº—ï¼Œç›¸äº’è¿žæŽ¥çš„å›¢é˜Ÿã€‚",
+      "hp.rooms": "å®¢æˆ¿ä¸Žä½å®¢",
+      "hp.roomsText": "æ¸…æ™°ç®¡ç†å®¢æˆ¿çŠ¶æ€ã€ä½å®¢ã€é¢„è®¢ã€å…¥ä½ä¸Žé€€æˆ¿ã€‚",
+      "hp.housekeeping": "å®¢æˆ¿æ¸…æ´ä¸ŽæŸå",
+      "hp.housekeepingText": "åˆ†é…ä»»åŠ¡ã€è·Ÿè¿›æ¸…æ´ï¼Œå¹¶ä»¥å¯è¿½æº¯çŠ¶æ€è®°å½•æŸåã€‚",
+      "hp.dining": "é¤åŽ…ä¸ŽåŽ¨æˆ¿",
+      "hp.diningText": "è¿žæŽ¥é¤æ¡Œã€èœå•ä¸Žè®¢å•ã€‚æœåŠ¡äººå‘˜å½•å•ï¼ŒåŽ¨æˆ¿è·Ÿè¿›å¤„ç†çŠ¶æ€ã€‚",
+      "hp.stock": "åº“å­˜ä¸Žæ¶ˆè€—",
+      "hp.stockText": "è®°å½•å…¥åº“ã€æ¶ˆè€—ä¸Žè°ƒæ•´ã€‚å…³è”è®¢å•åŒæ­¥æ›´æ–°åº“å­˜ã€‚",
+      "hp.sync": "å›¢é˜Ÿä¸Ž ZAL Sync",
+      "hp.syncText": "é…å¯¹çš„å‘˜å·¥è®¾å¤‡é€šè¿‡é…’åº—ç½‘ç»œä¸Ž Mac ä¸­å¿ƒåä½œã€‚è§’è‰²ä¸ŽæŽˆæƒé™å®šè®¿é—®èŒƒå›´ã€‚",
+      "hp.invoices": "è´¦å•ä¸ŽæŠ¥è¡¨",
+      "hp.invoicesText": "åœ¨ç‹¬ç«‹æ—¥å¿—ä¸­è¿½æº¯è´¦å•ä¸Žå·²è®°å½•ä»˜æ¬¾ï¼Œå¹¶å¯¼å‡ºæŠ¥è¡¨ã€‚",
+      "hp.roadmap": "å½“å‰è¿›å±•ä¸Žä¸‹ä¸€æ­¥ã€‚",
+      "hp.releaseText": "è¿è¥åŠŸèƒ½æ­£åœ¨ä¸º 1.0 ç‰ˆæœ¬åšå‡†å¤‡ã€‚æ­£å¼å‘å¸ƒåŽå°†åœ¨æ­¤æä¾› App Store ä¸‹è½½é“¾æŽ¥ã€‚",
+      "hp.payments": "åœ¨çº¿æ”¯ä»˜ Â· é›†æˆä¸Žæµ‹è¯•",
+      "hp.paymentsText": "ä½å®¢äºŒç»´ç å…¥å£ä¸Žæ”¯ä»˜é›†æˆæ­£åœ¨æµ‹è¯•ã€‚çœŸå®žåœ¨çº¿æ”¯ä»˜å°šæœªå¯ç”¨ã€‚",
+      "hp.ai": "2.0 Â· ä¸ªäºº AI è§„åˆ’ä¸­",
+      "hp.aiText": "è§„åˆ’å°†ä½å®¢ä¸Žé…’åº—è¿žæŽ¥èµ·æ¥ï¼šä¸ªäºº AI å°†å‡†å¤‡å¹¶ä¼ é€’é¢„è®¢éœ€æ±‚ä¸Žé—®é¢˜ã€‚å…·æœ‰çº¦æŸåŠ›çš„é¢„è®¢ä¸Žä»˜æ¬¾ä»éœ€è§„å®šçš„ç¡®è®¤ã€‚",
+      "hp.contactText": "æƒ³äº†è§£ Hospitality å¦‚ä½•ç”¨äºŽä½ çš„é…’åº—ï¼Ÿè¯·å‘ŠçŸ¥é…’åº—è§„æ¨¡ä¸Žè®¡åˆ’ä½¿ç”¨çš„ä¸šåŠ¡èŒƒå›´ã€‚",
+      "hp.note": "è´¦å•æ¨¡å—ä¸èƒ½æ›¿ä»£ç»è¿‡éªŒè¯çš„æ”¶é“¶æˆ–ç¨ŽåŠ¡è§£å†³æ–¹æ¡ˆã€‚",
+
+
+      "nav.system": "ç³»ç»Ÿ",
       "nav.continuity": "CONTINUITY",
-      "nav.intelligence": "智能",
-      "nav.communication": "通信",
-      "nav.industry": "工业",
-      "nav.products": "产品",
-      "nav.about": "关于",
+      "nav.intelligence": "æ™ºèƒ½",
+      "nav.communication": "é€šä¿¡",
+      "nav.industry": "å·¥ä¸š",
+      "nav.products": "äº§å“",
+      "nav.about": "å…³äºŽ",
 
-      "global.home": "首页",
-      "global.explore": "探索",
-      "global.open": "打开",
-      "global.close": "关闭",
-      "global.discover": "探索",
-      "global.learnMore": "了解更多",
-      "global.support": "支持",
-      "global.contact": "联系",
-      "global.available": "已发布",
-      "global.development": "开发中",
-      "global.systemModule": "系统模块",
-      "global.architecture": "架构",
-      "global.navOpen": "打开导航",
-      "global.mainNavigation": "主导航",
+      "global.home": "é¦–é¡µ",
+      "global.explore": "æŽ¢ç´¢",
+      "global.open": "æ‰“å¼€",
+      "global.close": "å…³é—­",
+      "global.discover": "æŽ¢ç´¢",
+      "global.learnMore": "äº†è§£æ›´å¤š",
+      "global.support": "æ”¯æŒ",
+      "global.contact": "è”ç³»",
+      "global.available": "å·²å‘å¸ƒ",
+      "global.development": "å¼€å‘ä¸­",
+      "global.systemModule": "ç³»ç»Ÿæ¨¡å—",
+      "global.architecture": "æž¶æž„",
+      "global.navOpen": "æ‰“å¼€å¯¼èˆª",
+      "global.mainNavigation": "ä¸»å¯¼èˆª",
 
-      "footer.imprint": "法律声明",
-      "footer.privacy": "隐私",
+      "footer.imprint": "æ³•å¾‹å£°æ˜Ž",
+      "footer.privacy": "éšç§",
 
       "core.hero.kicker":
-        "系统基础",
+        "ç³»ç»ŸåŸºç¡€",
 
       "core.hero.title":
-        "信任不应被<br>默认假设。<br>它应该被构建。",
+        "ä¿¡ä»»ä¸åº”è¢«<br>é»˜è®¤å‡è®¾ã€‚<br>å®ƒåº”è¯¥è¢«æž„å»ºã€‚",
 
       "core.hero.description":
-        "ZAL’THERA Core 将身份、上下文、规则、同意、证明与受控执行连接成统一的信任架构。",
+        "ZALâ€™THERA Core å°†èº«ä»½ã€ä¸Šä¸‹æ–‡ã€è§„åˆ™ã€åŒæ„ã€è¯æ˜Žä¸Žå—æŽ§æ‰§è¡Œè¿žæŽ¥æˆç»Ÿä¸€çš„ä¿¡ä»»æž¶æž„ã€‚",
 
       "core.hero.architecture":
-        "打开架构",
+        "æ‰“å¼€æž¶æž„",
 
       "core.hero.identityBound":
-        "身份绑定",
+        "èº«ä»½ç»‘å®š",
 
       "core.hero.policyGoverned":
-        "规则治理",
+        "è§„åˆ™æ²»ç†",
 
       "core.hero.auditable":
-        "可审计",
+        "å¯å®¡è®¡",
 
       "core.hero.humanAuthorized":
-        "人工授权",
+        "äººå·¥æŽˆæƒ",
 
       "core.status.label":
-        "核心原则",
+        "æ ¸å¿ƒåŽŸåˆ™",
 
-      "core.status.identity": "身份",
-      "core.status.who": "谁",
-      "core.status.context": "上下文",
-      "core.status.why": "为什么",
-      "core.status.policy": "规则",
-      "core.status.what": "什么",
-      "core.status.consent": "同意",
-      "core.status.allow": "允许",
-      "core.status.audit": "审计",
-      "core.status.prove": "证明",
-      "core.status.execution": "执行",
-      "core.status.act": "行动",
+      "core.status.identity": "èº«ä»½",
+      "core.status.who": "è°",
+      "core.status.context": "ä¸Šä¸‹æ–‡",
+      "core.status.why": "ä¸ºä»€ä¹ˆ",
+      "core.status.policy": "è§„åˆ™",
+      "core.status.what": "ä»€ä¹ˆ",
+      "core.status.consent": "åŒæ„",
+      "core.status.allow": "å…è®¸",
+      "core.status.audit": "å®¡è®¡",
+      "core.status.prove": "è¯æ˜Ž",
+      "core.status.execution": "æ‰§è¡Œ",
+      "core.status.act": "è¡ŒåŠ¨",
 
       "core.architecture.eyebrow":
-        "公开架构",
+        "å…¬å¼€æž¶æž„",
 
       "core.architecture.title":
-        "五个层级。一条可追溯的决策链。",
+        "äº”ä¸ªå±‚çº§ã€‚ä¸€æ¡å¯è¿½æº¯çš„å†³ç­–é“¾ã€‚",
 
       "core.architecture.lead":
-        "公开架构解释 ZAL’THERA 的基本逻辑，同时不会公开内部安全实现、私钥结构或协议细节。",
+        "å…¬å¼€æž¶æž„è§£é‡Š ZALâ€™THERA çš„åŸºæœ¬é€»è¾‘ï¼ŒåŒæ—¶ä¸ä¼šå…¬å¼€å†…éƒ¨å®‰å…¨å®žçŽ°ã€ç§é’¥ç»“æž„æˆ–åè®®ç»†èŠ‚ã€‚",
 
       "core.architecture.identity.title":
-        "身份",
+        "èº«ä»½",
 
       "core.architecture.identity.text":
-        "每个操作都从明确分配的身份、角色或已授权系统实例开始。",
+        "æ¯ä¸ªæ“ä½œéƒ½ä»Žæ˜Žç¡®åˆ†é…çš„èº«ä»½ã€è§’è‰²æˆ–å·²æŽˆæƒç³»ç»Ÿå®žä¾‹å¼€å§‹ã€‚",
 
       "core.architecture.context.title":
-        "上下文",
+        "ä¸Šä¸‹æ–‡",
 
       "core.architecture.context.text":
-        "信息不会被孤立理解，而是结合来源、时间和关系进行解释。",
+        "ä¿¡æ¯ä¸ä¼šè¢«å­¤ç«‹ç†è§£ï¼Œè€Œæ˜¯ç»“åˆæ¥æºã€æ—¶é—´å’Œå…³ç³»è¿›è¡Œè§£é‡Šã€‚",
 
       "core.architecture.intelligence.title":
-        "智能",
+        "æ™ºèƒ½",
 
       "core.architecture.intelligence.text":
-        "系统可以组织信息、解释信息，并准备可能的下一步。",
+        "ç³»ç»Ÿå¯ä»¥ç»„ç»‡ä¿¡æ¯ã€è§£é‡Šä¿¡æ¯ï¼Œå¹¶å‡†å¤‡å¯èƒ½çš„ä¸‹ä¸€æ­¥ã€‚",
 
       "core.architecture.trust.title":
-        "信任",
+        "ä¿¡ä»»",
 
       "core.architecture.trust.text":
-        "权限、证明、同意和审计共同决定什么可以被视为可信。",
+        "æƒé™ã€è¯æ˜Žã€åŒæ„å’Œå®¡è®¡å…±åŒå†³å®šä»€ä¹ˆå¯ä»¥è¢«è§†ä¸ºå¯ä¿¡ã€‚",
 
       "core.architecture.action.title":
-        "操作",
+        "æ“ä½œ",
 
       "core.architecture.action.text":
-        "重要操作只有在满足所需条件后才能执行。",
+        "é‡è¦æ“ä½œåªæœ‰åœ¨æ»¡è¶³æ‰€éœ€æ¡ä»¶åŽæ‰èƒ½æ‰§è¡Œã€‚",
 
       "core.architecture.principle":
-        "系统原则",
+        "ç³»ç»ŸåŽŸåˆ™",
 
       "core.architecture.principleText":
-        "先理解。再准备。只有获得许可后才行动。",
+        "å…ˆç†è§£ã€‚å†å‡†å¤‡ã€‚åªæœ‰èŽ·å¾—è®¸å¯åŽæ‰è¡ŒåŠ¨ã€‚",
 
       "core.architecture.technicalCore":
-        "技术核心",
+        "æŠ€æœ¯æ ¸å¿ƒ",
 
       "core.technical.eyebrow":
-        "技术核心",
+        "æŠ€æœ¯æ ¸å¿ƒ",
 
       "core.technical.lead":
-        "在公开架构之下运行着一条更精确的控制链，用于确保系统操作可追溯。",
+        "åœ¨å…¬å¼€æž¶æž„ä¹‹ä¸‹è¿è¡Œç€ä¸€æ¡æ›´ç²¾ç¡®çš„æŽ§åˆ¶é“¾ï¼Œç”¨äºŽç¡®ä¿ç³»ç»Ÿæ“ä½œå¯è¿½æº¯ã€‚",
 
       "core.technical.policy.title":
         "Policy",
 
       "core.technical.policy.text":
-        "规则定义边界、状态、权限和条件。",
+        "è§„åˆ™å®šä¹‰è¾¹ç•Œã€çŠ¶æ€ã€æƒé™å’Œæ¡ä»¶ã€‚",
 
       "core.technical.policy.question":
-        "允许什么？",
+        "å…è®¸ä»€ä¹ˆï¼Ÿ",
 
       "core.technical.identity.title":
-        "身份",
+        "èº«ä»½",
 
       "core.technical.identity.text":
-        "操作会被明确关联到个人、角色、身份或已授权实例。",
+        "æ“ä½œä¼šè¢«æ˜Žç¡®å…³è”åˆ°ä¸ªäººã€è§’è‰²ã€èº«ä»½æˆ–å·²æŽˆæƒå®žä¾‹ã€‚",
 
       "core.technical.identity.question":
-        "谁在行动？",
+        "è°åœ¨è¡ŒåŠ¨ï¼Ÿ",
 
       "core.technical.audit.title":
-        "审计",
+        "å®¡è®¡",
 
       "core.technical.audit.text":
-        "重要事件通过来源、时间和状态信息被记录，以保持可追溯性。",
+        "é‡è¦äº‹ä»¶é€šè¿‡æ¥æºã€æ—¶é—´å’ŒçŠ¶æ€ä¿¡æ¯è¢«è®°å½•ï¼Œä»¥ä¿æŒå¯è¿½æº¯æ€§ã€‚",
 
       "core.technical.audit.question":
-        "发生了什么？",
+        "å‘ç”Ÿäº†ä»€ä¹ˆï¼Ÿ",
 
       "core.technical.execute.title":
-        "执行",
+        "æ‰§è¡Œ",
 
       "core.technical.execute.text":
-        "只有满足必要条件后，操作才可以改变可见状态。",
+        "åªæœ‰æ»¡è¶³å¿…è¦æ¡ä»¶åŽï¼Œæ“ä½œæ‰å¯ä»¥æ”¹å˜å¯è§çŠ¶æ€ã€‚",
 
       "core.technical.execute.question":
-        "可以执行吗？",
+        "å¯ä»¥æ‰§è¡Œå—ï¼Ÿ",
 
       "core.ledger.eyebrow":
         "THE LEDGER",
 
       "core.ledger.title":
-        "面向可验证事件的本地事实核心。",
+        "é¢å‘å¯éªŒè¯äº‹ä»¶çš„æœ¬åœ°äº‹å®žæ ¸å¿ƒã€‚",
 
       "core.ledger.text1":
-        "THE LEDGER 按可追溯顺序记录重要事件。记录会被追加、关联，并可在之后进行检查。",
+        "THE LEDGER æŒ‰å¯è¿½æº¯é¡ºåºè®°å½•é‡è¦äº‹ä»¶ã€‚è®°å½•ä¼šè¢«è¿½åŠ ã€å…³è”ï¼Œå¹¶å¯åœ¨ä¹‹åŽè¿›è¡Œæ£€æŸ¥ã€‚",
 
       "core.ledger.text2":
-        "目标不是集中收集所有信息。目标是让重要状态变化保持可追溯和可验证。",
+        "ç›®æ ‡ä¸æ˜¯é›†ä¸­æ”¶é›†æ‰€æœ‰ä¿¡æ¯ã€‚ç›®æ ‡æ˜¯è®©é‡è¦çŠ¶æ€å˜åŒ–ä¿æŒå¯è¿½æº¯å’Œå¯éªŒè¯ã€‚",
 
-      "core.ledger.created": "已创建",
-      "core.ledger.proof": "证明",
-      "core.ledger.signed": "已签署",
-      "core.ledger.verified": "已验证",
+      "core.ledger.created": "å·²åˆ›å»º",
+      "core.ledger.proof": "è¯æ˜Ž",
+      "core.ledger.signed": "å·²ç­¾ç½²",
+      "core.ledger.verified": "å·²éªŒè¯",
 
       "core.ledger.appendOnly.title":
-        "仅追加",
+        "ä»…è¿½åŠ ",
 
       "core.ledger.appendOnly.text":
-        "重要事件会被追加，而不是被悄然覆盖。",
+        "é‡è¦äº‹ä»¶ä¼šè¢«è¿½åŠ ï¼Œè€Œä¸æ˜¯è¢«æ‚„ç„¶è¦†ç›–ã€‚",
 
       "core.ledger.linked.title":
-        "关联",
+        "å…³è”",
 
       "core.ledger.linked.text":
-        "事件之间保持可追溯的关系。",
+        "äº‹ä»¶ä¹‹é—´ä¿æŒå¯è¿½æº¯çš„å…³ç³»ã€‚",
 
       "core.ledger.verifiable.title":
-        "可验证",
+        "å¯éªŒè¯",
 
       "core.ledger.verifiable.text":
-        "结构、完整性和来源都可以被检查。",
+        "ç»“æž„ã€å®Œæ•´æ€§å’Œæ¥æºéƒ½å¯ä»¥è¢«æ£€æŸ¥ã€‚",
 
       "core.trust.eyebrow":
-        "信任层",
+        "ä¿¡ä»»å±‚",
 
       "core.trust.title":
-        "信任不是简单声明出来的。",
+        "ä¿¡ä»»ä¸æ˜¯ç®€å•å£°æ˜Žå‡ºæ¥çš„ã€‚",
 
       "core.trust.lead":
-        "它来自可验证的状态、身份、权限和证明。",
+        "å®ƒæ¥è‡ªå¯éªŒè¯çš„çŠ¶æ€ã€èº«ä»½ã€æƒé™å’Œè¯æ˜Žã€‚",
 
       "core.trust.proof.title":
-        "证明信任",
+        "è¯æ˜Žä¿¡ä»»",
 
       "core.trust.proof.text":
-        "声明的操作是否存在有效证明？",
+        "å£°æ˜Žçš„æ“ä½œæ˜¯å¦å­˜åœ¨æœ‰æ•ˆè¯æ˜Žï¼Ÿ",
 
       "core.trust.policy.title":
-        "规则信任",
+        "è§„åˆ™ä¿¡ä»»",
 
       "core.trust.policy.text":
-        "操作是否按照预定规则执行？",
+        "æ“ä½œæ˜¯å¦æŒ‰ç…§é¢„å®šè§„åˆ™æ‰§è¡Œï¼Ÿ",
 
       "core.trust.identity.title":
-        "身份信任",
+        "èº«ä»½ä¿¡ä»»",
 
       "core.trust.identity.text":
-        "执行操作的身份是否明确并已获授权？",
+        "æ‰§è¡Œæ“ä½œçš„èº«ä»½æ˜¯å¦æ˜Žç¡®å¹¶å·²èŽ·æŽˆæƒï¼Ÿ",
 
       "core.trust.audit.title":
-        "审计信任",
+        "å®¡è®¡ä¿¡ä»»",
 
       "core.trust.audit.text":
-        "流程是否足够完整，可以在之后被重新追溯？",
+        "æµç¨‹æ˜¯å¦è¶³å¤Ÿå®Œæ•´ï¼Œå¯ä»¥åœ¨ä¹‹åŽè¢«é‡æ–°è¿½æº¯ï¼Ÿ",
 
       "core.authorization.eyebrow":
-        "人工授权闸门",
+        "äººå·¥æŽˆæƒé—¸é—¨",
 
       "core.authorization.title":
-        "智能可以准备。<br>权力必须明确。",
+        "æ™ºèƒ½å¯ä»¥å‡†å¤‡ã€‚<br>æƒåŠ›å¿…é¡»æ˜Žç¡®ã€‚",
 
       "core.authorization.text":
-        "ZAL’THERA 可以理解、组织和解释信息，并准备可能的操作。但重要操作仍然必须受必要的人工授权或明确委托的授权约束。",
+        "ZALâ€™THERA å¯ä»¥ç†è§£ã€ç»„ç»‡å’Œè§£é‡Šä¿¡æ¯ï¼Œå¹¶å‡†å¤‡å¯èƒ½çš„æ“ä½œã€‚ä½†é‡è¦æ“ä½œä»ç„¶å¿…é¡»å—å¿…è¦çš„äººå·¥æŽˆæƒæˆ–æ˜Žç¡®å§”æ‰˜çš„æŽˆæƒçº¦æŸã€‚",
 
       "core.application.eyebrow":
-        "系统应用",
+        "ç³»ç»Ÿåº”ç”¨",
 
       "core.application.title":
-        "一个核心。多个应用领域。",
+        "ä¸€ä¸ªæ ¸å¿ƒã€‚å¤šä¸ªåº”ç”¨é¢†åŸŸã€‚",
 
       "core.application.personal":
-        "个人",
+        "ä¸ªäºº",
 
       "core.application.continuity":
-        "文档 · 财务 · 上下文 · Cards",
+        "æ–‡æ¡£ Â· è´¢åŠ¡ Â· ä¸Šä¸‹æ–‡ Â· Cards",
 
       "core.application.proof":
-        "证明",
+        "è¯æ˜Ž",
 
       "core.application.proofflow":
-        "证明 · 审计 · 签名 · 导出",
+        "è¯æ˜Ž Â· å®¡è®¡ Â· ç­¾å Â· å¯¼å‡º",
 
       "core.application.communication":
-        "通信",
+        "é€šä¿¡",
 
       "core.application.voicebridge":
-        "身份 · 同意 · 语音 · 信任",
+        "èº«ä»½ Â· åŒæ„ Â· è¯­éŸ³ Â· ä¿¡ä»»",
 
       "core.application.industry":
-        "工业",
+        "å·¥ä¸š",
 
       "core.application.shiftlog":
-        "交接 · 状态 · 责任",
+        "äº¤æŽ¥ Â· çŠ¶æ€ Â· è´£ä»»",
 
       "core.return.title":
-        "核心不是产品。<br>核心连接所有产品。",
+        "æ ¸å¿ƒä¸æ˜¯äº§å“ã€‚<br>æ ¸å¿ƒè¿žæŽ¥æ‰€æœ‰äº§å“ã€‚",
 
       "core.return.button":
-        "返回系统"
+        "è¿”å›žç³»ç»Ÿ"
     }
   };
 
@@ -2705,7 +2953,7 @@
      Order: DE / EN / TR / ES / FR / IT / RO / ZH-HANS
      ============================================================ */
 
-  const FINAL_TRANSLATION_ROWS = [["footer.terms",["AGB","Terms","Şartlar","Términos","CGV","Termini","Termeni","条款"]],["footer.withdrawal",["Widerruf","Withdrawal","Cayma","Desistimiento","Rétractation","Recesso","Retragere","撤销"]],["global.navClose",["Navigation schließen","Close navigation","Navigasyonu kapat","Cerrar navegación","Fermer la navigation","Chiudi navigazione","Închide navigarea","关闭导航"]],["home.hero.kicker",["SOUVERÄNE DIGITALE ARCHITEKTUR","SOVEREIGN DIGITAL ARCHITECTURE","EGEMEN DİJİTAL MİMARİ","ARQUITECTURA DIGITAL SOBERANA","ARCHITECTURE NUMÉRIQUE SOUVERAINE","ARCHITETTURA DIGITALE SOVRANA","ARHITECTURĂ DIGITALĂ SUVERANĂ","主权数字架构"]],["home.hero.title",["One system.<br>One identity.<br>Connected intelligence.","One system.<br>One identity.<br>Connected intelligence.","Tek sistem.<br>Tek kimlik.<br>Bağlantılı zekâ.","Un sistema.<br>Una identidad.<br>Inteligencia conectada.","Un système.<br>Une identité.<br>Une intelligence connectée.","Un sistema.<br>Un’identità.<br>Intelligenza connessa.","Un sistem.<br>O identitate.<br>Inteligență conectată.","一个系统。<br>一个身份。<br>连接的智能。"]],["home.hero.description",["ZAL’THERA verbindet Identität, Kontext, künstliche Intelligenz, Daten, Vertrauen, Kommunikation und reale Prozesse in einer gemeinsamen technologischen Architektur.","ZAL’THERA connects identity, context, artificial intelligence, data, trust, communication and real-world processes within one shared technological architecture.","ZAL’THERA; kimlik, bağlam, yapay zekâ, veri, güven, iletişim ve gerçek süreçleri ortak bir teknolojik mimaride birleştirir.","ZAL’THERA conecta identidad, contexto, inteligencia artificial, datos, confianza, comunicación y procesos reales dentro de una arquitectura tecnológica común.","ZAL’THERA relie identité, contexte, intelligence artificielle, données, confiance, communication et processus réels dans une architecture technologique commune.","ZAL’THERA collega identità, contesto, intelligenza artificiale, dati, fiducia, comunicazione e processi reali in un’unica architettura tecnologica.","ZAL’THERA conectează identitatea, contextul, inteligența artificială, datele, încrederea, comunicarea și procesele reale într-o arhitectură tehnologică comună.","ZAL’THERA 将身份、上下文、人工智能、数据、信任、通信与现实流程连接在统一的技术架构中。"]],["home.hero.primary",["System entdecken","Discover the system","Sistemi keşfet","Descubrir el sistema","Découvrir le système","Scopri il sistema","Descoperă sistemul","探索系统"]],["home.hero.core",["ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core","ZAL’THERA Core"]],["home.state.label",["SYSTEMSTATUS","SYSTEM STATE","SİSTEM DURUMU","ESTADO DEL SISTEMA","ÉTAT DU SYSTÈME","STATO DEL SISTEMA","STAREA SISTEMULUI","系统状态"]],["home.state.identity",["IDENTITÄT","IDENTITY","KİMLİK","IDENTIDAD","IDENTITÉ","IDENTITÀ","IDENTITATE","身份"]],["home.state.continuity",["CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY"]],["home.state.intelligence",["INTELLIGENCE","INTELLIGENCE","ZEKÂ","INTELIGENCIA","INTELLIGENCE","INTELLIGENZA","INTELIGENȚĂ","智能"]],["home.state.communication",["COMMUNICATION","COMMUNICATION","İLETİŞİM","COMUNICACIÓN","COMMUNICATION","COMUNICAZIONE","COMUNICARE","通信"]],["home.state.industry",["INDUSTRY","INDUSTRY","ENDÜSTRİ","INDUSTRIA","INDUSTRIE","INDUSTRIA","INDUSTRIE","工业"]],["home.state.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADĂ","证明"]],["home.state.core",["CORE","CORE","CORE","CORE","CORE","CORE","CORE","CORE"]],["home.state.active",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTİF GELİŞTİRME","DESARROLLO ACTIVO","DÉVELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVĂ","积极开发中"]],["home.state.architecture",["ARCHITEKTUR","ARCHITECTURE","MİMARİ","ARQUITECTURA","ARCHITECTURE","ARCHITETTURA","ARHITECTURĂ","架构"]],["home.state.module",["SYSTEMMODUL","SYSTEM MODULE","SİSTEM MODÜLÜ","MÓDULO DEL SISTEMA","MODULE SYSTÈME","MODULO DI SISTEMA","MODUL DE SISTEM","系统模块"]],["home.system.eyebrow",["EIN SYSTEM","ONE SYSTEM","TEK SİSTEM","UN SISTEMA","UN SYSTÈME","UN SISTEMA","UN SISTEM","一个系统"]],["home.system.title",["Technologie beginnt nicht mit einer App.","Technology does not begin with an app.","Teknoloji bir uygulamayla başlamaz.","La tecnología no comienza con una app.","La technologie ne commence pas par une application.","La tecnologia non inizia con un’app.","Tehnologia nu începe cu o aplicație.","技术并不是从一个应用开始。"]],["home.system.lead",["Sie beginnt mit einer gemeinsamen Logik dafür, wer handelt, was verstanden wird, wem vertraut werden darf und welche Aktion tatsächlich ausgeführt werden kann.","It begins with a shared logic for who acts, what is understood, who may be trusted and which action may actually be executed.","Kimin hareket ettiği, neyin anlaşıldığı, kime güvenilebileceği ve hangi eylemin gerçekten yürütülebileceğine dair ortak bir mantıkla başlar.","Comienza con una lógica común sobre quién actúa, qué se comprende, en quién se puede confiar y qué acción puede ejecutarse realmente.","Elle commence par une logique commune : qui agit, ce qui est compris, à qui faire confiance et quelle action peut réellement être exécutée.","Inizia con una logica comune su chi agisce, cosa viene compreso, di chi ci si può fidare e quale azione può essere realmente eseguita.","Începe cu o logică comună privind cine acționează, ce este înțeles, în cine se poate avea încredere și ce acțiune poate fi executată.","它始于一套共同逻辑：谁在行动、理解了什么、可以信任谁，以及什么操作真正可以执行。"]],["home.system.identity.title",["Identität","Identity","Kimlik","Identidad","Identité","Identità","Identitate","身份"]],["home.system.identity.text",["Wer oder welches autorisierte System handelt?","Who or which authorized system is acting?","Kim veya hangi yetkili sistem hareket ediyor?","¿Quién o qué sistema autorizado está actuando?","Qui ou quel système autorisé agit ?","Chi o quale sistema autorizzato sta agendo?","Cine sau ce sistem autorizat acționează?","谁或哪个已授权系统正在行动？"]],["home.system.context.title",["Kontext","Context","Bağlam","Contexto","Contexte","Contesto","Context","上下文"]],["home.system.context.text",["In welchem Zusammenhang existieren Information und Handlung?","In what context do information and action exist?","Bilgi ve eylem hangi bağlamda var?","¿En qué contexto existen la información y la acción?","Dans quel contexte existent l’information et l’action ?","In quale contesto esistono informazione e azione?","În ce context există informația și acțiunea?","信息与行动存在于什么上下文中？"]],["home.system.intelligence.title",["Intelligenz","Intelligence","Zekâ","Inteligencia","Intelligence","Intelligenza","Inteligență","智能"]],["home.system.intelligence.text",["Was lässt sich aus dem vorhandenen Kontext verstehen?","What can be understood from the available context?","Mevcut bağlamdan ne anlaşılabilir?","¿Qué puede comprenderse a partir del contexto disponible?","Que peut-on comprendre à partir du contexte disponible ?","Cosa si può comprendere dal contesto disponibile?","Ce poate fi înțeles din contextul disponibil?","从现有上下文中可以理解什么？"]],["home.system.trust.title",["Vertrauen","Trust","Güven","Confianza","Confiance","Fiducia","Încredere","信任"]],["home.system.trust.text",["Was ist erlaubt, belegbar und überprüfbar?","What is permitted, verifiable and accountable?","Neye izin veriliyor, ne kanıtlanabilir ve doğrulanabilir?","¿Qué está permitido, puede probarse y verificarse?","Qu’est-ce qui est autorisé, prouvable et vérifiable ?","Cosa è consentito, dimostrabile e verificabile?","Ce este permis, demonstrabil și verificabil?","什么是被允许、可证明并可验证的？"]],["home.system.action.title",["Aktion","Action","Eylem","Acción","Action","Azione","Acțiune","操作"]],["home.system.action.text",["Was darf tatsächlich ausgeführt werden?","What may actually be executed?","Gerçekte ne yürütülebilir?","¿Qué puede ejecutarse realmente?","Qu’est-ce qui peut réellement être exécuté ?","Cosa può essere realmente eseguito?","Ce poate fi executat efectiv?","什么操作真正可以执行？"]],["home.system.principle",["KERNPRINZIP","CORE PRINCIPLE","TEMEL İLKE","PRINCIPIO CENTRAL","PRINCIPE CENTRAL","PRINCIPIO CENTRALE","PRINCIPIU CENTRAL","核心原则"]],["home.system.principleText",["Erst verstehen. Dann vorbereiten. Nur mit Erlaubnis handeln.","Understand first. Prepare second. Act only with permission.","Önce anla. Sonra hazırla. Yalnızca izinle hareket et.","Primero comprender. Después preparar. Actuar solo con permiso.","Comprendre d’abord. Préparer ensuite. Agir uniquement avec autorisation.","Prima comprendere. Poi preparare. Agire solo con autorizzazione.","Mai întâi înțelege. Apoi pregătește. Acționează numai cu permisiune.","先理解。再准备。只有获得许可后才行动。"]],["home.system.openArchitecture",["Architektur öffnen","Open architecture","Mimariyi aç","Abrir arquitectura","Ouvrir l’architecture","Apri architettura","Deschide arhitectura","打开架构"]],["home.continuity.eyebrow",["PERSÖNLICHES SOUVERÄNES SYSTEM","PERSONAL SOVEREIGN SYSTEM","KİŞİSEL EGEMEN SİSTEM","SISTEMA PERSONAL SOBERANO","SYSTÈME PERSONNEL SOUVERAIN","SISTEMA PERSONALE SOVRANO","SISTEM PERSONAL SUVERAN","个人主权系统"]],["home.continuity.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTİF GELİŞTİRME","DESARROLLO ACTIVO","DÉVELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVĂ","积极开发中"]],["home.continuity.tagline",["Dein Lebenskontext. Strukturiert. Verbunden. Verständlich.","Your life context. Structured. Connected. Understandable.","Yaşam bağlamın. Yapılandırılmış. Bağlantılı. Anlaşılır.","El contexto de tu vida. Estructurado. Conectado. Comprensible.","Le contexte de votre vie. Structuré. Connecté. Compréhensible.","Il contesto della tua vita. Strutturato. Connesso. Comprensibile.","Contextul vieții tale. Structurat. Conectat. Ușor de înțeles.","你的生活上下文。结构化。连接。可理解。"]],["home.continuity.text1",["CONTINUITY verbindet persönliche Dokumente, Daten, Cards, Timeline, Finanzen, Nachweise und Kontext in einer souveränen persönlichen Umgebung.","CONTINUITY connects personal documents, data, Cards, Timeline, finances, evidence and context within a sovereign personal environment.","CONTINUITY; kişisel belgeleri, verileri, Cards, Timeline, finans, kanıt ve bağlamı egemen bir kişisel ortamda birleştirir.","CONTINUITY conecta documentos personales, datos, Cards, Timeline, finanzas, pruebas y contexto en un entorno personal soberano.","CONTINUITY relie documents personnels, données, Cards, Timeline, finances, preuves et contexte dans un environnement personnel souverain.","CONTINUITY collega documenti personali, dati, Cards, Timeline, finanze, prove e contesto in un ambiente personale sovrano.","CONTINUITY conectează documente personale, date, Cards, Timeline, finanțe, dovezi și context într-un mediu personal suveran.","CONTINUITY 将个人文档、数据、Cards、Timeline、财务、证明与上下文连接在一个个人主权环境中。"]],["home.continuity.text2",["Informationen bleiben nicht als isolierte Dateien liegen. Sie erhalten Kontext, Herkunft, Zeitbezug und eine nachvollziehbare Position im persönlichen System.","Information does not remain as isolated files. It receives context, provenance, temporal reference and a traceable position within the personal system.","Bilgiler yalıtılmış dosyalar olarak kalmaz. Bağlam, kaynak, zaman ilişkisi ve kişisel sistem içinde izlenebilir bir konum kazanır.","La información no queda como archivos aislados. Recibe contexto, procedencia, referencia temporal y una posición trazable dentro del sistema personal.","Les informations ne restent pas des fichiers isolés. Elles reçoivent un contexte, une provenance, un repère temporel et une position traçable dans le système personnel.","Le informazioni non restano file isolati. Ricevono contesto, provenienza, riferimento temporale e una posizione tracciabile nel sistema personale.","Informațiile nu rămân fișiere izolate. Primesc context, proveniență, referință temporală și o poziție trasabilă în sistemul personal.","信息不会停留为孤立文件，而会获得上下文、来源、时间关联以及在个人系统中的可追溯位置。"]],["home.continuity.documents",["Dokumente","Documents","Belgeler","Documentos","Documents","Documenti","Documente","文档"]],["home.continuity.cards",["Cards","Cards","Cards","Cards","Cards","Cards","Cards","Cards"]],["home.continuity.timeline",["Timeline","Timeline","Timeline","Timeline","Timeline","Timeline","Timeline","Timeline"]],["home.continuity.finance",["Finanzen","Finance","Finans","Finanzas","Finances","Finanze","Finanțe","财务"]],["home.continuity.context",["Kontext","Context","Bağlam","Contexto","Contexte","Contesto","Context","上下文"]],["home.continuity.audit",["Audit","Audit","Denetim","Auditoría","Audit","Audit","Audit","审计"]],["home.intelligence.eyebrow",["KONTEXTUELLE INTELLIGENZ","CONTEXTUAL INTELLIGENCE","BAĞLAMSAL ZEKÂ","INTELIGENCIA CONTEXTUAL","INTELLIGENCE CONTEXTUELLE","INTELLIGENZA CONTESTUALE","INTELIGENȚĂ CONTEXTUALĂ","上下文智能"]],["home.intelligence.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTİF GELİŞTİRME","DESARROLLO ACTIVO","DÉVELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVĂ","积极开发中"]],["home.intelligence.title",["ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence","ZAL’THERA Intelligence"]],["home.intelligence.tagline",["Intelligenz, die ihre Grenzen kennt.","Intelligence that knows its limits.","Sınırlarını bilen zekâ.","Inteligencia que conoce sus límites.","Une intelligence qui connaît ses limites.","Intelligenza che conosce i propri limiti.","Inteligență care își cunoaște limitele.","知道自身边界的智能。"]],["home.intelligence.text1",["Die Intelligenzschicht arbeitet nicht losgelöst vom Menschen. Sie versteht verfügbaren Kontext, erkennt Zusammenhänge, erklärt Informationen und bereitet mögliche Aktionen vor.","The intelligence layer does not operate independently of the human. It understands available context, identifies relationships, explains information and prepares possible actions.","Zekâ katmanı insandan bağımsız çalışmaz. Mevcut bağlamı anlar, ilişkileri fark eder, bilgiyi açıklar ve olası eylemleri hazırlar.","La capa de inteligencia no funciona separada de la persona. Comprende el contexto disponible, identifica relaciones, explica información y prepara posibles acciones.","La couche d’intelligence n’agit pas indépendamment de l’humain. Elle comprend le contexte disponible, identifie les relations, explique l’information et prépare des actions possibles.","Il livello di intelligenza non opera separato dalla persona. Comprende il contesto disponibile, riconosce relazioni, spiega informazioni e prepara possibili azioni.","Stratul de inteligență nu funcționează separat de om. Înțelege contextul disponibil, identifică relații, explică informații și pregătește acțiuni posibile.","智能层并不脱离人独立运行。它理解可用上下文、识别关联、解释信息并准备可能的操作。"]],["home.intelligence.text2",["Konsequente Aktionen bleiben an Berechtigung, Kontext und menschliche Autorisierung gebunden.","Consequential actions remain bound to authorization, context and human approval.","Sonuç doğuran eylemler yetki, bağlam ve insan onayına bağlı kalır.","Las acciones con consecuencias permanecen vinculadas a autorización, contexto y aprobación humana.","Les actions à conséquence restent liées à l’autorisation, au contexte et à l’approbation humaine.","Le azioni con conseguenze restano vincolate ad autorizzazione, contesto e approvazione umana.","Acțiunile cu consecințe rămân legate de autorizare, context și aprobarea umană.","会产生后果的操作仍受权限、上下文与人工授权约束。"]],["home.communication.eyebrow",["IDENTITÄT-ZU-IDENTITÄT","IDENTITY-TO-IDENTITY","KİMLİKTEN KİMLİĞE","IDENTIDAD A IDENTIDAD","IDENTITÉ À IDENTITÉ","IDENTITÀ A IDENTITÀ","IDENTITATE LA IDENTITATE","身份到身份"]],["home.communication.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTİF GELİŞTİRME","DESARROLLO ACTIVO","DÉVELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVĂ","积极开发中"]],["home.communication.title",["Communication","Communication","İletişim","Comunicación","Communication","Comunicazione","Comunicare","通信"]],["home.communication.tagline",["Verbindung beginnt mit Identität und Zustimmung.","Connection begins with identity and consent.","Bağlantı kimlik ve onayla başlar.","La conexión comienza con identidad y consentimiento.","La connexion commence par l’identité et le consentement.","La connessione inizia con identità e consenso.","Conexiunea începe cu identitate și consimțământ.","连接始于身份与同意。"]],["home.communication.text1",["ZAL’THERA Communication entwickelt eine sichere Kommunikationsschicht zwischen autorisierten Identitäten.","ZAL’THERA Communication is developing a secure communication layer between authorized identities.","ZAL’THERA Communication, yetkili kimlikler arasında güvenli bir iletişim katmanı geliştirir.","ZAL’THERA Communication desarrolla una capa de comunicación segura entre identidades autorizadas.","ZAL’THERA Communication développe une couche de communication sécurisée entre identités autorisées.","ZAL’THERA Communication sviluppa un livello di comunicazione sicuro tra identità autorizzate.","ZAL’THERA Communication dezvoltă un strat sigur de comunicare între identități autorizate.","ZAL’THERA Communication 正在构建已授权身份之间的安全通信层。"]],["home.communication.text2",["Sprache, später Video, Dateien und vertrauensbasierte Zustellung werden nicht über öffentliche Profile definiert, sondern über Identität, Beziehung und Berechtigung.","Voice, later video, files and trusted delivery are defined not through public profiles, but through identity, relationship and authorization.","Ses, daha sonra video, dosyalar ve güvene dayalı teslimat; herkese açık profillerle değil kimlik, ilişki ve yetkiyle tanımlanır.","La voz, más adelante el vídeo, los archivos y la entrega de confianza no se definen mediante perfiles públicos, sino mediante identidad, relación y autorización.","La voix, puis la vidéo, les fichiers et la livraison de confiance ne sont pas définis par des profils publics, mais par l’identité, la relation et l’autorisation.","Voce, in seguito video, file e consegna basata sulla fiducia non sono definiti tramite profili pubblici, ma tramite identità, relazione e autorizzazione.","Vocea, ulterior video, fișierele și livrarea bazată pe încredere nu sunt definite prin profiluri publice, ci prin identitate, relație și autorizare.","语音、后续的视频、文件与可信投递不由公开资料定义，而由身份、关系与授权定义。"]],["home.communication.voice",["SPRACHE","VOICE","SES","VOZ","VOIX","VOCE","VOCE","语音"]],["home.communication.video",["VIDEO","VIDEO","VİDEO","VÍDEO","VIDÉO","VIDEO","VIDEO","视频"]],["home.communication.files",["DATEIEN","FILES","DOSYALAR","ARCHIVOS","FICHIERS","FILE","FIȘIERE","文件"]],["home.communication.trust",["VERTRAUEN","TRUST","GÜVEN","CONFIANZA","CONFIANCE","FIDUCIA","ÎNCREDERE","信任"]],["home.communication.consent",["ZUSTIMMUNG","CONSENT","ONAY","CONSENTIMIENTO","CONSENTEMENT","CONSENSO","CONSIMȚĂMÂNT","同意"]],["home.communication.connectionRule",["ZUSTIMMUNG VOR VERBINDUNG","CONSENT BEFORE CONNECTION","BAĞLANTIDAN ÖNCE ONAY","CONSENTIMIENTO ANTES DE LA CONEXIÓN","CONSENTEMENT AVANT CONNEXION","CONSENSO PRIMA DELLA CONNESSIONE","CONSIMȚĂMÂNT ÎNAINTE DE CONECTARE","连接前先获得同意"]],["home.industry.eyebrow",["REALE SYSTEME","REAL-WORLD SYSTEMS","GERÇEK DÜNYA SİSTEMLERİ","SISTEMAS DEL MUNDO REAL","SYSTÈMES DU MONDE RÉEL","SISTEMI DEL MONDO REALE","SISTEME DIN LUMEA REALĂ","现实世界系统"]],["home.industry.status",["ENTWICKLUNG & ARCHITEKTUR","DEVELOPMENT & ARCHITECTURE","GELİŞTİRME & MİMARİ","DESARROLLO & ARQUITECTURA","DÉVELOPPEMENT & ARCHITECTURE","SVILUPPO & ARCHITETTURA","DEZVOLTARE & ARHITECTURĂ","开发与架构"]],["home.industry.title",["ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry","ZAL’THERA Industry"]],["home.industry.tagline",["Reale Prozesse werden zu verständlichen Systemen.","Real processes become understandable systems.","Gerçek süreçler anlaşılır sistemlere dönüşür.","Los procesos reales se convierten en sistemas comprensibles.","Les processus réels deviennent des systèmes compréhensibles.","I processi reali diventano sistemi comprensibili.","Procesele reale devin sisteme ușor de înțeles.","现实流程转化为可理解的系统。"]],["home.industry.text",["Die industrielle Schicht verbindet operative Übergaben, Prozesszustände, Sensordaten, Messwerte und zukünftige Maschinenanbindungen.","The industrial layer connects operational handovers, process states, sensor data, measurements and future machine integrations.","Endüstriyel katman; operasyonel devirleri, süreç durumlarını, sensör verilerini, ölçümleri ve gelecekteki makine entegrasyonlarını bağlar.","La capa industrial conecta relevos operativos, estados de proceso, datos de sensores, mediciones y futuras integraciones de máquinas.","La couche industrielle relie transmissions opérationnelles, états de processus, données de capteurs, mesures et futures intégrations de machines.","Il livello industriale collega passaggi operativi, stati di processo, dati sensore, misurazioni e future integrazioni macchina.","Stratul industrial conectează predări operaționale, stări de proces, date de senzori, măsurători și viitoare integrări de utilaje.","工业层连接操作交接、流程状态、传感器数据、测量值与未来的机器集成。"]],["home.industry.shift",["Schichtübergabe & operative Zustände","Shift handover & operational states","Vardiya devri & operasyonel durumlar","Relevo de turno & estados operativos","Transmission de poste & états opérationnels","Passaggio turno & stati operativi","Predare schimb & stări operaționale","班次交接与运行状态"]],["home.industry.gate",["Sensorik, Messwerte & Maschinenprozesse","Sensors, measurements & machine processes","Sensörler, ölçümler & makine süreçleri","Sensores, mediciones & procesos de máquina","Capteurs, mesures & processus machine","Sensori, misurazioni & processi macchina","Senzori, măsurători & procese de utilaje","传感器、测量值与机器流程"]],["home.industry.process",["Analyse & nachvollziehbare Prozesszustände","Analysis & traceable process states","Analiz & izlenebilir süreç durumları","Análisis & estados de proceso trazables","Analyse & états de processus traçables","Analisi & stati di processo tracciabili","Analiză & stări de proces trasabile","分析与可追溯流程状态"]],["home.proof.eyebrow",["NACHWEIS & VERTRAUEN","PROOF & TRUST","KANIT & GÜVEN","PRUEBA & CONFIANZA","PREUVE & CONFIANCE","PROVA & FIDUCIA","DOVADĂ & ÎNCREDERE","证明与信任"]],["home.proof.title",["Nachweis vor Annahme.","Evidence before assumption.","Varsayımdan önce kanıt.","Prueba antes que suposición.","La preuve avant l’hypothèse.","La prova prima dell’ipotesi.","Dovada înaintea presupunerii.","先有证据，再作判断。"]],["home.proof.text",["ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu einem nachvollziehbaren Ablauf.","ProofFlow connects tasks, evidence, photos, notes, signatures, audit and export into a traceable workflow.","ProofFlow; görevleri, kanıtları, fotoğrafları, notları, imzaları, denetimi ve dışa aktarmayı izlenebilir bir akışta birleştirir.","ProofFlow conecta tareas, pruebas, fotos, notas, firmas, auditoría y exportación en un flujo trazable.","ProofFlow relie tâches, preuves, photos, notes, signatures, audit et export dans un flux traçable.","ProofFlow collega attività, prove, foto, note, firme, audit ed esportazione in un flusso tracciabile.","ProofFlow conectează sarcini, dovezi, fotografii, note, semnături, audit și export într-un flux trasabil.","ProofFlow 将任务、证明、照片、备注、签名、审计与导出连接成可追溯流程。"]],["home.proof.open",["ProofFlow öffnen","Open ProofFlow","ProofFlow’u aç","Abrir ProofFlow","Ouvrir ProofFlow","Apri ProofFlow","Deschide ProofFlow","打开 ProofFlow"]],["home.products.eyebrow",["SYSTEMPORTFOLIO","SYSTEM PORTFOLIO","SİSTEM PORTFÖYÜ","PORTAFOLIO DEL SISTEMA","PORTEFEUILLE SYSTÈME","PORTAFOGLIO SISTEMA","PORTOFOLIU DE SISTEM","系统组合"]],["home.products.title",["Ein Ökosystem. Unterschiedliche Reifegrade.","One ecosystem. Different levels of maturity.","Tek ekosistem. Farklı olgunluk düzeyleri.","Un ecosistema. Distintos niveles de madurez.","Un écosystème. Différents niveaux de maturité.","Un ecosistema. Diversi livelli di maturità.","Un ecosistem. Niveluri diferite de maturitate.","一个生态系统。不同成熟度。"]],["home.products.lead",["ZAL’THERA trennt klar zwischen verfügbaren Produkten, aktiver Entwicklung, Systemmodulen und zukünftiger Architektur.","ZAL’THERA clearly distinguishes between available products, active development, system modules and future architecture.","ZAL’THERA; mevcut ürünleri, aktif geliştirmeyi, sistem modüllerini ve gelecekteki mimariyi açıkça ayırır.","ZAL’THERA distingue claramente entre productos disponibles, desarrollo activo, módulos del sistema y arquitectura futura.","ZAL’THERA distingue clairement les produits disponibles, le développement actif, les modules système et l’architecture future.","ZAL’THERA distingue chiaramente tra prodotti disponibili, sviluppo attivo, moduli di sistema e architettura futura.","ZAL’THERA separă clar produsele disponibile, dezvoltarea activă, modulele de sistem și arhitectura viitoare.","ZAL’THERA 明确区分已发布产品、积极开发、系统模块与未来架构。"]],["home.products.lifeflow",["Kosten, Verträge, Fristen und persönliche Finanzübersicht.","Costs, contracts, deadlines and personal financial overview.","Maliyetler, sözleşmeler, süreler ve kişisel finans görünümü.","Costes, contratos, plazos y visión financiera personal.","Coûts, contrats, échéances et vue financière personnelle.","Costi, contratti, scadenze e panoramica finanziaria personale.","Costuri, contracte, termene și vedere financiară personală.","成本、合同、期限与个人财务概览。"]],["home.products.continuity",["Persönliche souveräne Umgebung für Dokumente, Daten, Kontext und Intelligenz.","A personal sovereign environment for documents, data, context and intelligence.","Belgeler, veriler, bağlam ve zekâ için kişisel egemen ortam.","Un entorno personal soberano para documentos, datos, contexto e inteligencia.","Un environnement personnel souverain pour documents, données, contexte et intelligence.","Un ambiente personale sovrano per documenti, dati, contesto e intelligenza.","Un mediu personal suveran pentru documente, date, context și inteligență.","面向文档、数据、上下文与智能的个人主权环境。"]],["home.products.proofflow",["Nachweise, Audit, Signatur und überprüfbare Abläufe.","Evidence, audit, signatures and verifiable workflows.","Kanıt, denetim, imza ve doğrulanabilir iş akışları.","Pruebas, auditoría, firmas y flujos verificables.","Preuves, audit, signatures et flux vérifiables.","Prove, audit, firme e flussi verificabili.","Dovezi, audit, semnături și fluxuri verificabile.","证明、审计、签名与可验证流程。"]],["home.products.shiftlog",["Digitale Schichtübergabe für operative Zustände und Verantwortlichkeiten.","Digital shift handover for operational states and responsibilities.","Operasyonel durumlar ve sorumluluklar için dijital vardiya devri.","Relevo digital de turno para estados operativos y responsabilidades.","Transmission numérique de poste pour états opérationnels et responsabilités.","Passaggio turno digitale per stati operativi e responsabilità.","Predare digitală de schimb pentru stări operaționale și responsabilități.","面向运行状态与责任的数字班次交接。"]],["home.products.voicebridge",["Entwicklung einer vertrauensbasierten direkten Sprachverbindung zwischen autorisierten Identitäten.","Development of a trust-based direct voice connection between authorized identities.","Yetkili kimlikler arasında güvene dayalı doğrudan ses bağlantısı geliştirme.","Desarrollo de una conexión de voz directa basada en confianza entre identidades autorizadas.","Développement d’une connexion vocale directe fondée sur la confiance entre identités autorisées.","Sviluppo di una connessione vocale diretta basata sulla fiducia tra identità autorizzate.","Dezvoltarea unei conexiuni vocale directe bazate pe încredere între identități autorizate.","开发已授权身份之间基于信任的直接语音连接。"]],["home.products.zalgate",["Architektur für die Verbindung von Sensorik, Messwerten, Maschinen und Prozesszuständen.","Architecture connecting sensors, measurements, machines and process states.","Sensörleri, ölçümleri, makineleri ve süreç durumlarını bağlayan mimari.","Arquitectura que conecta sensores, mediciones, máquinas y estados de proceso.","Architecture reliant capteurs, mesures, machines et états de processus.","Architettura che collega sensori, misurazioni, macchine e stati di processo.","Arhitectură care conectează senzori, măsurători, utilaje și stări de proces.","连接传感器、测量值、机器与流程状态的架构。"]],["home.products.open",["Öffnen →","Open →","Aç →","Abrir →","Ouvrir →","Apri →","Deschide →","打开 →"]],["home.products.viewSystem",["System ansehen →","View system →","Sistemi görüntüle →","Ver sistema →","Voir le système →","Vedi sistema →","Vezi sistemul →","查看系统 →"]],["home.products.viewDevelopment",["Entwicklung ansehen →","View development →","Geliştirmeyi görüntüle →","Ver desarrollo →","Voir le développement →","Vedi sviluppo →","Vezi dezvoltarea →","查看开发 →"]],["home.products.viewArchitecture",["Architektur →","Architecture →","Mimari →","Arquitectura →","Architecture →","Architettura →","Arhitectură →","架构 →"]],["home.pilot.eyebrow",["KONTROLLIERTER REALER EINSTIEG","CONTROLLED REAL-WORLD ENTRY","KONTROLLÜ GERÇEK DÜNYA GİRİŞİ","ENTRADA CONTROLADA EN EL MUNDO REAL","ENTRÉE CONTRÔLÉE DANS LE RÉEL","INGRESSO CONTROLLATO NEL MONDO REALE","INTRARE CONTROLATĂ ÎN LUMEA REALĂ","受控的现实世界切入"]],["home.pilot.title",["ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot","ZAL’THERA Pilot"]],["home.pilot.text",["Einen klar abgegrenzten realen Prozess verstehen, kontrolliert testen und den tatsächlichen Nutzen prüfen – ohne den bestehenden Betrieb sofort vollständig zu ersetzen.","Understand a clearly defined real-world process, test it in a controlled way and verify actual value without immediately replacing the existing operation.","Açıkça sınırlandırılmış gerçek bir süreci anlayın, kontrollü test edin ve mevcut işletmeyi hemen tamamen değiştirmeden gerçek faydayı doğrulayın.","Comprender un proceso real claramente delimitado, probarlo de forma controlada y verificar su valor sin sustituir de inmediato la operación existente.","Comprendre un processus réel clairement délimité, le tester de manière contrôlée et vérifier sa valeur sans remplacer immédiatement l’existant.","Comprendere un processo reale ben delimitato, testarlo in modo controllato e verificarne il valore senza sostituire subito l’operatività esistente.","Înțelege un proces real clar delimitat, testează-l controlat și verifică valoarea fără a înlocui imediat operațiunea existentă.","理解一个边界清晰的现实流程，以受控方式测试并验证实际价值，而无需立即全面替换现有运行。"]],["home.pilot.discover",["Pilot entdecken","Discover Pilot","Pilot’u keşfet","Descubrir Pilot","Découvrir Pilot","Scopri Pilot","Descoperă Pilot","探索 Pilot"]],["home.pilot.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","Solicită Pilot","申请 Pilot"]],["home.core.eyebrow",["UNTER JEDEM SYSTEM","BENEATH EVERY SYSTEM","HER SİSTEMİN ALTINDA","DEBAJO DE CADA SISTEMA","SOUS CHAQUE SYSTÈME","SOTTO OGNI SISTEMA","SUB FIECARE SISTEM","每个系统之下"]],["home.core.title",["ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE"]],["home.core.text",["Identity, Policy, Consent, Audit, Ledger, Trust und kontrollierte Ausführung bilden den technischen Kern hinter dem Ökosystem.","Identity, Policy, Consent, Audit, Ledger, Trust and controlled execution form the technical core behind the ecosystem.","Kimlik, Policy, Onay, Denetim, Ledger, Güven ve kontrollü yürütme ekosistemin teknik çekirdeğini oluşturur.","Identity, Policy, Consent, Audit, Ledger, Trust y la ejecución controlada forman el núcleo técnico del ecosistema.","Identity, Policy, Consent, Audit, Ledger, Trust et l’exécution contrôlée forment le noyau technique de l’écosystème.","Identity, Policy, Consent, Audit, Ledger, Trust ed esecuzione controllata formano il nucleo tecnico dell’ecosistema.","Identity, Policy, Consent, Audit, Ledger, Trust și execuția controlată formează nucleul tehnic al ecosistemului.","Identity、Policy、Consent、Audit、Ledger、Trust 与受控执行构成生态系统背后的技术核心。"]],["home.core.discover",["Core entdecken","Discover Core","Core’u keşfet","Descubrir Core","Découvrir Core","Scopri Core","Descoperă Core","探索 Core"]],["home.contact.eyebrow",["KONTAKT","CONTACT","İLETİŞİM","CONTACTO","CONTACT","CONTATTO","CONTACT","联系"]],["home.contact.title",["ZAL’THERA kontaktieren","Contact ZAL’THERA","ZAL’THERA ile iletişime geç","Contactar con ZAL’THERA","Contacter ZAL’THERA","Contatta ZAL’THERA","Contactează ZAL’THERA","联系 ZAL’THERA"]],["home.contact.text",["Fragen zu ZAL’THERA, einem System oder bestehenden Modulen?","Questions about ZAL’THERA, a system or existing modules?","ZAL’THERA, bir sistem veya mevcut modüller hakkında sorularınız mı var?","¿Preguntas sobre ZAL’THERA, un sistema o módulos existentes?","Des questions sur ZAL’THERA, un système ou des modules existants ?","Domande su ZAL’THERA, un sistema o moduli esistenti?","Întrebări despre ZAL’THERA, un sistem sau module existente?","对 ZAL’THERA、某个系统或现有模块有疑问？"]],["home.contact.name",["Name","Name","Ad","Nombre","Nom","Nome","Nume","姓名"]],["home.contact.namePlaceholder",["Dein Name","Your name","Adınız","Tu nombre","Votre nom","Il tuo nome","Numele tău","你的姓名"]],["home.contact.email",["E-Mail","Email","E-posta","Correo electrónico","E-mail","E-mail","E-mail","电子邮件"]],["home.contact.emailPlaceholder",["deine@email.de","your@email.com","eposta@ornek.com","tu@email.com","votre@email.com","tua@email.com","email@exemplu.ro","you@example.com"]],["home.contact.message",["Nachricht","Message","Mesaj","Mensaje","Message","Messaggio","Mesaj","消息"]],["home.contact.messagePlaceholder",["Deine Nachricht …","Your message …","Mesajınız …","Tu mensaje …","Votre message …","Il tuo messaggio …","Mesajul tău …","你的消息…"]],["home.contact.send",["Senden","Send","Gönder","Enviar","Envoyer","Invia","Trimite","发送"]],["home.contact.privacyPrefix",["Mit dem Absenden akzeptierst du unsere","By submitting, you accept our","Göndererek şunu kabul edersiniz:","Al enviar, aceptas nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere accepți","提交即表示你接受我们的"]],["home.contact.privacy",["Datenschutzerklärung","Privacy Policy","Gizlilik Politikası","Política de privacidad","Politique de confidentialité","Informativa sulla privacy","Politica de confidențialitate","隐私政策"]],["about.header.chip",["About","About","Hakkında","Acerca de","À propos","Chi siamo","Despre","关于"]],["about.hero.kicker",["WHY ZAL’THERA EXISTS","WHY ZAL’THERA EXISTS","ZAL’THERA NEDEN VAR","POR QUÉ EXISTE ZAL’THERA","POURQUOI ZAL’THERA EXISTE","PERCHÉ ESISTE ZAL’THERA","DE CE EXISTĂ ZAL’THERA","ZAL’THERA 为何存在"]],["about.hero.product",["BUILT FROM FIRST PRINCIPLES","BUILT FROM FIRST PRINCIPLES","İLK İLKELERDEN İNŞA EDİLDİ","CONSTRUIDO DESDE PRIMEROS PRINCIPIOS","CONSTRUIT À PARTIR DE PRINCIPES FONDAMENTAUX","COSTRUITO DAI PRINCIPI FONDAMENTALI","CONSTRUIT DIN PRINCIPII FUNDAMENTALE","从第一性原理构建"]],["about.hero.title",["Technology should<br>understand responsibility.","Technology should<br>understand responsibility.","Teknoloji<br>sorumluluğu anlamalı.","La tecnología debería<br>comprender la responsabilidad.","La technologie devrait<br>comprendre la responsabilité.","La tecnologia dovrebbe<br>comprendere la responsabilità.","Tehnologia ar trebui<br>să înțeleagă responsabilitatea.","技术应该<br>理解责任。"]],["about.hero.lead",["ZAL’THERA entsteht aus einer einfachen Frage: Wie können digitale Systeme intelligenter werden, ohne Identität, Verantwortung, Nachvollziehbarkeit und menschliche Kontrolle zu verlieren?","ZAL’THERA begins with a simple question: How can digital systems become more intelligent without losing identity, responsibility, traceability and human control?","ZAL’THERA basit bir sorudan doğar: Dijital sistemler kimlik, sorumluluk, izlenebilirlik ve insan kontrolünü kaybetmeden nasıl daha akıllı olabilir?","ZAL’THERA nace de una pregunta sencilla: ¿Cómo pueden los sistemas digitales ser más inteligentes sin perder identidad, responsabilidad, trazabilidad y control humano?","ZAL’THERA part d’une question simple : comment rendre les systèmes numériques plus intelligents sans perdre identité, responsabilité, traçabilité et contrôle humain ?","ZAL’THERA nasce da una domanda semplice: come possono i sistemi digitali diventare più intelligenti senza perdere identità, responsabilità, tracciabilità e controllo umano?","ZAL’THERA pornește de la o întrebare simplă: cum pot sistemele digitale deveni mai inteligente fără a pierde identitatea, responsabilitatea, trasabilitatea și controlul uman?","ZAL’THERA 始于一个简单的问题：数字系统如何在不失去身份、责任、可追溯性与人工控制的前提下变得更智能？"]],["about.hero.principles",["Prinzipien entdecken","Discover principles","İlkeleri keşfet","Descubrir principios","Découvrir les principes","Scopri i principi","Descoperă principiile","探索原则"]],["about.hero.founder",["Founder","Founder","Kurucu","Fundador","Fondateur","Fondatore","Fondator","创始人"]],["about.hero.localFirst",["LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","本地优先"]],["about.hero.sovereign",["SOVEREIGN","SOVEREIGN","EGEMEN","SOBERANO","SOUVERAIN","SOVRANO","SUVERAN","主权"]],["about.hero.traceable",["TRACEABLE","TRACEABLE","İZLENEBİLİR","TRAZABLE","TRAÇABLE","TRACCIABILE","TRASABIL","可追溯"]],["about.hero.humanAuthorized",["HUMAN-AUTHORIZED","HUMAN-AUTHORIZED","İNSAN TARAFINDAN YETKİLİ","AUTORIZADO POR PERSONAS","AUTORISÉ PAR L’HUMAIN","AUTORIZZATO DALL’UOMO","AUTORIZAT DE OM","人工授权"]],["about.principles.eyebrow",["FIRST PRINCIPLES","FIRST PRINCIPLES","İLK İLKELER","PRIMEROS PRINCIPIOS","PRINCIPES FONDAMENTAUX","PRINCIPI FONDAMENTALI","PRINCIPII FUNDAMENTALE","第一性原理"]],["about.principles.title",["Digitale Systeme sollten Menschen nicht entmündigen.","Digital systems should not disempower people.","Dijital sistemler insanların yetkisini elinden almamalı.","Los sistemas digitales no deberían restar autonomía a las personas.","Les systèmes numériques ne devraient pas retirer leur autonomie aux personnes.","I sistemi digitali non dovrebbero togliere autonomia alle persone.","Sistemele digitale nu ar trebui să diminueze autonomia oamenilor.","数字系统不应削弱人的自主权。"]],["about.principles.lead",["Je mehr Systeme wissen und vorbereiten können, desto wichtiger werden Identität, Kontext, Berechtigung, Nachweis und klare Verantwortlichkeit.","The more systems can know and prepare, the more important identity, context, authorization, evidence and clear accountability become.","Sistemler ne kadar çok bilir ve hazırlık yapabilirse kimlik, bağlam, yetki, kanıt ve açık sorumluluk o kadar önemli olur.","Cuanto más pueden saber y preparar los sistemas, más importantes son la identidad, el contexto, la autorización, la evidencia y la responsabilidad clara.","Plus les systèmes peuvent savoir et préparer, plus l’identité, le contexte, l’autorisation, la preuve et la responsabilité claire deviennent essentiels.","Più i sistemi possono sapere e preparare, più diventano importanti identità, contesto, autorizzazione, prova e responsabilità chiara.","Cu cât sistemele pot ști și pregăti mai mult, cu atât identitatea, contextul, autorizarea, dovada și responsabilitatea clară devin mai importante.","系统知道和准备得越多，身份、上下文、授权、证据与清晰责任就越重要。"]],["about.principles.identity.title",["Identity belongs to the person.","Identity belongs to the person.","Kimlik kişiye aittir.","La identidad pertenece a la persona.","L’identité appartient à la personne.","L’identità appartiene alla persona.","Identitatea aparține persoanei.","身份属于个人。"]],["about.principles.identity.text",["Digitale Identität soll nicht von einer einzelnen App, Plattform oder Sitzung abhängig sein.","Digital identity should not depend on a single app, platform or session.","Dijital kimlik tek bir uygulamaya, platforma veya oturuma bağlı olmamalı.","La identidad digital no debería depender de una sola app, plataforma o sesión.","L’identité numérique ne devrait pas dépendre d’une seule application, plateforme ou session.","L’identità digitale non dovrebbe dipendere da una singola app, piattaforma o sessione.","Identitatea digitală nu ar trebui să depindă de o singură aplicație, platformă sau sesiune.","数字身份不应依赖某个单一应用、平台或会话。"]],["about.principles.context.title",["Context must remain understandable.","Context must remain understandable.","Bağlam anlaşılır kalmalı.","El contexto debe seguir siendo comprensible.","Le contexte doit rester compréhensible.","Il contesto deve restare comprensibile.","Contextul trebuie să rămână ușor de înțeles.","上下文必须保持可理解。"]],["about.principles.context.text",["Information gewinnt Bedeutung durch Herkunft, Beziehung, Zeitpunkt und Zusammenhang.","Information gains meaning through provenance, relationship, time and context.","Bilgi; kaynak, ilişki, zaman ve bağlamla anlam kazanır.","La información adquiere significado mediante procedencia, relación, tiempo y contexto.","L’information prend du sens par sa provenance, sa relation, son moment et son contexte.","L’informazione acquista significato tramite provenienza, relazione, tempo e contesto.","Informația capătă sens prin proveniență, relație, timp și context.","信息通过来源、关系、时间与上下文获得意义。"]],["about.principles.trust.title",["Trust should be verifiable.","Trust should be verifiable.","Güven doğrulanabilir olmalı.","La confianza debe ser verificable.","La confiance doit être vérifiable.","La fiducia dovrebbe essere verificabile.","Încrederea ar trebui să fie verificabilă.","信任应当可验证。"]],["about.principles.trust.text",["Vertrauen soll aus nachvollziehbaren Zuständen, Berechtigungen und Nachweisen entstehen.","Trust should emerge from traceable states, permissions and evidence.","Güven, izlenebilir durumlar, yetkiler ve kanıtlardan doğmalı.","La confianza debe surgir de estados, permisos y pruebas trazables.","La confiance doit naître d’états, de permissions et de preuves traçables.","La fiducia dovrebbe nascere da stati, autorizzazioni e prove tracciabili.","Încrederea ar trebui să rezulte din stări, permisiuni și dovezi trasabile.","信任应来自可追溯状态、权限与证据。"]],["about.principles.authority.title",["Authority remains explicit.","Authority remains explicit.","Yetki açık kalır.","La autoridad permanece explícita.","L’autorité reste explicite.","L’autorità resta esplicita.","Autoritatea rămâne explicită.","权力必须明确。"]],["about.principles.authority.text",["Intelligenz darf vorbereiten. Konsequente Aktionen benötigen Autorisierung.","Intelligence may prepare. Consequential actions require authorization.","Zekâ hazırlayabilir. Sonuç doğuran eylemler yetki gerektirir.","La inteligencia puede preparar. Las acciones con consecuencias requieren autorización.","L’intelligence peut préparer. Les actions à conséquence nécessitent une autorisation.","L’intelligenza può preparare. Le azioni con conseguenze richiedono autorizzazione.","Inteligența poate pregăti. Acțiunile cu consecințe necesită autorizare.","智能可以准备。会产生后果的操作需要授权。"]],["about.architecture.eyebrow",["ONE ARCHITECTURE","ONE ARCHITECTURE","TEK MİMARİ","UNA ARQUITECTURA","UNE ARCHITECTURE","UN’ARCHITETTURA","O ARHITECTURĂ","统一架构"]],["about.architecture.title",["ZAL’THERA ist nicht als Sammlung isolierter Apps gedacht.","ZAL’THERA is not designed as a collection of isolated apps.","ZAL’THERA, birbirinden kopuk uygulamalar koleksiyonu olarak tasarlanmadı.","ZAL’THERA no está concebido como una colección de apps aisladas.","ZAL’THERA n’est pas conçu comme une collection d’applications isolées.","ZAL’THERA non è pensato come una raccolta di app isolate.","ZAL’THERA nu este conceput ca o colecție de aplicații izolate.","ZAL’THERA 并非被设计成一组孤立应用。"]],["about.architecture.text",["CONTINUITY, Proof, Communication, Intelligence und industrielle Systeme folgen einer gemeinsamen Logik: Identität, Kontext, Vertrauen, Audit und kontrollierte Aktion.","CONTINUITY, Proof, Communication, Intelligence and industrial systems follow a shared logic: identity, context, trust, audit and controlled action.","CONTINUITY, Proof, Communication, Intelligence ve endüstriyel sistemler ortak bir mantığı izler: kimlik, bağlam, güven, denetim ve kontrollü eylem.","CONTINUITY, Proof, Communication, Intelligence y los sistemas industriales siguen una lógica común: identidad, contexto, confianza, auditoría y acción controlada.","CONTINUITY, Proof, Communication, Intelligence et les systèmes industriels suivent une logique commune : identité, contexte, confiance, audit et action contrôlée.","CONTINUITY, Proof, Communication, Intelligence e i sistemi industriali seguono una logica comune: identità, contesto, fiducia, audit e azione controllata.","CONTINUITY, Proof, Communication, Intelligence și sistemele industriale urmează o logică comună: identitate, context, încredere, audit și acțiune controlată.","CONTINUITY、Proof、Communication、Intelligence 与工业系统遵循共同逻辑：身份、上下文、信任、审计与受控操作。"]],["about.architecture.systems",["Systeme ansehen","View systems","Sistemleri görüntüle","Ver sistemas","Voir les systèmes","Vedi sistemi","Vezi sistemele","查看系统"]],["about.founder.eyebrow",["FOUNDER","FOUNDER","KURUCU","FUNDADOR","FONDATEUR","FONDATORE","FONDATOR","创始人"]],["about.founder.tagline",["Founder and builder of ZAL’THERA.","Founder and builder of ZAL’THERA.","ZAL’THERA’nın kurucusu ve geliştiricisi.","Fundador y creador de ZAL’THERA.","Fondateur et bâtisseur de ZAL’THERA.","Fondatore e costruttore di ZAL’THERA.","Fondator și creator al ZAL’THERA.","ZAL’THERA 的创始人与构建者。"]],["about.founder.text1",["ZAL’THERA entsteht aus dem Ziel, digitale Systeme nicht nur leistungsfähiger, sondern verständlicher, verantwortlicher und souveräner zu machen.","ZAL’THERA is built with the goal of making digital systems not only more capable, but also more understandable, responsible and sovereign.","ZAL’THERA, dijital sistemleri yalnızca daha güçlü değil, daha anlaşılır, sorumlu ve egemen hale getirme hedefiyle geliştiriliyor.","ZAL’THERA nace con el objetivo de hacer los sistemas digitales no solo más capaces, sino también más comprensibles, responsables y soberanos.","ZAL’THERA est construit avec l’objectif de rendre les systèmes numériques non seulement plus puissants, mais aussi plus compréhensibles, responsables et souverains.","ZAL’THERA nasce con l’obiettivo di rendere i sistemi digitali non solo più capaci, ma anche più comprensibili, responsabili e sovrani.","ZAL’THERA este construit cu scopul de a face sistemele digitale nu doar mai capabile, ci și mai ușor de înțeles, responsabile și suverane.","ZAL’THERA 的目标不仅是让数字系统更强大，也让它们更可理解、更负责任、更具主权性。"]],["about.founder.text2",["Der Schwerpunkt liegt auf Systemarchitekturen, die persönliche Daten, Identität, künstliche Intelligenz, Kommunikation, Nachweise und reale Prozesse miteinander verbinden, ohne menschliche Autorität unsichtbar zu ersetzen.","The focus is on system architectures that connect personal data, identity, artificial intelligence, communication, evidence and real-world processes without invisibly replacing human authority.","Odak; kişisel verileri, kimliği, yapay zekâyı, iletişimi, kanıtları ve gerçek süreçleri insan yetkisini görünmez biçimde değiştirmeden bağlayan sistem mimarileridir.","El foco está en arquitecturas de sistemas que conectan datos personales, identidad, inteligencia artificial, comunicación, pruebas y procesos reales sin sustituir de forma invisible la autoridad humana.","L’accent porte sur des architectures qui relient données personnelles, identité, intelligence artificielle, communication, preuves et processus réels sans remplacer invisiblement l’autorité humaine.","L’attenzione è su architetture di sistema che collegano dati personali, identità, intelligenza artificiale, comunicazione, prove e processi reali senza sostituire invisibilmente l’autorità umana.","Accentul este pus pe arhitecturi de sistem care conectează date personale, identitate, inteligență artificială, comunicare, dovezi și procese reale fără a înlocui invizibil autoritatea umană.","重点是构建能够连接个人数据、身份、人工智能、通信、证明与现实流程的系统架构，同时不以不可见方式取代人的权力。"]],["about.founder.discover",["ZAL’THERA entdecken","Discover ZAL’THERA","ZAL’THERA’yı keşfet","Descubrir ZAL’THERA","Découvrir ZAL’THERA","Scopri ZAL’THERA","Descoperă ZAL’THERA","探索 ZAL’THERA"]],["about.founder.role",["Founder · Systems Architecture","Founder · Systems Architecture","Kurucu · Sistem Mimarisi","Fundador · Arquitectura de Sistemas","Fondateur · Architecture des Systèmes","Fondatore · Architettura dei Sistemi","Fondator · Arhitectură de Sisteme","创始人 · 系统架构"]],["about.direction.eyebrow",["THE DIRECTION","THE DIRECTION","YÖN","LA DIRECCIÓN","LA DIRECTION","LA DIREZIONE","DIRECȚIA","方向"]],["about.direction.title",["Intelligence should increase capability without removing accountability.","Intelligence should increase capability without removing accountability.","Zekâ, hesap verebilirliği ortadan kaldırmadan yeteneği artırmalı.","La inteligencia debería aumentar la capacidad sin eliminar la responsabilidad.","L’intelligence devrait accroître les capacités sans supprimer la responsabilité.","L’intelligenza dovrebbe aumentare le capacità senza eliminare la responsabilità.","Inteligența ar trebui să crească capacitatea fără a elimina responsabilitatea.","智能应提升能力，而不取消责任。"]],["about.direction.text",["Je mächtiger ein digitales System wird, desto wichtiger werden nachvollziehbare Grenzen, klare Identität und bewusste Autorisierung.","The more powerful a digital system becomes, the more important traceable boundaries, clear identity and deliberate authorization become.","Dijital bir sistem ne kadar güçlü olursa izlenebilir sınırlar, açık kimlik ve bilinçli yetkilendirme o kadar önemli olur.","Cuanto más potente es un sistema digital, más importantes son los límites trazables, la identidad clara y la autorización consciente.","Plus un système numérique devient puissant, plus les limites traçables, l’identité claire et l’autorisation consciente deviennent importantes.","Più un sistema digitale diventa potente, più diventano importanti limiti tracciabili, identità chiara e autorizzazione consapevole.","Cu cât un sistem digital devine mai puternic, cu atât limitele trasabile, identitatea clară și autorizarea conștientă devin mai importante.","数字系统越强大，可追溯边界、清晰身份与有意识的授权就越重要。"]],["about.direction.back",["Zurück zum System","Back to the system","Sisteme dön","Volver al sistema","Retour au système","Torna al sistema","Înapoi la sistem","返回系统"]],["lifeflow.hero.kicker",["PERSONAL FINANCE CLARITY","PERSONAL FINANCE CLARITY","KİŞİSEL FİNANS NETLİĞİ","CLARIDAD FINANCIERA PERSONAL","CLARTÉ FINANCIÈRE PERSONNELLE","CHIAREZZA FINANZIARIA PERSONALE","CLARITATE FINANCIARĂ PERSONALĂ","个人财务清晰度"]],["lifeflow.hero.title",["See what comes in.<br>See what goes out.<br>Know what remains.","See what comes in.<br>See what goes out.<br>Know what remains.","Ne geliyor gör.<br>Ne gidiyor gör.<br>Ne kaldığını bil.","Ve lo que entra.<br>Ve lo que sale.<br>Sabe lo que queda.","Voyez ce qui entre.<br>Voyez ce qui sort.<br>Sachez ce qui reste.","Vedi cosa entra.<br>Vedi cosa esce.<br>Saprai cosa resta.","Vezi ce intră.<br>Vezi ce iese.<br>Știi ce rămâne.","看清收入。<br>看清支出。<br>知道还剩多少。"]],["lifeflow.hero.lead",["LifeFlow macht laufende Kosten, Verträge, Fristen und finanzielle Verpflichtungen sichtbar – fokussiert, verständlich und ohne unnötige Komplexität.","LifeFlow makes recurring costs, contracts, deadlines and financial obligations visible — focused, understandable and without unnecessary complexity.","LifeFlow; düzenli maliyetleri, sözleşmeleri, süreleri ve finansal yükümlülükleri görünür kılar — odaklı, anlaşılır ve gereksiz karmaşıklık olmadan.","LifeFlow hace visibles los costes recurrentes, contratos, plazos y obligaciones financieras, de forma enfocada, comprensible y sin complejidad innecesaria.","LifeFlow rend visibles les coûts récurrents, contrats, échéances et obligations financières — de façon ciblée, compréhensible et sans complexité inutile.","LifeFlow rende visibili costi ricorrenti, contratti, scadenze e obblighi finanziari — in modo focalizzato, comprensibile e senza complessità inutile.","LifeFlow face vizibile costurile recurente, contractele, termenele și obligațiile financiare — clar, concentrat și fără complexitate inutilă.","LifeFlow 让持续成本、合同、期限与财务义务清晰可见——聚焦、易懂且没有不必要的复杂性。"]],["lifeflow.hero.view",["LifeFlow ansehen","View LifeFlow","LifeFlow’u görüntüle","Ver LifeFlow","Voir LifeFlow","Vedi LifeFlow","Vezi LifeFlow","查看 LifeFlow"]],["lifeflow.hero.understand",["System verstehen","Understand the system","Sistemi anla","Entender el sistema","Comprendre le système","Comprendi il sistema","Înțelege sistemul","理解系统"]],["lifeflow.hero.costs",["COSTS","COSTS","MALİYETLER","COSTES","COÛTS","COSTI","COSTURI","成本"]],["lifeflow.hero.contracts",["CONTRACTS","CONTRACTS","SÖZLEŞMELER","CONTRATOS","CONTRATS","CONTRATTI","CONTRACTE","合同"]],["lifeflow.hero.deadlines",["DEADLINES","DEADLINES","SÜRELER","PLAZOS","ÉCHÉANCES","SCADENZE","TERMENE","期限"]],["lifeflow.hero.moneyView",["MONEY VIEW","MONEY VIEW","PARA GÖRÜNÜMÜ","VISTA FINANCIERA","VUE FINANCIÈRE","VISTA FINANZIARIA","VIZIUNE FINANCIARĂ","资金视图"]],["lifeflow.state.label",["FINANCE VIEW","FINANCE VIEW","FİNANS GÖRÜNÜMÜ","VISTA FINANCIERA","VUE FINANCIÈRE","VISTA FINANZIARIA","VIZIUNE FINANCIARĂ","财务视图"]],["lifeflow.state.income",["INCOME","INCOME","GELİR","INGRESOS","REVENUS","ENTRATE","VENIT","收入"]],["lifeflow.state.visible",["VISIBLE","VISIBLE","GÖRÜNÜR","VISIBLE","VISIBLE","VISIBILE","VIZIBIL","可见"]],["lifeflow.state.costs",["COSTS","COSTS","MALİYETLER","COSTES","COÛTS","COSTI","COSTURI","成本"]],["lifeflow.state.tracked",["TRACKED","TRACKED","TAKİP EDİLİYOR","REGISTRADOS","SUIVIS","TRACCIATI","URMĂRITE","已跟踪"]],["lifeflow.state.contracts",["CONTRACTS","CONTRACTS","SÖZLEŞMELER","CONTRATOS","CONTRATS","CONTRATTI","CONTRACTE","合同"]],["lifeflow.state.structured",["STRUCTURED","STRUCTURED","YAPILANDIRILMIŞ","ESTRUCTURADOS","STRUCTURÉS","STRUTTURATI","STRUCTURATE","已结构化"]],["lifeflow.state.deadlines",["DEADLINES","DEADLINES","SÜRELER","PLAZOS","ÉCHÉANCES","SCADENZE","TERMENE","期限"]],["lifeflow.state.known",["KNOWN","KNOWN","BİLİNİYOR","CONOCIDOS","CONNUES","NOTE","CUNOSCUTE","已知"]],["lifeflow.state.remainder",["REMAINDER","REMAINDER","KALAN","RESTANTE","RESTE","RESIDUO","REST","余额"]],["lifeflow.state.calculated",["CALCULATED","CALCULATED","HESAPLANDI","CALCULADO","CALCULÉ","CALCOLATO","CALCULAT","已计算"]],["lifeflow.problem.eyebrow",["FINANCIAL VISIBILITY","FINANCIAL VISIBILITY","FİNANSAL GÖRÜNÜRLÜK","VISIBILIDAD FINANCIERA","VISIBILITÉ FINANCIÈRE","VISIBILITÀ FINANZIARIA","VIZIBILITATE FINANCIARĂ","财务可见性"]],["lifeflow.problem.title",["Kleine Verpflichtungen werden groß, wenn sie unsichtbar bleiben.","Small obligations become large when they remain invisible.","Küçük yükümlülükler görünmez kaldığında büyür.","Las pequeñas obligaciones se vuelven grandes cuando permanecen invisibles.","Les petites obligations deviennent importantes lorsqu’elles restent invisibles.","I piccoli impegni diventano grandi quando restano invisibili.","Obligațiile mici devin mari când rămân invizibile.","小义务在看不见时会变成大问题。"]],["lifeflow.problem.lead",["Viele laufende Kosten sind einzeln überschaubar. Das Problem entsteht, wenn Verträge, Fristen und wiederkehrende Zahlungen keinen gemeinsamen Überblick haben.","Many recurring costs are manageable on their own. The problem begins when contracts, deadlines and recurring payments lack a shared overview.","Birçok düzenli maliyet tek başına yönetilebilir. Sorun, sözleşmelerin, sürelerin ve tekrarlayan ödemelerin ortak bir görünümü olmadığında başlar.","Muchos costes recurrentes son manejables por separado. El problema aparece cuando contratos, plazos y pagos recurrentes no comparten una visión común.","De nombreux coûts récurrents sont gérables isolément. Le problème apparaît lorsque contrats, échéances et paiements récurrents n’ont pas de vue d’ensemble.","Molti costi ricorrenti sono gestibili singolarmente. Il problema nasce quando contratti, scadenze e pagamenti ricorrenti non hanno una vista comune.","Multe costuri recurente sunt gestionabile separat. Problema apare când contractele, termenele și plățile recurente nu au o imagine comună.","许多持续成本单独看都可控。问题在于合同、期限与重复付款缺少统一视图。"]],["lifeflow.problem.overview.title",["Kein Gesamtbild","No complete picture","Genel görünüm yok","Sin visión global","Pas de vue d’ensemble","Nessun quadro completo","Fără imagine completă","没有全局视图"]],["lifeflow.problem.overview.text",["Einkommen und Ausgaben werden getrennt wahrgenommen, statt gemeinsam betrachtet.","Income and expenses are perceived separately instead of being viewed together.","Gelir ve giderler birlikte değil ayrı algılanır.","Ingresos y gastos se perciben por separado en vez de verse juntos.","Revenus et dépenses sont perçus séparément au lieu d’être vus ensemble.","Entrate e uscite vengono percepite separatamente invece che insieme.","Veniturile și cheltuielile sunt percepute separat, nu împreună.","收入与支出被分开看待，而不是统一理解。"]],["lifeflow.problem.deadlines.title",["Fristen verschwinden","Deadlines disappear","Süreler gözden kaybolur","Los plazos desaparecen","Les échéances disparaissent","Le scadenze spariscono","Termenele dispar","期限被忽略"]],["lifeflow.problem.deadlines.text",["Vertrags- und Kündigungsdaten werden erst relevant, wenn es bereits zu spät ist.","Contract and cancellation dates become relevant only when it is already too late.","Sözleşme ve iptal tarihleri ancak çok geç olduğunda fark edilir.","Las fechas de contrato y cancelación se vuelven relevantes cuando ya es demasiado tarde.","Les dates de contrat et de résiliation deviennent importantes lorsqu’il est déjà trop tard.","Le date di contratto e disdetta diventano rilevanti quando è già troppo tardi.","Datele contractuale și de reziliere devin relevante când este deja prea târziu.","合同与取消日期往往在已经太晚时才受到重视。"]],["lifeflow.problem.remainder.title",["Restbetrag bleibt Gefühl","Remainder remains a feeling","Kalan tutar bir his olarak kalır","El restante queda como una sensación","Le reste demeure une impression","Il residuo resta una sensazione","Restul rămâne o impresie","剩余金额只是感觉"]],["lifeflow.problem.remainder.text",["Ohne klare Übersicht ist schwer einzuschätzen, wie viel finanzieller Spielraum tatsächlich bleibt.","Without a clear overview, it is difficult to know how much financial flexibility actually remains.","Açık bir görünüm olmadan gerçekte ne kadar finansal alan kaldığını değerlendirmek zordur.","Sin una visión clara, es difícil saber cuánto margen financiero queda realmente.","Sans vue claire, il est difficile de savoir quelle marge financière reste réellement.","Senza una vista chiara è difficile capire quanto margine finanziario rimanga davvero.","Fără o imagine clară este greu de estimat cât spațiu financiar rămâne efectiv.","没有清晰视图，就很难判断真正还剩多少财务空间。"]],["lifeflow.system.eyebrow",["LIFEFLOW SYSTEM","LIFEFLOW SYSTEM","LIFEFLOW SİSTEMİ","SISTEMA LIFEFLOW","SYSTÈME LIFEFLOW","SISTEMA LIFEFLOW","SISTEM LIFEFLOW","LIFEFLOW 系统"]],["lifeflow.system.title",["Finanzielle Alltagsrealität an einem Ort.","Everyday financial reality in one place.","Günlük finansal gerçeklik tek yerde.","La realidad financiera diaria en un solo lugar.","La réalité financière quotidienne en un seul endroit.","La realtà finanziaria quotidiana in un unico posto.","Realitatea financiară de zi cu zi într-un singur loc.","日常财务现实集中在一个地方。"]],["lifeflow.system.lead",["LifeFlow konzentriert sich bewusst auf das, was regelmäßig sichtbar sein muss.","LifeFlow deliberately focuses on what needs to stay visible regularly.","LifeFlow bilinçli olarak düzenli biçimde görünür kalması gerekenlere odaklanır.","LifeFlow se centra deliberadamente en lo que debe permanecer visible de forma regular.","LifeFlow se concentre volontairement sur ce qui doit rester visible régulièrement.","LifeFlow si concentra volutamente su ciò che deve restare visibile con regolarità.","LifeFlow se concentrează în mod deliberat pe ceea ce trebuie să rămână vizibil regulat.","LifeFlow 有意识地聚焦于需要持续保持可见的内容。"]],["lifeflow.system.contracts.title",["Contracts","Contracts","Sözleşmeler","Contratos","Contrats","Contratti","Contracte","合同"]],["lifeflow.system.contracts.text",["Laufende Verträge, Startdaten, Enddaten und Fristen im Blick behalten.","Keep recurring contracts, start dates, end dates and deadlines in view.","Devam eden sözleşmeleri, başlangıç ve bitiş tarihlerini ve süreleri takip edin.","Mantén a la vista contratos, fechas de inicio y fin y plazos.","Gardez à l’œil contrats, dates de début et de fin et échéances.","Tieni sotto controllo contratti, date di inizio e fine e scadenze.","Ține sub control contractele, datele de început și sfârșit și termenele.","持续掌握合同、开始日期、结束日期与期限。"]],["lifeflow.system.costs.title",["Costs","Costs","Maliyetler","Costes","Coûts","Costi","Costuri","成本"]],["lifeflow.system.costs.text",["Wiederkehrende finanzielle Verpflichtungen strukturiert sichtbar machen.","Make recurring financial obligations visible in a structured way.","Tekrarlayan finansal yükümlülükleri yapılandırılmış biçimde görünür kılın.","Haz visibles de forma estructurada las obligaciones financieras recurrentes.","Rendez visibles de façon structurée les obligations financières récurrentes.","Rendi visibili in modo strutturato gli obblighi finanziari ricorrenti.","Fă vizibile structurat obligațiile financiare recurente.","以结构化方式呈现重复财务义务。"]],["lifeflow.system.money.title",["Money View","Money View","Para Görünümü","Vista financiera","Vue financière","Vista finanziaria","Viziune financiară","资金视图"]],["lifeflow.system.money.text",["Einkommen, Kosten, Schulden und verbleibenden Betrag zusammen betrachten.","View income, costs, debt and remaining amount together.","Gelir, maliyet, borç ve kalan tutarı birlikte görüntüleyin.","Consulta juntos ingresos, costes, deudas y cantidad restante.","Visualisez ensemble revenus, coûts, dettes et montant restant.","Guarda insieme entrate, costi, debiti e importo rimanente.","Privește împreună veniturile, costurile, datoriile și suma rămasă.","将收入、成本、债务与剩余金额放在一起查看。"]],["lifeflow.system.status.title",["Status","Status","Durum","Estado","Statut","Stato","Stare","状态"]],["lifeflow.system.status.text",["Finanzielle Lage schneller und verständlicher einschätzen.","Assess your financial situation faster and more clearly.","Finansal durumu daha hızlı ve anlaşılır değerlendirin.","Evalúa la situación financiera más rápido y con mayor claridad.","Évaluez plus rapidement et clairement la situation financière.","Valuta la situazione finanziaria più rapidamente e con maggiore chiarezza.","Evaluează situația financiară mai rapid și mai clar.","更快、更清晰地评估财务状况。"]],["lifeflow.continuity.eyebrow",["FROM LIFEFLOW TO CONTINUITY","FROM LIFEFLOW TO CONTINUITY","LIFEFLOW’DAN CONTINUITY’YE","DE LIFEFLOW A CONTINUITY","DE LIFEFLOW À CONTINUITY","DA LIFEFLOW A CONTINUITY","DE LA LIFEFLOW LA CONTINUITY","从 LIFEFLOW 到 CONTINUITY"]],["lifeflow.continuity.title",["LifeFlow bleibt fokussiert. CONTINUITY geht weiter.","LifeFlow stays focused. CONTINUITY goes further.","LifeFlow odaklı kalır. CONTINUITY daha ileri gider.","LifeFlow se mantiene enfocado. CONTINUITY va más allá.","LifeFlow reste ciblé. CONTINUITY va plus loin.","LifeFlow resta focalizzato. CONTINUITY va oltre.","LifeFlow rămâne concentrat. CONTINUITY merge mai departe.","LifeFlow 保持聚焦，CONTINUITY 更进一步。"]],["lifeflow.continuity.text",["LifeFlow ist ein eigenständig nutzbares, fokussiertes Produkt für Kosten, Verträge und Fristen. CONTINUITY entwickelt daraus eine wesentlich größere persönliche Umgebung für Dokumente, Finance, Cards, Timeline, Herkunft und Kontext.","LifeFlow is a focused standalone product for costs, contracts and deadlines. CONTINUITY expands this into a much broader personal environment for documents, finance, Cards, Timeline, provenance and context.","LifeFlow maliyetler, sözleşmeler ve süreler için bağımsız, odaklı bir üründür. CONTINUITY bunu belgeler, finans, Cards, Timeline, kaynak ve bağlam için çok daha geniş bir kişisel ortama dönüştürür.","LifeFlow es un producto independiente y enfocado para costes, contratos y plazos. CONTINUITY lo amplía a un entorno personal mucho mayor para documentos, finanzas, Cards, Timeline, procedencia y contexto.","LifeFlow est un produit autonome et ciblé pour coûts, contrats et échéances. CONTINUITY l’étend à un environnement personnel beaucoup plus vaste pour documents, finances, Cards, Timeline, provenance et contexte.","LifeFlow è un prodotto autonomo e focalizzato per costi, contratti e scadenze. CONTINUITY lo estende a un ambiente personale molto più ampio per documenti, finanze, Cards, Timeline, provenienza e contesto.","LifeFlow este un produs autonom și focalizat pentru costuri, contracte și termene. CONTINUITY îl extinde într-un mediu personal mult mai amplu pentru documente, finanțe, Cards, Timeline, proveniență și context.","LifeFlow 是面向成本、合同与期限的独立聚焦产品。CONTINUITY 将其扩展为更大的个人环境，涵盖文档、财务、Cards、Timeline、来源与上下文。"]],["lifeflow.continuity.view",["CONTINUITY ansehen","View CONTINUITY","CONTINUITY’yi görüntüle","Ver CONTINUITY","Voir CONTINUITY","Vedi CONTINUITY","Vezi CONTINUITY","查看 CONTINUITY"]],["lifeflow.offer.eyebrow",["AVAILABLE","AVAILABLE","MEVCUT","DISPONIBLE","DISPONIBLE","DISPONIBILE","DISPONIBIL","已发布"]],["lifeflow.offer.text",["Ein fokussierter Einstieg in persönliche Finanzübersicht.","A focused entry point into personal financial overview.","Kişisel finans görünümüne odaklı bir giriş.","Una entrada enfocada a la visión financiera personal.","Une entrée ciblée dans la vue financière personnelle.","Un ingresso focalizzato nella panoramica finanziaria personale.","Un punct de intrare concentrat în imaginea financiară personală.","个人财务概览的聚焦入口。"]],["lifeflow.offer.appStore",["Im App Store ansehen","View in the App Store","App Store’da görüntüle","Ver en App Store","Voir dans l’App Store","Vedi su App Store","Vezi în App Store","在 App Store 查看"]],["lifeflow.offer.legalPrefix",["Mit dem Kauf gelten unsere","By purchasing, our","Satın alma ile şu şartlar geçerlidir:","Con la compra se aplican nuestros","Avec l’achat s’appliquent nos","Con l’acquisto si applicano i nostri","Prin cumpărare se aplică","购买即适用我们的"]],["lifeflow.offer.terms",["AGB","Terms","Şartlar","Términos","CGV","Termini","Termeni","条款"]],["lifeflow.offer.legalMiddle",["und unsere","and our","ve","y nuestra","et notre","e la nostra","și","以及我们的"]],["lifeflow.offer.withdrawal",["Widerrufsbelehrung","Withdrawal Policy","Cayma Politikası","Política de desistimiento","Politique de rétractation","Informativa sul recesso","Politica de retragere","撤销说明"]],["lifeflow.offer.legalAnd",[".",".",".",".",".",".",".","。"]],["lifeflow.offer.model",["MODELL","MODEL","MODEL","MODELO","MODÈLE","MODELLO","MODEL","模式"]],["lifeflow.offer.oneTime",["Einmalkauf","One-time purchase","Tek seferlik satın alma","Compra única","Achat unique","Acquisto una tantum","Achiziție unică","一次性购买"]],["lifeflow.offer.subscription",["ABO","SUBSCRIPTION","ABONELİK","SUSCRIPCIÓN","ABONNEMENT","ABBONAMENTO","ABONAMENT","订阅"]],["lifeflow.offer.none",["Kein Abo","No subscription","Abonelik yok","Sin suscripción","Sans abonnement","Nessun abbonamento","Fără abonament","无订阅"]],["lifeflow.offer.platform",["PLATTFORM","PLATFORM","PLATFORM","PLATAFORMA","PLATEFORME","PIATTAFORMA","PLATFORMĂ","平台"]],["lifeflow.offer.status",["STATUS","STATUS","DURUM","ESTADO","STATUT","STATO","STARE","状态"]],["lifeflow.faq.title",["FAQ","FAQ","SSS","FAQ","FAQ","FAQ","FAQ","常见问题"]],["lifeflow.faq.subscription.question",["Gibt es ein Abo?","Is there a subscription?","Abonelik var mı?","¿Hay suscripción?","Y a-t-il un abonnement ?","C’è un abbonamento?","Există abonament?","有订阅吗？"]],["lifeflow.faq.subscription.answer",["Nein. LifeFlow ist als Einmalkauf vorgesehen.","No. LifeFlow is intended as a one-time purchase.","Hayır. LifeFlow tek seferlik satın alma olarak tasarlanmıştır.","No. LifeFlow está previsto como compra única.","Non. LifeFlow est prévu comme achat unique.","No. LifeFlow è previsto come acquisto una tantum.","Nu. LifeFlow este conceput ca achiziție unică.","没有。LifeFlow 设计为一次性购买。"]],["lifeflow.faq.continuity.question",["Ist LifeFlow dasselbe wie CONTINUITY?","Is LifeFlow the same as CONTINUITY?","LifeFlow, CONTINUITY ile aynı mı?","¿LifeFlow es lo mismo que CONTINUITY?","LifeFlow est-il identique à CONTINUITY ?","LifeFlow è lo stesso di CONTINUITY?","LifeFlow este același lucru cu CONTINUITY?","LifeFlow 和 CONTINUITY 是同一个东西吗？"]],["lifeflow.faq.continuity.answer",["Nein. LifeFlow bleibt ein fokussiertes Produkt. CONTINUITY entwickelt eine deutlich umfassendere persönliche Systemumgebung.","No. LifeFlow remains a focused product. CONTINUITY is developing a much broader personal system environment.","Hayır. LifeFlow odaklı bir ürün olarak kalır. CONTINUITY çok daha kapsamlı bir kişisel sistem ortamı geliştirir.","No. LifeFlow sigue siendo un producto enfocado. CONTINUITY desarrolla un entorno de sistema personal mucho más amplio.","Non. LifeFlow reste un produit ciblé. CONTINUITY développe un environnement personnel beaucoup plus large.","No. LifeFlow resta un prodotto focalizzato. CONTINUITY sviluppa un ambiente personale molto più ampio.","Nu. LifeFlow rămâne un produs focalizat. CONTINUITY dezvoltă un mediu personal mult mai amplu.","不是。LifeFlow 保持为聚焦产品，CONTINUITY 正在构建更广泛的个人系统环境。"]],["lifeflow.faq.platform.question",["Auf welcher Plattform ist LifeFlow verfügbar?","Which platform is LifeFlow available on?","LifeFlow hangi platformda mevcut?","¿En qué plataforma está disponible LifeFlow?","Sur quelle plateforme LifeFlow est-il disponible ?","Su quale piattaforma è disponibile LifeFlow?","Pe ce platformă este disponibil LifeFlow?","LifeFlow 在哪个平台可用？"]],["lifeflow.faq.platform.answer",["LifeFlow ist für iPhone / iOS vorgesehen.","LifeFlow is intended for iPhone / iOS.","LifeFlow iPhone / iOS için tasarlanmıştır.","LifeFlow está previsto para iPhone / iOS.","LifeFlow est prévu pour iPhone / iOS.","LifeFlow è previsto per iPhone / iOS.","LifeFlow este destinat pentru iPhone / iOS.","LifeFlow 面向 iPhone / iOS。"]],["lifeflow.contact.title",["Fragen zu LifeFlow?","Questions about LifeFlow?","LifeFlow hakkında sorularınız mı var?","¿Preguntas sobre LifeFlow?","Des questions sur LifeFlow ?","Domande su LifeFlow?","Întrebări despre LifeFlow?","对 LifeFlow 有疑问？"]],["lifeflow.contact.text",["Schreib uns direkt.","Write to us directly.","Bize doğrudan yazın.","Escríbenos directamente.","Écrivez-nous directement.","Scrivici direttamente.","Scrie-ne direct.","直接联系我们。"]],["lifeflow.contact.question",["Frage zu LifeFlow","Question about LifeFlow","LifeFlow hakkında soru","Pregunta sobre LifeFlow","Question sur LifeFlow","Domanda su LifeFlow","Întrebare despre LifeFlow","关于 LifeFlow 的问题"]],["lifeflow.contact.messagePlaceholder",["Deine Frage zu LifeFlow …","Your question about LifeFlow …","LifeFlow hakkındaki sorunuz …","Tu pregunta sobre LifeFlow …","Votre question sur LifeFlow …","La tua domanda su LifeFlow …","Întrebarea ta despre LifeFlow …","你关于 LifeFlow 的问题…"]],["lifeflow.footer.withdrawal",["Widerruf","Withdrawal","Cayma","Desistimiento","Rétractation","Recesso","Retragere","撤销"]],["pilot.header.chip",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["pilot.hero.kicker",["CONTROLLED REAL-WORLD ENTRY","CONTROLLED REAL-WORLD ENTRY","KONTROLLÜ GERÇEK DÜNYA GİRİŞİ","ENTRADA CONTROLADA EN EL MUNDO REAL","ENTRÉE CONTRÔLÉE DANS LE RÉEL","INGRESSO CONTROLLATO NEL MONDO REALE","INTRARE CONTROLATĂ ÎN LUMEA REALĂ","受控的现实世界切入"]],["pilot.hero.title",["ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT","ZAL’THERA PILOT"]],["pilot.hero.lead",["Start small. Test reality. Prove value.","Start small. Test reality. Prove value.","Küçük başla. Gerçeği test et. Değeri kanıtla.","Empieza pequeño. Prueba la realidad. Demuestra valor.","Commencez petit. Testez le réel. Prouvez la valeur.","Inizia in piccolo. Testa la realtà. Dimostra il valore.","Începe mic. Testează realitatea. Dovedește valoarea.","从小处开始。测试现实。证明价值。"]],["pilot.hero.understand",["Pilot verstehen","Understand Pilot","Pilot’u anla","Entender Pilot","Comprendre Pilot","Comprendi Pilot","Înțelege Pilot","了解 Pilot"]],["pilot.hero.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","Solicită Pilot","申请 Pilot"]],["pilot.hero.scoped",["SCOPED","SCOPED","SINIRLI","DELIMITADO","DÉLIMITÉ","DELIMITATO","DELIMITAT","范围明确"]],["pilot.hero.controlled",["CONTROLLED","CONTROLLED","KONTROLLÜ","CONTROLADO","CONTRÔLÉ","CONTROLLATO","CONTROLAT","受控"]],["pilot.hero.measurable",["MEASURABLE","MEASURABLE","ÖLÇÜLEBİLİR","MEDIBLE","MESURABLE","MISURABILE","MĂSURABIL","可衡量"]],["pilot.hero.reviewable",["REVIEWABLE","REVIEWABLE","İNCELENEBİLİR","REVISABLE","RÉEXAMINABLE","REVISIONABILE","REVIZUIBIL","可评审"]],["pilot.state.label",["PILOT STATE","PILOT STATE","PİLOT DURUMU","ESTADO DEL PILOT","ÉTAT DU PILOT","STATO DEL PILOT","STAREA PILOTULUI","Pilot 状态"]],["pilot.state.realProcess",["REAL PROCESS","REAL PROCESS","GERÇEK SÜREÇ","PROCESO REAL","PROCESSUS RÉEL","PROCESSO REALE","PROCES REAL","现实流程"]],["pilot.state.scope",["SCOPE","SCOPE","KAPSAM","ALCANCE","PÉRIMÈTRE","AMBITO","SCOP","范围"]],["pilot.state.defined",["DEFINED","DEFINED","TANIMLI","DEFINIDO","DÉFINI","DEFINITO","DEFINIT","已定义"]],["pilot.state.model",["MODEL","MODEL","MODEL","MODELO","MODÈLE","MODELLO","MODEL","模型"]],["pilot.state.prepared",["PREPARED","PREPARED","HAZIR","PREPARADO","PRÉPARÉ","PREPARATO","PREGĂTIT","已准备"]],["pilot.state.test",["TEST","TEST","TEST","PRUEBA","TEST","TEST","TEST","测试"]],["pilot.state.controlled",["CONTROLLED","CONTROLLED","KONTROLLÜ","CONTROLADO","CONTRÔLÉ","CONTROLLATO","CONTROLAT","受控"]],["pilot.state.result",["RESULT","RESULT","SONUÇ","RESULTADO","RÉSULTAT","RISULTATO","REZULTAT","结果"]],["pilot.state.measured",["MEASURED","MEASURED","ÖLÇÜLDÜ","MEDIDO","MESURÉ","MISURATO","MĂSURAT","已衡量"]],["pilot.state.decision",["DECISION","DECISION","KARAR","DECISIÓN","DÉCISION","DECISIONE","DECIZIE","决策"]],["pilot.state.reviewed",["REVIEWED","REVIEWED","İNCELENDİ","REVISADA","EXAMINÉE","REVISIONATA","REVIZUITĂ","已评审"]],["pilot.focus.eyebrow",["PILOT FOCUS","PILOT FOCUS","PİLOT ODAĞI","ENFOQUE DEL PILOT","FOCUS DU PILOT","FOCUS DEL PILOT","FOCUS PILOT","Pilot 聚焦"]],["pilot.focus.title",["Nicht das ganze Unternehmen muss sich ändern.","The whole company does not have to change.","Tüm şirketin değişmesi gerekmez.","No tiene que cambiar toda la empresa.","Toute l’entreprise n’a pas besoin de changer.","Non deve cambiare tutta l’azienda.","Nu trebuie să se schimbe întreaga companie.","不需要整个企业都改变。"]],["pilot.focus.lead",["Ein Pilot begrenzt das Problem, den Prozess und die Messung des tatsächlichen Nutzens.","A pilot limits the problem, process and measurement of actual value.","Pilot; problemi, süreci ve gerçek faydanın ölçümünü sınırlar.","Un pilot delimita el problema, el proceso y la medición del valor real.","Un pilot délimite le problème, le processus et la mesure de la valeur réelle.","Un pilot delimita problema, processo e misurazione del valore reale.","Un pilot delimitează problema, procesul și măsurarea valorii reale.","Pilot 会限制问题、流程以及实际价值的衡量范围。"]],["pilot.focus.proof.title",["Proof","Proof","Kanıt","Prueba","Preuve","Prova","Dovadă","证明"]],["pilot.focus.proof.text",["Was muss später nachvollziehbar oder überprüfbar sein?","What must later be traceable or verifiable?","Daha sonra neyin izlenebilir veya doğrulanabilir olması gerekir?","¿Qué debe poder rastrearse o verificarse después?","Qu’est-ce qui doit être traçable ou vérifiable ensuite ?","Cosa deve essere tracciabile o verificabile in seguito?","Ce trebuie să poată fi trasat sau verificat ulterior?","之后什么必须可追溯或可验证？"]],["pilot.focus.handover.title",["Handover","Handover","Devir","Relevo","Transmission","Passaggio","Predare","交接"]],["pilot.focus.handover.text",["Wo gehen Informationen, Zustände oder Verantwortung verloren?","Where are information, states or responsibility lost?","Bilgi, durum veya sorumluluk nerede kayboluyor?","¿Dónde se pierden información, estados o responsabilidad?","Où se perdent informations, états ou responsabilité ?","Dove si perdono informazioni, stati o responsabilità?","Unde se pierd informații, stări sau responsabilitate?","信息、状态或责任在哪里丢失？"]],["pilot.focus.control.title",["Control","Control","Kontrol","Control","Contrôle","Controllo","Control","控制"]],["pilot.focus.control.text",["Welche Grenzen, Freigaben und Zustände müssen sichtbar bleiben?","Which boundaries, approvals and states must remain visible?","Hangi sınırlar, onaylar ve durumlar görünür kalmalı?","¿Qué límites, aprobaciones y estados deben seguir visibles?","Quelles limites, validations et états doivent rester visibles ?","Quali limiti, approvazioni e stati devono restare visibili?","Ce limite, aprobări și stări trebuie să rămână vizibile?","哪些边界、批准与状态必须保持可见？"]],["pilot.process.eyebrow",["PILOT PROCESS","PILOT PROCESS","PİLOT SÜRECİ","PROCESO PILOT","PROCESSUS PILOT","PROCESSO PILOT","PROCES PILOT","Pilot 流程"]],["pilot.process.title",["Vom realen Problem zur überprüfbaren Entscheidung.","From a real problem to a verifiable decision.","Gerçek bir problemden doğrulanabilir bir karara.","Del problema real a una decisión verificable.","Du problème réel à une décision vérifiable.","Dal problema reale a una decisione verificabile.","De la o problemă reală la o decizie verificabilă.","从现实问题到可验证的决策。"]],["pilot.process.lead",["Der Pilot bleibt bewusst begrenzt. Erst wenn der Nutzen sichtbar ist, wird über den nächsten Schritt entschieden.","The pilot remains deliberately limited. Only when value is visible is the next step decided.","Pilot bilinçli olarak sınırlı kalır. Değer görünür olduğunda sonraki adım kararlaştırılır.","El pilot se mantiene deliberadamente limitado. Solo cuando el valor es visible se decide el siguiente paso.","Le pilot reste volontairement limité. Le prochain pas n’est décidé qu’une fois la valeur visible.","Il pilot resta volutamente limitato. Solo quando il valore è visibile si decide il passo successivo.","Pilotul rămâne intenționat limitat. Abia când valoarea este vizibilă se decide pasul următor.","Pilot 有意识地保持有限。只有当价值可见时，才决定下一步。"]],["pilot.process.scope.title",["Scope","Scope","Kapsam","Alcance","Périmètre","Ambito","Scop","范围"]],["pilot.process.scope.text",["Ein konkreter Prozess, Bereich oder Anwendungsfall wird abgegrenzt.","A specific process, area or use case is defined.","Belirli bir süreç, alan veya kullanım senaryosu sınırlandırılır.","Se delimita un proceso, área o caso de uso concreto.","Un processus, domaine ou cas d’usage précis est délimité.","Viene delimitato un processo, un’area o un caso d’uso specifico.","Este delimitat un proces, domeniu sau caz de utilizare concret.","明确界定一个具体流程、领域或使用场景。"]],["pilot.process.understand.title",["Understand","Understand","Anla","Comprender","Comprendre","Comprendere","Înțelege","理解"]],["pilot.process.understand.text",["Der bestehende Ablauf und seine relevanten Zustände werden verstanden.","The existing workflow and its relevant states are understood.","Mevcut akış ve ilgili durumları anlaşılır.","Se comprende el flujo existente y sus estados relevantes.","Le flux existant et ses états pertinents sont compris.","Si comprendono il flusso esistente e i suoi stati rilevanti.","Sunt înțelese fluxul existent și stările sale relevante.","理解现有流程及其相关状态。"]],["pilot.process.model.title",["Model","Model","Model","Modelo","Modèle","Modello","Model","建模"]],["pilot.process.model.text",["Das benötigte ZAL’THERA-System wird auf den Prozess zugeschnitten.","The required ZAL’THERA system is tailored to the process.","Gerekli ZAL’THERA sistemi sürece uyarlanır.","El sistema ZAL’THERA necesario se adapta al proceso.","Le système ZAL’THERA nécessaire est adapté au processus.","Il sistema ZAL’THERA necessario viene adattato al processo.","Sistemul ZAL’THERA necesar este adaptat procesului.","所需的 ZAL’THERA 系统按流程进行适配。"]],["pilot.process.pilot.title",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["pilot.process.pilot.text",["Das System wird begrenzt im realen Ablauf eingesetzt.","The system is used on a limited basis in the real workflow.","Sistem gerçek akışta sınırlı olarak kullanılır.","El sistema se utiliza de forma limitada en el flujo real.","Le système est utilisé de manière limitée dans le flux réel.","Il sistema viene usato in modo limitato nel flusso reale.","Sistemul este utilizat limitat în fluxul real.","系统在现实流程中以有限范围投入使用。"]],["pilot.process.review.title",["Review","Review","İnceleme","Revisión","Revue","Revisione","Revizuire","评审"]],["pilot.process.review.text",["Nutzen, Grenzen und nächster Schritt werden gemeinsam bewertet.","Value, limits and the next step are reviewed together.","Fayda, sınırlar ve sonraki adım birlikte değerlendirilir.","Se evalúan conjuntamente el valor, los límites y el siguiente paso.","La valeur, les limites et l’étape suivante sont évaluées ensemble.","Valore, limiti e passo successivo vengono valutati insieme.","Valoarea, limitele și pasul următor sunt evaluate împreună.","共同评估价值、边界与下一步。"]],["pilot.modules.eyebrow",["PILOT ENTRY POINTS","PILOT ENTRY POINTS","PİLOT GİRİŞ NOKTALARI","PUNTOS DE ENTRADA DEL PILOT","POINTS D’ENTRÉE DU PILOT","PUNTI DI INGRESSO DEL PILOT","PUNCTE DE INTRARE PILOT","Pilot 入口"]],["pilot.modules.title",["Unterschiedliche Probleme. Gemeinsamer Systemkern.","Different problems. One shared system core.","Farklı problemler. Ortak sistem çekirdeği.","Problemas distintos. Un núcleo de sistema común.","Des problèmes différents. Un noyau système commun.","Problemi diversi. Un core di sistema comune.","Probleme diferite. Un nucleu de sistem comun.","不同问题，共同的系统核心。"]],["pilot.modules.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADĂ","证明"]],["pilot.modules.proofflow",["Evidence · Audit · Signature · Export","Evidence · Audit · Signature · Export","Kanıt · Denetim · İmza · Dışa Aktarma","Prueba · Auditoría · Firma · Exportación","Preuve · Audit · Signature · Export","Prova · Audit · Firma · Esportazione","Dovadă · Audit · Semnătură · Export","证明 · 审计 · 签名 · 导出"]],["pilot.modules.industry",["INDUSTRY","INDUSTRY","ENDÜSTRİ","INDUSTRIA","INDUSTRIE","INDUSTRIA","INDUSTRIE","工业"]],["pilot.modules.shiftlog",["Handover · State · Responsibility","Handover · State · Responsibility","Devir · Durum · Sorumluluk","Relevo · Estado · Responsabilidad","Transmission · État · Responsabilité","Passaggio · Stato · Responsabilità","Predare · Stare · Responsabilitate","交接 · 状态 · 责任"]],["pilot.modules.trust",["TRUST","TRUST","GÜVEN","CONFIANZA","CONFIANCE","FIDUCIA","ÎNCREDERE","信任"]],["pilot.modules.ledger",["Events · Traceability · Verification","Events · Traceability · Verification","Olaylar · İzlenebilirlik · Doğrulama","Eventos · Trazabilidad · Verificación","Événements · Traçabilité · Vérification","Eventi · Tracciabilità · Verifica","Evenimente · Trasabilitate · Verificare","事件 · 可追溯性 · 验证"]],["pilot.modules.architecture",["ARCHITECTURE","ARCHITECTURE","MİMARİ","ARQUITECTURA","ARCHITECTURE","ARCHITETTURA","ARHITECTURĂ","架构"]],["pilot.modules.industryText",["Process · Data · Sensors · Future Integration","Process · Data · Sensors · Future Integration","Süreç · Veri · Sensörler · Gelecek Entegrasyonu","Proceso · Datos · Sensores · Integración futura","Processus · Données · Capteurs · Intégration future","Processo · Dati · Sensori · Integrazione futura","Proces · Date · Senzori · Integrare viitoare","流程 · 数据 · 传感器 · 未来集成"]],["pilot.principle.eyebrow",["CONTROLLED ENTRY","CONTROLLED ENTRY","KONTROLLÜ GİRİŞ","ENTRADA CONTROLADA","ENTRÉE CONTRÔLÉE","INGRESSO CONTROLLATO","INTRARE CONTROLATĂ","受控切入"]],["pilot.principle.title",["A pilot should reduce uncertainty, not create dependency.","A pilot should reduce uncertainty, not create dependency.","Pilot belirsizliği azaltmalı, bağımlılık yaratmamalı.","Un pilot debe reducir la incertidumbre, no crear dependencia.","Un pilot doit réduire l’incertitude, pas créer de dépendance.","Un pilot deve ridurre l’incertezza, non creare dipendenza.","Un pilot ar trebui să reducă incertitudinea, nu să creeze dependență.","Pilot 应减少不确定性，而不是制造依赖。"]],["pilot.principle.text",["Der Pilot dient nicht dazu, einen bestehenden Prozess blind zu ersetzen. Er soll zeigen, ob ein klar definiertes Systemproblem tatsächlich besser gelöst werden kann.","The pilot is not intended to blindly replace an existing process. It should show whether a clearly defined system problem can actually be solved better.","Pilot mevcut bir süreci körü körüne değiştirmek için değildir. Açıkça tanımlanmış bir sistem probleminin gerçekten daha iyi çözülüp çözülemeyeceğini göstermelidir.","El pilot no pretende sustituir a ciegas un proceso existente. Debe mostrar si un problema de sistema claramente definido puede resolverse mejor.","Le pilot n’a pas pour but de remplacer aveuglément un processus existant. Il doit montrer si un problème système clairement défini peut réellement être mieux résolu.","Il pilot non serve a sostituire ciecamente un processo esistente. Deve mostrare se un problema di sistema chiaramente definito può davvero essere risolto meglio.","Pilotul nu are rolul de a înlocui orbește un proces existent. Trebuie să arate dacă o problemă de sistem clar definită poate fi rezolvată mai bine.","Pilot 不是为了盲目替换现有流程，而是要证明一个清晰定义的系统问题是否真的能够被更好地解决。"]],["pilot.principle.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","Solicită Pilot","申请 Pilot"]],["pilot.contact.title",["Pilotprojekt anfragen","Request a pilot project","Pilot projesi talep et","Solicitar proyecto pilot","Demander un projet pilot","Richiedi un progetto pilot","Solicită un proiect pilot","申请 Pilot 项目"]],["pilot.contact.text",["Beschreibe kurz den realen Prozess oder das Problem, das kontrolliert getestet werden soll.","Briefly describe the real process or problem to be tested in a controlled way.","Kontrollü olarak test edilecek gerçek süreci veya problemi kısaca açıklayın.","Describe brevemente el proceso real o problema que debe probarse de forma controlada.","Décrivez brièvement le processus réel ou le problème à tester de manière contrôlée.","Descrivi brevemente il processo reale o il problema da testare in modo controllato.","Descrie pe scurt procesul real sau problema care trebuie testată controlat.","简要描述需要以受控方式测试的现实流程或问题。"]],["pilot.contact.namePlaceholder",["Ihr Name","Your name","Adınız","Su nombre","Votre nom","Il tuo nome","Numele dvs.","您的姓名"]],["pilot.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["pilot.contact.messagePlaceholder",["Welcher Prozess soll als Pilot getestet werden?","Which process should be tested as a pilot?","Hangi süreç pilot olarak test edilmeli?","¿Qué proceso debería probarse como pilot?","Quel processus doit être testé en pilot ?","Quale processo dovrebbe essere testato come pilot?","Ce proces ar trebui testat ca pilot?","哪个流程应作为 Pilot 进行测试？"]],["pilot.contact.send",["Anfrage senden","Send request","Talep gönder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","发送申请"]],["pilot.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","Göndererek şunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptați","提交即表示您接受我们的"]],["proofflow.header.pilot",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["proofflow.hero.kicker",["PROOF · AUDIT · TRACEABILITY","PROOF · AUDIT · TRACEABILITY","KANIT · DENETİM · İZLENEBİLİRLİK","PRUEBA · AUDITORÍA · TRAZABILIDAD","PREUVE · AUDIT · TRAÇABILITÉ","PROVA · AUDIT · TRACCIABILITÀ","DOVADĂ · AUDIT · TRASABILITATE","证明 · 审计 · 可追溯性"]],["proofflow.hero.title",["Evidence before<br>assumption.","Evidence before<br>assumption.","Varsayımdan önce<br>kanıt.","Prueba antes que<br>suposición.","La preuve avant<br>l’hypothèse.","La prova prima<br>dell’ipotesi.","Dovada înaintea<br>presupunerii.","先有证据，<br>再作判断。"]],["proofflow.hero.lead",["ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu einem nachvollziehbaren Ablauf.","ProofFlow connects tasks, evidence, photos, notes, signatures, audit and export into a traceable workflow.","ProofFlow görevleri, kanıtları, fotoğrafları, notları, imzaları, denetimi ve dışa aktarmayı izlenebilir bir akışta birleştirir.","ProofFlow conecta tareas, pruebas, fotos, notas, firmas, auditoría y exportación en un flujo trazable.","ProofFlow relie tâches, preuves, photos, notes, signatures, audit et export dans un flux traçable.","ProofFlow collega attività, prove, foto, note, firme, audit ed esportazione in un flusso tracciabile.","ProofFlow conectează sarcini, dovezi, fotografii, note, semnături, audit și export într-un flux trasabil.","ProofFlow 将任务、证明、照片、备注、签名、审计与导出连接成可追溯流程。"]],["proofflow.hero.understand",["System verstehen","Understand system","Sistemi anla","Entender sistema","Comprendre le système","Comprendi il sistema","Înțelege sistemul","理解系统"]],["proofflow.hero.requestPilot",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","Solicită Pilot","申请 Pilot"]],["proofflow.hero.provenance",["PROVENANCE","PROVENANCE","KAYNAK","PROCEDENCIA","PROVENANCE","PROVENIENZA","PROVENIENȚĂ","来源"]],["proofflow.hero.identity",["IDENTITY","IDENTITY","KİMLİK","IDENTIDAD","IDENTITÉ","IDENTITÀ","IDENTITATE","身份"]],["proofflow.hero.audit",["AUDIT","AUDIT","DENETİM","AUDITORÍA","AUDIT","AUDIT","AUDIT","审计"]],["proofflow.hero.export",["EXPORT","EXPORT","DIŞA AKTARMA","EXPORTACIÓN","EXPORT","ESPORTAZIONE","EXPORT","导出"]],["proofflow.state.label",["PROOF FLOW","PROOF FLOW","KANIT AKIŞI","FLUJO DE PRUEBA","FLUX DE PREUVE","FLUSSO DI PROVA","FLUX DE DOVADĂ","证明流程"]],["proofflow.state.job",["JOB","JOB","İŞ","TRABAJO","TÂCHE","ATTIVITÀ","SARCINĂ","任务"]],["proofflow.state.context",["CONTEXT","CONTEXT","BAĞLAM","CONTEXTO","CONTEXTE","CONTESTO","CONTEXT","上下文"]],["proofflow.state.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADĂ","证明"]],["proofflow.state.capture",["CAPTURE","CAPTURE","YAKALAMA","CAPTURA","CAPTURE","ACQUISIZIONE","CAPTURĂ","采集"]],["proofflow.state.sign",["SIGN","SIGN","İMZA","FIRMA","SIGNER","FIRMA","SEMNARE","签名"]],["proofflow.state.identity",["IDENTITY","IDENTITY","KİMLİK","IDENTIDAD","IDENTITÉ","IDENTITÀ","IDENTITATE","身份"]],["proofflow.state.audit",["AUDIT","AUDIT","DENETİM","AUDITORÍA","AUDIT","AUDIT","AUDIT","审计"]],["proofflow.state.trace",["TRACE","TRACE","İZ","TRAZA","TRACE","TRACCIA","URMĂ","追踪"]],["proofflow.state.export",["EXPORT","EXPORT","DIŞA AKTARMA","EXPORTACIÓN","EXPORT","ESPORTAZIONE","EXPORT","导出"]],["proofflow.state.output",["OUTPUT","OUTPUT","ÇIKTI","SALIDA","SORTIE","OUTPUT","IEȘIRE","输出"]],["proofflow.problem.eyebrow",["THE PROBLEM","THE PROBLEM","PROBLEM","EL PROBLEMA","LE PROBLÈME","IL PROBLEMA","PROBLEMA","问题"]],["proofflow.problem.title",["Erinnerung ist kein Nachweis.","Memory is not evidence.","Hatıra kanıt değildir.","La memoria no es una prueba.","La mémoire n’est pas une preuve.","La memoria non è una prova.","Memoria nu este dovadă.","记忆不是证据。"]],["proofflow.problem.lead",["Wenn Vorfälle, Maßnahmen und Entscheidungen nicht strukturiert dokumentiert werden, entstehen später Interpretationen statt überprüfbarer Abläufe.","When incidents, actions and decisions are not documented in a structured way, later interpretations replace verifiable workflows.","Olaylar, önlemler ve kararlar yapılandırılmış biçimde belgelenmezse daha sonra doğrulanabilir akışlar yerine yorumlar oluşur.","Si incidentes, medidas y decisiones no se documentan de forma estructurada, después surgen interpretaciones en vez de procesos verificables.","Si incidents, mesures et décisions ne sont pas documentés de façon structurée, des interprétations remplacent ensuite les processus vérifiables.","Se eventi, misure e decisioni non vengono documentati in modo strutturato, in seguito emergono interpretazioni invece di processi verificabili.","Dacă incidentele, măsurile și deciziile nu sunt documentate structurat, ulterior apar interpretări în locul fluxurilor verificabile.","如果事件、措施与决策没有结构化记录，之后就会出现解释而不是可验证流程。"]],["proofflow.problem.process.title",["Unklarer Ablauf","Unclear workflow","Belirsiz akış","Flujo poco claro","Processus flou","Flusso poco chiaro","Flux neclar","流程不清"]],["proofflow.problem.process.text",["Was ist tatsächlich passiert und in welcher Reihenfolge?","What actually happened and in what order?","Gerçekte ne oldu ve hangi sırayla?","¿Qué ocurrió realmente y en qué orden?","Que s’est-il réellement passé et dans quel ordre ?","Cosa è successo davvero e in quale ordine?","Ce s-a întâmplat de fapt și în ce ordine?","实际发生了什么，顺序如何？"]],["proofflow.problem.responsibility.title",["Unklare Verantwortung","Unclear responsibility","Belirsiz sorumluluk","Responsabilidad poco clara","Responsabilité floue","Responsabilità poco chiara","Responsabilitate neclară","责任不清"]],["proofflow.problem.responsibility.text",["Wer hat wann gehandelt, bestätigt oder entschieden?","Who acted, confirmed or decided, and when?","Kim ne zaman hareket etti, onayladı veya karar verdi?","¿Quién actuó, confirmó o decidió y cuándo?","Qui a agi, confirmé ou décidé, et quand ?","Chi ha agito, confermato o deciso e quando?","Cine a acționat, confirmat sau decis și când?","谁在何时行动、确认或做出决定？"]],["proofflow.problem.evidence.title",["Fehlender Nachweis","Missing evidence","Eksik kanıt","Falta de prueba","Preuve manquante","Prova mancante","Dovadă lipsă","缺少证据"]],["proofflow.problem.evidence.text",["Ohne belegbare Informationen bleiben später Aussagen gegeneinander stehen.","Without verifiable information, later statements remain opposed to one another.","Doğrulanabilir bilgi olmadan daha sonra ifadeler karşı karşıya kalır.","Sin información verificable, después quedan afirmaciones enfrentadas.","Sans information vérifiable, les déclarations restent ensuite opposées.","Senza informazioni verificabili, in seguito restano dichiarazioni contrapposte.","Fără informații verificabile, ulterior rămân afirmații opuse.","没有可验证信息，之后只剩相互对立的说法。"]],["proofflow.system.eyebrow",["PROOF SYSTEM","PROOF SYSTEM","KANIT SİSTEMİ","SISTEMA DE PRUEBA","SYSTÈME DE PREUVE","SISTEMA DI PROVA","SISTEM DE DOVADĂ","证明系统"]],["proofflow.system.title",["Ein nachvollziehbarer Ablauf statt isolierter Dateien.","A traceable workflow instead of isolated files.","Yalıtılmış dosyalar yerine izlenebilir bir akış.","Un flujo trazable en vez de archivos aislados.","Un flux traçable plutôt que des fichiers isolés.","Un flusso tracciabile invece di file isolati.","Un flux trasabil în locul fișierelor izolate.","用可追溯流程替代孤立文件。"]],["proofflow.system.lead",["ProofFlow strukturiert den Weg von einem Vorgang bis zu einem überprüfbaren Ergebnis.","ProofFlow structures the path from an event to a verifiable result.","ProofFlow bir olaydan doğrulanabilir sonuca giden yolu yapılandırır.","ProofFlow estructura el camino desde un proceso hasta un resultado verificable.","ProofFlow structure le chemin d’un événement jusqu’à un résultat vérifiable.","ProofFlow struttura il percorso da un evento a un risultato verificabile.","ProofFlow structurează drumul de la un eveniment la un rezultat verificabil.","ProofFlow 将一个事件到可验证结果的路径结构化。"]],["proofflow.system.job.title",["Job","Job","İş","Trabajo","Tâche","Attività","Sarcină","任务"]],["proofflow.system.job.text",["Der Vorgang erhält einen klaren Kontext und Ausgangspunkt.","The event receives a clear context and starting point.","Olay açık bir bağlam ve başlangıç noktası kazanır.","El proceso recibe un contexto y punto de partida claros.","L’événement reçoit un contexte et un point de départ clairs.","L’evento riceve un contesto e un punto di partenza chiari.","Evenimentul primește un context și un punct de pornire clar.","事件获得清晰的上下文与起点。"]],["proofflow.system.proof.title",["Proof","Proof","Kanıt","Prueba","Preuve","Prova","Dovadă","证明"]],["proofflow.system.proof.text",["Relevante Nachweise werden dem Vorgang zugeordnet.","Relevant evidence is assigned to the event.","İlgili kanıtlar olaya atanır.","Las pruebas relevantes se asignan al proceso.","Les preuves pertinentes sont rattachées à l’événement.","Le prove rilevanti vengono associate all’evento.","Dovezile relevante sunt asociate evenimentului.","相关证明被关联到该事件。"]],["proofflow.system.sign.title",["Sign","Sign","İmza","Firma","Signer","Firma","Semnare","签名"]],["proofflow.system.sign.text",["Bestätigung oder Signatur wird mit Identität verbunden.","Confirmation or signature is linked to identity.","Onay veya imza kimlikle bağlanır.","La confirmación o firma se vincula a la identidad.","La confirmation ou signature est liée à l’identité.","La conferma o firma viene collegata all’identità.","Confirmarea sau semnătura este legată de identitate.","确认或签名与身份关联。"]],["proofflow.system.audit.title",["Audit","Audit","Denetim","Auditoría","Audit","Audit","Audit","审计"]],["proofflow.system.audit.text",["Relevante Zustandsänderungen bleiben nachvollziehbar.","Relevant state changes remain traceable.","İlgili durum değişiklikleri izlenebilir kalır.","Los cambios de estado relevantes siguen siendo trazables.","Les changements d’état pertinents restent traçables.","I cambiamenti di stato rilevanti restano tracciabili.","Modificările relevante de stare rămân trasabile.","相关状态变化保持可追溯。"]],["proofflow.system.export.title",["Export","Export","Dışa Aktarma","Exportación","Export","Esportazione","Export","导出"]],["proofflow.system.export.text",["Der dokumentierte Ablauf kann strukturiert ausgegeben werden.","The documented workflow can be exported in a structured way.","Belgelenen akış yapılandırılmış biçimde dışa aktarılabilir.","El flujo documentado puede exportarse de forma estructurada.","Le flux documenté peut être exporté de manière structurée.","Il flusso documentato può essere esportato in modo strutturato.","Fluxul documentat poate fi exportat structurat.","记录的流程可以结构化导出。"]],["proofflow.trust.eyebrow",["PROOF & TRUST","PROOF & TRUST","KANIT & GÜVEN","PRUEBA & CONFIANZA","PREUVE & CONFIANCE","PROVA & FIDUCIA","DOVADĂ & ÎNCREDERE","证明与信任"]],["proofflow.trust.title",["Ein Nachweis ist mehr als ein Foto.","Evidence is more than a photo.","Kanıt bir fotoğraftan fazlasıdır.","Una prueba es más que una foto.","Une preuve est plus qu’une photo.","Una prova è più di una foto.","O dovadă este mai mult decât o fotografie.","证明不只是一张照片。"]],["proofflow.trust.lead",["Entscheidend ist der Zusammenhang zwischen Herkunft, Zeitpunkt, Identität und Prozess.","What matters is the relationship between provenance, time, identity and process.","Önemli olan kaynak, zaman, kimlik ve süreç arasındaki ilişkidir.","Lo decisivo es la relación entre procedencia, tiempo, identidad y proceso.","L’essentiel est la relation entre provenance, temps, identité et processus.","Conta il rapporto tra provenienza, tempo, identità e processo.","Contează relația dintre proveniență, timp, identitate și proces.","关键是来源、时间、身份与流程之间的关系。"]],["proofflow.trust.context.title",["Context","Context","Bağlam","Contexto","Contexte","Contesto","Context","上下文"]],["proofflow.trust.context.text",["Zu welchem Vorgang gehört der Nachweis?","Which event does the evidence belong to?","Kanıt hangi olaya ait?","¿A qué proceso pertenece la prueba?","À quel événement appartient la preuve ?","A quale evento appartiene la prova?","Cărui eveniment îi aparține dovada?","该证明属于哪个事件？"]],["proofflow.trust.identity.title",["Identity","Identity","Kimlik","Identidad","Identité","Identità","Identitate","身份"]],["proofflow.trust.identity.text",["Wer hat dokumentiert, bestätigt oder gehandelt?","Who documented, confirmed or acted?","Kim belgeledi, onayladı veya hareket etti?","¿Quién documentó, confirmó o actuó?","Qui a documenté, confirmé ou agi ?","Chi ha documentato, confermato o agito?","Cine a documentat, confirmat sau acționat?","谁进行了记录、确认或操作？"]],["proofflow.trust.time.title",["Time","Time","Zaman","Tiempo","Temps","Tempo","Timp","时间"]],["proofflow.trust.time.text",["Wann entstand der relevante Zustand oder Nachweis?","When did the relevant state or evidence arise?","İlgili durum veya kanıt ne zaman oluştu?","¿Cuándo surgió el estado o la prueba relevante?","Quand l’état ou la preuve pertinente est-il apparu ?","Quando è nato lo stato o la prova rilevante?","Când a apărut starea sau dovada relevantă?","相关状态或证明何时产生？"]],["proofflow.trust.audit.title",["Audit","Audit","Denetim","Auditoría","Audit","Audit","Audit","审计"]],["proofflow.trust.audit.text",["Ist die Entwicklung des Vorgangs später nachvollziehbar?","Can the development of the event be traced later?","Olayın gelişimi daha sonra izlenebilir mi?","¿Puede rastrearse después la evolución del proceso?","L’évolution de l’événement peut-elle être retracée ensuite ?","L’evoluzione dell’evento può essere ricostruita in seguito?","Poate fi urmărită ulterior evoluția evenimentului?","之后能否追溯该事件的发展过程？"]],["proofflow.pilot.eyebrow",["PILOT","PILOT","PİLOT","PILOT","PILOT","PILOT","PILOT","PILOT"]],["proofflow.pilot.title",["ProofFlow wird an einem realen Prozess geprüft.","ProofFlow is tested on a real process.","ProofFlow gerçek bir süreç üzerinde test edilir.","ProofFlow se prueba en un proceso real.","ProofFlow est testé sur un processus réel.","ProofFlow viene testato su un processo reale.","ProofFlow este testat pe un proces real.","ProofFlow 在现实流程中进行测试。"]],["proofflow.pilot.text",["Für einen Pilot wird ein konkreter Vorgang ausgewählt, strukturiert und mit den benötigten Nachweis- und Audit-Schritten abgebildet.","For a pilot, a concrete event is selected, structured and mapped with the required evidence and audit steps.","Pilot için belirli bir olay seçilir, yapılandırılır ve gerekli kanıt ve denetim adımlarıyla modellenir.","Para un pilot se selecciona un proceso concreto, se estructura y se representa con los pasos de prueba y auditoría necesarios.","Pour un pilot, un événement concret est choisi, structuré et modélisé avec les étapes de preuve et d’audit nécessaires.","Per un pilot viene selezionato un evento concreto, strutturato e rappresentato con i passaggi di prova e audit necessari.","Pentru un pilot este ales un eveniment concret, structurat și modelat cu pașii necesari de dovadă și audit.","Pilot 会选择一个具体事件，对其结构化，并映射所需的证明与审计步骤。"]],["proofflow.pilot.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","Solicită Pilot","申请 Pilot"]],["proofflow.pilot.email",["E-Mail senden","Send email","E-posta gönder","Enviar correo","Envoyer un e-mail","Invia e-mail","Trimite e-mail","发送邮件"]],["proofflow.pilot.phase1",["PHASE 01","PHASE 01","AŞAMA 01","FASE 01","PHASE 01","FASE 01","FAZA 01","阶段 01"]],["proofflow.pilot.analysis",["ANALYSE","ANALYSIS","ANALİZ","ANÁLISIS","ANALYSE","ANALISI","ANALIZĂ","分析"]],["proofflow.pilot.phase2",["PHASE 02","PHASE 02","AŞAMA 02","FASE 02","PHASE 02","FASE 02","FAZA 02","阶段 02"]],["proofflow.pilot.model",["MODEL","MODEL","MODEL","MODELO","MODÈLE","MODELLO","MODEL","模型"]],["proofflow.pilot.phase3",["PHASE 03","PHASE 03","AŞAMA 03","FASE 03","PHASE 03","FASE 03","FAZA 03","阶段 03"]],["proofflow.pilot.pilot",["PILOT","PILOT","PİLOT","PILOT","PILOT","PILOT","PILOT","PILOT"]],["proofflow.pilot.phase4",["PHASE 04","PHASE 04","AŞAMA 04","FASE 04","PHASE 04","FASE 04","FAZA 04","阶段 04"]],["proofflow.pilot.review",["REVIEW","REVIEW","İNCELEME","REVISIÓN","REVUE","REVISIONE","REVIZUIRE","评审"]],["proofflow.core.eyebrow",["ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE","ZAL’THERA CORE"]],["proofflow.core.title",["ProofFlow nutzt denselben Vertrauenskern.","ProofFlow uses the same trust core.","ProofFlow aynı güven çekirdeğini kullanır.","ProofFlow utiliza el mismo núcleo de confianza.","ProofFlow utilise le même noyau de confiance.","ProofFlow usa lo stesso core di fiducia.","ProofFlow folosește același nucleu de încredere.","ProofFlow 使用同一个信任核心。"]],["proofflow.core.text",["Identität, Kontext, Nachweis, Audit und kontrollierte Ausführung bleiben Teil derselben ZAL’THERA-Architektur.","Identity, context, evidence, audit and controlled execution remain part of the same ZAL’THERA architecture.","Kimlik, bağlam, kanıt, denetim ve kontrollü yürütme aynı ZAL’THERA mimarisinin parçası olarak kalır.","Identidad, contexto, prueba, auditoría y ejecución controlada siguen formando parte de la misma arquitectura ZAL’THERA.","Identité, contexte, preuve, audit et exécution contrôlée restent dans la même architecture ZAL’THERA.","Identità, contesto, prova, audit ed esecuzione controllata restano parte della stessa architettura ZAL’THERA.","Identitatea, contextul, dovada, auditul și execuția controlată rămân parte din aceeași arhitectură ZAL’THERA.","身份、上下文、证明、审计与受控执行仍属于同一 ZAL’THERA 架构。"]],["proofflow.contact.title",["ProofFlow Pilot anfragen","Request a ProofFlow pilot","ProofFlow pilot talep et","Solicitar un pilot de ProofFlow","Demander un pilot ProofFlow","Richiedi un pilot ProofFlow","Solicită un pilot ProofFlow","申请 ProofFlow Pilot"]],["proofflow.contact.text",["Beschreibe kurz den Prozess, der nachvollziehbarer werden soll.","Briefly describe the process that should become more traceable.","Daha izlenebilir hale gelmesi gereken süreci kısaca açıklayın.","Describe brevemente el proceso que debe ser más trazable.","Décrivez brièvement le processus qui doit devenir plus traçable.","Descrivi brevemente il processo che deve diventare più tracciabile.","Descrie pe scurt procesul care trebuie să devină mai trasabil.","简要描述需要变得更可追溯的流程。"]],["proofflow.contact.namePlaceholder",["Ihr Name","Your name","Adınız","Su nombre","Votre nom","Il tuo nome","Numele dvs.","您的姓名"]],["proofflow.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["proofflow.contact.messagePlaceholder",["Welcher Prozess soll nachvollziehbarer werden?","Which process should become more traceable?","Hangi süreç daha izlenebilir olmalı?","¿Qué proceso debería ser más trazable?","Quel processus doit devenir plus traçable ?","Quale processo dovrebbe diventare più tracciabile?","Ce proces ar trebui să devină mai trasabil?","哪个流程需要变得更可追溯？"]],["proofflow.contact.send",["Anfrage senden","Send request","Talep gönder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","发送申请"]],["proofflow.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","Göndererek şunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptați","提交即表示您接受我们的"]],["shiftlog.hero.kicker",["ZAL’THERA INDUSTRY","ZAL’THERA INDUSTRY","ZAL’THERA ENDÜSTRİ","ZAL’THERA INDUSTRIA","ZAL’THERA INDUSTRIE","ZAL’THERA INDUSTRIA","ZAL’THERA INDUSTRIE","ZAL’THERA 工业"]],["shiftlog.hero.title",["Shift handover.<br>Without information loss.","Shift handover.<br>Without information loss.","Vardiya devri.<br>Bilgi kaybı olmadan.","Relevo de turno.<br>Sin pérdida de información.","Transmission de poste.<br>Sans perte d’information.","Passaggio turno.<br>Senza perdita di informazioni.","Predare de schimb.<br>Fără pierdere de informații.","班次交接。<br>不丢失信息。"]],["shiftlog.hero.lead",["ShiftLog macht operative Zustände, offene Punkte und Verantwortlichkeiten über Schichtgrenzen hinweg nachvollziehbar.","ShiftLog makes operational states, open points and responsibilities traceable across shift boundaries.","ShiftLog operasyonel durumları, açık noktaları ve sorumlulukları vardiyalar arasında izlenebilir kılar.","ShiftLog hace trazables los estados operativos, puntos abiertos y responsabilidades entre turnos.","ShiftLog rend traçables les états opérationnels, points ouverts et responsabilités entre les postes.","ShiftLog rende tracciabili stati operativi, punti aperti e responsabilità tra i turni.","ShiftLog face trasabile stările operaționale, punctele deschise și responsabilitățile între schimburi.","ShiftLog 让运行状态、未决事项与责任跨班次保持可追溯。"]],["shiftlog.hero.understand",["System verstehen","Understand system","Sistemi anla","Entender sistema","Comprendre le système","Comprendi il sistema","Înțelege sistemul","理解系统"]],["shiftlog.hero.interest",["Interesse melden","Register interest","İlgi bildir","Mostrar interés","Signaler son intérêt","Segnala interesse","Exprimă interesul","表达兴趣"]],["shiftlog.hero.handover",["HANDOVER","HANDOVER","DEVİR","RELEVO","TRANSMISSION","PASSAGGIO","PREDARE","交接"]],["shiftlog.hero.state",["STATE","STATE","DURUM","ESTADO","ÉTAT","STATO","STARE","状态"]],["shiftlog.hero.responsibility",["RESPONSIBILITY","RESPONSIBILITY","SORUMLULUK","RESPONSABILIDAD","RESPONSABILITÉ","RESPONSABILITÀ","RESPONSABILITATE","责任"]],["shiftlog.hero.traceability",["TRACEABILITY","TRACEABILITY","İZLENEBİLİRLİK","TRAZABILIDAD","TRAÇABILITÉ","TRACCIABILITÀ","TRASABILITATE","可追溯性"]],["shiftlog.state.label",["SHIFT STATE","SHIFT STATE","VARDİYA DURUMU","ESTADO DEL TURNO","ÉTAT DU POSTE","STATO DEL TURNO","STAREA SCHIMBULUI","班次状态"]],["shiftlog.state.status",["STATUS","STATUS","DURUM","ESTADO","STATUT","STATO","STARE","状态"]],["shiftlog.state.capture",["CAPTURE","CAPTURE","KAYIT","CAPTURA","CAPTURE","ACQUISIZIONE","CAPTURĂ","记录"]],["shiftlog.state.openPoints",["OPEN POINTS","OPEN POINTS","AÇIK NOKTALAR","PUNTOS ABIERTOS","POINTS OUVERTS","PUNTI APERTI","PUNCTE DESCHISE","未决事项"]],["shiftlog.state.visible",["VISIBLE","VISIBLE","GÖRÜNÜR","VISIBLE","VISIBLE","VISIBILE","VIZIBIL","可见"]],["shiftlog.state.handover",["HANDOVER","HANDOVER","DEVİR","RELEVO","TRANSMISSION","PASSAGGIO","PREDARE","交接"]],["shiftlog.state.structured",["STRUCTURED","STRUCTURED","YAPILANDIRILMIŞ","ESTRUCTURADO","STRUCTURÉ","STRUTTURATO","STRUCTURAT","已结构化"]],["shiftlog.state.responsibility",["RESPONSIBILITY","RESPONSIBILITY","SORUMLULUK","RESPONSABILIDAD","RESPONSABILITÉ","RESPONSABILITÀ","RESPONSABILITATE","责任"]],["shiftlog.state.assigned",["ASSIGNED","ASSIGNED","ATANDI","ASIGNADA","ATTRIBUÉE","ASSEGNATA","ATRIBUITĂ","已分配"]],["shiftlog.state.history",["HISTORY","HISTORY","GEÇMİŞ","HISTORIAL","HISTORIQUE","STORICO","ISTORIC","历史"]],["shiftlog.state.traceable",["TRACEABLE","TRACEABLE","İZLENEBİLİR","TRAZABLE","TRAÇABLE","TRACCIABILE","TRASABIL","可追溯"]],["shiftlog.problem.eyebrow",["SHIFT REALITY","SHIFT REALITY","VARDİYA GERÇEĞİ","REALIDAD DEL TURNO","RÉALITÉ DU POSTE","REALTÀ DEL TURNO","REALITATEA SCHIMBULUI","班次现实"]],["shiftlog.problem.title",["Information darf nicht an der Schichtgrenze enden.","Information must not stop at the shift boundary.","Bilgi vardiya sınırında bitmemeli.","La información no debe terminar en el cambio de turno.","L’information ne doit pas s’arrêter au changement de poste.","Le informazioni non devono fermarsi al cambio turno.","Informația nu trebuie să se oprească la schimbul de tură.","信息不应在班次边界终止。"]],["shiftlog.problem.lead",["Offene Punkte, Maschinenzustände und Verantwortlichkeiten verlieren schnell Kontext, wenn Übergaben nur mündlich oder unstrukturiert erfolgen.","Open points, machine states and responsibilities quickly lose context when handovers are only verbal or unstructured.","Açık noktalar, makine durumları ve sorumluluklar devirler yalnızca sözlü veya yapılandırılmamış olduğunda hızla bağlam kaybeder.","Puntos abiertos, estados de máquina y responsabilidades pierden contexto rápidamente cuando los relevos son solo verbales o no estructurados.","Points ouverts, états machine et responsabilités perdent vite leur contexte lorsque les transmissions sont seulement orales ou non structurées.","Punti aperti, stati macchina e responsabilità perdono rapidamente contesto quando i passaggi sono solo verbali o non strutturati.","Punctele deschise, stările utilajelor și responsabilitățile pierd rapid context când predările sunt doar verbale sau nestructurate.","当交接仅靠口头或缺乏结构时，未决事项、机器状态与责任会迅速失去上下文。"]],["shiftlog.problem.overlooked.title",["Offene Punkte werden übersehen","Open points are overlooked","Açık noktalar gözden kaçar","Se pasan por alto puntos abiertos","Des points ouverts sont oubliés","I punti aperti vengono trascurati","Punctele deschise sunt omise","未决事项被忽略"]],["shiftlog.problem.overlooked.text",["Was nicht klar übergeben wird, kann in der nächsten Schicht verschwinden.","What is not handed over clearly can disappear in the next shift.","Açıkça devredilmeyen şey sonraki vardiyada kaybolabilir.","Lo que no se entrega con claridad puede desaparecer en el siguiente turno.","Ce qui n’est pas transmis clairement peut disparaître au poste suivant.","Ciò che non viene passato chiaramente può perdersi nel turno successivo.","Ceea ce nu este predat clar poate dispărea în schimbul următor.","未被清晰交接的信息可能在下一班次中消失。"]],["shiftlog.problem.states.title",["Zustände werden uneindeutig","States become ambiguous","Durumlar belirsizleşir","Los estados se vuelven ambiguos","Les états deviennent ambigus","Gli stati diventano ambigui","Stările devin ambigue","状态变得模糊"]],["shiftlog.problem.states.text",["Ohne strukturierten Status ist schwer zu erkennen, was offen, übernommen oder erledigt ist.","Without structured status, it is hard to see what is open, taken over or completed.","Yapılandırılmış durum olmadan neyin açık, devralınmış veya tamamlanmış olduğunu görmek zordur.","Sin estado estructurado es difícil ver qué está abierto, asumido o completado.","Sans statut structuré, il est difficile de voir ce qui est ouvert, repris ou terminé.","Senza stato strutturato è difficile capire cosa è aperto, preso in carico o completato.","Fără stare structurată este greu de văzut ce este deschis, preluat sau finalizat.","没有结构化状态，就难以看清什么是未决、已接手或已完成。"]],["shiftlog.problem.context.title",["Kontext geht verloren","Context is lost","Bağlam kaybolur","Se pierde el contexto","Le contexte se perd","Il contesto si perde","Contextul se pierde","上下文丢失"]],["shiftlog.problem.context.text",["Maschine, Bereich, Zeitpunkt und Verantwortlichkeit müssen zusammen sichtbar bleiben.","Machine, area, time and responsibility must remain visible together.","Makine, alan, zaman ve sorumluluk birlikte görünür kalmalı.","Máquina, área, momento y responsabilidad deben seguir visibles juntos.","Machine, zone, moment et responsabilité doivent rester visibles ensemble.","Macchina, area, tempo e responsabilità devono restare visibili insieme.","Utilajul, zona, timpul și responsabilitatea trebuie să rămână vizibile împreună.","机器、区域、时间与责任必须一起保持可见。"]],["shiftlog.system.eyebrow",["SHIFTLOG SYSTEM","SHIFTLOG SYSTEM","SHIFTLOG SİSTEMİ","SISTEMA SHIFTLOG","SYSTÈME SHIFTLOG","SISTEMA SHIFTLOG","SISTEM SHIFTLOG","SHIFTLOG 系统"]],["shiftlog.system.title",["Übergabe wird zu einem nachvollziehbaren Prozess.","Handover becomes a traceable process.","Devir izlenebilir bir sürece dönüşür.","El relevo se convierte en un proceso trazable.","La transmission devient un processus traçable.","Il passaggio diventa un processo tracciabile.","Predarea devine un proces trasabil.","交接变成可追溯流程。"]],["shiftlog.system.lead",["ShiftLog strukturiert operative Informationen so, dass Zustand, Übergabe und Verantwortung über Schichten hinweg sichtbar bleiben.","ShiftLog structures operational information so that state, handover and responsibility remain visible across shifts.","ShiftLog operasyonel bilgiyi, durum, devir ve sorumluluğun vardiyalar boyunca görünür kalacağı şekilde yapılandırır.","ShiftLog estructura la información operativa para que estado, relevo y responsabilidad sigan visibles entre turnos.","ShiftLog structure les informations opérationnelles pour que l’état, la transmission et la responsabilité restent visibles entre les postes.","ShiftLog struttura le informazioni operative affinché stato, passaggio e responsabilità restino visibili tra i turni.","ShiftLog structurează informația operațională astfel încât starea, predarea și responsabilitatea să rămână vizibile între schimburi.","ShiftLog 对运行信息进行结构化，使状态、交接与责任跨班次保持可见。"]],["shiftlog.system.capture.title",["Capture","Capture","Kayıt","Captura","Capture","Acquisizione","Captură","记录"]],["shiftlog.system.capture.text",["Relevante Zustände und offene Punkte werden strukturiert erfasst.","Relevant states and open points are captured in a structured way.","İlgili durumlar ve açık noktalar yapılandırılmış biçimde kaydedilir.","Los estados relevantes y puntos abiertos se registran de forma estructurada.","Les états pertinents et points ouverts sont saisis de manière structurée.","Stati rilevanti e punti aperti vengono registrati in modo strutturato.","Stările relevante și punctele deschise sunt capturate structurat.","相关状态与未决事项被结构化记录。"]],["shiftlog.system.state.title",["State","State","Durum","Estado","État","Stato","Stare","状态"]],["shiftlog.system.state.text",["Der aktuelle operative Zustand bleibt sichtbar.","The current operational state remains visible.","Mevcut operasyonel durum görünür kalır.","El estado operativo actual sigue visible.","L’état opérationnel actuel reste visible.","Lo stato operativo attuale resta visibile.","Starea operațională curentă rămâne vizibilă.","当前运行状态保持可见。"]],["shiftlog.system.handover.title",["Handover","Handover","Devir","Relevo","Transmission","Passaggio","Predare","交接"]],["shiftlog.system.handover.text",["Offene Punkte werden gezielt an die nächste Schicht übergeben.","Open points are deliberately handed over to the next shift.","Açık noktalar bilinçli biçimde sonraki vardiyaya devredilir.","Los puntos abiertos se entregan de forma intencional al siguiente turno.","Les points ouverts sont transmis explicitement au poste suivant.","I punti aperti vengono passati intenzionalmente al turno successivo.","Punctele deschise sunt predate explicit schimbului următor.","未决事项被明确交给下一班次。"]],["shiftlog.system.responsibility.title",["Responsibility","Responsibility","Sorumluluk","Responsabilidad","Responsabilité","Responsabilità","Responsabilitate","责任"]],["shiftlog.system.responsibility.text",["Zuständigkeit und Übernahme werden klarer nachvollziehbar.","Responsibility and acceptance become more traceable.","Sorumluluk ve devralma daha açık izlenebilir olur.","La responsabilidad y la aceptación se vuelven más trazables.","La responsabilité et la prise en charge deviennent plus traçables.","Responsabilità e presa in carico diventano più tracciabili.","Responsabilitatea și preluarea devin mai trasabile.","责任与接手变得更可追溯。"]],["shiftlog.system.history.title",["History","History","Geçmiş","Historial","Historique","Storico","Istoric","历史"]],["shiftlog.system.history.text",["Relevante Änderungen und Übergaben bleiben später nachvollziehbar.","Relevant changes and handovers remain traceable later.","İlgili değişiklikler ve devirler daha sonra izlenebilir kalır.","Los cambios y relevos relevantes siguen siendo trazables después.","Les changements et transmissions pertinents restent traçables ensuite.","Cambiamenti e passaggi rilevanti restano tracciabili in seguito.","Modificările și predările relevante rămân trasabile ulterior.","相关变化与交接之后仍可追溯。"]],["shiftlog.industry.title",["Teil von ZAL’THERA Industry.","Part of ZAL’THERA Industry.","ZAL’THERA Industry’nin bir parçası.","Parte de ZAL’THERA Industry.","Partie de ZAL’THERA Industry.","Parte di ZAL’THERA Industry.","Parte din ZAL’THERA Industry.","ZAL’THERA Industry 的一部分。"]],["shiftlog.industry.text",["ShiftLog ist ein operativer Einstieg in die industrielle ZAL’THERA-Architektur.","ShiftLog is an operational entry point into the industrial ZAL’THERA architecture.","ShiftLog endüstriyel ZAL’THERA mimarisine operasyonel bir giriş noktasıdır.","ShiftLog es una entrada operativa a la arquitectura industrial ZAL’THERA.","ShiftLog est un point d’entrée opérationnel dans l’architecture industrielle ZAL’THERA.","ShiftLog è un punto di ingresso operativo nell’architettura industriale ZAL’THERA.","ShiftLog este un punct operațional de intrare în arhitectura industrială ZAL’THERA.","ShiftLog 是进入 ZAL’THERA 工业架构的操作入口。"]],["shiftlog.industry.view",["Industry ansehen","View Industry","Industry’yi görüntüle","Ver Industry","Voir Industry","Vedi Industry","Vezi Industry","查看 Industry"]],["shiftlog.use.eyebrow",["REAL-WORLD USE","REAL-WORLD USE","GERÇEK DÜNYA KULLANIMI","USO REAL","USAGE RÉEL","USO REALE","UTILIZARE REALĂ","现实使用"]],["shiftlog.use.title",["Für reale Übergaben gebaut.","Built for real handovers.","Gerçek devirler için üretildi.","Construido para relevos reales.","Conçu pour de vraies transmissions.","Costruito per passaggi reali.","Construit pentru predări reale.","为真实交接而构建。"]],["shiftlog.use.text",["ShiftLog soll in klar abgegrenzten betrieblichen Abläufen getestet und schrittweise weiterentwickelt werden.","ShiftLog is intended to be tested in clearly defined operational workflows and developed step by step.","ShiftLog açıkça tanımlanmış işletme akışlarında test edilip adım adım geliştirilecektir.","ShiftLog está pensado para probarse en flujos operativos claramente definidos y desarrollarse paso a paso.","ShiftLog doit être testé dans des flux opérationnels clairement définis et développé progressivement.","ShiftLog è pensato per essere testato in flussi operativi chiaramente definiti e sviluppato passo dopo passo.","ShiftLog este destinat testării în fluxuri operaționale clar definite și dezvoltării treptate.","ShiftLog 将在边界清晰的运行流程中测试，并逐步发展。"]],["shiftlog.use.interest",["Interesse melden","Register interest","İlgi bildir","Mostrar interés","Signaler son intérêt","Segnala interesse","Exprimă interesul","表达兴趣"]],["shiftlog.use.email",["E-Mail senden","Send email","E-posta gönder","Enviar correo","Envoyer un e-mail","Invia e-mail","Trimite e-mail","发送邮件"]],["shiftlog.use.state1",["STATE 01","STATE 01","DURUM 01","ESTADO 01","ÉTAT 01","STATO 01","STARE 01","状态 01"]],["shiftlog.use.captured",["CAPTURED","CAPTURED","KAYDEDİLDİ","CAPTURADO","SAISI","ACQUISITO","CAPTURAT","已记录"]],["shiftlog.use.state2",["STATE 02","STATE 02","DURUM 02","ESTADO 02","ÉTAT 02","STATO 02","STARE 02","状态 02"]],["shiftlog.use.open",["OPEN","OPEN","AÇIK","ABIERTO","OUVERT","APERTO","DESCHIS","未决"]],["shiftlog.use.state3",["STATE 03","STATE 03","DURUM 03","ESTADO 03","ÉTAT 03","STATO 03","STARE 03","状态 03"]],["shiftlog.use.handedOver",["HANDED OVER","HANDED OVER","DEVREDİLDİ","ENTREGADO","TRANSMIS","PASSATO","PREDAT","已交接"]],["shiftlog.use.state4",["STATE 04","STATE 04","DURUM 04","ESTADO 04","ÉTAT 04","STATO 04","STARE 04","状态 04"]],["shiftlog.use.resolved",["RESOLVED","RESOLVED","ÇÖZÜLDÜ","RESUELTO","RÉSOLU","RISOLTO","REZOLVAT","已解决"]],["shiftlog.contact.title",["Interesse an ShiftLog?","Interested in ShiftLog?","ShiftLog ile ilgileniyor musunuz?","¿Interés en ShiftLog?","Intéressé par ShiftLog ?","Interessato a ShiftLog?","Interesat de ShiftLog?","对 ShiftLog 感兴趣？"]],["shiftlog.contact.text",["Beschreibe kurz den betrieblichen Ablauf, in dem Übergaben oder offene Punkte besser strukturiert werden sollen.","Briefly describe the operational workflow in which handovers or open points should be structured better.","Devirlerin veya açık noktaların daha iyi yapılandırılması gereken işletme akışını kısaca açıklayın.","Describe brevemente el flujo operativo en el que los relevos o puntos abiertos deben estructurarse mejor.","Décrivez brièvement le flux opérationnel où les transmissions ou points ouverts doivent être mieux structurés.","Descrivi brevemente il flusso operativo in cui passaggi o punti aperti devono essere strutturati meglio.","Descrie pe scurt fluxul operațional în care predările sau punctele deschise trebuie structurate mai bine.","简要描述需要更好结构化交接或未决事项的运行流程。"]],["shiftlog.contact.namePlaceholder",["Ihr Name","Your name","Adınız","Su nombre","Votre nom","Il tuo nome","Numele dvs.","您的姓名"]],["shiftlog.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["shiftlog.contact.messagePlaceholder",["Wo entstehen heute Informationsverluste bei Übergaben?","Where do information losses occur in handovers today?","Bugün devirlerde bilgi kaybı nerede oluşuyor?","¿Dónde se producen hoy pérdidas de información en los relevos?","Où se produisent aujourd’hui les pertes d’information lors des transmissions ?","Dove si verificano oggi perdite di informazioni nei passaggi?","Unde apar astăzi pierderi de informații la predări?","如今交接中的信息丢失发生在哪里？"]],["shiftlog.contact.send",["Anfrage senden","Send request","Talep gönder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","发送申请"]],["shiftlog.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","Göndererek şunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptați","提交即表示您接受我们的"]],["support.hero.eyebrow",["SUPPORT","SUPPORT","DESTEK","SOPORTE","SUPPORT","SUPPORTO","SUPORT","支持"]],["support.hero.title",["ZAL’THERA Support","ZAL’THERA Support","ZAL’THERA Destek","Soporte ZAL’THERA","Support ZAL’THERA","Supporto ZAL’THERA","Suport ZAL’THERA","ZAL’THERA 支持"]],["support.hero.text",["Hilfe zu ZAL’THERA Produkten, Systemen und bestehenden Anwendungen.","Help with ZAL’THERA products, systems and existing applications.","ZAL’THERA ürünleri, sistemleri ve mevcut uygulamaları için yardım.","Ayuda sobre productos, sistemas y aplicaciones existentes de ZAL’THERA.","Aide concernant les produits, systèmes et applications existantes de ZAL’THERA.","Aiuto per prodotti, sistemi e applicazioni esistenti ZAL’THERA.","Ajutor pentru produsele, sistemele și aplicațiile existente ZAL’THERA.","关于 ZAL’THERA 产品、系统与现有应用的帮助。"]],["support.contact.title",["Kontakt","Contact","İletişim","Contacto","Contact","Contatto","Contact","联系"]],["support.contact.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","电子邮件："]],["support.apps.title",["Apps & Systeme","Apps & Systems","Uygulamalar & Sistemler","Apps & Sistemas","Applications & Systèmes","App & Sistemi","Aplicații & Sisteme","应用与系统"]],["support.apps.lifeflow",["LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow"]],["support.apps.easyproof",["EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro"]],["support.apps.lifeshield",["LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield"]],["support.apps.deliveryCore",["Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core"]],["support.apps.origin",["Origin","Origin","Origin","Origin","Origin","Origin","Origin","Origin"]],["support.apps.other.title",["Andere Produkte oder Systeme","Other products or systems","Diğer ürünler veya sistemler","Otros productos o sistemas","Autres produits ou systèmes","Altri prodotti o sistemi","Alte produse sau sisteme","其他产品或系统"]],["support.apps.other.text",["Nenne bitte den Produkt- oder Systemnamen in deiner Nachricht.","Please include the product or system name in your message.","Mesajınızda ürün veya sistem adını belirtin.","Indica el nombre del producto o sistema en tu mensaje.","Indiquez le nom du produit ou système dans votre message.","Indica il nome del prodotto o sistema nel messaggio.","Menționează numele produsului sau sistemului în mesaj.","请在消息中注明产品或系统名称。"]],["support.message.title",["Damit wir schnell helfen können","To help you quickly","Hızlı yardımcı olabilmemiz için","Para poder ayudarte rápido","Pour vous aider rapidement","Per poterti aiutare rapidamente","Pentru a te ajuta rapid","为了更快帮助你"]],["support.message.app",["App oder System nennen","Name the app or system","Uygulama veya sistemi belirtin","Indica la app o el sistema","Indiquez l’application ou le système","Indica app o sistema","Menționează aplicația sau sistemul","注明应用或系统"]],["support.message.problem",["Problem möglichst genau beschreiben","Describe the problem as precisely as possible","Sorunu mümkün olduğunca ayrıntılı açıklayın","Describe el problema con la mayor precisión posible","Décrivez le problème aussi précisément que possible","Descrivi il problema nel modo più preciso possibile","Descrie problema cât mai exact posibil","尽可能准确描述问题"]],["support.message.device",["Gerät und Betriebssystem nennen","Include device and operating system","Cihazı ve işletim sistemini belirtin","Indica dispositivo y sistema operativo","Indiquez l’appareil et le système d’exploitation","Indica dispositivo e sistema operativo","Menționează dispozitivul și sistemul de operare","注明设备与操作系统"]],["support.message.screenshot",["Wenn möglich Screenshot anhängen","Attach a screenshot if possible","Mümkünse ekran görüntüsü ekleyin","Adjunta una captura si es posible","Ajoutez une capture d’écran si possible","Allega uno screenshot se possibile","Atașează o captură dacă este posibil","如可能请附截图"]],["support.responseTime",["Wir antworten so schnell wie möglich.","We reply as quickly as possible.","Mümkün olduğunca hızlı yanıt veririz.","Respondemos lo antes posible.","Nous répondons aussi rapidement que possible.","Rispondiamo il prima possibile.","Răspundem cât mai repede posibil.","我们会尽快回复。"]],["support.actions.contact",["Support kontaktieren","Contact support","Destekle iletişime geç","Contactar soporte","Contacter le support","Contatta il supporto","Contactează suportul","联系支持"]],["support.actions.home",["Zur Startseite","Back to home","Ana sayfaya dön","Volver al inicio","Retour à l’accueil","Torna alla home","Înapoi acasă","返回首页"]],["imprint.hero.eyebrow",["LEGAL","LEGAL","YASAL","LEGAL","JURIDIQUE","LEGALE","LEGAL","法律"]],["imprint.hero.title",["Impressum","Legal Notice","Yasal Bilgiler","Aviso legal","Mentions légales","Note legali","Informații legale","法律声明"]],["imprint.hero.lead",["Rechtliche Anbieterinformationen zu ZAL’THERA.","Legal provider information for ZAL’THERA.","ZAL’THERA için yasal sağlayıcı bilgileri.","Información legal del proveedor de ZAL’THERA.","Informations légales sur le fournisseur de ZAL’THERA.","Informazioni legali sul fornitore ZAL’THERA.","Informații legale despre furnizorul ZAL’THERA.","ZAL’THERA 的法律提供者信息。"]],["imprint.provider.title",["Angaben gemäß § 5 DDG","Information pursuant to § 5 DDG","§ 5 DDG uyarınca bilgiler","Información conforme al § 5 DDG","Informations conformément au § 5 DDG","Informazioni ai sensi del § 5 DDG","Informații conform § 5 DDG","根据德国 DDG 第 5 条的信息"]],["imprint.contact.title",["Kontakt","Contact","İletişim","Contacto","Contact","Contatto","Contact","联系"]],["imprint.contact.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","电子邮件："]],["imprint.responsibility.title",["Verantwortlich für den Inhalt","Responsible for content","İçerikten sorumlu","Responsable del contenido","Responsable du contenu","Responsabile dei contenuti","Responsabil pentru conținut","内容负责人"]],["imprint.project.title",["Projekt / Marke","Project / Brand","Proje / Marka","Proyecto / Marca","Projet / Marque","Progetto / Marchio","Proiect / Marcă","项目 / 品牌"]],["imprint.project.text",["ZAL’THERA ist ein digitales System für Ordnung, Nachweis, Schutz, Übergabe, Vertrauen und nachvollziehbare Aktionen.","ZAL’THERA is a digital system for organization, evidence, protection, handover, trust and traceable actions.","ZAL’THERA; düzen, kanıt, koruma, devir, güven ve izlenebilir eylemler için dijital bir sistemdir.","ZAL’THERA es un sistema digital para organización, prueba, protección, relevo, confianza y acciones trazables.","ZAL’THERA est un système numérique pour l’organisation, la preuve, la protection, la transmission, la confiance et les actions traçables.","ZAL’THERA è un sistema digitale per organizzazione, prova, protezione, passaggio, fiducia e azioni tracciabili.","ZAL’THERA este un sistem digital pentru organizare, dovadă, protecție, predare, încredere și acțiuni trasabile.","ZAL’THERA 是用于组织、证明、保护、交接、信任与可追溯操作的数字系统。"]],["imprint.contentLiability.title",["Haftung für Inhalte","Liability for content","İçerik sorumluluğu","Responsabilidad por contenidos","Responsabilité du contenu","Responsabilità per i contenuti","Răspundere pentru conținut","内容责任"]],["imprint.contentLiability.text",["Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.","As a service provider, we are responsible for our own content on these pages under general law.","Hizmet sağlayıcı olarak bu sayfalardaki kendi içeriklerimizden genel yasalar uyarınca sorumluyuz.","Como proveedor de servicios somos responsables de nuestros propios contenidos en estas páginas conforme a la legislación general.","En tant que fournisseur de services, nous sommes responsables de nos propres contenus sur ces pages conformément au droit général.","In qualità di fornitore di servizi siamo responsabili dei nostri contenuti su queste pagine secondo la legge generale.","Ca furnizor de servicii suntem responsabili pentru propriul conținut de pe aceste pagini conform legislației generale.","作为服务提供者，我们依据一般法律对本网站自身内容负责。"]],["imprint.linkLiability.title",["Haftung für Links","Liability for links","Bağlantı sorumluluğu","Responsabilidad por enlaces","Responsabilité des liens","Responsabilità per i link","Răspundere pentru linkuri","链接责任"]],["imprint.linkLiability.text",["Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.","Our website contains links to external third-party websites over whose content we have no control.","Sitemiz, içerikleri üzerinde kontrolümüz olmayan üçüncü taraf harici web sitelerine bağlantılar içerir.","Nuestra oferta contiene enlaces a sitios web externos de terceros sobre cuyos contenidos no tenemos control.","Notre site contient des liens vers des sites externes tiers dont nous ne contrôlons pas le contenu.","Il nostro sito contiene link a siti esterni di terzi sui cui contenuti non abbiamo controllo.","Site-ul nostru conține linkuri către site-uri externe terțe asupra cărora nu avem control.","我们的网站包含指向第三方外部网站的链接，我们无法控制其内容。"]],["imprint.copyright.title",["Urheberrecht","Copyright","Telif hakkı","Derechos de autor","Droit d’auteur","Diritto d’autore","Drepturi de autor","版权"]],["imprint.copyright.text",["Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.","The content and works created by the site operator on these pages are subject to German copyright law.","Site işletmecisi tarafından oluşturulan içerik ve eserler Alman telif hakkı yasasına tabidir.","Los contenidos y obras creados por el operador del sitio están sujetos al derecho de autor alemán.","Les contenus et œuvres créés par l’exploitant du site sont soumis au droit d’auteur allemand.","I contenuti e le opere creati dal gestore del sito sono soggetti al diritto d’autore tedesco.","Conținuturile și operele create de operatorul site-ului sunt supuse dreptului de autor german.","网站运营者创建的内容与作品受德国版权法保护。"]],["imprint.actions.home",["Zur Startseite","Back to home","Ana sayfaya dön","Volver al inicio","Retour à l’accueil","Torna alla home","Înapoi acasă","返回首页"]],["privacy.hero.eyebrow",["DATENSCHUTZ","PRIVACY","GİZLİLİK","PRIVACIDAD","CONFIDENTIALITÉ","PRIVACY","CONFIDENȚIALITATE","隐私"]],["privacy.hero.title",["Datenschutzerklärung","Privacy Policy","Gizlilik Politikası","Política de privacidad","Politique de confidentialité","Informativa sulla privacy","Politica de confidențialitate","隐私政策"]],["privacy.hero.lead",["Informationen zur Verarbeitung personenbezogener Daten auf der ZAL’THERA Website und in verbundenen Anwendungen.","Information about the processing of personal data on the ZAL’THERA website and in connected applications.","ZAL’THERA web sitesinde ve bağlantılı uygulamalarda kişisel verilerin işlenmesine ilişkin bilgiler.","Información sobre el tratamiento de datos personales en el sitio web ZAL’THERA y aplicaciones conectadas.","Informations sur le traitement des données personnelles sur le site ZAL’THERA et les applications liées.","Informazioni sul trattamento dei dati personali sul sito ZAL’THERA e nelle applicazioni collegate.","Informații privind prelucrarea datelor cu caracter personal pe site-ul ZAL’THERA și în aplicațiile conectate.","关于 ZAL’THERA 网站及关联应用中个人数据处理的信息。"]],["privacy.controller.title",["Verantwortlicher","Controller","Veri sorumlusu","Responsable","Responsable du traitement","Titolare del trattamento","Operator","控制者"]],["privacy.controller.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","电子邮件："]],["privacy.website.title",["Websitezugriff","Website access","Web sitesi erişimi","Acceso al sitio web","Accès au site","Accesso al sito","Accesarea site-ului","网站访问"]],["privacy.website.text",["Beim Aufruf dieser Website können technisch notwendige Daten verarbeitet werden, die zur Bereitstellung, Sicherheit und Stabilität der Website erforderlich sind.","When this website is accessed, technically necessary data may be processed to provide, secure and stabilize the website.","Bu web sitesi açıldığında, sitenin sunulması, güvenliği ve kararlılığı için gerekli teknik veriler işlenebilir.","Al acceder a este sitio pueden tratarse datos técnicamente necesarios para ofrecer, asegurar y estabilizar el sitio.","Lors de l’accès à ce site, des données techniquement nécessaires peuvent être traitées afin d’assurer sa fourniture, sa sécurité et sa stabilité.","Durante l’accesso al sito possono essere trattati dati tecnicamente necessari per fornire, proteggere e stabilizzare il sito.","La accesarea acestui site pot fi prelucrate date necesare tehnic pentru furnizarea, securitatea și stabilitatea site-ului.","访问本网站时，可能会处理为提供、安全与稳定运行网站所必需的技术数据。"]],["privacy.contact.title",["Kontaktaufnahme","Contact","İletişim","Contacto","Prise de contact","Contatto","Contact","联系"]],["privacy.contact.text1",["Wenn du uns per E-Mail oder Kontaktformular kontaktierst, verarbeiten wir die von dir übermittelten Angaben zur Bearbeitung deiner Anfrage.","If you contact us by email or contact form, we process the information you provide in order to handle your request.","E-posta veya iletişim formu ile bize ulaşırsanız, talebinizi işlemek için ilettiğiniz bilgileri işleriz.","Si nos contactas por correo o formulario, tratamos los datos enviados para gestionar tu solicitud.","Si vous nous contactez par e-mail ou formulaire, nous traitons les informations transmises afin de gérer votre demande.","Se ci contatti via e-mail o modulo, trattiamo i dati forniti per gestire la richiesta.","Dacă ne contactezi prin e-mail sau formular, prelucrăm informațiile furnizate pentru a gestiona solicitarea.","如果你通过电子邮件或联系表单联系我们，我们会处理你提供的信息以处理你的请求。"]],["privacy.contact.text2",["Für Kontaktformulare kann ein technischer Dienst wie Formspree eingesetzt werden. Dabei können die eingegebenen Daten an diesen Dienst übertragen werden.","A technical service such as Formspree may be used for contact forms. The entered data may therefore be transmitted to that service.","İletişim formları için Formspree gibi teknik bir hizmet kullanılabilir. Girilen veriler bu hizmete aktarılabilir.","Para formularios de contacto puede utilizarse un servicio técnico como Formspree. Los datos introducidos pueden transmitirse a dicho servicio.","Un service technique tel que Formspree peut être utilisé pour les formulaires. Les données saisies peuvent alors être transmises à ce service.","Per i moduli di contatto può essere utilizzato un servizio tecnico come Formspree. I dati inseriti possono quindi essere trasmessi a tale servizio.","Pentru formularele de contact poate fi folosit un serviciu tehnic precum Formspree. Datele introduse pot fi transmise acestui serviciu.","联系表单可能使用 Formspree 等技术服务，输入的数据可能会传输给该服务。"]],["privacy.apps.title",["ZAL’THERA Apps","ZAL’THERA Apps","ZAL’THERA Uygulamaları","Apps ZAL’THERA","Applications ZAL’THERA","App ZAL’THERA","Aplicații ZAL’THERA","ZAL’THERA 应用"]],["privacy.apps.text1",["Daten in ZAL’THERA Anwendungen werden grundsätzlich lokal auf dem jeweiligen Gerät verarbeitet, soweit bei einer Funktion nicht ausdrücklich etwas anderes angegeben wird.","Data in ZAL’THERA applications is generally processed locally on the respective device unless a feature explicitly states otherwise.","ZAL’THERA uygulamalarındaki veriler, bir özellikte aksi açıkça belirtilmedikçe temel olarak ilgili cihazda yerel işlenir.","Los datos de las aplicaciones ZAL’THERA se procesan en principio localmente en el dispositivo, salvo que una función indique expresamente lo contrario.","Les données des applications ZAL’THERA sont en principe traitées localement sur l’appareil, sauf indication explicite contraire d’une fonction.","I dati nelle applicazioni ZAL’THERA vengono generalmente elaborati localmente sul dispositivo, salvo diversa indicazione esplicita di una funzione.","Datele din aplicațiile ZAL’THERA sunt procesate în principal local pe dispozitiv, dacă o funcție nu indică explicit altceva.","ZAL’THERA 应用中的数据原则上在相应设备本地处理，除非某项功能明确说明其他处理方式。"]],["privacy.apps.text2",["Einzelne zukünftige Funktionen können externe Dienste verwenden. In diesem Fall wird die jeweilige Verarbeitung transparent beschrieben.","Individual future features may use external services. In that case, the relevant processing will be described transparently.","Gelecekteki bazı özellikler harici hizmetler kullanabilir. Bu durumda ilgili işleme şeffaf biçimde açıklanır.","Algunas funciones futuras pueden utilizar servicios externos. En ese caso, el tratamiento correspondiente se describirá de forma transparente.","Certaines fonctions futures peuvent utiliser des services externes. Le traitement concerné sera alors décrit de manière transparente.","Alcune funzioni future possono utilizzare servizi esterni. In tal caso il relativo trattamento sarà descritto in modo trasparente.","Unele funcții viitoare pot utiliza servicii externe. În acest caz, prelucrarea va fi descrisă transparent.","未来部分功能可能使用外部服务；届时相关处理会透明说明。"]],["privacy.files.title",["Kamera, Fotos und Dateien","Camera, photos and files","Kamera, fotoğraflar ve dosyalar","Cámara, fotos y archivos","Caméra, photos et fichiers","Fotocamera, foto e file","Cameră, fotografii și fișiere","相机、照片与文件"]],["privacy.files.text",["Wenn eine App Zugriff auf Kamera, Fotos oder Dateien benötigt, erfolgt dieser Zugriff nur im Rahmen der jeweiligen Funktion und nach den Berechtigungen des Betriebssystems.","If an app requires access to the camera, photos or files, that access occurs only for the relevant feature and according to operating-system permissions.","Bir uygulama kamera, fotoğraf veya dosyalara erişim gerektiriyorsa bu erişim yalnızca ilgili özellik kapsamında ve işletim sistemi izinlerine göre gerçekleşir.","Si una app necesita acceso a cámara, fotos o archivos, ese acceso se realiza solo para la función correspondiente y según los permisos del sistema operativo.","Si une application nécessite l’accès à la caméra, aux photos ou aux fichiers, cet accès n’a lieu que pour la fonction concernée et selon les autorisations du système.","Se un’app richiede accesso a fotocamera, foto o file, l’accesso avviene solo per la funzione interessata e secondo i permessi del sistema operativo.","Dacă o aplicație necesită acces la cameră, fotografii sau fișiere, accesul are loc doar pentru funcția respectivă și conform permisiunilor sistemului.","如果应用需要访问相机、照片或文件，该访问仅用于相应功能，并遵循操作系统权限。"]],["privacy.tracking.title",["Tracking und Werbung","Tracking and advertising","Takip ve reklam","Seguimiento y publicidad","Suivi et publicité","Tracciamento e pubblicità","Urmărire și publicitate","跟踪与广告"]],["privacy.tracking.text",["ZAL’THERA verwendet keine werbebasierten Tracking-Systeme, sofern nicht ausdrücklich anders angegeben.","ZAL’THERA does not use advertising-based tracking systems unless explicitly stated otherwise.","ZAL’THERA, açıkça aksi belirtilmedikçe reklam temelli takip sistemleri kullanmaz.","ZAL’THERA no utiliza sistemas de seguimiento publicitario salvo indicación expresa en contrario.","ZAL’THERA n’utilise pas de systèmes de suivi publicitaire sauf indication explicite contraire.","ZAL’THERA non utilizza sistemi di tracciamento pubblicitario salvo diversa indicazione esplicita.","ZAL’THERA nu utilizează sisteme de urmărire bazate pe publicitate, dacă nu se indică explicit altfel.","除非明确另有说明，ZAL’THERA 不使用基于广告的跟踪系统。"]],["privacy.purposes.title",["Zwecke der Verarbeitung","Purposes of processing","İşleme amaçları","Finalidades del tratamiento","Finalités du traitement","Finalità del trattamento","Scopurile prelucrării","处理目的"]],["privacy.purposes.website",["Bereitstellung und Sicherheit der Website","Providing and securing the website","Web sitesinin sunulması ve güvenliği","Prestación y seguridad del sitio web","Fourniture et sécurité du site","Fornitura e sicurezza del sito","Furnizarea și securitatea site-ului","提供与保障网站安全"]],["privacy.purposes.support",["Bearbeitung von Support- und Kontaktanfragen","Handling support and contact requests","Destek ve iletişim taleplerinin işlenmesi","Gestión de solicitudes de soporte y contacto","Traitement des demandes de support et de contact","Gestione delle richieste di supporto e contatto","Gestionarea solicitărilor de suport și contact","处理支持与联系请求"]],["privacy.purposes.features",["Bereitstellung von App-Funktionen","Providing app features","Uygulama özelliklerinin sunulması","Prestación de funciones de la app","Fourniture des fonctions de l’application","Fornitura delle funzioni dell’app","Furnizarea funcțiilor aplicației","提供应用功能"]],["privacy.purposes.storage",["Lokale Speicherung und Verarbeitung, soweit vorgesehen","Local storage and processing where intended","Öngörüldüğü ölçüde yerel depolama ve işleme","Almacenamiento y tratamiento local cuando esté previsto","Stockage et traitement locaux lorsque prévus","Archiviazione ed elaborazione locale ove previste","Stocare și prelucrare locală, unde este prevăzut","按设计进行本地存储与处理"]],["privacy.purposes.improvement",["Technische Stabilität und Verbesserung","Technical stability and improvement","Teknik kararlılık ve geliştirme","Estabilidad técnica y mejora","Stabilité technique et amélioration","Stabilità tecnica e miglioramento","Stabilitate tehnică și îmbunătățire","技术稳定与改进"]],["privacy.legalBasis.title",["Rechtsgrundlagen","Legal bases","Hukuki dayanaklar","Bases jurídicas","Bases légales","Basi giuridiche","Temeiuri juridice","法律依据"]],["privacy.legalBasis.text",["Je nach Verarbeitung kommen insbesondere Art. 6 Abs. 1 lit. b und lit. f DSGVO sowie – sofern erforderlich – eine Einwilligung als Rechtsgrundlage in Betracht.","Depending on the processing, Art. 6(1)(b) and (f) GDPR in particular, and consent where required, may serve as legal bases.","İşlemeye bağlı olarak özellikle GDPR Madde 6(1)(b) ve (f) ile gerektiğinde rıza hukuki dayanak olabilir.","Según el tratamiento, pueden ser aplicables en particular el art. 6.1.b y f del RGPD y, cuando sea necesario, el consentimiento.","Selon le traitement, l’art. 6, par. 1, b et f du RGPD ainsi que, si nécessaire, le consentement peuvent notamment constituer la base légale.","A seconda del trattamento, possono costituire base giuridica in particolare l’art. 6(1)(b) e (f) GDPR e, se necessario, il consenso.","În funcție de prelucrare, în special art. 6 alin. (1) lit. b și f GDPR și, dacă este necesar, consimțământul pot constitui temeiuri juridice.","根据处理情形，GDPR 第 6(1)(b) 与 (f) 条，以及在必要时的同意，可作为相关法律依据。"]],["privacy.storage.title",["Speicherdauer","Storage period","Saklama süresi","Plazo de conservación","Durée de conservation","Periodo di conservazione","Perioada de stocare","存储期限"]],["privacy.storage.text",["Personenbezogene Daten werden nur so lange gespeichert, wie dies für den jeweiligen Zweck erforderlich ist oder gesetzliche Pflichten dies verlangen.","Personal data is stored only for as long as necessary for the relevant purpose or as required by law.","Kişisel veriler yalnızca ilgili amaç için gerekli olduğu veya yasal yükümlülükler gerektirdiği süre boyunca saklanır.","Los datos personales se conservan solo mientras sea necesario para la finalidad correspondiente o lo exija la ley.","Les données personnelles ne sont conservées que pendant la durée nécessaire à la finalité concernée ou imposée par la loi.","I dati personali sono conservati solo per il tempo necessario allo scopo pertinente o richiesto dalla legge.","Datele cu caracter personal sunt stocate doar atât timp cât este necesar scopului respectiv sau impus de lege.","个人数据仅在相关目的所需期间或法律要求的期限内保存。"]],["privacy.rights.title",["Deine Rechte","Your rights","Haklarınız","Tus derechos","Vos droits","I tuoi diritti","Drepturile tale","你的权利"]],["privacy.rights.text1",["Du hast im Rahmen der gesetzlichen Voraussetzungen insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.","Subject to legal requirements, you have rights including access, rectification, erasure, restriction of processing, data portability and objection.","Yasal koşullar çerçevesinde erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği ve itiraz gibi haklara sahipsiniz.","Dentro de los requisitos legales tienes derechos, entre otros, de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición.","Sous réserve des conditions légales, vous disposez notamment de droits d’accès, de rectification, d’effacement, de limitation, de portabilité et d’opposition.","Nel rispetto dei requisiti legali hai, tra gli altri, diritti di accesso, rettifica, cancellazione, limitazione, portabilità e opposizione.","În condițiile legii ai, printre altele, drepturi de acces, rectificare, ștergere, restricționare, portabilitate și opoziție.","在法律规定条件下，你尤其享有访问、更正、删除、限制处理、数据可携与反对等权利。"]],["privacy.rights.text2",["Außerdem besteht das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.","You also have the right to lodge a complaint with a competent data-protection supervisory authority.","Ayrıca yetkili veri koruma denetim makamına şikâyette bulunma hakkınız vardır.","También tienes derecho a presentar una reclamación ante una autoridad de protección de datos competente.","Vous avez également le droit d’introduire une réclamation auprès d’une autorité de contrôle compétente.","Hai inoltre il diritto di proporre reclamo a un’autorità di controllo competente.","Ai de asemenea dreptul de a depune o plângere la o autoritate competentă de protecție a datelor.","你还有权向有管辖权的数据保护监管机构提出投诉。"]],["privacy.externalLinks.title",["Externe Links","External links","Harici bağlantılar","Enlaces externos","Liens externes","Link esterni","Linkuri externe","外部链接"]],["privacy.externalLinks.text",["Für Inhalte und Datenschutzpraktiken externer Websites gelten die Bestimmungen der jeweiligen Anbieter.","The policies of the respective providers apply to the content and privacy practices of external websites.","Harici web sitelerinin içerik ve gizlilik uygulamaları için ilgili sağlayıcıların hükümleri geçerlidir.","Para el contenido y las prácticas de privacidad de sitios externos se aplican las disposiciones de sus respectivos proveedores.","Les dispositions des fournisseurs concernés s’appliquent au contenu et aux pratiques de confidentialité des sites externes.","Per contenuti e pratiche privacy dei siti esterni si applicano le disposizioni dei rispettivi fornitori.","Pentru conținutul și practicile de confidențialitate ale site-urilor externe se aplică regulile furnizorilor respectivi.","外部网站的内容与隐私实践适用各自提供者的规定。"]],["privacy.actions.home",["Zur Startseite","Back to home","Ana sayfaya dön","Volver al inicio","Retour à l’accueil","Torna alla home","Înapoi acasă","返回首页"]],["terms.hero.eyebrow",["ALLGEMEINE GESCHÄFTSBEDINGUNGEN","TERMS AND CONDITIONS","GENEL ŞARTLAR VE KOŞULLAR","TÉRMINOS Y CONDICIONES","CONDITIONS GÉNÉRALES","TERMINI E CONDIZIONI","TERMENI ȘI CONDIȚII","一般条款与条件"]],["terms.hero.title",["Allgemeine Geschäftsbedingungen (AGB)","Terms and Conditions","Genel Şartlar ve Koşullar","Términos y Condiciones","Conditions Générales","Termini e Condizioni","Termeni și Condiții","一般条款与条件"]],["terms.provider.title",["1. Anbieter","1. Provider","1. Sağlayıcı","1. Proveedor","1. Fournisseur","1. Fornitore","1. Furnizor","1. 提供者"]],["terms.provider.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","电子邮件："]],["terms.subject.title",["2. Vertragsgegenstand","2. Subject of the contract","2. Sözleşmenin konusu","2. Objeto del contrato","2. Objet du contrat","2. Oggetto del contratto","2. Obiectul contractului","2. 合同标的"]],["terms.subject.text",["Gegenstand ist der Verkauf einer digitalen Anwendung („LifeFlow“). Es handelt sich aktuell um eine Vorbestellung. Der Zugriff erfolgt nach Veröffentlichung.","The subject is the sale of a digital application (“LifeFlow”). It is currently a pre-order. Access is provided after publication.","Sözleşmenin konusu dijital bir uygulamanın (“LifeFlow”) satışıdır. Şu anda ön sipariştir. Erişim yayımlandıktan sonra sağlanır.","El objeto es la venta de una aplicación digital (“LifeFlow”). Actualmente se trata de una precompra. El acceso se proporciona tras la publicación.","L’objet est la vente d’une application numérique (« LifeFlow »). Il s’agit actuellement d’une précommande. L’accès est fourni après publication.","Oggetto è la vendita di un’applicazione digitale (“LifeFlow”). Attualmente si tratta di un preordine. L’accesso viene fornito dopo la pubblicazione.","Obiectul este vânzarea unei aplicații digitale („LifeFlow”). În prezent este o precomandă. Accesul este oferit după publicare.","标的是数字应用“LifeFlow”的销售。目前属于预购，发布后提供访问。"]],["terms.contract.title",["3. Vertragsschluss","3. Conclusion of contract","3. Sözleşmenin kurulması","3. Celebración del contrato","3. Conclusion du contrat","3. Conclusione del contratto","3. Încheierea contractului","3. 合同成立"]],["terms.contract.text",["Der Vertrag kommt zustande, sobald die Zahlung über den bereitgestellten Zahlungsanbieter (z. B. PayPal) erfolgt ist.","The contract is concluded once payment has been made through the provided payment provider (e.g. PayPal).","Sözleşme, sağlanan ödeme hizmeti (ör. PayPal) üzerinden ödeme yapıldığında kurulur.","El contrato se celebra cuando se realiza el pago mediante el proveedor de pago facilitado (p. ej., PayPal).","Le contrat est conclu dès que le paiement est effectué via le prestataire de paiement fourni (p. ex. PayPal).","Il contratto si conclude quando il pagamento viene effettuato tramite il fornitore di pagamento messo a disposizione (es. PayPal).","Contractul se încheie odată ce plata este efectuată prin furnizorul de plăți disponibil (de ex. PayPal).","一旦通过提供的支付服务商（例如 PayPal）完成付款，合同即成立。"]],["terms.delivery.title",["4. Lieferung","4. Delivery","4. Teslimat","4. Entrega","4. Livraison","4. Consegna","4. Livrare","4. 交付"]],["terms.delivery.text",["Die Lieferung erfolgt digital. Der Zugang zur Anwendung wird nach Veröffentlichung bereitgestellt. Ein genauer Zeitpunkt kann nicht garantiert werden, erfolgt jedoch so schnell wie möglich.","Delivery is digital. Access to the application is provided after publication. An exact date cannot be guaranteed, but access will be provided as quickly as possible.","Teslimat dijital olarak yapılır. Uygulamaya erişim yayımlandıktan sonra sağlanır. Kesin bir tarih garanti edilemez ancak mümkün olan en kısa sürede sağlanır.","La entrega es digital. El acceso a la aplicación se proporciona tras la publicación. No puede garantizarse una fecha exacta, pero se facilitará lo antes posible.","La livraison est numérique. L’accès à l’application est fourni après publication. Une date précise ne peut être garantie, mais l’accès sera fourni dès que possible.","La consegna è digitale. L’accesso all’applicazione viene fornito dopo la pubblicazione. Non è possibile garantire una data esatta, ma sarà fornito il prima possibile.","Livrarea este digitală. Accesul la aplicație este oferit după publicare. Nu poate fi garantată o dată exactă, dar accesul va fi oferit cât mai repede posibil.","交付以数字方式进行。应用发布后提供访问。无法保证确切时间，但会尽快提供。"]],["terms.prices.title",["5. Preise","5. Prices","5. Fiyatlar","5. Precios","5. Prix","5. Prezzi","5. Prețuri","5. 价格"]],["terms.prices.text",["Alle Preise sind Endpreise. Gemäß §19 UStG wird keine Umsatzsteuer berechnet.","All prices are final prices. No VAT is charged pursuant to §19 UStG.","Tüm fiyatlar nihai fiyatlardır. Alman UStG §19 uyarınca KDV hesaplanmaz.","Todos los precios son finales. Conforme al §19 UStG no se cobra IVA.","Tous les prix sont des prix finaux. Conformément au §19 UStG, aucune TVA n’est facturée.","Tutti i prezzi sono finali. Ai sensi del §19 UStG non viene addebitata IVA.","Toate prețurile sunt finale. Conform §19 UStG nu se percepe TVA.","所有价格均为最终价格。根据德国 UStG 第 19 条，不收取增值税。"]],["terms.license.title",["6. Nutzungsrechte","6. Usage rights","6. Kullanım hakları","6. Derechos de uso","6. Droits d’utilisation","6. Diritti d’uso","6. Drepturi de utilizare","6. 使用权"]],["terms.license.text",["Der Käufer erhält ein einfaches, nicht übertragbares Nutzungsrecht. Weitergabe, Verkauf oder Vervielfältigung der Software ist nicht gestattet.","The buyer receives a simple, non-transferable right of use. Distribution, resale or reproduction of the software is not permitted.","Alıcı basit ve devredilemez bir kullanım hakkı alır. Yazılımın dağıtılması, satılması veya çoğaltılması yasaktır.","El comprador recibe un derecho de uso simple y no transferible. No se permite distribuir, vender o reproducir el software.","L’acheteur reçoit un droit d’utilisation simple et non transférable. La transmission, la revente ou la reproduction du logiciel ne sont pas autorisées.","L’acquirente riceve un diritto d’uso semplice e non trasferibile. Non sono consentiti distribuzione, vendita o riproduzione del software.","Cumpărătorul primește un drept de utilizare simplu, netransferabil. Distribuirea, vânzarea sau reproducerea software-ului nu sunt permise.","购买者获得简单、不可转让的使用权。不得分发、销售或复制软件。"]],["terms.liability.title",["7. Haftung","7. Liability","7. Sorumluluk","7. Responsabilidad","7. Responsabilité","7. Responsabilità","7. Răspundere","7. 责任"]],["terms.liability.text",["Die Nutzung erfolgt auf eigene Verantwortung. Es wird keine Haftung für finanzielle Entscheidungen übernommen, die auf Basis der App getroffen werden.","Use is at your own responsibility. No liability is assumed for financial decisions made on the basis of the app.","Kullanım kendi sorumluluğunuzdadır. Uygulamaya dayanarak alınan finansal kararlar için sorumluluk kabul edilmez.","El uso es bajo propia responsabilidad. No se asume responsabilidad por decisiones financieras tomadas sobre la base de la app.","L’utilisation se fait sous votre propre responsabilité. Aucune responsabilité n’est assumée pour les décisions financières prises sur la base de l’application.","L’utilizzo avviene sotto la propria responsabilità. Non si assume responsabilità per decisioni finanziarie prese sulla base dell’app.","Utilizarea are loc pe propria răspundere. Nu se asumă răspundere pentru decizii financiare luate pe baza aplicației.","使用由用户自行负责。对于基于该应用做出的财务决定，不承担责任。"]],["terms.final.title",["8. Schlussbestimmungen","8. Final provisions","8. Son hükümler","8. Disposiciones finales","8. Dispositions finales","8. Disposizioni finali","8. Dispoziții finale","8. 最终条款"]],["terms.final.text",["Es gilt deutsches Recht.","German law applies.","Alman hukuku uygulanır.","Se aplica el derecho alemán.","Le droit allemand s’applique.","Si applica il diritto tedesco.","Se aplică dreptul german.","适用德国法律。"]],["terms.actions.home",["Zur Startseite","Back to home","Ana sayfaya dön","Volver al inicio","Retour à l’accueil","Torna alla home","Înapoi acasă","返回首页"]],["withdrawal.hero.eyebrow",["WIDERRUF","WITHDRAWAL","CAYMA","DESISTIMIENTO","RÉTRACTATION","RECESSO","RETRAGERE","撤销"]],["withdrawal.hero.title",["Widerrufsbelehrung","Withdrawal Policy","Cayma Hakkı Bilgilendirmesi","Información sobre desistimiento","Information sur le droit de rétractation","Informativa sul recesso","Informare privind retragerea","撤销权说明"]],["withdrawal.right.title",["Widerrufsrecht","Right of withdrawal","Cayma hakkı","Derecho de desistimiento","Droit de rétractation","Diritto di recesso","Drept de retragere","撤销权"]],["withdrawal.right.text1",["Du hast das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.","You have the right to withdraw from this contract within fourteen days without giving any reason.","On dört gün içinde herhangi bir gerekçe göstermeden bu sözleşmeden cayma hakkınız vardır.","Tienes derecho a desistir de este contrato en un plazo de catorce días sin indicar motivo.","Vous avez le droit de vous rétracter de ce contrat dans un délai de quatorze jours sans indiquer de motif.","Hai il diritto di recedere dal presente contratto entro quattordici giorni senza indicarne il motivo.","Ai dreptul să te retragi din acest contract în termen de paisprezece zile fără a indica un motiv.","你有权在十四天内无须说明理由撤销本合同。"]],["withdrawal.right.text2",["Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.","The withdrawal period is fourteen days from the day the contract is concluded.","Cayma süresi sözleşmenin kurulduğu günden itibaren on dört gündür.","El plazo de desistimiento es de catorce días desde la celebración del contrato.","Le délai de rétractation est de quatorze jours à compter de la conclusion du contrat.","Il termine di recesso è di quattordici giorni dalla conclusione del contratto.","Perioada de retragere este de paisprezece zile de la data încheierii contractului.","撤销期限为合同成立之日起十四天。"]],["withdrawal.right.text3",["Um dein Widerrufsrecht auszuüben, musst du uns (Patrick Walker, contact@zalthera.de) mittels einer eindeutigen Erklärung (z. B. E-Mail) über deinen Entschluss informieren.","To exercise your right of withdrawal, you must inform us (Patrick Walker, contact@zalthera.de) of your decision by means of a clear statement (e.g. email).","Cayma hakkınızı kullanmak için kararınızı açık bir beyanla (ör. e-posta) bize (Patrick Walker, contact@zalthera.de) bildirmeniz gerekir.","Para ejercer tu derecho de desistimiento debes informarnos (Patrick Walker, contact@zalthera.de) de tu decisión mediante una declaración inequívoca (p. ej., correo electrónico).","Pour exercer votre droit de rétractation, vous devez nous informer (Patrick Walker, contact@zalthera.de) de votre décision au moyen d’une déclaration claire (p. ex. e-mail).","Per esercitare il diritto di recesso devi informarci (Patrick Walker, contact@zalthera.de) della tua decisione mediante una dichiarazione esplicita (ad es. e-mail).","Pentru a-ți exercita dreptul de retragere trebuie să ne informezi (Patrick Walker, contact@zalthera.de) despre decizie printr-o declarație clară (de ex. e-mail).","为行使撤销权，你必须通过明确声明（例如电子邮件）通知我们（Patrick Walker, contact@zalthera.de）你的决定。"]],["withdrawal.consequences.title",["Folgen des Widerrufs","Consequences of withdrawal","Caymanın sonuçları","Consecuencias del desistimiento","Conséquences de la rétractation","Conseguenze del recesso","Consecințele retragerii","撤销后果"]],["withdrawal.consequences.text",["Wenn du diesen Vertrag widerrufst, werden alle Zahlungen unverzüglich zurückerstattet.","If you withdraw from this contract, all payments will be refunded without undue delay.","Bu sözleşmeden cayarsanız tüm ödemeler gecikmeksizin iade edilir.","Si desistes de este contrato, todos los pagos serán reembolsados sin demora indebida.","Si vous vous rétractez de ce contrat, tous les paiements seront remboursés sans retard injustifié.","Se recedi dal contratto, tutti i pagamenti saranno rimborsati senza indebito ritardo.","Dacă te retragi din acest contract, toate plățile vor fi rambursate fără întârzieri nejustificate.","如果你撤销本合同，所有付款将及时退还。"]],["withdrawal.notice.title",["Besonderer Hinweis","Special notice","Özel not","Aviso especial","Remarque particulière","Avviso speciale","Notă specială","特别说明"]],["withdrawal.notice.text",["Bei digitalen Produkten kann das Widerrufsrecht erlöschen, sobald der Zugriff auf die Anwendung bereitgestellt wurde und die Nutzung beginnt.","For digital products, the right of withdrawal may expire once access to the application has been provided and use begins.","Dijital ürünlerde, uygulamaya erişim sağlanıp kullanım başladığında cayma hakkı sona erebilir.","En productos digitales, el derecho de desistimiento puede extinguirse una vez facilitado el acceso a la aplicación y comenzado su uso.","Pour les produits numériques, le droit de rétractation peut s’éteindre dès que l’accès à l’application est fourni et que l’utilisation commence.","Per i prodotti digitali, il diritto di recesso può decadere una volta fornito l’accesso all’applicazione e iniziato l’utilizzo.","Pentru produsele digitale, dreptul de retragere poate înceta odată ce accesul la aplicație este furnizat și utilizarea începe.","对于数字产品，一旦提供应用访问并开始使用，撤销权可能终止。"]],["withdrawal.actions.home",["Zur Startseite","Back to home","Ana sayfaya dön","Volver al inicio","Retour à l’accueil","Torna alla home","Înapoi acasă","返回首页"]]];
+  const FINAL_TRANSLATION_ROWS = [["footer.terms",["AGB","Terms","Åžartlar","TÃ©rminos","CGV","Termini","Termeni","æ¡æ¬¾"]],["footer.withdrawal",["Widerruf","Withdrawal","Cayma","Desistimiento","RÃ©tractation","Recesso","Retragere","æ’¤é”€"]],["global.navClose",["Navigation schlieÃŸen","Close navigation","Navigasyonu kapat","Cerrar navegaciÃ³n","Fermer la navigation","Chiudi navigazione","ÃŽnchide navigarea","å…³é—­å¯¼èˆª"]],["home.hero.kicker",["SOUVERÃ„NE DIGITALE ARCHITEKTUR","SOVEREIGN DIGITAL ARCHITECTURE","EGEMEN DÄ°JÄ°TAL MÄ°MARÄ°","ARQUITECTURA DIGITAL SOBERANA","ARCHITECTURE NUMÃ‰RIQUE SOUVERAINE","ARCHITETTURA DIGITALE SOVRANA","ARHITECTURÄ‚ DIGITALÄ‚ SUVERANÄ‚","ä¸»æƒæ•°å­—æž¶æž„"]],["home.hero.title",["One system.<br>One identity.<br>Connected intelligence.","One system.<br>One identity.<br>Connected intelligence.","Tek sistem.<br>Tek kimlik.<br>BaÄŸlantÄ±lÄ± zekÃ¢.","Un sistema.<br>Una identidad.<br>Inteligencia conectada.","Un systÃ¨me.<br>Une identitÃ©.<br>Une intelligence connectÃ©e.","Un sistema.<br>Unâ€™identitÃ .<br>Intelligenza connessa.","Un sistem.<br>O identitate.<br>InteligenÈ›Äƒ conectatÄƒ.","ä¸€ä¸ªç³»ç»Ÿã€‚<br>ä¸€ä¸ªèº«ä»½ã€‚<br>è¿žæŽ¥çš„æ™ºèƒ½ã€‚"]],["home.hero.description",["ZALâ€™THERA verbindet IdentitÃ¤t, Kontext, kÃ¼nstliche Intelligenz, Daten, Vertrauen, Kommunikation und reale Prozesse in einer gemeinsamen technologischen Architektur.","ZALâ€™THERA connects identity, context, artificial intelligence, data, trust, communication and real-world processes within one shared technological architecture.","ZALâ€™THERA; kimlik, baÄŸlam, yapay zekÃ¢, veri, gÃ¼ven, iletiÅŸim ve gerÃ§ek sÃ¼reÃ§leri ortak bir teknolojik mimaride birleÅŸtirir.","ZALâ€™THERA conecta identidad, contexto, inteligencia artificial, datos, confianza, comunicaciÃ³n y procesos reales dentro de una arquitectura tecnolÃ³gica comÃºn.","ZALâ€™THERA relie identitÃ©, contexte, intelligence artificielle, donnÃ©es, confiance, communication et processus rÃ©els dans une architecture technologique commune.","ZALâ€™THERA collega identitÃ , contesto, intelligenza artificiale, dati, fiducia, comunicazione e processi reali in unâ€™unica architettura tecnologica.","ZALâ€™THERA conecteazÄƒ identitatea, contextul, inteligenÈ›a artificialÄƒ, datele, Ã®ncrederea, comunicarea È™i procesele reale Ã®ntr-o arhitecturÄƒ tehnologicÄƒ comunÄƒ.","ZALâ€™THERA å°†èº«ä»½ã€ä¸Šä¸‹æ–‡ã€äººå·¥æ™ºèƒ½ã€æ•°æ®ã€ä¿¡ä»»ã€é€šä¿¡ä¸ŽçŽ°å®žæµç¨‹è¿žæŽ¥åœ¨ç»Ÿä¸€çš„æŠ€æœ¯æž¶æž„ä¸­ã€‚"]],["home.hero.primary",["System entdecken","Discover the system","Sistemi keÅŸfet","Descubrir el sistema","DÃ©couvrir le systÃ¨me","Scopri il sistema","DescoperÄƒ sistemul","æŽ¢ç´¢ç³»ç»Ÿ"]],["home.hero.core",["ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core","ZALâ€™THERA Core"]],["home.state.label",["SYSTEMSTATUS","SYSTEM STATE","SÄ°STEM DURUMU","ESTADO DEL SISTEMA","Ã‰TAT DU SYSTÃˆME","STATO DEL SISTEMA","STAREA SISTEMULUI","ç³»ç»ŸçŠ¶æ€"]],["home.state.identity",["IDENTITÃ„T","IDENTITY","KÄ°MLÄ°K","IDENTIDAD","IDENTITÃ‰","IDENTITÃ€","IDENTITATE","èº«ä»½"]],["home.state.continuity",["CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY","CONTINUITY"]],["home.state.intelligence",["INTELLIGENCE","INTELLIGENCE","ZEKÃ‚","INTELIGENCIA","INTELLIGENCE","INTELLIGENZA","INTELIGENÈšÄ‚","æ™ºèƒ½"]],["home.state.communication",["COMMUNICATION","COMMUNICATION","Ä°LETÄ°ÅžÄ°M","COMUNICACIÃ“N","COMMUNICATION","COMUNICAZIONE","COMUNICARE","é€šä¿¡"]],["home.state.industry",["INDUSTRY","INDUSTRY","ENDÃœSTRÄ°","INDUSTRIA","INDUSTRIE","INDUSTRIA","INDUSTRIE","å·¥ä¸š"]],["home.state.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADÄ‚","è¯æ˜Ž"]],["home.state.core",["CORE","CORE","CORE","CORE","CORE","CORE","CORE","CORE"]],["home.state.active",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTÄ°F GELÄ°ÅžTÄ°RME","DESARROLLO ACTIVO","DÃ‰VELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVÄ‚","ç§¯æžå¼€å‘ä¸­"]],["home.state.architecture",["ARCHITEKTUR","ARCHITECTURE","MÄ°MARÄ°","ARQUITECTURA","ARCHITECTURE","ARCHITETTURA","ARHITECTURÄ‚","æž¶æž„"]],["home.state.module",["SYSTEMMODUL","SYSTEM MODULE","SÄ°STEM MODÃœLÃœ","MÃ“DULO DEL SISTEMA","MODULE SYSTÃˆME","MODULO DI SISTEMA","MODUL DE SISTEM","ç³»ç»Ÿæ¨¡å—"]],["home.system.eyebrow",["EIN SYSTEM","ONE SYSTEM","TEK SÄ°STEM","UN SISTEMA","UN SYSTÃˆME","UN SISTEMA","UN SISTEM","ä¸€ä¸ªç³»ç»Ÿ"]],["home.system.title",["Technologie beginnt nicht mit einer App.","Technology does not begin with an app.","Teknoloji bir uygulamayla baÅŸlamaz.","La tecnologÃ­a no comienza con una app.","La technologie ne commence pas par une application.","La tecnologia non inizia con unâ€™app.","Tehnologia nu Ã®ncepe cu o aplicaÈ›ie.","æŠ€æœ¯å¹¶ä¸æ˜¯ä»Žä¸€ä¸ªåº”ç”¨å¼€å§‹ã€‚"]],["home.system.lead",["Sie beginnt mit einer gemeinsamen Logik dafÃ¼r, wer handelt, was verstanden wird, wem vertraut werden darf und welche Aktion tatsÃ¤chlich ausgefÃ¼hrt werden kann.","It begins with a shared logic for who acts, what is understood, who may be trusted and which action may actually be executed.","Kimin hareket ettiÄŸi, neyin anlaÅŸÄ±ldÄ±ÄŸÄ±, kime gÃ¼venilebileceÄŸi ve hangi eylemin gerÃ§ekten yÃ¼rÃ¼tÃ¼lebileceÄŸine dair ortak bir mantÄ±kla baÅŸlar.","Comienza con una lÃ³gica comÃºn sobre quiÃ©n actÃºa, quÃ© se comprende, en quiÃ©n se puede confiar y quÃ© acciÃ³n puede ejecutarse realmente.","Elle commence par une logique commune : qui agit, ce qui est compris, Ã  qui faire confiance et quelle action peut rÃ©ellement Ãªtre exÃ©cutÃ©e.","Inizia con una logica comune su chi agisce, cosa viene compreso, di chi ci si puÃ² fidare e quale azione puÃ² essere realmente eseguita.","ÃŽncepe cu o logicÄƒ comunÄƒ privind cine acÈ›ioneazÄƒ, ce este Ã®nÈ›eles, Ã®n cine se poate avea Ã®ncredere È™i ce acÈ›iune poate fi executatÄƒ.","å®ƒå§‹äºŽä¸€å¥—å…±åŒé€»è¾‘ï¼šè°åœ¨è¡ŒåŠ¨ã€ç†è§£äº†ä»€ä¹ˆã€å¯ä»¥ä¿¡ä»»è°ï¼Œä»¥åŠä»€ä¹ˆæ“ä½œçœŸæ­£å¯ä»¥æ‰§è¡Œã€‚"]],["home.system.identity.title",["IdentitÃ¤t","Identity","Kimlik","Identidad","IdentitÃ©","IdentitÃ ","Identitate","èº«ä»½"]],["home.system.identity.text",["Wer oder welches autorisierte System handelt?","Who or which authorized system is acting?","Kim veya hangi yetkili sistem hareket ediyor?","Â¿QuiÃ©n o quÃ© sistema autorizado estÃ¡ actuando?","Qui ou quel systÃ¨me autorisÃ© agit ?","Chi o quale sistema autorizzato sta agendo?","Cine sau ce sistem autorizat acÈ›ioneazÄƒ?","è°æˆ–å“ªä¸ªå·²æŽˆæƒç³»ç»Ÿæ­£åœ¨è¡ŒåŠ¨ï¼Ÿ"]],["home.system.context.title",["Kontext","Context","BaÄŸlam","Contexto","Contexte","Contesto","Context","ä¸Šä¸‹æ–‡"]],["home.system.context.text",["In welchem Zusammenhang existieren Information und Handlung?","In what context do information and action exist?","Bilgi ve eylem hangi baÄŸlamda var?","Â¿En quÃ© contexto existen la informaciÃ³n y la acciÃ³n?","Dans quel contexte existent lâ€™information et lâ€™action ?","In quale contesto esistono informazione e azione?","ÃŽn ce context existÄƒ informaÈ›ia È™i acÈ›iunea?","ä¿¡æ¯ä¸Žè¡ŒåŠ¨å­˜åœ¨äºŽä»€ä¹ˆä¸Šä¸‹æ–‡ä¸­ï¼Ÿ"]],["home.system.intelligence.title",["Intelligenz","Intelligence","ZekÃ¢","Inteligencia","Intelligence","Intelligenza","InteligenÈ›Äƒ","æ™ºèƒ½"]],["home.system.intelligence.text",["Was lÃ¤sst sich aus dem vorhandenen Kontext verstehen?","What can be understood from the available context?","Mevcut baÄŸlamdan ne anlaÅŸÄ±labilir?","Â¿QuÃ© puede comprenderse a partir del contexto disponible?","Que peut-on comprendre Ã  partir du contexte disponible ?","Cosa si puÃ² comprendere dal contesto disponibile?","Ce poate fi Ã®nÈ›eles din contextul disponibil?","ä»ŽçŽ°æœ‰ä¸Šä¸‹æ–‡ä¸­å¯ä»¥ç†è§£ä»€ä¹ˆï¼Ÿ"]],["home.system.trust.title",["Vertrauen","Trust","GÃ¼ven","Confianza","Confiance","Fiducia","ÃŽncredere","ä¿¡ä»»"]],["home.system.trust.text",["Was ist erlaubt, belegbar und Ã¼berprÃ¼fbar?","What is permitted, verifiable and accountable?","Neye izin veriliyor, ne kanÄ±tlanabilir ve doÄŸrulanabilir?","Â¿QuÃ© estÃ¡ permitido, puede probarse y verificarse?","Quâ€™est-ce qui est autorisÃ©, prouvable et vÃ©rifiable ?","Cosa Ã¨ consentito, dimostrabile e verificabile?","Ce este permis, demonstrabil È™i verificabil?","ä»€ä¹ˆæ˜¯è¢«å…è®¸ã€å¯è¯æ˜Žå¹¶å¯éªŒè¯çš„ï¼Ÿ"]],["home.system.action.title",["Aktion","Action","Eylem","AcciÃ³n","Action","Azione","AcÈ›iune","æ“ä½œ"]],["home.system.action.text",["Was darf tatsÃ¤chlich ausgefÃ¼hrt werden?","What may actually be executed?","GerÃ§ekte ne yÃ¼rÃ¼tÃ¼lebilir?","Â¿QuÃ© puede ejecutarse realmente?","Quâ€™est-ce qui peut rÃ©ellement Ãªtre exÃ©cutÃ© ?","Cosa puÃ² essere realmente eseguito?","Ce poate fi executat efectiv?","ä»€ä¹ˆæ“ä½œçœŸæ­£å¯ä»¥æ‰§è¡Œï¼Ÿ"]],["home.system.principle",["KERNPRINZIP","CORE PRINCIPLE","TEMEL Ä°LKE","PRINCIPIO CENTRAL","PRINCIPE CENTRAL","PRINCIPIO CENTRALE","PRINCIPIU CENTRAL","æ ¸å¿ƒåŽŸåˆ™"]],["home.system.principleText",["Erst verstehen. Dann vorbereiten. Nur mit Erlaubnis handeln.","Understand first. Prepare second. Act only with permission.","Ã–nce anla. Sonra hazÄ±rla. YalnÄ±zca izinle hareket et.","Primero comprender. DespuÃ©s preparar. Actuar solo con permiso.","Comprendre dâ€™abord. PrÃ©parer ensuite. Agir uniquement avec autorisation.","Prima comprendere. Poi preparare. Agire solo con autorizzazione.","Mai Ã®ntÃ¢i Ã®nÈ›elege. Apoi pregÄƒteÈ™te. AcÈ›ioneazÄƒ numai cu permisiune.","å…ˆç†è§£ã€‚å†å‡†å¤‡ã€‚åªæœ‰èŽ·å¾—è®¸å¯åŽæ‰è¡ŒåŠ¨ã€‚"]],["home.system.openArchitecture",["Architektur Ã¶ffnen","Open architecture","Mimariyi aÃ§","Abrir arquitectura","Ouvrir lâ€™architecture","Apri architettura","Deschide arhitectura","æ‰“å¼€æž¶æž„"]],["home.continuity.eyebrow",["PERSÃ–NLICHES SOUVERÃ„NES SYSTEM","PERSONAL SOVEREIGN SYSTEM","KÄ°ÅžÄ°SEL EGEMEN SÄ°STEM","SISTEMA PERSONAL SOBERANO","SYSTÃˆME PERSONNEL SOUVERAIN","SISTEMA PERSONALE SOVRANO","SISTEM PERSONAL SUVERAN","ä¸ªäººä¸»æƒç³»ç»Ÿ"]],["home.continuity.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTÄ°F GELÄ°ÅžTÄ°RME","DESARROLLO ACTIVO","DÃ‰VELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVÄ‚","ç§¯æžå¼€å‘ä¸­"]],["home.continuity.tagline",["Dein Lebenskontext. Strukturiert. Verbunden. VerstÃ¤ndlich.","Your life context. Structured. Connected. Understandable.","YaÅŸam baÄŸlamÄ±n. YapÄ±landÄ±rÄ±lmÄ±ÅŸ. BaÄŸlantÄ±lÄ±. AnlaÅŸÄ±lÄ±r.","El contexto de tu vida. Estructurado. Conectado. Comprensible.","Le contexte de votre vie. StructurÃ©. ConnectÃ©. ComprÃ©hensible.","Il contesto della tua vita. Strutturato. Connesso. Comprensibile.","Contextul vieÈ›ii tale. Structurat. Conectat. UÈ™or de Ã®nÈ›eles.","ä½ çš„ç”Ÿæ´»ä¸Šä¸‹æ–‡ã€‚ç»“æž„åŒ–ã€‚è¿žæŽ¥ã€‚å¯ç†è§£ã€‚"]],["home.continuity.text1",["CONTINUITY verbindet persÃ¶nliche Dokumente, Daten, Cards, Timeline, Finanzen, Nachweise und Kontext in einer souverÃ¤nen persÃ¶nlichen Umgebung.","CONTINUITY connects personal documents, data, Cards, Timeline, finances, evidence and context within a sovereign personal environment.","CONTINUITY; kiÅŸisel belgeleri, verileri, Cards, Timeline, finans, kanÄ±t ve baÄŸlamÄ± egemen bir kiÅŸisel ortamda birleÅŸtirir.","CONTINUITY conecta documentos personales, datos, Cards, Timeline, finanzas, pruebas y contexto en un entorno personal soberano.","CONTINUITY relie documents personnels, donnÃ©es, Cards, Timeline, finances, preuves et contexte dans un environnement personnel souverain.","CONTINUITY collega documenti personali, dati, Cards, Timeline, finanze, prove e contesto in un ambiente personale sovrano.","CONTINUITY conecteazÄƒ documente personale, date, Cards, Timeline, finanÈ›e, dovezi È™i context Ã®ntr-un mediu personal suveran.","CONTINUITY å°†ä¸ªäººæ–‡æ¡£ã€æ•°æ®ã€Cardsã€Timelineã€è´¢åŠ¡ã€è¯æ˜Žä¸Žä¸Šä¸‹æ–‡è¿žæŽ¥åœ¨ä¸€ä¸ªä¸ªäººä¸»æƒçŽ¯å¢ƒä¸­ã€‚"]],["home.continuity.text2",["Informationen bleiben nicht als isolierte Dateien liegen. Sie erhalten Kontext, Herkunft, Zeitbezug und eine nachvollziehbare Position im persÃ¶nlichen System.","Information does not remain as isolated files. It receives context, provenance, temporal reference and a traceable position within the personal system.","Bilgiler yalÄ±tÄ±lmÄ±ÅŸ dosyalar olarak kalmaz. BaÄŸlam, kaynak, zaman iliÅŸkisi ve kiÅŸisel sistem iÃ§inde izlenebilir bir konum kazanÄ±r.","La informaciÃ³n no queda como archivos aislados. Recibe contexto, procedencia, referencia temporal y una posiciÃ³n trazable dentro del sistema personal.","Les informations ne restent pas des fichiers isolÃ©s. Elles reÃ§oivent un contexte, une provenance, un repÃ¨re temporel et une position traÃ§able dans le systÃ¨me personnel.","Le informazioni non restano file isolati. Ricevono contesto, provenienza, riferimento temporale e una posizione tracciabile nel sistema personale.","InformaÈ›iile nu rÄƒmÃ¢n fiÈ™iere izolate. Primesc context, provenienÈ›Äƒ, referinÈ›Äƒ temporalÄƒ È™i o poziÈ›ie trasabilÄƒ Ã®n sistemul personal.","ä¿¡æ¯ä¸ä¼šåœç•™ä¸ºå­¤ç«‹æ–‡ä»¶ï¼Œè€Œä¼šèŽ·å¾—ä¸Šä¸‹æ–‡ã€æ¥æºã€æ—¶é—´å…³è”ä»¥åŠåœ¨ä¸ªäººç³»ç»Ÿä¸­çš„å¯è¿½æº¯ä½ç½®ã€‚"]],["home.continuity.documents",["Dokumente","Documents","Belgeler","Documentos","Documents","Documenti","Documente","æ–‡æ¡£"]],["home.continuity.cards",["Cards","Cards","Cards","Cards","Cards","Cards","Cards","Cards"]],["home.continuity.timeline",["Timeline","Timeline","Timeline","Timeline","Timeline","Timeline","Timeline","Timeline"]],["home.continuity.finance",["Finanzen","Finance","Finans","Finanzas","Finances","Finanze","FinanÈ›e","è´¢åŠ¡"]],["home.continuity.context",["Kontext","Context","BaÄŸlam","Contexto","Contexte","Contesto","Context","ä¸Šä¸‹æ–‡"]],["home.continuity.audit",["Audit","Audit","Denetim","AuditorÃ­a","Audit","Audit","Audit","å®¡è®¡"]],["home.intelligence.eyebrow",["KONTEXTUELLE INTELLIGENZ","CONTEXTUAL INTELLIGENCE","BAÄžLAMSAL ZEKÃ‚","INTELIGENCIA CONTEXTUAL","INTELLIGENCE CONTEXTUELLE","INTELLIGENZA CONTESTUALE","INTELIGENÈšÄ‚ CONTEXTUALÄ‚","ä¸Šä¸‹æ–‡æ™ºèƒ½"]],["home.intelligence.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTÄ°F GELÄ°ÅžTÄ°RME","DESARROLLO ACTIVO","DÃ‰VELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVÄ‚","ç§¯æžå¼€å‘ä¸­"]],["home.intelligence.title",["ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence","ZALâ€™THERA Intelligence"]],["home.intelligence.tagline",["Intelligenz, die ihre Grenzen kennt.","Intelligence that knows its limits.","SÄ±nÄ±rlarÄ±nÄ± bilen zekÃ¢.","Inteligencia que conoce sus lÃ­mites.","Une intelligence qui connaÃ®t ses limites.","Intelligenza che conosce i propri limiti.","InteligenÈ›Äƒ care Ã®È™i cunoaÈ™te limitele.","çŸ¥é“è‡ªèº«è¾¹ç•Œçš„æ™ºèƒ½ã€‚"]],["home.intelligence.text1",["Die Intelligenzschicht arbeitet nicht losgelÃ¶st vom Menschen. Sie versteht verfÃ¼gbaren Kontext, erkennt ZusammenhÃ¤nge, erklÃ¤rt Informationen und bereitet mÃ¶gliche Aktionen vor.","The intelligence layer does not operate independently of the human. It understands available context, identifies relationships, explains information and prepares possible actions.","ZekÃ¢ katmanÄ± insandan baÄŸÄ±msÄ±z Ã§alÄ±ÅŸmaz. Mevcut baÄŸlamÄ± anlar, iliÅŸkileri fark eder, bilgiyi aÃ§Ä±klar ve olasÄ± eylemleri hazÄ±rlar.","La capa de inteligencia no funciona separada de la persona. Comprende el contexto disponible, identifica relaciones, explica informaciÃ³n y prepara posibles acciones.","La couche dâ€™intelligence nâ€™agit pas indÃ©pendamment de lâ€™humain. Elle comprend le contexte disponible, identifie les relations, explique lâ€™information et prÃ©pare des actions possibles.","Il livello di intelligenza non opera separato dalla persona. Comprende il contesto disponibile, riconosce relazioni, spiega informazioni e prepara possibili azioni.","Stratul de inteligenÈ›Äƒ nu funcÈ›ioneazÄƒ separat de om. ÃŽnÈ›elege contextul disponibil, identificÄƒ relaÈ›ii, explicÄƒ informaÈ›ii È™i pregÄƒteÈ™te acÈ›iuni posibile.","æ™ºèƒ½å±‚å¹¶ä¸è„±ç¦»äººç‹¬ç«‹è¿è¡Œã€‚å®ƒç†è§£å¯ç”¨ä¸Šä¸‹æ–‡ã€è¯†åˆ«å…³è”ã€è§£é‡Šä¿¡æ¯å¹¶å‡†å¤‡å¯èƒ½çš„æ“ä½œã€‚"]],["home.intelligence.text2",["Konsequente Aktionen bleiben an Berechtigung, Kontext und menschliche Autorisierung gebunden.","Consequential actions remain bound to authorization, context and human approval.","SonuÃ§ doÄŸuran eylemler yetki, baÄŸlam ve insan onayÄ±na baÄŸlÄ± kalÄ±r.","Las acciones con consecuencias permanecen vinculadas a autorizaciÃ³n, contexto y aprobaciÃ³n humana.","Les actions Ã  consÃ©quence restent liÃ©es Ã  lâ€™autorisation, au contexte et Ã  lâ€™approbation humaine.","Le azioni con conseguenze restano vincolate ad autorizzazione, contesto e approvazione umana.","AcÈ›iunile cu consecinÈ›e rÄƒmÃ¢n legate de autorizare, context È™i aprobarea umanÄƒ.","ä¼šäº§ç”ŸåŽæžœçš„æ“ä½œä»å—æƒé™ã€ä¸Šä¸‹æ–‡ä¸Žäººå·¥æŽˆæƒçº¦æŸã€‚"]],["home.communication.eyebrow",["IDENTITÃ„T-ZU-IDENTITÃ„T","IDENTITY-TO-IDENTITY","KÄ°MLÄ°KTEN KÄ°MLÄ°ÄžE","IDENTIDAD A IDENTIDAD","IDENTITÃ‰ Ã€ IDENTITÃ‰","IDENTITÃ€ A IDENTITÃ€","IDENTITATE LA IDENTITATE","èº«ä»½åˆ°èº«ä»½"]],["home.communication.status",["AKTIVE ENTWICKLUNG","ACTIVE DEVELOPMENT","AKTÄ°F GELÄ°ÅžTÄ°RME","DESARROLLO ACTIVO","DÃ‰VELOPPEMENT ACTIF","SVILUPPO ATTIVO","DEZVOLTARE ACTIVÄ‚","ç§¯æžå¼€å‘ä¸­"]],["home.communication.title",["Communication","Communication","Ä°letiÅŸim","ComunicaciÃ³n","Communication","Comunicazione","Comunicare","é€šä¿¡"]],["home.communication.tagline",["Verbindung beginnt mit IdentitÃ¤t und Zustimmung.","Connection begins with identity and consent.","BaÄŸlantÄ± kimlik ve onayla baÅŸlar.","La conexiÃ³n comienza con identidad y consentimiento.","La connexion commence par lâ€™identitÃ© et le consentement.","La connessione inizia con identitÃ  e consenso.","Conexiunea Ã®ncepe cu identitate È™i consimÈ›ÄƒmÃ¢nt.","è¿žæŽ¥å§‹äºŽèº«ä»½ä¸ŽåŒæ„ã€‚"]],["home.communication.text1",["ZALâ€™THERA Communication entwickelt eine sichere Kommunikationsschicht zwischen autorisierten IdentitÃ¤ten.","ZALâ€™THERA Communication is developing a secure communication layer between authorized identities.","ZALâ€™THERA Communication, yetkili kimlikler arasÄ±nda gÃ¼venli bir iletiÅŸim katmanÄ± geliÅŸtirir.","ZALâ€™THERA Communication desarrolla una capa de comunicaciÃ³n segura entre identidades autorizadas.","ZALâ€™THERA Communication dÃ©veloppe une couche de communication sÃ©curisÃ©e entre identitÃ©s autorisÃ©es.","ZALâ€™THERA Communication sviluppa un livello di comunicazione sicuro tra identitÃ  autorizzate.","ZALâ€™THERA Communication dezvoltÄƒ un strat sigur de comunicare Ã®ntre identitÄƒÈ›i autorizate.","ZALâ€™THERA Communication æ­£åœ¨æž„å»ºå·²æŽˆæƒèº«ä»½ä¹‹é—´çš„å®‰å…¨é€šä¿¡å±‚ã€‚"]],["home.communication.text2",["Sprache, spÃ¤ter Video, Dateien und vertrauensbasierte Zustellung werden nicht Ã¼ber Ã¶ffentliche Profile definiert, sondern Ã¼ber IdentitÃ¤t, Beziehung und Berechtigung.","Voice, later video, files and trusted delivery are defined not through public profiles, but through identity, relationship and authorization.","Ses, daha sonra video, dosyalar ve gÃ¼vene dayalÄ± teslimat; herkese aÃ§Ä±k profillerle deÄŸil kimlik, iliÅŸki ve yetkiyle tanÄ±mlanÄ±r.","La voz, mÃ¡s adelante el vÃ­deo, los archivos y la entrega de confianza no se definen mediante perfiles pÃºblicos, sino mediante identidad, relaciÃ³n y autorizaciÃ³n.","La voix, puis la vidÃ©o, les fichiers et la livraison de confiance ne sont pas dÃ©finis par des profils publics, mais par lâ€™identitÃ©, la relation et lâ€™autorisation.","Voce, in seguito video, file e consegna basata sulla fiducia non sono definiti tramite profili pubblici, ma tramite identitÃ , relazione e autorizzazione.","Vocea, ulterior video, fiÈ™ierele È™i livrarea bazatÄƒ pe Ã®ncredere nu sunt definite prin profiluri publice, ci prin identitate, relaÈ›ie È™i autorizare.","è¯­éŸ³ã€åŽç»­çš„è§†é¢‘ã€æ–‡ä»¶ä¸Žå¯ä¿¡æŠ•é€’ä¸ç”±å…¬å¼€èµ„æ–™å®šä¹‰ï¼Œè€Œç”±èº«ä»½ã€å…³ç³»ä¸ŽæŽˆæƒå®šä¹‰ã€‚"]],["home.communication.voice",["SPRACHE","VOICE","SES","VOZ","VOIX","VOCE","VOCE","è¯­éŸ³"]],["home.communication.video",["VIDEO","VIDEO","VÄ°DEO","VÃDEO","VIDÃ‰O","VIDEO","VIDEO","è§†é¢‘"]],["home.communication.files",["DATEIEN","FILES","DOSYALAR","ARCHIVOS","FICHIERS","FILE","FIÈ˜IERE","æ–‡ä»¶"]],["home.communication.trust",["VERTRAUEN","TRUST","GÃœVEN","CONFIANZA","CONFIANCE","FIDUCIA","ÃŽNCREDERE","ä¿¡ä»»"]],["home.communication.consent",["ZUSTIMMUNG","CONSENT","ONAY","CONSENTIMIENTO","CONSENTEMENT","CONSENSO","CONSIMÈšÄ‚MÃ‚NT","åŒæ„"]],["home.communication.connectionRule",["ZUSTIMMUNG VOR VERBINDUNG","CONSENT BEFORE CONNECTION","BAÄžLANTIDAN Ã–NCE ONAY","CONSENTIMIENTO ANTES DE LA CONEXIÃ“N","CONSENTEMENT AVANT CONNEXION","CONSENSO PRIMA DELLA CONNESSIONE","CONSIMÈšÄ‚MÃ‚NT ÃŽNAINTE DE CONECTARE","è¿žæŽ¥å‰å…ˆèŽ·å¾—åŒæ„"]],["home.industry.eyebrow",["REALE SYSTEME","REAL-WORLD SYSTEMS","GERÃ‡EK DÃœNYA SÄ°STEMLERÄ°","SISTEMAS DEL MUNDO REAL","SYSTÃˆMES DU MONDE RÃ‰EL","SISTEMI DEL MONDO REALE","SISTEME DIN LUMEA REALÄ‚","çŽ°å®žä¸–ç•Œç³»ç»Ÿ"]],["home.industry.status",["ENTWICKLUNG & ARCHITEKTUR","DEVELOPMENT & ARCHITECTURE","GELÄ°ÅžTÄ°RME & MÄ°MARÄ°","DESARROLLO & ARQUITECTURA","DÃ‰VELOPPEMENT & ARCHITECTURE","SVILUPPO & ARCHITETTURA","DEZVOLTARE & ARHITECTURÄ‚","å¼€å‘ä¸Žæž¶æž„"]],["home.industry.title",["ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry","ZALâ€™THERA Industry"]],["home.industry.tagline",["Reale Prozesse werden zu verstÃ¤ndlichen Systemen.","Real processes become understandable systems.","GerÃ§ek sÃ¼reÃ§ler anlaÅŸÄ±lÄ±r sistemlere dÃ¶nÃ¼ÅŸÃ¼r.","Los procesos reales se convierten en sistemas comprensibles.","Les processus rÃ©els deviennent des systÃ¨mes comprÃ©hensibles.","I processi reali diventano sistemi comprensibili.","Procesele reale devin sisteme uÈ™or de Ã®nÈ›eles.","çŽ°å®žæµç¨‹è½¬åŒ–ä¸ºå¯ç†è§£çš„ç³»ç»Ÿã€‚"]],["home.industry.text",["Die industrielle Schicht verbindet operative Ãœbergaben, ProzesszustÃ¤nde, Sensordaten, Messwerte und zukÃ¼nftige Maschinenanbindungen.","The industrial layer connects operational handovers, process states, sensor data, measurements and future machine integrations.","EndÃ¼striyel katman; operasyonel devirleri, sÃ¼reÃ§ durumlarÄ±nÄ±, sensÃ¶r verilerini, Ã¶lÃ§Ã¼mleri ve gelecekteki makine entegrasyonlarÄ±nÄ± baÄŸlar.","La capa industrial conecta relevos operativos, estados de proceso, datos de sensores, mediciones y futuras integraciones de mÃ¡quinas.","La couche industrielle relie transmissions opÃ©rationnelles, Ã©tats de processus, donnÃ©es de capteurs, mesures et futures intÃ©grations de machines.","Il livello industriale collega passaggi operativi, stati di processo, dati sensore, misurazioni e future integrazioni macchina.","Stratul industrial conecteazÄƒ predÄƒri operaÈ›ionale, stÄƒri de proces, date de senzori, mÄƒsurÄƒtori È™i viitoare integrÄƒri de utilaje.","å·¥ä¸šå±‚è¿žæŽ¥æ“ä½œäº¤æŽ¥ã€æµç¨‹çŠ¶æ€ã€ä¼ æ„Ÿå™¨æ•°æ®ã€æµ‹é‡å€¼ä¸Žæœªæ¥çš„æœºå™¨é›†æˆã€‚"]],["home.industry.shift",["SchichtÃ¼bergabe & operative ZustÃ¤nde","Shift handover & operational states","Vardiya devri & operasyonel durumlar","Relevo de turno & estados operativos","Transmission de poste & Ã©tats opÃ©rationnels","Passaggio turno & stati operativi","Predare schimb & stÄƒri operaÈ›ionale","ç­æ¬¡äº¤æŽ¥ä¸Žè¿è¡ŒçŠ¶æ€"]],["home.industry.gate",["Sensorik, Messwerte & Maschinenprozesse","Sensors, measurements & machine processes","SensÃ¶rler, Ã¶lÃ§Ã¼mler & makine sÃ¼reÃ§leri","Sensores, mediciones & procesos de mÃ¡quina","Capteurs, mesures & processus machine","Sensori, misurazioni & processi macchina","Senzori, mÄƒsurÄƒtori & procese de utilaje","ä¼ æ„Ÿå™¨ã€æµ‹é‡å€¼ä¸Žæœºå™¨æµç¨‹"]],["home.industry.process",["Analyse & nachvollziehbare ProzesszustÃ¤nde","Analysis & traceable process states","Analiz & izlenebilir sÃ¼reÃ§ durumlarÄ±","AnÃ¡lisis & estados de proceso trazables","Analyse & Ã©tats de processus traÃ§ables","Analisi & stati di processo tracciabili","AnalizÄƒ & stÄƒri de proces trasabile","åˆ†æžä¸Žå¯è¿½æº¯æµç¨‹çŠ¶æ€"]],["home.proof.eyebrow",["NACHWEIS & VERTRAUEN","PROOF & TRUST","KANIT & GÃœVEN","PRUEBA & CONFIANZA","PREUVE & CONFIANCE","PROVA & FIDUCIA","DOVADÄ‚ & ÃŽNCREDERE","è¯æ˜Žä¸Žä¿¡ä»»"]],["home.proof.title",["Nachweis vor Annahme.","Evidence before assumption.","VarsayÄ±mdan Ã¶nce kanÄ±t.","Prueba antes que suposiciÃ³n.","La preuve avant lâ€™hypothÃ¨se.","La prova prima dellâ€™ipotesi.","Dovada Ã®naintea presupunerii.","å…ˆæœ‰è¯æ®ï¼Œå†ä½œåˆ¤æ–­ã€‚"]],["home.proof.text",["ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu einem nachvollziehbaren Ablauf.","ProofFlow connects tasks, evidence, photos, notes, signatures, audit and export into a traceable workflow.","ProofFlow; gÃ¶revleri, kanÄ±tlarÄ±, fotoÄŸraflarÄ±, notlarÄ±, imzalarÄ±, denetimi ve dÄ±ÅŸa aktarmayÄ± izlenebilir bir akÄ±ÅŸta birleÅŸtirir.","ProofFlow conecta tareas, pruebas, fotos, notas, firmas, auditorÃ­a y exportaciÃ³n en un flujo trazable.","ProofFlow relie tÃ¢ches, preuves, photos, notes, signatures, audit et export dans un flux traÃ§able.","ProofFlow collega attivitÃ , prove, foto, note, firme, audit ed esportazione in un flusso tracciabile.","ProofFlow conecteazÄƒ sarcini, dovezi, fotografii, note, semnÄƒturi, audit È™i export Ã®ntr-un flux trasabil.","ProofFlow å°†ä»»åŠ¡ã€è¯æ˜Žã€ç…§ç‰‡ã€å¤‡æ³¨ã€ç­¾åã€å®¡è®¡ä¸Žå¯¼å‡ºè¿žæŽ¥æˆå¯è¿½æº¯æµç¨‹ã€‚"]],["home.proof.open",["ProofFlow Ã¶ffnen","Open ProofFlow","ProofFlowâ€™u aÃ§","Abrir ProofFlow","Ouvrir ProofFlow","Apri ProofFlow","Deschide ProofFlow","æ‰“å¼€ ProofFlow"]],["home.products.eyebrow",["SYSTEMPORTFOLIO","SYSTEM PORTFOLIO","SÄ°STEM PORTFÃ–YÃœ","PORTAFOLIO DEL SISTEMA","PORTEFEUILLE SYSTÃˆME","PORTAFOGLIO SISTEMA","PORTOFOLIU DE SISTEM","ç³»ç»Ÿç»„åˆ"]],["home.products.title",["Ein Ã–kosystem. Unterschiedliche Reifegrade.","One ecosystem. Different levels of maturity.","Tek ekosistem. FarklÄ± olgunluk dÃ¼zeyleri.","Un ecosistema. Distintos niveles de madurez.","Un Ã©cosystÃ¨me. DiffÃ©rents niveaux de maturitÃ©.","Un ecosistema. Diversi livelli di maturitÃ .","Un ecosistem. Niveluri diferite de maturitate.","ä¸€ä¸ªç”Ÿæ€ç³»ç»Ÿã€‚ä¸åŒæˆç†Ÿåº¦ã€‚"]],["home.products.lead",["ZALâ€™THERA trennt klar zwischen verfÃ¼gbaren Produkten, aktiver Entwicklung, Systemmodulen und zukÃ¼nftiger Architektur.","ZALâ€™THERA clearly distinguishes between available products, active development, system modules and future architecture.","ZALâ€™THERA; mevcut Ã¼rÃ¼nleri, aktif geliÅŸtirmeyi, sistem modÃ¼llerini ve gelecekteki mimariyi aÃ§Ä±kÃ§a ayÄ±rÄ±r.","ZALâ€™THERA distingue claramente entre productos disponibles, desarrollo activo, mÃ³dulos del sistema y arquitectura futura.","ZALâ€™THERA distingue clairement les produits disponibles, le dÃ©veloppement actif, les modules systÃ¨me et lâ€™architecture future.","ZALâ€™THERA distingue chiaramente tra prodotti disponibili, sviluppo attivo, moduli di sistema e architettura futura.","ZALâ€™THERA separÄƒ clar produsele disponibile, dezvoltarea activÄƒ, modulele de sistem È™i arhitectura viitoare.","ZALâ€™THERA æ˜Žç¡®åŒºåˆ†å·²å‘å¸ƒäº§å“ã€ç§¯æžå¼€å‘ã€ç³»ç»Ÿæ¨¡å—ä¸Žæœªæ¥æž¶æž„ã€‚"]],["home.products.lifeflow",["Kosten, VertrÃ¤ge, Fristen und persÃ¶nliche FinanzÃ¼bersicht.","Costs, contracts, deadlines and personal financial overview.","Maliyetler, sÃ¶zleÅŸmeler, sÃ¼reler ve kiÅŸisel finans gÃ¶rÃ¼nÃ¼mÃ¼.","Costes, contratos, plazos y visiÃ³n financiera personal.","CoÃ»ts, contrats, Ã©chÃ©ances et vue financiÃ¨re personnelle.","Costi, contratti, scadenze e panoramica finanziaria personale.","Costuri, contracte, termene È™i vedere financiarÄƒ personalÄƒ.","æˆæœ¬ã€åˆåŒã€æœŸé™ä¸Žä¸ªäººè´¢åŠ¡æ¦‚è§ˆã€‚"]],["home.products.continuity",["PersÃ¶nliche souverÃ¤ne Umgebung fÃ¼r Dokumente, Daten, Kontext und Intelligenz.","A personal sovereign environment for documents, data, context and intelligence.","Belgeler, veriler, baÄŸlam ve zekÃ¢ iÃ§in kiÅŸisel egemen ortam.","Un entorno personal soberano para documentos, datos, contexto e inteligencia.","Un environnement personnel souverain pour documents, donnÃ©es, contexte et intelligence.","Un ambiente personale sovrano per documenti, dati, contesto e intelligenza.","Un mediu personal suveran pentru documente, date, context È™i inteligenÈ›Äƒ.","é¢å‘æ–‡æ¡£ã€æ•°æ®ã€ä¸Šä¸‹æ–‡ä¸Žæ™ºèƒ½çš„ä¸ªäººä¸»æƒçŽ¯å¢ƒã€‚"]],["home.products.proofflow",["Nachweise, Audit, Signatur und Ã¼berprÃ¼fbare AblÃ¤ufe.","Evidence, audit, signatures and verifiable workflows.","KanÄ±t, denetim, imza ve doÄŸrulanabilir iÅŸ akÄ±ÅŸlarÄ±.","Pruebas, auditorÃ­a, firmas y flujos verificables.","Preuves, audit, signatures et flux vÃ©rifiables.","Prove, audit, firme e flussi verificabili.","Dovezi, audit, semnÄƒturi È™i fluxuri verificabile.","è¯æ˜Žã€å®¡è®¡ã€ç­¾åä¸Žå¯éªŒè¯æµç¨‹ã€‚"]],["home.products.shiftlog",["Digitale SchichtÃ¼bergabe fÃ¼r operative ZustÃ¤nde und Verantwortlichkeiten.","Digital shift handover for operational states and responsibilities.","Operasyonel durumlar ve sorumluluklar iÃ§in dijital vardiya devri.","Relevo digital de turno para estados operativos y responsabilidades.","Transmission numÃ©rique de poste pour Ã©tats opÃ©rationnels et responsabilitÃ©s.","Passaggio turno digitale per stati operativi e responsabilitÃ .","Predare digitalÄƒ de schimb pentru stÄƒri operaÈ›ionale È™i responsabilitÄƒÈ›i.","é¢å‘è¿è¡ŒçŠ¶æ€ä¸Žè´£ä»»çš„æ•°å­—ç­æ¬¡äº¤æŽ¥ã€‚"]],["home.products.voicebridge",["Entwicklung einer vertrauensbasierten direkten Sprachverbindung zwischen autorisierten IdentitÃ¤ten.","Development of a trust-based direct voice connection between authorized identities.","Yetkili kimlikler arasÄ±nda gÃ¼vene dayalÄ± doÄŸrudan ses baÄŸlantÄ±sÄ± geliÅŸtirme.","Desarrollo de una conexiÃ³n de voz directa basada en confianza entre identidades autorizadas.","DÃ©veloppement dâ€™une connexion vocale directe fondÃ©e sur la confiance entre identitÃ©s autorisÃ©es.","Sviluppo di una connessione vocale diretta basata sulla fiducia tra identitÃ  autorizzate.","Dezvoltarea unei conexiuni vocale directe bazate pe Ã®ncredere Ã®ntre identitÄƒÈ›i autorizate.","å¼€å‘å·²æŽˆæƒèº«ä»½ä¹‹é—´åŸºäºŽä¿¡ä»»çš„ç›´æŽ¥è¯­éŸ³è¿žæŽ¥ã€‚"]],["home.products.zalgate",["Architektur fÃ¼r die Verbindung von Sensorik, Messwerten, Maschinen und ProzesszustÃ¤nden.","Architecture connecting sensors, measurements, machines and process states.","SensÃ¶rleri, Ã¶lÃ§Ã¼mleri, makineleri ve sÃ¼reÃ§ durumlarÄ±nÄ± baÄŸlayan mimari.","Arquitectura que conecta sensores, mediciones, mÃ¡quinas y estados de proceso.","Architecture reliant capteurs, mesures, machines et Ã©tats de processus.","Architettura che collega sensori, misurazioni, macchine e stati di processo.","ArhitecturÄƒ care conecteazÄƒ senzori, mÄƒsurÄƒtori, utilaje È™i stÄƒri de proces.","è¿žæŽ¥ä¼ æ„Ÿå™¨ã€æµ‹é‡å€¼ã€æœºå™¨ä¸Žæµç¨‹çŠ¶æ€çš„æž¶æž„ã€‚"]],["home.products.open",["Ã–ffnen â†’","Open â†’","AÃ§ â†’","Abrir â†’","Ouvrir â†’","Apri â†’","Deschide â†’","æ‰“å¼€ â†’"]],["home.products.viewSystem",["System ansehen â†’","View system â†’","Sistemi gÃ¶rÃ¼ntÃ¼le â†’","Ver sistema â†’","Voir le systÃ¨me â†’","Vedi sistema â†’","Vezi sistemul â†’","æŸ¥çœ‹ç³»ç»Ÿ â†’"]],["home.products.viewDevelopment",["Entwicklung ansehen â†’","View development â†’","GeliÅŸtirmeyi gÃ¶rÃ¼ntÃ¼le â†’","Ver desarrollo â†’","Voir le dÃ©veloppement â†’","Vedi sviluppo â†’","Vezi dezvoltarea â†’","æŸ¥çœ‹å¼€å‘ â†’"]],["home.products.viewArchitecture",["Architektur â†’","Architecture â†’","Mimari â†’","Arquitectura â†’","Architecture â†’","Architettura â†’","ArhitecturÄƒ â†’","æž¶æž„ â†’"]],["home.pilot.eyebrow",["KONTROLLIERTER REALER EINSTIEG","CONTROLLED REAL-WORLD ENTRY","KONTROLLÃœ GERÃ‡EK DÃœNYA GÄ°RÄ°ÅžÄ°","ENTRADA CONTROLADA EN EL MUNDO REAL","ENTRÃ‰E CONTRÃ”LÃ‰E DANS LE RÃ‰EL","INGRESSO CONTROLLATO NEL MONDO REALE","INTRARE CONTROLATÄ‚ ÃŽN LUMEA REALÄ‚","å—æŽ§çš„çŽ°å®žä¸–ç•Œåˆ‡å…¥"]],["home.pilot.title",["ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot","ZALâ€™THERA Pilot"]],["home.pilot.text",["Einen klar abgegrenzten realen Prozess verstehen, kontrolliert testen und den tatsÃ¤chlichen Nutzen prÃ¼fen â€“ ohne den bestehenden Betrieb sofort vollstÃ¤ndig zu ersetzen.","Understand a clearly defined real-world process, test it in a controlled way and verify actual value without immediately replacing the existing operation.","AÃ§Ä±kÃ§a sÄ±nÄ±rlandÄ±rÄ±lmÄ±ÅŸ gerÃ§ek bir sÃ¼reci anlayÄ±n, kontrollÃ¼ test edin ve mevcut iÅŸletmeyi hemen tamamen deÄŸiÅŸtirmeden gerÃ§ek faydayÄ± doÄŸrulayÄ±n.","Comprender un proceso real claramente delimitado, probarlo de forma controlada y verificar su valor sin sustituir de inmediato la operaciÃ³n existente.","Comprendre un processus rÃ©el clairement dÃ©limitÃ©, le tester de maniÃ¨re contrÃ´lÃ©e et vÃ©rifier sa valeur sans remplacer immÃ©diatement lâ€™existant.","Comprendere un processo reale ben delimitato, testarlo in modo controllato e verificarne il valore senza sostituire subito lâ€™operativitÃ  esistente.","ÃŽnÈ›elege un proces real clar delimitat, testeazÄƒ-l controlat È™i verificÄƒ valoarea fÄƒrÄƒ a Ã®nlocui imediat operaÈ›iunea existentÄƒ.","ç†è§£ä¸€ä¸ªè¾¹ç•Œæ¸…æ™°çš„çŽ°å®žæµç¨‹ï¼Œä»¥å—æŽ§æ–¹å¼æµ‹è¯•å¹¶éªŒè¯å®žé™…ä»·å€¼ï¼Œè€Œæ— éœ€ç«‹å³å…¨é¢æ›¿æ¢çŽ°æœ‰è¿è¡Œã€‚"]],["home.pilot.discover",["Pilot entdecken","Discover Pilot","Pilotâ€™u keÅŸfet","Descubrir Pilot","DÃ©couvrir Pilot","Scopri Pilot","DescoperÄƒ Pilot","æŽ¢ç´¢ Pilot"]],["home.pilot.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","SolicitÄƒ Pilot","ç”³è¯· Pilot"]],["home.core.eyebrow",["UNTER JEDEM SYSTEM","BENEATH EVERY SYSTEM","HER SÄ°STEMÄ°N ALTINDA","DEBAJO DE CADA SISTEMA","SOUS CHAQUE SYSTÃˆME","SOTTO OGNI SISTEMA","SUB FIECARE SISTEM","æ¯ä¸ªç³»ç»Ÿä¹‹ä¸‹"]],["home.core.title",["ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE"]],["home.core.text",["Identity, Policy, Consent, Audit, Ledger, Trust und kontrollierte AusfÃ¼hrung bilden den technischen Kern hinter dem Ã–kosystem.","Identity, Policy, Consent, Audit, Ledger, Trust and controlled execution form the technical core behind the ecosystem.","Kimlik, Policy, Onay, Denetim, Ledger, GÃ¼ven ve kontrollÃ¼ yÃ¼rÃ¼tme ekosistemin teknik Ã§ekirdeÄŸini oluÅŸturur.","Identity, Policy, Consent, Audit, Ledger, Trust y la ejecuciÃ³n controlada forman el nÃºcleo tÃ©cnico del ecosistema.","Identity, Policy, Consent, Audit, Ledger, Trust et lâ€™exÃ©cution contrÃ´lÃ©e forment le noyau technique de lâ€™Ã©cosystÃ¨me.","Identity, Policy, Consent, Audit, Ledger, Trust ed esecuzione controllata formano il nucleo tecnico dellâ€™ecosistema.","Identity, Policy, Consent, Audit, Ledger, Trust È™i execuÈ›ia controlatÄƒ formeazÄƒ nucleul tehnic al ecosistemului.","Identityã€Policyã€Consentã€Auditã€Ledgerã€Trust ä¸Žå—æŽ§æ‰§è¡Œæž„æˆç”Ÿæ€ç³»ç»ŸèƒŒåŽçš„æŠ€æœ¯æ ¸å¿ƒã€‚"]],["home.core.discover",["Core entdecken","Discover Core","Coreâ€™u keÅŸfet","Descubrir Core","DÃ©couvrir Core","Scopri Core","DescoperÄƒ Core","æŽ¢ç´¢ Core"]],["home.contact.eyebrow",["KONTAKT","CONTACT","Ä°LETÄ°ÅžÄ°M","CONTACTO","CONTACT","CONTATTO","CONTACT","è”ç³»"]],["home.contact.title",["ZALâ€™THERA kontaktieren","Contact ZALâ€™THERA","ZALâ€™THERA ile iletiÅŸime geÃ§","Contactar con ZALâ€™THERA","Contacter ZALâ€™THERA","Contatta ZALâ€™THERA","ContacteazÄƒ ZALâ€™THERA","è”ç³» ZALâ€™THERA"]],["home.contact.text",["Fragen zu ZALâ€™THERA, einem System oder bestehenden Modulen?","Questions about ZALâ€™THERA, a system or existing modules?","ZALâ€™THERA, bir sistem veya mevcut modÃ¼ller hakkÄ±nda sorularÄ±nÄ±z mÄ± var?","Â¿Preguntas sobre ZALâ€™THERA, un sistema o mÃ³dulos existentes?","Des questions sur ZALâ€™THERA, un systÃ¨me ou des modules existants ?","Domande su ZALâ€™THERA, un sistema o moduli esistenti?","ÃŽntrebÄƒri despre ZALâ€™THERA, un sistem sau module existente?","å¯¹ ZALâ€™THERAã€æŸä¸ªç³»ç»Ÿæˆ–çŽ°æœ‰æ¨¡å—æœ‰ç–‘é—®ï¼Ÿ"]],["home.contact.name",["Name","Name","Ad","Nombre","Nom","Nome","Nume","å§“å"]],["home.contact.namePlaceholder",["Dein Name","Your name","AdÄ±nÄ±z","Tu nombre","Votre nom","Il tuo nome","Numele tÄƒu","ä½ çš„å§“å"]],["home.contact.email",["E-Mail","Email","E-posta","Correo electrÃ³nico","E-mail","E-mail","E-mail","ç”µå­é‚®ä»¶"]],["home.contact.emailPlaceholder",["deine@email.de","your@email.com","eposta@ornek.com","tu@email.com","votre@email.com","tua@email.com","email@exemplu.ro","you@example.com"]],["home.contact.message",["Nachricht","Message","Mesaj","Mensaje","Message","Messaggio","Mesaj","æ¶ˆæ¯"]],["home.contact.messagePlaceholder",["Deine Nachricht â€¦","Your message â€¦","MesajÄ±nÄ±z â€¦","Tu mensaje â€¦","Votre message â€¦","Il tuo messaggio â€¦","Mesajul tÄƒu â€¦","ä½ çš„æ¶ˆæ¯â€¦"]],["home.contact.send",["Senden","Send","GÃ¶nder","Enviar","Envoyer","Invia","Trimite","å‘é€"]],["home.contact.privacyPrefix",["Mit dem Absenden akzeptierst du unsere","By submitting, you accept our","GÃ¶ndererek ÅŸunu kabul edersiniz:","Al enviar, aceptas nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere accepÈ›i","æäº¤å³è¡¨ç¤ºä½ æŽ¥å—æˆ‘ä»¬çš„"]],["home.contact.privacy",["DatenschutzerklÃ¤rung","Privacy Policy","Gizlilik PolitikasÄ±","PolÃ­tica de privacidad","Politique de confidentialitÃ©","Informativa sulla privacy","Politica de confidenÈ›ialitate","éšç§æ”¿ç­–"]],["about.header.chip",["About","About","HakkÄ±nda","Acerca de","Ã€ propos","Chi siamo","Despre","å…³äºŽ"]],["about.hero.kicker",["WHY ZALâ€™THERA EXISTS","WHY ZALâ€™THERA EXISTS","ZALâ€™THERA NEDEN VAR","POR QUÃ‰ EXISTE ZALâ€™THERA","POURQUOI ZALâ€™THERA EXISTE","PERCHÃ‰ ESISTE ZALâ€™THERA","DE CE EXISTÄ‚ ZALâ€™THERA","ZALâ€™THERA ä¸ºä½•å­˜åœ¨"]],["about.hero.product",["BUILT FROM FIRST PRINCIPLES","BUILT FROM FIRST PRINCIPLES","Ä°LK Ä°LKELERDEN Ä°NÅžA EDÄ°LDÄ°","CONSTRUIDO DESDE PRIMEROS PRINCIPIOS","CONSTRUIT Ã€ PARTIR DE PRINCIPES FONDAMENTAUX","COSTRUITO DAI PRINCIPI FONDAMENTALI","CONSTRUIT DIN PRINCIPII FUNDAMENTALE","ä»Žç¬¬ä¸€æ€§åŽŸç†æž„å»º"]],["about.hero.title",["Technology should<br>understand responsibility.","Technology should<br>understand responsibility.","Teknoloji<br>sorumluluÄŸu anlamalÄ±.","La tecnologÃ­a deberÃ­a<br>comprender la responsabilidad.","La technologie devrait<br>comprendre la responsabilitÃ©.","La tecnologia dovrebbe<br>comprendere la responsabilitÃ .","Tehnologia ar trebui<br>sÄƒ Ã®nÈ›eleagÄƒ responsabilitatea.","æŠ€æœ¯åº”è¯¥<br>ç†è§£è´£ä»»ã€‚"]],["about.hero.lead",["ZALâ€™THERA entsteht aus einer einfachen Frage: Wie kÃ¶nnen digitale Systeme intelligenter werden, ohne IdentitÃ¤t, Verantwortung, Nachvollziehbarkeit und menschliche Kontrolle zu verlieren?","ZALâ€™THERA begins with a simple question: How can digital systems become more intelligent without losing identity, responsibility, traceability and human control?","ZALâ€™THERA basit bir sorudan doÄŸar: Dijital sistemler kimlik, sorumluluk, izlenebilirlik ve insan kontrolÃ¼nÃ¼ kaybetmeden nasÄ±l daha akÄ±llÄ± olabilir?","ZALâ€™THERA nace de una pregunta sencilla: Â¿CÃ³mo pueden los sistemas digitales ser mÃ¡s inteligentes sin perder identidad, responsabilidad, trazabilidad y control humano?","ZALâ€™THERA part dâ€™une question simple : comment rendre les systÃ¨mes numÃ©riques plus intelligents sans perdre identitÃ©, responsabilitÃ©, traÃ§abilitÃ© et contrÃ´le humain ?","ZALâ€™THERA nasce da una domanda semplice: come possono i sistemi digitali diventare piÃ¹ intelligenti senza perdere identitÃ , responsabilitÃ , tracciabilitÃ  e controllo umano?","ZALâ€™THERA porneÈ™te de la o Ã®ntrebare simplÄƒ: cum pot sistemele digitale deveni mai inteligente fÄƒrÄƒ a pierde identitatea, responsabilitatea, trasabilitatea È™i controlul uman?","ZALâ€™THERA å§‹äºŽä¸€ä¸ªç®€å•çš„é—®é¢˜ï¼šæ•°å­—ç³»ç»Ÿå¦‚ä½•åœ¨ä¸å¤±åŽ»èº«ä»½ã€è´£ä»»ã€å¯è¿½æº¯æ€§ä¸Žäººå·¥æŽ§åˆ¶çš„å‰æä¸‹å˜å¾—æ›´æ™ºèƒ½ï¼Ÿ"]],["about.hero.principles",["Prinzipien entdecken","Discover principles","Ä°lkeleri keÅŸfet","Descubrir principios","DÃ©couvrir les principes","Scopri i principi","DescoperÄƒ principiile","æŽ¢ç´¢åŽŸåˆ™"]],["about.hero.founder",["Founder","Founder","Kurucu","Fundador","Fondateur","Fondatore","Fondator","åˆ›å§‹äºº"]],["about.hero.localFirst",["LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","LOCAL-FIRST","æœ¬åœ°ä¼˜å…ˆ"]],["about.hero.sovereign",["SOVEREIGN","SOVEREIGN","EGEMEN","SOBERANO","SOUVERAIN","SOVRANO","SUVERAN","ä¸»æƒ"]],["about.hero.traceable",["TRACEABLE","TRACEABLE","Ä°ZLENEBÄ°LÄ°R","TRAZABLE","TRAÃ‡ABLE","TRACCIABILE","TRASABIL","å¯è¿½æº¯"]],["about.hero.humanAuthorized",["HUMAN-AUTHORIZED","HUMAN-AUTHORIZED","Ä°NSAN TARAFINDAN YETKÄ°LÄ°","AUTORIZADO POR PERSONAS","AUTORISÃ‰ PAR Lâ€™HUMAIN","AUTORIZZATO DALLâ€™UOMO","AUTORIZAT DE OM","äººå·¥æŽˆæƒ"]],["about.principles.eyebrow",["FIRST PRINCIPLES","FIRST PRINCIPLES","Ä°LK Ä°LKELER","PRIMEROS PRINCIPIOS","PRINCIPES FONDAMENTAUX","PRINCIPI FONDAMENTALI","PRINCIPII FUNDAMENTALE","ç¬¬ä¸€æ€§åŽŸç†"]],["about.principles.title",["Digitale Systeme sollten Menschen nicht entmÃ¼ndigen.","Digital systems should not disempower people.","Dijital sistemler insanlarÄ±n yetkisini elinden almamalÄ±.","Los sistemas digitales no deberÃ­an restar autonomÃ­a a las personas.","Les systÃ¨mes numÃ©riques ne devraient pas retirer leur autonomie aux personnes.","I sistemi digitali non dovrebbero togliere autonomia alle persone.","Sistemele digitale nu ar trebui sÄƒ diminueze autonomia oamenilor.","æ•°å­—ç³»ç»Ÿä¸åº”å‰Šå¼±äººçš„è‡ªä¸»æƒã€‚"]],["about.principles.lead",["Je mehr Systeme wissen und vorbereiten kÃ¶nnen, desto wichtiger werden IdentitÃ¤t, Kontext, Berechtigung, Nachweis und klare Verantwortlichkeit.","The more systems can know and prepare, the more important identity, context, authorization, evidence and clear accountability become.","Sistemler ne kadar Ã§ok bilir ve hazÄ±rlÄ±k yapabilirse kimlik, baÄŸlam, yetki, kanÄ±t ve aÃ§Ä±k sorumluluk o kadar Ã¶nemli olur.","Cuanto mÃ¡s pueden saber y preparar los sistemas, mÃ¡s importantes son la identidad, el contexto, la autorizaciÃ³n, la evidencia y la responsabilidad clara.","Plus les systÃ¨mes peuvent savoir et prÃ©parer, plus lâ€™identitÃ©, le contexte, lâ€™autorisation, la preuve et la responsabilitÃ© claire deviennent essentiels.","PiÃ¹ i sistemi possono sapere e preparare, piÃ¹ diventano importanti identitÃ , contesto, autorizzazione, prova e responsabilitÃ  chiara.","Cu cÃ¢t sistemele pot È™ti È™i pregÄƒti mai mult, cu atÃ¢t identitatea, contextul, autorizarea, dovada È™i responsabilitatea clarÄƒ devin mai importante.","ç³»ç»ŸçŸ¥é“å’Œå‡†å¤‡å¾—è¶Šå¤šï¼Œèº«ä»½ã€ä¸Šä¸‹æ–‡ã€æŽˆæƒã€è¯æ®ä¸Žæ¸…æ™°è´£ä»»å°±è¶Šé‡è¦ã€‚"]],["about.principles.identity.title",["Identity belongs to the person.","Identity belongs to the person.","Kimlik kiÅŸiye aittir.","La identidad pertenece a la persona.","Lâ€™identitÃ© appartient Ã  la personne.","Lâ€™identitÃ  appartiene alla persona.","Identitatea aparÈ›ine persoanei.","èº«ä»½å±žäºŽä¸ªäººã€‚"]],["about.principles.identity.text",["Digitale IdentitÃ¤t soll nicht von einer einzelnen App, Plattform oder Sitzung abhÃ¤ngig sein.","Digital identity should not depend on a single app, platform or session.","Dijital kimlik tek bir uygulamaya, platforma veya oturuma baÄŸlÄ± olmamalÄ±.","La identidad digital no deberÃ­a depender de una sola app, plataforma o sesiÃ³n.","Lâ€™identitÃ© numÃ©rique ne devrait pas dÃ©pendre dâ€™une seule application, plateforme ou session.","Lâ€™identitÃ  digitale non dovrebbe dipendere da una singola app, piattaforma o sessione.","Identitatea digitalÄƒ nu ar trebui sÄƒ depindÄƒ de o singurÄƒ aplicaÈ›ie, platformÄƒ sau sesiune.","æ•°å­—èº«ä»½ä¸åº”ä¾èµ–æŸä¸ªå•ä¸€åº”ç”¨ã€å¹³å°æˆ–ä¼šè¯ã€‚"]],["about.principles.context.title",["Context must remain understandable.","Context must remain understandable.","BaÄŸlam anlaÅŸÄ±lÄ±r kalmalÄ±.","El contexto debe seguir siendo comprensible.","Le contexte doit rester comprÃ©hensible.","Il contesto deve restare comprensibile.","Contextul trebuie sÄƒ rÄƒmÃ¢nÄƒ uÈ™or de Ã®nÈ›eles.","ä¸Šä¸‹æ–‡å¿…é¡»ä¿æŒå¯ç†è§£ã€‚"]],["about.principles.context.text",["Information gewinnt Bedeutung durch Herkunft, Beziehung, Zeitpunkt und Zusammenhang.","Information gains meaning through provenance, relationship, time and context.","Bilgi; kaynak, iliÅŸki, zaman ve baÄŸlamla anlam kazanÄ±r.","La informaciÃ³n adquiere significado mediante procedencia, relaciÃ³n, tiempo y contexto.","Lâ€™information prend du sens par sa provenance, sa relation, son moment et son contexte.","Lâ€™informazione acquista significato tramite provenienza, relazione, tempo e contesto.","InformaÈ›ia capÄƒtÄƒ sens prin provenienÈ›Äƒ, relaÈ›ie, timp È™i context.","ä¿¡æ¯é€šè¿‡æ¥æºã€å…³ç³»ã€æ—¶é—´ä¸Žä¸Šä¸‹æ–‡èŽ·å¾—æ„ä¹‰ã€‚"]],["about.principles.trust.title",["Trust should be verifiable.","Trust should be verifiable.","GÃ¼ven doÄŸrulanabilir olmalÄ±.","La confianza debe ser verificable.","La confiance doit Ãªtre vÃ©rifiable.","La fiducia dovrebbe essere verificabile.","ÃŽncrederea ar trebui sÄƒ fie verificabilÄƒ.","ä¿¡ä»»åº”å½“å¯éªŒè¯ã€‚"]],["about.principles.trust.text",["Vertrauen soll aus nachvollziehbaren ZustÃ¤nden, Berechtigungen und Nachweisen entstehen.","Trust should emerge from traceable states, permissions and evidence.","GÃ¼ven, izlenebilir durumlar, yetkiler ve kanÄ±tlardan doÄŸmalÄ±.","La confianza debe surgir de estados, permisos y pruebas trazables.","La confiance doit naÃ®tre dâ€™Ã©tats, de permissions et de preuves traÃ§ables.","La fiducia dovrebbe nascere da stati, autorizzazioni e prove tracciabili.","ÃŽncrederea ar trebui sÄƒ rezulte din stÄƒri, permisiuni È™i dovezi trasabile.","ä¿¡ä»»åº”æ¥è‡ªå¯è¿½æº¯çŠ¶æ€ã€æƒé™ä¸Žè¯æ®ã€‚"]],["about.principles.authority.title",["Authority remains explicit.","Authority remains explicit.","Yetki aÃ§Ä±k kalÄ±r.","La autoridad permanece explÃ­cita.","Lâ€™autoritÃ© reste explicite.","Lâ€™autoritÃ  resta esplicita.","Autoritatea rÄƒmÃ¢ne explicitÄƒ.","æƒåŠ›å¿…é¡»æ˜Žç¡®ã€‚"]],["about.principles.authority.text",["Intelligenz darf vorbereiten. Konsequente Aktionen benÃ¶tigen Autorisierung.","Intelligence may prepare. Consequential actions require authorization.","ZekÃ¢ hazÄ±rlayabilir. SonuÃ§ doÄŸuran eylemler yetki gerektirir.","La inteligencia puede preparar. Las acciones con consecuencias requieren autorizaciÃ³n.","Lâ€™intelligence peut prÃ©parer. Les actions Ã  consÃ©quence nÃ©cessitent une autorisation.","Lâ€™intelligenza puÃ² preparare. Le azioni con conseguenze richiedono autorizzazione.","InteligenÈ›a poate pregÄƒti. AcÈ›iunile cu consecinÈ›e necesitÄƒ autorizare.","æ™ºèƒ½å¯ä»¥å‡†å¤‡ã€‚ä¼šäº§ç”ŸåŽæžœçš„æ“ä½œéœ€è¦æŽˆæƒã€‚"]],["about.architecture.eyebrow",["ONE ARCHITECTURE","ONE ARCHITECTURE","TEK MÄ°MARÄ°","UNA ARQUITECTURA","UNE ARCHITECTURE","UNâ€™ARCHITETTURA","O ARHITECTURÄ‚","ç»Ÿä¸€æž¶æž„"]],["about.architecture.title",["ZALâ€™THERA ist nicht als Sammlung isolierter Apps gedacht.","ZALâ€™THERA is not designed as a collection of isolated apps.","ZALâ€™THERA, birbirinden kopuk uygulamalar koleksiyonu olarak tasarlanmadÄ±.","ZALâ€™THERA no estÃ¡ concebido como una colecciÃ³n de apps aisladas.","ZALâ€™THERA nâ€™est pas conÃ§u comme une collection dâ€™applications isolÃ©es.","ZALâ€™THERA non Ã¨ pensato come una raccolta di app isolate.","ZALâ€™THERA nu este conceput ca o colecÈ›ie de aplicaÈ›ii izolate.","ZALâ€™THERA å¹¶éžè¢«è®¾è®¡æˆä¸€ç»„å­¤ç«‹åº”ç”¨ã€‚"]],["about.architecture.text",["CONTINUITY, Proof, Communication, Intelligence und industrielle Systeme folgen einer gemeinsamen Logik: IdentitÃ¤t, Kontext, Vertrauen, Audit und kontrollierte Aktion.","CONTINUITY, Proof, Communication, Intelligence and industrial systems follow a shared logic: identity, context, trust, audit and controlled action.","CONTINUITY, Proof, Communication, Intelligence ve endÃ¼striyel sistemler ortak bir mantÄ±ÄŸÄ± izler: kimlik, baÄŸlam, gÃ¼ven, denetim ve kontrollÃ¼ eylem.","CONTINUITY, Proof, Communication, Intelligence y los sistemas industriales siguen una lÃ³gica comÃºn: identidad, contexto, confianza, auditorÃ­a y acciÃ³n controlada.","CONTINUITY, Proof, Communication, Intelligence et les systÃ¨mes industriels suivent une logique commune : identitÃ©, contexte, confiance, audit et action contrÃ´lÃ©e.","CONTINUITY, Proof, Communication, Intelligence e i sistemi industriali seguono una logica comune: identitÃ , contesto, fiducia, audit e azione controllata.","CONTINUITY, Proof, Communication, Intelligence È™i sistemele industriale urmeazÄƒ o logicÄƒ comunÄƒ: identitate, context, Ã®ncredere, audit È™i acÈ›iune controlatÄƒ.","CONTINUITYã€Proofã€Communicationã€Intelligence ä¸Žå·¥ä¸šç³»ç»Ÿéµå¾ªå…±åŒé€»è¾‘ï¼šèº«ä»½ã€ä¸Šä¸‹æ–‡ã€ä¿¡ä»»ã€å®¡è®¡ä¸Žå—æŽ§æ“ä½œã€‚"]],["about.architecture.systems",["Systeme ansehen","View systems","Sistemleri gÃ¶rÃ¼ntÃ¼le","Ver sistemas","Voir les systÃ¨mes","Vedi sistemi","Vezi sistemele","æŸ¥çœ‹ç³»ç»Ÿ"]],["about.founder.eyebrow",["FOUNDER","FOUNDER","KURUCU","FUNDADOR","FONDATEUR","FONDATORE","FONDATOR","åˆ›å§‹äºº"]],["about.founder.tagline",["Founder and builder of ZALâ€™THERA.","Founder and builder of ZALâ€™THERA.","ZALâ€™THERAâ€™nÄ±n kurucusu ve geliÅŸtiricisi.","Fundador y creador de ZALâ€™THERA.","Fondateur et bÃ¢tisseur de ZALâ€™THERA.","Fondatore e costruttore di ZALâ€™THERA.","Fondator È™i creator al ZALâ€™THERA.","ZALâ€™THERA çš„åˆ›å§‹äººä¸Žæž„å»ºè€…ã€‚"]],["about.founder.text1",["ZALâ€™THERA entsteht aus dem Ziel, digitale Systeme nicht nur leistungsfÃ¤higer, sondern verstÃ¤ndlicher, verantwortlicher und souverÃ¤ner zu machen.","ZALâ€™THERA is built with the goal of making digital systems not only more capable, but also more understandable, responsible and sovereign.","ZALâ€™THERA, dijital sistemleri yalnÄ±zca daha gÃ¼Ã§lÃ¼ deÄŸil, daha anlaÅŸÄ±lÄ±r, sorumlu ve egemen hale getirme hedefiyle geliÅŸtiriliyor.","ZALâ€™THERA nace con el objetivo de hacer los sistemas digitales no solo mÃ¡s capaces, sino tambiÃ©n mÃ¡s comprensibles, responsables y soberanos.","ZALâ€™THERA est construit avec lâ€™objectif de rendre les systÃ¨mes numÃ©riques non seulement plus puissants, mais aussi plus comprÃ©hensibles, responsables et souverains.","ZALâ€™THERA nasce con lâ€™obiettivo di rendere i sistemi digitali non solo piÃ¹ capaci, ma anche piÃ¹ comprensibili, responsabili e sovrani.","ZALâ€™THERA este construit cu scopul de a face sistemele digitale nu doar mai capabile, ci È™i mai uÈ™or de Ã®nÈ›eles, responsabile È™i suverane.","ZALâ€™THERA çš„ç›®æ ‡ä¸ä»…æ˜¯è®©æ•°å­—ç³»ç»Ÿæ›´å¼ºå¤§ï¼Œä¹Ÿè®©å®ƒä»¬æ›´å¯ç†è§£ã€æ›´è´Ÿè´£ä»»ã€æ›´å…·ä¸»æƒæ€§ã€‚"]],["about.founder.text2",["Der Schwerpunkt liegt auf Systemarchitekturen, die persÃ¶nliche Daten, IdentitÃ¤t, kÃ¼nstliche Intelligenz, Kommunikation, Nachweise und reale Prozesse miteinander verbinden, ohne menschliche AutoritÃ¤t unsichtbar zu ersetzen.","The focus is on system architectures that connect personal data, identity, artificial intelligence, communication, evidence and real-world processes without invisibly replacing human authority.","Odak; kiÅŸisel verileri, kimliÄŸi, yapay zekÃ¢yÄ±, iletiÅŸimi, kanÄ±tlarÄ± ve gerÃ§ek sÃ¼reÃ§leri insan yetkisini gÃ¶rÃ¼nmez biÃ§imde deÄŸiÅŸtirmeden baÄŸlayan sistem mimarileridir.","El foco estÃ¡ en arquitecturas de sistemas que conectan datos personales, identidad, inteligencia artificial, comunicaciÃ³n, pruebas y procesos reales sin sustituir de forma invisible la autoridad humana.","Lâ€™accent porte sur des architectures qui relient donnÃ©es personnelles, identitÃ©, intelligence artificielle, communication, preuves et processus rÃ©els sans remplacer invisiblement lâ€™autoritÃ© humaine.","Lâ€™attenzione Ã¨ su architetture di sistema che collegano dati personali, identitÃ , intelligenza artificiale, comunicazione, prove e processi reali senza sostituire invisibilmente lâ€™autoritÃ  umana.","Accentul este pus pe arhitecturi de sistem care conecteazÄƒ date personale, identitate, inteligenÈ›Äƒ artificialÄƒ, comunicare, dovezi È™i procese reale fÄƒrÄƒ a Ã®nlocui invizibil autoritatea umanÄƒ.","é‡ç‚¹æ˜¯æž„å»ºèƒ½å¤Ÿè¿žæŽ¥ä¸ªäººæ•°æ®ã€èº«ä»½ã€äººå·¥æ™ºèƒ½ã€é€šä¿¡ã€è¯æ˜Žä¸ŽçŽ°å®žæµç¨‹çš„ç³»ç»Ÿæž¶æž„ï¼ŒåŒæ—¶ä¸ä»¥ä¸å¯è§æ–¹å¼å–ä»£äººçš„æƒåŠ›ã€‚"]],["about.founder.discover",["ZALâ€™THERA entdecken","Discover ZALâ€™THERA","ZALâ€™THERAâ€™yÄ± keÅŸfet","Descubrir ZALâ€™THERA","DÃ©couvrir ZALâ€™THERA","Scopri ZALâ€™THERA","DescoperÄƒ ZALâ€™THERA","æŽ¢ç´¢ ZALâ€™THERA"]],["about.founder.role",["Founder Â· Systems Architecture","Founder Â· Systems Architecture","Kurucu Â· Sistem Mimarisi","Fundador Â· Arquitectura de Sistemas","Fondateur Â· Architecture des SystÃ¨mes","Fondatore Â· Architettura dei Sistemi","Fondator Â· ArhitecturÄƒ de Sisteme","åˆ›å§‹äºº Â· ç³»ç»Ÿæž¶æž„"]],["about.direction.eyebrow",["THE DIRECTION","THE DIRECTION","YÃ–N","LA DIRECCIÃ“N","LA DIRECTION","LA DIREZIONE","DIRECÈšIA","æ–¹å‘"]],["about.direction.title",["Intelligence should increase capability without removing accountability.","Intelligence should increase capability without removing accountability.","ZekÃ¢, hesap verebilirliÄŸi ortadan kaldÄ±rmadan yeteneÄŸi artÄ±rmalÄ±.","La inteligencia deberÃ­a aumentar la capacidad sin eliminar la responsabilidad.","Lâ€™intelligence devrait accroÃ®tre les capacitÃ©s sans supprimer la responsabilitÃ©.","Lâ€™intelligenza dovrebbe aumentare le capacitÃ  senza eliminare la responsabilitÃ .","InteligenÈ›a ar trebui sÄƒ creascÄƒ capacitatea fÄƒrÄƒ a elimina responsabilitatea.","æ™ºèƒ½åº”æå‡èƒ½åŠ›ï¼Œè€Œä¸å–æ¶ˆè´£ä»»ã€‚"]],["about.direction.text",["Je mÃ¤chtiger ein digitales System wird, desto wichtiger werden nachvollziehbare Grenzen, klare IdentitÃ¤t und bewusste Autorisierung.","The more powerful a digital system becomes, the more important traceable boundaries, clear identity and deliberate authorization become.","Dijital bir sistem ne kadar gÃ¼Ã§lÃ¼ olursa izlenebilir sÄ±nÄ±rlar, aÃ§Ä±k kimlik ve bilinÃ§li yetkilendirme o kadar Ã¶nemli olur.","Cuanto mÃ¡s potente es un sistema digital, mÃ¡s importantes son los lÃ­mites trazables, la identidad clara y la autorizaciÃ³n consciente.","Plus un systÃ¨me numÃ©rique devient puissant, plus les limites traÃ§ables, lâ€™identitÃ© claire et lâ€™autorisation consciente deviennent importantes.","PiÃ¹ un sistema digitale diventa potente, piÃ¹ diventano importanti limiti tracciabili, identitÃ  chiara e autorizzazione consapevole.","Cu cÃ¢t un sistem digital devine mai puternic, cu atÃ¢t limitele trasabile, identitatea clarÄƒ È™i autorizarea conÈ™tientÄƒ devin mai importante.","æ•°å­—ç³»ç»Ÿè¶Šå¼ºå¤§ï¼Œå¯è¿½æº¯è¾¹ç•Œã€æ¸…æ™°èº«ä»½ä¸Žæœ‰æ„è¯†çš„æŽˆæƒå°±è¶Šé‡è¦ã€‚"]],["about.direction.back",["ZurÃ¼ck zum System","Back to the system","Sisteme dÃ¶n","Volver al sistema","Retour au systÃ¨me","Torna al sistema","ÃŽnapoi la sistem","è¿”å›žç³»ç»Ÿ"]],["lifeflow.hero.kicker",["PERSONAL FINANCE CLARITY","PERSONAL FINANCE CLARITY","KÄ°ÅžÄ°SEL FÄ°NANS NETLÄ°ÄžÄ°","CLARIDAD FINANCIERA PERSONAL","CLARTÃ‰ FINANCIÃˆRE PERSONNELLE","CHIAREZZA FINANZIARIA PERSONALE","CLARITATE FINANCIARÄ‚ PERSONALÄ‚","ä¸ªäººè´¢åŠ¡æ¸…æ™°åº¦"]],["lifeflow.hero.title",["See what comes in.<br>See what goes out.<br>Know what remains.","See what comes in.<br>See what goes out.<br>Know what remains.","Ne geliyor gÃ¶r.<br>Ne gidiyor gÃ¶r.<br>Ne kaldÄ±ÄŸÄ±nÄ± bil.","Ve lo que entra.<br>Ve lo que sale.<br>Sabe lo que queda.","Voyez ce qui entre.<br>Voyez ce qui sort.<br>Sachez ce qui reste.","Vedi cosa entra.<br>Vedi cosa esce.<br>Saprai cosa resta.","Vezi ce intrÄƒ.<br>Vezi ce iese.<br>È˜tii ce rÄƒmÃ¢ne.","çœ‹æ¸…æ”¶å…¥ã€‚<br>çœ‹æ¸…æ”¯å‡ºã€‚<br>çŸ¥é“è¿˜å‰©å¤šå°‘ã€‚"]],["lifeflow.hero.lead",["LifeFlow macht laufende Kosten, VertrÃ¤ge, Fristen und finanzielle Verpflichtungen sichtbar â€“ fokussiert, verstÃ¤ndlich und ohne unnÃ¶tige KomplexitÃ¤t.","LifeFlow makes recurring costs, contracts, deadlines and financial obligations visible â€” focused, understandable and without unnecessary complexity.","LifeFlow; dÃ¼zenli maliyetleri, sÃ¶zleÅŸmeleri, sÃ¼releri ve finansal yÃ¼kÃ¼mlÃ¼lÃ¼kleri gÃ¶rÃ¼nÃ¼r kÄ±lar â€” odaklÄ±, anlaÅŸÄ±lÄ±r ve gereksiz karmaÅŸÄ±klÄ±k olmadan.","LifeFlow hace visibles los costes recurrentes, contratos, plazos y obligaciones financieras, de forma enfocada, comprensible y sin complejidad innecesaria.","LifeFlow rend visibles les coÃ»ts rÃ©currents, contrats, Ã©chÃ©ances et obligations financiÃ¨res â€” de faÃ§on ciblÃ©e, comprÃ©hensible et sans complexitÃ© inutile.","LifeFlow rende visibili costi ricorrenti, contratti, scadenze e obblighi finanziari â€” in modo focalizzato, comprensibile e senza complessitÃ  inutile.","LifeFlow face vizibile costurile recurente, contractele, termenele È™i obligaÈ›iile financiare â€” clar, concentrat È™i fÄƒrÄƒ complexitate inutilÄƒ.","LifeFlow è®©æŒç»­æˆæœ¬ã€åˆåŒã€æœŸé™ä¸Žè´¢åŠ¡ä¹‰åŠ¡æ¸…æ™°å¯è§â€”â€”èšç„¦ã€æ˜“æ‡‚ä¸”æ²¡æœ‰ä¸å¿…è¦çš„å¤æ‚æ€§ã€‚"]],["lifeflow.hero.view",["LifeFlow ansehen","View LifeFlow","LifeFlowâ€™u gÃ¶rÃ¼ntÃ¼le","Ver LifeFlow","Voir LifeFlow","Vedi LifeFlow","Vezi LifeFlow","æŸ¥çœ‹ LifeFlow"]],["lifeflow.hero.understand",["System verstehen","Understand the system","Sistemi anla","Entender el sistema","Comprendre le systÃ¨me","Comprendi il sistema","ÃŽnÈ›elege sistemul","ç†è§£ç³»ç»Ÿ"]],["lifeflow.hero.costs",["COSTS","COSTS","MALÄ°YETLER","COSTES","COÃ›TS","COSTI","COSTURI","æˆæœ¬"]],["lifeflow.hero.contracts",["CONTRACTS","CONTRACTS","SÃ–ZLEÅžMELER","CONTRATOS","CONTRATS","CONTRATTI","CONTRACTE","åˆåŒ"]],["lifeflow.hero.deadlines",["DEADLINES","DEADLINES","SÃœRELER","PLAZOS","Ã‰CHÃ‰ANCES","SCADENZE","TERMENE","æœŸé™"]],["lifeflow.hero.moneyView",["MONEY VIEW","MONEY VIEW","PARA GÃ–RÃœNÃœMÃœ","VISTA FINANCIERA","VUE FINANCIÃˆRE","VISTA FINANZIARIA","VIZIUNE FINANCIARÄ‚","èµ„é‡‘è§†å›¾"]],["lifeflow.state.label",["FINANCE VIEW","FINANCE VIEW","FÄ°NANS GÃ–RÃœNÃœMÃœ","VISTA FINANCIERA","VUE FINANCIÃˆRE","VISTA FINANZIARIA","VIZIUNE FINANCIARÄ‚","è´¢åŠ¡è§†å›¾"]],["lifeflow.state.income",["INCOME","INCOME","GELÄ°R","INGRESOS","REVENUS","ENTRATE","VENIT","æ”¶å…¥"]],["lifeflow.state.visible",["VISIBLE","VISIBLE","GÃ–RÃœNÃœR","VISIBLE","VISIBLE","VISIBILE","VIZIBIL","å¯è§"]],["lifeflow.state.costs",["COSTS","COSTS","MALÄ°YETLER","COSTES","COÃ›TS","COSTI","COSTURI","æˆæœ¬"]],["lifeflow.state.tracked",["TRACKED","TRACKED","TAKÄ°P EDÄ°LÄ°YOR","REGISTRADOS","SUIVIS","TRACCIATI","URMÄ‚RITE","å·²è·Ÿè¸ª"]],["lifeflow.state.contracts",["CONTRACTS","CONTRACTS","SÃ–ZLEÅžMELER","CONTRATOS","CONTRATS","CONTRATTI","CONTRACTE","åˆåŒ"]],["lifeflow.state.structured",["STRUCTURED","STRUCTURED","YAPILANDIRILMIÅž","ESTRUCTURADOS","STRUCTURÃ‰S","STRUTTURATI","STRUCTURATE","å·²ç»“æž„åŒ–"]],["lifeflow.state.deadlines",["DEADLINES","DEADLINES","SÃœRELER","PLAZOS","Ã‰CHÃ‰ANCES","SCADENZE","TERMENE","æœŸé™"]],["lifeflow.state.known",["KNOWN","KNOWN","BÄ°LÄ°NÄ°YOR","CONOCIDOS","CONNUES","NOTE","CUNOSCUTE","å·²çŸ¥"]],["lifeflow.state.remainder",["REMAINDER","REMAINDER","KALAN","RESTANTE","RESTE","RESIDUO","REST","ä½™é¢"]],["lifeflow.state.calculated",["CALCULATED","CALCULATED","HESAPLANDI","CALCULADO","CALCULÃ‰","CALCOLATO","CALCULAT","å·²è®¡ç®—"]],["lifeflow.problem.eyebrow",["FINANCIAL VISIBILITY","FINANCIAL VISIBILITY","FÄ°NANSAL GÃ–RÃœNÃœRLÃœK","VISIBILIDAD FINANCIERA","VISIBILITÃ‰ FINANCIÃˆRE","VISIBILITÃ€ FINANZIARIA","VIZIBILITATE FINANCIARÄ‚","è´¢åŠ¡å¯è§æ€§"]],["lifeflow.problem.title",["Kleine Verpflichtungen werden groÃŸ, wenn sie unsichtbar bleiben.","Small obligations become large when they remain invisible.","KÃ¼Ã§Ã¼k yÃ¼kÃ¼mlÃ¼lÃ¼kler gÃ¶rÃ¼nmez kaldÄ±ÄŸÄ±nda bÃ¼yÃ¼r.","Las pequeÃ±as obligaciones se vuelven grandes cuando permanecen invisibles.","Les petites obligations deviennent importantes lorsquâ€™elles restent invisibles.","I piccoli impegni diventano grandi quando restano invisibili.","ObligaÈ›iile mici devin mari cÃ¢nd rÄƒmÃ¢n invizibile.","å°ä¹‰åŠ¡åœ¨çœ‹ä¸è§æ—¶ä¼šå˜æˆå¤§é—®é¢˜ã€‚"]],["lifeflow.problem.lead",["Viele laufende Kosten sind einzeln Ã¼berschaubar. Das Problem entsteht, wenn VertrÃ¤ge, Fristen und wiederkehrende Zahlungen keinen gemeinsamen Ãœberblick haben.","Many recurring costs are manageable on their own. The problem begins when contracts, deadlines and recurring payments lack a shared overview.","BirÃ§ok dÃ¼zenli maliyet tek baÅŸÄ±na yÃ¶netilebilir. Sorun, sÃ¶zleÅŸmelerin, sÃ¼relerin ve tekrarlayan Ã¶demelerin ortak bir gÃ¶rÃ¼nÃ¼mÃ¼ olmadÄ±ÄŸÄ±nda baÅŸlar.","Muchos costes recurrentes son manejables por separado. El problema aparece cuando contratos, plazos y pagos recurrentes no comparten una visiÃ³n comÃºn.","De nombreux coÃ»ts rÃ©currents sont gÃ©rables isolÃ©ment. Le problÃ¨me apparaÃ®t lorsque contrats, Ã©chÃ©ances et paiements rÃ©currents nâ€™ont pas de vue dâ€™ensemble.","Molti costi ricorrenti sono gestibili singolarmente. Il problema nasce quando contratti, scadenze e pagamenti ricorrenti non hanno una vista comune.","Multe costuri recurente sunt gestionabile separat. Problema apare cÃ¢nd contractele, termenele È™i plÄƒÈ›ile recurente nu au o imagine comunÄƒ.","è®¸å¤šæŒç»­æˆæœ¬å•ç‹¬çœ‹éƒ½å¯æŽ§ã€‚é—®é¢˜åœ¨äºŽåˆåŒã€æœŸé™ä¸Žé‡å¤ä»˜æ¬¾ç¼ºå°‘ç»Ÿä¸€è§†å›¾ã€‚"]],["lifeflow.problem.overview.title",["Kein Gesamtbild","No complete picture","Genel gÃ¶rÃ¼nÃ¼m yok","Sin visiÃ³n global","Pas de vue dâ€™ensemble","Nessun quadro completo","FÄƒrÄƒ imagine completÄƒ","æ²¡æœ‰å…¨å±€è§†å›¾"]],["lifeflow.problem.overview.text",["Einkommen und Ausgaben werden getrennt wahrgenommen, statt gemeinsam betrachtet.","Income and expenses are perceived separately instead of being viewed together.","Gelir ve giderler birlikte deÄŸil ayrÄ± algÄ±lanÄ±r.","Ingresos y gastos se perciben por separado en vez de verse juntos.","Revenus et dÃ©penses sont perÃ§us sÃ©parÃ©ment au lieu dâ€™Ãªtre vus ensemble.","Entrate e uscite vengono percepite separatamente invece che insieme.","Veniturile È™i cheltuielile sunt percepute separat, nu Ã®mpreunÄƒ.","æ”¶å…¥ä¸Žæ”¯å‡ºè¢«åˆ†å¼€çœ‹å¾…ï¼Œè€Œä¸æ˜¯ç»Ÿä¸€ç†è§£ã€‚"]],["lifeflow.problem.deadlines.title",["Fristen verschwinden","Deadlines disappear","SÃ¼reler gÃ¶zden kaybolur","Los plazos desaparecen","Les Ã©chÃ©ances disparaissent","Le scadenze spariscono","Termenele dispar","æœŸé™è¢«å¿½ç•¥"]],["lifeflow.problem.deadlines.text",["Vertrags- und KÃ¼ndigungsdaten werden erst relevant, wenn es bereits zu spÃ¤t ist.","Contract and cancellation dates become relevant only when it is already too late.","SÃ¶zleÅŸme ve iptal tarihleri ancak Ã§ok geÃ§ olduÄŸunda fark edilir.","Las fechas de contrato y cancelaciÃ³n se vuelven relevantes cuando ya es demasiado tarde.","Les dates de contrat et de rÃ©siliation deviennent importantes lorsquâ€™il est dÃ©jÃ  trop tard.","Le date di contratto e disdetta diventano rilevanti quando Ã¨ giÃ  troppo tardi.","Datele contractuale È™i de reziliere devin relevante cÃ¢nd este deja prea tÃ¢rziu.","åˆåŒä¸Žå–æ¶ˆæ—¥æœŸå¾€å¾€åœ¨å·²ç»å¤ªæ™šæ—¶æ‰å—åˆ°é‡è§†ã€‚"]],["lifeflow.problem.remainder.title",["Restbetrag bleibt GefÃ¼hl","Remainder remains a feeling","Kalan tutar bir his olarak kalÄ±r","El restante queda como una sensaciÃ³n","Le reste demeure une impression","Il residuo resta una sensazione","Restul rÄƒmÃ¢ne o impresie","å‰©ä½™é‡‘é¢åªæ˜¯æ„Ÿè§‰"]],["lifeflow.problem.remainder.text",["Ohne klare Ãœbersicht ist schwer einzuschÃ¤tzen, wie viel finanzieller Spielraum tatsÃ¤chlich bleibt.","Without a clear overview, it is difficult to know how much financial flexibility actually remains.","AÃ§Ä±k bir gÃ¶rÃ¼nÃ¼m olmadan gerÃ§ekte ne kadar finansal alan kaldÄ±ÄŸÄ±nÄ± deÄŸerlendirmek zordur.","Sin una visiÃ³n clara, es difÃ­cil saber cuÃ¡nto margen financiero queda realmente.","Sans vue claire, il est difficile de savoir quelle marge financiÃ¨re reste rÃ©ellement.","Senza una vista chiara Ã¨ difficile capire quanto margine finanziario rimanga davvero.","FÄƒrÄƒ o imagine clarÄƒ este greu de estimat cÃ¢t spaÈ›iu financiar rÄƒmÃ¢ne efectiv.","æ²¡æœ‰æ¸…æ™°è§†å›¾ï¼Œå°±å¾ˆéš¾åˆ¤æ–­çœŸæ­£è¿˜å‰©å¤šå°‘è´¢åŠ¡ç©ºé—´ã€‚"]],["lifeflow.system.eyebrow",["LIFEFLOW SYSTEM","LIFEFLOW SYSTEM","LIFEFLOW SÄ°STEMÄ°","SISTEMA LIFEFLOW","SYSTÃˆME LIFEFLOW","SISTEMA LIFEFLOW","SISTEM LIFEFLOW","LIFEFLOW ç³»ç»Ÿ"]],["lifeflow.system.title",["Finanzielle AlltagsrealitÃ¤t an einem Ort.","Everyday financial reality in one place.","GÃ¼nlÃ¼k finansal gerÃ§eklik tek yerde.","La realidad financiera diaria en un solo lugar.","La rÃ©alitÃ© financiÃ¨re quotidienne en un seul endroit.","La realtÃ  finanziaria quotidiana in un unico posto.","Realitatea financiarÄƒ de zi cu zi Ã®ntr-un singur loc.","æ—¥å¸¸è´¢åŠ¡çŽ°å®žé›†ä¸­åœ¨ä¸€ä¸ªåœ°æ–¹ã€‚"]],["lifeflow.system.lead",["LifeFlow konzentriert sich bewusst auf das, was regelmÃ¤ÃŸig sichtbar sein muss.","LifeFlow deliberately focuses on what needs to stay visible regularly.","LifeFlow bilinÃ§li olarak dÃ¼zenli biÃ§imde gÃ¶rÃ¼nÃ¼r kalmasÄ± gerekenlere odaklanÄ±r.","LifeFlow se centra deliberadamente en lo que debe permanecer visible de forma regular.","LifeFlow se concentre volontairement sur ce qui doit rester visible rÃ©guliÃ¨rement.","LifeFlow si concentra volutamente su ciÃ² che deve restare visibile con regolaritÃ .","LifeFlow se concentreazÄƒ Ã®n mod deliberat pe ceea ce trebuie sÄƒ rÄƒmÃ¢nÄƒ vizibil regulat.","LifeFlow æœ‰æ„è¯†åœ°èšç„¦äºŽéœ€è¦æŒç»­ä¿æŒå¯è§çš„å†…å®¹ã€‚"]],["lifeflow.system.contracts.title",["Contracts","Contracts","SÃ¶zleÅŸmeler","Contratos","Contrats","Contratti","Contracte","åˆåŒ"]],["lifeflow.system.contracts.text",["Laufende VertrÃ¤ge, Startdaten, Enddaten und Fristen im Blick behalten.","Keep recurring contracts, start dates, end dates and deadlines in view.","Devam eden sÃ¶zleÅŸmeleri, baÅŸlangÄ±Ã§ ve bitiÅŸ tarihlerini ve sÃ¼releri takip edin.","MantÃ©n a la vista contratos, fechas de inicio y fin y plazos.","Gardez Ã  lâ€™Å“il contrats, dates de dÃ©but et de fin et Ã©chÃ©ances.","Tieni sotto controllo contratti, date di inizio e fine e scadenze.","Èšine sub control contractele, datele de Ã®nceput È™i sfÃ¢rÈ™it È™i termenele.","æŒç»­æŽŒæ¡åˆåŒã€å¼€å§‹æ—¥æœŸã€ç»“æŸæ—¥æœŸä¸ŽæœŸé™ã€‚"]],["lifeflow.system.costs.title",["Costs","Costs","Maliyetler","Costes","CoÃ»ts","Costi","Costuri","æˆæœ¬"]],["lifeflow.system.costs.text",["Wiederkehrende finanzielle Verpflichtungen strukturiert sichtbar machen.","Make recurring financial obligations visible in a structured way.","Tekrarlayan finansal yÃ¼kÃ¼mlÃ¼lÃ¼kleri yapÄ±landÄ±rÄ±lmÄ±ÅŸ biÃ§imde gÃ¶rÃ¼nÃ¼r kÄ±lÄ±n.","Haz visibles de forma estructurada las obligaciones financieras recurrentes.","Rendez visibles de faÃ§on structurÃ©e les obligations financiÃ¨res rÃ©currentes.","Rendi visibili in modo strutturato gli obblighi finanziari ricorrenti.","FÄƒ vizibile structurat obligaÈ›iile financiare recurente.","ä»¥ç»“æž„åŒ–æ–¹å¼å‘ˆçŽ°é‡å¤è´¢åŠ¡ä¹‰åŠ¡ã€‚"]],["lifeflow.system.money.title",["Money View","Money View","Para GÃ¶rÃ¼nÃ¼mÃ¼","Vista financiera","Vue financiÃ¨re","Vista finanziaria","Viziune financiarÄƒ","èµ„é‡‘è§†å›¾"]],["lifeflow.system.money.text",["Einkommen, Kosten, Schulden und verbleibenden Betrag zusammen betrachten.","View income, costs, debt and remaining amount together.","Gelir, maliyet, borÃ§ ve kalan tutarÄ± birlikte gÃ¶rÃ¼ntÃ¼leyin.","Consulta juntos ingresos, costes, deudas y cantidad restante.","Visualisez ensemble revenus, coÃ»ts, dettes et montant restant.","Guarda insieme entrate, costi, debiti e importo rimanente.","PriveÈ™te Ã®mpreunÄƒ veniturile, costurile, datoriile È™i suma rÄƒmasÄƒ.","å°†æ”¶å…¥ã€æˆæœ¬ã€å€ºåŠ¡ä¸Žå‰©ä½™é‡‘é¢æ”¾åœ¨ä¸€èµ·æŸ¥çœ‹ã€‚"]],["lifeflow.system.status.title",["Status","Status","Durum","Estado","Statut","Stato","Stare","çŠ¶æ€"]],["lifeflow.system.status.text",["Finanzielle Lage schneller und verstÃ¤ndlicher einschÃ¤tzen.","Assess your financial situation faster and more clearly.","Finansal durumu daha hÄ±zlÄ± ve anlaÅŸÄ±lÄ±r deÄŸerlendirin.","EvalÃºa la situaciÃ³n financiera mÃ¡s rÃ¡pido y con mayor claridad.","Ã‰valuez plus rapidement et clairement la situation financiÃ¨re.","Valuta la situazione finanziaria piÃ¹ rapidamente e con maggiore chiarezza.","EvalueazÄƒ situaÈ›ia financiarÄƒ mai rapid È™i mai clar.","æ›´å¿«ã€æ›´æ¸…æ™°åœ°è¯„ä¼°è´¢åŠ¡çŠ¶å†µã€‚"]],["lifeflow.continuity.eyebrow",["FROM LIFEFLOW TO CONTINUITY","FROM LIFEFLOW TO CONTINUITY","LIFEFLOWâ€™DAN CONTINUITYâ€™YE","DE LIFEFLOW A CONTINUITY","DE LIFEFLOW Ã€ CONTINUITY","DA LIFEFLOW A CONTINUITY","DE LA LIFEFLOW LA CONTINUITY","ä»Ž LIFEFLOW åˆ° CONTINUITY"]],["lifeflow.continuity.title",["LifeFlow bleibt fokussiert. CONTINUITY geht weiter.","LifeFlow stays focused. CONTINUITY goes further.","LifeFlow odaklÄ± kalÄ±r. CONTINUITY daha ileri gider.","LifeFlow se mantiene enfocado. CONTINUITY va mÃ¡s allÃ¡.","LifeFlow reste ciblÃ©. CONTINUITY va plus loin.","LifeFlow resta focalizzato. CONTINUITY va oltre.","LifeFlow rÄƒmÃ¢ne concentrat. CONTINUITY merge mai departe.","LifeFlow ä¿æŒèšç„¦ï¼ŒCONTINUITY æ›´è¿›ä¸€æ­¥ã€‚"]],["lifeflow.continuity.text",["LifeFlow ist ein eigenstÃ¤ndig nutzbares, fokussiertes Produkt fÃ¼r Kosten, VertrÃ¤ge und Fristen. CONTINUITY entwickelt daraus eine wesentlich grÃ¶ÃŸere persÃ¶nliche Umgebung fÃ¼r Dokumente, Finance, Cards, Timeline, Herkunft und Kontext.","LifeFlow is a focused standalone product for costs, contracts and deadlines. CONTINUITY expands this into a much broader personal environment for documents, finance, Cards, Timeline, provenance and context.","LifeFlow maliyetler, sÃ¶zleÅŸmeler ve sÃ¼reler iÃ§in baÄŸÄ±msÄ±z, odaklÄ± bir Ã¼rÃ¼ndÃ¼r. CONTINUITY bunu belgeler, finans, Cards, Timeline, kaynak ve baÄŸlam iÃ§in Ã§ok daha geniÅŸ bir kiÅŸisel ortama dÃ¶nÃ¼ÅŸtÃ¼rÃ¼r.","LifeFlow es un producto independiente y enfocado para costes, contratos y plazos. CONTINUITY lo amplÃ­a a un entorno personal mucho mayor para documentos, finanzas, Cards, Timeline, procedencia y contexto.","LifeFlow est un produit autonome et ciblÃ© pour coÃ»ts, contrats et Ã©chÃ©ances. CONTINUITY lâ€™Ã©tend Ã  un environnement personnel beaucoup plus vaste pour documents, finances, Cards, Timeline, provenance et contexte.","LifeFlow Ã¨ un prodotto autonomo e focalizzato per costi, contratti e scadenze. CONTINUITY lo estende a un ambiente personale molto piÃ¹ ampio per documenti, finanze, Cards, Timeline, provenienza e contesto.","LifeFlow este un produs autonom È™i focalizat pentru costuri, contracte È™i termene. CONTINUITY Ã®l extinde Ã®ntr-un mediu personal mult mai amplu pentru documente, finanÈ›e, Cards, Timeline, provenienÈ›Äƒ È™i context.","LifeFlow æ˜¯é¢å‘æˆæœ¬ã€åˆåŒä¸ŽæœŸé™çš„ç‹¬ç«‹èšç„¦äº§å“ã€‚CONTINUITY å°†å…¶æ‰©å±•ä¸ºæ›´å¤§çš„ä¸ªäººçŽ¯å¢ƒï¼Œæ¶µç›–æ–‡æ¡£ã€è´¢åŠ¡ã€Cardsã€Timelineã€æ¥æºä¸Žä¸Šä¸‹æ–‡ã€‚"]],["lifeflow.continuity.view",["CONTINUITY ansehen","View CONTINUITY","CONTINUITYâ€™yi gÃ¶rÃ¼ntÃ¼le","Ver CONTINUITY","Voir CONTINUITY","Vedi CONTINUITY","Vezi CONTINUITY","æŸ¥çœ‹ CONTINUITY"]],["lifeflow.offer.eyebrow",["AVAILABLE","AVAILABLE","MEVCUT","DISPONIBLE","DISPONIBLE","DISPONIBILE","DISPONIBIL","å·²å‘å¸ƒ"]],["lifeflow.offer.text",["Ein fokussierter Einstieg in persÃ¶nliche FinanzÃ¼bersicht.","A focused entry point into personal financial overview.","KiÅŸisel finans gÃ¶rÃ¼nÃ¼mÃ¼ne odaklÄ± bir giriÅŸ.","Una entrada enfocada a la visiÃ³n financiera personal.","Une entrÃ©e ciblÃ©e dans la vue financiÃ¨re personnelle.","Un ingresso focalizzato nella panoramica finanziaria personale.","Un punct de intrare concentrat Ã®n imaginea financiarÄƒ personalÄƒ.","ä¸ªäººè´¢åŠ¡æ¦‚è§ˆçš„èšç„¦å…¥å£ã€‚"]],["lifeflow.offer.appStore",["Im App Store ansehen","View in the App Store","App Storeâ€™da gÃ¶rÃ¼ntÃ¼le","Ver en App Store","Voir dans lâ€™App Store","Vedi su App Store","Vezi Ã®n App Store","åœ¨ App Store æŸ¥çœ‹"]],["lifeflow.offer.legalPrefix",["Mit dem Kauf gelten unsere","By purchasing, our","SatÄ±n alma ile ÅŸu ÅŸartlar geÃ§erlidir:","Con la compra se aplican nuestros","Avec lâ€™achat sâ€™appliquent nos","Con lâ€™acquisto si applicano i nostri","Prin cumpÄƒrare se aplicÄƒ","è´­ä¹°å³é€‚ç”¨æˆ‘ä»¬çš„"]],["lifeflow.offer.terms",["AGB","Terms","Åžartlar","TÃ©rminos","CGV","Termini","Termeni","æ¡æ¬¾"]],["lifeflow.offer.legalMiddle",["und unsere","and our","ve","y nuestra","et notre","e la nostra","È™i","ä»¥åŠæˆ‘ä»¬çš„"]],["lifeflow.offer.withdrawal",["Widerrufsbelehrung","Withdrawal Policy","Cayma PolitikasÄ±","PolÃ­tica de desistimiento","Politique de rÃ©tractation","Informativa sul recesso","Politica de retragere","æ’¤é”€è¯´æ˜Ž"]],["lifeflow.offer.legalAnd",[".",".",".",".",".",".",".","ã€‚"]],["lifeflow.offer.model",["MODELL","MODEL","MODEL","MODELO","MODÃˆLE","MODELLO","MODEL","æ¨¡å¼"]],["lifeflow.offer.oneTime",["Einmalkauf","One-time purchase","Tek seferlik satÄ±n alma","Compra Ãºnica","Achat unique","Acquisto una tantum","AchiziÈ›ie unicÄƒ","ä¸€æ¬¡æ€§è´­ä¹°"]],["lifeflow.offer.subscription",["ABO","SUBSCRIPTION","ABONELÄ°K","SUSCRIPCIÃ“N","ABONNEMENT","ABBONAMENTO","ABONAMENT","è®¢é˜…"]],["lifeflow.offer.none",["Kein Abo","No subscription","Abonelik yok","Sin suscripciÃ³n","Sans abonnement","Nessun abbonamento","FÄƒrÄƒ abonament","æ— è®¢é˜…"]],["lifeflow.offer.platform",["PLATTFORM","PLATFORM","PLATFORM","PLATAFORMA","PLATEFORME","PIATTAFORMA","PLATFORMÄ‚","å¹³å°"]],["lifeflow.offer.status",["STATUS","STATUS","DURUM","ESTADO","STATUT","STATO","STARE","çŠ¶æ€"]],["lifeflow.faq.title",["FAQ","FAQ","SSS","FAQ","FAQ","FAQ","FAQ","å¸¸è§é—®é¢˜"]],["lifeflow.faq.subscription.question",["Gibt es ein Abo?","Is there a subscription?","Abonelik var mÄ±?","Â¿Hay suscripciÃ³n?","Y a-t-il un abonnement ?","Câ€™Ã¨ un abbonamento?","ExistÄƒ abonament?","æœ‰è®¢é˜…å—ï¼Ÿ"]],["lifeflow.faq.subscription.answer",["Nein. LifeFlow ist als Einmalkauf vorgesehen.","No. LifeFlow is intended as a one-time purchase.","HayÄ±r. LifeFlow tek seferlik satÄ±n alma olarak tasarlanmÄ±ÅŸtÄ±r.","No. LifeFlow estÃ¡ previsto como compra Ãºnica.","Non. LifeFlow est prÃ©vu comme achat unique.","No. LifeFlow Ã¨ previsto come acquisto una tantum.","Nu. LifeFlow este conceput ca achiziÈ›ie unicÄƒ.","æ²¡æœ‰ã€‚LifeFlow è®¾è®¡ä¸ºä¸€æ¬¡æ€§è´­ä¹°ã€‚"]],["lifeflow.faq.continuity.question",["Ist LifeFlow dasselbe wie CONTINUITY?","Is LifeFlow the same as CONTINUITY?","LifeFlow, CONTINUITY ile aynÄ± mÄ±?","Â¿LifeFlow es lo mismo que CONTINUITY?","LifeFlow est-il identique Ã  CONTINUITY ?","LifeFlow Ã¨ lo stesso di CONTINUITY?","LifeFlow este acelaÈ™i lucru cu CONTINUITY?","LifeFlow å’Œ CONTINUITY æ˜¯åŒä¸€ä¸ªä¸œè¥¿å—ï¼Ÿ"]],["lifeflow.faq.continuity.answer",["Nein. LifeFlow bleibt ein fokussiertes Produkt. CONTINUITY entwickelt eine deutlich umfassendere persÃ¶nliche Systemumgebung.","No. LifeFlow remains a focused product. CONTINUITY is developing a much broader personal system environment.","HayÄ±r. LifeFlow odaklÄ± bir Ã¼rÃ¼n olarak kalÄ±r. CONTINUITY Ã§ok daha kapsamlÄ± bir kiÅŸisel sistem ortamÄ± geliÅŸtirir.","No. LifeFlow sigue siendo un producto enfocado. CONTINUITY desarrolla un entorno de sistema personal mucho mÃ¡s amplio.","Non. LifeFlow reste un produit ciblÃ©. CONTINUITY dÃ©veloppe un environnement personnel beaucoup plus large.","No. LifeFlow resta un prodotto focalizzato. CONTINUITY sviluppa un ambiente personale molto piÃ¹ ampio.","Nu. LifeFlow rÄƒmÃ¢ne un produs focalizat. CONTINUITY dezvoltÄƒ un mediu personal mult mai amplu.","ä¸æ˜¯ã€‚LifeFlow ä¿æŒä¸ºèšç„¦äº§å“ï¼ŒCONTINUITY æ­£åœ¨æž„å»ºæ›´å¹¿æ³›çš„ä¸ªäººç³»ç»ŸçŽ¯å¢ƒã€‚"]],["lifeflow.faq.platform.question",["Auf welcher Plattform ist LifeFlow verfÃ¼gbar?","Which platform is LifeFlow available on?","LifeFlow hangi platformda mevcut?","Â¿En quÃ© plataforma estÃ¡ disponible LifeFlow?","Sur quelle plateforme LifeFlow est-il disponible ?","Su quale piattaforma Ã¨ disponibile LifeFlow?","Pe ce platformÄƒ este disponibil LifeFlow?","LifeFlow åœ¨å“ªä¸ªå¹³å°å¯ç”¨ï¼Ÿ"]],["lifeflow.faq.platform.answer",["LifeFlow ist fÃ¼r iPhone / iOS vorgesehen.","LifeFlow is intended for iPhone / iOS.","LifeFlow iPhone / iOS iÃ§in tasarlanmÄ±ÅŸtÄ±r.","LifeFlow estÃ¡ previsto para iPhone / iOS.","LifeFlow est prÃ©vu pour iPhone / iOS.","LifeFlow Ã¨ previsto per iPhone / iOS.","LifeFlow este destinat pentru iPhone / iOS.","LifeFlow é¢å‘ iPhone / iOSã€‚"]],["lifeflow.contact.title",["Fragen zu LifeFlow?","Questions about LifeFlow?","LifeFlow hakkÄ±nda sorularÄ±nÄ±z mÄ± var?","Â¿Preguntas sobre LifeFlow?","Des questions sur LifeFlow ?","Domande su LifeFlow?","ÃŽntrebÄƒri despre LifeFlow?","å¯¹ LifeFlow æœ‰ç–‘é—®ï¼Ÿ"]],["lifeflow.contact.text",["Schreib uns direkt.","Write to us directly.","Bize doÄŸrudan yazÄ±n.","EscrÃ­benos directamente.","Ã‰crivez-nous directement.","Scrivici direttamente.","Scrie-ne direct.","ç›´æŽ¥è”ç³»æˆ‘ä»¬ã€‚"]],["lifeflow.contact.question",["Frage zu LifeFlow","Question about LifeFlow","LifeFlow hakkÄ±nda soru","Pregunta sobre LifeFlow","Question sur LifeFlow","Domanda su LifeFlow","ÃŽntrebare despre LifeFlow","å…³äºŽ LifeFlow çš„é—®é¢˜"]],["lifeflow.contact.messagePlaceholder",["Deine Frage zu LifeFlow â€¦","Your question about LifeFlow â€¦","LifeFlow hakkÄ±ndaki sorunuz â€¦","Tu pregunta sobre LifeFlow â€¦","Votre question sur LifeFlow â€¦","La tua domanda su LifeFlow â€¦","ÃŽntrebarea ta despre LifeFlow â€¦","ä½ å…³äºŽ LifeFlow çš„é—®é¢˜â€¦"]],["lifeflow.footer.withdrawal",["Widerruf","Withdrawal","Cayma","Desistimiento","RÃ©tractation","Recesso","Retragere","æ’¤é”€"]],["pilot.header.chip",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["pilot.hero.kicker",["CONTROLLED REAL-WORLD ENTRY","CONTROLLED REAL-WORLD ENTRY","KONTROLLÃœ GERÃ‡EK DÃœNYA GÄ°RÄ°ÅžÄ°","ENTRADA CONTROLADA EN EL MUNDO REAL","ENTRÃ‰E CONTRÃ”LÃ‰E DANS LE RÃ‰EL","INGRESSO CONTROLLATO NEL MONDO REALE","INTRARE CONTROLATÄ‚ ÃŽN LUMEA REALÄ‚","å—æŽ§çš„çŽ°å®žä¸–ç•Œåˆ‡å…¥"]],["pilot.hero.title",["ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT","ZALâ€™THERA PILOT"]],["pilot.hero.lead",["Start small. Test reality. Prove value.","Start small. Test reality. Prove value.","KÃ¼Ã§Ã¼k baÅŸla. GerÃ§eÄŸi test et. DeÄŸeri kanÄ±tla.","Empieza pequeÃ±o. Prueba la realidad. Demuestra valor.","Commencez petit. Testez le rÃ©el. Prouvez la valeur.","Inizia in piccolo. Testa la realtÃ . Dimostra il valore.","ÃŽncepe mic. TesteazÄƒ realitatea. DovedeÈ™te valoarea.","ä»Žå°å¤„å¼€å§‹ã€‚æµ‹è¯•çŽ°å®žã€‚è¯æ˜Žä»·å€¼ã€‚"]],["pilot.hero.understand",["Pilot verstehen","Understand Pilot","Pilotâ€™u anla","Entender Pilot","Comprendre Pilot","Comprendi Pilot","ÃŽnÈ›elege Pilot","äº†è§£ Pilot"]],["pilot.hero.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","SolicitÄƒ Pilot","ç”³è¯· Pilot"]],["pilot.hero.scoped",["SCOPED","SCOPED","SINIRLI","DELIMITADO","DÃ‰LIMITÃ‰","DELIMITATO","DELIMITAT","èŒƒå›´æ˜Žç¡®"]],["pilot.hero.controlled",["CONTROLLED","CONTROLLED","KONTROLLÃœ","CONTROLADO","CONTRÃ”LÃ‰","CONTROLLATO","CONTROLAT","å—æŽ§"]],["pilot.hero.measurable",["MEASURABLE","MEASURABLE","Ã–LÃ‡ÃœLEBÄ°LÄ°R","MEDIBLE","MESURABLE","MISURABILE","MÄ‚SURABIL","å¯è¡¡é‡"]],["pilot.hero.reviewable",["REVIEWABLE","REVIEWABLE","Ä°NCELENEBÄ°LÄ°R","REVISABLE","RÃ‰EXAMINABLE","REVISIONABILE","REVIZUIBIL","å¯è¯„å®¡"]],["pilot.state.label",["PILOT STATE","PILOT STATE","PÄ°LOT DURUMU","ESTADO DEL PILOT","Ã‰TAT DU PILOT","STATO DEL PILOT","STAREA PILOTULUI","Pilot çŠ¶æ€"]],["pilot.state.realProcess",["REAL PROCESS","REAL PROCESS","GERÃ‡EK SÃœREÃ‡","PROCESO REAL","PROCESSUS RÃ‰EL","PROCESSO REALE","PROCES REAL","çŽ°å®žæµç¨‹"]],["pilot.state.scope",["SCOPE","SCOPE","KAPSAM","ALCANCE","PÃ‰RIMÃˆTRE","AMBITO","SCOP","èŒƒå›´"]],["pilot.state.defined",["DEFINED","DEFINED","TANIMLI","DEFINIDO","DÃ‰FINI","DEFINITO","DEFINIT","å·²å®šä¹‰"]],["pilot.state.model",["MODEL","MODEL","MODEL","MODELO","MODÃˆLE","MODELLO","MODEL","æ¨¡åž‹"]],["pilot.state.prepared",["PREPARED","PREPARED","HAZIR","PREPARADO","PRÃ‰PARÃ‰","PREPARATO","PREGÄ‚TIT","å·²å‡†å¤‡"]],["pilot.state.test",["TEST","TEST","TEST","PRUEBA","TEST","TEST","TEST","æµ‹è¯•"]],["pilot.state.controlled",["CONTROLLED","CONTROLLED","KONTROLLÃœ","CONTROLADO","CONTRÃ”LÃ‰","CONTROLLATO","CONTROLAT","å—æŽ§"]],["pilot.state.result",["RESULT","RESULT","SONUÃ‡","RESULTADO","RÃ‰SULTAT","RISULTATO","REZULTAT","ç»“æžœ"]],["pilot.state.measured",["MEASURED","MEASURED","Ã–LÃ‡ÃœLDÃœ","MEDIDO","MESURÃ‰","MISURATO","MÄ‚SURAT","å·²è¡¡é‡"]],["pilot.state.decision",["DECISION","DECISION","KARAR","DECISIÃ“N","DÃ‰CISION","DECISIONE","DECIZIE","å†³ç­–"]],["pilot.state.reviewed",["REVIEWED","REVIEWED","Ä°NCELENDÄ°","REVISADA","EXAMINÃ‰E","REVISIONATA","REVIZUITÄ‚","å·²è¯„å®¡"]],["pilot.focus.eyebrow",["PILOT FOCUS","PILOT FOCUS","PÄ°LOT ODAÄžI","ENFOQUE DEL PILOT","FOCUS DU PILOT","FOCUS DEL PILOT","FOCUS PILOT","Pilot èšç„¦"]],["pilot.focus.title",["Nicht das ganze Unternehmen muss sich Ã¤ndern.","The whole company does not have to change.","TÃ¼m ÅŸirketin deÄŸiÅŸmesi gerekmez.","No tiene que cambiar toda la empresa.","Toute lâ€™entreprise nâ€™a pas besoin de changer.","Non deve cambiare tutta lâ€™azienda.","Nu trebuie sÄƒ se schimbe Ã®ntreaga companie.","ä¸éœ€è¦æ•´ä¸ªä¼ä¸šéƒ½æ”¹å˜ã€‚"]],["pilot.focus.lead",["Ein Pilot begrenzt das Problem, den Prozess und die Messung des tatsÃ¤chlichen Nutzens.","A pilot limits the problem, process and measurement of actual value.","Pilot; problemi, sÃ¼reci ve gerÃ§ek faydanÄ±n Ã¶lÃ§Ã¼mÃ¼nÃ¼ sÄ±nÄ±rlar.","Un pilot delimita el problema, el proceso y la mediciÃ³n del valor real.","Un pilot dÃ©limite le problÃ¨me, le processus et la mesure de la valeur rÃ©elle.","Un pilot delimita problema, processo e misurazione del valore reale.","Un pilot delimiteazÄƒ problema, procesul È™i mÄƒsurarea valorii reale.","Pilot ä¼šé™åˆ¶é—®é¢˜ã€æµç¨‹ä»¥åŠå®žé™…ä»·å€¼çš„è¡¡é‡èŒƒå›´ã€‚"]],["pilot.focus.proof.title",["Proof","Proof","KanÄ±t","Prueba","Preuve","Prova","DovadÄƒ","è¯æ˜Ž"]],["pilot.focus.proof.text",["Was muss spÃ¤ter nachvollziehbar oder Ã¼berprÃ¼fbar sein?","What must later be traceable or verifiable?","Daha sonra neyin izlenebilir veya doÄŸrulanabilir olmasÄ± gerekir?","Â¿QuÃ© debe poder rastrearse o verificarse despuÃ©s?","Quâ€™est-ce qui doit Ãªtre traÃ§able ou vÃ©rifiable ensuite ?","Cosa deve essere tracciabile o verificabile in seguito?","Ce trebuie sÄƒ poatÄƒ fi trasat sau verificat ulterior?","ä¹‹åŽä»€ä¹ˆå¿…é¡»å¯è¿½æº¯æˆ–å¯éªŒè¯ï¼Ÿ"]],["pilot.focus.handover.title",["Handover","Handover","Devir","Relevo","Transmission","Passaggio","Predare","äº¤æŽ¥"]],["pilot.focus.handover.text",["Wo gehen Informationen, ZustÃ¤nde oder Verantwortung verloren?","Where are information, states or responsibility lost?","Bilgi, durum veya sorumluluk nerede kayboluyor?","Â¿DÃ³nde se pierden informaciÃ³n, estados o responsabilidad?","OÃ¹ se perdent informations, Ã©tats ou responsabilitÃ© ?","Dove si perdono informazioni, stati o responsabilitÃ ?","Unde se pierd informaÈ›ii, stÄƒri sau responsabilitate?","ä¿¡æ¯ã€çŠ¶æ€æˆ–è´£ä»»åœ¨å“ªé‡Œä¸¢å¤±ï¼Ÿ"]],["pilot.focus.control.title",["Control","Control","Kontrol","Control","ContrÃ´le","Controllo","Control","æŽ§åˆ¶"]],["pilot.focus.control.text",["Welche Grenzen, Freigaben und ZustÃ¤nde mÃ¼ssen sichtbar bleiben?","Which boundaries, approvals and states must remain visible?","Hangi sÄ±nÄ±rlar, onaylar ve durumlar gÃ¶rÃ¼nÃ¼r kalmalÄ±?","Â¿QuÃ© lÃ­mites, aprobaciones y estados deben seguir visibles?","Quelles limites, validations et Ã©tats doivent rester visibles ?","Quali limiti, approvazioni e stati devono restare visibili?","Ce limite, aprobÄƒri È™i stÄƒri trebuie sÄƒ rÄƒmÃ¢nÄƒ vizibile?","å“ªäº›è¾¹ç•Œã€æ‰¹å‡†ä¸ŽçŠ¶æ€å¿…é¡»ä¿æŒå¯è§ï¼Ÿ"]],["pilot.process.eyebrow",["PILOT PROCESS","PILOT PROCESS","PÄ°LOT SÃœRECÄ°","PROCESO PILOT","PROCESSUS PILOT","PROCESSO PILOT","PROCES PILOT","Pilot æµç¨‹"]],["pilot.process.title",["Vom realen Problem zur Ã¼berprÃ¼fbaren Entscheidung.","From a real problem to a verifiable decision.","GerÃ§ek bir problemden doÄŸrulanabilir bir karara.","Del problema real a una decisiÃ³n verificable.","Du problÃ¨me rÃ©el Ã  une dÃ©cision vÃ©rifiable.","Dal problema reale a una decisione verificabile.","De la o problemÄƒ realÄƒ la o decizie verificabilÄƒ.","ä»ŽçŽ°å®žé—®é¢˜åˆ°å¯éªŒè¯çš„å†³ç­–ã€‚"]],["pilot.process.lead",["Der Pilot bleibt bewusst begrenzt. Erst wenn der Nutzen sichtbar ist, wird Ã¼ber den nÃ¤chsten Schritt entschieden.","The pilot remains deliberately limited. Only when value is visible is the next step decided.","Pilot bilinÃ§li olarak sÄ±nÄ±rlÄ± kalÄ±r. DeÄŸer gÃ¶rÃ¼nÃ¼r olduÄŸunda sonraki adÄ±m kararlaÅŸtÄ±rÄ±lÄ±r.","El pilot se mantiene deliberadamente limitado. Solo cuando el valor es visible se decide el siguiente paso.","Le pilot reste volontairement limitÃ©. Le prochain pas nâ€™est dÃ©cidÃ© quâ€™une fois la valeur visible.","Il pilot resta volutamente limitato. Solo quando il valore Ã¨ visibile si decide il passo successivo.","Pilotul rÄƒmÃ¢ne intenÈ›ionat limitat. Abia cÃ¢nd valoarea este vizibilÄƒ se decide pasul urmÄƒtor.","Pilot æœ‰æ„è¯†åœ°ä¿æŒæœ‰é™ã€‚åªæœ‰å½“ä»·å€¼å¯è§æ—¶ï¼Œæ‰å†³å®šä¸‹ä¸€æ­¥ã€‚"]],["pilot.process.scope.title",["Scope","Scope","Kapsam","Alcance","PÃ©rimÃ¨tre","Ambito","Scop","èŒƒå›´"]],["pilot.process.scope.text",["Ein konkreter Prozess, Bereich oder Anwendungsfall wird abgegrenzt.","A specific process, area or use case is defined.","Belirli bir sÃ¼reÃ§, alan veya kullanÄ±m senaryosu sÄ±nÄ±rlandÄ±rÄ±lÄ±r.","Se delimita un proceso, Ã¡rea o caso de uso concreto.","Un processus, domaine ou cas dâ€™usage prÃ©cis est dÃ©limitÃ©.","Viene delimitato un processo, unâ€™area o un caso dâ€™uso specifico.","Este delimitat un proces, domeniu sau caz de utilizare concret.","æ˜Žç¡®ç•Œå®šä¸€ä¸ªå…·ä½“æµç¨‹ã€é¢†åŸŸæˆ–ä½¿ç”¨åœºæ™¯ã€‚"]],["pilot.process.understand.title",["Understand","Understand","Anla","Comprender","Comprendre","Comprendere","ÃŽnÈ›elege","ç†è§£"]],["pilot.process.understand.text",["Der bestehende Ablauf und seine relevanten ZustÃ¤nde werden verstanden.","The existing workflow and its relevant states are understood.","Mevcut akÄ±ÅŸ ve ilgili durumlarÄ± anlaÅŸÄ±lÄ±r.","Se comprende el flujo existente y sus estados relevantes.","Le flux existant et ses Ã©tats pertinents sont compris.","Si comprendono il flusso esistente e i suoi stati rilevanti.","Sunt Ã®nÈ›elese fluxul existent È™i stÄƒrile sale relevante.","ç†è§£çŽ°æœ‰æµç¨‹åŠå…¶ç›¸å…³çŠ¶æ€ã€‚"]],["pilot.process.model.title",["Model","Model","Model","Modelo","ModÃ¨le","Modello","Model","å»ºæ¨¡"]],["pilot.process.model.text",["Das benÃ¶tigte ZALâ€™THERA-System wird auf den Prozess zugeschnitten.","The required ZALâ€™THERA system is tailored to the process.","Gerekli ZALâ€™THERA sistemi sÃ¼rece uyarlanÄ±r.","El sistema ZALâ€™THERA necesario se adapta al proceso.","Le systÃ¨me ZALâ€™THERA nÃ©cessaire est adaptÃ© au processus.","Il sistema ZALâ€™THERA necessario viene adattato al processo.","Sistemul ZALâ€™THERA necesar este adaptat procesului.","æ‰€éœ€çš„ ZALâ€™THERA ç³»ç»ŸæŒ‰æµç¨‹è¿›è¡Œé€‚é…ã€‚"]],["pilot.process.pilot.title",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["pilot.process.pilot.text",["Das System wird begrenzt im realen Ablauf eingesetzt.","The system is used on a limited basis in the real workflow.","Sistem gerÃ§ek akÄ±ÅŸta sÄ±nÄ±rlÄ± olarak kullanÄ±lÄ±r.","El sistema se utiliza de forma limitada en el flujo real.","Le systÃ¨me est utilisÃ© de maniÃ¨re limitÃ©e dans le flux rÃ©el.","Il sistema viene usato in modo limitato nel flusso reale.","Sistemul este utilizat limitat Ã®n fluxul real.","ç³»ç»Ÿåœ¨çŽ°å®žæµç¨‹ä¸­ä»¥æœ‰é™èŒƒå›´æŠ•å…¥ä½¿ç”¨ã€‚"]],["pilot.process.review.title",["Review","Review","Ä°nceleme","RevisiÃ³n","Revue","Revisione","Revizuire","è¯„å®¡"]],["pilot.process.review.text",["Nutzen, Grenzen und nÃ¤chster Schritt werden gemeinsam bewertet.","Value, limits and the next step are reviewed together.","Fayda, sÄ±nÄ±rlar ve sonraki adÄ±m birlikte deÄŸerlendirilir.","Se evalÃºan conjuntamente el valor, los lÃ­mites y el siguiente paso.","La valeur, les limites et lâ€™Ã©tape suivante sont Ã©valuÃ©es ensemble.","Valore, limiti e passo successivo vengono valutati insieme.","Valoarea, limitele È™i pasul urmÄƒtor sunt evaluate Ã®mpreunÄƒ.","å…±åŒè¯„ä¼°ä»·å€¼ã€è¾¹ç•Œä¸Žä¸‹ä¸€æ­¥ã€‚"]],["pilot.modules.eyebrow",["PILOT ENTRY POINTS","PILOT ENTRY POINTS","PÄ°LOT GÄ°RÄ°Åž NOKTALARI","PUNTOS DE ENTRADA DEL PILOT","POINTS Dâ€™ENTRÃ‰E DU PILOT","PUNTI DI INGRESSO DEL PILOT","PUNCTE DE INTRARE PILOT","Pilot å…¥å£"]],["pilot.modules.title",["Unterschiedliche Probleme. Gemeinsamer Systemkern.","Different problems. One shared system core.","FarklÄ± problemler. Ortak sistem Ã§ekirdeÄŸi.","Problemas distintos. Un nÃºcleo de sistema comÃºn.","Des problÃ¨mes diffÃ©rents. Un noyau systÃ¨me commun.","Problemi diversi. Un core di sistema comune.","Probleme diferite. Un nucleu de sistem comun.","ä¸åŒé—®é¢˜ï¼Œå…±åŒçš„ç³»ç»Ÿæ ¸å¿ƒã€‚"]],["pilot.modules.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADÄ‚","è¯æ˜Ž"]],["pilot.modules.proofflow",["Evidence Â· Audit Â· Signature Â· Export","Evidence Â· Audit Â· Signature Â· Export","KanÄ±t Â· Denetim Â· Ä°mza Â· DÄ±ÅŸa Aktarma","Prueba Â· AuditorÃ­a Â· Firma Â· ExportaciÃ³n","Preuve Â· Audit Â· Signature Â· Export","Prova Â· Audit Â· Firma Â· Esportazione","DovadÄƒ Â· Audit Â· SemnÄƒturÄƒ Â· Export","è¯æ˜Ž Â· å®¡è®¡ Â· ç­¾å Â· å¯¼å‡º"]],["pilot.modules.industry",["INDUSTRY","INDUSTRY","ENDÃœSTRÄ°","INDUSTRIA","INDUSTRIE","INDUSTRIA","INDUSTRIE","å·¥ä¸š"]],["pilot.modules.shiftlog",["Handover Â· State Â· Responsibility","Handover Â· State Â· Responsibility","Devir Â· Durum Â· Sorumluluk","Relevo Â· Estado Â· Responsabilidad","Transmission Â· Ã‰tat Â· ResponsabilitÃ©","Passaggio Â· Stato Â· ResponsabilitÃ ","Predare Â· Stare Â· Responsabilitate","äº¤æŽ¥ Â· çŠ¶æ€ Â· è´£ä»»"]],["pilot.modules.trust",["TRUST","TRUST","GÃœVEN","CONFIANZA","CONFIANCE","FIDUCIA","ÃŽNCREDERE","ä¿¡ä»»"]],["pilot.modules.ledger",["Events Â· Traceability Â· Verification","Events Â· Traceability Â· Verification","Olaylar Â· Ä°zlenebilirlik Â· DoÄŸrulama","Eventos Â· Trazabilidad Â· VerificaciÃ³n","Ã‰vÃ©nements Â· TraÃ§abilitÃ© Â· VÃ©rification","Eventi Â· TracciabilitÃ  Â· Verifica","Evenimente Â· Trasabilitate Â· Verificare","äº‹ä»¶ Â· å¯è¿½æº¯æ€§ Â· éªŒè¯"]],["pilot.modules.architecture",["ARCHITECTURE","ARCHITECTURE","MÄ°MARÄ°","ARQUITECTURA","ARCHITECTURE","ARCHITETTURA","ARHITECTURÄ‚","æž¶æž„"]],["pilot.modules.industryText",["Process Â· Data Â· Sensors Â· Future Integration","Process Â· Data Â· Sensors Â· Future Integration","SÃ¼reÃ§ Â· Veri Â· SensÃ¶rler Â· Gelecek Entegrasyonu","Proceso Â· Datos Â· Sensores Â· IntegraciÃ³n futura","Processus Â· DonnÃ©es Â· Capteurs Â· IntÃ©gration future","Processo Â· Dati Â· Sensori Â· Integrazione futura","Proces Â· Date Â· Senzori Â· Integrare viitoare","æµç¨‹ Â· æ•°æ® Â· ä¼ æ„Ÿå™¨ Â· æœªæ¥é›†æˆ"]],["pilot.principle.eyebrow",["CONTROLLED ENTRY","CONTROLLED ENTRY","KONTROLLÃœ GÄ°RÄ°Åž","ENTRADA CONTROLADA","ENTRÃ‰E CONTRÃ”LÃ‰E","INGRESSO CONTROLLATO","INTRARE CONTROLATÄ‚","å—æŽ§åˆ‡å…¥"]],["pilot.principle.title",["A pilot should reduce uncertainty, not create dependency.","A pilot should reduce uncertainty, not create dependency.","Pilot belirsizliÄŸi azaltmalÄ±, baÄŸÄ±mlÄ±lÄ±k yaratmamalÄ±.","Un pilot debe reducir la incertidumbre, no crear dependencia.","Un pilot doit rÃ©duire lâ€™incertitude, pas crÃ©er de dÃ©pendance.","Un pilot deve ridurre lâ€™incertezza, non creare dipendenza.","Un pilot ar trebui sÄƒ reducÄƒ incertitudinea, nu sÄƒ creeze dependenÈ›Äƒ.","Pilot åº”å‡å°‘ä¸ç¡®å®šæ€§ï¼Œè€Œä¸æ˜¯åˆ¶é€ ä¾èµ–ã€‚"]],["pilot.principle.text",["Der Pilot dient nicht dazu, einen bestehenden Prozess blind zu ersetzen. Er soll zeigen, ob ein klar definiertes Systemproblem tatsÃ¤chlich besser gelÃ¶st werden kann.","The pilot is not intended to blindly replace an existing process. It should show whether a clearly defined system problem can actually be solved better.","Pilot mevcut bir sÃ¼reci kÃ¶rÃ¼ kÃ¶rÃ¼ne deÄŸiÅŸtirmek iÃ§in deÄŸildir. AÃ§Ä±kÃ§a tanÄ±mlanmÄ±ÅŸ bir sistem probleminin gerÃ§ekten daha iyi Ã§Ã¶zÃ¼lÃ¼p Ã§Ã¶zÃ¼lemeyeceÄŸini gÃ¶stermelidir.","El pilot no pretende sustituir a ciegas un proceso existente. Debe mostrar si un problema de sistema claramente definido puede resolverse mejor.","Le pilot nâ€™a pas pour but de remplacer aveuglÃ©ment un processus existant. Il doit montrer si un problÃ¨me systÃ¨me clairement dÃ©fini peut rÃ©ellement Ãªtre mieux rÃ©solu.","Il pilot non serve a sostituire ciecamente un processo esistente. Deve mostrare se un problema di sistema chiaramente definito puÃ² davvero essere risolto meglio.","Pilotul nu are rolul de a Ã®nlocui orbeÈ™te un proces existent. Trebuie sÄƒ arate dacÄƒ o problemÄƒ de sistem clar definitÄƒ poate fi rezolvatÄƒ mai bine.","Pilot ä¸æ˜¯ä¸ºäº†ç›²ç›®æ›¿æ¢çŽ°æœ‰æµç¨‹ï¼Œè€Œæ˜¯è¦è¯æ˜Žä¸€ä¸ªæ¸…æ™°å®šä¹‰çš„ç³»ç»Ÿé—®é¢˜æ˜¯å¦çœŸçš„èƒ½å¤Ÿè¢«æ›´å¥½åœ°è§£å†³ã€‚"]],["pilot.principle.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","SolicitÄƒ Pilot","ç”³è¯· Pilot"]],["pilot.contact.title",["Pilotprojekt anfragen","Request a pilot project","Pilot projesi talep et","Solicitar proyecto pilot","Demander un projet pilot","Richiedi un progetto pilot","SolicitÄƒ un proiect pilot","ç”³è¯· Pilot é¡¹ç›®"]],["pilot.contact.text",["Beschreibe kurz den realen Prozess oder das Problem, das kontrolliert getestet werden soll.","Briefly describe the real process or problem to be tested in a controlled way.","KontrollÃ¼ olarak test edilecek gerÃ§ek sÃ¼reci veya problemi kÄ±saca aÃ§Ä±klayÄ±n.","Describe brevemente el proceso real o problema que debe probarse de forma controlada.","DÃ©crivez briÃ¨vement le processus rÃ©el ou le problÃ¨me Ã  tester de maniÃ¨re contrÃ´lÃ©e.","Descrivi brevemente il processo reale o il problema da testare in modo controllato.","Descrie pe scurt procesul real sau problema care trebuie testatÄƒ controlat.","ç®€è¦æè¿°éœ€è¦ä»¥å—æŽ§æ–¹å¼æµ‹è¯•çš„çŽ°å®žæµç¨‹æˆ–é—®é¢˜ã€‚"]],["pilot.contact.namePlaceholder",["Ihr Name","Your name","AdÄ±nÄ±z","Su nombre","Votre nom","Il tuo nome","Numele dvs.","æ‚¨çš„å§“å"]],["pilot.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["pilot.contact.messagePlaceholder",["Welcher Prozess soll als Pilot getestet werden?","Which process should be tested as a pilot?","Hangi sÃ¼reÃ§ pilot olarak test edilmeli?","Â¿QuÃ© proceso deberÃ­a probarse como pilot?","Quel processus doit Ãªtre testÃ© en pilot ?","Quale processo dovrebbe essere testato come pilot?","Ce proces ar trebui testat ca pilot?","å“ªä¸ªæµç¨‹åº”ä½œä¸º Pilot è¿›è¡Œæµ‹è¯•ï¼Ÿ"]],["pilot.contact.send",["Anfrage senden","Send request","Talep gÃ¶nder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","å‘é€ç”³è¯·"]],["pilot.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","GÃ¶ndererek ÅŸunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptaÈ›i","æäº¤å³è¡¨ç¤ºæ‚¨æŽ¥å—æˆ‘ä»¬çš„"]],["proofflow.header.pilot",["Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot","Pilot"]],["proofflow.hero.kicker",["PROOF Â· AUDIT Â· TRACEABILITY","PROOF Â· AUDIT Â· TRACEABILITY","KANIT Â· DENETÄ°M Â· Ä°ZLENEBÄ°LÄ°RLÄ°K","PRUEBA Â· AUDITORÃA Â· TRAZABILIDAD","PREUVE Â· AUDIT Â· TRAÃ‡ABILITÃ‰","PROVA Â· AUDIT Â· TRACCIABILITÃ€","DOVADÄ‚ Â· AUDIT Â· TRASABILITATE","è¯æ˜Ž Â· å®¡è®¡ Â· å¯è¿½æº¯æ€§"]],["proofflow.hero.title",["Evidence before<br>assumption.","Evidence before<br>assumption.","VarsayÄ±mdan Ã¶nce<br>kanÄ±t.","Prueba antes que<br>suposiciÃ³n.","La preuve avant<br>lâ€™hypothÃ¨se.","La prova prima<br>dellâ€™ipotesi.","Dovada Ã®naintea<br>presupunerii.","å…ˆæœ‰è¯æ®ï¼Œ<br>å†ä½œåˆ¤æ–­ã€‚"]],["proofflow.hero.lead",["ProofFlow verbindet Aufgaben, Nachweise, Fotos, Notizen, Signaturen, Audit und Export zu einem nachvollziehbaren Ablauf.","ProofFlow connects tasks, evidence, photos, notes, signatures, audit and export into a traceable workflow.","ProofFlow gÃ¶revleri, kanÄ±tlarÄ±, fotoÄŸraflarÄ±, notlarÄ±, imzalarÄ±, denetimi ve dÄ±ÅŸa aktarmayÄ± izlenebilir bir akÄ±ÅŸta birleÅŸtirir.","ProofFlow conecta tareas, pruebas, fotos, notas, firmas, auditorÃ­a y exportaciÃ³n en un flujo trazable.","ProofFlow relie tÃ¢ches, preuves, photos, notes, signatures, audit et export dans un flux traÃ§able.","ProofFlow collega attivitÃ , prove, foto, note, firme, audit ed esportazione in un flusso tracciabile.","ProofFlow conecteazÄƒ sarcini, dovezi, fotografii, note, semnÄƒturi, audit È™i export Ã®ntr-un flux trasabil.","ProofFlow å°†ä»»åŠ¡ã€è¯æ˜Žã€ç…§ç‰‡ã€å¤‡æ³¨ã€ç­¾åã€å®¡è®¡ä¸Žå¯¼å‡ºè¿žæŽ¥æˆå¯è¿½æº¯æµç¨‹ã€‚"]],["proofflow.hero.understand",["System verstehen","Understand system","Sistemi anla","Entender sistema","Comprendre le systÃ¨me","Comprendi il sistema","ÃŽnÈ›elege sistemul","ç†è§£ç³»ç»Ÿ"]],["proofflow.hero.requestPilot",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","SolicitÄƒ Pilot","ç”³è¯· Pilot"]],["proofflow.hero.provenance",["PROVENANCE","PROVENANCE","KAYNAK","PROCEDENCIA","PROVENANCE","PROVENIENZA","PROVENIENÈšÄ‚","æ¥æº"]],["proofflow.hero.identity",["IDENTITY","IDENTITY","KÄ°MLÄ°K","IDENTIDAD","IDENTITÃ‰","IDENTITÃ€","IDENTITATE","èº«ä»½"]],["proofflow.hero.audit",["AUDIT","AUDIT","DENETÄ°M","AUDITORÃA","AUDIT","AUDIT","AUDIT","å®¡è®¡"]],["proofflow.hero.export",["EXPORT","EXPORT","DIÅžA AKTARMA","EXPORTACIÃ“N","EXPORT","ESPORTAZIONE","EXPORT","å¯¼å‡º"]],["proofflow.state.label",["PROOF FLOW","PROOF FLOW","KANIT AKIÅžI","FLUJO DE PRUEBA","FLUX DE PREUVE","FLUSSO DI PROVA","FLUX DE DOVADÄ‚","è¯æ˜Žæµç¨‹"]],["proofflow.state.job",["JOB","JOB","Ä°Åž","TRABAJO","TÃ‚CHE","ATTIVITÃ€","SARCINÄ‚","ä»»åŠ¡"]],["proofflow.state.context",["CONTEXT","CONTEXT","BAÄžLAM","CONTEXTO","CONTEXTE","CONTESTO","CONTEXT","ä¸Šä¸‹æ–‡"]],["proofflow.state.proof",["PROOF","PROOF","KANIT","PRUEBA","PREUVE","PROVA","DOVADÄ‚","è¯æ˜Ž"]],["proofflow.state.capture",["CAPTURE","CAPTURE","YAKALAMA","CAPTURA","CAPTURE","ACQUISIZIONE","CAPTURÄ‚","é‡‡é›†"]],["proofflow.state.sign",["SIGN","SIGN","Ä°MZA","FIRMA","SIGNER","FIRMA","SEMNARE","ç­¾å"]],["proofflow.state.identity",["IDENTITY","IDENTITY","KÄ°MLÄ°K","IDENTIDAD","IDENTITÃ‰","IDENTITÃ€","IDENTITATE","èº«ä»½"]],["proofflow.state.audit",["AUDIT","AUDIT","DENETÄ°M","AUDITORÃA","AUDIT","AUDIT","AUDIT","å®¡è®¡"]],["proofflow.state.trace",["TRACE","TRACE","Ä°Z","TRAZA","TRACE","TRACCIA","URMÄ‚","è¿½è¸ª"]],["proofflow.state.export",["EXPORT","EXPORT","DIÅžA AKTARMA","EXPORTACIÃ“N","EXPORT","ESPORTAZIONE","EXPORT","å¯¼å‡º"]],["proofflow.state.output",["OUTPUT","OUTPUT","Ã‡IKTI","SALIDA","SORTIE","OUTPUT","IEÈ˜IRE","è¾“å‡º"]],["proofflow.problem.eyebrow",["THE PROBLEM","THE PROBLEM","PROBLEM","EL PROBLEMA","LE PROBLÃˆME","IL PROBLEMA","PROBLEMA","é—®é¢˜"]],["proofflow.problem.title",["Erinnerung ist kein Nachweis.","Memory is not evidence.","HatÄ±ra kanÄ±t deÄŸildir.","La memoria no es una prueba.","La mÃ©moire nâ€™est pas une preuve.","La memoria non Ã¨ una prova.","Memoria nu este dovadÄƒ.","è®°å¿†ä¸æ˜¯è¯æ®ã€‚"]],["proofflow.problem.lead",["Wenn VorfÃ¤lle, MaÃŸnahmen und Entscheidungen nicht strukturiert dokumentiert werden, entstehen spÃ¤ter Interpretationen statt Ã¼berprÃ¼fbarer AblÃ¤ufe.","When incidents, actions and decisions are not documented in a structured way, later interpretations replace verifiable workflows.","Olaylar, Ã¶nlemler ve kararlar yapÄ±landÄ±rÄ±lmÄ±ÅŸ biÃ§imde belgelenmezse daha sonra doÄŸrulanabilir akÄ±ÅŸlar yerine yorumlar oluÅŸur.","Si incidentes, medidas y decisiones no se documentan de forma estructurada, despuÃ©s surgen interpretaciones en vez de procesos verificables.","Si incidents, mesures et dÃ©cisions ne sont pas documentÃ©s de faÃ§on structurÃ©e, des interprÃ©tations remplacent ensuite les processus vÃ©rifiables.","Se eventi, misure e decisioni non vengono documentati in modo strutturato, in seguito emergono interpretazioni invece di processi verificabili.","DacÄƒ incidentele, mÄƒsurile È™i deciziile nu sunt documentate structurat, ulterior apar interpretÄƒri Ã®n locul fluxurilor verificabile.","å¦‚æžœäº‹ä»¶ã€æŽªæ–½ä¸Žå†³ç­–æ²¡æœ‰ç»“æž„åŒ–è®°å½•ï¼Œä¹‹åŽå°±ä¼šå‡ºçŽ°è§£é‡Šè€Œä¸æ˜¯å¯éªŒè¯æµç¨‹ã€‚"]],["proofflow.problem.process.title",["Unklarer Ablauf","Unclear workflow","Belirsiz akÄ±ÅŸ","Flujo poco claro","Processus flou","Flusso poco chiaro","Flux neclar","æµç¨‹ä¸æ¸…"]],["proofflow.problem.process.text",["Was ist tatsÃ¤chlich passiert und in welcher Reihenfolge?","What actually happened and in what order?","GerÃ§ekte ne oldu ve hangi sÄ±rayla?","Â¿QuÃ© ocurriÃ³ realmente y en quÃ© orden?","Que sâ€™est-il rÃ©ellement passÃ© et dans quel ordre ?","Cosa Ã¨ successo davvero e in quale ordine?","Ce s-a Ã®ntÃ¢mplat de fapt È™i Ã®n ce ordine?","å®žé™…å‘ç”Ÿäº†ä»€ä¹ˆï¼Œé¡ºåºå¦‚ä½•ï¼Ÿ"]],["proofflow.problem.responsibility.title",["Unklare Verantwortung","Unclear responsibility","Belirsiz sorumluluk","Responsabilidad poco clara","ResponsabilitÃ© floue","ResponsabilitÃ  poco chiara","Responsabilitate neclarÄƒ","è´£ä»»ä¸æ¸…"]],["proofflow.problem.responsibility.text",["Wer hat wann gehandelt, bestÃ¤tigt oder entschieden?","Who acted, confirmed or decided, and when?","Kim ne zaman hareket etti, onayladÄ± veya karar verdi?","Â¿QuiÃ©n actuÃ³, confirmÃ³ o decidiÃ³ y cuÃ¡ndo?","Qui a agi, confirmÃ© ou dÃ©cidÃ©, et quand ?","Chi ha agito, confermato o deciso e quando?","Cine a acÈ›ionat, confirmat sau decis È™i cÃ¢nd?","è°åœ¨ä½•æ—¶è¡ŒåŠ¨ã€ç¡®è®¤æˆ–åšå‡ºå†³å®šï¼Ÿ"]],["proofflow.problem.evidence.title",["Fehlender Nachweis","Missing evidence","Eksik kanÄ±t","Falta de prueba","Preuve manquante","Prova mancante","DovadÄƒ lipsÄƒ","ç¼ºå°‘è¯æ®"]],["proofflow.problem.evidence.text",["Ohne belegbare Informationen bleiben spÃ¤ter Aussagen gegeneinander stehen.","Without verifiable information, later statements remain opposed to one another.","DoÄŸrulanabilir bilgi olmadan daha sonra ifadeler karÅŸÄ± karÅŸÄ±ya kalÄ±r.","Sin informaciÃ³n verificable, despuÃ©s quedan afirmaciones enfrentadas.","Sans information vÃ©rifiable, les dÃ©clarations restent ensuite opposÃ©es.","Senza informazioni verificabili, in seguito restano dichiarazioni contrapposte.","FÄƒrÄƒ informaÈ›ii verificabile, ulterior rÄƒmÃ¢n afirmaÈ›ii opuse.","æ²¡æœ‰å¯éªŒè¯ä¿¡æ¯ï¼Œä¹‹åŽåªå‰©ç›¸äº’å¯¹ç«‹çš„è¯´æ³•ã€‚"]],["proofflow.system.eyebrow",["PROOF SYSTEM","PROOF SYSTEM","KANIT SÄ°STEMÄ°","SISTEMA DE PRUEBA","SYSTÃˆME DE PREUVE","SISTEMA DI PROVA","SISTEM DE DOVADÄ‚","è¯æ˜Žç³»ç»Ÿ"]],["proofflow.system.title",["Ein nachvollziehbarer Ablauf statt isolierter Dateien.","A traceable workflow instead of isolated files.","YalÄ±tÄ±lmÄ±ÅŸ dosyalar yerine izlenebilir bir akÄ±ÅŸ.","Un flujo trazable en vez de archivos aislados.","Un flux traÃ§able plutÃ´t que des fichiers isolÃ©s.","Un flusso tracciabile invece di file isolati.","Un flux trasabil Ã®n locul fiÈ™ierelor izolate.","ç”¨å¯è¿½æº¯æµç¨‹æ›¿ä»£å­¤ç«‹æ–‡ä»¶ã€‚"]],["proofflow.system.lead",["ProofFlow strukturiert den Weg von einem Vorgang bis zu einem Ã¼berprÃ¼fbaren Ergebnis.","ProofFlow structures the path from an event to a verifiable result.","ProofFlow bir olaydan doÄŸrulanabilir sonuca giden yolu yapÄ±landÄ±rÄ±r.","ProofFlow estructura el camino desde un proceso hasta un resultado verificable.","ProofFlow structure le chemin dâ€™un Ã©vÃ©nement jusquâ€™Ã  un rÃ©sultat vÃ©rifiable.","ProofFlow struttura il percorso da un evento a un risultato verificabile.","ProofFlow structureazÄƒ drumul de la un eveniment la un rezultat verificabil.","ProofFlow å°†ä¸€ä¸ªäº‹ä»¶åˆ°å¯éªŒè¯ç»“æžœçš„è·¯å¾„ç»“æž„åŒ–ã€‚"]],["proofflow.system.job.title",["Job","Job","Ä°ÅŸ","Trabajo","TÃ¢che","AttivitÃ ","SarcinÄƒ","ä»»åŠ¡"]],["proofflow.system.job.text",["Der Vorgang erhÃ¤lt einen klaren Kontext und Ausgangspunkt.","The event receives a clear context and starting point.","Olay aÃ§Ä±k bir baÄŸlam ve baÅŸlangÄ±Ã§ noktasÄ± kazanÄ±r.","El proceso recibe un contexto y punto de partida claros.","Lâ€™Ã©vÃ©nement reÃ§oit un contexte et un point de dÃ©part clairs.","Lâ€™evento riceve un contesto e un punto di partenza chiari.","Evenimentul primeÈ™te un context È™i un punct de pornire clar.","äº‹ä»¶èŽ·å¾—æ¸…æ™°çš„ä¸Šä¸‹æ–‡ä¸Žèµ·ç‚¹ã€‚"]],["proofflow.system.proof.title",["Proof","Proof","KanÄ±t","Prueba","Preuve","Prova","DovadÄƒ","è¯æ˜Ž"]],["proofflow.system.proof.text",["Relevante Nachweise werden dem Vorgang zugeordnet.","Relevant evidence is assigned to the event.","Ä°lgili kanÄ±tlar olaya atanÄ±r.","Las pruebas relevantes se asignan al proceso.","Les preuves pertinentes sont rattachÃ©es Ã  lâ€™Ã©vÃ©nement.","Le prove rilevanti vengono associate allâ€™evento.","Dovezile relevante sunt asociate evenimentului.","ç›¸å…³è¯æ˜Žè¢«å…³è”åˆ°è¯¥äº‹ä»¶ã€‚"]],["proofflow.system.sign.title",["Sign","Sign","Ä°mza","Firma","Signer","Firma","Semnare","ç­¾å"]],["proofflow.system.sign.text",["BestÃ¤tigung oder Signatur wird mit IdentitÃ¤t verbunden.","Confirmation or signature is linked to identity.","Onay veya imza kimlikle baÄŸlanÄ±r.","La confirmaciÃ³n o firma se vincula a la identidad.","La confirmation ou signature est liÃ©e Ã  lâ€™identitÃ©.","La conferma o firma viene collegata allâ€™identitÃ .","Confirmarea sau semnÄƒtura este legatÄƒ de identitate.","ç¡®è®¤æˆ–ç­¾åä¸Žèº«ä»½å…³è”ã€‚"]],["proofflow.system.audit.title",["Audit","Audit","Denetim","AuditorÃ­a","Audit","Audit","Audit","å®¡è®¡"]],["proofflow.system.audit.text",["Relevante ZustandsÃ¤nderungen bleiben nachvollziehbar.","Relevant state changes remain traceable.","Ä°lgili durum deÄŸiÅŸiklikleri izlenebilir kalÄ±r.","Los cambios de estado relevantes siguen siendo trazables.","Les changements dâ€™Ã©tat pertinents restent traÃ§ables.","I cambiamenti di stato rilevanti restano tracciabili.","ModificÄƒrile relevante de stare rÄƒmÃ¢n trasabile.","ç›¸å…³çŠ¶æ€å˜åŒ–ä¿æŒå¯è¿½æº¯ã€‚"]],["proofflow.system.export.title",["Export","Export","DÄ±ÅŸa Aktarma","ExportaciÃ³n","Export","Esportazione","Export","å¯¼å‡º"]],["proofflow.system.export.text",["Der dokumentierte Ablauf kann strukturiert ausgegeben werden.","The documented workflow can be exported in a structured way.","Belgelenen akÄ±ÅŸ yapÄ±landÄ±rÄ±lmÄ±ÅŸ biÃ§imde dÄ±ÅŸa aktarÄ±labilir.","El flujo documentado puede exportarse de forma estructurada.","Le flux documentÃ© peut Ãªtre exportÃ© de maniÃ¨re structurÃ©e.","Il flusso documentato puÃ² essere esportato in modo strutturato.","Fluxul documentat poate fi exportat structurat.","è®°å½•çš„æµç¨‹å¯ä»¥ç»“æž„åŒ–å¯¼å‡ºã€‚"]],["proofflow.trust.eyebrow",["PROOF & TRUST","PROOF & TRUST","KANIT & GÃœVEN","PRUEBA & CONFIANZA","PREUVE & CONFIANCE","PROVA & FIDUCIA","DOVADÄ‚ & ÃŽNCREDERE","è¯æ˜Žä¸Žä¿¡ä»»"]],["proofflow.trust.title",["Ein Nachweis ist mehr als ein Foto.","Evidence is more than a photo.","KanÄ±t bir fotoÄŸraftan fazlasÄ±dÄ±r.","Una prueba es mÃ¡s que una foto.","Une preuve est plus quâ€™une photo.","Una prova Ã¨ piÃ¹ di una foto.","O dovadÄƒ este mai mult decÃ¢t o fotografie.","è¯æ˜Žä¸åªæ˜¯ä¸€å¼ ç…§ç‰‡ã€‚"]],["proofflow.trust.lead",["Entscheidend ist der Zusammenhang zwischen Herkunft, Zeitpunkt, IdentitÃ¤t und Prozess.","What matters is the relationship between provenance, time, identity and process.","Ã–nemli olan kaynak, zaman, kimlik ve sÃ¼reÃ§ arasÄ±ndaki iliÅŸkidir.","Lo decisivo es la relaciÃ³n entre procedencia, tiempo, identidad y proceso.","Lâ€™essentiel est la relation entre provenance, temps, identitÃ© et processus.","Conta il rapporto tra provenienza, tempo, identitÃ  e processo.","ConteazÄƒ relaÈ›ia dintre provenienÈ›Äƒ, timp, identitate È™i proces.","å…³é”®æ˜¯æ¥æºã€æ—¶é—´ã€èº«ä»½ä¸Žæµç¨‹ä¹‹é—´çš„å…³ç³»ã€‚"]],["proofflow.trust.context.title",["Context","Context","BaÄŸlam","Contexto","Contexte","Contesto","Context","ä¸Šä¸‹æ–‡"]],["proofflow.trust.context.text",["Zu welchem Vorgang gehÃ¶rt der Nachweis?","Which event does the evidence belong to?","KanÄ±t hangi olaya ait?","Â¿A quÃ© proceso pertenece la prueba?","Ã€ quel Ã©vÃ©nement appartient la preuve ?","A quale evento appartiene la prova?","CÄƒrui eveniment Ã®i aparÈ›ine dovada?","è¯¥è¯æ˜Žå±žäºŽå“ªä¸ªäº‹ä»¶ï¼Ÿ"]],["proofflow.trust.identity.title",["Identity","Identity","Kimlik","Identidad","IdentitÃ©","IdentitÃ ","Identitate","èº«ä»½"]],["proofflow.trust.identity.text",["Wer hat dokumentiert, bestÃ¤tigt oder gehandelt?","Who documented, confirmed or acted?","Kim belgeledi, onayladÄ± veya hareket etti?","Â¿QuiÃ©n documentÃ³, confirmÃ³ o actuÃ³?","Qui a documentÃ©, confirmÃ© ou agi ?","Chi ha documentato, confermato o agito?","Cine a documentat, confirmat sau acÈ›ionat?","è°è¿›è¡Œäº†è®°å½•ã€ç¡®è®¤æˆ–æ“ä½œï¼Ÿ"]],["proofflow.trust.time.title",["Time","Time","Zaman","Tiempo","Temps","Tempo","Timp","æ—¶é—´"]],["proofflow.trust.time.text",["Wann entstand der relevante Zustand oder Nachweis?","When did the relevant state or evidence arise?","Ä°lgili durum veya kanÄ±t ne zaman oluÅŸtu?","Â¿CuÃ¡ndo surgiÃ³ el estado o la prueba relevante?","Quand lâ€™Ã©tat ou la preuve pertinente est-il apparu ?","Quando Ã¨ nato lo stato o la prova rilevante?","CÃ¢nd a apÄƒrut starea sau dovada relevantÄƒ?","ç›¸å…³çŠ¶æ€æˆ–è¯æ˜Žä½•æ—¶äº§ç”Ÿï¼Ÿ"]],["proofflow.trust.audit.title",["Audit","Audit","Denetim","AuditorÃ­a","Audit","Audit","Audit","å®¡è®¡"]],["proofflow.trust.audit.text",["Ist die Entwicklung des Vorgangs spÃ¤ter nachvollziehbar?","Can the development of the event be traced later?","OlayÄ±n geliÅŸimi daha sonra izlenebilir mi?","Â¿Puede rastrearse despuÃ©s la evoluciÃ³n del proceso?","Lâ€™Ã©volution de lâ€™Ã©vÃ©nement peut-elle Ãªtre retracÃ©e ensuite ?","Lâ€™evoluzione dellâ€™evento puÃ² essere ricostruita in seguito?","Poate fi urmÄƒritÄƒ ulterior evoluÈ›ia evenimentului?","ä¹‹åŽèƒ½å¦è¿½æº¯è¯¥äº‹ä»¶çš„å‘å±•è¿‡ç¨‹ï¼Ÿ"]],["proofflow.pilot.eyebrow",["PILOT","PILOT","PÄ°LOT","PILOT","PILOT","PILOT","PILOT","PILOT"]],["proofflow.pilot.title",["ProofFlow wird an einem realen Prozess geprÃ¼ft.","ProofFlow is tested on a real process.","ProofFlow gerÃ§ek bir sÃ¼reÃ§ Ã¼zerinde test edilir.","ProofFlow se prueba en un proceso real.","ProofFlow est testÃ© sur un processus rÃ©el.","ProofFlow viene testato su un processo reale.","ProofFlow este testat pe un proces real.","ProofFlow åœ¨çŽ°å®žæµç¨‹ä¸­è¿›è¡Œæµ‹è¯•ã€‚"]],["proofflow.pilot.text",["FÃ¼r einen Pilot wird ein konkreter Vorgang ausgewÃ¤hlt, strukturiert und mit den benÃ¶tigten Nachweis- und Audit-Schritten abgebildet.","For a pilot, a concrete event is selected, structured and mapped with the required evidence and audit steps.","Pilot iÃ§in belirli bir olay seÃ§ilir, yapÄ±landÄ±rÄ±lÄ±r ve gerekli kanÄ±t ve denetim adÄ±mlarÄ±yla modellenir.","Para un pilot se selecciona un proceso concreto, se estructura y se representa con los pasos de prueba y auditorÃ­a necesarios.","Pour un pilot, un Ã©vÃ©nement concret est choisi, structurÃ© et modÃ©lisÃ© avec les Ã©tapes de preuve et dâ€™audit nÃ©cessaires.","Per un pilot viene selezionato un evento concreto, strutturato e rappresentato con i passaggi di prova e audit necessari.","Pentru un pilot este ales un eveniment concret, structurat È™i modelat cu paÈ™ii necesari de dovadÄƒ È™i audit.","Pilot ä¼šé€‰æ‹©ä¸€ä¸ªå…·ä½“äº‹ä»¶ï¼Œå¯¹å…¶ç»“æž„åŒ–ï¼Œå¹¶æ˜ å°„æ‰€éœ€çš„è¯æ˜Žä¸Žå®¡è®¡æ­¥éª¤ã€‚"]],["proofflow.pilot.request",["Pilot anfragen","Request Pilot","Pilot talep et","Solicitar Pilot","Demander un Pilot","Richiedi Pilot","SolicitÄƒ Pilot","ç”³è¯· Pilot"]],["proofflow.pilot.email",["E-Mail senden","Send email","E-posta gÃ¶nder","Enviar correo","Envoyer un e-mail","Invia e-mail","Trimite e-mail","å‘é€é‚®ä»¶"]],["proofflow.pilot.phase1",["PHASE 01","PHASE 01","AÅžAMA 01","FASE 01","PHASE 01","FASE 01","FAZA 01","é˜¶æ®µ 01"]],["proofflow.pilot.analysis",["ANALYSE","ANALYSIS","ANALÄ°Z","ANÃLISIS","ANALYSE","ANALISI","ANALIZÄ‚","åˆ†æž"]],["proofflow.pilot.phase2",["PHASE 02","PHASE 02","AÅžAMA 02","FASE 02","PHASE 02","FASE 02","FAZA 02","é˜¶æ®µ 02"]],["proofflow.pilot.model",["MODEL","MODEL","MODEL","MODELO","MODÃˆLE","MODELLO","MODEL","æ¨¡åž‹"]],["proofflow.pilot.phase3",["PHASE 03","PHASE 03","AÅžAMA 03","FASE 03","PHASE 03","FASE 03","FAZA 03","é˜¶æ®µ 03"]],["proofflow.pilot.pilot",["PILOT","PILOT","PÄ°LOT","PILOT","PILOT","PILOT","PILOT","PILOT"]],["proofflow.pilot.phase4",["PHASE 04","PHASE 04","AÅžAMA 04","FASE 04","PHASE 04","FASE 04","FAZA 04","é˜¶æ®µ 04"]],["proofflow.pilot.review",["REVIEW","REVIEW","Ä°NCELEME","REVISIÃ“N","REVUE","REVISIONE","REVIZUIRE","è¯„å®¡"]],["proofflow.core.eyebrow",["ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE","ZALâ€™THERA CORE"]],["proofflow.core.title",["ProofFlow nutzt denselben Vertrauenskern.","ProofFlow uses the same trust core.","ProofFlow aynÄ± gÃ¼ven Ã§ekirdeÄŸini kullanÄ±r.","ProofFlow utiliza el mismo nÃºcleo de confianza.","ProofFlow utilise le mÃªme noyau de confiance.","ProofFlow usa lo stesso core di fiducia.","ProofFlow foloseÈ™te acelaÈ™i nucleu de Ã®ncredere.","ProofFlow ä½¿ç”¨åŒä¸€ä¸ªä¿¡ä»»æ ¸å¿ƒã€‚"]],["proofflow.core.text",["IdentitÃ¤t, Kontext, Nachweis, Audit und kontrollierte AusfÃ¼hrung bleiben Teil derselben ZALâ€™THERA-Architektur.","Identity, context, evidence, audit and controlled execution remain part of the same ZALâ€™THERA architecture.","Kimlik, baÄŸlam, kanÄ±t, denetim ve kontrollÃ¼ yÃ¼rÃ¼tme aynÄ± ZALâ€™THERA mimarisinin parÃ§asÄ± olarak kalÄ±r.","Identidad, contexto, prueba, auditorÃ­a y ejecuciÃ³n controlada siguen formando parte de la misma arquitectura ZALâ€™THERA.","IdentitÃ©, contexte, preuve, audit et exÃ©cution contrÃ´lÃ©e restent dans la mÃªme architecture ZALâ€™THERA.","IdentitÃ , contesto, prova, audit ed esecuzione controllata restano parte della stessa architettura ZALâ€™THERA.","Identitatea, contextul, dovada, auditul È™i execuÈ›ia controlatÄƒ rÄƒmÃ¢n parte din aceeaÈ™i arhitecturÄƒ ZALâ€™THERA.","èº«ä»½ã€ä¸Šä¸‹æ–‡ã€è¯æ˜Žã€å®¡è®¡ä¸Žå—æŽ§æ‰§è¡Œä»å±žäºŽåŒä¸€ ZALâ€™THERA æž¶æž„ã€‚"]],["proofflow.contact.title",["ProofFlow Pilot anfragen","Request a ProofFlow pilot","ProofFlow pilot talep et","Solicitar un pilot de ProofFlow","Demander un pilot ProofFlow","Richiedi un pilot ProofFlow","SolicitÄƒ un pilot ProofFlow","ç”³è¯· ProofFlow Pilot"]],["proofflow.contact.text",["Beschreibe kurz den Prozess, der nachvollziehbarer werden soll.","Briefly describe the process that should become more traceable.","Daha izlenebilir hale gelmesi gereken sÃ¼reci kÄ±saca aÃ§Ä±klayÄ±n.","Describe brevemente el proceso que debe ser mÃ¡s trazable.","DÃ©crivez briÃ¨vement le processus qui doit devenir plus traÃ§able.","Descrivi brevemente il processo che deve diventare piÃ¹ tracciabile.","Descrie pe scurt procesul care trebuie sÄƒ devinÄƒ mai trasabil.","ç®€è¦æè¿°éœ€è¦å˜å¾—æ›´å¯è¿½æº¯çš„æµç¨‹ã€‚"]],["proofflow.contact.namePlaceholder",["Ihr Name","Your name","AdÄ±nÄ±z","Su nombre","Votre nom","Il tuo nome","Numele dvs.","æ‚¨çš„å§“å"]],["proofflow.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["proofflow.contact.messagePlaceholder",["Welcher Prozess soll nachvollziehbarer werden?","Which process should become more traceable?","Hangi sÃ¼reÃ§ daha izlenebilir olmalÄ±?","Â¿QuÃ© proceso deberÃ­a ser mÃ¡s trazable?","Quel processus doit devenir plus traÃ§able ?","Quale processo dovrebbe diventare piÃ¹ tracciabile?","Ce proces ar trebui sÄƒ devinÄƒ mai trasabil?","å“ªä¸ªæµç¨‹éœ€è¦å˜å¾—æ›´å¯è¿½æº¯ï¼Ÿ"]],["proofflow.contact.send",["Anfrage senden","Send request","Talep gÃ¶nder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","å‘é€ç”³è¯·"]],["proofflow.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","GÃ¶ndererek ÅŸunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptaÈ›i","æäº¤å³è¡¨ç¤ºæ‚¨æŽ¥å—æˆ‘ä»¬çš„"]],["shiftlog.hero.kicker",["ZALâ€™THERA INDUSTRY","ZALâ€™THERA INDUSTRY","ZALâ€™THERA ENDÃœSTRÄ°","ZALâ€™THERA INDUSTRIA","ZALâ€™THERA INDUSTRIE","ZALâ€™THERA INDUSTRIA","ZALâ€™THERA INDUSTRIE","ZALâ€™THERA å·¥ä¸š"]],["shiftlog.hero.title",["Shift handover.<br>Without information loss.","Shift handover.<br>Without information loss.","Vardiya devri.<br>Bilgi kaybÄ± olmadan.","Relevo de turno.<br>Sin pÃ©rdida de informaciÃ³n.","Transmission de poste.<br>Sans perte dâ€™information.","Passaggio turno.<br>Senza perdita di informazioni.","Predare de schimb.<br>FÄƒrÄƒ pierdere de informaÈ›ii.","ç­æ¬¡äº¤æŽ¥ã€‚<br>ä¸ä¸¢å¤±ä¿¡æ¯ã€‚"]],["shiftlog.hero.lead",["ShiftLog macht operative ZustÃ¤nde, offene Punkte und Verantwortlichkeiten Ã¼ber Schichtgrenzen hinweg nachvollziehbar.","ShiftLog makes operational states, open points and responsibilities traceable across shift boundaries.","ShiftLog operasyonel durumlarÄ±, aÃ§Ä±k noktalarÄ± ve sorumluluklarÄ± vardiyalar arasÄ±nda izlenebilir kÄ±lar.","ShiftLog hace trazables los estados operativos, puntos abiertos y responsabilidades entre turnos.","ShiftLog rend traÃ§ables les Ã©tats opÃ©rationnels, points ouverts et responsabilitÃ©s entre les postes.","ShiftLog rende tracciabili stati operativi, punti aperti e responsabilitÃ  tra i turni.","ShiftLog face trasabile stÄƒrile operaÈ›ionale, punctele deschise È™i responsabilitÄƒÈ›ile Ã®ntre schimburi.","ShiftLog è®©è¿è¡ŒçŠ¶æ€ã€æœªå†³äº‹é¡¹ä¸Žè´£ä»»è·¨ç­æ¬¡ä¿æŒå¯è¿½æº¯ã€‚"]],["shiftlog.hero.understand",["System verstehen","Understand system","Sistemi anla","Entender sistema","Comprendre le systÃ¨me","Comprendi il sistema","ÃŽnÈ›elege sistemul","ç†è§£ç³»ç»Ÿ"]],["shiftlog.hero.interest",["Interesse melden","Register interest","Ä°lgi bildir","Mostrar interÃ©s","Signaler son intÃ©rÃªt","Segnala interesse","ExprimÄƒ interesul","è¡¨è¾¾å…´è¶£"]],["shiftlog.hero.handover",["HANDOVER","HANDOVER","DEVÄ°R","RELEVO","TRANSMISSION","PASSAGGIO","PREDARE","äº¤æŽ¥"]],["shiftlog.hero.state",["STATE","STATE","DURUM","ESTADO","Ã‰TAT","STATO","STARE","çŠ¶æ€"]],["shiftlog.hero.responsibility",["RESPONSIBILITY","RESPONSIBILITY","SORUMLULUK","RESPONSABILIDAD","RESPONSABILITÃ‰","RESPONSABILITÃ€","RESPONSABILITATE","è´£ä»»"]],["shiftlog.hero.traceability",["TRACEABILITY","TRACEABILITY","Ä°ZLENEBÄ°LÄ°RLÄ°K","TRAZABILIDAD","TRAÃ‡ABILITÃ‰","TRACCIABILITÃ€","TRASABILITATE","å¯è¿½æº¯æ€§"]],["shiftlog.state.label",["SHIFT STATE","SHIFT STATE","VARDÄ°YA DURUMU","ESTADO DEL TURNO","Ã‰TAT DU POSTE","STATO DEL TURNO","STAREA SCHIMBULUI","ç­æ¬¡çŠ¶æ€"]],["shiftlog.state.status",["STATUS","STATUS","DURUM","ESTADO","STATUT","STATO","STARE","çŠ¶æ€"]],["shiftlog.state.capture",["CAPTURE","CAPTURE","KAYIT","CAPTURA","CAPTURE","ACQUISIZIONE","CAPTURÄ‚","è®°å½•"]],["shiftlog.state.openPoints",["OPEN POINTS","OPEN POINTS","AÃ‡IK NOKTALAR","PUNTOS ABIERTOS","POINTS OUVERTS","PUNTI APERTI","PUNCTE DESCHISE","æœªå†³äº‹é¡¹"]],["shiftlog.state.visible",["VISIBLE","VISIBLE","GÃ–RÃœNÃœR","VISIBLE","VISIBLE","VISIBILE","VIZIBIL","å¯è§"]],["shiftlog.state.handover",["HANDOVER","HANDOVER","DEVÄ°R","RELEVO","TRANSMISSION","PASSAGGIO","PREDARE","äº¤æŽ¥"]],["shiftlog.state.structured",["STRUCTURED","STRUCTURED","YAPILANDIRILMIÅž","ESTRUCTURADO","STRUCTURÃ‰","STRUTTURATO","STRUCTURAT","å·²ç»“æž„åŒ–"]],["shiftlog.state.responsibility",["RESPONSIBILITY","RESPONSIBILITY","SORUMLULUK","RESPONSABILIDAD","RESPONSABILITÃ‰","RESPONSABILITÃ€","RESPONSABILITATE","è´£ä»»"]],["shiftlog.state.assigned",["ASSIGNED","ASSIGNED","ATANDI","ASIGNADA","ATTRIBUÃ‰E","ASSEGNATA","ATRIBUITÄ‚","å·²åˆ†é…"]],["shiftlog.state.history",["HISTORY","HISTORY","GEÃ‡MÄ°Åž","HISTORIAL","HISTORIQUE","STORICO","ISTORIC","åŽ†å²"]],["shiftlog.state.traceable",["TRACEABLE","TRACEABLE","Ä°ZLENEBÄ°LÄ°R","TRAZABLE","TRAÃ‡ABLE","TRACCIABILE","TRASABIL","å¯è¿½æº¯"]],["shiftlog.problem.eyebrow",["SHIFT REALITY","SHIFT REALITY","VARDÄ°YA GERÃ‡EÄžÄ°","REALIDAD DEL TURNO","RÃ‰ALITÃ‰ DU POSTE","REALTÃ€ DEL TURNO","REALITATEA SCHIMBULUI","ç­æ¬¡çŽ°å®ž"]],["shiftlog.problem.title",["Information darf nicht an der Schichtgrenze enden.","Information must not stop at the shift boundary.","Bilgi vardiya sÄ±nÄ±rÄ±nda bitmemeli.","La informaciÃ³n no debe terminar en el cambio de turno.","Lâ€™information ne doit pas sâ€™arrÃªter au changement de poste.","Le informazioni non devono fermarsi al cambio turno.","InformaÈ›ia nu trebuie sÄƒ se opreascÄƒ la schimbul de turÄƒ.","ä¿¡æ¯ä¸åº”åœ¨ç­æ¬¡è¾¹ç•Œç»ˆæ­¢ã€‚"]],["shiftlog.problem.lead",["Offene Punkte, MaschinenzustÃ¤nde und Verantwortlichkeiten verlieren schnell Kontext, wenn Ãœbergaben nur mÃ¼ndlich oder unstrukturiert erfolgen.","Open points, machine states and responsibilities quickly lose context when handovers are only verbal or unstructured.","AÃ§Ä±k noktalar, makine durumlarÄ± ve sorumluluklar devirler yalnÄ±zca sÃ¶zlÃ¼ veya yapÄ±landÄ±rÄ±lmamÄ±ÅŸ olduÄŸunda hÄ±zla baÄŸlam kaybeder.","Puntos abiertos, estados de mÃ¡quina y responsabilidades pierden contexto rÃ¡pidamente cuando los relevos son solo verbales o no estructurados.","Points ouverts, Ã©tats machine et responsabilitÃ©s perdent vite leur contexte lorsque les transmissions sont seulement orales ou non structurÃ©es.","Punti aperti, stati macchina e responsabilitÃ  perdono rapidamente contesto quando i passaggi sono solo verbali o non strutturati.","Punctele deschise, stÄƒrile utilajelor È™i responsabilitÄƒÈ›ile pierd rapid context cÃ¢nd predÄƒrile sunt doar verbale sau nestructurate.","å½“äº¤æŽ¥ä»…é å£å¤´æˆ–ç¼ºä¹ç»“æž„æ—¶ï¼Œæœªå†³äº‹é¡¹ã€æœºå™¨çŠ¶æ€ä¸Žè´£ä»»ä¼šè¿…é€Ÿå¤±åŽ»ä¸Šä¸‹æ–‡ã€‚"]],["shiftlog.problem.overlooked.title",["Offene Punkte werden Ã¼bersehen","Open points are overlooked","AÃ§Ä±k noktalar gÃ¶zden kaÃ§ar","Se pasan por alto puntos abiertos","Des points ouverts sont oubliÃ©s","I punti aperti vengono trascurati","Punctele deschise sunt omise","æœªå†³äº‹é¡¹è¢«å¿½ç•¥"]],["shiftlog.problem.overlooked.text",["Was nicht klar Ã¼bergeben wird, kann in der nÃ¤chsten Schicht verschwinden.","What is not handed over clearly can disappear in the next shift.","AÃ§Ä±kÃ§a devredilmeyen ÅŸey sonraki vardiyada kaybolabilir.","Lo que no se entrega con claridad puede desaparecer en el siguiente turno.","Ce qui nâ€™est pas transmis clairement peut disparaÃ®tre au poste suivant.","CiÃ² che non viene passato chiaramente puÃ² perdersi nel turno successivo.","Ceea ce nu este predat clar poate dispÄƒrea Ã®n schimbul urmÄƒtor.","æœªè¢«æ¸…æ™°äº¤æŽ¥çš„ä¿¡æ¯å¯èƒ½åœ¨ä¸‹ä¸€ç­æ¬¡ä¸­æ¶ˆå¤±ã€‚"]],["shiftlog.problem.states.title",["ZustÃ¤nde werden uneindeutig","States become ambiguous","Durumlar belirsizleÅŸir","Los estados se vuelven ambiguos","Les Ã©tats deviennent ambigus","Gli stati diventano ambigui","StÄƒrile devin ambigue","çŠ¶æ€å˜å¾—æ¨¡ç³Š"]],["shiftlog.problem.states.text",["Ohne strukturierten Status ist schwer zu erkennen, was offen, Ã¼bernommen oder erledigt ist.","Without structured status, it is hard to see what is open, taken over or completed.","YapÄ±landÄ±rÄ±lmÄ±ÅŸ durum olmadan neyin aÃ§Ä±k, devralÄ±nmÄ±ÅŸ veya tamamlanmÄ±ÅŸ olduÄŸunu gÃ¶rmek zordur.","Sin estado estructurado es difÃ­cil ver quÃ© estÃ¡ abierto, asumido o completado.","Sans statut structurÃ©, il est difficile de voir ce qui est ouvert, repris ou terminÃ©.","Senza stato strutturato Ã¨ difficile capire cosa Ã¨ aperto, preso in carico o completato.","FÄƒrÄƒ stare structuratÄƒ este greu de vÄƒzut ce este deschis, preluat sau finalizat.","æ²¡æœ‰ç»“æž„åŒ–çŠ¶æ€ï¼Œå°±éš¾ä»¥çœ‹æ¸…ä»€ä¹ˆæ˜¯æœªå†³ã€å·²æŽ¥æ‰‹æˆ–å·²å®Œæˆã€‚"]],["shiftlog.problem.context.title",["Kontext geht verloren","Context is lost","BaÄŸlam kaybolur","Se pierde el contexto","Le contexte se perd","Il contesto si perde","Contextul se pierde","ä¸Šä¸‹æ–‡ä¸¢å¤±"]],["shiftlog.problem.context.text",["Maschine, Bereich, Zeitpunkt und Verantwortlichkeit mÃ¼ssen zusammen sichtbar bleiben.","Machine, area, time and responsibility must remain visible together.","Makine, alan, zaman ve sorumluluk birlikte gÃ¶rÃ¼nÃ¼r kalmalÄ±.","MÃ¡quina, Ã¡rea, momento y responsabilidad deben seguir visibles juntos.","Machine, zone, moment et responsabilitÃ© doivent rester visibles ensemble.","Macchina, area, tempo e responsabilitÃ  devono restare visibili insieme.","Utilajul, zona, timpul È™i responsabilitatea trebuie sÄƒ rÄƒmÃ¢nÄƒ vizibile Ã®mpreunÄƒ.","æœºå™¨ã€åŒºåŸŸã€æ—¶é—´ä¸Žè´£ä»»å¿…é¡»ä¸€èµ·ä¿æŒå¯è§ã€‚"]],["shiftlog.system.eyebrow",["SHIFTLOG SYSTEM","SHIFTLOG SYSTEM","SHIFTLOG SÄ°STEMÄ°","SISTEMA SHIFTLOG","SYSTÃˆME SHIFTLOG","SISTEMA SHIFTLOG","SISTEM SHIFTLOG","SHIFTLOG ç³»ç»Ÿ"]],["shiftlog.system.title",["Ãœbergabe wird zu einem nachvollziehbaren Prozess.","Handover becomes a traceable process.","Devir izlenebilir bir sÃ¼rece dÃ¶nÃ¼ÅŸÃ¼r.","El relevo se convierte en un proceso trazable.","La transmission devient un processus traÃ§able.","Il passaggio diventa un processo tracciabile.","Predarea devine un proces trasabil.","äº¤æŽ¥å˜æˆå¯è¿½æº¯æµç¨‹ã€‚"]],["shiftlog.system.lead",["ShiftLog strukturiert operative Informationen so, dass Zustand, Ãœbergabe und Verantwortung Ã¼ber Schichten hinweg sichtbar bleiben.","ShiftLog structures operational information so that state, handover and responsibility remain visible across shifts.","ShiftLog operasyonel bilgiyi, durum, devir ve sorumluluÄŸun vardiyalar boyunca gÃ¶rÃ¼nÃ¼r kalacaÄŸÄ± ÅŸekilde yapÄ±landÄ±rÄ±r.","ShiftLog estructura la informaciÃ³n operativa para que estado, relevo y responsabilidad sigan visibles entre turnos.","ShiftLog structure les informations opÃ©rationnelles pour que lâ€™Ã©tat, la transmission et la responsabilitÃ© restent visibles entre les postes.","ShiftLog struttura le informazioni operative affinchÃ© stato, passaggio e responsabilitÃ  restino visibili tra i turni.","ShiftLog structureazÄƒ informaÈ›ia operaÈ›ionalÄƒ astfel Ã®ncÃ¢t starea, predarea È™i responsabilitatea sÄƒ rÄƒmÃ¢nÄƒ vizibile Ã®ntre schimburi.","ShiftLog å¯¹è¿è¡Œä¿¡æ¯è¿›è¡Œç»“æž„åŒ–ï¼Œä½¿çŠ¶æ€ã€äº¤æŽ¥ä¸Žè´£ä»»è·¨ç­æ¬¡ä¿æŒå¯è§ã€‚"]],["shiftlog.system.capture.title",["Capture","Capture","KayÄ±t","Captura","Capture","Acquisizione","CapturÄƒ","è®°å½•"]],["shiftlog.system.capture.text",["Relevante ZustÃ¤nde und offene Punkte werden strukturiert erfasst.","Relevant states and open points are captured in a structured way.","Ä°lgili durumlar ve aÃ§Ä±k noktalar yapÄ±landÄ±rÄ±lmÄ±ÅŸ biÃ§imde kaydedilir.","Los estados relevantes y puntos abiertos se registran de forma estructurada.","Les Ã©tats pertinents et points ouverts sont saisis de maniÃ¨re structurÃ©e.","Stati rilevanti e punti aperti vengono registrati in modo strutturato.","StÄƒrile relevante È™i punctele deschise sunt capturate structurat.","ç›¸å…³çŠ¶æ€ä¸Žæœªå†³äº‹é¡¹è¢«ç»“æž„åŒ–è®°å½•ã€‚"]],["shiftlog.system.state.title",["State","State","Durum","Estado","Ã‰tat","Stato","Stare","çŠ¶æ€"]],["shiftlog.system.state.text",["Der aktuelle operative Zustand bleibt sichtbar.","The current operational state remains visible.","Mevcut operasyonel durum gÃ¶rÃ¼nÃ¼r kalÄ±r.","El estado operativo actual sigue visible.","Lâ€™Ã©tat opÃ©rationnel actuel reste visible.","Lo stato operativo attuale resta visibile.","Starea operaÈ›ionalÄƒ curentÄƒ rÄƒmÃ¢ne vizibilÄƒ.","å½“å‰è¿è¡ŒçŠ¶æ€ä¿æŒå¯è§ã€‚"]],["shiftlog.system.handover.title",["Handover","Handover","Devir","Relevo","Transmission","Passaggio","Predare","äº¤æŽ¥"]],["shiftlog.system.handover.text",["Offene Punkte werden gezielt an die nÃ¤chste Schicht Ã¼bergeben.","Open points are deliberately handed over to the next shift.","AÃ§Ä±k noktalar bilinÃ§li biÃ§imde sonraki vardiyaya devredilir.","Los puntos abiertos se entregan de forma intencional al siguiente turno.","Les points ouverts sont transmis explicitement au poste suivant.","I punti aperti vengono passati intenzionalmente al turno successivo.","Punctele deschise sunt predate explicit schimbului urmÄƒtor.","æœªå†³äº‹é¡¹è¢«æ˜Žç¡®äº¤ç»™ä¸‹ä¸€ç­æ¬¡ã€‚"]],["shiftlog.system.responsibility.title",["Responsibility","Responsibility","Sorumluluk","Responsabilidad","ResponsabilitÃ©","ResponsabilitÃ ","Responsabilitate","è´£ä»»"]],["shiftlog.system.responsibility.text",["ZustÃ¤ndigkeit und Ãœbernahme werden klarer nachvollziehbar.","Responsibility and acceptance become more traceable.","Sorumluluk ve devralma daha aÃ§Ä±k izlenebilir olur.","La responsabilidad y la aceptaciÃ³n se vuelven mÃ¡s trazables.","La responsabilitÃ© et la prise en charge deviennent plus traÃ§ables.","ResponsabilitÃ  e presa in carico diventano piÃ¹ tracciabili.","Responsabilitatea È™i preluarea devin mai trasabile.","è´£ä»»ä¸ŽæŽ¥æ‰‹å˜å¾—æ›´å¯è¿½æº¯ã€‚"]],["shiftlog.system.history.title",["History","History","GeÃ§miÅŸ","Historial","Historique","Storico","Istoric","åŽ†å²"]],["shiftlog.system.history.text",["Relevante Ã„nderungen und Ãœbergaben bleiben spÃ¤ter nachvollziehbar.","Relevant changes and handovers remain traceable later.","Ä°lgili deÄŸiÅŸiklikler ve devirler daha sonra izlenebilir kalÄ±r.","Los cambios y relevos relevantes siguen siendo trazables despuÃ©s.","Les changements et transmissions pertinents restent traÃ§ables ensuite.","Cambiamenti e passaggi rilevanti restano tracciabili in seguito.","ModificÄƒrile È™i predÄƒrile relevante rÄƒmÃ¢n trasabile ulterior.","ç›¸å…³å˜åŒ–ä¸Žäº¤æŽ¥ä¹‹åŽä»å¯è¿½æº¯ã€‚"]],["shiftlog.industry.title",["Teil von ZALâ€™THERA Industry.","Part of ZALâ€™THERA Industry.","ZALâ€™THERA Industryâ€™nin bir parÃ§asÄ±.","Parte de ZALâ€™THERA Industry.","Partie de ZALâ€™THERA Industry.","Parte di ZALâ€™THERA Industry.","Parte din ZALâ€™THERA Industry.","ZALâ€™THERA Industry çš„ä¸€éƒ¨åˆ†ã€‚"]],["shiftlog.industry.text",["ShiftLog ist ein operativer Einstieg in die industrielle ZALâ€™THERA-Architektur.","ShiftLog is an operational entry point into the industrial ZALâ€™THERA architecture.","ShiftLog endÃ¼striyel ZALâ€™THERA mimarisine operasyonel bir giriÅŸ noktasÄ±dÄ±r.","ShiftLog es una entrada operativa a la arquitectura industrial ZALâ€™THERA.","ShiftLog est un point dâ€™entrÃ©e opÃ©rationnel dans lâ€™architecture industrielle ZALâ€™THERA.","ShiftLog Ã¨ un punto di ingresso operativo nellâ€™architettura industriale ZALâ€™THERA.","ShiftLog este un punct operaÈ›ional de intrare Ã®n arhitectura industrialÄƒ ZALâ€™THERA.","ShiftLog æ˜¯è¿›å…¥ ZALâ€™THERA å·¥ä¸šæž¶æž„çš„æ“ä½œå…¥å£ã€‚"]],["shiftlog.industry.view",["Industry ansehen","View Industry","Industryâ€™yi gÃ¶rÃ¼ntÃ¼le","Ver Industry","Voir Industry","Vedi Industry","Vezi Industry","æŸ¥çœ‹ Industry"]],["shiftlog.use.eyebrow",["REAL-WORLD USE","REAL-WORLD USE","GERÃ‡EK DÃœNYA KULLANIMI","USO REAL","USAGE RÃ‰EL","USO REALE","UTILIZARE REALÄ‚","çŽ°å®žä½¿ç”¨"]],["shiftlog.use.title",["FÃ¼r reale Ãœbergaben gebaut.","Built for real handovers.","GerÃ§ek devirler iÃ§in Ã¼retildi.","Construido para relevos reales.","ConÃ§u pour de vraies transmissions.","Costruito per passaggi reali.","Construit pentru predÄƒri reale.","ä¸ºçœŸå®žäº¤æŽ¥è€Œæž„å»ºã€‚"]],["shiftlog.use.text",["ShiftLog soll in klar abgegrenzten betrieblichen AblÃ¤ufen getestet und schrittweise weiterentwickelt werden.","ShiftLog is intended to be tested in clearly defined operational workflows and developed step by step.","ShiftLog aÃ§Ä±kÃ§a tanÄ±mlanmÄ±ÅŸ iÅŸletme akÄ±ÅŸlarÄ±nda test edilip adÄ±m adÄ±m geliÅŸtirilecektir.","ShiftLog estÃ¡ pensado para probarse en flujos operativos claramente definidos y desarrollarse paso a paso.","ShiftLog doit Ãªtre testÃ© dans des flux opÃ©rationnels clairement dÃ©finis et dÃ©veloppÃ© progressivement.","ShiftLog Ã¨ pensato per essere testato in flussi operativi chiaramente definiti e sviluppato passo dopo passo.","ShiftLog este destinat testÄƒrii Ã®n fluxuri operaÈ›ionale clar definite È™i dezvoltÄƒrii treptate.","ShiftLog å°†åœ¨è¾¹ç•Œæ¸…æ™°çš„è¿è¡Œæµç¨‹ä¸­æµ‹è¯•ï¼Œå¹¶é€æ­¥å‘å±•ã€‚"]],["shiftlog.use.interest",["Interesse melden","Register interest","Ä°lgi bildir","Mostrar interÃ©s","Signaler son intÃ©rÃªt","Segnala interesse","ExprimÄƒ interesul","è¡¨è¾¾å…´è¶£"]],["shiftlog.use.email",["E-Mail senden","Send email","E-posta gÃ¶nder","Enviar correo","Envoyer un e-mail","Invia e-mail","Trimite e-mail","å‘é€é‚®ä»¶"]],["shiftlog.use.state1",["STATE 01","STATE 01","DURUM 01","ESTADO 01","Ã‰TAT 01","STATO 01","STARE 01","çŠ¶æ€ 01"]],["shiftlog.use.captured",["CAPTURED","CAPTURED","KAYDEDÄ°LDÄ°","CAPTURADO","SAISI","ACQUISITO","CAPTURAT","å·²è®°å½•"]],["shiftlog.use.state2",["STATE 02","STATE 02","DURUM 02","ESTADO 02","Ã‰TAT 02","STATO 02","STARE 02","çŠ¶æ€ 02"]],["shiftlog.use.open",["OPEN","OPEN","AÃ‡IK","ABIERTO","OUVERT","APERTO","DESCHIS","æœªå†³"]],["shiftlog.use.state3",["STATE 03","STATE 03","DURUM 03","ESTADO 03","Ã‰TAT 03","STATO 03","STARE 03","çŠ¶æ€ 03"]],["shiftlog.use.handedOver",["HANDED OVER","HANDED OVER","DEVREDÄ°LDÄ°","ENTREGADO","TRANSMIS","PASSATO","PREDAT","å·²äº¤æŽ¥"]],["shiftlog.use.state4",["STATE 04","STATE 04","DURUM 04","ESTADO 04","Ã‰TAT 04","STATO 04","STARE 04","çŠ¶æ€ 04"]],["shiftlog.use.resolved",["RESOLVED","RESOLVED","Ã‡Ã–ZÃœLDÃœ","RESUELTO","RÃ‰SOLU","RISOLTO","REZOLVAT","å·²è§£å†³"]],["shiftlog.contact.title",["Interesse an ShiftLog?","Interested in ShiftLog?","ShiftLog ile ilgileniyor musunuz?","Â¿InterÃ©s en ShiftLog?","IntÃ©ressÃ© par ShiftLog ?","Interessato a ShiftLog?","Interesat de ShiftLog?","å¯¹ ShiftLog æ„Ÿå…´è¶£ï¼Ÿ"]],["shiftlog.contact.text",["Beschreibe kurz den betrieblichen Ablauf, in dem Ãœbergaben oder offene Punkte besser strukturiert werden sollen.","Briefly describe the operational workflow in which handovers or open points should be structured better.","Devirlerin veya aÃ§Ä±k noktalarÄ±n daha iyi yapÄ±landÄ±rÄ±lmasÄ± gereken iÅŸletme akÄ±ÅŸÄ±nÄ± kÄ±saca aÃ§Ä±klayÄ±n.","Describe brevemente el flujo operativo en el que los relevos o puntos abiertos deben estructurarse mejor.","DÃ©crivez briÃ¨vement le flux opÃ©rationnel oÃ¹ les transmissions ou points ouverts doivent Ãªtre mieux structurÃ©s.","Descrivi brevemente il flusso operativo in cui passaggi o punti aperti devono essere strutturati meglio.","Descrie pe scurt fluxul operaÈ›ional Ã®n care predÄƒrile sau punctele deschise trebuie structurate mai bine.","ç®€è¦æè¿°éœ€è¦æ›´å¥½ç»“æž„åŒ–äº¤æŽ¥æˆ–æœªå†³äº‹é¡¹çš„è¿è¡Œæµç¨‹ã€‚"]],["shiftlog.contact.namePlaceholder",["Ihr Name","Your name","AdÄ±nÄ±z","Su nombre","Votre nom","Il tuo nome","Numele dvs.","æ‚¨çš„å§“å"]],["shiftlog.contact.emailPlaceholder",["name@firma.de","name@company.com","ad@sirket.com","nombre@empresa.com","nom@entreprise.com","nome@azienda.it","nume@firma.ro","name@company.com"]],["shiftlog.contact.messagePlaceholder",["Wo entstehen heute Informationsverluste bei Ãœbergaben?","Where do information losses occur in handovers today?","BugÃ¼n devirlerde bilgi kaybÄ± nerede oluÅŸuyor?","Â¿DÃ³nde se producen hoy pÃ©rdidas de informaciÃ³n en los relevos?","OÃ¹ se produisent aujourdâ€™hui les pertes dâ€™information lors des transmissions ?","Dove si verificano oggi perdite di informazioni nei passaggi?","Unde apar astÄƒzi pierderi de informaÈ›ii la predÄƒri?","å¦‚ä»Šäº¤æŽ¥ä¸­çš„ä¿¡æ¯ä¸¢å¤±å‘ç”Ÿåœ¨å“ªé‡Œï¼Ÿ"]],["shiftlog.contact.send",["Anfrage senden","Send request","Talep gÃ¶nder","Enviar solicitud","Envoyer la demande","Invia richiesta","Trimite solicitarea","å‘é€ç”³è¯·"]],["shiftlog.contact.privacyPrefix",["Mit dem Absenden akzeptieren Sie unsere","By submitting, you accept our","GÃ¶ndererek ÅŸunu kabul edersiniz:","Al enviar, acepta nuestra","En envoyant, vous acceptez notre","Inviando accetti la nostra","Prin trimitere acceptaÈ›i","æäº¤å³è¡¨ç¤ºæ‚¨æŽ¥å—æˆ‘ä»¬çš„"]],["support.hero.eyebrow",["SUPPORT","SUPPORT","DESTEK","SOPORTE","SUPPORT","SUPPORTO","SUPORT","æ”¯æŒ"]],["support.hero.title",["ZALâ€™THERA Support","ZALâ€™THERA Support","ZALâ€™THERA Destek","Soporte ZALâ€™THERA","Support ZALâ€™THERA","Supporto ZALâ€™THERA","Suport ZALâ€™THERA","ZALâ€™THERA æ”¯æŒ"]],["support.hero.text",["Hilfe zu ZALâ€™THERA Produkten, Systemen und bestehenden Anwendungen.","Help with ZALâ€™THERA products, systems and existing applications.","ZALâ€™THERA Ã¼rÃ¼nleri, sistemleri ve mevcut uygulamalarÄ± iÃ§in yardÄ±m.","Ayuda sobre productos, sistemas y aplicaciones existentes de ZALâ€™THERA.","Aide concernant les produits, systÃ¨mes et applications existantes de ZALâ€™THERA.","Aiuto per prodotti, sistemi e applicazioni esistenti ZALâ€™THERA.","Ajutor pentru produsele, sistemele È™i aplicaÈ›iile existente ZALâ€™THERA.","å…³äºŽ ZALâ€™THERA äº§å“ã€ç³»ç»Ÿä¸ŽçŽ°æœ‰åº”ç”¨çš„å¸®åŠ©ã€‚"]],["support.contact.title",["Kontakt","Contact","Ä°letiÅŸim","Contacto","Contact","Contatto","Contact","è”ç³»"]],["support.contact.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","ç”µå­é‚®ä»¶ï¼š"]],["support.apps.title",["Apps & Systeme","Apps & Systems","Uygulamalar & Sistemler","Apps & Sistemas","Applications & SystÃ¨mes","App & Sistemi","AplicaÈ›ii & Sisteme","åº”ç”¨ä¸Žç³»ç»Ÿ"]],["support.apps.lifeflow",["LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow","LifeFlow"]],["support.apps.easyproof",["EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro","EasyProof / EasyProof Pro"]],["support.apps.lifeshield",["LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield","LifeShield"]],["support.apps.deliveryCore",["Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core","Delivery Core"]],["support.apps.origin",["Origin","Origin","Origin","Origin","Origin","Origin","Origin","Origin"]],["support.apps.other.title",["Andere Produkte oder Systeme","Other products or systems","DiÄŸer Ã¼rÃ¼nler veya sistemler","Otros productos o sistemas","Autres produits ou systÃ¨mes","Altri prodotti o sistemi","Alte produse sau sisteme","å…¶ä»–äº§å“æˆ–ç³»ç»Ÿ"]],["support.apps.other.text",["Nenne bitte den Produkt- oder Systemnamen in deiner Nachricht.","Please include the product or system name in your message.","MesajÄ±nÄ±zda Ã¼rÃ¼n veya sistem adÄ±nÄ± belirtin.","Indica el nombre del producto o sistema en tu mensaje.","Indiquez le nom du produit ou systÃ¨me dans votre message.","Indica il nome del prodotto o sistema nel messaggio.","MenÈ›ioneazÄƒ numele produsului sau sistemului Ã®n mesaj.","è¯·åœ¨æ¶ˆæ¯ä¸­æ³¨æ˜Žäº§å“æˆ–ç³»ç»Ÿåç§°ã€‚"]],["support.message.title",["Damit wir schnell helfen kÃ¶nnen","To help you quickly","HÄ±zlÄ± yardÄ±mcÄ± olabilmemiz iÃ§in","Para poder ayudarte rÃ¡pido","Pour vous aider rapidement","Per poterti aiutare rapidamente","Pentru a te ajuta rapid","ä¸ºäº†æ›´å¿«å¸®åŠ©ä½ "]],["support.message.app",["App oder System nennen","Name the app or system","Uygulama veya sistemi belirtin","Indica la app o el sistema","Indiquez lâ€™application ou le systÃ¨me","Indica app o sistema","MenÈ›ioneazÄƒ aplicaÈ›ia sau sistemul","æ³¨æ˜Žåº”ç”¨æˆ–ç³»ç»Ÿ"]],["support.message.problem",["Problem mÃ¶glichst genau beschreiben","Describe the problem as precisely as possible","Sorunu mÃ¼mkÃ¼n olduÄŸunca ayrÄ±ntÄ±lÄ± aÃ§Ä±klayÄ±n","Describe el problema con la mayor precisiÃ³n posible","DÃ©crivez le problÃ¨me aussi prÃ©cisÃ©ment que possible","Descrivi il problema nel modo piÃ¹ preciso possibile","Descrie problema cÃ¢t mai exact posibil","å°½å¯èƒ½å‡†ç¡®æè¿°é—®é¢˜"]],["support.message.device",["GerÃ¤t und Betriebssystem nennen","Include device and operating system","CihazÄ± ve iÅŸletim sistemini belirtin","Indica dispositivo y sistema operativo","Indiquez lâ€™appareil et le systÃ¨me dâ€™exploitation","Indica dispositivo e sistema operativo","MenÈ›ioneazÄƒ dispozitivul È™i sistemul de operare","æ³¨æ˜Žè®¾å¤‡ä¸Žæ“ä½œç³»ç»Ÿ"]],["support.message.screenshot",["Wenn mÃ¶glich Screenshot anhÃ¤ngen","Attach a screenshot if possible","MÃ¼mkÃ¼nse ekran gÃ¶rÃ¼ntÃ¼sÃ¼ ekleyin","Adjunta una captura si es posible","Ajoutez une capture dâ€™Ã©cran si possible","Allega uno screenshot se possibile","AtaÈ™eazÄƒ o capturÄƒ dacÄƒ este posibil","å¦‚å¯èƒ½è¯·é™„æˆªå›¾"]],["support.responseTime",["Wir antworten so schnell wie mÃ¶glich.","We reply as quickly as possible.","MÃ¼mkÃ¼n olduÄŸunca hÄ±zlÄ± yanÄ±t veririz.","Respondemos lo antes posible.","Nous rÃ©pondons aussi rapidement que possible.","Rispondiamo il prima possibile.","RÄƒspundem cÃ¢t mai repede posibil.","æˆ‘ä»¬ä¼šå°½å¿«å›žå¤ã€‚"]],["support.actions.contact",["Support kontaktieren","Contact support","Destekle iletiÅŸime geÃ§","Contactar soporte","Contacter le support","Contatta il supporto","ContacteazÄƒ suportul","è”ç³»æ”¯æŒ"]],["support.actions.home",["Zur Startseite","Back to home","Ana sayfaya dÃ¶n","Volver al inicio","Retour Ã  lâ€™accueil","Torna alla home","ÃŽnapoi acasÄƒ","è¿”å›žé¦–é¡µ"]],["imprint.hero.eyebrow",["LEGAL","LEGAL","YASAL","LEGAL","JURIDIQUE","LEGALE","LEGAL","æ³•å¾‹"]],["imprint.hero.title",["Impressum","Legal Notice","Yasal Bilgiler","Aviso legal","Mentions lÃ©gales","Note legali","InformaÈ›ii legale","æ³•å¾‹å£°æ˜Ž"]],["imprint.hero.lead",["Rechtliche Anbieterinformationen zu ZALâ€™THERA.","Legal provider information for ZALâ€™THERA.","ZALâ€™THERA iÃ§in yasal saÄŸlayÄ±cÄ± bilgileri.","InformaciÃ³n legal del proveedor de ZALâ€™THERA.","Informations lÃ©gales sur le fournisseur de ZALâ€™THERA.","Informazioni legali sul fornitore ZALâ€™THERA.","InformaÈ›ii legale despre furnizorul ZALâ€™THERA.","ZALâ€™THERA çš„æ³•å¾‹æä¾›è€…ä¿¡æ¯ã€‚"]],["imprint.provider.title",["Angaben gemÃ¤ÃŸ Â§ 5 DDG","Information pursuant to Â§ 5 DDG","Â§ 5 DDG uyarÄ±nca bilgiler","InformaciÃ³n conforme al Â§ 5 DDG","Informations conformÃ©ment au Â§ 5 DDG","Informazioni ai sensi del Â§ 5 DDG","InformaÈ›ii conform Â§ 5 DDG","æ ¹æ®å¾·å›½ DDG ç¬¬ 5 æ¡çš„ä¿¡æ¯"]],["imprint.contact.title",["Kontakt","Contact","Ä°letiÅŸim","Contacto","Contact","Contatto","Contact","è”ç³»"]],["imprint.contact.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","ç”µå­é‚®ä»¶ï¼š"]],["imprint.responsibility.title",["Verantwortlich fÃ¼r den Inhalt","Responsible for content","Ä°Ã§erikten sorumlu","Responsable del contenido","Responsable du contenu","Responsabile dei contenuti","Responsabil pentru conÈ›inut","å†…å®¹è´Ÿè´£äºº"]],["imprint.project.title",["Projekt / Marke","Project / Brand","Proje / Marka","Proyecto / Marca","Projet / Marque","Progetto / Marchio","Proiect / MarcÄƒ","é¡¹ç›® / å“ç‰Œ"]],["imprint.project.text",["ZALâ€™THERA ist ein digitales System fÃ¼r Ordnung, Nachweis, Schutz, Ãœbergabe, Vertrauen und nachvollziehbare Aktionen.","ZALâ€™THERA is a digital system for organization, evidence, protection, handover, trust and traceable actions.","ZALâ€™THERA; dÃ¼zen, kanÄ±t, koruma, devir, gÃ¼ven ve izlenebilir eylemler iÃ§in dijital bir sistemdir.","ZALâ€™THERA es un sistema digital para organizaciÃ³n, prueba, protecciÃ³n, relevo, confianza y acciones trazables.","ZALâ€™THERA est un systÃ¨me numÃ©rique pour lâ€™organisation, la preuve, la protection, la transmission, la confiance et les actions traÃ§ables.","ZALâ€™THERA Ã¨ un sistema digitale per organizzazione, prova, protezione, passaggio, fiducia e azioni tracciabili.","ZALâ€™THERA este un sistem digital pentru organizare, dovadÄƒ, protecÈ›ie, predare, Ã®ncredere È™i acÈ›iuni trasabile.","ZALâ€™THERA æ˜¯ç”¨äºŽç»„ç»‡ã€è¯æ˜Žã€ä¿æŠ¤ã€äº¤æŽ¥ã€ä¿¡ä»»ä¸Žå¯è¿½æº¯æ“ä½œçš„æ•°å­—ç³»ç»Ÿã€‚"]],["imprint.contentLiability.title",["Haftung fÃ¼r Inhalte","Liability for content","Ä°Ã§erik sorumluluÄŸu","Responsabilidad por contenidos","ResponsabilitÃ© du contenu","ResponsabilitÃ  per i contenuti","RÄƒspundere pentru conÈ›inut","å†…å®¹è´£ä»»"]],["imprint.contentLiability.text",["Als Diensteanbieter sind wir fÃ¼r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.","As a service provider, we are responsible for our own content on these pages under general law.","Hizmet saÄŸlayÄ±cÄ± olarak bu sayfalardaki kendi iÃ§eriklerimizden genel yasalar uyarÄ±nca sorumluyuz.","Como proveedor de servicios somos responsables de nuestros propios contenidos en estas pÃ¡ginas conforme a la legislaciÃ³n general.","En tant que fournisseur de services, nous sommes responsables de nos propres contenus sur ces pages conformÃ©ment au droit gÃ©nÃ©ral.","In qualitÃ  di fornitore di servizi siamo responsabili dei nostri contenuti su queste pagine secondo la legge generale.","Ca furnizor de servicii suntem responsabili pentru propriul conÈ›inut de pe aceste pagini conform legislaÈ›iei generale.","ä½œä¸ºæœåŠ¡æä¾›è€…ï¼Œæˆ‘ä»¬ä¾æ®ä¸€èˆ¬æ³•å¾‹å¯¹æœ¬ç½‘ç«™è‡ªèº«å†…å®¹è´Ÿè´£ã€‚"]],["imprint.linkLiability.title",["Haftung fÃ¼r Links","Liability for links","BaÄŸlantÄ± sorumluluÄŸu","Responsabilidad por enlaces","ResponsabilitÃ© des liens","ResponsabilitÃ  per i link","RÄƒspundere pentru linkuri","é“¾æŽ¥è´£ä»»"]],["imprint.linkLiability.text",["Unser Angebot enthÃ¤lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.","Our website contains links to external third-party websites over whose content we have no control.","Sitemiz, iÃ§erikleri Ã¼zerinde kontrolÃ¼mÃ¼z olmayan Ã¼Ã§Ã¼ncÃ¼ taraf harici web sitelerine baÄŸlantÄ±lar iÃ§erir.","Nuestra oferta contiene enlaces a sitios web externos de terceros sobre cuyos contenidos no tenemos control.","Notre site contient des liens vers des sites externes tiers dont nous ne contrÃ´lons pas le contenu.","Il nostro sito contiene link a siti esterni di terzi sui cui contenuti non abbiamo controllo.","Site-ul nostru conÈ›ine linkuri cÄƒtre site-uri externe terÈ›e asupra cÄƒrora nu avem control.","æˆ‘ä»¬çš„ç½‘ç«™åŒ…å«æŒ‡å‘ç¬¬ä¸‰æ–¹å¤–éƒ¨ç½‘ç«™çš„é“¾æŽ¥ï¼Œæˆ‘ä»¬æ— æ³•æŽ§åˆ¶å…¶å†…å®¹ã€‚"]],["imprint.copyright.title",["Urheberrecht","Copyright","Telif hakkÄ±","Derechos de autor","Droit dâ€™auteur","Diritto dâ€™autore","Drepturi de autor","ç‰ˆæƒ"]],["imprint.copyright.text",["Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.","The content and works created by the site operator on these pages are subject to German copyright law.","Site iÅŸletmecisi tarafÄ±ndan oluÅŸturulan iÃ§erik ve eserler Alman telif hakkÄ± yasasÄ±na tabidir.","Los contenidos y obras creados por el operador del sitio estÃ¡n sujetos al derecho de autor alemÃ¡n.","Les contenus et Å“uvres crÃ©Ã©s par lâ€™exploitant du site sont soumis au droit dâ€™auteur allemand.","I contenuti e le opere creati dal gestore del sito sono soggetti al diritto dâ€™autore tedesco.","ConÈ›inuturile È™i operele create de operatorul site-ului sunt supuse dreptului de autor german.","ç½‘ç«™è¿è¥è€…åˆ›å»ºçš„å†…å®¹ä¸Žä½œå“å—å¾·å›½ç‰ˆæƒæ³•ä¿æŠ¤ã€‚"]],["imprint.actions.home",["Zur Startseite","Back to home","Ana sayfaya dÃ¶n","Volver al inicio","Retour Ã  lâ€™accueil","Torna alla home","ÃŽnapoi acasÄƒ","è¿”å›žé¦–é¡µ"]],["privacy.hero.eyebrow",["DATENSCHUTZ","PRIVACY","GÄ°ZLÄ°LÄ°K","PRIVACIDAD","CONFIDENTIALITÃ‰","PRIVACY","CONFIDENÈšIALITATE","éšç§"]],["privacy.hero.title",["DatenschutzerklÃ¤rung","Privacy Policy","Gizlilik PolitikasÄ±","PolÃ­tica de privacidad","Politique de confidentialitÃ©","Informativa sulla privacy","Politica de confidenÈ›ialitate","éšç§æ”¿ç­–"]],["privacy.hero.lead",["Informationen zur Verarbeitung personenbezogener Daten auf der ZALâ€™THERA Website und in verbundenen Anwendungen.","Information about the processing of personal data on the ZALâ€™THERA website and in connected applications.","ZALâ€™THERA web sitesinde ve baÄŸlantÄ±lÄ± uygulamalarda kiÅŸisel verilerin iÅŸlenmesine iliÅŸkin bilgiler.","InformaciÃ³n sobre el tratamiento de datos personales en el sitio web ZALâ€™THERA y aplicaciones conectadas.","Informations sur le traitement des donnÃ©es personnelles sur le site ZALâ€™THERA et les applications liÃ©es.","Informazioni sul trattamento dei dati personali sul sito ZALâ€™THERA e nelle applicazioni collegate.","InformaÈ›ii privind prelucrarea datelor cu caracter personal pe site-ul ZALâ€™THERA È™i Ã®n aplicaÈ›iile conectate.","å…³äºŽ ZALâ€™THERA ç½‘ç«™åŠå…³è”åº”ç”¨ä¸­ä¸ªäººæ•°æ®å¤„ç†çš„ä¿¡æ¯ã€‚"]],["privacy.controller.title",["Verantwortlicher","Controller","Veri sorumlusu","Responsable","Responsable du traitement","Titolare del trattamento","Operator","æŽ§åˆ¶è€…"]],["privacy.controller.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","ç”µå­é‚®ä»¶ï¼š"]],["privacy.website.title",["Websitezugriff","Website access","Web sitesi eriÅŸimi","Acceso al sitio web","AccÃ¨s au site","Accesso al sito","Accesarea site-ului","ç½‘ç«™è®¿é—®"]],["privacy.website.text",["Beim Aufruf dieser Website kÃ¶nnen technisch notwendige Daten verarbeitet werden, die zur Bereitstellung, Sicherheit und StabilitÃ¤t der Website erforderlich sind.","When this website is accessed, technically necessary data may be processed to provide, secure and stabilize the website.","Bu web sitesi aÃ§Ä±ldÄ±ÄŸÄ±nda, sitenin sunulmasÄ±, gÃ¼venliÄŸi ve kararlÄ±lÄ±ÄŸÄ± iÃ§in gerekli teknik veriler iÅŸlenebilir.","Al acceder a este sitio pueden tratarse datos tÃ©cnicamente necesarios para ofrecer, asegurar y estabilizar el sitio.","Lors de lâ€™accÃ¨s Ã  ce site, des donnÃ©es techniquement nÃ©cessaires peuvent Ãªtre traitÃ©es afin dâ€™assurer sa fourniture, sa sÃ©curitÃ© et sa stabilitÃ©.","Durante lâ€™accesso al sito possono essere trattati dati tecnicamente necessari per fornire, proteggere e stabilizzare il sito.","La accesarea acestui site pot fi prelucrate date necesare tehnic pentru furnizarea, securitatea È™i stabilitatea site-ului.","è®¿é—®æœ¬ç½‘ç«™æ—¶ï¼Œå¯èƒ½ä¼šå¤„ç†ä¸ºæä¾›ã€å®‰å…¨ä¸Žç¨³å®šè¿è¡Œç½‘ç«™æ‰€å¿…éœ€çš„æŠ€æœ¯æ•°æ®ã€‚"]],["privacy.contact.title",["Kontaktaufnahme","Contact","Ä°letiÅŸim","Contacto","Prise de contact","Contatto","Contact","è”ç³»"]],["privacy.contact.text1",["Wenn du uns per E-Mail oder Kontaktformular kontaktierst, verarbeiten wir die von dir Ã¼bermittelten Angaben zur Bearbeitung deiner Anfrage.","If you contact us by email or contact form, we process the information you provide in order to handle your request.","E-posta veya iletiÅŸim formu ile bize ulaÅŸÄ±rsanÄ±z, talebinizi iÅŸlemek iÃ§in ilettiÄŸiniz bilgileri iÅŸleriz.","Si nos contactas por correo o formulario, tratamos los datos enviados para gestionar tu solicitud.","Si vous nous contactez par e-mail ou formulaire, nous traitons les informations transmises afin de gÃ©rer votre demande.","Se ci contatti via e-mail o modulo, trattiamo i dati forniti per gestire la richiesta.","DacÄƒ ne contactezi prin e-mail sau formular, prelucrÄƒm informaÈ›iile furnizate pentru a gestiona solicitarea.","å¦‚æžœä½ é€šè¿‡ç”µå­é‚®ä»¶æˆ–è”ç³»è¡¨å•è”ç³»æˆ‘ä»¬ï¼Œæˆ‘ä»¬ä¼šå¤„ç†ä½ æä¾›çš„ä¿¡æ¯ä»¥å¤„ç†ä½ çš„è¯·æ±‚ã€‚"]],["privacy.contact.text2",["FÃ¼r Kontaktformulare kann ein technischer Dienst wie Formspree eingesetzt werden. Dabei kÃ¶nnen die eingegebenen Daten an diesen Dienst Ã¼bertragen werden.","A technical service such as Formspree may be used for contact forms. The entered data may therefore be transmitted to that service.","Ä°letiÅŸim formlarÄ± iÃ§in Formspree gibi teknik bir hizmet kullanÄ±labilir. Girilen veriler bu hizmete aktarÄ±labilir.","Para formularios de contacto puede utilizarse un servicio tÃ©cnico como Formspree. Los datos introducidos pueden transmitirse a dicho servicio.","Un service technique tel que Formspree peut Ãªtre utilisÃ© pour les formulaires. Les donnÃ©es saisies peuvent alors Ãªtre transmises Ã  ce service.","Per i moduli di contatto puÃ² essere utilizzato un servizio tecnico come Formspree. I dati inseriti possono quindi essere trasmessi a tale servizio.","Pentru formularele de contact poate fi folosit un serviciu tehnic precum Formspree. Datele introduse pot fi transmise acestui serviciu.","è”ç³»è¡¨å•å¯èƒ½ä½¿ç”¨ Formspree ç­‰æŠ€æœ¯æœåŠ¡ï¼Œè¾“å…¥çš„æ•°æ®å¯èƒ½ä¼šä¼ è¾“ç»™è¯¥æœåŠ¡ã€‚"]],["privacy.apps.title",["ZALâ€™THERA Apps","ZALâ€™THERA Apps","ZALâ€™THERA UygulamalarÄ±","Apps ZALâ€™THERA","Applications ZALâ€™THERA","App ZALâ€™THERA","AplicaÈ›ii ZALâ€™THERA","ZALâ€™THERA åº”ç”¨"]],["privacy.apps.text1",["Daten in ZALâ€™THERA Anwendungen werden grundsÃ¤tzlich lokal auf dem jeweiligen GerÃ¤t verarbeitet, soweit bei einer Funktion nicht ausdrÃ¼cklich etwas anderes angegeben wird.","Data in ZALâ€™THERA applications is generally processed locally on the respective device unless a feature explicitly states otherwise.","ZALâ€™THERA uygulamalarÄ±ndaki veriler, bir Ã¶zellikte aksi aÃ§Ä±kÃ§a belirtilmedikÃ§e temel olarak ilgili cihazda yerel iÅŸlenir.","Los datos de las aplicaciones ZALâ€™THERA se procesan en principio localmente en el dispositivo, salvo que una funciÃ³n indique expresamente lo contrario.","Les donnÃ©es des applications ZALâ€™THERA sont en principe traitÃ©es localement sur lâ€™appareil, sauf indication explicite contraire dâ€™une fonction.","I dati nelle applicazioni ZALâ€™THERA vengono generalmente elaborati localmente sul dispositivo, salvo diversa indicazione esplicita di una funzione.","Datele din aplicaÈ›iile ZALâ€™THERA sunt procesate Ã®n principal local pe dispozitiv, dacÄƒ o funcÈ›ie nu indicÄƒ explicit altceva.","ZALâ€™THERA åº”ç”¨ä¸­çš„æ•°æ®åŽŸåˆ™ä¸Šåœ¨ç›¸åº”è®¾å¤‡æœ¬åœ°å¤„ç†ï¼Œé™¤éžæŸé¡¹åŠŸèƒ½æ˜Žç¡®è¯´æ˜Žå…¶ä»–å¤„ç†æ–¹å¼ã€‚"]],["privacy.apps.text2",["Einzelne zukÃ¼nftige Funktionen kÃ¶nnen externe Dienste verwenden. In diesem Fall wird die jeweilige Verarbeitung transparent beschrieben.","Individual future features may use external services. In that case, the relevant processing will be described transparently.","Gelecekteki bazÄ± Ã¶zellikler harici hizmetler kullanabilir. Bu durumda ilgili iÅŸleme ÅŸeffaf biÃ§imde aÃ§Ä±klanÄ±r.","Algunas funciones futuras pueden utilizar servicios externos. En ese caso, el tratamiento correspondiente se describirÃ¡ de forma transparente.","Certaines fonctions futures peuvent utiliser des services externes. Le traitement concernÃ© sera alors dÃ©crit de maniÃ¨re transparente.","Alcune funzioni future possono utilizzare servizi esterni. In tal caso il relativo trattamento sarÃ  descritto in modo trasparente.","Unele funcÈ›ii viitoare pot utiliza servicii externe. ÃŽn acest caz, prelucrarea va fi descrisÄƒ transparent.","æœªæ¥éƒ¨åˆ†åŠŸèƒ½å¯èƒ½ä½¿ç”¨å¤–éƒ¨æœåŠ¡ï¼›å±Šæ—¶ç›¸å…³å¤„ç†ä¼šé€æ˜Žè¯´æ˜Žã€‚"]],["privacy.files.title",["Kamera, Fotos und Dateien","Camera, photos and files","Kamera, fotoÄŸraflar ve dosyalar","CÃ¡mara, fotos y archivos","CamÃ©ra, photos et fichiers","Fotocamera, foto e file","CamerÄƒ, fotografii È™i fiÈ™iere","ç›¸æœºã€ç…§ç‰‡ä¸Žæ–‡ä»¶"]],["privacy.files.text",["Wenn eine App Zugriff auf Kamera, Fotos oder Dateien benÃ¶tigt, erfolgt dieser Zugriff nur im Rahmen der jeweiligen Funktion und nach den Berechtigungen des Betriebssystems.","If an app requires access to the camera, photos or files, that access occurs only for the relevant feature and according to operating-system permissions.","Bir uygulama kamera, fotoÄŸraf veya dosyalara eriÅŸim gerektiriyorsa bu eriÅŸim yalnÄ±zca ilgili Ã¶zellik kapsamÄ±nda ve iÅŸletim sistemi izinlerine gÃ¶re gerÃ§ekleÅŸir.","Si una app necesita acceso a cÃ¡mara, fotos o archivos, ese acceso se realiza solo para la funciÃ³n correspondiente y segÃºn los permisos del sistema operativo.","Si une application nÃ©cessite lâ€™accÃ¨s Ã  la camÃ©ra, aux photos ou aux fichiers, cet accÃ¨s nâ€™a lieu que pour la fonction concernÃ©e et selon les autorisations du systÃ¨me.","Se unâ€™app richiede accesso a fotocamera, foto o file, lâ€™accesso avviene solo per la funzione interessata e secondo i permessi del sistema operativo.","DacÄƒ o aplicaÈ›ie necesitÄƒ acces la camerÄƒ, fotografii sau fiÈ™iere, accesul are loc doar pentru funcÈ›ia respectivÄƒ È™i conform permisiunilor sistemului.","å¦‚æžœåº”ç”¨éœ€è¦è®¿é—®ç›¸æœºã€ç…§ç‰‡æˆ–æ–‡ä»¶ï¼Œè¯¥è®¿é—®ä»…ç”¨äºŽç›¸åº”åŠŸèƒ½ï¼Œå¹¶éµå¾ªæ“ä½œç³»ç»Ÿæƒé™ã€‚"]],["privacy.tracking.title",["Tracking und Werbung","Tracking and advertising","Takip ve reklam","Seguimiento y publicidad","Suivi et publicitÃ©","Tracciamento e pubblicitÃ ","UrmÄƒrire È™i publicitate","è·Ÿè¸ªä¸Žå¹¿å‘Š"]],["privacy.tracking.text",["ZALâ€™THERA verwendet keine werbebasierten Tracking-Systeme, sofern nicht ausdrÃ¼cklich anders angegeben.","ZALâ€™THERA does not use advertising-based tracking systems unless explicitly stated otherwise.","ZALâ€™THERA, aÃ§Ä±kÃ§a aksi belirtilmedikÃ§e reklam temelli takip sistemleri kullanmaz.","ZALâ€™THERA no utiliza sistemas de seguimiento publicitario salvo indicaciÃ³n expresa en contrario.","ZALâ€™THERA nâ€™utilise pas de systÃ¨mes de suivi publicitaire sauf indication explicite contraire.","ZALâ€™THERA non utilizza sistemi di tracciamento pubblicitario salvo diversa indicazione esplicita.","ZALâ€™THERA nu utilizeazÄƒ sisteme de urmÄƒrire bazate pe publicitate, dacÄƒ nu se indicÄƒ explicit altfel.","é™¤éžæ˜Žç¡®å¦æœ‰è¯´æ˜Žï¼ŒZALâ€™THERA ä¸ä½¿ç”¨åŸºäºŽå¹¿å‘Šçš„è·Ÿè¸ªç³»ç»Ÿã€‚"]],["privacy.purposes.title",["Zwecke der Verarbeitung","Purposes of processing","Ä°ÅŸleme amaÃ§larÄ±","Finalidades del tratamiento","FinalitÃ©s du traitement","FinalitÃ  del trattamento","Scopurile prelucrÄƒrii","å¤„ç†ç›®çš„"]],["privacy.purposes.website",["Bereitstellung und Sicherheit der Website","Providing and securing the website","Web sitesinin sunulmasÄ± ve gÃ¼venliÄŸi","PrestaciÃ³n y seguridad del sitio web","Fourniture et sÃ©curitÃ© du site","Fornitura e sicurezza del sito","Furnizarea È™i securitatea site-ului","æä¾›ä¸Žä¿éšœç½‘ç«™å®‰å…¨"]],["privacy.purposes.support",["Bearbeitung von Support- und Kontaktanfragen","Handling support and contact requests","Destek ve iletiÅŸim taleplerinin iÅŸlenmesi","GestiÃ³n de solicitudes de soporte y contacto","Traitement des demandes de support et de contact","Gestione delle richieste di supporto e contatto","Gestionarea solicitÄƒrilor de suport È™i contact","å¤„ç†æ”¯æŒä¸Žè”ç³»è¯·æ±‚"]],["privacy.purposes.features",["Bereitstellung von App-Funktionen","Providing app features","Uygulama Ã¶zelliklerinin sunulmasÄ±","PrestaciÃ³n de funciones de la app","Fourniture des fonctions de lâ€™application","Fornitura delle funzioni dellâ€™app","Furnizarea funcÈ›iilor aplicaÈ›iei","æä¾›åº”ç”¨åŠŸèƒ½"]],["privacy.purposes.storage",["Lokale Speicherung und Verarbeitung, soweit vorgesehen","Local storage and processing where intended","Ã–ngÃ¶rÃ¼ldÃ¼ÄŸÃ¼ Ã¶lÃ§Ã¼de yerel depolama ve iÅŸleme","Almacenamiento y tratamiento local cuando estÃ© previsto","Stockage et traitement locaux lorsque prÃ©vus","Archiviazione ed elaborazione locale ove previste","Stocare È™i prelucrare localÄƒ, unde este prevÄƒzut","æŒ‰è®¾è®¡è¿›è¡Œæœ¬åœ°å­˜å‚¨ä¸Žå¤„ç†"]],["privacy.purposes.improvement",["Technische StabilitÃ¤t und Verbesserung","Technical stability and improvement","Teknik kararlÄ±lÄ±k ve geliÅŸtirme","Estabilidad tÃ©cnica y mejora","StabilitÃ© technique et amÃ©lioration","StabilitÃ  tecnica e miglioramento","Stabilitate tehnicÄƒ È™i Ã®mbunÄƒtÄƒÈ›ire","æŠ€æœ¯ç¨³å®šä¸Žæ”¹è¿›"]],["privacy.legalBasis.title",["Rechtsgrundlagen","Legal bases","Hukuki dayanaklar","Bases jurÃ­dicas","Bases lÃ©gales","Basi giuridiche","Temeiuri juridice","æ³•å¾‹ä¾æ®"]],["privacy.legalBasis.text",["Je nach Verarbeitung kommen insbesondere Art. 6 Abs. 1 lit. b und lit. f DSGVO sowie â€“ sofern erforderlich â€“ eine Einwilligung als Rechtsgrundlage in Betracht.","Depending on the processing, Art. 6(1)(b) and (f) GDPR in particular, and consent where required, may serve as legal bases.","Ä°ÅŸlemeye baÄŸlÄ± olarak Ã¶zellikle GDPR Madde 6(1)(b) ve (f) ile gerektiÄŸinde rÄ±za hukuki dayanak olabilir.","SegÃºn el tratamiento, pueden ser aplicables en particular el art. 6.1.b y f del RGPD y, cuando sea necesario, el consentimiento.","Selon le traitement, lâ€™art. 6, par. 1, b et f du RGPD ainsi que, si nÃ©cessaire, le consentement peuvent notamment constituer la base lÃ©gale.","A seconda del trattamento, possono costituire base giuridica in particolare lâ€™art. 6(1)(b) e (f) GDPR e, se necessario, il consenso.","ÃŽn funcÈ›ie de prelucrare, Ã®n special art. 6 alin. (1) lit. b È™i f GDPR È™i, dacÄƒ este necesar, consimÈ›ÄƒmÃ¢ntul pot constitui temeiuri juridice.","æ ¹æ®å¤„ç†æƒ…å½¢ï¼ŒGDPR ç¬¬ 6(1)(b) ä¸Ž (f) æ¡ï¼Œä»¥åŠåœ¨å¿…è¦æ—¶çš„åŒæ„ï¼Œå¯ä½œä¸ºç›¸å…³æ³•å¾‹ä¾æ®ã€‚"]],["privacy.storage.title",["Speicherdauer","Storage period","Saklama sÃ¼resi","Plazo de conservaciÃ³n","DurÃ©e de conservation","Periodo di conservazione","Perioada de stocare","å­˜å‚¨æœŸé™"]],["privacy.storage.text",["Personenbezogene Daten werden nur so lange gespeichert, wie dies fÃ¼r den jeweiligen Zweck erforderlich ist oder gesetzliche Pflichten dies verlangen.","Personal data is stored only for as long as necessary for the relevant purpose or as required by law.","KiÅŸisel veriler yalnÄ±zca ilgili amaÃ§ iÃ§in gerekli olduÄŸu veya yasal yÃ¼kÃ¼mlÃ¼lÃ¼kler gerektirdiÄŸi sÃ¼re boyunca saklanÄ±r.","Los datos personales se conservan solo mientras sea necesario para la finalidad correspondiente o lo exija la ley.","Les donnÃ©es personnelles ne sont conservÃ©es que pendant la durÃ©e nÃ©cessaire Ã  la finalitÃ© concernÃ©e ou imposÃ©e par la loi.","I dati personali sono conservati solo per il tempo necessario allo scopo pertinente o richiesto dalla legge.","Datele cu caracter personal sunt stocate doar atÃ¢t timp cÃ¢t este necesar scopului respectiv sau impus de lege.","ä¸ªäººæ•°æ®ä»…åœ¨ç›¸å…³ç›®çš„æ‰€éœ€æœŸé—´æˆ–æ³•å¾‹è¦æ±‚çš„æœŸé™å†…ä¿å­˜ã€‚"]],["privacy.rights.title",["Deine Rechte","Your rights","HaklarÄ±nÄ±z","Tus derechos","Vos droits","I tuoi diritti","Drepturile tale","ä½ çš„æƒåˆ©"]],["privacy.rights.text1",["Du hast im Rahmen der gesetzlichen Voraussetzungen insbesondere Rechte auf Auskunft, Berichtigung, LÃ¶schung, EinschrÃ¤nkung der Verarbeitung, DatenÃ¼bertragbarkeit und Widerspruch.","Subject to legal requirements, you have rights including access, rectification, erasure, restriction of processing, data portability and objection.","Yasal koÅŸullar Ã§erÃ§evesinde eriÅŸim, dÃ¼zeltme, silme, iÅŸlemenin kÄ±sÄ±tlanmasÄ±, veri taÅŸÄ±nabilirliÄŸi ve itiraz gibi haklara sahipsiniz.","Dentro de los requisitos legales tienes derechos, entre otros, de acceso, rectificaciÃ³n, supresiÃ³n, limitaciÃ³n del tratamiento, portabilidad y oposiciÃ³n.","Sous rÃ©serve des conditions lÃ©gales, vous disposez notamment de droits dâ€™accÃ¨s, de rectification, dâ€™effacement, de limitation, de portabilitÃ© et dâ€™opposition.","Nel rispetto dei requisiti legali hai, tra gli altri, diritti di accesso, rettifica, cancellazione, limitazione, portabilitÃ  e opposizione.","ÃŽn condiÈ›iile legii ai, printre altele, drepturi de acces, rectificare, È™tergere, restricÈ›ionare, portabilitate È™i opoziÈ›ie.","åœ¨æ³•å¾‹è§„å®šæ¡ä»¶ä¸‹ï¼Œä½ å°¤å…¶äº«æœ‰è®¿é—®ã€æ›´æ­£ã€åˆ é™¤ã€é™åˆ¶å¤„ç†ã€æ•°æ®å¯æºä¸Žåå¯¹ç­‰æƒåˆ©ã€‚"]],["privacy.rights.text2",["AuÃŸerdem besteht das Recht, sich bei einer zustÃ¤ndigen DatenschutzaufsichtsbehÃ¶rde zu beschweren.","You also have the right to lodge a complaint with a competent data-protection supervisory authority.","AyrÄ±ca yetkili veri koruma denetim makamÄ±na ÅŸikÃ¢yette bulunma hakkÄ±nÄ±z vardÄ±r.","TambiÃ©n tienes derecho a presentar una reclamaciÃ³n ante una autoridad de protecciÃ³n de datos competente.","Vous avez Ã©galement le droit dâ€™introduire une rÃ©clamation auprÃ¨s dâ€™une autoritÃ© de contrÃ´le compÃ©tente.","Hai inoltre il diritto di proporre reclamo a unâ€™autoritÃ  di controllo competente.","Ai de asemenea dreptul de a depune o plÃ¢ngere la o autoritate competentÄƒ de protecÈ›ie a datelor.","ä½ è¿˜æœ‰æƒå‘æœ‰ç®¡è¾–æƒçš„æ•°æ®ä¿æŠ¤ç›‘ç®¡æœºæž„æå‡ºæŠ•è¯‰ã€‚"]],["privacy.externalLinks.title",["Externe Links","External links","Harici baÄŸlantÄ±lar","Enlaces externos","Liens externes","Link esterni","Linkuri externe","å¤–éƒ¨é“¾æŽ¥"]],["privacy.externalLinks.text",["FÃ¼r Inhalte und Datenschutzpraktiken externer Websites gelten die Bestimmungen der jeweiligen Anbieter.","The policies of the respective providers apply to the content and privacy practices of external websites.","Harici web sitelerinin iÃ§erik ve gizlilik uygulamalarÄ± iÃ§in ilgili saÄŸlayÄ±cÄ±larÄ±n hÃ¼kÃ¼mleri geÃ§erlidir.","Para el contenido y las prÃ¡cticas de privacidad de sitios externos se aplican las disposiciones de sus respectivos proveedores.","Les dispositions des fournisseurs concernÃ©s sâ€™appliquent au contenu et aux pratiques de confidentialitÃ© des sites externes.","Per contenuti e pratiche privacy dei siti esterni si applicano le disposizioni dei rispettivi fornitori.","Pentru conÈ›inutul È™i practicile de confidenÈ›ialitate ale site-urilor externe se aplicÄƒ regulile furnizorilor respectivi.","å¤–éƒ¨ç½‘ç«™çš„å†…å®¹ä¸Žéšç§å®žè·µé€‚ç”¨å„è‡ªæä¾›è€…çš„è§„å®šã€‚"]],["privacy.actions.home",["Zur Startseite","Back to home","Ana sayfaya dÃ¶n","Volver al inicio","Retour Ã  lâ€™accueil","Torna alla home","ÃŽnapoi acasÄƒ","è¿”å›žé¦–é¡µ"]],["terms.hero.eyebrow",["ALLGEMEINE GESCHÃ„FTSBEDINGUNGEN","TERMS AND CONDITIONS","GENEL ÅžARTLAR VE KOÅžULLAR","TÃ‰RMINOS Y CONDICIONES","CONDITIONS GÃ‰NÃ‰RALES","TERMINI E CONDIZIONI","TERMENI È˜I CONDIÈšII","ä¸€èˆ¬æ¡æ¬¾ä¸Žæ¡ä»¶"]],["terms.hero.title",["Allgemeine GeschÃ¤ftsbedingungen (AGB)","Terms and Conditions","Genel Åžartlar ve KoÅŸullar","TÃ©rminos y Condiciones","Conditions GÃ©nÃ©rales","Termini e Condizioni","Termeni È™i CondiÈ›ii","ä¸€èˆ¬æ¡æ¬¾ä¸Žæ¡ä»¶"]],["terms.provider.title",["1. Anbieter","1. Provider","1. SaÄŸlayÄ±cÄ±","1. Proveedor","1. Fournisseur","1. Fornitore","1. Furnizor","1. æä¾›è€…"]],["terms.provider.emailLabel",["E-Mail:","Email:","E-posta:","Correo:","E-mail :","E-mail:","E-mail:","ç”µå­é‚®ä»¶ï¼š"]],["terms.subject.title",["2. Vertragsgegenstand","2. Subject of the contract","2. SÃ¶zleÅŸmenin konusu","2. Objeto del contrato","2. Objet du contrat","2. Oggetto del contratto","2. Obiectul contractului","2. åˆåŒæ ‡çš„"]],["terms.subject.text",["Gegenstand ist der Verkauf einer digitalen Anwendung (â€žLifeFlowâ€œ). Es handelt sich aktuell um eine Vorbestellung. Der Zugriff erfolgt nach VerÃ¶ffentlichung.","The subject is the sale of a digital application (â€œLifeFlowâ€). It is currently a pre-order. Access is provided after publication.","SÃ¶zleÅŸmenin konusu dijital bir uygulamanÄ±n (â€œLifeFlowâ€) satÄ±ÅŸÄ±dÄ±r. Åžu anda Ã¶n sipariÅŸtir. EriÅŸim yayÄ±mlandÄ±ktan sonra saÄŸlanÄ±r.","El objeto es la venta de una aplicaciÃ³n digital (â€œLifeFlowâ€). Actualmente se trata de una precompra. El acceso se proporciona tras la publicaciÃ³n.","Lâ€™objet est la vente dâ€™une application numÃ©rique (Â« LifeFlow Â»). Il sâ€™agit actuellement dâ€™une prÃ©commande. Lâ€™accÃ¨s est fourni aprÃ¨s publication.","Oggetto Ã¨ la vendita di unâ€™applicazione digitale (â€œLifeFlowâ€). Attualmente si tratta di un preordine. Lâ€™accesso viene fornito dopo la pubblicazione.","Obiectul este vÃ¢nzarea unei aplicaÈ›ii digitale (â€žLifeFlowâ€). ÃŽn prezent este o precomandÄƒ. Accesul este oferit dupÄƒ publicare.","æ ‡çš„æ˜¯æ•°å­—åº”ç”¨â€œLifeFlowâ€çš„é”€å”®ã€‚ç›®å‰å±žäºŽé¢„è´­ï¼Œå‘å¸ƒåŽæä¾›è®¿é—®ã€‚"]],["terms.contract.title",["3. Vertragsschluss","3. Conclusion of contract","3. SÃ¶zleÅŸmenin kurulmasÄ±","3. CelebraciÃ³n del contrato","3. Conclusion du contrat","3. Conclusione del contratto","3. ÃŽncheierea contractului","3. åˆåŒæˆç«‹"]],["terms.contract.text",["Der Vertrag kommt zustande, sobald die Zahlung Ã¼ber den bereitgestellten Zahlungsanbieter (z. B. PayPal) erfolgt ist.","The contract is concluded once payment has been made through the provided payment provider (e.g. PayPal).","SÃ¶zleÅŸme, saÄŸlanan Ã¶deme hizmeti (Ã¶r. PayPal) Ã¼zerinden Ã¶deme yapÄ±ldÄ±ÄŸÄ±nda kurulur.","El contrato se celebra cuando se realiza el pago mediante el proveedor de pago facilitado (p. ej., PayPal).","Le contrat est conclu dÃ¨s que le paiement est effectuÃ© via le prestataire de paiement fourni (p. ex. PayPal).","Il contratto si conclude quando il pagamento viene effettuato tramite il fornitore di pagamento messo a disposizione (es. PayPal).","Contractul se Ã®ncheie odatÄƒ ce plata este efectuatÄƒ prin furnizorul de plÄƒÈ›i disponibil (de ex. PayPal).","ä¸€æ—¦é€šè¿‡æä¾›çš„æ”¯ä»˜æœåŠ¡å•†ï¼ˆä¾‹å¦‚ PayPalï¼‰å®Œæˆä»˜æ¬¾ï¼ŒåˆåŒå³æˆç«‹ã€‚"]],["terms.delivery.title",["4. Lieferung","4. Delivery","4. Teslimat","4. Entrega","4. Livraison","4. Consegna","4. Livrare","4. äº¤ä»˜"]],["terms.delivery.text",["Die Lieferung erfolgt digital. Der Zugang zur Anwendung wird nach VerÃ¶ffentlichung bereitgestellt. Ein genauer Zeitpunkt kann nicht garantiert werden, erfolgt jedoch so schnell wie mÃ¶glich.","Delivery is digital. Access to the application is provided after publication. An exact date cannot be guaranteed, but access will be provided as quickly as possible.","Teslimat dijital olarak yapÄ±lÄ±r. Uygulamaya eriÅŸim yayÄ±mlandÄ±ktan sonra saÄŸlanÄ±r. Kesin bir tarih garanti edilemez ancak mÃ¼mkÃ¼n olan en kÄ±sa sÃ¼rede saÄŸlanÄ±r.","La entrega es digital. El acceso a la aplicaciÃ³n se proporciona tras la publicaciÃ³n. No puede garantizarse una fecha exacta, pero se facilitarÃ¡ lo antes posible.","La livraison est numÃ©rique. Lâ€™accÃ¨s Ã  lâ€™application est fourni aprÃ¨s publication. Une date prÃ©cise ne peut Ãªtre garantie, mais lâ€™accÃ¨s sera fourni dÃ¨s que possible.","La consegna Ã¨ digitale. Lâ€™accesso allâ€™applicazione viene fornito dopo la pubblicazione. Non Ã¨ possibile garantire una data esatta, ma sarÃ  fornito il prima possibile.","Livrarea este digitalÄƒ. Accesul la aplicaÈ›ie este oferit dupÄƒ publicare. Nu poate fi garantatÄƒ o datÄƒ exactÄƒ, dar accesul va fi oferit cÃ¢t mai repede posibil.","äº¤ä»˜ä»¥æ•°å­—æ–¹å¼è¿›è¡Œã€‚åº”ç”¨å‘å¸ƒåŽæä¾›è®¿é—®ã€‚æ— æ³•ä¿è¯ç¡®åˆ‡æ—¶é—´ï¼Œä½†ä¼šå°½å¿«æä¾›ã€‚"]],["terms.prices.title",["5. Preise","5. Prices","5. Fiyatlar","5. Precios","5. Prix","5. Prezzi","5. PreÈ›uri","5. ä»·æ ¼"]],["terms.prices.text",["Alle Preise sind Endpreise. GemÃ¤ÃŸ Â§19 UStG wird keine Umsatzsteuer berechnet.","All prices are final prices. No VAT is charged pursuant to Â§19 UStG.","TÃ¼m fiyatlar nihai fiyatlardÄ±r. Alman UStG Â§19 uyarÄ±nca KDV hesaplanmaz.","Todos los precios son finales. Conforme al Â§19 UStG no se cobra IVA.","Tous les prix sont des prix finaux. ConformÃ©ment au Â§19 UStG, aucune TVA nâ€™est facturÃ©e.","Tutti i prezzi sono finali. Ai sensi del Â§19 UStG non viene addebitata IVA.","Toate preÈ›urile sunt finale. Conform Â§19 UStG nu se percepe TVA.","æ‰€æœ‰ä»·æ ¼å‡ä¸ºæœ€ç»ˆä»·æ ¼ã€‚æ ¹æ®å¾·å›½ UStG ç¬¬ 19 æ¡ï¼Œä¸æ”¶å–å¢žå€¼ç¨Žã€‚"]],["terms.license.title",["6. Nutzungsrechte","6. Usage rights","6. KullanÄ±m haklarÄ±","6. Derechos de uso","6. Droits dâ€™utilisation","6. Diritti dâ€™uso","6. Drepturi de utilizare","6. ä½¿ç”¨æƒ"]],["terms.license.text",["Der KÃ¤ufer erhÃ¤lt ein einfaches, nicht Ã¼bertragbares Nutzungsrecht. Weitergabe, Verkauf oder VervielfÃ¤ltigung der Software ist nicht gestattet.","The buyer receives a simple, non-transferable right of use. Distribution, resale or reproduction of the software is not permitted.","AlÄ±cÄ± basit ve devredilemez bir kullanÄ±m hakkÄ± alÄ±r. YazÄ±lÄ±mÄ±n daÄŸÄ±tÄ±lmasÄ±, satÄ±lmasÄ± veya Ã§oÄŸaltÄ±lmasÄ± yasaktÄ±r.","El comprador recibe un derecho de uso simple y no transferible. No se permite distribuir, vender o reproducir el software.","Lâ€™acheteur reÃ§oit un droit dâ€™utilisation simple et non transfÃ©rable. La transmission, la revente ou la reproduction du logiciel ne sont pas autorisÃ©es.","Lâ€™acquirente riceve un diritto dâ€™uso semplice e non trasferibile. Non sono consentiti distribuzione, vendita o riproduzione del software.","CumpÄƒrÄƒtorul primeÈ™te un drept de utilizare simplu, netransferabil. Distribuirea, vÃ¢nzarea sau reproducerea software-ului nu sunt permise.","è´­ä¹°è€…èŽ·å¾—ç®€å•ã€ä¸å¯è½¬è®©çš„ä½¿ç”¨æƒã€‚ä¸å¾—åˆ†å‘ã€é”€å”®æˆ–å¤åˆ¶è½¯ä»¶ã€‚"]],["terms.liability.title",["7. Haftung","7. Liability","7. Sorumluluk","7. Responsabilidad","7. ResponsabilitÃ©","7. ResponsabilitÃ ","7. RÄƒspundere","7. è´£ä»»"]],["terms.liability.text",["Die Nutzung erfolgt auf eigene Verantwortung. Es wird keine Haftung fÃ¼r finanzielle Entscheidungen Ã¼bernommen, die auf Basis der App getroffen werden.","Use is at your own responsibility. No liability is assumed for financial decisions made on the basis of the app.","KullanÄ±m kendi sorumluluÄŸunuzdadÄ±r. Uygulamaya dayanarak alÄ±nan finansal kararlar iÃ§in sorumluluk kabul edilmez.","El uso es bajo propia responsabilidad. No se asume responsabilidad por decisiones financieras tomadas sobre la base de la app.","Lâ€™utilisation se fait sous votre propre responsabilitÃ©. Aucune responsabilitÃ© nâ€™est assumÃ©e pour les dÃ©cisions financiÃ¨res prises sur la base de lâ€™application.","Lâ€™utilizzo avviene sotto la propria responsabilitÃ . Non si assume responsabilitÃ  per decisioni finanziarie prese sulla base dellâ€™app.","Utilizarea are loc pe propria rÄƒspundere. Nu se asumÄƒ rÄƒspundere pentru decizii financiare luate pe baza aplicaÈ›iei.","ä½¿ç”¨ç”±ç”¨æˆ·è‡ªè¡Œè´Ÿè´£ã€‚å¯¹äºŽåŸºäºŽè¯¥åº”ç”¨åšå‡ºçš„è´¢åŠ¡å†³å®šï¼Œä¸æ‰¿æ‹…è´£ä»»ã€‚"]],["terms.final.title",["8. Schlussbestimmungen","8. Final provisions","8. Son hÃ¼kÃ¼mler","8. Disposiciones finales","8. Dispositions finales","8. Disposizioni finali","8. DispoziÈ›ii finale","8. æœ€ç»ˆæ¡æ¬¾"]],["terms.final.text",["Es gilt deutsches Recht.","German law applies.","Alman hukuku uygulanÄ±r.","Se aplica el derecho alemÃ¡n.","Le droit allemand sâ€™applique.","Si applica il diritto tedesco.","Se aplicÄƒ dreptul german.","é€‚ç”¨å¾·å›½æ³•å¾‹ã€‚"]],["terms.actions.home",["Zur Startseite","Back to home","Ana sayfaya dÃ¶n","Volver al inicio","Retour Ã  lâ€™accueil","Torna alla home","ÃŽnapoi acasÄƒ","è¿”å›žé¦–é¡µ"]],["withdrawal.hero.eyebrow",["WIDERRUF","WITHDRAWAL","CAYMA","DESISTIMIENTO","RÃ‰TRACTATION","RECESSO","RETRAGERE","æ’¤é”€"]],["withdrawal.hero.title",["Widerrufsbelehrung","Withdrawal Policy","Cayma HakkÄ± Bilgilendirmesi","InformaciÃ³n sobre desistimiento","Information sur le droit de rÃ©tractation","Informativa sul recesso","Informare privind retragerea","æ’¤é”€æƒè¯´æ˜Ž"]],["withdrawal.right.title",["Widerrufsrecht","Right of withdrawal","Cayma hakkÄ±","Derecho de desistimiento","Droit de rÃ©tractation","Diritto di recesso","Drept de retragere","æ’¤é”€æƒ"]],["withdrawal.right.text1",["Du hast das Recht, binnen vierzehn Tagen ohne Angabe von GrÃ¼nden diesen Vertrag zu widerrufen.","You have the right to withdraw from this contract within fourteen days without giving any reason.","On dÃ¶rt gÃ¼n iÃ§inde herhangi bir gerekÃ§e gÃ¶stermeden bu sÃ¶zleÅŸmeden cayma hakkÄ±nÄ±z vardÄ±r.","Tienes derecho a desistir de este contrato en un plazo de catorce dÃ­as sin indicar motivo.","Vous avez le droit de vous rÃ©tracter de ce contrat dans un dÃ©lai de quatorze jours sans indiquer de motif.","Hai il diritto di recedere dal presente contratto entro quattordici giorni senza indicarne il motivo.","Ai dreptul sÄƒ te retragi din acest contract Ã®n termen de paisprezece zile fÄƒrÄƒ a indica un motiv.","ä½ æœ‰æƒåœ¨åå››å¤©å†…æ— é¡»è¯´æ˜Žç†ç”±æ’¤é”€æœ¬åˆåŒã€‚"]],["withdrawal.right.text2",["Die Widerrufsfrist betrÃ¤gt vierzehn Tage ab dem Tag des Vertragsabschlusses.","The withdrawal period is fourteen days from the day the contract is concluded.","Cayma sÃ¼resi sÃ¶zleÅŸmenin kurulduÄŸu gÃ¼nden itibaren on dÃ¶rt gÃ¼ndÃ¼r.","El plazo de desistimiento es de catorce dÃ­as desde la celebraciÃ³n del contrato.","Le dÃ©lai de rÃ©tractation est de quatorze jours Ã  compter de la conclusion du contrat.","Il termine di recesso Ã¨ di quattordici giorni dalla conclusione del contratto.","Perioada de retragere este de paisprezece zile de la data Ã®ncheierii contractului.","æ’¤é”€æœŸé™ä¸ºåˆåŒæˆç«‹ä¹‹æ—¥èµ·åå››å¤©ã€‚"]],["withdrawal.right.text3",["Um dein Widerrufsrecht auszuÃ¼ben, musst du uns (Patrick Walker, contact@zalthera.de) mittels einer eindeutigen ErklÃ¤rung (z. B. E-Mail) Ã¼ber deinen Entschluss informieren.","To exercise your right of withdrawal, you must inform us (Patrick Walker, contact@zalthera.de) of your decision by means of a clear statement (e.g. email).","Cayma hakkÄ±nÄ±zÄ± kullanmak iÃ§in kararÄ±nÄ±zÄ± aÃ§Ä±k bir beyanla (Ã¶r. e-posta) bize (Patrick Walker, contact@zalthera.de) bildirmeniz gerekir.","Para ejercer tu derecho de desistimiento debes informarnos (Patrick Walker, contact@zalthera.de) de tu decisiÃ³n mediante una declaraciÃ³n inequÃ­voca (p. ej., correo electrÃ³nico).","Pour exercer votre droit de rÃ©tractation, vous devez nous informer (Patrick Walker, contact@zalthera.de) de votre dÃ©cision au moyen dâ€™une dÃ©claration claire (p. ex. e-mail).","Per esercitare il diritto di recesso devi informarci (Patrick Walker, contact@zalthera.de) della tua decisione mediante una dichiarazione esplicita (ad es. e-mail).","Pentru a-È›i exercita dreptul de retragere trebuie sÄƒ ne informezi (Patrick Walker, contact@zalthera.de) despre decizie printr-o declaraÈ›ie clarÄƒ (de ex. e-mail).","ä¸ºè¡Œä½¿æ’¤é”€æƒï¼Œä½ å¿…é¡»é€šè¿‡æ˜Žç¡®å£°æ˜Žï¼ˆä¾‹å¦‚ç”µå­é‚®ä»¶ï¼‰é€šçŸ¥æˆ‘ä»¬ï¼ˆPatrick Walker, contact@zalthera.deï¼‰ä½ çš„å†³å®šã€‚"]],["withdrawal.consequences.title",["Folgen des Widerrufs","Consequences of withdrawal","CaymanÄ±n sonuÃ§larÄ±","Consecuencias del desistimiento","ConsÃ©quences de la rÃ©tractation","Conseguenze del recesso","ConsecinÈ›ele retragerii","æ’¤é”€åŽæžœ"]],["withdrawal.consequences.text",["Wenn du diesen Vertrag widerrufst, werden alle Zahlungen unverzÃ¼glich zurÃ¼ckerstattet.","If you withdraw from this contract, all payments will be refunded without undue delay.","Bu sÃ¶zleÅŸmeden cayarsanÄ±z tÃ¼m Ã¶demeler gecikmeksizin iade edilir.","Si desistes de este contrato, todos los pagos serÃ¡n reembolsados sin demora indebida.","Si vous vous rÃ©tractez de ce contrat, tous les paiements seront remboursÃ©s sans retard injustifiÃ©.","Se recedi dal contratto, tutti i pagamenti saranno rimborsati senza indebito ritardo.","DacÄƒ te retragi din acest contract, toate plÄƒÈ›ile vor fi rambursate fÄƒrÄƒ Ã®ntÃ¢rzieri nejustificate.","å¦‚æžœä½ æ’¤é”€æœ¬åˆåŒï¼Œæ‰€æœ‰ä»˜æ¬¾å°†åŠæ—¶é€€è¿˜ã€‚"]],["withdrawal.notice.title",["Besonderer Hinweis","Special notice","Ã–zel not","Aviso especial","Remarque particuliÃ¨re","Avviso speciale","NotÄƒ specialÄƒ","ç‰¹åˆ«è¯´æ˜Ž"]],["withdrawal.notice.text",["Bei digitalen Produkten kann das Widerrufsrecht erlÃ¶schen, sobald der Zugriff auf die Anwendung bereitgestellt wurde und die Nutzung beginnt.","For digital products, the right of withdrawal may expire once access to the application has been provided and use begins.","Dijital Ã¼rÃ¼nlerde, uygulamaya eriÅŸim saÄŸlanÄ±p kullanÄ±m baÅŸladÄ±ÄŸÄ±nda cayma hakkÄ± sona erebilir.","En productos digitales, el derecho de desistimiento puede extinguirse una vez facilitado el acceso a la aplicaciÃ³n y comenzado su uso.","Pour les produits numÃ©riques, le droit de rÃ©tractation peut sâ€™Ã©teindre dÃ¨s que lâ€™accÃ¨s Ã  lâ€™application est fourni et que lâ€™utilisation commence.","Per i prodotti digitali, il diritto di recesso puÃ² decadere una volta fornito lâ€™accesso allâ€™applicazione e iniziato lâ€™utilizzo.","Pentru produsele digitale, dreptul de retragere poate Ã®nceta odatÄƒ ce accesul la aplicaÈ›ie este furnizat È™i utilizarea Ã®ncepe.","å¯¹äºŽæ•°å­—äº§å“ï¼Œä¸€æ—¦æä¾›åº”ç”¨è®¿é—®å¹¶å¼€å§‹ä½¿ç”¨ï¼Œæ’¤é”€æƒå¯èƒ½ç»ˆæ­¢ã€‚"]],["withdrawal.actions.home",["Zur Startseite","Back to home","Ana sayfaya dÃ¶n","Volver al inicio","Retour Ã  lâ€™accueil","Torna alla home","ÃŽnapoi acasÄƒ","è¿”å›žé¦–é¡µ"]]];
 
   FINAL_TRANSLATION_ROWS.forEach(([key, values]) => {
     SUPPORTED_LANGUAGES.forEach((language, index) => {
@@ -2856,7 +3104,13 @@
      CURRENT LANGUAGE
      ============================================================ */
 
+  function getRequestedLanguage() {
+    try { return normalizeLanguage(new URLSearchParams(window.location.search).get("lang")); }
+    catch { return null; }
+  }
+
   let currentLanguage =
+    getRequestedLanguage() ||
     getStoredLanguage() ||
     detectBrowserLanguage() ||
     DEFAULT_LANGUAGE;
@@ -3407,7 +3661,7 @@
             class="zal-language-option-check"
             aria-hidden="true"
           >
-            ✓
+            âœ“
           </span>
         `;
 
@@ -3501,7 +3755,13 @@
     );
 
     translatePage();
-
+    try {
+      const url = new URL(window.location.href);
+      if (url.searchParams.has("lang")) {
+        url.searchParams.set("lang", currentLanguage);
+        window.history.replaceState(null, "", url);
+      }
+    } catch { /* Translation works even if history is unavailable. */ }
 
     window.dispatchEvent(
       new CustomEvent(
@@ -3620,4 +3880,3 @@
   }
 
 })();
-
