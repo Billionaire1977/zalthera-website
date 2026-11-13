@@ -1,114 +1,781 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ZAL’THERA — Digital Systems for Real Processes</title>
-  <meta name="description" content="LifeFlow, ProofFlow and ShiftLog — digital systems by ZAL’THERA for clarity, traceability and real control." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020306">
 
-  <link rel="stylesheet" href="../styles.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+  <title data-i18n="zh.metaTitle">
+    ZAL’THERA — Deine Welt. Intelligent verbunden.
+  </title>
 
-  <meta property="og:title" content="ZAL’THERA — Digital Systems for Real Processes" />
-  <meta property="og:description" content="LifeFlow shows income, costs, debt and what really remains. ProofFlow documents it. ShiftLog makes handovers traceable." />
-  <meta property="og:image" content="../assets/hero-web.png" />
+  <meta
+    name="description"
+    content="Entdecke die Apps und Systeme von ZAL’THERA für persönliche Organisation, Nachweise und reale Arbeitsabläufe."
+    data-i18n="zh.metaDescription"
+    data-i18n-attribute="content"
+  >
+
+  <link rel="canonical" href="https://zalthera.de/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zalthera.de/">
+  <meta
+    property="og:title"
+    content="ZAL’THERA — Deine Welt. Intelligent verbunden."
+  >
+  <meta
+    property="og:description"
+    content="Ein System. Deine Kontrolle. Entdecke die Apps und Entwicklungen von ZAL’THERA."
+  >
+  <meta
+    property="og:image"
+    content="https://zalthera.de/assets/zalthera-hero-v2.png"
+  >
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="assets/favicon-32.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    href="assets/apple-touch-icon.png"
+  >
+
+  <link
+    rel="preload"
+    as="image"
+    href="assets/zalthera-hero-v2.png"
+  >
+
+  <link rel="stylesheet" href="home.css?v=1.0">
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
-<body>
-<header class="topbar">
-  <div class="container topbar-inner">
-    <a class="brand" href="/en/">
-      <span class="brand-mark">ZAL’THERA</span>
-    </a>
+<body class="zal-home">
+  <a class="zh-skip" href="#main" data-i18n="zh.skip">
+    Zum Inhalt
+  </a>
 
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#systems">Systems</a>
-      <a href="#advantages">Advantages</a>
-      <a href="#industries">Industries</a>
-      <a href="/en/lifeflow.html">LifeFlow</a>
-    </nav>
+  <header class="zh-header">
+    <div class="zh-container zh-header-inner">
+      <a
+        class="zh-brand"
+        href="index.html"
+        aria-label="ZAL’THERA"
+      >
+        <span class="zh-brand-orbit" aria-hidden="true"></span>
+        <span class="zh-brand-name">ZAL’THERA</span>
+      </a>
 
-    <div class="topbar-cta">
-      <a class="lang" href="/">DE</a>
-      <a class="lang active" href="/en/">EN</a>
-      <a class="chip chip-cta" href="/en/lifeflow.html">Preorder LifeFlow – €29</a>
-    </div>
-  </div>
-</header>
+      <nav
+        class="zh-nav"
+        id="main-navigation"
+        aria-label="Hauptnavigation"
+        data-i18n="global.mainNavigation"
+        data-i18n-attribute="aria-label"
+      >
+        <a href="#system" data-i18n="nav.system">System</a>
+        <a href="#products" data-i18n="zh.navProducts">Produkte</a>
+        <a href="about.html" data-i18n="zh.navAbout">Über uns</a>
+        <a href="#contact" data-i18n="global.contact">Kontakt</a>
+      </nav>
 
-<main id="home">
-<section class="hero">
-  <div class="hero-bg" style="background-image:url('../assets/hero-web.png');"></div>
-
-  <div class="container hero-content">
-    <div class="hero-panel">
-      <div class="kicker">CLARITY · PROOF · CONTROL</div>
-      <div class="hero-product">ZAL’THERA</div>
-
-      <h1>Digital systems<br/>for real processes.</h1>
-
-      <p class="lead">
-        LifeFlow shows income, recurring costs, debt and what really remains.
-        ProofFlow documents processes. ShiftLog makes handovers traceable.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn primary" href="/en/lifeflow.html">Preorder LifeFlow – €29</a>
-        <a class="btn ghost" href="#systems">Explore systems</a>
+      <div class="zh-controls topbar-cta">
+        <button
+          class="zh-menu-button"
+          id="menu-toggle"
+          type="button"
+          aria-label="Navigation öffnen"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+          data-i18n="global.navOpen"
+          data-i18n-attribute="aria-label"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<section id="systems" class="section">
-  <div class="container">
-    <h2>Our Systems</h2>
+  <main id="main">
+    <section class="zh-hero" aria-labelledby="hero-title">
+      <img
+        class="zh-hero-image"
+        src="assets/zalthera-hero-v2.png"
+        alt=""
+        width="1672"
+        height="941"
+        fetchpriority="high"
+        decoding="async"
+      >
 
-    <div class="cards-3">
-      <div class="card glass">
-        <strong>LifeFlow</strong>
-        <p>Shows income, costs, debt and what really remains.</p>
-        <p class="muted">€29 preorder · €99 launch · €299 later</p>
+      <div class="zh-container zh-hero-inner">
+        <div class="zh-hero-copy">
+          <h1 class="zh-hero-title" id="hero-title">
+            <span data-i18n="zh.heroOne">Deine Welt.</span>
+            <span data-i18n="zh.heroTwo">Intelligent</span>
+            <span data-i18n="zh.heroThree">verbunden.</span>
+          </h1>
+
+          <p class="zh-hero-lead" data-i18n="zh.heroLead">
+            Ein System. Deine Kontrolle.
+          </p>
+
+          <div class="zh-actions">
+            <a
+              class="zh-button zh-button--primary"
+              href="#products"
+              data-i18n="zh.discover"
+            >
+              Systeme entdecken
+            </a>
+            <a
+              class="zh-button"
+              href="#contact"
+              data-i18n="global.contact"
+            >
+              Kontakt
+            </a>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="card glass">
-        <strong>ProofFlow</strong>
-        <p>Documents what happened — traceable and verifiable.</p>
-      </div>
+    <section
+      class="zh-section"
+      id="products"
+      aria-labelledby="products-title"
+    >
+      <div class="zh-container">
+        <div class="zh-section-heading">
+          <h2
+            class="zh-section-title"
+            id="products-title"
+            data-i18n="zh.productsTitle"
+          >
+            Ein System. Viele Möglichkeiten.
+          </h2>
+        </div>
 
-      <div class="card glass">
-        <strong>ShiftLog</strong>
-        <p>Structured digital handovers for real operations.</p>
+        <div class="zh-featured-grid">
+          <a class="zh-card" href="#continuity">
+            <img
+              class="zh-card-image"
+              src="assets/continuity-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span class="zh-badge" data-i18n="zh.development">
+              In Entwicklung
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">CONTINUITY</h3>
+              <p class="zh-card-copy" data-i18n="zh.continuity">
+                Dein persönliches System.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="zh-card" href="#hospitality">
+            <img
+              class="zh-card-image"
+              src="assets/hospitality-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span class="zh-badge" data-i18n="zh.preparing">
+              1.0 in Vorbereitung
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">Hospitality</h3>
+              <p class="zh-card-copy" data-i18n="zh.hospitality">
+                Hotelbetrieb im Blick.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="zh-card" href="shiftlog.html" id="industry">
+            <img
+              class="zh-card-image"
+              src="assets/shiftlog-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span class="zh-badge" data-i18n="zh.development">
+              In Entwicklung
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">ShiftLog</h3>
+              <p class="zh-card-copy" data-i18n="zh.shiftlog">
+                Jede Übergabe zählt.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card"
+            href="https://apps.apple.com/de/app/easyproof-pro/id6764653344?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/easyproof-pro-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">EasyProof Pro</h3>
+              <p class="zh-card-copy" data-i18n="zh.easyproof-pro">
+                Beweise, die zählen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+
+        <p class="zh-section-note" data-i18n="zh.statusNote">
+          Veröffentlichte Apps, aktive Entwicklung und geplante
+          Erweiterungen sind jeweils gekennzeichnet.
+        </p>
       </div>
+    </section>
+
+    <section
+      class="zh-section"
+      id="apps"
+      aria-labelledby="apps-title"
+    >
+      <div class="zh-container">
+        <div class="zh-section-heading">
+          <span class="zh-eyebrow" data-i18n="zh.available">
+            Im App Store
+          </span>
+          <h2
+            class="zh-section-title"
+            id="apps-title"
+            data-i18n="zh.appsTitle"
+          >
+            Deine Apps. Direkt verfügbar.
+          </h2>
+          <p class="zh-section-lead" data-i18n="zh.appsLead">
+            Wähle eine App und entdecke ihre Funktionen direkt im App Store.
+          </p>
+        </div>
+
+        <div class="zh-app-grid">
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/lifeshield-v1-0/id6768670751?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifeshield-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeShield</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifeshield">
+                Signal geben. Kontakte erreichen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/easyproof-v1-0/id6768656464?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/easyproof-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">EasyProof</h3>
+              <p class="zh-card-copy" data-i18n="zh.easyproof">
+                Arbeit mit Nachweisen dokumentieren.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/easyproof-pro/id6764653344?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/easyproof-pro-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">EasyProof Pro</h3>
+              <p class="zh-card-copy" data-i18n="zh.easyproof-pro">
+                Beweise, die zählen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-school-ledger-v1-0/id6766082195?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/school-ledger-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">School Ledger</h3>
+              <p class="zh-card-copy" data-i18n="zh.school-ledger">
+                Scannen. Speichern. Wiederfinden.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-delivery-core/id6764595177?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/delivery-core-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">Delivery Core</h3>
+              <p class="zh-card-copy" data-i18n="zh.delivery-core">
+                Zustellungen nachvollziehbar dokumentieren.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/lifeflow-1-1/id6764060138?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifeflow-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeFlow</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifeflow">
+                Verträge und Kosten im Blick.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zalthera-lifevault/id6763788192?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifevault-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeVault</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifevault">
+                Dein Leben. Alles im Griff.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-lifevault-sovereign-v1-0/id6770331671?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifevault-sovereign-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeVault Sovereign</h3>
+              <p
+                class="zh-card-copy"
+                data-i18n="zh.lifevault-sovereign"
+              >
+                Dokumente, Nachweise und Kontrolle.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zalthera-origin/id6758044609?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/origin-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">ORIGIN</h3>
+              <p class="zh-card-copy" data-i18n="zh.origin">
+                Zusammenhänge verstehen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+
+        <p class="zh-section-note" data-i18n="zh.storeNote">
+          Die Karten öffnen den App Store. Dort findest du aktuelle
+          Preise, Funktionen und Geräteanforderungen.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="zh-section"
+      id="system"
+      aria-labelledby="system-title"
+    >
+      <div class="zh-container">
+        <div class="zh-system" id="continuity">
+          <div>
+            <span class="zh-eyebrow">ZAL’THERA CORE</span>
+            <h2 id="system-title" data-i18n="zh.systemTitle">
+              Deine Daten. Deine Entscheidung.
+            </h2>
+          </div>
+          <div>
+            <p data-i18n="zh.systemText">
+              Identität, Kontext und nachvollziehbare Abläufe bilden
+              die gemeinsame Grundlage. CONTINUITY verbindet diese
+              Idee zu einem persönlichen System und befindet sich
+              in Entwicklung.
+            </p>
+            <a href="core.html" data-i18n="zh.coreLink">
+              Die Architektur entdecken →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="zh-section"
+      id="hospitality"
+      aria-labelledby="hospitality-title"
+    >
+      <div class="zh-container">
+        <div class="zh-system">
+          <div>
+            <span class="zh-eyebrow" data-i18n="zh.preparing">
+              1.0 in Vorbereitung
+            </span>
+            <h2 id="hospitality-title" data-i18n="zh.hotelTitle">
+              Hotelbetrieb. Gemeinsam im Blick.
+            </h2>
+          </div>
+          <div>
+            <p data-i18n="zh.hotelText">
+              Zimmer, Gäste, Reservierungen, Housekeeping,
+              Gastronomie und Bestand in einem gemeinsamen System.
+              Version 1.0 wird für die Veröffentlichung vorbereitet;
+              Online-Zahlungen befinden sich noch in Integration und Test.
+            </p>
+            <a
+              href="mailto:contact@zalthera.de?subject=ZAL%20Hospitality"
+              data-i18n="zh.hotelLink"
+            >
+              Hospitality anfragen →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="zh-section"
+      id="intelligence"
+      aria-labelledby="ai-title"
+    >
+      <div class="zh-container">
+        <div class="zh-system" id="communication">
+          <div>
+            <span class="zh-eyebrow" data-i18n="zh.planned">
+              Geplant
+            </span>
+            <h2 id="ai-title" data-i18n="zh.aiTitle">
+              Persönliche KI. Unter deiner Kontrolle.
+            </h2>
+          </div>
+          <div>
+            <p data-i18n="zh.aiText">
+              Die persönliche KI soll Zusammenhänge erklären und
+              Aktionen vorbereiten. Für Hospitality 2.0 ist die
+              Verbindung zwischen Gast und Hotel geplant.
+              Verbindliche Buchungen und Zahlungen benötigen
+              die vorgesehenen Bestätigungen.
+            </p>
+            <a href="core.html" data-i18n="zh.coreLink">
+              Die Architektur entdecken →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="zh-contact"
+      id="contact"
+      aria-labelledby="contact-title"
+    >
+      <div class="zh-container">
+        <div class="zh-contact-panel">
+          <span class="zh-eyebrow" data-i18n="global.contact">
+            Kontakt
+          </span>
+          <h2
+            class="zh-section-title"
+            id="contact-title"
+            data-i18n="zh.contactTitle"
+          >
+            Lass uns ins Gespräch kommen.
+          </h2>
+          <p data-i18n="zh.contactText">
+            Fragen zu einer App oder Interesse an Hospitality?
+            Schreib uns, worum es geht.
+          </p>
+          <div class="zh-actions">
+            <a
+              class="zh-button zh-button--primary"
+              href="mailto:contact@zalthera.de"
+            >
+              contact@zalthera.de
+            </a>
+            <a
+              class="zh-button"
+              href="support.html"
+              data-i18n="global.support"
+            >
+              Support
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="zh-footer">
+    <div class="zh-container zh-footer-inner">
+      <div class="zh-footer-brand">
+        <strong>ZAL’THERA</strong>
+        <span>© <span id="year">2026</span> Patrick Walker</span>
+      </div>
+      <nav
+        class="zh-footer-links"
+        aria-label="Weitere Informationen"
+        data-i18n="zh.footerNav"
+        data-i18n-attribute="aria-label"
+      >
+        <a href="about.html" data-i18n="zh.navAbout">Über uns</a>
+        <a href="support.html" data-i18n="global.support">Support</a>
+        <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+        <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section id="advantages" class="section">
-  <div class="container">
-    <h2>Why ZAL’THERA</h2>
+  <script src="zal-i18n.js?v=2.1"></script>
+  <script src="home-i18n.js?v=1.0"></script>
 
-    <div class="cards-3">
-      <div class="card glass">
-        <strong>Visibility</strong>
-        <p>See what is really happening.</p>
-      </div>
+  <script>
+    (() => {
+      const toggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("main-navigation");
 
-      <div class="card glass">
-        <strong>Proof</strong>
-        <p>Everything becomes traceable.</p>
-      </div>
+      const setMenu = open => {
+        nav.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
 
-      <div class="card glass">
-        <strong>Control</strong>
-        <p>You stay in control.</p>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
+        const key = open ? "global.close" : "global.navOpen";
+        toggle.dataset.i18n = key;
+
+        toggle.setAttribute(
+          "aria-label",
+          window.ZAL_I18N?.translate(key) ||
+          (open ? "Schließen" : "Navigation öffnen")
+        );
+      };
+
+      const close = () => setMenu(false);
+
+      toggle.addEventListener("click", () => {
+        setMenu(!nav.classList.contains("is-open"));
+      });
+
+      nav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", close);
+      });
+
+      document.addEventListener("keydown", event => {
+        if (
+          event.key === "Escape" &&
+          nav.classList.contains("is-open")
+        ) {
+          close();
+          toggle.focus();
+        }
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 820) close();
+      });
+
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    })();
+  </script>
 </body>
 </html>
-
-
