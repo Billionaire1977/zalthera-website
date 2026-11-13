@@ -1,0 +1,292 @@
+/* ZAL’THERA Hospitality · Bildwelt und Produktseite */
+
+.hospitality-page {
+  background: #020306;
+  color: #f5f7fb;
+}
+
+.hospitality-page main {
+  overflow: clip;
+}
+
+.hospitality-page [id] {
+  scroll-margin-top: 100px;
+}
+
+.hp-hero {
+  position: relative;
+  isolation: isolate;
+  padding: 112px 0 96px;
+  background: #05090e;
+}
+
+.hp-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    url("assets/hospitality-bg.png")
+    center right / cover no-repeat;
+}
+
+.hp-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(
+      0deg,
+      #020306 0%,
+      transparent 35%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(2, 3, 6, .96) 0%,
+      rgba(2, 3, 6, .78) 46%,
+      rgba(2, 3, 6, .3) 100%
+    );
+}
+
+.hp-hero-grid {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.35fr)
+    minmax(280px, .8fr);
+  gap: 64px;
+  align-items: center;
+}
+
+.hp-hero h1 {
+  max-width: 850px;
+  margin: 20px 0 24px;
+  font-size: clamp(40px, 5.4vw, 76px);
+  line-height: 1.06;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+
+.hp-hero .hero-lead {
+  max-width: 610px;
+  color: rgba(245, 247, 251, .8);
+  line-height: 1.75;
+}
+
+.hp-hero .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.hp-release {
+  display: inline-flex;
+  padding: 8px 13px;
+  margin: 16px 0 0;
+  border: 1px solid rgba(237, 191, 105, .4);
+  border-radius: 999px;
+  background: rgba(2, 3, 6, .55);
+  color: var(--gold, #edbf69);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hp-overview {
+  padding: 30px;
+  border: 1px solid rgba(237, 191, 105, .28);
+  border-radius: 24px;
+  background: rgba(5, 10, 17, .82);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, .35);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+.hp-overview h2 {
+  margin: 0 0 20px;
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.hp-operation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, .09);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.hp-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  background: var(--gold, #edbf69);
+  box-shadow: 0 0 14px rgba(237, 191, 105, .45);
+}
+
+.hp-feature-grid,
+.hp-stage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.hp-feature,
+.hp-stage {
+  min-width: 0;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, #101722, #070b12);
+}
+
+.hp-feature .eyebrow {
+  color: var(--gold, #edbf69);
+  font-size: 13px;
+  letter-spacing: .14em;
+}
+
+.hp-feature h3,
+.hp-stage h3 {
+  margin: 14px 0;
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.hp-feature p,
+.hp-stage p {
+  margin-bottom: 0;
+  color: rgba(238, 242, 250, .72);
+  line-height: 1.75;
+}
+
+.hp-stage h3 {
+  margin-top: 0;
+  color: var(--gold, #edbf69);
+}
+
+.hp-stage:first-child {
+  border-color: rgba(237, 191, 105, .35);
+}
+
+.hp-stage:nth-child(2) {
+  border-color: rgba(0, 210, 230, .25);
+}
+
+.hp-note {
+  margin: 26px 0 0;
+  color: var(--muted, #a4aab5);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.hp-contact {
+  max-width: 900px;
+  margin-bottom: 74px;
+  padding: clamp(26px, 5vw, 56px);
+  border: 1px solid rgba(237, 191, 105, .3);
+  border-radius: 28px;
+  background:
+    radial-gradient(
+      ellipse at top right,
+      rgba(237, 191, 105, .12),
+      transparent 65%
+    ),
+    #080d15;
+}
+
+.hp-contact h2 {
+  margin-top: 0;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -.03em;
+}
+
+.hp-contact .btn {
+  max-width: 100%;
+  margin-top: 20px;
+  overflow-wrap: anywhere;
+}
+
+.hospitality-page a:focus-visible,
+.hospitality-page button:focus-visible {
+  outline: 2px solid var(--cyan, #00d2e6);
+  outline-offset: 5px;
+}
+
+.hospitality-page h1,
+.hospitality-page h2,
+.hospitality-page h3,
+.hp-operation {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1000px) {
+  .hp-hero {
+    padding-top: 80px;
+  }
+
+  .hp-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hp-hero::after {
+    background:
+      linear-gradient(
+        0deg,
+        #020306 0%,
+        transparent 45%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(2, 3, 6, .92),
+        rgba(2, 3, 6, .58)
+      );
+  }
+
+  .hp-overview {
+    max-width: 620px;
+  }
+
+  .hp-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hp-stage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hp-hero {
+    padding: 52px 0 64px;
+  }
+
+  .hp-hero h1 {
+    font-size: clamp(36px, 10vw, 54px);
+  }
+
+  .hp-hero::before {
+    background-position: 62% top;
+  }
+
+  .hp-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hp-feature,
+  .hp-stage,
+  .hp-overview {
+    padding: 24px;
+  }
+
+  .hp-contact {
+    margin-bottom: 44px;
+  }
+}
