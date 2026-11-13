@@ -1,465 +1,578 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020306">
 
   <title>Support — ZAL’THERA</title>
 
   <meta
     name="description"
-    content="Support für ZAL’THERA Apps: LifeFlow, EasyProof, EasyProof Pro, LifeShield, Delivery Core, Origin und weitere Module."
-  />
+    content="Support für LifeFlow, EasyProof, EasyProof Pro, LifeShield, School Ledger, Delivery Core, LifeVault, LifeVault Sovereign und ORIGIN."
+  >
 
-  <meta name="theme-color" content="#020306" />
-
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="canonical" href="https://zalthera.de/support.html">
+  <link rel="stylesheet" href="home.css?v=1.0">
 
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="/assets/favicon-32.png"
-  />
+    href="assets/favicon-32.png"
+  >
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" as="image" href="assets/zalthera-hero-v2.png">
 
-  <link
-    rel="apple-touch-icon"
-    href="/assets/apple-touch-icon.png"
-  />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZAL’THERA Support">
+  <meta property="og:url" content="https://zalthera.de/support.html">
+  <meta
+    property="og:image"
+    content="https://zalthera.de/assets/zalthera-hero-v2.png"
+  >
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
-<body>
+<body class="zal-home">
+  <a class="zh-skip" href="#main" data-i18n="zh.skip">
+    Zum Inhalt
+  </a>
 
-  <div class="site-atmosphere" aria-hidden="true">
-    <span class="atmosphere-glow atmosphere-cyan"></span>
-    <span class="atmosphere-glow atmosphere-violet"></span>
-    <span class="atmosphere-glow atmosphere-gold"></span>
-  </div>
-
-
-  <!-- =========================================================
-       HEADER
-       ========================================================= -->
-
-  <header class="topbar" data-topbar>
-
-    <div class="container topbar-inner">
-
-      <a
-        class="brand"
-        href="index.html"
-        aria-label="ZAL’THERA Home"
-      >
-        <span class="brand-symbol" aria-hidden="true"></span>
-        <span class="brand-mark">ZAL’THERA</span>
+  <header class="zh-header">
+    <div class="zh-container zh-header-inner">
+      <a class="zh-brand" href="index.html" aria-label="ZAL’THERA">
+        <span class="zh-brand-orbit" aria-hidden="true"></span>
+        <span class="zh-brand-name">ZAL’THERA</span>
       </a>
 
-
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-label="Navigation öffnen"
-        aria-controls="main-navigation"
-        aria-expanded="false"
-        data-nav-toggle
-        data-i18n="global.navOpen"
-        data-i18n-attribute="aria-label"
-      >
-        <span></span>
-        <span></span>
-      </button>
-
-
       <nav
+        class="zh-nav"
         id="main-navigation"
-        class="nav"
         aria-label="Hauptnavigation"
-        data-nav
         data-i18n="global.mainNavigation"
         data-i18n-attribute="aria-label"
       >
-
-        <a href="core.html" data-i18n="nav.system">
-          System
+        <a href="core.html" data-i18n="nav.system">System</a>
+        <a href="index.html#products" data-i18n="zh.navProducts">
+          Produkte
         </a>
-
-        <a href="index.html#continuity" data-i18n="nav.continuity">
-          CONTINUITY
+        <a href="about.html" data-i18n="zh.navAbout">Über uns</a>
+        <a href="mailto:contact@zalthera.de" data-i18n="global.contact">
+          Kontakt
         </a>
-
-        <a href="index.html#intelligence" data-i18n="nav.intelligence">
-          Intelligence
-        </a>
-
-        <a href="index.html#communication" data-i18n="nav.communication">
-          Communication
-        </a>
-
-        <a href="index.html#industry" data-i18n="nav.industry">
-          Industry
-        </a>
-
-        <a href="index.html#products" data-i18n="nav.products">
-          Products
-        </a>
-
-        <a href="about.html" data-i18n="nav.about">
-          About
-        </a>
-
       </nav>
 
-
-      <div class="topbar-cta">
-
-        <a
-          class="chip chip-cta"
-          href="mailto:contact@zalthera.de"
-          data-i18n="global.contact"
+      <div class="zh-controls topbar-cta">
+        <button
+          class="zh-menu-button"
+          id="menu-toggle"
+          type="button"
+          aria-label="Navigation öffnen"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+          data-i18n="global.navOpen"
+          data-i18n-attribute="aria-label"
         >
-          Kontakt
-        </a>
-
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
       </div>
-
     </div>
-
   </header>
 
-
-  <!-- =========================================================
-       MAIN
-       ========================================================= -->
-
-  <main class="section">
-
-    <div class="container">
-
-      <div class="panel glass panel-wide">
-
-        <div
-          class="eyebrow"
-          data-i18n="support.hero.eyebrow"
-        >
-          SUPPORT
-        </div>
-
-
-        <h1 data-i18n="support.hero.title">
-          ZAL’THERA Support
-        </h1>
-
-
-        <p
-          class="muted"
-          data-i18n="support.hero.text"
-        >
-          Wenn du Hilfe zu einer ZAL’THERA App brauchst,
-          Fragen hast oder ein Problem melden möchtest,
-          kontaktiere uns bitte per E-Mail.
-        </p>
-
-
-        <!-- =====================================================
-             CONTACT
-             ===================================================== -->
-
-        <h2 data-i18n="support.contact.title">
-          Kontakt
-        </h2>
-
-
-        <p>
-          <span data-i18n="support.contact.emailLabel">
-            E-Mail:
-          </span>
-
-          <a href="mailto:contact@zalthera.de">
-            contact@zalthera.de
-          </a>
-        </p>
-
-
-        <!-- =====================================================
-             SUPPORTED APPS
-             ===================================================== -->
-
-        <h2 data-i18n="support.apps.title">
-          Unterstützte Apps und Module
-        </h2>
-
-
-        <div class="cards-3">
-
-          <div class="card glass">
-
-            <div class="card-title">
-              <strong>
-                LifeFlow
-              </strong>
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.lifeflow"
-            >
-              Kosten, Verträge, Fristen und finanzielle Übersicht.
-            </p>
-
-          </div>
-
-
-          <div class="card glass">
-
-            <div class="card-title">
-              <strong>
-                EasyProof / EasyProof Pro
-              </strong>
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.easyproof"
-            >
-              Jobs, Nachweise, Audit, Fotos, Notizen,
-              Signaturen und Export.
-            </p>
-
-          </div>
-
-
-          <div class="card glass">
-
-            <div class="card-title">
-              <strong>
-                LifeShield
-              </strong>
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.lifeshield"
-            >
-              Strukturierte Aktionen, Regeln,
-              Sichtbarkeit und Kontrolle.
-            </p>
-
-          </div>
-
-
-          <div class="card glass">
-
-            <div class="card-title">
-              <strong>
-                Delivery Core
-              </strong>
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.deliveryCore"
-            >
-              Paketstatus, Zustellung, Proof
-              und nachvollziehbare Abläufe.
-            </p>
-
-          </div>
-
-
-          <div class="card glass">
-
-            <div class="card-title">
-              <strong>
-                Origin
-              </strong>
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.origin"
-            >
-              Persönliche Ordnung, Entwicklung
-              und strukturierte Entscheidungen.
-            </p>
-
-          </div>
-
-
-          <div class="card glass">
-
-            <div class="card-title">
-
-              <strong data-i18n="support.apps.other.title">
-                Weitere ZAL’THERA Module
-              </strong>
-
-            </div>
-
-            <p
-              class="muted"
-              data-i18n="support.apps.other.text"
-            >
-              Support für alle aktuellen
-              und zukünftigen ZAL’THERA Apps.
-            </p>
-
-          </div>
-
-        </div>
-
-
-        <!-- =====================================================
-             WHAT TO INCLUDE
-             ===================================================== -->
-
-        <h2
-          style="margin-top:28px;"
-          data-i18n="support.message.title"
-        >
-          Was du in deiner Nachricht angeben solltest
-        </h2>
-
-
-        <ul>
-
-          <li data-i18n="support.message.app">
-            Name der App
-          </li>
-
-          <li data-i18n="support.message.problem">
-            Kurze Beschreibung des Problems
-          </li>
-
-          <li data-i18n="support.message.device">
-            Gerät und iOS-Version, falls relevant
-          </li>
-
-          <li data-i18n="support.message.screenshot">
-            Screenshot oder kurze Erklärung, wenn möglich
-          </li>
-
-        </ul>
-
-
-        <p
-          class="muted"
-          data-i18n="support.responseTime"
-        >
-          Wir antworten in der Regel innerhalb von 24–48 Stunden.
-        </p>
-
-
-        <div
-          class="hero-actions"
-          style="margin-top:18px;"
-        >
-
-          <a
-            class="btn primary"
-            href="mailto:contact@zalthera.de?subject=ZALTHERA%20Support"
-            data-i18n="support.actions.contact"
+  <main id="main">
+    <section class="zh-hero" aria-labelledby="support-title">
+      <img
+        class="zh-hero-image"
+        src="assets/zalthera-hero-v2.png"
+        alt=""
+        width="1672"
+        height="941"
+        fetchpriority="high"
+        decoding="async"
+      >
+
+      <div class="zh-container zh-hero-inner">
+        <div class="zh-hero-copy">
+          <p class="zh-eyebrow" data-i18n="support.hero.eyebrow">
+            SUPPORT
+          </p>
+
+          <h1
+            class="zh-hero-title"
+            id="support-title"
+            data-i18n="support.hero.title"
           >
-            Support kontaktieren
-          </a>
+            ZAL’THERA Support
+          </h1>
 
+          <p class="zh-hero-lead" data-i18n="support.hero.text">
+            Wenn du Hilfe zu einer ZAL’THERA App brauchst,
+            Fragen hast oder ein Problem melden möchtest,
+            kontaktiere uns bitte per E-Mail.
+          </p>
 
-          <a
-            class="btn ghost"
-            href="index.html"
-            data-i18n="support.actions.home"
-          >
-            Zur Startseite
-          </a>
-
+          <div class="zh-actions">
+            <a
+              class="zh-button zh-button--primary"
+              href="mailto:contact@zalthera.de?subject=ZALTHERA%20Support"
+              data-i18n="support.actions.contact"
+            >
+              Support kontaktieren
+            </a>
+            <a
+              class="zh-button"
+              href="#apps"
+              data-i18n="zh.navProducts"
+            >
+              Produkte
+            </a>
+          </div>
         </div>
-
       </div>
+    </section>
 
-
-      <!-- =======================================================
-           FOOTER
-           ======================================================= -->
-
-      <footer class="footer">
-
-        <div class="footer-brand">
-
-          <strong>
-            ZAL’THERA
-          </strong>
-
-          <span>
-            © <span id="year"></span>
+    <section
+      class="zh-section"
+      id="apps"
+      aria-labelledby="apps-title"
+    >
+      <div class="zh-container">
+        <div class="zh-section-heading">
+          <span class="zh-eyebrow" data-i18n="zh.available">
+            Im App Store
           </span>
 
+          <h2
+            class="zh-section-title"
+            id="apps-title"
+            data-i18n="support.apps.title"
+          >
+            Unterstützte Apps und Module
+          </h2>
+
+          <p class="zh-section-lead" data-i18n="zh.appsLead">
+            Wähle eine App und entdecke ihre Funktionen
+            direkt im App Store.
+          </p>
         </div>
 
-
-        <div class="footer-links">
-
+        <div class="zh-app-grid">
           <a
-            href="index.html"
-            data-i18n="global.home"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/lifeshield-v1-0/id6768670751?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Home
+            <img
+              class="zh-card-image"
+              src="assets/lifeshield-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeShield</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifeshield">
+                Signal geben. Kontakte erreichen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
-          <span>·</span>
-
           <a
-            href="core.html"
-            data-i18n="nav.system"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/easyproof-v1-0/id6768656464?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            System
+            <img
+              class="zh-card-image"
+              src="assets/easyproof-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">EasyProof</h3>
+              <p class="zh-card-copy" data-i18n="zh.easyproof">
+                Arbeit mit Nachweisen dokumentieren.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
-          <span>·</span>
-
           <a
-            href="about.html"
-            data-i18n="nav.about"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/easyproof-pro/id6764653344?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            About
+            <img
+              class="zh-card-image"
+              src="assets/easyproof-pro-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">EasyProof Pro</h3>
+              <p class="zh-card-copy" data-i18n="zh.easyproof-pro">
+                Beweise, die zählen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
-          <span>·</span>
-
           <a
-            href="support.html"
-            data-i18n="global.support"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-school-ledger-v1-0/id6766082195?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Support
+            <img
+              class="zh-card-image"
+              src="assets/school-ledger-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">School Ledger</h3>
+              <p class="zh-card-copy" data-i18n="zh.school-ledger">
+                Scannen. Speichern. Wiederfinden.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
-          <span>·</span>
-
           <a
-            href="impressum.html"
-            data-i18n="footer.imprint"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-delivery-core/id6764595177?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Impressum
+            <img
+              class="zh-card-image"
+              src="assets/delivery-core-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">Delivery Core</h3>
+              <p class="zh-card-copy" data-i18n="zh.delivery-core">
+                Zustellungen nachvollziehbar dokumentieren.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
-          <span>·</span>
-
           <a
-            href="datenschutz.html"
-            data-i18n="footer.privacy"
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/lifeflow-1-1/id6764060138?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Datenschutz
+            <img
+              class="zh-card-image"
+              src="assets/lifeflow-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeFlow</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifeflow">
+                Verträge und Kosten im Blick.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
           </a>
 
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zalthera-lifevault/id6763788192?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifevault-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeVault</h3>
+              <p class="zh-card-copy" data-i18n="zh.lifevault">
+                Dein Leben. Alles im Griff.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zal-lifevault-sovereign-v1-0/id6770331671?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/lifevault-sovereign-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">LifeVault Sovereign</h3>
+              <p
+                class="zh-card-copy"
+                data-i18n="zh.lifevault-sovereign"
+              >
+                Dokumente, Nachweise und Kontrolle.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a
+            class="zh-card zh-card--compact"
+            href="https://apps.apple.com/de/app/zalthera-origin/id6758044609?uo=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="zh-card-image"
+              src="assets/origin-bg.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1536"
+              height="1024"
+            >
+            <span
+              class="zh-badge zh-badge--available"
+              data-i18n="zh.available"
+            >
+              Im App Store
+            </span>
+            <div class="zh-card-content">
+              <h3 class="zh-card-title">ORIGIN</h3>
+              <p class="zh-card-copy" data-i18n="zh.origin">
+                Zusammenhänge verstehen.
+              </p>
+              <span class="zh-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
         </div>
+      </div>
+    </section>
 
-      </footer>
+    <section
+      class="zh-contact"
+      id="contact"
+      aria-labelledby="message-title"
+    >
+      <div class="zh-container">
+        <div class="zh-contact-panel">
+          <span
+            class="zh-eyebrow"
+            data-i18n="support.contact.title"
+          >
+            Kontakt
+          </span>
 
-    </div>
+          <h2
+            class="zh-section-title"
+            id="message-title"
+            data-i18n="support.message.title"
+          >
+            Was du in deiner Nachricht angeben solltest
+          </h2>
 
+          <ul style="padding-left:1.3em; line-height:1.9;">
+            <li data-i18n="support.message.app">
+              Name der App
+            </li>
+            <li data-i18n="support.message.problem">
+              Kurze Beschreibung des Problems
+            </li>
+            <li data-i18n="support.message.device">
+              Gerät und iOS-Version, falls relevant
+            </li>
+            <li data-i18n="support.message.screenshot">
+              Screenshot oder kurze Erklärung, wenn möglich
+            </li>
+          </ul>
+
+          <p>
+            <a href="mailto:contact@zalthera.de">
+              contact@zalthera.de
+            </a>
+          </p>
+
+          <div class="zh-actions">
+            <a
+              class="zh-button zh-button--primary"
+              href="mailto:contact@zalthera.de?subject=ZALTHERA%20Support"
+              data-i18n="support.actions.contact"
+            >
+              Support kontaktieren
+            </a>
+
+            <a
+              class="zh-button"
+              href="index.html"
+              data-i18n="support.actions.home"
+            >
+              Zur Startseite
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer class="zh-footer">
+    <div class="zh-container zh-footer-inner">
+      <div class="zh-footer-brand">
+        <strong>ZAL’THERA</strong>
+        <span>© <span id="year">2026</span> Patrick Walker</span>
+      </div>
 
-  <script src="zal-i18n.js?v=1.4"></script>
-  <script src="site.js?v=2.2"></script>
+      <nav
+        class="zh-footer-links"
+        aria-label="Weitere Informationen"
+        data-i18n="zh.footerNav"
+        data-i18n-attribute="aria-label"
+      >
+        <a href="about.html" data-i18n="zh.navAbout">Über uns</a>
+        <a href="support.html" data-i18n="global.support">Support</a>
+        <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+        <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
 
+  <script src="zal-i18n.js?v=2.1"></script>
+  <script src="home-i18n.js?v=1.0"></script>
+
+  <script>
+    (() => {
+      const toggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("main-navigation");
+
+      const setMenu = open => {
+        nav.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
+
+        const key = open ? "global.close" : "global.navOpen";
+        toggle.dataset.i18n = key;
+
+        toggle.setAttribute(
+          "aria-label",
+          window.ZAL_I18N?.translate(key) ||
+          (open ? "Schließen" : "Navigation öffnen")
+        );
+      };
+
+      const close = () => setMenu(false);
+
+      toggle.addEventListener("click", () => {
+        setMenu(!nav.classList.contains("is-open"));
+      });
+
+      nav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", close);
+      });
+
+      document.addEventListener("keydown", event => {
+        if (
+          event.key === "Escape" &&
+          nav.classList.contains("is-open")
+        ) {
+          close();
+          toggle.focus();
+        }
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 820) close();
+      });
+
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    })();
+  </script>
 </body>
 </html>
