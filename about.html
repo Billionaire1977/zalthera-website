@@ -1,242 +1,140 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020306">
 
-  <title>ZAL’THERA — About</title>
+  <title>ZAL’THERA — Über uns</title>
 
   <meta
     name="description"
-    content="Warum ZAL’THERA entsteht: digitale Systeme für Identität, Kontext, Vertrauen, Intelligenz und nachvollziehbare menschlich autorisierte Aktionen."
-  />
+    content="Warum ZAL’THERA entsteht: persönliche Kontrolle, nachvollziehbare digitale Systeme und die Ideen von Patrick Walker."
+  >
 
-  <meta name="theme-color" content="#020306" />
-
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="canonical" href="https://zalthera.de/about.html">
+  <link rel="stylesheet" href="home.css?v=1.0">
 
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="/assets/favicon-32.png"
-  />
+    href="assets/favicon-32.png"
+  >
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <link
-    rel="apple-touch-icon"
-    href="/assets/apple-touch-icon.png"
-  />
+    rel="preload"
+    as="image"
+    href="assets/zalthera-hero-v2.png"
+  >
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Über ZAL’THERA — Patrick Walker">
+  <meta property="og:url" content="https://zalthera.de/about.html">
+  <meta
+    property="og:image"
+    content="https://zalthera.de/assets/zalthera-hero-v2.png"
+  >
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
-<body>
+<body class="zal-home">
+  <a class="zh-skip" href="#main" data-i18n="zh.skip">
+    Zum Inhalt
+  </a>
 
-  <div class="site-atmosphere" aria-hidden="true">
-    <span class="atmosphere-glow atmosphere-cyan"></span>
-    <span class="atmosphere-glow atmosphere-violet"></span>
-    <span class="atmosphere-glow atmosphere-gold"></span>
-  </div>
-
-
-  <!-- =========================================================
-       HEADER
-       ========================================================= -->
-
-  <header class="topbar" data-topbar>
-
-    <div class="container topbar-inner">
-
-      <a
-        class="brand"
-        href="index.html"
-        aria-label="ZAL’THERA Home"
-      >
-        <span class="brand-symbol" aria-hidden="true"></span>
-        <span class="brand-mark">ZAL’THERA</span>
+  <header class="zh-header">
+    <div class="zh-container zh-header-inner">
+      <a class="zh-brand" href="index.html" aria-label="ZAL’THERA">
+        <span class="zh-brand-orbit" aria-hidden="true"></span>
+        <span class="zh-brand-name">ZAL’THERA</span>
       </a>
 
-
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-label="Navigation öffnen"
-        aria-controls="main-navigation"
-        aria-expanded="false"
-        data-nav-toggle
-        data-i18n="global.navOpen"
-        data-i18n-attribute="aria-label"
-      >
-        <span></span>
-        <span></span>
-      </button>
-
-
       <nav
+        class="zh-nav"
         id="main-navigation"
-        class="nav"
         aria-label="Hauptnavigation"
-        data-nav
         data-i18n="global.mainNavigation"
         data-i18n-attribute="aria-label"
       >
+        <a href="core.html" data-i18n="nav.system">System</a>
 
-        <a
-          href="core.html"
-          data-i18n="nav.system"
-        >
-          System
-        </a>
-
-        <a
-          href="index.html#continuity"
-          data-i18n="nav.continuity"
-        >
-          CONTINUITY
-        </a>
-
-        <a
-          href="index.html#intelligence"
-          data-i18n="nav.intelligence"
-        >
-          Intelligence
-        </a>
-
-        <a
-          href="index.html#communication"
-          data-i18n="nav.communication"
-        >
-          Communication
-        </a>
-
-        <a
-          href="index.html#industry"
-          data-i18n="nav.industry"
-        >
-          Industry
-        </a>
-
-        <a
-          href="index.html#products"
-          data-i18n="nav.products"
-        >
-          Products
+        <a href="index.html#products" data-i18n="zh.navProducts">
+          Produkte
         </a>
 
         <a
           href="about.html"
           aria-current="page"
-          data-i18n="nav.about"
+          data-i18n="zh.navAbout"
         >
-          About
+          Über uns
         </a>
 
+        <a href="mailto:contact@zalthera.de" data-i18n="global.contact">
+          Kontakt
+        </a>
       </nav>
 
-
-      <div class="topbar-cta">
-
-        <a
-          class="chip chip-cta"
-          href="#founder"
-          data-i18n="about.header.chip"
+      <div class="zh-controls topbar-cta">
+        <button
+          class="zh-menu-button"
+          id="menu-toggle"
+          type="button"
+          aria-label="Navigation öffnen"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+          data-i18n="global.navOpen"
+          data-i18n-attribute="aria-label"
         >
-          About
-        </a>
-
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
       </div>
-
     </div>
-
   </header>
 
-
-  <main>
-
-    <!-- =========================================================
-         HERO
-         ========================================================= -->
-
-    <section
-      class="hero hero-zal"
-      aria-label="About ZAL’THERA"
-      data-hero
-    >
-
-      <div
-        class="zal-field"
-        aria-hidden="true"
-        data-zal-field
+  <main id="main">
+    <section class="zh-hero" aria-labelledby="about-title">
+      <img
+        class="zh-hero-image"
+        src="assets/zalthera-hero-v2.png"
+        alt=""
+        width="1672"
+        height="941"
+        fetchpriority="high"
+        decoding="async"
       >
 
-        <span class="field-orbit orbit-a"></span>
-        <span class="field-orbit orbit-b"></span>
-        <span class="field-orbit orbit-c"></span>
-        <span class="field-orbit orbit-d"></span>
-
-        <span class="field-thread thread-a"></span>
-        <span class="field-thread thread-b"></span>
-        <span class="field-thread thread-c"></span>
-
-        <span class="field-node node-1"></span>
-        <span class="field-node node-2"></span>
-        <span class="field-node node-3"></span>
-        <span class="field-node node-4"></span>
-        <span class="field-node node-5"></span>
-        <span class="field-node node-6"></span>
-
-        <span class="field-core"></span>
-
-      </div>
-
-
-      <div class="hero-grid" aria-hidden="true"></div>
-      <div class="hero-noise" aria-hidden="true"></div>
-
-
-      <div class="container hero-content">
-
-        <div class="hero-copy hero-intro">
-
-          <div
-            class="kicker"
-            data-i18n="about.hero.kicker"
-          >
-            WHY ZAL’THERA EXISTS
-          </div>
-
-
-          <div
-            class="hero-product hero-product-large"
-            data-i18n="about.hero.product"
-          >
-            BUILT FROM FIRST PRINCIPLES
-          </div>
-
+      <div class="zh-container zh-hero-inner">
+        <div class="zh-hero-copy">
+          <p class="zh-eyebrow" data-i18n="about.hero.kicker">
+            WARUM ZAL’THERA ENTSTEHT
+          </p>
 
           <h1
-            class="hero-title"
+            class="zh-hero-title"
+            id="about-title"
             data-i18n="about.hero.title"
             data-i18n-html
           >
-            Technology should<br />
-            understand responsibility.
+            Technologie sollte Verantwortung verstehen.
           </h1>
 
-
-          <p
-            class="hero-lead"
-            data-i18n="about.hero.lead"
-          >
+          <p class="zh-hero-lead" data-i18n="about.hero.lead">
             ZAL’THERA entsteht aus einer einfachen Frage:
             Wie können digitale Systeme intelligenter werden,
             ohne Identität, Verantwortung, Nachvollziehbarkeit
             und menschliche Kontrolle zu verlieren?
           </p>
 
-
-          <div class="hero-actions">
-
+          <div class="zh-actions">
             <a
-              class="btn primary"
+              class="zh-button zh-button--primary"
               href="#principles"
               data-i18n="about.hero.principles"
             >
@@ -244,575 +142,340 @@
             </a>
 
             <a
-              class="btn ghost"
+              class="zh-button"
               href="#founder"
               data-i18n="about.hero.founder"
             >
-              Founder
+              Gründer
             </a>
-
           </div>
-
-
-          <div class="hero-microline">
-
-            <span data-i18n="about.hero.localFirst">
-              LOCAL-FIRST
-            </span>
-
-            <span data-i18n="about.hero.sovereign">
-              SOVEREIGN
-            </span>
-
-            <span data-i18n="about.hero.traceable">
-              TRACEABLE
-            </span>
-
-            <span data-i18n="about.hero.humanAuthorized">
-              HUMAN-AUTHORIZED
-            </span>
-
-          </div>
-
         </div>
-
       </div>
-
-
-      <div class="hero-fade" aria-hidden="true"></div>
-
     </section>
 
-
-    <!-- =========================================================
-         FIRST PRINCIPLES
-         ========================================================= -->
-
     <section
+      class="zh-section"
       id="principles"
-      class="section"
+      aria-labelledby="principles-title"
     >
-
-      <div class="container">
-
-        <div class="section-heading centered reveal">
-
-          <div
-            class="eyebrow"
+      <div class="zh-container">
+        <div class="zh-section-heading">
+          <span
+            class="zh-eyebrow"
             data-i18n="about.principles.eyebrow"
           >
-            FIRST PRINCIPLES
-          </div>
+            GRUNDPRINZIPIEN
+          </span>
 
-
-          <h2 data-i18n="about.principles.title">
+          <h2
+            class="zh-section-title"
+            id="principles-title"
+            data-i18n="about.principles.title"
+          >
             Digitale Systeme sollten Menschen nicht entmündigen.
           </h2>
 
-
           <p
-            class="section-lead"
+            class="zh-section-lead"
             data-i18n="about.principles.lead"
           >
             Je mehr Systeme wissen und vorbereiten können,
             desto wichtiger werden Identität, Kontext,
             Berechtigung, Nachweis und klare Verantwortlichkeit.
           </p>
-
         </div>
 
-
-        <div class="trust-grid">
-
-          <article
-            class="trust-card glass reveal reveal-delay-1"
-          >
-
-            <span class="trust-index">
-              A
-            </span>
-
+        <div class="zh-featured-grid">
+          <article class="zh-contact-panel">
+            <span class="zh-eyebrow">01</span>
 
             <h3 data-i18n="about.principles.identity.title">
-              Identity belongs to the person.
+              Identität gehört dem Menschen.
             </h3>
 
-
-            <p
-              class="muted"
-              data-i18n="about.principles.identity.text"
-            >
+            <p data-i18n="about.principles.identity.text">
               Digitale Identität soll nicht von einer einzelnen
               App, Plattform oder Sitzung abhängig sein.
             </p>
-
           </article>
 
-
-          <article
-            class="trust-card glass reveal reveal-delay-2"
-          >
-
-            <span class="trust-index">
-              B
-            </span>
-
+          <article class="zh-contact-panel">
+            <span class="zh-eyebrow">02</span>
 
             <h3 data-i18n="about.principles.context.title">
-              Context must remain understandable.
+              Kontext muss verständlich bleiben.
             </h3>
 
-
-            <p
-              class="muted"
-              data-i18n="about.principles.context.text"
-            >
+            <p data-i18n="about.principles.context.text">
               Information gewinnt Bedeutung durch Herkunft,
               Beziehung, Zeitpunkt und Zusammenhang.
             </p>
-
           </article>
 
-
-          <article
-            class="trust-card glass reveal reveal-delay-3"
-          >
-
-            <span class="trust-index">
-              C
-            </span>
-
+          <article class="zh-contact-panel">
+            <span class="zh-eyebrow">03</span>
 
             <h3 data-i18n="about.principles.trust.title">
-              Trust should be verifiable.
+              Vertrauen soll überprüfbar sein.
             </h3>
 
-
-            <p
-              class="muted"
-              data-i18n="about.principles.trust.text"
-            >
+            <p data-i18n="about.principles.trust.text">
               Vertrauen soll aus nachvollziehbaren Zuständen,
               Berechtigungen und Nachweisen entstehen.
             </p>
-
           </article>
 
-
-          <article
-            class="trust-card glass reveal reveal-delay-4"
-          >
-
-            <span class="trust-index">
-              D
-            </span>
-
+          <article class="zh-contact-panel">
+            <span class="zh-eyebrow">04</span>
 
             <h3 data-i18n="about.principles.authority.title">
-              Authority remains explicit.
+              Autorität bleibt ausdrücklich geregelt.
             </h3>
 
-
-            <p
-              class="muted"
-              data-i18n="about.principles.authority.text"
-            >
+            <p data-i18n="about.principles.authority.text">
               Intelligenz darf vorbereiten.
               Konsequente Aktionen benötigen Autorisierung.
             </p>
-
           </article>
-
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =========================================================
-         ONE ARCHITECTURE
-         ========================================================= -->
-
-    <section class="section section-deep">
-
-      <div
-        class="section-signal signal-cyan"
-        aria-hidden="true"
-      ></div>
-
-
-      <div class="container">
-
-        <div class="authorization-panel glass reveal">
-
-          <div
-            class="authorization-symbol"
-            aria-hidden="true"
-          >
-            <span></span>
-          </div>
-
-
+    <section
+      class="zh-section"
+      aria-labelledby="architecture-title"
+    >
+      <div class="zh-container">
+        <div class="zh-system">
           <div>
-
-            <div
-              class="eyebrow cyan"
+            <span
+              class="zh-eyebrow"
               data-i18n="about.architecture.eyebrow"
             >
-              ONE ARCHITECTURE
-            </div>
+              EINE ARCHITEKTUR
+            </span>
 
-
-            <h2 data-i18n="about.architecture.title">
+            <h2
+              id="architecture-title"
+              data-i18n="about.architecture.title"
+            >
               ZAL’THERA ist nicht als Sammlung isolierter Apps gedacht.
             </h2>
+          </div>
 
-
-            <p
-              class="muted"
-              data-i18n="about.architecture.text"
-            >
+          <div>
+            <p data-i18n="about.architecture.text">
               CONTINUITY, Proof, Communication, Intelligence und
               industrielle Systeme folgen einer gemeinsamen Logik:
               Identität, Kontext, Vertrauen, Audit und kontrollierte Aktion.
             </p>
 
-
-            <div class="hero-actions">
-
+            <div class="zh-actions">
               <a
-                class="btn primary"
+                class="zh-button zh-button--primary"
                 href="core.html"
               >
                 ZAL’THERA Core
               </a>
 
               <a
-                class="btn ghost"
+                class="zh-button"
                 href="index.html#products"
                 data-i18n="about.architecture.systems"
               >
                 Systeme ansehen
               </a>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
-
-
-    <!-- =========================================================
-         FOUNDER
-         ========================================================= -->
 
     <section
+      class="zh-section"
       id="founder"
-      class="section ecosystem-section"
+      aria-labelledby="founder-title"
     >
-
-      <div
-        class="section-signal signal-gold signal-right"
-        aria-hidden="true"
-      ></div>
-
-
-      <div class="container ecosystem-layout">
-
-        <div class="ecosystem-copy reveal">
-
-          <div
-            class="eyebrow gold"
-            data-i18n="about.founder.eyebrow"
-          >
-            FOUNDER
-          </div>
-
-
-          <h2 class="ecosystem-title">
-            Patrick Walker
-          </h2>
-
-
-          <p
-            class="ecosystem-tagline"
-            data-i18n="about.founder.tagline"
-          >
-            Founder and builder of ZAL’THERA.
-          </p>
-
-
-          <p
-            class="muted ecosystem-text"
-            data-i18n="about.founder.text1"
-          >
-            ZAL’THERA entsteht aus dem Ziel, digitale Systeme nicht
-            nur leistungsfähiger, sondern verständlicher,
-            verantwortlicher und souveräner zu machen.
-          </p>
-
-
-          <p
-            class="muted ecosystem-text"
-            data-i18n="about.founder.text2"
-          >
-            Der Schwerpunkt liegt auf Systemarchitekturen,
-            die persönliche Daten, Identität, künstliche Intelligenz,
-            Kommunikation, Nachweise und reale Prozesse miteinander
-            verbinden, ohne menschliche Autorität unsichtbar zu ersetzen.
-          </p>
-
-
-          <div class="hero-actions">
-
-            <a
-              class="btn primary"
-              href="mailto:contact@zalthera.de"
-              data-i18n="global.contact"
+      <div class="zh-container">
+        <div class="zh-system">
+          <div>
+            <span
+              class="zh-eyebrow"
+              data-i18n="about.founder.eyebrow"
             >
-              Kontakt
-            </a>
+              GRÜNDER
+            </span>
 
-            <a
-              class="btn ghost"
-              href="index.html"
-              data-i18n="about.founder.discover"
-            >
-              ZAL’THERA entdecken
-            </a>
+            <h2 id="founder-title">Patrick Walker</h2>
 
-          </div>
+            <p data-i18n="about.founder.tagline">
+              Gründer und Entwickler von ZAL’THERA.
+            </p>
 
-        </div>
+            <p data-i18n="about.founder.text1">
+              ZAL’THERA entsteht aus dem Ziel, digitale Systeme
+              nicht nur leistungsfähiger, sondern verständlicher,
+              verantwortlicher und souveräner zu machen.
+            </p>
 
+            <p data-i18n="about.founder.text2">
+              Der Schwerpunkt liegt auf Systemarchitekturen,
+              die persönliche Daten, Identität, künstliche
+              Intelligenz, Kommunikation, Nachweise und reale
+              Prozesse miteinander verbinden, ohne menschliche
+              Autorität unsichtbar zu ersetzen.
+            </p>
 
-        <div
-          class="ecosystem-visual glass reveal reveal-from-right"
-          style="
-            min-height:560px;
-            display:flex;
-            align-items:flex-end;
-            justify-content:center;
-            padding:0;
-          "
-        >
-
-          <img
-            src="assets/patrick-hero.png"
-            alt="Patrick Walker"
-            style="
-              display:block;
-              width:100%;
-              height:100%;
-              object-fit:cover;
-              object-position:center top;
-              position:absolute;
-              inset:0;
-              opacity:.86;
-            "
-          />
-
-
-          <div
-            style="
-              position:absolute;
-              inset:0;
-              background:
-                linear-gradient(
-                  180deg,
-                  rgba(2,3,6,.04),
-                  rgba(2,3,6,.18) 48%,
-                  rgba(2,3,6,.94) 100%
-                );
-            "
-            aria-hidden="true"
-          ></div>
-
-
-          <div
-            style="
-              position:relative;
-              z-index:3;
-              width:100%;
-              padding:28px;
-            "
-          >
-
-            <div class="eyebrow gold">
-              ZAL’THERA
+            <div class="zh-actions">
+              <a
+                class="zh-button zh-button--primary"
+                href="mailto:contact@zalthera.de"
+                data-i18n="global.contact"
+              >
+                Kontakt
+              </a>
             </div>
+          </div>
 
+          <figure style="margin:0; min-width:0;">
+            <img
+              src="assets/patrick-hero.png"
+              alt="Patrick Walker"
+              width="1024"
+              height="1536"
+              loading="lazy"
+              decoding="async"
+              style="
+                display:block;
+                width:100%;
+                height:auto;
+                border-radius:20px;
+              "
+            >
 
-            <h3 style="margin-bottom:5px;">
-              Patrick Walker
-            </h3>
-
-
-            <p
-              class="muted"
-              style="margin:0;"
+            <figcaption
+              class="zh-section-note"
               data-i18n="about.founder.role"
             >
-              Founder · Systems Architecture
-            </p>
-
-          </div>
-
+              Gründer · Systemarchitektur
+            </figcaption>
+          </figure>
         </div>
-
       </div>
-
     </section>
 
+    <section
+      class="zh-contact"
+      aria-labelledby="direction-title"
+    >
+      <div class="zh-container">
+        <div class="zh-contact-panel">
+          <span
+            class="zh-eyebrow"
+            data-i18n="about.direction.eyebrow"
+          >
+            DIE RICHTUNG
+          </span>
 
-    <!-- =========================================================
-         DIRECTION
-         ========================================================= -->
+          <h2
+            class="zh-section-title"
+            id="direction-title"
+            data-i18n="about.direction.title"
+          >
+            Intelligenz soll Fähigkeiten erweitern,
+            ohne Verantwortung aufzuheben.
+          </h2>
 
-    <section class="section">
+          <p data-i18n="about.direction.text">
+            Je mächtiger ein digitales System wird,
+            desto wichtiger werden nachvollziehbare Grenzen,
+            klare Identität und bewusste Autorisierung.
+          </p>
 
-      <div class="container">
-
-        <div class="core-cta glass reveal">
-
-          <div
-            class="core-cta-orb"
-            aria-hidden="true"
-          ></div>
-
-
-          <div class="core-cta-content">
-
-            <div
-              class="eyebrow"
-              data-i18n="about.direction.eyebrow"
-            >
-              THE DIRECTION
-            </div>
-
-
-            <h2 data-i18n="about.direction.title">
-              Intelligence should increase capability without removing accountability.
-            </h2>
-
-
-            <p
-              class="muted"
-              data-i18n="about.direction.text"
-            >
-              Je mächtiger ein digitales System wird,
-              desto wichtiger werden nachvollziehbare Grenzen,
-              klare Identität und bewusste Autorisierung.
-            </p>
-
-
+          <div class="zh-actions">
             <a
-              class="btn primary"
+              class="zh-button zh-button--primary"
               href="index.html"
               data-i18n="about.direction.back"
             >
               Zurück zum System
             </a>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
-
-
-    <!-- =========================================================
-         FOOTER
-         ========================================================= -->
-
-    <section class="section section-contact">
-
-      <div class="container">
-
-        <footer class="footer">
-
-          <div class="footer-brand">
-
-            <strong>
-              ZAL’THERA
-            </strong>
-
-            <span>
-              © <span id="year"></span>
-            </span>
-
-          </div>
-
-
-          <div class="footer-links">
-
-            <a
-              href="index.html"
-              data-i18n="global.home"
-            >
-              Home
-            </a>
-
-            <span>·</span>
-
-            <a
-              href="core.html"
-              data-i18n="nav.system"
-            >
-              System
-            </a>
-
-            <span>·</span>
-
-            <a
-              href="support.html"
-              data-i18n="global.support"
-            >
-              Support
-            </a>
-
-            <span>·</span>
-
-            <a
-              href="impressum.html"
-              data-i18n="footer.imprint"
-            >
-              Impressum
-            </a>
-
-            <span>·</span>
-
-            <a
-              href="datenschutz.html"
-              data-i18n="footer.privacy"
-            >
-              Datenschutz
-            </a>
-
-          </div>
-
-        </footer>
-
-      </div>
-
-    </section>
-
   </main>
 
+  <footer class="zh-footer">
+    <div class="zh-container zh-footer-inner">
+      <div class="zh-footer-brand">
+        <strong>ZAL’THERA</strong>
+        <span>© <span id="year">2026</span> Patrick Walker</span>
+      </div>
 
-  <!-- =========================================================
-       LANGUAGE + SITE INTERACTION
-       ========================================================= -->
+      <nav
+        class="zh-footer-links"
+        aria-label="Weitere Informationen"
+        data-i18n="zh.footerNav"
+        data-i18n-attribute="aria-label"
+      >
+        <a href="about.html" data-i18n="zh.navAbout">Über uns</a>
+        <a href="support.html" data-i18n="global.support">Support</a>
+        <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+        <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
 
-  <script src="zal-i18n.js?v=1.4"></script>
-  <script src="site.js?v=2.2"></script>
+  <script src="zal-i18n.js?v=2.1"></script>
+  <script src="home-i18n.js?v=1.0"></script>
 
+  <script>
+    (() => {
+      const toggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("main-navigation");
+
+      const setMenu = open => {
+        nav.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
+
+        const key = open ? "global.close" : "global.navOpen";
+        toggle.dataset.i18n = key;
+
+        toggle.setAttribute(
+          "aria-label",
+          window.ZAL_I18N?.translate(key) ||
+          (open ? "Schließen" : "Navigation öffnen")
+        );
+      };
+
+      const close = () => setMenu(false);
+
+      toggle.addEventListener("click", () => {
+        setMenu(!nav.classList.contains("is-open"));
+      });
+
+      nav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", close);
+      });
+
+      document.addEventListener("keydown", event => {
+        if (
+          event.key === "Escape" &&
+          nav.classList.contains("is-open")
+        ) {
+          close();
+          toggle.focus();
+        }
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 820) close();
+      });
+
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    })();
+  </script>
 </body>
 </html>
