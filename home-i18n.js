@@ -62,6 +62,28 @@
       "产品"
     ],
 
+    appForgeDescription: [
+      "Swift-Projekte importieren, für Android vorbereiten und freigegebene Apps per Link verteilen.",
+      "Import Swift projects, prepare them for Android and distribute approved apps via a link.",
+      "Swift projelerini içe aktarın, Android için hazırlayın ve onaylı uygulamaları bağlantıyla dağıtın.",
+      "Importa proyectos Swift, prepáralos para Android y distribuye las apps aprobadas mediante un enlace.",
+      "Importez des projets Swift, préparez-les pour Android et distribuez les apps approuvées via un lien.",
+      "Importa progetti Swift, preparali per Android e distribuisci le app approvate tramite un link.",
+      "Importă proiecte Swift, pregătește-le pentru Android și distribuie aplicațiile aprobate printr-un link.",
+      "导入 Swift 项目，为 Android 做准备，并通过链接分发已批准的应用。"
+    ],
+
+    appForgeLink: [
+      "AppForge kennenlernen",
+      "Explore AppForge",
+      "AppForge’u keşfedin",
+      "Descubre AppForge",
+      "Découvrir AppForge",
+      "Scopri AppForge",
+      "Descoperă AppForge",
+      "了解 AppForge"
+    ],
+
     navAbout: [
       "Über uns",
       "About us",
