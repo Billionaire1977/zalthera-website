@@ -865,3 +865,15 @@
     scroll-behavior: auto !important;
   }
 }
+
+.zh-project {
+  min-width: 0;
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(150deg, #141d2b, #0a101b);
+}
+
+.zh-project .zh-card-title {
+  font-size: clamp(20px, 2vw, 28px);
+}
