@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0a101a">
+  <title>ZAL Live · Stream-Test</title>
+  <style>
+    :root { color-scheme: dark; font: 100%/1.55 system-ui, sans-serif; background: #0a101a; color: #f4f6fa; }
+    body { margin: 0; }
+    main { max-width: 62rem; margin: auto; padding: clamp(1rem, 5vw, 4rem); }
+    header { margin-bottom: 2rem; }
+    h1 { font-size: clamp(2.75rem, 8vw, 5rem); line-height: 1; margin: 1.5rem 0 .5rem; letter-spacing: -.05em; }
+    h2 { margin-top: 0; }
+    p, li { color: #c1ccda; }
+    a { color: #f6d38d; }
+    section, details { margin: 1rem 0; background: #111b2a; border: 1px solid #344459; border-radius: 1rem; padding: clamp(1rem, 3vw, 2rem); }
+    button, input { font: inherit; border: 1px solid #8292a8; border-radius: .55rem; padding: .55rem .8rem; }
+    button { background: #f6d38d; color: #101521; border-color: transparent; cursor: pointer; }
+    button:disabled { opacity: .55; cursor: default; }
+    input { background: #0a101a; width: 100%; box-sizing: border-box; margin: .35rem 0 .75rem; }
+    video, iframe { display: block; width: 100%; aspect-ratio: 16 / 9; background: #06090e; border: 0; border-radius: .75rem; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <a href="./">ZAL’THERA</a>
+    <h1>ZAL Live</h1>
+  </header>
+  <section id="watch" aria-labelledby="watch-title">
+    <h2 id="watch-title">Zuschauen</h2>
+    <p id="watch-status">Für diese Seite ist noch kein Stream ausgewählt.</p>
+    <button id="load-player" hidden>YouTube-Player laden</button>
+    <div id="player"></div>
+    <p id="fallback" hidden><a id="watch-external">Direkt auf YouTube ansehen</a></p>
+  </section>
+  <details id="setup">
+    <summary>Stream-Test einrichten</summary>
+    <ol>
+      <li>Öffne <a href="https://studio.youtube.com/">YouTube Studio</a> am MacBook und richte einen Webcam-Livestream ein. Wähle für euren Test „Nicht gelistet“ und erlaube das Einbetten.</li>
+      <li>Kopiere den Zuschauerlink deines Streams in das Feld unten. Gib nur den Zuschauerlink ein.</li>
+      <li>Starte den Stream in YouTube Studio. Öffne den erzeugten ZAL-Link am iPhone, lade den Player und prüfe Bild, Ton und Verzögerung.</li>
+    </ol>
+    <p>Nicht gelistete Streams sind für Personen mit dem Link zugänglich.</p>
+    <form id="share-form">
+      <label for="stream-url">YouTube-Zuschauerlink oder Video-ID</label>
+      <input id="stream-url" type="text" inputmode="url" autocomplete="off" required>
+      <button>Zuschauerlink erzeugen</button>
+    </form>
+    <p id="share-status" role="status"></p>
+    <p><a id="share-link" hidden></a></p>
+    <button id="copy-link" hidden>Link kopieren</button>
+  </details>
+  <details id="camera-test">
+    <summary>Kamera und Mikrofon lokal prüfen</summary>
+    <p>Die stumme Vorschau bleibt auf diesem Gerät. Beende sie vor dem Start in YouTube Studio.</p>
+    <video id="preview" muted playsinline hidden></video>
+    <p id="camera-status" role="status"></p>
+    <button id="start-camera">Vorschau starten</button>
+    <button id="stop-camera" disabled>Vorschau beenden</button>
+  </details>
+</main>
+<script>
+  const element = id => document.getElementById(id);
+  const videoID = /^[A-Za-z0-9_-]{11}$/;
+  const youtubeHosts = new Set(["youtube.com", "www.youtube.com", "m.youtube.com"]);
+
+  function parseStream(value) {
+    const input = value.trim();
+    if (videoID.test(input)) return input;
+    try {
+      const url = new URL(input);
+      if (url.protocol !== "https:") return null;
+      let id = null;
+      if (url.hostname === "youtu.be") id = url.pathname.slice(1);
+      if (youtubeHosts.has(url.hostname)) {
+        if (url.pathname === "/watch") id = url.searchParams.get("v");
+        else id = url.pathname.match(/^\/(?:live|embed)\/([A-Za-z0-9_-]{11})\/?$/)?.[1];
+      }
+      return id && videoID.test(id) ? id : null;
+    } catch {
+      return null;
+    }
+  }
+
+  const selected = new URLSearchParams(location.search).get("stream");
+  if (selected && videoID.test(selected)) {
+    element("watch-status").textContent = "Der Player verbindet sich nach deinem Klick mit YouTube.";
+    element("load-player").hidden = false;
+    element("watch-external").href = "https://www.youtube.com/watch?v=" + selected;
+    element("fallback").hidden = false;
+    element("load-player").addEventListener("click", () => {
+      const frame = document.createElement("iframe");
+      frame.src = "https://www.youtube-nocookie.com/embed/" + selected;
+      frame.title = "ZAL Live · YouTube-Player";
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
+      element("player").replaceChildren(frame);
+      element("load-player").hidden = true;
+      element("watch-status").hidden = true;
+      frame.tabIndex = 0;
+      frame.focus();
+    });
+  } else if (selected !== null) {
+    element("watch-status").textContent = "Die Stream-ID im Link ist ungültig.";
+  }
+
+  const shareLink = element("share-link");
+  const copyButton = element("copy-link");
+  element("share-form").addEventListener("submit", event => {
+    event.preventDefault();
+    const id = parseStream(element("stream-url").value);
+    shareLink.hidden = copyButton.hidden = true;
+    if (!id) {
+      element("share-status").textContent = "Bitte gib einen gültigen YouTube-Zuschauerlink oder eine Video-ID ein.";
+      return;
+    }
+    const url = new URL(location.pathname, location.origin);
+    url.searchParams.set("stream", id);
+    shareLink.href = shareLink.textContent = url.href;
+    shareLink.hidden = false;
+    copyButton.hidden = !navigator.clipboard;
+    element("share-status").textContent = "Diesen Link kannst du zum Zuschauen teilen.";
+  });
+
+  copyButton.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(shareLink.href);
+      element("share-status").textContent = "Zuschauerlink kopiert.";
+    } catch {
+      element("share-status").textContent = "Bitte kopiere den sichtbaren Link manuell.";
+    }
+  });
+
+  const start = element("start-camera");
+  const stop = element("stop-camera");
+  const preview = element("preview");
+  const cameraStatus = element("camera-status");
+  let media;
+  let cameraRequest = 0;
+
+  function stopCamera() {
+    cameraRequest += 1;
+    media?.getTracks().forEach(track => track.stop());
+    media = null;
+    preview.srcObject = null;
+    preview.hidden = true;
+    start.disabled = false;
+    stop.disabled = true;
+    cameraStatus.textContent = "Vorschau beendet.";
+  }
+
+  start.addEventListener("click", async () => {
+    const request = ++cameraRequest;
+    start.disabled = true;
+    stop.disabled = false;
+    cameraStatus.textContent = "Kamera- und Mikrofonfreigabe wird angefragt.";
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+      if (request !== cameraRequest) {
+        stream.getTracks().forEach(track => track.stop());
+        return;
+      }
+      media = stream;
+      preview.srcObject = stream;
+      preview.hidden = false;
+      await preview.play();
+      if (request === cameraRequest) cameraStatus.textContent = "Kamera und Mikrofon wurden freigegeben.";
+    } catch {
+      if (request !== cameraRequest) return;
+      stopCamera();
+      cameraStatus.textContent = "Vorschau konnte nicht starten. Prüfe Browser-Freigaben und ob eine andere Anwendung Kamera oder Mikrofon verwendet.";
+    }
+  });
+  stop.addEventListener("click", stopCamera);
+  element("camera-test").addEventListener("toggle", event => {
+    if (!event.currentTarget.open && !stop.disabled) stopCamera();
+  });
+  window.addEventListener("pagehide", stopCamera);
+</script>
+</body>
+</html>
