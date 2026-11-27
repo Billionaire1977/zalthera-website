@@ -865,3 +865,30 @@
     scroll-behavior: auto !important;
   }
 }
+
+.zh-appforge-panel,
+.zh-release-panel {
+  padding: clamp(20px, 4vw, 36px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #101d29, #090d14);
+}
+
+.zh-appforge-panel {
+  margin-top: 22px;
+}
+
+.zh-appforge-panel p,
+.zh-release-panel p {
+  margin-top: 12px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.zh-appforge-panel .zh-actions {
+  margin-top: 20px;
+}
+
+.zh-release-grid {
+  margin-top: 24px;
+}
